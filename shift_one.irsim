@@ -1,0 +1,133 @@
+ana a au ad s u o
+vector in a au ad s u
+h Vdd!
+l GND!
+
+setvector in 00000
+s
+path o
+
+setvector in 00001
+s
+path o
+
+setvector in 00010
+s
+path o
+
+setvector in 00011
+s
+path o
+
+setvector in 00100
+s
+path o
+
+setvector in 00101
+s
+path o
+
+setvector in 00110
+s
+path o
+
+setvector in 00111
+s
+path o
+
+setvector in 01000
+s
+path o
+
+setvector in 01001
+s
+path o
+
+setvector in 01010
+s
+path o
+
+setvector in 01011
+s
+path o
+
+setvector in 01100
+s
+path o
+
+setvector in 01101
+s
+path o
+
+setvector in 01110
+s
+path o
+
+setvector in 01111
+s
+path o
+
+setvector in 10000
+s
+path o
+
+setvector in 10001
+s
+path o
+
+setvector in 10010
+s
+path o
+
+setvector in 10011
+s
+path o
+
+setvector in 10100
+s
+path o
+
+setvector in 10101
+s
+path o
+
+setvector in 10110
+s
+path o
+
+setvector in 10111
+s
+path o
+
+setvector in 11000
+s
+path o
+
+setvector in 11001
+s
+path o
+
+setvector in 11010
+s
+path o
+
+setvector in 11011
+s
+path o
+
+setvector in 11100
+s
+path o
+
+setvector in 11101
+s
+path o
+
+setvector in 11110
+s
+path o
+
+setvector in 11111
+s
+path o
+

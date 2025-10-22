@@ -1,0 +1,227 @@
+ana in w r0 r1 tmp port0 port1
+l GND!
+h Vdd!
+
+# --- Initial conditions ---
+l in
+l w
+l r0
+l r1
+s
+path port0
+path port1
+
+# --- Basic write 0, read none ---
+h w
+l in
+s
+path port0
+path port1
+
+# --- Write 1 ---
+h in
+s
+path port0
+path port1
+
+# --- Disable write ---
+l w
+s
+path port0
+path port1
+
+# --- Read from r0 ---
+h r0
+s
+path port0
+path port1
+
+# --- Read from r1 ---
+l r0
+h r1
+s
+path port0
+path port1
+
+# --- Read from both ---
+h r0
+s
+path port0
+path port1
+
+# --- Disable reads ---
+l r0
+l r1
+s
+path port0
+path port1
+
+# --- Write 0 again ---
+h w
+l in
+s
+path port0
+path port1
+
+# --- Hold 0 (disable write) ---
+l w
+s
+path port0
+path port1
+
+# --- Read from both ---
+h r0
+h r1
+s
+path port0
+path port1
+
+# --- Write 1 again while both reads active ---
+h w
+h in
+s
+path port0
+path port1
+
+# --- Disable write ---
+l w
+s
+path port0
+path port1
+
+# --- Read only r0 ---
+h r0
+l r1
+s
+path port0
+path port1
+
+# --- Read only r1 ---
+l r0
+h r1
+s
+path port0
+path port1
+
+# --- Toggle reads quickly ---
+h r0
+h r1
+s
+path port0
+path port1
+l r0
+s
+path port0
+path port1
+l r1
+s
+path port0
+path port1
+
+# --- Write 0 while both reads low ---
+h w
+l in
+s
+path port0
+path port1
+
+# --- Disable write, check stored value ---
+l w
+s
+path port0
+path port1
+
+# --- Rapid toggles of write signal ---
+h w
+h in
+s
+path port0
+path port1
+l w
+s
+path port0
+path port1
+h w
+l in
+s
+path port0
+path port1
+l w
+s
+path port0
+path port1
+
+# --- Simulate glitches on reads ---
+h r0
+s
+path port0
+path port1
+l r0
+h r1
+s
+path port0
+path port1
+l r1
+h r0
+h r1
+s
+path port0
+path port1
+l r0
+l r1
+s
+path port0
+path port1
+
+# --- Write 1 again ---
+h w
+h in
+s
+path port0
+path port1
+
+# --- Disable write ---
+l w
+s
+path port0
+path port1
+
+# --- Read both again ---
+h r0
+h r1
+s
+path port0
+path port1
+
+# --- Read none ---
+l r0
+l r1
+s
+path port0
+path port1
+
+# --- Final toggles for stability check ---
+h in
+h w
+s
+path port0
+path port1
+l in
+l w
+s
+path port0
+path port1
+h r0
+s
+path port0
+path port1
+l r0
+h r1
+s
+path port0
+path port1
+l r1
+s
+path port0
+path port1
+

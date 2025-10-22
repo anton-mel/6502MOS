@@ -1,0 +1,115 @@
+ana in c out
+h Vdd!
+l GND!
+
+# --- Initial conditions ---
+l in
+l c
+s
+path out
+
+# --- Latch inactive (c low) ---
+l c
+l in
+s
+path out
+
+h in
+s
+path out
+
+# --- Latch active (c high) ---
+h c
+l in
+s
+path out
+
+h in
+s
+path out
+
+# --- Toggle input while latch active ---
+l in
+s
+path out
+
+h in
+s
+path out
+
+# --- Disable latch (c low) ---
+l c
+l in
+s
+path out
+
+h in
+s
+path out
+
+# --- Reactivate latch, capture current in ---
+h c
+l in
+s
+path out
+
+h in
+s
+path out
+
+# --- Rapid toggles of c and in ---
+l c
+l in
+s
+path out
+
+h c
+s
+path out
+
+l c
+s
+path out
+
+h c
+l in
+s
+path out
+
+h in
+s
+path out
+
+l c
+s
+path out
+
+# --- Final hold and release tests ---
+l in
+s
+path out
+
+h in
+s
+path out
+
+l c
+s
+path out
+
+h c
+s
+path out
+
+l in
+s
+path out
+
+h in
+s
+path out
+
+# --- End of test ---
+s
+path out
+

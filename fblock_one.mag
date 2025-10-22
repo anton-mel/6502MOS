@@ -1,0 +1,150 @@
+magic
+tech scmos
+timestamp 1759303105
+<< nwell >>
+rect 23 82 31 85
+rect 55 82 63 85
+rect 90 82 98 85
+rect 20 77 34 82
+rect 53 77 67 82
+rect 87 77 101 82
+rect 23 60 31 77
+rect 55 60 63 77
+rect 90 60 98 77
+rect 60 -42 63 -17
+<< pwell >>
+rect 23 42 31 59
+rect 55 42 63 59
+rect 91 42 99 59
+rect 20 37 33 42
+rect 53 37 67 42
+rect 87 37 101 42
+rect 23 34 31 37
+rect 55 34 63 37
+rect 91 34 99 37
+rect 60 -68 63 -43
+<< metal1 >>
+rect 20 77 34 82
+rect 53 77 67 82
+rect 87 77 101 82
+rect -5 57 6 62
+rect 28 57 39 62
+rect 62 57 73 62
+rect 96 57 107 62
+rect 114 57 120 62
+rect 20 37 33 42
+rect 53 37 65 42
+rect 87 37 101 42
+rect -5 6 0 11
+rect 26 -22 41 -17
+rect 89 -25 110 -20
+rect -5 -45 0 -40
+rect 58 -60 63 -40
+rect 88 -45 93 -40
+rect 36 -65 63 -60
+<< m2contact >>
+rect 117 77 122 82
+rect 14 57 19 62
+rect 47 57 52 62
+rect 81 57 86 62
+rect 120 57 125 62
+rect 65 37 70 42
+rect 14 26 19 31
+rect 23 29 28 34
+rect 49 29 54 34
+rect 60 26 65 31
+rect 79 26 84 31
+rect 88 29 93 34
+rect 114 29 119 34
+rect 1 6 6 11
+rect 60 6 65 11
+rect -5 -14 0 -9
+rect 27 -14 32 -9
+rect 60 -14 65 -9
+rect 101 -17 106 -12
+rect 14 -25 19 -20
+rect 49 -23 54 -18
+rect 110 -25 115 -20
+rect -5 -65 0 -60
+rect 27 -65 32 -60
+rect 66 -65 71 -60
+<< metal2 >>
+rect 111 77 117 82
+rect 14 42 19 57
+rect 14 37 28 42
+rect 23 34 28 37
+rect 47 34 52 57
+rect 81 42 86 57
+rect 111 43 116 77
+rect 70 37 74 42
+rect 81 37 93 42
+rect 47 29 49 34
+rect 14 25 19 26
+rect 60 25 65 26
+rect 14 20 65 25
+rect 1 1 6 6
+rect 60 1 65 6
+rect 1 -4 65 1
+rect 69 -9 74 37
+rect 88 34 93 37
+rect 105 38 116 43
+rect 79 25 84 26
+rect 105 25 110 38
+rect 120 34 125 57
+rect 119 29 125 34
+rect 79 20 115 25
+rect 0 -14 9 -9
+rect 32 -14 60 -9
+rect 65 -14 74 -9
+rect 4 -60 9 -14
+rect 101 -18 106 -17
+rect 54 -23 106 -18
+rect 110 -20 115 20
+rect 14 -27 19 -25
+rect 110 -27 115 -25
+rect 14 -32 115 -27
+rect 0 -65 9 -60
+rect 32 -65 66 -60
+use 2mux_nr  2mux_nr_0
+timestamp 1758867764
+transform 0 -1 22 -1 0 10
+box -24 -38 27 27
+use inv  inv_3
+timestamp 1758863638
+transform 1 0 72 0 1 46
+box -10 -12 20 39
+use inv  inv_1
+timestamp 1758863638
+transform 1 0 5 0 1 46
+box -10 -12 20 39
+use 2mux_nr  2mux_nr_1
+timestamp 1758867764
+transform 0 -1 87 -1 0 10
+box -24 -38 27 27
+use 2mux_nr  2mux_nr_2
+timestamp 1758867764
+transform 0 -1 22 -1 0 -41
+box -24 -38 27 27
+use inv  inv_0
+timestamp 1758863638
+transform 1 0 73 0 1 -56
+box -10 -12 20 39
+use inv  inv_4
+timestamp 1758863638
+transform 1 0 105 0 1 46
+box -10 -12 20 39
+use inv  inv_2
+timestamp 1758863638
+transform 1 0 38 0 1 46
+box -10 -12 20 39
+<< labels >>
+rlabel metal1 25 79 25 79 1 Vdd!
+rlabel metal1 0 59 0 59 3 g3
+rlabel metal1 32 59 32 59 1 g2
+rlabel metal1 66 60 66 60 1 g1
+rlabel metal1 101 58 101 58 1 g0
+rlabel metal1 32 39 32 39 1 GND!
+rlabel metal1 -3 7 -3 7 3 b
+rlabel metal1 -3 -43 -3 -43 3 a
+rlabel metal1 91 -43 91 -43 1 f
+<< end >>

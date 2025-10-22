@@ -1,0 +1,69 @@
+ana a b cin s cout
+
+h Vdd!
+l GND!
+
+l a
+l b
+l cin
+s
+
+path s
+path cout
+
+l a
+l b
+h cin
+s
+
+path s
+path cout
+
+l a
+h b
+l cin
+s
+
+path s
+path cout
+
+l a
+h b
+h cin
+s
+
+path s
+path cout
+
+h a
+l b
+l cin
+s
+
+path s
+path cout
+
+h a
+l b
+h cin
+s
+
+path s
+path cout
+
+h a
+h b
+l cin
+s
+
+path s
+path cout
+
+h a
+h b
+h cin
+s
+
+path s
+path cout
+

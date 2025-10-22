@@ -1,0 +1,261 @@
+ana a b g0 g1 g2 g3 f
+vector in a b g0 g1 g2 g3
+h Vdd!
+l GND!
+
+setvector in 000000
+s
+path f
+
+setvector in 000001
+s
+path f
+
+setvector in 000010
+s
+path f
+
+setvector in 000011
+s
+path f
+
+setvector in 000100
+s
+path f
+
+setvector in 000101
+s
+path f
+
+setvector in 000110
+s
+path f
+
+setvector in 000111
+s
+path f
+
+setvector in 001000
+s
+path f
+
+setvector in 001001
+s
+path f
+
+setvector in 001010
+s
+path f
+
+setvector in 001011
+s
+path f
+
+setvector in 001100
+s
+path f
+
+setvector in 001101
+s
+path f
+
+setvector in 001110
+s
+path f
+
+setvector in 001111
+s
+path f
+
+setvector in 010000
+s
+path f
+
+setvector in 010001
+s
+path f
+
+setvector in 010010
+s
+path f
+
+setvector in 010011
+s
+path f
+
+setvector in 010100
+s
+path f
+
+setvector in 010101
+s
+path f
+
+setvector in 010110
+s
+path f
+
+setvector in 010111
+s
+path f
+
+setvector in 011000
+s
+path f
+
+setvector in 011001
+s
+path f
+
+setvector in 011010
+s
+path f
+
+setvector in 011011
+s
+path f
+
+setvector in 011100
+s
+path f
+
+setvector in 011101
+s
+path f
+
+setvector in 011110
+s
+path f
+
+setvector in 011111
+s
+path f
+
+setvector in 100000
+s
+path f
+
+setvector in 100001
+s
+path f
+
+setvector in 100010
+s
+path f
+
+setvector in 100011
+s
+path f
+
+setvector in 100100
+s
+path f
+
+setvector in 100101
+s
+path f
+
+setvector in 100110
+s
+path f
+
+setvector in 100111
+s
+path f
+
+setvector in 101000
+s
+path f
+
+setvector in 101001
+s
+path f
+
+setvector in 101010
+s
+path f
+
+setvector in 101011
+s
+path f
+
+setvector in 101100
+s
+path f
+
+setvector in 101101
+s
+path f
+
+setvector in 101110
+s
+path f
+
+setvector in 101111
+s
+path f
+
+setvector in 110000
+s
+path f
+
+setvector in 110001
+s
+path f
+
+setvector in 110010
+s
+path f
+
+setvector in 110011
+s
+path f
+
+setvector in 110100
+s
+path f
+
+setvector in 110101
+s
+path f
+
+setvector in 110110
+s
+path f
+
+setvector in 110111
+s
+path f
+
+setvector in 111000
+s
+path f
+
+setvector in 111001
+s
+path f
+
+setvector in 111010
+s
+path f
+
+setvector in 111011
+s
+path f
+
+setvector in 111100
+s
+path f
+
+setvector in 111101
+s
+path f
+
+setvector in 111110
+s
+path f
+
+setvector in 111111
+s
+path f
+
