@@ -1,0 +1,1798 @@
+h Vdd!
+l GND!
+vector in in0 in1 in2 in3 in4 in5 in6 in7
+vector out out0 out1 out2 out3 out4 out5 out6 out7
+ana out in c
+setvector in 0x00
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x01
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x02
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x03
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x04
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x05
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x06
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x07
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x08
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x09
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x0A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x0B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x0C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x0D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x0E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x0F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x10
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x11
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x12
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x13
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x14
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x15
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x16
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x17
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x18
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x19
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x1A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x1B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x1C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x1D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x1E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x1F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x20
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x21
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x22
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x23
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x24
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x25
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x26
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x27
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x28
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x29
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x2A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x2B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x2C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x2D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x2E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x2F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x30
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x31
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x32
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x33
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x34
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x35
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x36
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x37
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x38
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x39
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x3A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x3B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x3C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x3D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x3E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x3F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x40
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x41
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x42
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x43
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x44
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x45
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x46
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x47
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x48
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x49
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x4A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x4B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x4C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x4D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x4E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x4F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x50
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x51
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x52
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x53
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x54
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x55
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x56
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x57
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x58
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x59
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x5A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x5B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x5C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x5D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x5E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x5F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x60
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x61
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x62
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x63
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x64
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x65
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x66
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x67
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x68
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x69
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x6A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x6B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x6C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x6D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x6E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x6F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x70
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x71
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x72
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x73
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x74
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x75
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x76
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x77
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x78
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x79
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x7A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x7B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x7C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x7D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x7E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x7F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x80
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x81
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x82
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x83
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x84
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x85
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x86
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x87
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x88
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x89
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x8A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x8B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x8C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x8D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x8E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x8F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x90
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x91
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x92
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x93
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x94
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x95
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x96
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x97
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x98
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x99
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x9A
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x9B
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x9C
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x9D
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x9E
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0x9F
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA0
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA1
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA2
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA3
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA4
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA5
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA6
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA7
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA8
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xA9
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xAA
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xAB
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xAC
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xAD
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xAE
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xAF
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB0
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB1
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB2
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB3
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB4
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB5
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB6
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB7
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB8
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xB9
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xBA
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xBB
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xBC
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xBD
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xBE
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xBF
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC0
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC1
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC2
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC3
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC4
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC5
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC6
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC7
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC8
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xC9
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xCA
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xCB
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xCC
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xCD
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xCE
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xCF
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD0
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD1
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD2
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD3
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD4
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD5
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD6
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD7
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD8
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xD9
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xDA
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xDB
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xDC
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xDD
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xDE
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xDF
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE0
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE1
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE2
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE3
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE4
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE5
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE6
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE7
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE8
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xE9
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xEA
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xEB
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xEC
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xED
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xEE
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xEF
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF0
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF1
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF2
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF3
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF4
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF5
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF6
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF7
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF8
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xF9
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xFA
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xFB
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xFC
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xFD
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xFE
+l c
+s
+path out
+h c
+s
+path out
+setvector in 0xFF
+l c
+s
+path out
+h c
+s
+path out
+

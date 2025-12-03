@@ -1,0 +1,98 @@
+magic
+tech scmos
+timestamp 1761104463
+<< metal1 >>
+rect -14 774 1 779
+rect 75 712 76 717
+rect 75 703 76 708
+rect -14 617 1 622
+rect 75 555 76 560
+rect 75 546 76 551
+rect -14 460 1 465
+rect 75 398 76 403
+rect 75 389 76 394
+rect -14 303 1 308
+rect 75 241 76 246
+rect 75 232 76 237
+rect -14 146 1 151
+rect 75 84 76 89
+rect 75 75 76 80
+rect -14 -11 1 -6
+rect 75 -73 76 -68
+rect 75 -82 76 -77
+rect -14 -168 1 -163
+rect 75 -230 76 -225
+rect 75 -239 76 -234
+rect -14 -325 1 -320
+rect 75 -387 76 -382
+rect 75 -396 76 -391
+<< metal2 >>
+rect -14 -399 -9 806
+<< metal3 >>
+rect -3 -399 2 806
+rect 6 -399 11 806
+rect 24 -399 29 806
+rect 70 -399 75 806
+use reg_one  reg_one_7
+timestamp 1761015633
+transform 1 0 2 0 1 725
+box -11 -25 74 81
+use reg_one  reg_one_6
+timestamp 1761015633
+transform 1 0 2 0 1 568
+box -11 -25 74 81
+use reg_one  reg_one_5
+timestamp 1761015633
+transform 1 0 2 0 1 411
+box -11 -25 74 81
+use reg_one  reg_one_4
+timestamp 1761015633
+transform 1 0 2 0 1 254
+box -11 -25 74 81
+use reg_one  reg_one_3
+timestamp 1761015633
+transform 1 0 2 0 1 97
+box -11 -25 74 81
+use reg_one  reg_one_2
+timestamp 1761015633
+transform 1 0 2 0 1 -60
+box -11 -25 74 81
+use reg_one  reg_one_1
+timestamp 1761015633
+transform 1 0 2 0 1 -217
+box -11 -25 74 81
+use reg_one  reg_one_0
+timestamp 1761015633
+transform 1 0 2 0 1 -374
+box -11 -25 74 81
+<< labels >>
+rlabel metal1 75 712 76 717 7 port00
+rlabel metal1 75 703 76 708 7 port01
+rlabel metal3 6 801 11 806 5 Vdd!
+rlabel metal3 24 801 29 806 5 GND!
+rlabel metal1 -2 774 1 779 3 in0
+rlabel metal3 70 801 75 806 6 w
+rlabel metal3 -3 801 2 806 5 r1
+rlabel metal2 -14 801 -9 806 4 r0
+rlabel metal1 75 555 76 560 7 port10
+rlabel metal1 75 546 76 551 7 port11
+rlabel metal1 -2 617 1 622 3 in1
+rlabel metal1 75 398 76 403 7 port20
+rlabel metal1 75 389 76 394 7 port21
+rlabel metal1 -2 460 1 465 3 in2
+rlabel metal1 75 241 76 246 7 port30
+rlabel metal1 75 232 76 237 7 port31
+rlabel metal1 -2 303 1 308 3 in3
+rlabel metal1 75 84 76 89 7 port40
+rlabel metal1 75 75 76 80 7 port41
+rlabel metal1 -2 146 1 151 3 in4
+rlabel metal1 75 -73 76 -68 7 port50
+rlabel metal1 75 -82 76 -77 7 port51
+rlabel metal1 -2 -11 1 -6 3 in5
+rlabel metal1 75 -230 76 -225 7 port60
+rlabel metal1 75 -239 76 -234 7 port61
+rlabel metal1 -2 -168 1 -163 3 in6
+rlabel metal1 75 -387 76 -382 7 port70
+rlabel metal1 75 -396 76 -391 7 port71
+rlabel metal1 -2 -325 1 -320 3 in7
+<< end >>

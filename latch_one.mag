@@ -1,0 +1,106 @@
+magic
+tech scmos
+timestamp 1761111102
+<< nwell >>
+rect -11 -41 48 -13
+<< pwell >>
+rect -11 -65 48 -42
+<< ntransistor >>
+rect 1 -53 3 -48
+rect 10 -53 12 -48
+rect 28 -53 30 -48
+rect 34 -53 36 -48
+<< ptransistor >>
+rect 1 -35 3 -25
+rect 10 -35 12 -25
+rect 28 -35 30 -25
+rect 34 -35 36 -25
+<< ndiffusion >>
+rect 0 -53 1 -48
+rect 3 -53 4 -48
+rect 9 -53 10 -48
+rect 12 -53 13 -48
+rect 27 -53 28 -48
+rect 30 -53 34 -48
+rect 36 -53 37 -48
+<< pdiffusion >>
+rect 0 -35 1 -25
+rect 3 -35 4 -25
+rect 9 -35 10 -25
+rect 12 -35 13 -25
+rect 27 -35 28 -25
+rect 30 -35 34 -25
+rect 36 -35 37 -25
+<< ndcontact >>
+rect -5 -53 0 -48
+rect 4 -53 9 -48
+rect 13 -53 18 -48
+rect 22 -53 27 -48
+rect 37 -53 42 -48
+<< pdcontact >>
+rect -5 -35 0 -25
+rect 13 -35 18 -25
+rect 37 -35 42 -25
+<< nsubstratendiff >>
+rect -8 -21 -3 -16
+<< psubstratepcontact >>
+rect -8 -62 4 -57
+<< nsubstratencontact >>
+rect -3 -21 10 -16
+<< polysilicon >>
+rect 1 -25 3 -22
+rect 10 -25 12 -22
+rect 28 -25 30 -22
+rect 34 -25 36 -22
+rect 1 -36 3 -35
+rect -11 -38 3 -36
+rect 1 -48 3 -38
+rect 10 -48 12 -35
+rect 28 -39 30 -35
+rect 34 -38 36 -35
+rect 28 -48 30 -44
+rect 34 -48 36 -45
+rect 1 -56 3 -53
+rect 10 -59 12 -53
+rect 28 -56 30 -53
+rect 34 -59 36 -53
+rect 10 -61 36 -59
+<< polycontact >>
+rect 34 -22 39 -17
+rect 36 -61 41 -56
+<< metal1 >>
+rect 4 -25 9 -21
+rect 13 -22 34 -17
+rect 13 -25 18 -22
+rect -5 -39 0 -35
+rect -5 -48 0 -44
+rect 13 -48 18 -35
+rect 37 -39 42 -35
+rect 37 -44 48 -39
+rect 37 -48 42 -44
+rect 4 -57 9 -53
+rect 22 -57 27 -53
+rect 4 -60 27 -57
+rect 9 -62 27 -60
+rect 41 -60 46 -56
+<< m2contact >>
+rect -5 -44 0 -39
+<< pm12contact >>
+rect 25 -44 30 -39
+<< pdm12contact >>
+rect 4 -35 9 -25
+rect 22 -35 27 -25
+<< metal2 >>
+rect 9 -35 22 -25
+rect 0 -44 25 -39
+<< m123contact >>
+rect -8 -21 -3 -16
+rect 4 -65 9 -60
+rect 41 -65 46 -60
+<< labels >>
+rlabel psubstratepcontact 2 -61 2 -61 1 GND!
+rlabel nsubstratencontact 2 -19 2 -19 1 Vdd!
+rlabel polysilicon 11 -24 11 -24 1 c
+rlabel metal1 40 -42 40 -42 1 out
+rlabel polysilicon 2 -37 2 -37 1 in
+<< end >>

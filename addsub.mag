@@ -1,0 +1,266 @@
+magic
+tech scmos
+timestamp 1761186134
+<< pwell >>
+rect 124 -27 158 1221
+rect 124 -35 126 -27
+<< polysilicon >>
+rect -7 1224 163 1226
+rect -7 1120 -5 1224
+rect 161 1184 163 1224
+rect 155 1182 163 1184
+rect 59 1156 61 1166
+rect 59 1154 67 1156
+rect -7 1118 3 1120
+rect -7 963 -5 1118
+rect 3 1093 5 1109
+rect 132 1067 158 1069
+rect 156 1027 158 1067
+rect 155 1025 158 1027
+rect 59 999 61 1009
+rect 59 997 67 999
+rect -7 961 3 963
+rect -7 806 -5 961
+rect 3 936 5 952
+rect 131 910 158 912
+rect 156 870 158 910
+rect 155 868 158 870
+rect 59 842 61 852
+rect 59 840 67 842
+rect -7 804 3 806
+rect -7 649 -5 804
+rect 3 779 5 795
+rect 132 753 158 755
+rect 156 713 158 753
+rect 155 711 158 713
+rect 59 685 61 695
+rect 59 683 67 685
+rect -7 647 3 649
+rect -7 492 -5 647
+rect 3 622 5 638
+rect 131 596 158 598
+rect 156 556 158 596
+rect 155 554 158 556
+rect 59 528 61 538
+rect 59 526 67 528
+rect -7 490 3 492
+rect -7 335 -5 490
+rect 3 465 5 481
+rect 132 439 158 441
+rect 156 399 158 439
+rect 155 397 158 399
+rect 59 371 61 381
+rect 59 369 67 371
+rect -7 333 3 335
+rect -7 178 -5 333
+rect 3 308 5 324
+rect 131 282 158 284
+rect 156 242 158 282
+rect 155 240 158 242
+rect 59 214 61 224
+rect 59 212 67 214
+rect -7 176 3 178
+rect -7 21 -5 176
+rect 3 151 5 167
+rect 132 125 158 127
+rect 156 85 158 125
+rect 155 83 158 85
+rect 59 57 61 67
+rect 59 55 67 57
+rect -7 19 3 21
+rect -7 -6 -5 19
+rect 3 -6 5 10
+<< polycontact >>
+rect 127 1067 132 1072
+rect 126 910 131 915
+rect 127 753 132 758
+rect 126 596 131 601
+rect 127 439 132 444
+rect 126 282 131 287
+rect 127 125 132 130
+<< metal1 >>
+rect -4 1221 163 1226
+rect -4 1156 1 1221
+rect 59 1200 72 1205
+rect 64 1117 69 1200
+rect 158 1195 163 1221
+rect 155 1190 163 1195
+rect 61 1112 69 1117
+rect -4 999 1 1107
+rect 64 1048 69 1112
+rect 64 1043 72 1048
+rect 64 960 69 1043
+rect 158 1038 163 1190
+rect 155 1033 163 1038
+rect 61 955 69 960
+rect -4 842 1 950
+rect 64 891 69 955
+rect 64 886 72 891
+rect 64 803 69 886
+rect 158 881 163 1033
+rect 155 876 163 881
+rect 61 798 69 803
+rect -4 685 1 793
+rect 64 734 69 798
+rect 64 729 72 734
+rect 64 646 69 729
+rect 158 724 163 876
+rect 155 719 163 724
+rect 61 641 69 646
+rect -4 528 1 636
+rect 64 577 69 641
+rect 64 572 72 577
+rect 64 489 69 572
+rect 158 567 163 719
+rect 155 562 163 567
+rect 61 484 69 489
+rect -4 371 1 479
+rect 64 420 69 484
+rect 64 415 72 420
+rect 64 332 69 415
+rect 158 410 163 562
+rect 155 405 163 410
+rect 61 327 69 332
+rect -4 214 1 322
+rect 64 263 69 327
+rect 64 258 72 263
+rect 64 175 69 258
+rect 158 253 163 405
+rect 155 248 163 253
+rect 61 170 69 175
+rect -4 57 1 165
+rect 64 106 69 170
+rect 64 101 72 106
+rect 64 18 69 101
+rect 158 96 163 248
+rect 155 91 166 96
+rect 61 13 69 18
+rect 137 -40 142 -29
+<< m2contact >>
+rect 36 1142 41 1147
+rect 127 1090 132 1095
+rect 36 985 41 990
+rect 127 933 132 938
+rect 36 828 41 833
+rect 127 776 132 781
+rect 36 671 41 676
+rect 127 619 132 624
+rect 36 514 41 519
+rect 127 462 132 467
+rect 36 357 41 362
+rect 127 305 132 310
+rect 36 200 41 205
+rect 127 148 132 153
+rect 36 43 41 48
+rect 127 -9 132 -4
+<< metal2 >>
+rect 41 1142 67 1147
+rect 132 1090 166 1095
+rect 41 985 68 990
+rect 132 933 166 938
+rect 41 828 67 833
+rect 132 776 166 781
+rect 41 671 67 676
+rect 132 619 166 624
+rect 41 514 67 519
+rect 132 462 166 467
+rect 41 357 67 362
+rect 132 305 166 310
+rect 41 200 67 205
+rect 132 148 166 153
+rect 41 43 67 48
+rect 132 -9 161 -4
+use xor  xor_0
+timestamp 1759371655
+transform 0 1 47 1 0 1041
+box 55 -54 122 17
+use addsub_one  addsub_one_0
+timestamp 1761186134
+transform 0 -1 101 -1 0 1226
+box 5 -57 162 37
+use xor  xor_1
+timestamp 1759371655
+transform 0 1 47 1 0 884
+box 55 -54 122 17
+use addsub_one  addsub_one_1
+timestamp 1761186134
+transform 0 -1 101 -1 0 1069
+box 5 -57 162 37
+use xor  xor_2
+timestamp 1759371655
+transform 0 1 47 1 0 727
+box 55 -54 122 17
+use addsub_one  addsub_one_2
+timestamp 1761186134
+transform 0 -1 101 -1 0 912
+box 5 -57 162 37
+use xor  xor_3
+timestamp 1759371655
+transform 0 1 47 1 0 570
+box 55 -54 122 17
+use addsub_one  addsub_one_3
+timestamp 1761186134
+transform 0 -1 101 -1 0 755
+box 5 -57 162 37
+use xor  xor_4
+timestamp 1759371655
+transform 0 1 47 1 0 413
+box 55 -54 122 17
+use addsub_one  addsub_one_4
+timestamp 1761186134
+transform 0 -1 101 -1 0 598
+box 5 -57 162 37
+use xor  xor_5
+timestamp 1759371655
+transform 0 1 47 1 0 256
+box 55 -54 122 17
+use addsub_one  addsub_one_5
+timestamp 1761186134
+transform 0 -1 101 -1 0 441
+box 5 -57 162 37
+use xor  xor_6
+timestamp 1759371655
+transform 0 1 47 1 0 99
+box 55 -54 122 17
+use addsub_one  addsub_one_7
+timestamp 1761186134
+transform 0 -1 101 -1 0 127
+box 5 -57 162 37
+use addsub_one  addsub_one_6
+timestamp 1761186134
+transform 0 -1 101 -1 0 284
+box 5 -57 162 37
+use xor  xor_7
+timestamp 1759371655
+transform 0 1 47 1 0 -58
+box 55 -54 122 17
+<< labels >>
+rlabel metal1 137 -40 142 -35 1 cout
+rlabel metal2 163 1090 166 1095 7 s0
+rlabel metal2 163 933 166 938 7 s1
+rlabel metal2 163 776 166 781 7 s2
+rlabel metal2 163 619 166 624 7 s3
+rlabel metal2 163 462 166 467 7 s4
+rlabel metal2 163 305 166 310 7 s5
+rlabel metal2 163 148 166 153 7 s6
+rlabel metal2 158 -9 161 -4 7 s7
+rlabel metal1 59 1200 64 1205 3 Vdd!
+rlabel polysilicon -7 -6 -5 -3 3 cin
+rlabel metal1 163 91 166 96 7 GND!
+rlabel polysilicon 59 1163 61 1166 7 a0
+rlabel polysilicon 3 -6 5 -3 7 b7
+rlabel polysilicon 3 1093 5 1096 7 b0
+rlabel polysilicon 59 1006 61 1009 7 a1
+rlabel polysilicon 59 849 61 852 7 a2
+rlabel polysilicon 59 692 61 695 7 a3
+rlabel polysilicon 59 535 61 538 7 a4
+rlabel polysilicon 59 378 61 381 7 a5
+rlabel polysilicon 59 221 61 224 7 a6
+rlabel polysilicon 59 64 61 67 7 a7
+rlabel polysilicon 3 151 5 154 7 b6
+rlabel polysilicon 3 308 5 311 7 b5
+rlabel polysilicon 3 465 5 468 7 b4
+rlabel polysilicon 3 622 5 625 7 b3
+rlabel polysilicon 3 779 5 782 7 b2
+rlabel polysilicon 3 936 5 939 7 b1
+<< end >>

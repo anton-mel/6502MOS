@@ -1,0 +1,3670 @@
+logfile datapath_test.txt
+
+stepsize 200
+h Vdd!
+l GND!
+
+vector in         in7 in6 in5 in4 in3 in2 in1 in0
+vector wz         wz7 wz6 wz5 wz4 wz3 wz2 wz1 wz0
+vector rx         rx7 rx6 rx5 rx4 rx3 rx2 rx1 rx0
+vector ry         ry7 ry6 ry5 ry4 ry3 ry2 ry1 ry0
+vector out        out7 out6 out5 out4 out3 out2 out1 out0
+
+vector fb_ctrl    fb_g3 fb_g2 fb_g1 fb_g0
+vector os_ctrl    os_s os_u
+vector latch_ctrl ld rfb ros ras
+vector reg0_ctrl  reg0_w reg0_r0 reg0_r1
+vector reg1_ctrl  reg1_w reg1_r0 reg1_r1
+
+ana in latch_ctrl fb_ctrl os_ctrl as_cin reg0_ctrl reg1_ctrl rd out wz rx ry as_cout
+
+# ----------------------------
+# Initialize everything
+# ----------------------------
+setvector in 0x00
+setvector fb_ctrl 0000
+setvector os_ctrl 00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+l rd
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+
+# ----------------------------
+# Testcase 1: fblock 0000
+# ----------------------------
+# Load reg0
+setvector in 0x55
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xAA
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0000
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 2: fblock 0101
+# ----------------------------
+# Load reg0
+setvector in 0x33
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xCC
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0101
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 3: fblock 1010
+# ----------------------------
+# Load reg0
+setvector in 0x0F
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xF0
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1010
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+# ----------------------------
+# Testcase 4: fblock fb=0000
+# ----------------------------
+# Load reg0
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0000
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 5: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x7E
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 6: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x69
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x96
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 7: fblock fb=0001
+# ----------------------------
+# Load reg0
+setvector in 0x3C
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xC3
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0001
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 8: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x55
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xAA
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 9: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 10: fblock fb=0010
+# ----------------------------
+# Load reg0
+setvector in 0x5A
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xA5
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0010
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 11: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x13
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x37
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 12: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x42
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x24
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 13: fblock fb=0011
+# ----------------------------
+# Load reg0
+setvector in 0x18
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0011
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 14: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x66
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x99
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 15: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 16: fblock fb=0101
+# ----------------------------
+# Load reg0
+setvector in 0xB4
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x4B
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0101
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 17: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x12
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x34
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 18: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0xAB
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xCD
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 19: fblock fb=0110
+# ----------------------------
+# Load reg0
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0110
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 20: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 21: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 22: fblock fb=0111
+# ----------------------------
+# Load reg0
+setvector in 0x69
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x96
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0111
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 23: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x3C
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xC3
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 24: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x55
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xAA
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 25: fblock fb=1001
+# ----------------------------
+# Load reg0
+setvector in 0x0F
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xF0
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1001
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 26: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x5A
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xA5
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 27: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 28: fblock fb=1010
+# ----------------------------
+# Load reg0
+setvector in 0x42
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x24
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1010
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 29: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x18
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 30: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x66
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x99
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 31: fblock fb=1011
+# ----------------------------
+# Load reg0
+setvector in 0x2D
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xD2
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1011
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 32: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0xB4
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x4B
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 33: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 34: fblock fb=1100
+# ----------------------------
+# Load reg0
+setvector in 0xAB
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xCD
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 35: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 36: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 37: fblock fb=1111
+# ----------------------------
+# Load reg0
+setvector in 0x7E
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1111
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 38: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x69
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x96
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 39: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 40: fblock fb=0000
+# ----------------------------
+# Load reg0
+setvector in 0x55
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xAA
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0000
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 41: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x0F
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xF0
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 42: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x5A
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xA5
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 43: fblock fb=0001
+# ----------------------------
+# Load reg0
+setvector in 0x13
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x37
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0001
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 44: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x42
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x24
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 45: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 46: fblock fb=0010
+# ----------------------------
+# Load reg0
+setvector in 0x66
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x99
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0010
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 47: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x2D
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xD2
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 48: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0xB4
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x4B
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 49: fblock fb=0011
+# ----------------------------
+# Load reg0
+setvector in 0x12
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x34
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0011
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 50: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0xAB
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xCD
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 51: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 52: fblock fb=0101
+# ----------------------------
+# Load reg0
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0101
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 53: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x7E
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 54: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x69
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x96
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 55: fblock fb=0110
+# ----------------------------
+# Load reg0
+setvector in 0x3C
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xC3
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0110
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 56: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x55
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xAA
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 57: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 58: fblock fb=0111
+# ----------------------------
+# Load reg0
+setvector in 0x5A
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xA5
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0111
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 59: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x13
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x37
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 60: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x42
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x24
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 61: fblock fb=1001
+# ----------------------------
+# Load reg0
+setvector in 0x18
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1001
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 62: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x66
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x99
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 63: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 64: fblock fb=1010
+# ----------------------------
+# Load reg0
+setvector in 0xB4
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x4B
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1010
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 65: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x12
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x34
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 66: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0xAB
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xCD
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 67: fblock fb=1011
+# ----------------------------
+# Load reg0
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1011
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 68: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 69: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 70: fblock fb=1100
+# ----------------------------
+# Load reg0
+setvector in 0x69
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x96
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 71: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x3C
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xC3
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 72: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x55
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xAA
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 73: fblock fb=1111
+# ----------------------------
+# Load reg0
+setvector in 0x0F
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xF0
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1111
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 74: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x5A
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xA5
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 75: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 76: fblock fb=0000
+# ----------------------------
+# Load reg0
+setvector in 0x42
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x24
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0000
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 77: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x18
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 78: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x66
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x99
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 79: fblock fb=0001
+# ----------------------------
+# Load reg0
+setvector in 0x2D
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xD2
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0001
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 80: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0xB4
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x4B
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 81: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 82: fblock fb=0010
+# ----------------------------
+# Load reg0
+setvector in 0xAB
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xCD
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0010
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 83: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 84: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 85: fblock fb=0011
+# ----------------------------
+# Load reg0
+setvector in 0x7E
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x81
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0011
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 86: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x69
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x96
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 87: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 88: fblock fb=0101
+# ----------------------------
+# Load reg0
+setvector in 0x55
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xAA
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0101
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 89: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0x0F
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xF0
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 90: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0x5A
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xA5
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 91: fblock fb=0110
+# ----------------------------
+# Load reg0
+setvector in 0x13
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x37
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0110
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 92: oneshift  os=11
+# ----------------------------
+# Load reg0
+setvector in 0x42
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x24
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 11
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 93: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 94: fblock fb=0111
+# ----------------------------
+# Load reg0
+setvector in 0x66
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x99
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 0111
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 95: oneshift  os=00
+# ----------------------------
+# Load reg0
+setvector in 0x2D
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xD2
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 00
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# ----------------------------
+# Testcase 96: addsub  as_cin=0
+# ----------------------------
+# Load reg0
+setvector in 0xB4
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x4B
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+l as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 97: fblock fb=1001
+# ----------------------------
+# Load reg0
+setvector in 0x12
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x34
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1001
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 98: oneshift  os=10
+# ----------------------------
+# Load reg0
+setvector in 0xAB
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0xCD
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0010
+setvector os_ctrl 10
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector os_ctrl 00
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+# ----------------------------
+# Testcase 99: addsub  as_cin=1
+# ----------------------------
+# Load reg0 (reuse previous value)
+# (no load; value reused)
+
+# Load reg1 (reuse previous value)
+# (no load; value reused)
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0001
+h as_cin
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+
+# Write result to reg1
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg1_ctrl 000
+
+# Write result to output
+setvector reg0_ctrl 010
+h rd
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+l rd
+
+# ----------------------------
+# Testcase 100: fblock fb=1010
+# ----------------------------
+# Load reg0
+setvector in 0xFF
+setvector latch_ctrl 1000
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg0_ctrl 000
+
+# Load reg1
+setvector in 0x00
+setvector latch_ctrl 1000
+setvector reg1_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector in 0x00
+setvector latch_ctrl 0000
+setvector reg1_ctrl 000
+
+# Perform computation
+setvector reg0_ctrl 010
+setvector reg1_ctrl 001
+setvector latch_ctrl 0100
+setvector fb_ctrl 1010
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+setvector reg1_ctrl 000
+setvector latch_ctrl 0000
+setvector fb_ctrl 0000
+
+# Write result to reg0
+setvector reg0_ctrl 100
+s ; path out ; path wz ; path rx ; path ry ; path as_cout
+setvector reg0_ctrl 000
+
+
