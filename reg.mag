@@ -33,37 +33,37 @@ rect -3 -399 2 806
 rect 6 -399 11 806
 rect 24 -399 29 806
 rect 70 -399 75 806
-use reg_one  reg_one_7
+use reg_one  reg_one_0
 timestamp 1761015633
-transform 1 0 2 0 1 725
-box -11 -25 74 81
-use reg_one  reg_one_6
-timestamp 1761015633
-transform 1 0 2 0 1 568
-box -11 -25 74 81
-use reg_one  reg_one_5
-timestamp 1761015633
-transform 1 0 2 0 1 411
-box -11 -25 74 81
-use reg_one  reg_one_4
-timestamp 1761015633
-transform 1 0 2 0 1 254
-box -11 -25 74 81
-use reg_one  reg_one_3
-timestamp 1761015633
-transform 1 0 2 0 1 97
-box -11 -25 74 81
-use reg_one  reg_one_2
-timestamp 1761015633
-transform 1 0 2 0 1 -60
+transform 1 0 2 0 1 -374
 box -11 -25 74 81
 use reg_one  reg_one_1
 timestamp 1761015633
 transform 1 0 2 0 1 -217
 box -11 -25 74 81
-use reg_one  reg_one_0
+use reg_one  reg_one_2
 timestamp 1761015633
-transform 1 0 2 0 1 -374
+transform 1 0 2 0 1 -60
+box -11 -25 74 81
+use reg_one  reg_one_3
+timestamp 1761015633
+transform 1 0 2 0 1 97
+box -11 -25 74 81
+use reg_one  reg_one_4
+timestamp 1761015633
+transform 1 0 2 0 1 254
+box -11 -25 74 81
+use reg_one  reg_one_5
+timestamp 1761015633
+transform 1 0 2 0 1 411
+box -11 -25 74 81
+use reg_one  reg_one_6
+timestamp 1761015633
+transform 1 0 2 0 1 568
+box -11 -25 74 81
+use reg_one  reg_one_7
+timestamp 1761015633
+transform 1 0 2 0 1 725
 box -11 -25 74 81
 << labels >>
 rlabel metal1 75 712 76 717 7 port00

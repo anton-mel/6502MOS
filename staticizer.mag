@@ -14,37 +14,37 @@ rect 61 -1068 63 -1066
 rect 64 -1047 69 61
 rect 76 -1094 81 61
 rect 90 -1095 95 61
-use staticizer_one  staticizer_one_0
+use staticizer_one  staticizer_one_7
 timestamp 1761284462
-transform 1 0 7 0 1 61
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_1
-timestamp 1761284462
-transform 1 0 7 0 1 -96
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_2
-timestamp 1761284462
-transform 1 0 7 0 1 -253
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_3
-timestamp 1761284462
-transform 1 0 7 0 1 -410
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_4
-timestamp 1761284462
-transform 1 0 7 0 1 -567
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_5
-timestamp 1761284462
-transform 1 0 7 0 1 -724
+transform 1 0 7 0 1 -1038
 box 54 -61 113 -1
 use staticizer_one  staticizer_one_6
 timestamp 1761284462
 transform 1 0 7 0 1 -881
 box 54 -61 113 -1
-use staticizer_one  staticizer_one_7
+use staticizer_one  staticizer_one_5
 timestamp 1761284462
-transform 1 0 7 0 1 -1038
+transform 1 0 7 0 1 -724
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_4
+timestamp 1761284462
+transform 1 0 7 0 1 -567
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_3
+timestamp 1761284462
+transform 1 0 7 0 1 -410
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_2
+timestamp 1761284462
+transform 1 0 7 0 1 -253
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_1
+timestamp 1761284462
+transform 1 0 7 0 1 -96
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_0
+timestamp 1761284462
+transform 1 0 7 0 1 61
 box 54 -61 113 -1
 << labels >>
 rlabel metal3 64 59 69 61 4 Vdd!

@@ -23,37 +23,37 @@ rect -336 105 -333 110
 rect -389 84 -384 1235
 rect -377 84 -372 1235
 rect -340 84 -335 1235
-use latch_one  latch_one_0
+use latch_one  latch_one_7
 timestamp 1761111102
-transform 1 0 -381 0 1 1248
-box -11 -65 48 -13
-use latch_one  latch_one_1
-timestamp 1761111102
-transform 1 0 -381 0 1 1091
-box -11 -65 48 -13
-use latch_one  latch_one_2
-timestamp 1761111102
-transform 1 0 -381 0 1 934
-box -11 -65 48 -13
-use latch_one  latch_one_3
-timestamp 1761111102
-transform 1 0 -381 0 1 777
-box -11 -65 48 -13
-use latch_one  latch_one_4
-timestamp 1761111102
-transform 1 0 -381 0 1 620
-box -11 -65 48 -13
-use latch_one  latch_one_5
-timestamp 1761111102
-transform 1 0 -381 0 1 463
+transform 1 0 -381 0 1 149
 box -11 -65 48 -13
 use latch_one  latch_one_6
 timestamp 1761111102
 transform 1 0 -381 0 1 306
 box -11 -65 48 -13
-use latch_one  latch_one_7
+use latch_one  latch_one_5
 timestamp 1761111102
-transform 1 0 -381 0 1 149
+transform 1 0 -381 0 1 463
+box -11 -65 48 -13
+use latch_one  latch_one_4
+timestamp 1761111102
+transform 1 0 -381 0 1 620
+box -11 -65 48 -13
+use latch_one  latch_one_3
+timestamp 1761111102
+transform 1 0 -381 0 1 777
+box -11 -65 48 -13
+use latch_one  latch_one_2
+timestamp 1761111102
+transform 1 0 -381 0 1 934
+box -11 -65 48 -13
+use latch_one  latch_one_1
+timestamp 1761111102
+transform 1 0 -381 0 1 1091
+box -11 -65 48 -13
+use latch_one  latch_one_0
+timestamp 1761111102
+transform 1 0 -381 0 1 1248
 box -11 -65 48 -13
 << labels >>
 rlabel metal3 -377 1232 -372 1235 5 GND!

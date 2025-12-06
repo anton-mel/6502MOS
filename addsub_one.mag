@@ -1,6 +1,14 @@
 magic
 tech scmos
-timestamp 1761186134
+timestamp 1764999822
+<< error_p >>
+rect 21 19 22 24
+rect 25 19 26 29
+rect 97 -26 98 -7
+rect 79 -36 80 -26
+rect 96 -36 97 -26
+rect 21 -46 22 -41
+rect 25 -46 26 -41
 << nwell >>
 rect 5 0 162 37
 << pwell >>

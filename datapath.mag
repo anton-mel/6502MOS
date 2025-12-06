@@ -1,6 +1,19 @@
 magic
 tech scmos
-timestamp 1761334864
+timestamp 1764893287
+<< error_s >>
+rect 97 132 102 133
+rect 25 128 30 129
+rect 90 16 108 17
+rect 90 12 91 16
+rect 97 12 103 13
+rect 106 12 108 13
+rect 25 8 31 9
+rect 34 8 36 9
+rect 93 -2 99 -1
+rect 21 -6 27 -5
+rect 97 -25 102 -24
+rect 25 -29 30 -28
 << polysilicon >>
 rect 120 1202 131 1204
 rect 120 1192 131 1194
