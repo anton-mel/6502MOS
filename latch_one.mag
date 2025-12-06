@@ -1,28 +1,28 @@
 magic
 tech scmos
-timestamp 1761111102
+timestamp 1765002978
 << nwell >>
-rect -11 -41 48 -13
+rect -11 -41 48 -12
 << pwell >>
-rect -11 -65 48 -42
+rect -11 -67 48 -41
 << ntransistor >>
-rect 1 -53 3 -48
-rect 10 -53 12 -48
-rect 28 -53 30 -48
-rect 34 -53 36 -48
+rect 1 -54 3 -49
+rect 10 -54 12 -49
+rect 28 -54 30 -49
+rect 34 -54 36 -49
 << ptransistor >>
 rect 1 -35 3 -25
 rect 10 -35 12 -25
 rect 28 -35 30 -25
 rect 34 -35 36 -25
 << ndiffusion >>
-rect 0 -53 1 -48
-rect 3 -53 4 -48
-rect 9 -53 10 -48
-rect 12 -53 13 -48
-rect 27 -53 28 -48
-rect 30 -53 34 -48
-rect 36 -53 37 -48
+rect 0 -54 1 -49
+rect 3 -54 4 -49
+rect 9 -54 10 -49
+rect 12 -54 13 -49
+rect 27 -54 28 -49
+rect 30 -54 34 -49
+rect 36 -54 37 -49
 << pdiffusion >>
 rect 0 -35 1 -25
 rect 3 -35 4 -25
@@ -32,57 +32,57 @@ rect 27 -35 28 -25
 rect 30 -35 34 -25
 rect 36 -35 37 -25
 << ndcontact >>
-rect -5 -53 0 -48
-rect 4 -53 9 -48
-rect 13 -53 18 -48
-rect 22 -53 27 -48
-rect 37 -53 42 -48
+rect -5 -54 0 -49
+rect 4 -54 9 -49
+rect 13 -54 18 -49
+rect 22 -54 27 -49
+rect 37 -54 42 -49
 << pdcontact >>
 rect -5 -35 0 -25
 rect 13 -35 18 -25
 rect 37 -35 42 -25
 << nsubstratendiff >>
-rect -8 -21 -3 -16
+rect -8 -20 -3 -15
 << psubstratepcontact >>
-rect -8 -62 4 -57
+rect -8 -64 4 -59
 << nsubstratencontact >>
-rect -3 -21 10 -16
+rect -3 -20 10 -15
 << polysilicon >>
 rect 1 -25 3 -22
 rect 10 -25 12 -22
 rect 28 -25 30 -22
 rect 34 -25 36 -22
-rect 1 -36 3 -35
-rect -11 -38 3 -36
-rect 1 -48 3 -38
-rect 10 -48 12 -35
+rect 1 -37 3 -35
+rect -11 -39 3 -37
+rect 1 -49 3 -39
+rect 10 -49 12 -35
 rect 28 -39 30 -35
 rect 34 -38 36 -35
-rect 28 -48 30 -44
-rect 34 -48 36 -45
-rect 1 -56 3 -53
-rect 10 -59 12 -53
-rect 28 -56 30 -53
-rect 34 -59 36 -53
-rect 10 -61 36 -59
+rect 28 -49 30 -44
+rect 34 -49 36 -45
+rect 1 -57 3 -54
+rect 10 -60 12 -54
+rect 28 -57 30 -54
+rect 34 -60 36 -54
+rect 10 -62 36 -60
 << polycontact >>
 rect 34 -22 39 -17
-rect 36 -61 41 -56
+rect 36 -62 41 -57
 << metal1 >>
-rect 4 -25 9 -21
+rect 4 -25 9 -20
 rect 13 -22 34 -17
 rect 13 -25 18 -22
 rect -5 -39 0 -35
-rect -5 -48 0 -44
-rect 13 -48 18 -35
+rect -5 -49 0 -44
+rect 13 -49 18 -35
 rect 37 -39 42 -35
 rect 37 -44 48 -39
-rect 37 -48 42 -44
-rect 4 -57 9 -53
-rect 22 -57 27 -53
-rect 4 -60 27 -57
-rect 9 -62 27 -60
-rect 41 -60 46 -56
+rect 37 -49 42 -44
+rect 4 -59 9 -54
+rect 22 -59 27 -54
+rect 4 -62 27 -59
+rect 41 -61 46 -57
+rect 9 -64 27 -62
 << m2contact >>
 rect -5 -44 0 -39
 << pm12contact >>
@@ -94,13 +94,13 @@ rect 22 -35 27 -25
 rect 9 -35 22 -25
 rect 0 -44 25 -39
 << m123contact >>
-rect -8 -21 -3 -16
-rect 4 -65 9 -60
-rect 41 -65 46 -60
+rect -8 -20 -3 -15
+rect 4 -67 9 -62
+rect 41 -66 46 -61
 << labels >>
-rlabel psubstratepcontact 2 -61 2 -61 1 GND!
-rlabel nsubstratencontact 2 -19 2 -19 1 Vdd!
 rlabel polysilicon 11 -24 11 -24 1 c
 rlabel metal1 40 -42 40 -42 1 out
-rlabel polysilicon 2 -37 2 -37 1 in
+rlabel nsubstratencontact 2 -18 2 -18 1 Vdd!
+rlabel polysilicon 2 -38 2 -38 1 in
+rlabel psubstratepcontact 2 -63 2 -63 1 GND!
 << end >>
