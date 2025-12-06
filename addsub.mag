@@ -1,6 +1,77 @@
 magic
 tech scmos
-timestamp 1761186134
+timestamp 1765000963
+<< error_s >>
+rect 41 1146 46 1147
+rect 41 1142 46 1143
+rect -4 1132 -3 1137
+rect 10 1120 11 1132
+rect 16 1116 21 1117
+rect 36 1116 41 1117
+rect 6 1102 7 1109
+rect 137 1070 142 1071
+rect 154 1033 155 1038
+rect 41 989 46 990
+rect 41 985 46 986
+rect -4 975 -3 980
+rect 10 963 11 975
+rect 16 959 21 960
+rect 36 959 41 960
+rect 6 945 7 952
+rect 137 913 142 914
+rect 154 876 155 881
+rect 41 832 46 833
+rect 41 828 46 829
+rect -4 818 -3 823
+rect 10 806 11 818
+rect 16 802 21 803
+rect 36 802 41 803
+rect 6 788 7 795
+rect 137 756 142 757
+rect 154 719 155 724
+rect 41 675 46 676
+rect 41 671 46 672
+rect -4 661 -3 666
+rect 10 649 11 661
+rect 16 645 21 646
+rect 36 645 41 646
+rect 6 631 7 638
+rect 137 599 142 600
+rect 154 562 155 567
+rect 41 518 46 519
+rect 41 514 46 515
+rect -4 504 -3 509
+rect 10 492 11 504
+rect 16 488 21 489
+rect 36 488 41 489
+rect 6 474 7 481
+rect 137 442 142 443
+rect 154 405 155 410
+rect 41 361 46 362
+rect 41 357 46 358
+rect -4 347 -3 352
+rect 10 335 11 347
+rect 16 331 21 332
+rect 36 331 41 332
+rect 6 317 7 324
+rect 137 285 142 286
+rect 154 248 155 253
+rect 41 204 46 205
+rect 41 200 46 201
+rect -4 190 -3 195
+rect 10 178 11 190
+rect 16 174 21 175
+rect 36 174 41 175
+rect 6 160 7 167
+rect 137 128 142 129
+rect 154 91 155 96
+rect 41 47 46 48
+rect 41 43 46 44
+rect -4 33 -3 38
+rect 10 21 11 33
+rect 16 17 21 18
+rect 36 17 41 18
+rect 6 3 7 10
 << pwell >>
 rect 124 -27 158 1221
 rect 124 -35 126 -27
@@ -170,66 +241,66 @@ rect 41 200 67 205
 rect 132 148 166 153
 rect 41 43 67 48
 rect 132 -9 161 -4
-use addsub_one  addsub_one_7
-timestamp 1761186134
-transform 0 -1 101 -1 0 127
-box 5 -57 162 37
-use addsub_one  addsub_one_6
-timestamp 1761186134
-transform 0 -1 101 -1 0 284
-box 5 -57 162 37
 use xor  xor_7
 timestamp 1759371655
 transform 0 1 47 1 0 -58
 box 55 -54 122 17
-use addsub_one  addsub_one_5
-timestamp 1761186134
-transform 0 -1 101 -1 0 441
+use addsub_one  addsub_one_6
+timestamp 1765000963
+transform 0 -1 101 -1 0 284
+box 5 -57 162 37
+use addsub_one  addsub_one_7
+timestamp 1765000963
+transform 0 -1 101 -1 0 127
 box 5 -57 162 37
 use xor  xor_6
 timestamp 1759371655
 transform 0 1 47 1 0 99
 box 55 -54 122 17
-use addsub_one  addsub_one_4
-timestamp 1761186134
-transform 0 -1 101 -1 0 598
+use addsub_one  addsub_one_5
+timestamp 1765000963
+transform 0 -1 101 -1 0 441
 box 5 -57 162 37
 use xor  xor_5
 timestamp 1759371655
 transform 0 1 47 1 0 256
 box 55 -54 122 17
-use addsub_one  addsub_one_3
-timestamp 1761186134
-transform 0 -1 101 -1 0 755
+use addsub_one  addsub_one_4
+timestamp 1765000963
+transform 0 -1 101 -1 0 598
 box 5 -57 162 37
 use xor  xor_4
 timestamp 1759371655
 transform 0 1 47 1 0 413
 box 55 -54 122 17
-use addsub_one  addsub_one_2
-timestamp 1761186134
-transform 0 -1 101 -1 0 912
+use addsub_one  addsub_one_3
+timestamp 1765000963
+transform 0 -1 101 -1 0 755
 box 5 -57 162 37
 use xor  xor_3
 timestamp 1759371655
 transform 0 1 47 1 0 570
 box 55 -54 122 17
-use addsub_one  addsub_one_1
-timestamp 1761186134
-transform 0 -1 101 -1 0 1069
+use addsub_one  addsub_one_2
+timestamp 1765000963
+transform 0 -1 101 -1 0 912
 box 5 -57 162 37
 use xor  xor_2
 timestamp 1759371655
 transform 0 1 47 1 0 727
 box 55 -54 122 17
-use addsub_one  addsub_one_0
-timestamp 1761186134
-transform 0 -1 101 -1 0 1226
+use addsub_one  addsub_one_1
+timestamp 1765000963
+transform 0 -1 101 -1 0 1069
 box 5 -57 162 37
 use xor  xor_1
 timestamp 1759371655
 transform 0 1 47 1 0 884
 box 55 -54 122 17
+use addsub_one  addsub_one_0
+timestamp 1765000963
+transform 0 -1 101 -1 0 1226
+box 5 -57 162 37
 use xor  xor_0
 timestamp 1759371655
 transform 0 1 47 1 0 1041
