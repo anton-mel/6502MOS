@@ -55,37 +55,37 @@ rect -34 -361 -29 -329
 rect -23 -361 -18 853
 rect -3 -361 2 853
 rect 48 -361 53 853
-use shift_one  shift_one_3
+use shift_one  shift_one_7
 timestamp 1759282424
-transform 1 0 26 0 1 340
-box -103 -73 50 42
-use shift_one  shift_one_0
-timestamp 1759282424
-transform 1 0 26 0 1 811
-box -103 -73 50 42
-use shift_one  shift_one_1
-timestamp 1759282424
-transform 1 0 26 0 1 654
-box -103 -73 50 42
-use shift_one  shift_one_2
-timestamp 1759282424
-transform 1 0 26 0 1 497
-box -103 -73 50 42
-use shift_one  shift_one_4
-timestamp 1759282424
-transform 1 0 26 0 1 183
-box -103 -73 50 42
-use shift_one  shift_one_5
-timestamp 1759282424
-transform 1 0 26 0 1 26
+transform 1 0 26 0 1 -288
 box -103 -73 50 42
 use shift_one  shift_one_6
 timestamp 1759282424
 transform 1 0 26 0 1 -131
 box -103 -73 50 42
-use shift_one  shift_one_7
+use shift_one  shift_one_5
 timestamp 1759282424
-transform 1 0 26 0 1 -288
+transform 1 0 26 0 1 26
+box -103 -73 50 42
+use shift_one  shift_one_4
+timestamp 1759282424
+transform 1 0 26 0 1 183
+box -103 -73 50 42
+use shift_one  shift_one_2
+timestamp 1759282424
+transform 1 0 26 0 1 497
+box -103 -73 50 42
+use shift_one  shift_one_1
+timestamp 1759282424
+transform 1 0 26 0 1 654
+box -103 -73 50 42
+use shift_one  shift_one_0
+timestamp 1759282424
+transform 1 0 26 0 1 811
+box -103 -73 50 42
+use shift_one  shift_one_3
+timestamp 1759282424
+transform 1 0 26 0 1 340
 box -103 -73 50 42
 << labels >>
 rlabel metal3 -3 853 2 853 5 u
