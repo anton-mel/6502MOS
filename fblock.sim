@@ -1,0 +1,344 @@
+| units: 9 tech: scmos format: MIT
+p b0 fblock_one_0/inv_2/out fblock_one_0/2mux_nr_2/in1 2 7 -31 -1121
+p fblock_one_0/2mux_nr_0/a_n17_n11# fblock_one_0/2mux_nr_2/in1 fblock_one_0/inv_1/out 2 7 -44 -1121
+p b0 fblock_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -1122
+n fblock_one_0/2mux_nr_0/a_n17_n11# fblock_one_0/inv_2/out fblock_one_0/2mux_nr_2/in1 2 7 -31 -1142
+n b0 fblock_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -1142
+n b0 fblock_one_0/2mux_nr_2/in1 fblock_one_0/inv_1/out 2 7 -44 -1142
+p b0 fblock_one_0/inv_4/out fblock_one_0/2mux_nr_2/in0 2 7 34 -1121
+p fblock_one_0/2mux_nr_1/a_n17_n11# fblock_one_0/2mux_nr_2/in0 fblock_one_0/inv_3/out 2 7 21 -1121
+p b0 fblock_one_0/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -1122
+n fblock_one_0/2mux_nr_1/a_n17_n11# fblock_one_0/inv_4/out fblock_one_0/2mux_nr_2/in0 2 7 34 -1142
+n b0 fblock_one_0/2mux_nr_1/a_n17_n11# GND! 2 7 0 -1142
+n b0 fblock_one_0/2mux_nr_2/in0 fblock_one_0/inv_3/out 2 7 21 -1142
+p a0 fblock_one_0/2mux_nr_2/in0 fblock_one_0/inv_0/in 2 7 -31 -1182
+p fblock_one_0/2mux_nr_2/a_n17_n11# fblock_one_0/inv_0/in fblock_one_0/2mux_nr_2/in1 2 7 -44 -1182
+p a0 fblock_one_0/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -1183
+n fblock_one_0/2mux_nr_2/a_n17_n11# fblock_one_0/2mux_nr_2/in0 fblock_one_0/inv_0/in 2 7 -31 -1203
+n a0 fblock_one_0/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -1203
+n a0 fblock_one_0/inv_0/in fblock_one_0/2mux_nr_2/in1 2 7 -44 -1203
+n fblock_one_0/inv_0/in GND! f0 2 7 2 -1209
+p fblock_one_0/inv_0/in Vdd! f0 2 7 2 -1189
+n g3 GND! fblock_one_0/inv_1/out 2 7 -66 -1087
+p g3 Vdd! fblock_one_0/inv_1/out 2 7 -66 -1067
+n g2 GND! fblock_one_0/inv_2/out 2 7 -33 -1087
+p g2 Vdd! fblock_one_0/inv_2/out 2 7 -33 -1067
+n g1 GND! fblock_one_0/inv_3/out 2 7 1 -1087
+p g1 Vdd! fblock_one_0/inv_3/out 2 7 1 -1067
+n g0 GND! fblock_one_0/inv_4/out 2 7 34 -1087
+p g0 Vdd! fblock_one_0/inv_4/out 2 7 34 -1067
+p b1 fblock_one_1/inv_2/out fblock_one_1/2mux_nr_2/in1 2 7 -31 -1297
+p fblock_one_1/2mux_nr_0/a_n17_n11# fblock_one_1/2mux_nr_2/in1 fblock_one_1/inv_1/out 2 7 -44 -1297
+p b1 fblock_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -1298
+n fblock_one_1/2mux_nr_0/a_n17_n11# fblock_one_1/inv_2/out fblock_one_1/2mux_nr_2/in1 2 7 -31 -1318
+n b1 fblock_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -1318
+n b1 fblock_one_1/2mux_nr_2/in1 fblock_one_1/inv_1/out 2 7 -44 -1318
+p b1 fblock_one_1/inv_4/out fblock_one_1/2mux_nr_2/in0 2 7 34 -1297
+p fblock_one_1/2mux_nr_1/a_n17_n11# fblock_one_1/2mux_nr_2/in0 fblock_one_1/inv_3/out 2 7 21 -1297
+p b1 fblock_one_1/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -1298
+n fblock_one_1/2mux_nr_1/a_n17_n11# fblock_one_1/inv_4/out fblock_one_1/2mux_nr_2/in0 2 7 34 -1318
+n b1 fblock_one_1/2mux_nr_1/a_n17_n11# GND! 2 7 0 -1318
+n b1 fblock_one_1/2mux_nr_2/in0 fblock_one_1/inv_3/out 2 7 21 -1318
+p a1 fblock_one_1/2mux_nr_2/in0 fblock_one_1/inv_0/in 2 7 -31 -1358
+p fblock_one_1/2mux_nr_2/a_n17_n11# fblock_one_1/inv_0/in fblock_one_1/2mux_nr_2/in1 2 7 -44 -1358
+p a1 fblock_one_1/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -1359
+n fblock_one_1/2mux_nr_2/a_n17_n11# fblock_one_1/2mux_nr_2/in0 fblock_one_1/inv_0/in 2 7 -31 -1379
+n a1 fblock_one_1/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -1379
+n a1 fblock_one_1/inv_0/in fblock_one_1/2mux_nr_2/in1 2 7 -44 -1379
+n fblock_one_1/inv_0/in GND! f1 2 7 2 -1385
+p fblock_one_1/inv_0/in Vdd! f1 2 7 2 -1365
+n g3 GND! fblock_one_1/inv_1/out 2 7 -66 -1263
+p g3 Vdd! fblock_one_1/inv_1/out 2 7 -66 -1243
+n g2 GND! fblock_one_1/inv_2/out 2 7 -33 -1263
+p g2 Vdd! fblock_one_1/inv_2/out 2 7 -33 -1243
+n g1 GND! fblock_one_1/inv_3/out 2 7 1 -1263
+p g1 Vdd! fblock_one_1/inv_3/out 2 7 1 -1243
+n g0 GND! fblock_one_1/inv_4/out 2 7 34 -1263
+p g0 Vdd! fblock_one_1/inv_4/out 2 7 34 -1243
+p b2 fblock_one_2/inv_2/out fblock_one_2/2mux_nr_2/in1 2 7 -31 -1473
+p fblock_one_2/2mux_nr_0/a_n17_n11# fblock_one_2/2mux_nr_2/in1 fblock_one_2/inv_1/out 2 7 -44 -1473
+p b2 fblock_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -1474
+n fblock_one_2/2mux_nr_0/a_n17_n11# fblock_one_2/inv_2/out fblock_one_2/2mux_nr_2/in1 2 7 -31 -1494
+n b2 fblock_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -1494
+n b2 fblock_one_2/2mux_nr_2/in1 fblock_one_2/inv_1/out 2 7 -44 -1494
+p b2 fblock_one_2/inv_4/out fblock_one_2/2mux_nr_2/in0 2 7 34 -1473
+p fblock_one_2/2mux_nr_1/a_n17_n11# fblock_one_2/2mux_nr_2/in0 fblock_one_2/inv_3/out 2 7 21 -1473
+p b2 fblock_one_2/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -1474
+n fblock_one_2/2mux_nr_1/a_n17_n11# fblock_one_2/inv_4/out fblock_one_2/2mux_nr_2/in0 2 7 34 -1494
+n b2 fblock_one_2/2mux_nr_1/a_n17_n11# GND! 2 7 0 -1494
+n b2 fblock_one_2/2mux_nr_2/in0 fblock_one_2/inv_3/out 2 7 21 -1494
+p a2 fblock_one_2/2mux_nr_2/in0 fblock_one_2/inv_0/in 2 7 -31 -1534
+p fblock_one_2/2mux_nr_2/a_n17_n11# fblock_one_2/inv_0/in fblock_one_2/2mux_nr_2/in1 2 7 -44 -1534
+p a2 fblock_one_2/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -1535
+n fblock_one_2/2mux_nr_2/a_n17_n11# fblock_one_2/2mux_nr_2/in0 fblock_one_2/inv_0/in 2 7 -31 -1555
+n a2 fblock_one_2/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -1555
+n a2 fblock_one_2/inv_0/in fblock_one_2/2mux_nr_2/in1 2 7 -44 -1555
+n fblock_one_2/inv_0/in GND! f2 2 7 2 -1561
+p fblock_one_2/inv_0/in Vdd! f2 2 7 2 -1541
+n g3 GND! fblock_one_2/inv_1/out 2 7 -66 -1439
+p g3 Vdd! fblock_one_2/inv_1/out 2 7 -66 -1419
+n g2 GND! fblock_one_2/inv_2/out 2 7 -33 -1439
+p g2 Vdd! fblock_one_2/inv_2/out 2 7 -33 -1419
+n g1 GND! fblock_one_2/inv_3/out 2 7 1 -1439
+p g1 Vdd! fblock_one_2/inv_3/out 2 7 1 -1419
+n g0 GND! fblock_one_2/inv_4/out 2 7 34 -1439
+p g0 Vdd! fblock_one_2/inv_4/out 2 7 34 -1419
+p b3 fblock_one_3/inv_2/out fblock_one_3/2mux_nr_2/in1 2 7 -31 -1649
+p fblock_one_3/2mux_nr_0/a_n17_n11# fblock_one_3/2mux_nr_2/in1 fblock_one_3/inv_1/out 2 7 -44 -1649
+p b3 fblock_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -1650
+n fblock_one_3/2mux_nr_0/a_n17_n11# fblock_one_3/inv_2/out fblock_one_3/2mux_nr_2/in1 2 7 -31 -1670
+n b3 fblock_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -1670
+n b3 fblock_one_3/2mux_nr_2/in1 fblock_one_3/inv_1/out 2 7 -44 -1670
+p b3 fblock_one_3/inv_4/out fblock_one_3/2mux_nr_2/in0 2 7 34 -1649
+p fblock_one_3/2mux_nr_1/a_n17_n11# fblock_one_3/2mux_nr_2/in0 fblock_one_3/inv_3/out 2 7 21 -1649
+p b3 fblock_one_3/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -1650
+n fblock_one_3/2mux_nr_1/a_n17_n11# fblock_one_3/inv_4/out fblock_one_3/2mux_nr_2/in0 2 7 34 -1670
+n b3 fblock_one_3/2mux_nr_1/a_n17_n11# GND! 2 7 0 -1670
+n b3 fblock_one_3/2mux_nr_2/in0 fblock_one_3/inv_3/out 2 7 21 -1670
+p a3 fblock_one_3/2mux_nr_2/in0 fblock_one_3/inv_0/in 2 7 -31 -1710
+p fblock_one_3/2mux_nr_2/a_n17_n11# fblock_one_3/inv_0/in fblock_one_3/2mux_nr_2/in1 2 7 -44 -1710
+p a3 fblock_one_3/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -1711
+n fblock_one_3/2mux_nr_2/a_n17_n11# fblock_one_3/2mux_nr_2/in0 fblock_one_3/inv_0/in 2 7 -31 -1731
+n a3 fblock_one_3/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -1731
+n a3 fblock_one_3/inv_0/in fblock_one_3/2mux_nr_2/in1 2 7 -44 -1731
+n fblock_one_3/inv_0/in GND! f3 2 7 2 -1737
+p fblock_one_3/inv_0/in Vdd! f3 2 7 2 -1717
+n g3 GND! fblock_one_3/inv_1/out 2 7 -66 -1615
+p g3 Vdd! fblock_one_3/inv_1/out 2 7 -66 -1595
+n g2 GND! fblock_one_3/inv_2/out 2 7 -33 -1615
+p g2 Vdd! fblock_one_3/inv_2/out 2 7 -33 -1595
+n g1 GND! fblock_one_3/inv_3/out 2 7 1 -1615
+p g1 Vdd! fblock_one_3/inv_3/out 2 7 1 -1595
+n g0 GND! fblock_one_3/inv_4/out 2 7 34 -1615
+p g0 Vdd! fblock_one_3/inv_4/out 2 7 34 -1595
+p b4 fblock_one_4/inv_2/out fblock_one_4/2mux_nr_2/in1 2 7 -31 -1825
+p fblock_one_4/2mux_nr_0/a_n17_n11# fblock_one_4/2mux_nr_2/in1 fblock_one_4/inv_1/out 2 7 -44 -1825
+p b4 fblock_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -1826
+n fblock_one_4/2mux_nr_0/a_n17_n11# fblock_one_4/inv_2/out fblock_one_4/2mux_nr_2/in1 2 7 -31 -1846
+n b4 fblock_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -1846
+n b4 fblock_one_4/2mux_nr_2/in1 fblock_one_4/inv_1/out 2 7 -44 -1846
+p b4 fblock_one_4/inv_4/out fblock_one_4/2mux_nr_2/in0 2 7 34 -1825
+p fblock_one_4/2mux_nr_1/a_n17_n11# fblock_one_4/2mux_nr_2/in0 fblock_one_4/inv_3/out 2 7 21 -1825
+p b4 fblock_one_4/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -1826
+n fblock_one_4/2mux_nr_1/a_n17_n11# fblock_one_4/inv_4/out fblock_one_4/2mux_nr_2/in0 2 7 34 -1846
+n b4 fblock_one_4/2mux_nr_1/a_n17_n11# GND! 2 7 0 -1846
+n b4 fblock_one_4/2mux_nr_2/in0 fblock_one_4/inv_3/out 2 7 21 -1846
+p a4 fblock_one_4/2mux_nr_2/in0 fblock_one_4/inv_0/in 2 7 -31 -1886
+p fblock_one_4/2mux_nr_2/a_n17_n11# fblock_one_4/inv_0/in fblock_one_4/2mux_nr_2/in1 2 7 -44 -1886
+p a4 fblock_one_4/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -1887
+n fblock_one_4/2mux_nr_2/a_n17_n11# fblock_one_4/2mux_nr_2/in0 fblock_one_4/inv_0/in 2 7 -31 -1907
+n a4 fblock_one_4/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -1907
+n a4 fblock_one_4/inv_0/in fblock_one_4/2mux_nr_2/in1 2 7 -44 -1907
+n fblock_one_4/inv_0/in GND! f4 2 7 2 -1913
+p fblock_one_4/inv_0/in Vdd! f4 2 7 2 -1893
+n g3 GND! fblock_one_4/inv_1/out 2 7 -66 -1791
+p g3 Vdd! fblock_one_4/inv_1/out 2 7 -66 -1771
+n g2 GND! fblock_one_4/inv_2/out 2 7 -33 -1791
+p g2 Vdd! fblock_one_4/inv_2/out 2 7 -33 -1771
+n g1 GND! fblock_one_4/inv_3/out 2 7 1 -1791
+p g1 Vdd! fblock_one_4/inv_3/out 2 7 1 -1771
+n g0 GND! fblock_one_4/inv_4/out 2 7 34 -1791
+p g0 Vdd! fblock_one_4/inv_4/out 2 7 34 -1771
+p b5 fblock_one_5/inv_2/out fblock_one_5/2mux_nr_2/in1 2 7 -31 -2001
+p fblock_one_5/2mux_nr_0/a_n17_n11# fblock_one_5/2mux_nr_2/in1 fblock_one_5/inv_1/out 2 7 -44 -2001
+p b5 fblock_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -2002
+n fblock_one_5/2mux_nr_0/a_n17_n11# fblock_one_5/inv_2/out fblock_one_5/2mux_nr_2/in1 2 7 -31 -2022
+n b5 fblock_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -2022
+n b5 fblock_one_5/2mux_nr_2/in1 fblock_one_5/inv_1/out 2 7 -44 -2022
+p b5 fblock_one_5/inv_4/out fblock_one_5/2mux_nr_2/in0 2 7 34 -2001
+p fblock_one_5/2mux_nr_1/a_n17_n11# fblock_one_5/2mux_nr_2/in0 fblock_one_5/inv_3/out 2 7 21 -2001
+p b5 fblock_one_5/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -2002
+n fblock_one_5/2mux_nr_1/a_n17_n11# fblock_one_5/inv_4/out fblock_one_5/2mux_nr_2/in0 2 7 34 -2022
+n b5 fblock_one_5/2mux_nr_1/a_n17_n11# GND! 2 7 0 -2022
+n b5 fblock_one_5/2mux_nr_2/in0 fblock_one_5/inv_3/out 2 7 21 -2022
+p a5 fblock_one_5/2mux_nr_2/in0 fblock_one_5/inv_0/in 2 7 -31 -2062
+p fblock_one_5/2mux_nr_2/a_n17_n11# fblock_one_5/inv_0/in fblock_one_5/2mux_nr_2/in1 2 7 -44 -2062
+p a5 fblock_one_5/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -2063
+n fblock_one_5/2mux_nr_2/a_n17_n11# fblock_one_5/2mux_nr_2/in0 fblock_one_5/inv_0/in 2 7 -31 -2083
+n a5 fblock_one_5/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -2083
+n a5 fblock_one_5/inv_0/in fblock_one_5/2mux_nr_2/in1 2 7 -44 -2083
+n fblock_one_5/inv_0/in GND! f5 2 7 2 -2089
+p fblock_one_5/inv_0/in Vdd! f5 2 7 2 -2069
+n g3 GND! fblock_one_5/inv_1/out 2 7 -66 -1967
+p g3 Vdd! fblock_one_5/inv_1/out 2 7 -66 -1947
+n g2 GND! fblock_one_5/inv_2/out 2 7 -33 -1967
+p g2 Vdd! fblock_one_5/inv_2/out 2 7 -33 -1947
+n g1 GND! fblock_one_5/inv_3/out 2 7 1 -1967
+p g1 Vdd! fblock_one_5/inv_3/out 2 7 1 -1947
+n g0 GND! fblock_one_5/inv_4/out 2 7 34 -1967
+p g0 Vdd! fblock_one_5/inv_4/out 2 7 34 -1947
+p b6 fblock_one_6/inv_2/out fblock_one_6/2mux_nr_2/in1 2 7 -31 -2177
+p fblock_one_6/2mux_nr_0/a_n17_n11# fblock_one_6/2mux_nr_2/in1 fblock_one_6/inv_1/out 2 7 -44 -2177
+p b6 fblock_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -2178
+n fblock_one_6/2mux_nr_0/a_n17_n11# fblock_one_6/inv_2/out fblock_one_6/2mux_nr_2/in1 2 7 -31 -2198
+n b6 fblock_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -2198
+n b6 fblock_one_6/2mux_nr_2/in1 fblock_one_6/inv_1/out 2 7 -44 -2198
+p b6 fblock_one_6/inv_4/out fblock_one_6/2mux_nr_2/in0 2 7 34 -2177
+p fblock_one_6/2mux_nr_1/a_n17_n11# fblock_one_6/2mux_nr_2/in0 fblock_one_6/inv_3/out 2 7 21 -2177
+p b6 fblock_one_6/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -2178
+n fblock_one_6/2mux_nr_1/a_n17_n11# fblock_one_6/inv_4/out fblock_one_6/2mux_nr_2/in0 2 7 34 -2198
+n b6 fblock_one_6/2mux_nr_1/a_n17_n11# GND! 2 7 0 -2198
+n b6 fblock_one_6/2mux_nr_2/in0 fblock_one_6/inv_3/out 2 7 21 -2198
+p a6 fblock_one_6/2mux_nr_2/in0 fblock_one_6/inv_0/in 2 7 -31 -2238
+p fblock_one_6/2mux_nr_2/a_n17_n11# fblock_one_6/inv_0/in fblock_one_6/2mux_nr_2/in1 2 7 -44 -2238
+p a6 fblock_one_6/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -2239
+n fblock_one_6/2mux_nr_2/a_n17_n11# fblock_one_6/2mux_nr_2/in0 fblock_one_6/inv_0/in 2 7 -31 -2259
+n a6 fblock_one_6/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -2259
+n a6 fblock_one_6/inv_0/in fblock_one_6/2mux_nr_2/in1 2 7 -44 -2259
+n fblock_one_6/inv_0/in GND! f6 2 7 2 -2265
+p fblock_one_6/inv_0/in Vdd! f6 2 7 2 -2245
+n g3 GND! fblock_one_6/inv_1/out 2 7 -66 -2143
+p g3 Vdd! fblock_one_6/inv_1/out 2 7 -66 -2123
+n g2 GND! fblock_one_6/inv_2/out 2 7 -33 -2143
+p g2 Vdd! fblock_one_6/inv_2/out 2 7 -33 -2123
+n g1 GND! fblock_one_6/inv_3/out 2 7 1 -2143
+p g1 Vdd! fblock_one_6/inv_3/out 2 7 1 -2123
+n g0 GND! fblock_one_6/inv_4/out 2 7 34 -2143
+p g0 Vdd! fblock_one_6/inv_4/out 2 7 34 -2123
+p b7 fblock_one_7/inv_2/out fblock_one_7/2mux_nr_2/in1 2 7 -31 -2353
+p fblock_one_7/2mux_nr_0/a_n17_n11# fblock_one_7/2mux_nr_2/in1 fblock_one_7/inv_1/out 2 7 -44 -2353
+p b7 fblock_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 -65 -2354
+n fblock_one_7/2mux_nr_0/a_n17_n11# fblock_one_7/inv_2/out fblock_one_7/2mux_nr_2/in1 2 7 -31 -2374
+n b7 fblock_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 -65 -2374
+n b7 fblock_one_7/2mux_nr_2/in1 fblock_one_7/inv_1/out 2 7 -44 -2374
+p b7 fblock_one_7/inv_4/out fblock_one_7/2mux_nr_2/in0 2 7 34 -2353
+p fblock_one_7/2mux_nr_1/a_n17_n11# fblock_one_7/2mux_nr_2/in0 fblock_one_7/inv_3/out 2 7 21 -2353
+p b7 fblock_one_7/2mux_nr_1/a_n17_n11# Vdd! 2 7 0 -2354
+n fblock_one_7/2mux_nr_1/a_n17_n11# fblock_one_7/inv_4/out fblock_one_7/2mux_nr_2/in0 2 7 34 -2374
+n b7 fblock_one_7/2mux_nr_1/a_n17_n11# GND! 2 7 0 -2374
+n b7 fblock_one_7/2mux_nr_2/in0 fblock_one_7/inv_3/out 2 7 21 -2374
+p a7 fblock_one_7/2mux_nr_2/in0 fblock_one_7/inv_0/in 2 7 -31 -2414
+p fblock_one_7/2mux_nr_2/a_n17_n11# fblock_one_7/inv_0/in fblock_one_7/2mux_nr_2/in1 2 7 -44 -2414
+p a7 fblock_one_7/2mux_nr_2/a_n17_n11# Vdd! 2 7 -65 -2415
+n fblock_one_7/2mux_nr_2/a_n17_n11# fblock_one_7/2mux_nr_2/in0 fblock_one_7/inv_0/in 2 7 -31 -2435
+n a7 fblock_one_7/2mux_nr_2/a_n17_n11# GND! 2 7 -65 -2435
+n a7 fblock_one_7/inv_0/in fblock_one_7/2mux_nr_2/in1 2 7 -44 -2435
+n fblock_one_7/inv_0/in GND! f7 2 7 2 -2441
+p fblock_one_7/inv_0/in Vdd! f7 2 7 2 -2421
+n g3 GND! fblock_one_7/inv_1/out 2 7 -66 -2319
+p g3 Vdd! fblock_one_7/inv_1/out 2 7 -66 -2299
+n g2 GND! fblock_one_7/inv_2/out 2 7 -33 -2319
+p g2 Vdd! fblock_one_7/inv_2/out 2 7 -33 -2299
+n g1 GND! fblock_one_7/inv_3/out 2 7 1 -2319
+p g1 Vdd! fblock_one_7/inv_3/out 2 7 1 -2299
+n g0 GND! fblock_one_7/inv_4/out 2 7 34 -2319
+p g0 Vdd! fblock_one_7/inv_4/out 2 7 34 -2299
+C g0 Vdd! 2.58
+C GND! g1 2.53
+C GND! g3 2.54
+C g2 Vdd! 2.26
+C GND! Vdd! 8.34
+C g1 Vdd! 2.67
+C GND! g2 2.28
+C Vdd! g3 2.21
+R GND! 4871
+R b7 1014
+C Vdd! GND 64.55
+R Vdd! 226429
+R g0 1141
+R g1 1146
+R g2 1146
+R g3 1146
+R f7 17
+R fblock_one_7/inv_0/in 151
+R fblock_one_7/2mux_nr_2/a_n17_n11# 192
+R a7 498
+R fblock_one_7/inv_4/out 88
+R fblock_one_7/2mux_nr_2/in0 91
+R fblock_one_7/inv_3/out 88
+R fblock_one_7/2mux_nr_1/a_n17_n11# 192
+R fblock_one_7/inv_2/out 88
+R fblock_one_7/2mux_nr_2/in1 90
+R fblock_one_7/inv_1/out 88
+R fblock_one_7/2mux_nr_0/a_n17_n11# 192
+R b6 1014
+R f6 17
+R fblock_one_6/inv_0/in 151
+R fblock_one_6/2mux_nr_2/a_n17_n11# 192
+R a6 498
+R fblock_one_6/inv_4/out 88
+R fblock_one_6/2mux_nr_2/in0 91
+R fblock_one_6/inv_3/out 88
+R fblock_one_6/2mux_nr_1/a_n17_n11# 192
+R fblock_one_6/inv_2/out 88
+R fblock_one_6/2mux_nr_2/in1 90
+R fblock_one_6/inv_1/out 88
+R fblock_one_6/2mux_nr_0/a_n17_n11# 192
+R b5 1014
+R f5 17
+R fblock_one_5/inv_0/in 151
+R fblock_one_5/2mux_nr_2/a_n17_n11# 192
+R a5 498
+R fblock_one_5/inv_4/out 88
+R fblock_one_5/2mux_nr_2/in0 91
+R fblock_one_5/inv_3/out 88
+R fblock_one_5/2mux_nr_1/a_n17_n11# 192
+R fblock_one_5/inv_2/out 88
+R fblock_one_5/2mux_nr_2/in1 90
+R fblock_one_5/inv_1/out 88
+R fblock_one_5/2mux_nr_0/a_n17_n11# 192
+R b4 1014
+R f4 17
+R fblock_one_4/inv_0/in 151
+R fblock_one_4/2mux_nr_2/a_n17_n11# 192
+R a4 498
+R fblock_one_4/inv_4/out 88
+R fblock_one_4/2mux_nr_2/in0 91
+R fblock_one_4/inv_3/out 88
+R fblock_one_4/2mux_nr_1/a_n17_n11# 192
+R fblock_one_4/inv_2/out 88
+R fblock_one_4/2mux_nr_2/in1 90
+R fblock_one_4/inv_1/out 88
+R fblock_one_4/2mux_nr_0/a_n17_n11# 192
+R b3 1014
+R f3 17
+R fblock_one_3/inv_0/in 151
+R fblock_one_3/2mux_nr_2/a_n17_n11# 192
+R a3 498
+R fblock_one_3/inv_4/out 88
+R fblock_one_3/2mux_nr_2/in0 91
+R fblock_one_3/inv_3/out 88
+R fblock_one_3/2mux_nr_1/a_n17_n11# 192
+R fblock_one_3/inv_2/out 88
+R fblock_one_3/2mux_nr_2/in1 90
+R fblock_one_3/inv_1/out 88
+R fblock_one_3/2mux_nr_0/a_n17_n11# 192
+R b2 1014
+R f2 18
+R fblock_one_2/inv_0/in 151
+R fblock_one_2/2mux_nr_2/a_n17_n11# 192
+R a2 498
+R fblock_one_2/inv_4/out 88
+R fblock_one_2/2mux_nr_2/in0 91
+R fblock_one_2/inv_3/out 88
+R fblock_one_2/2mux_nr_1/a_n17_n11# 192
+R fblock_one_2/inv_2/out 88
+R fblock_one_2/2mux_nr_2/in1 90
+R fblock_one_2/inv_1/out 88
+R fblock_one_2/2mux_nr_0/a_n17_n11# 192
+R b1 1014
+R f1 17
+R fblock_one_1/inv_0/in 151
+R fblock_one_1/2mux_nr_2/a_n17_n11# 192
+R a1 498
+R fblock_one_1/inv_4/out 88
+R fblock_one_1/2mux_nr_2/in0 91
+R fblock_one_1/inv_3/out 88
+R fblock_one_1/2mux_nr_1/a_n17_n11# 192
+R fblock_one_1/inv_2/out 88
+R fblock_one_1/2mux_nr_2/in1 90
+R fblock_one_1/inv_1/out 88
+R fblock_one_1/2mux_nr_0/a_n17_n11# 192
+R b0 1014
+R f0 17
+R fblock_one_0/inv_0/in 151
+R fblock_one_0/2mux_nr_2/a_n17_n11# 192
+R a0 498
+R fblock_one_0/inv_4/out 88
+R fblock_one_0/2mux_nr_2/in0 91
+R fblock_one_0/inv_3/out 88
+R fblock_one_0/2mux_nr_1/a_n17_n11# 192
+R fblock_one_0/inv_2/out 88
+R fblock_one_0/2mux_nr_2/in1 90
+R fblock_one_0/inv_1/out 88
+R fblock_one_0/2mux_nr_0/a_n17_n11# 192

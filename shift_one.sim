@@ -1,0 +1,37 @@
+| units: 9 tech: scmos format: MIT
+p u inv_1/out 2mux_nr_1/in1 2 7 -41 -17
+p 2mux_nr_0/a_n17_n11# 2mux_nr_1/in1 inv_0/out 2 7 -41 -4
+p u 2mux_nr_0/a_n17_n11# Vdd! 2 7 -40 17
+n 2mux_nr_0/a_n17_n11# inv_1/out 2mux_nr_1/in1 2 7 -20 -17
+n u 2mux_nr_0/a_n17_n11# GND! 2 7 -20 17
+n u 2mux_nr_1/in1 inv_0/out 2 7 -20 -4
+p s inv_2/out inv_3/in 2 7 21 -17
+p 2mux_nr_1/a_n17_n11# inv_3/in 2mux_nr_1/in1 2 7 21 -4
+p s 2mux_nr_1/a_n17_n11# Vdd! 2 7 22 17
+n 2mux_nr_1/a_n17_n11# inv_2/out inv_3/in 2 7 42 -17
+n s 2mux_nr_1/a_n17_n11# GND! 2 7 42 17
+n s inv_3/in 2mux_nr_1/in1 2 7 42 -4
+n au GND! inv_0/out 2 7 -74 17
+p au Vdd! inv_0/out 2 7 -94 17
+n ad GND! inv_1/out 2 7 -74 -21
+p ad Vdd! inv_1/out 2 7 -94 -21
+n a GND! inv_2/out 2 7 -14 -54
+p a Vdd! inv_2/out 2 7 -34 -54
+n inv_3/in GND! o 2 7 11 -53
+p inv_3/in Vdd! o 2 7 31 -53
+R GND! 422
+C Vdd! GND 4.90
+R Vdd! 20999
+R o 18
+R inv_3/in 151
+R inv_2/out 88
+R a 128
+R inv_1/out 89
+R ad 127
+R inv_0/out 89
+R au 127
+R 2mux_nr_1/a_n17_n11# 192
+R s 499
+R 2mux_nr_1/in1 90
+R 2mux_nr_0/a_n17_n11# 192
+R u 499

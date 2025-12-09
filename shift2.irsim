@@ -1,0 +1,6197 @@
+h Vdd!
+l GND!
+
+vector a a7 a6 a5 a4 a3 a2 a1 a0
+vector o o7 o6 o5 o4 o3 o2 o1 o0
+
+ana a s u o
+
+# --- init ---
+l s
+l u
+setvector a 00000000
+s
+path o
+
+# --- step 0: a=0x00  s=0 u=0  EXPECT o=0x00 (bin 00000000) ---
+setvector a 00000000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 1: a=0x00  s=1 u=0  EXPECT o=0x00 (bin 00000000) ---
+setvector a 00000000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 2: a=0x00  s=1 u=1  EXPECT o=0x00 (bin 00000000) ---
+setvector a 00000000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 3: a=0x01  s=0 u=0  EXPECT o=0x01 (bin 10000000) ---
+setvector a 10000000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 4: a=0x01  s=1 u=0  EXPECT o=0x00 (bin 00000000) ---
+setvector a 10000000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 5: a=0x01  s=1 u=1  EXPECT o=0x02 (bin 01000000) ---
+setvector a 10000000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 6: a=0x02  s=0 u=0  EXPECT o=0x02 (bin 01000000) ---
+setvector a 01000000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 7: a=0x02  s=1 u=0  EXPECT o=0x01 (bin 10000000) ---
+setvector a 01000000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 8: a=0x02  s=1 u=1  EXPECT o=0x04 (bin 00100000) ---
+setvector a 01000000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 9: a=0x03  s=0 u=0  EXPECT o=0x03 (bin 11000000) ---
+setvector a 11000000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 10: a=0x03  s=1 u=0  EXPECT o=0x01 (bin 10000000) ---
+setvector a 11000000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 11: a=0x03  s=1 u=1  EXPECT o=0x06 (bin 01100000) ---
+setvector a 11000000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 12: a=0x04  s=0 u=0  EXPECT o=0x04 (bin 00100000) ---
+setvector a 00100000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 13: a=0x04  s=1 u=0  EXPECT o=0x02 (bin 01000000) ---
+setvector a 00100000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 14: a=0x04  s=1 u=1  EXPECT o=0x08 (bin 00010000) ---
+setvector a 00100000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 15: a=0x05  s=0 u=0  EXPECT o=0x05 (bin 10100000) ---
+setvector a 10100000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 16: a=0x05  s=1 u=0  EXPECT o=0x02 (bin 01000000) ---
+setvector a 10100000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 17: a=0x05  s=1 u=1  EXPECT o=0x0A (bin 01010000) ---
+setvector a 10100000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 18: a=0x06  s=0 u=0  EXPECT o=0x06 (bin 01100000) ---
+setvector a 01100000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 19: a=0x06  s=1 u=0  EXPECT o=0x03 (bin 11000000) ---
+setvector a 01100000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 20: a=0x06  s=1 u=1  EXPECT o=0x0C (bin 00110000) ---
+setvector a 01100000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 21: a=0x07  s=0 u=0  EXPECT o=0x07 (bin 11100000) ---
+setvector a 11100000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 22: a=0x07  s=1 u=0  EXPECT o=0x03 (bin 11000000) ---
+setvector a 11100000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 23: a=0x07  s=1 u=1  EXPECT o=0x0E (bin 01110000) ---
+setvector a 11100000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 24: a=0x08  s=0 u=0  EXPECT o=0x08 (bin 00010000) ---
+setvector a 00010000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 25: a=0x08  s=1 u=0  EXPECT o=0x04 (bin 00100000) ---
+setvector a 00010000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 26: a=0x08  s=1 u=1  EXPECT o=0x10 (bin 00001000) ---
+setvector a 00010000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 27: a=0x09  s=0 u=0  EXPECT o=0x09 (bin 10010000) ---
+setvector a 10010000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 28: a=0x09  s=1 u=0  EXPECT o=0x04 (bin 00100000) ---
+setvector a 10010000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 29: a=0x09  s=1 u=1  EXPECT o=0x12 (bin 01001000) ---
+setvector a 10010000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 30: a=0x0A  s=0 u=0  EXPECT o=0x0A (bin 01010000) ---
+setvector a 01010000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 31: a=0x0A  s=1 u=0  EXPECT o=0x05 (bin 10100000) ---
+setvector a 01010000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 32: a=0x0A  s=1 u=1  EXPECT o=0x14 (bin 00101000) ---
+setvector a 01010000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 33: a=0x0B  s=0 u=0  EXPECT o=0x0B (bin 11010000) ---
+setvector a 11010000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 34: a=0x0B  s=1 u=0  EXPECT o=0x05 (bin 10100000) ---
+setvector a 11010000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 35: a=0x0B  s=1 u=1  EXPECT o=0x16 (bin 01101000) ---
+setvector a 11010000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 36: a=0x0C  s=0 u=0  EXPECT o=0x0C (bin 00110000) ---
+setvector a 00110000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 37: a=0x0C  s=1 u=0  EXPECT o=0x06 (bin 01100000) ---
+setvector a 00110000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 38: a=0x0C  s=1 u=1  EXPECT o=0x18 (bin 00011000) ---
+setvector a 00110000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 39: a=0x0D  s=0 u=0  EXPECT o=0x0D (bin 10110000) ---
+setvector a 10110000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 40: a=0x0D  s=1 u=0  EXPECT o=0x06 (bin 01100000) ---
+setvector a 10110000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 41: a=0x0D  s=1 u=1  EXPECT o=0x1A (bin 01011000) ---
+setvector a 10110000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 42: a=0x0E  s=0 u=0  EXPECT o=0x0E (bin 01110000) ---
+setvector a 01110000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 43: a=0x0E  s=1 u=0  EXPECT o=0x07 (bin 11100000) ---
+setvector a 01110000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 44: a=0x0E  s=1 u=1  EXPECT o=0x1C (bin 00111000) ---
+setvector a 01110000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 45: a=0x0F  s=0 u=0  EXPECT o=0x0F (bin 11110000) ---
+setvector a 11110000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 46: a=0x0F  s=1 u=0  EXPECT o=0x07 (bin 11100000) ---
+setvector a 11110000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 47: a=0x0F  s=1 u=1  EXPECT o=0x1E (bin 01111000) ---
+setvector a 11110000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 48: a=0x10  s=0 u=0  EXPECT o=0x10 (bin 00001000) ---
+setvector a 00001000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 49: a=0x10  s=1 u=0  EXPECT o=0x08 (bin 00010000) ---
+setvector a 00001000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 50: a=0x10  s=1 u=1  EXPECT o=0x20 (bin 00000100) ---
+setvector a 00001000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 51: a=0x11  s=0 u=0  EXPECT o=0x11 (bin 10001000) ---
+setvector a 10001000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 52: a=0x11  s=1 u=0  EXPECT o=0x08 (bin 00010000) ---
+setvector a 10001000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 53: a=0x11  s=1 u=1  EXPECT o=0x22 (bin 01000100) ---
+setvector a 10001000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 54: a=0x12  s=0 u=0  EXPECT o=0x12 (bin 01001000) ---
+setvector a 01001000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 55: a=0x12  s=1 u=0  EXPECT o=0x09 (bin 10010000) ---
+setvector a 01001000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 56: a=0x12  s=1 u=1  EXPECT o=0x24 (bin 00100100) ---
+setvector a 01001000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 57: a=0x13  s=0 u=0  EXPECT o=0x13 (bin 11001000) ---
+setvector a 11001000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 58: a=0x13  s=1 u=0  EXPECT o=0x09 (bin 10010000) ---
+setvector a 11001000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 59: a=0x13  s=1 u=1  EXPECT o=0x26 (bin 01100100) ---
+setvector a 11001000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 60: a=0x14  s=0 u=0  EXPECT o=0x14 (bin 00101000) ---
+setvector a 00101000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 61: a=0x14  s=1 u=0  EXPECT o=0x0A (bin 01010000) ---
+setvector a 00101000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 62: a=0x14  s=1 u=1  EXPECT o=0x28 (bin 00010100) ---
+setvector a 00101000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 63: a=0x15  s=0 u=0  EXPECT o=0x15 (bin 10101000) ---
+setvector a 10101000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 64: a=0x15  s=1 u=0  EXPECT o=0x0A (bin 01010000) ---
+setvector a 10101000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 65: a=0x15  s=1 u=1  EXPECT o=0x2A (bin 01010100) ---
+setvector a 10101000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 66: a=0x16  s=0 u=0  EXPECT o=0x16 (bin 01101000) ---
+setvector a 01101000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 67: a=0x16  s=1 u=0  EXPECT o=0x0B (bin 11010000) ---
+setvector a 01101000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 68: a=0x16  s=1 u=1  EXPECT o=0x2C (bin 00110100) ---
+setvector a 01101000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 69: a=0x17  s=0 u=0  EXPECT o=0x17 (bin 11101000) ---
+setvector a 11101000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 70: a=0x17  s=1 u=0  EXPECT o=0x0B (bin 11010000) ---
+setvector a 11101000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 71: a=0x17  s=1 u=1  EXPECT o=0x2E (bin 01110100) ---
+setvector a 11101000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 72: a=0x18  s=0 u=0  EXPECT o=0x18 (bin 00011000) ---
+setvector a 00011000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 73: a=0x18  s=1 u=0  EXPECT o=0x0C (bin 00110000) ---
+setvector a 00011000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 74: a=0x18  s=1 u=1  EXPECT o=0x30 (bin 00001100) ---
+setvector a 00011000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 75: a=0x19  s=0 u=0  EXPECT o=0x19 (bin 10011000) ---
+setvector a 10011000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 76: a=0x19  s=1 u=0  EXPECT o=0x0C (bin 00110000) ---
+setvector a 10011000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 77: a=0x19  s=1 u=1  EXPECT o=0x32 (bin 01001100) ---
+setvector a 10011000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 78: a=0x1A  s=0 u=0  EXPECT o=0x1A (bin 01011000) ---
+setvector a 01011000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 79: a=0x1A  s=1 u=0  EXPECT o=0x0D (bin 10110000) ---
+setvector a 01011000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 80: a=0x1A  s=1 u=1  EXPECT o=0x34 (bin 00101100) ---
+setvector a 01011000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 81: a=0x1B  s=0 u=0  EXPECT o=0x1B (bin 11011000) ---
+setvector a 11011000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 82: a=0x1B  s=1 u=0  EXPECT o=0x0D (bin 10110000) ---
+setvector a 11011000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 83: a=0x1B  s=1 u=1  EXPECT o=0x36 (bin 01101100) ---
+setvector a 11011000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 84: a=0x1C  s=0 u=0  EXPECT o=0x1C (bin 00111000) ---
+setvector a 00111000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 85: a=0x1C  s=1 u=0  EXPECT o=0x0E (bin 01110000) ---
+setvector a 00111000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 86: a=0x1C  s=1 u=1  EXPECT o=0x38 (bin 00011100) ---
+setvector a 00111000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 87: a=0x1D  s=0 u=0  EXPECT o=0x1D (bin 10111000) ---
+setvector a 10111000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 88: a=0x1D  s=1 u=0  EXPECT o=0x0E (bin 01110000) ---
+setvector a 10111000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 89: a=0x1D  s=1 u=1  EXPECT o=0x3A (bin 01011100) ---
+setvector a 10111000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 90: a=0x1E  s=0 u=0  EXPECT o=0x1E (bin 01111000) ---
+setvector a 01111000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 91: a=0x1E  s=1 u=0  EXPECT o=0x0F (bin 11110000) ---
+setvector a 01111000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 92: a=0x1E  s=1 u=1  EXPECT o=0x3C (bin 00111100) ---
+setvector a 01111000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 93: a=0x1F  s=0 u=0  EXPECT o=0x1F (bin 11111000) ---
+setvector a 11111000
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 94: a=0x1F  s=1 u=0  EXPECT o=0x0F (bin 11110000) ---
+setvector a 11111000
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 95: a=0x1F  s=1 u=1  EXPECT o=0x3E (bin 01111100) ---
+setvector a 11111000
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 96: a=0x20  s=0 u=0  EXPECT o=0x20 (bin 00000100) ---
+setvector a 00000100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 97: a=0x20  s=1 u=0  EXPECT o=0x10 (bin 00001000) ---
+setvector a 00000100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 98: a=0x20  s=1 u=1  EXPECT o=0x40 (bin 00000010) ---
+setvector a 00000100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 99: a=0x21  s=0 u=0  EXPECT o=0x21 (bin 10000100) ---
+setvector a 10000100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 100: a=0x21  s=1 u=0  EXPECT o=0x10 (bin 00001000) ---
+setvector a 10000100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 101: a=0x21  s=1 u=1  EXPECT o=0x42 (bin 01000010) ---
+setvector a 10000100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 102: a=0x22  s=0 u=0  EXPECT o=0x22 (bin 01000100) ---
+setvector a 01000100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 103: a=0x22  s=1 u=0  EXPECT o=0x11 (bin 10001000) ---
+setvector a 01000100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 104: a=0x22  s=1 u=1  EXPECT o=0x44 (bin 00100010) ---
+setvector a 01000100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 105: a=0x23  s=0 u=0  EXPECT o=0x23 (bin 11000100) ---
+setvector a 11000100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 106: a=0x23  s=1 u=0  EXPECT o=0x11 (bin 10001000) ---
+setvector a 11000100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 107: a=0x23  s=1 u=1  EXPECT o=0x46 (bin 01100010) ---
+setvector a 11000100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 108: a=0x24  s=0 u=0  EXPECT o=0x24 (bin 00100100) ---
+setvector a 00100100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 109: a=0x24  s=1 u=0  EXPECT o=0x12 (bin 01001000) ---
+setvector a 00100100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 110: a=0x24  s=1 u=1  EXPECT o=0x48 (bin 00010010) ---
+setvector a 00100100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 111: a=0x25  s=0 u=0  EXPECT o=0x25 (bin 10100100) ---
+setvector a 10100100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 112: a=0x25  s=1 u=0  EXPECT o=0x12 (bin 01001000) ---
+setvector a 10100100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 113: a=0x25  s=1 u=1  EXPECT o=0x4A (bin 01010010) ---
+setvector a 10100100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 114: a=0x26  s=0 u=0  EXPECT o=0x26 (bin 01100100) ---
+setvector a 01100100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 115: a=0x26  s=1 u=0  EXPECT o=0x13 (bin 11001000) ---
+setvector a 01100100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 116: a=0x26  s=1 u=1  EXPECT o=0x4C (bin 00110010) ---
+setvector a 01100100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 117: a=0x27  s=0 u=0  EXPECT o=0x27 (bin 11100100) ---
+setvector a 11100100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 118: a=0x27  s=1 u=0  EXPECT o=0x13 (bin 11001000) ---
+setvector a 11100100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 119: a=0x27  s=1 u=1  EXPECT o=0x4E (bin 01110010) ---
+setvector a 11100100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 120: a=0x28  s=0 u=0  EXPECT o=0x28 (bin 00010100) ---
+setvector a 00010100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 121: a=0x28  s=1 u=0  EXPECT o=0x14 (bin 00101000) ---
+setvector a 00010100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 122: a=0x28  s=1 u=1  EXPECT o=0x50 (bin 00001010) ---
+setvector a 00010100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 123: a=0x29  s=0 u=0  EXPECT o=0x29 (bin 10010100) ---
+setvector a 10010100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 124: a=0x29  s=1 u=0  EXPECT o=0x14 (bin 00101000) ---
+setvector a 10010100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 125: a=0x29  s=1 u=1  EXPECT o=0x52 (bin 01001010) ---
+setvector a 10010100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 126: a=0x2A  s=0 u=0  EXPECT o=0x2A (bin 01010100) ---
+setvector a 01010100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 127: a=0x2A  s=1 u=0  EXPECT o=0x15 (bin 10101000) ---
+setvector a 01010100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 128: a=0x2A  s=1 u=1  EXPECT o=0x54 (bin 00101010) ---
+setvector a 01010100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 129: a=0x2B  s=0 u=0  EXPECT o=0x2B (bin 11010100) ---
+setvector a 11010100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 130: a=0x2B  s=1 u=0  EXPECT o=0x15 (bin 10101000) ---
+setvector a 11010100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 131: a=0x2B  s=1 u=1  EXPECT o=0x56 (bin 01101010) ---
+setvector a 11010100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 132: a=0x2C  s=0 u=0  EXPECT o=0x2C (bin 00110100) ---
+setvector a 00110100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 133: a=0x2C  s=1 u=0  EXPECT o=0x16 (bin 01101000) ---
+setvector a 00110100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 134: a=0x2C  s=1 u=1  EXPECT o=0x58 (bin 00011010) ---
+setvector a 00110100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 135: a=0x2D  s=0 u=0  EXPECT o=0x2D (bin 10110100) ---
+setvector a 10110100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 136: a=0x2D  s=1 u=0  EXPECT o=0x16 (bin 01101000) ---
+setvector a 10110100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 137: a=0x2D  s=1 u=1  EXPECT o=0x5A (bin 01011010) ---
+setvector a 10110100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 138: a=0x2E  s=0 u=0  EXPECT o=0x2E (bin 01110100) ---
+setvector a 01110100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 139: a=0x2E  s=1 u=0  EXPECT o=0x17 (bin 11101000) ---
+setvector a 01110100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 140: a=0x2E  s=1 u=1  EXPECT o=0x5C (bin 00111010) ---
+setvector a 01110100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 141: a=0x2F  s=0 u=0  EXPECT o=0x2F (bin 11110100) ---
+setvector a 11110100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 142: a=0x2F  s=1 u=0  EXPECT o=0x17 (bin 11101000) ---
+setvector a 11110100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 143: a=0x2F  s=1 u=1  EXPECT o=0x5E (bin 01111010) ---
+setvector a 11110100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 144: a=0x30  s=0 u=0  EXPECT o=0x30 (bin 00001100) ---
+setvector a 00001100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 145: a=0x30  s=1 u=0  EXPECT o=0x18 (bin 00011000) ---
+setvector a 00001100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 146: a=0x30  s=1 u=1  EXPECT o=0x60 (bin 00000110) ---
+setvector a 00001100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 147: a=0x31  s=0 u=0  EXPECT o=0x31 (bin 10001100) ---
+setvector a 10001100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 148: a=0x31  s=1 u=0  EXPECT o=0x18 (bin 00011000) ---
+setvector a 10001100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 149: a=0x31  s=1 u=1  EXPECT o=0x62 (bin 01000110) ---
+setvector a 10001100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 150: a=0x32  s=0 u=0  EXPECT o=0x32 (bin 01001100) ---
+setvector a 01001100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 151: a=0x32  s=1 u=0  EXPECT o=0x19 (bin 10011000) ---
+setvector a 01001100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 152: a=0x32  s=1 u=1  EXPECT o=0x64 (bin 00100110) ---
+setvector a 01001100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 153: a=0x33  s=0 u=0  EXPECT o=0x33 (bin 11001100) ---
+setvector a 11001100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 154: a=0x33  s=1 u=0  EXPECT o=0x19 (bin 10011000) ---
+setvector a 11001100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 155: a=0x33  s=1 u=1  EXPECT o=0x66 (bin 01100110) ---
+setvector a 11001100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 156: a=0x34  s=0 u=0  EXPECT o=0x34 (bin 00101100) ---
+setvector a 00101100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 157: a=0x34  s=1 u=0  EXPECT o=0x1A (bin 01011000) ---
+setvector a 00101100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 158: a=0x34  s=1 u=1  EXPECT o=0x68 (bin 00010110) ---
+setvector a 00101100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 159: a=0x35  s=0 u=0  EXPECT o=0x35 (bin 10101100) ---
+setvector a 10101100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 160: a=0x35  s=1 u=0  EXPECT o=0x1A (bin 01011000) ---
+setvector a 10101100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 161: a=0x35  s=1 u=1  EXPECT o=0x6A (bin 01010110) ---
+setvector a 10101100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 162: a=0x36  s=0 u=0  EXPECT o=0x36 (bin 01101100) ---
+setvector a 01101100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 163: a=0x36  s=1 u=0  EXPECT o=0x1B (bin 11011000) ---
+setvector a 01101100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 164: a=0x36  s=1 u=1  EXPECT o=0x6C (bin 00110110) ---
+setvector a 01101100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 165: a=0x37  s=0 u=0  EXPECT o=0x37 (bin 11101100) ---
+setvector a 11101100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 166: a=0x37  s=1 u=0  EXPECT o=0x1B (bin 11011000) ---
+setvector a 11101100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 167: a=0x37  s=1 u=1  EXPECT o=0x6E (bin 01110110) ---
+setvector a 11101100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 168: a=0x38  s=0 u=0  EXPECT o=0x38 (bin 00011100) ---
+setvector a 00011100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 169: a=0x38  s=1 u=0  EXPECT o=0x1C (bin 00111000) ---
+setvector a 00011100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 170: a=0x38  s=1 u=1  EXPECT o=0x70 (bin 00001110) ---
+setvector a 00011100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 171: a=0x39  s=0 u=0  EXPECT o=0x39 (bin 10011100) ---
+setvector a 10011100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 172: a=0x39  s=1 u=0  EXPECT o=0x1C (bin 00111000) ---
+setvector a 10011100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 173: a=0x39  s=1 u=1  EXPECT o=0x72 (bin 01001110) ---
+setvector a 10011100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 174: a=0x3A  s=0 u=0  EXPECT o=0x3A (bin 01011100) ---
+setvector a 01011100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 175: a=0x3A  s=1 u=0  EXPECT o=0x1D (bin 10111000) ---
+setvector a 01011100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 176: a=0x3A  s=1 u=1  EXPECT o=0x74 (bin 00101110) ---
+setvector a 01011100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 177: a=0x3B  s=0 u=0  EXPECT o=0x3B (bin 11011100) ---
+setvector a 11011100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 178: a=0x3B  s=1 u=0  EXPECT o=0x1D (bin 10111000) ---
+setvector a 11011100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 179: a=0x3B  s=1 u=1  EXPECT o=0x76 (bin 01101110) ---
+setvector a 11011100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 180: a=0x3C  s=0 u=0  EXPECT o=0x3C (bin 00111100) ---
+setvector a 00111100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 181: a=0x3C  s=1 u=0  EXPECT o=0x1E (bin 01111000) ---
+setvector a 00111100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 182: a=0x3C  s=1 u=1  EXPECT o=0x78 (bin 00011110) ---
+setvector a 00111100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 183: a=0x3D  s=0 u=0  EXPECT o=0x3D (bin 10111100) ---
+setvector a 10111100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 184: a=0x3D  s=1 u=0  EXPECT o=0x1E (bin 01111000) ---
+setvector a 10111100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 185: a=0x3D  s=1 u=1  EXPECT o=0x7A (bin 01011110) ---
+setvector a 10111100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 186: a=0x3E  s=0 u=0  EXPECT o=0x3E (bin 01111100) ---
+setvector a 01111100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 187: a=0x3E  s=1 u=0  EXPECT o=0x1F (bin 11111000) ---
+setvector a 01111100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 188: a=0x3E  s=1 u=1  EXPECT o=0x7C (bin 00111110) ---
+setvector a 01111100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 189: a=0x3F  s=0 u=0  EXPECT o=0x3F (bin 11111100) ---
+setvector a 11111100
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 190: a=0x3F  s=1 u=0  EXPECT o=0x1F (bin 11111000) ---
+setvector a 11111100
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 191: a=0x3F  s=1 u=1  EXPECT o=0x7E (bin 01111110) ---
+setvector a 11111100
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 192: a=0x40  s=0 u=0  EXPECT o=0x40 (bin 00000010) ---
+setvector a 00000010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 193: a=0x40  s=1 u=0  EXPECT o=0x20 (bin 00000100) ---
+setvector a 00000010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 194: a=0x40  s=1 u=1  EXPECT o=0x80 (bin 00000001) ---
+setvector a 00000010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 195: a=0x41  s=0 u=0  EXPECT o=0x41 (bin 10000010) ---
+setvector a 10000010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 196: a=0x41  s=1 u=0  EXPECT o=0x20 (bin 00000100) ---
+setvector a 10000010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 197: a=0x41  s=1 u=1  EXPECT o=0x82 (bin 01000001) ---
+setvector a 10000010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 198: a=0x42  s=0 u=0  EXPECT o=0x42 (bin 01000010) ---
+setvector a 01000010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 199: a=0x42  s=1 u=0  EXPECT o=0x21 (bin 10000100) ---
+setvector a 01000010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 200: a=0x42  s=1 u=1  EXPECT o=0x84 (bin 00100001) ---
+setvector a 01000010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 201: a=0x43  s=0 u=0  EXPECT o=0x43 (bin 11000010) ---
+setvector a 11000010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 202: a=0x43  s=1 u=0  EXPECT o=0x21 (bin 10000100) ---
+setvector a 11000010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 203: a=0x43  s=1 u=1  EXPECT o=0x86 (bin 01100001) ---
+setvector a 11000010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 204: a=0x44  s=0 u=0  EXPECT o=0x44 (bin 00100010) ---
+setvector a 00100010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 205: a=0x44  s=1 u=0  EXPECT o=0x22 (bin 01000100) ---
+setvector a 00100010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 206: a=0x44  s=1 u=1  EXPECT o=0x88 (bin 00010001) ---
+setvector a 00100010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 207: a=0x45  s=0 u=0  EXPECT o=0x45 (bin 10100010) ---
+setvector a 10100010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 208: a=0x45  s=1 u=0  EXPECT o=0x22 (bin 01000100) ---
+setvector a 10100010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 209: a=0x45  s=1 u=1  EXPECT o=0x8A (bin 01010001) ---
+setvector a 10100010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 210: a=0x46  s=0 u=0  EXPECT o=0x46 (bin 01100010) ---
+setvector a 01100010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 211: a=0x46  s=1 u=0  EXPECT o=0x23 (bin 11000100) ---
+setvector a 01100010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 212: a=0x46  s=1 u=1  EXPECT o=0x8C (bin 00110001) ---
+setvector a 01100010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 213: a=0x47  s=0 u=0  EXPECT o=0x47 (bin 11100010) ---
+setvector a 11100010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 214: a=0x47  s=1 u=0  EXPECT o=0x23 (bin 11000100) ---
+setvector a 11100010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 215: a=0x47  s=1 u=1  EXPECT o=0x8E (bin 01110001) ---
+setvector a 11100010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 216: a=0x48  s=0 u=0  EXPECT o=0x48 (bin 00010010) ---
+setvector a 00010010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 217: a=0x48  s=1 u=0  EXPECT o=0x24 (bin 00100100) ---
+setvector a 00010010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 218: a=0x48  s=1 u=1  EXPECT o=0x90 (bin 00001001) ---
+setvector a 00010010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 219: a=0x49  s=0 u=0  EXPECT o=0x49 (bin 10010010) ---
+setvector a 10010010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 220: a=0x49  s=1 u=0  EXPECT o=0x24 (bin 00100100) ---
+setvector a 10010010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 221: a=0x49  s=1 u=1  EXPECT o=0x92 (bin 01001001) ---
+setvector a 10010010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 222: a=0x4A  s=0 u=0  EXPECT o=0x4A (bin 01010010) ---
+setvector a 01010010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 223: a=0x4A  s=1 u=0  EXPECT o=0x25 (bin 10100100) ---
+setvector a 01010010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 224: a=0x4A  s=1 u=1  EXPECT o=0x94 (bin 00101001) ---
+setvector a 01010010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 225: a=0x4B  s=0 u=0  EXPECT o=0x4B (bin 11010010) ---
+setvector a 11010010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 226: a=0x4B  s=1 u=0  EXPECT o=0x25 (bin 10100100) ---
+setvector a 11010010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 227: a=0x4B  s=1 u=1  EXPECT o=0x96 (bin 01101001) ---
+setvector a 11010010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 228: a=0x4C  s=0 u=0  EXPECT o=0x4C (bin 00110010) ---
+setvector a 00110010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 229: a=0x4C  s=1 u=0  EXPECT o=0x26 (bin 01100100) ---
+setvector a 00110010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 230: a=0x4C  s=1 u=1  EXPECT o=0x98 (bin 00011001) ---
+setvector a 00110010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 231: a=0x4D  s=0 u=0  EXPECT o=0x4D (bin 10110010) ---
+setvector a 10110010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 232: a=0x4D  s=1 u=0  EXPECT o=0x26 (bin 01100100) ---
+setvector a 10110010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 233: a=0x4D  s=1 u=1  EXPECT o=0x9A (bin 01011001) ---
+setvector a 10110010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 234: a=0x4E  s=0 u=0  EXPECT o=0x4E (bin 01110010) ---
+setvector a 01110010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 235: a=0x4E  s=1 u=0  EXPECT o=0x27 (bin 11100100) ---
+setvector a 01110010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 236: a=0x4E  s=1 u=1  EXPECT o=0x9C (bin 00111001) ---
+setvector a 01110010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 237: a=0x4F  s=0 u=0  EXPECT o=0x4F (bin 11110010) ---
+setvector a 11110010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 238: a=0x4F  s=1 u=0  EXPECT o=0x27 (bin 11100100) ---
+setvector a 11110010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 239: a=0x4F  s=1 u=1  EXPECT o=0x9E (bin 01111001) ---
+setvector a 11110010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 240: a=0x50  s=0 u=0  EXPECT o=0x50 (bin 00001010) ---
+setvector a 00001010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 241: a=0x50  s=1 u=0  EXPECT o=0x28 (bin 00010100) ---
+setvector a 00001010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 242: a=0x50  s=1 u=1  EXPECT o=0xA0 (bin 00000101) ---
+setvector a 00001010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 243: a=0x51  s=0 u=0  EXPECT o=0x51 (bin 10001010) ---
+setvector a 10001010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 244: a=0x51  s=1 u=0  EXPECT o=0x28 (bin 00010100) ---
+setvector a 10001010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 245: a=0x51  s=1 u=1  EXPECT o=0xA2 (bin 01000101) ---
+setvector a 10001010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 246: a=0x52  s=0 u=0  EXPECT o=0x52 (bin 01001010) ---
+setvector a 01001010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 247: a=0x52  s=1 u=0  EXPECT o=0x29 (bin 10010100) ---
+setvector a 01001010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 248: a=0x52  s=1 u=1  EXPECT o=0xA4 (bin 00100101) ---
+setvector a 01001010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 249: a=0x53  s=0 u=0  EXPECT o=0x53 (bin 11001010) ---
+setvector a 11001010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 250: a=0x53  s=1 u=0  EXPECT o=0x29 (bin 10010100) ---
+setvector a 11001010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 251: a=0x53  s=1 u=1  EXPECT o=0xA6 (bin 01100101) ---
+setvector a 11001010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 252: a=0x54  s=0 u=0  EXPECT o=0x54 (bin 00101010) ---
+setvector a 00101010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 253: a=0x54  s=1 u=0  EXPECT o=0x2A (bin 01010100) ---
+setvector a 00101010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 254: a=0x54  s=1 u=1  EXPECT o=0xA8 (bin 00010101) ---
+setvector a 00101010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 255: a=0x55  s=0 u=0  EXPECT o=0x55 (bin 10101010) ---
+setvector a 10101010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 256: a=0x55  s=1 u=0  EXPECT o=0x2A (bin 01010100) ---
+setvector a 10101010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 257: a=0x55  s=1 u=1  EXPECT o=0xAA (bin 01010101) ---
+setvector a 10101010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 258: a=0x56  s=0 u=0  EXPECT o=0x56 (bin 01101010) ---
+setvector a 01101010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 259: a=0x56  s=1 u=0  EXPECT o=0x2B (bin 11010100) ---
+setvector a 01101010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 260: a=0x56  s=1 u=1  EXPECT o=0xAC (bin 00110101) ---
+setvector a 01101010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 261: a=0x57  s=0 u=0  EXPECT o=0x57 (bin 11101010) ---
+setvector a 11101010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 262: a=0x57  s=1 u=0  EXPECT o=0x2B (bin 11010100) ---
+setvector a 11101010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 263: a=0x57  s=1 u=1  EXPECT o=0xAE (bin 01110101) ---
+setvector a 11101010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 264: a=0x58  s=0 u=0  EXPECT o=0x58 (bin 00011010) ---
+setvector a 00011010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 265: a=0x58  s=1 u=0  EXPECT o=0x2C (bin 00110100) ---
+setvector a 00011010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 266: a=0x58  s=1 u=1  EXPECT o=0xB0 (bin 00001101) ---
+setvector a 00011010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 267: a=0x59  s=0 u=0  EXPECT o=0x59 (bin 10011010) ---
+setvector a 10011010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 268: a=0x59  s=1 u=0  EXPECT o=0x2C (bin 00110100) ---
+setvector a 10011010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 269: a=0x59  s=1 u=1  EXPECT o=0xB2 (bin 01001101) ---
+setvector a 10011010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 270: a=0x5A  s=0 u=0  EXPECT o=0x5A (bin 01011010) ---
+setvector a 01011010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 271: a=0x5A  s=1 u=0  EXPECT o=0x2D (bin 10110100) ---
+setvector a 01011010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 272: a=0x5A  s=1 u=1  EXPECT o=0xB4 (bin 00101101) ---
+setvector a 01011010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 273: a=0x5B  s=0 u=0  EXPECT o=0x5B (bin 11011010) ---
+setvector a 11011010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 274: a=0x5B  s=1 u=0  EXPECT o=0x2D (bin 10110100) ---
+setvector a 11011010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 275: a=0x5B  s=1 u=1  EXPECT o=0xB6 (bin 01101101) ---
+setvector a 11011010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 276: a=0x5C  s=0 u=0  EXPECT o=0x5C (bin 00111010) ---
+setvector a 00111010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 277: a=0x5C  s=1 u=0  EXPECT o=0x2E (bin 01110100) ---
+setvector a 00111010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 278: a=0x5C  s=1 u=1  EXPECT o=0xB8 (bin 00011101) ---
+setvector a 00111010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 279: a=0x5D  s=0 u=0  EXPECT o=0x5D (bin 10111010) ---
+setvector a 10111010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 280: a=0x5D  s=1 u=0  EXPECT o=0x2E (bin 01110100) ---
+setvector a 10111010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 281: a=0x5D  s=1 u=1  EXPECT o=0xBA (bin 01011101) ---
+setvector a 10111010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 282: a=0x5E  s=0 u=0  EXPECT o=0x5E (bin 01111010) ---
+setvector a 01111010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 283: a=0x5E  s=1 u=0  EXPECT o=0x2F (bin 11110100) ---
+setvector a 01111010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 284: a=0x5E  s=1 u=1  EXPECT o=0xBC (bin 00111101) ---
+setvector a 01111010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 285: a=0x5F  s=0 u=0  EXPECT o=0x5F (bin 11111010) ---
+setvector a 11111010
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 286: a=0x5F  s=1 u=0  EXPECT o=0x2F (bin 11110100) ---
+setvector a 11111010
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 287: a=0x5F  s=1 u=1  EXPECT o=0xBE (bin 01111101) ---
+setvector a 11111010
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 288: a=0x60  s=0 u=0  EXPECT o=0x60 (bin 00000110) ---
+setvector a 00000110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 289: a=0x60  s=1 u=0  EXPECT o=0x30 (bin 00001100) ---
+setvector a 00000110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 290: a=0x60  s=1 u=1  EXPECT o=0xC0 (bin 00000011) ---
+setvector a 00000110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 291: a=0x61  s=0 u=0  EXPECT o=0x61 (bin 10000110) ---
+setvector a 10000110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 292: a=0x61  s=1 u=0  EXPECT o=0x30 (bin 00001100) ---
+setvector a 10000110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 293: a=0x61  s=1 u=1  EXPECT o=0xC2 (bin 01000011) ---
+setvector a 10000110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 294: a=0x62  s=0 u=0  EXPECT o=0x62 (bin 01000110) ---
+setvector a 01000110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 295: a=0x62  s=1 u=0  EXPECT o=0x31 (bin 10001100) ---
+setvector a 01000110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 296: a=0x62  s=1 u=1  EXPECT o=0xC4 (bin 00100011) ---
+setvector a 01000110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 297: a=0x63  s=0 u=0  EXPECT o=0x63 (bin 11000110) ---
+setvector a 11000110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 298: a=0x63  s=1 u=0  EXPECT o=0x31 (bin 10001100) ---
+setvector a 11000110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 299: a=0x63  s=1 u=1  EXPECT o=0xC6 (bin 01100011) ---
+setvector a 11000110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 300: a=0x64  s=0 u=0  EXPECT o=0x64 (bin 00100110) ---
+setvector a 00100110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 301: a=0x64  s=1 u=0  EXPECT o=0x32 (bin 01001100) ---
+setvector a 00100110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 302: a=0x64  s=1 u=1  EXPECT o=0xC8 (bin 00010011) ---
+setvector a 00100110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 303: a=0x65  s=0 u=0  EXPECT o=0x65 (bin 10100110) ---
+setvector a 10100110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 304: a=0x65  s=1 u=0  EXPECT o=0x32 (bin 01001100) ---
+setvector a 10100110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 305: a=0x65  s=1 u=1  EXPECT o=0xCA (bin 01010011) ---
+setvector a 10100110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 306: a=0x66  s=0 u=0  EXPECT o=0x66 (bin 01100110) ---
+setvector a 01100110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 307: a=0x66  s=1 u=0  EXPECT o=0x33 (bin 11001100) ---
+setvector a 01100110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 308: a=0x66  s=1 u=1  EXPECT o=0xCC (bin 00110011) ---
+setvector a 01100110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 309: a=0x67  s=0 u=0  EXPECT o=0x67 (bin 11100110) ---
+setvector a 11100110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 310: a=0x67  s=1 u=0  EXPECT o=0x33 (bin 11001100) ---
+setvector a 11100110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 311: a=0x67  s=1 u=1  EXPECT o=0xCE (bin 01110011) ---
+setvector a 11100110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 312: a=0x68  s=0 u=0  EXPECT o=0x68 (bin 00010110) ---
+setvector a 00010110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 313: a=0x68  s=1 u=0  EXPECT o=0x34 (bin 00101100) ---
+setvector a 00010110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 314: a=0x68  s=1 u=1  EXPECT o=0xD0 (bin 00001011) ---
+setvector a 00010110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 315: a=0x69  s=0 u=0  EXPECT o=0x69 (bin 10010110) ---
+setvector a 10010110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 316: a=0x69  s=1 u=0  EXPECT o=0x34 (bin 00101100) ---
+setvector a 10010110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 317: a=0x69  s=1 u=1  EXPECT o=0xD2 (bin 01001011) ---
+setvector a 10010110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 318: a=0x6A  s=0 u=0  EXPECT o=0x6A (bin 01010110) ---
+setvector a 01010110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 319: a=0x6A  s=1 u=0  EXPECT o=0x35 (bin 10101100) ---
+setvector a 01010110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 320: a=0x6A  s=1 u=1  EXPECT o=0xD4 (bin 00101011) ---
+setvector a 01010110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 321: a=0x6B  s=0 u=0  EXPECT o=0x6B (bin 11010110) ---
+setvector a 11010110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 322: a=0x6B  s=1 u=0  EXPECT o=0x35 (bin 10101100) ---
+setvector a 11010110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 323: a=0x6B  s=1 u=1  EXPECT o=0xD6 (bin 01101011) ---
+setvector a 11010110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 324: a=0x6C  s=0 u=0  EXPECT o=0x6C (bin 00110110) ---
+setvector a 00110110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 325: a=0x6C  s=1 u=0  EXPECT o=0x36 (bin 01101100) ---
+setvector a 00110110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 326: a=0x6C  s=1 u=1  EXPECT o=0xD8 (bin 00011011) ---
+setvector a 00110110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 327: a=0x6D  s=0 u=0  EXPECT o=0x6D (bin 10110110) ---
+setvector a 10110110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 328: a=0x6D  s=1 u=0  EXPECT o=0x36 (bin 01101100) ---
+setvector a 10110110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 329: a=0x6D  s=1 u=1  EXPECT o=0xDA (bin 01011011) ---
+setvector a 10110110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 330: a=0x6E  s=0 u=0  EXPECT o=0x6E (bin 01110110) ---
+setvector a 01110110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 331: a=0x6E  s=1 u=0  EXPECT o=0x37 (bin 11101100) ---
+setvector a 01110110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 332: a=0x6E  s=1 u=1  EXPECT o=0xDC (bin 00111011) ---
+setvector a 01110110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 333: a=0x6F  s=0 u=0  EXPECT o=0x6F (bin 11110110) ---
+setvector a 11110110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 334: a=0x6F  s=1 u=0  EXPECT o=0x37 (bin 11101100) ---
+setvector a 11110110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 335: a=0x6F  s=1 u=1  EXPECT o=0xDE (bin 01111011) ---
+setvector a 11110110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 336: a=0x70  s=0 u=0  EXPECT o=0x70 (bin 00001110) ---
+setvector a 00001110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 337: a=0x70  s=1 u=0  EXPECT o=0x38 (bin 00011100) ---
+setvector a 00001110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 338: a=0x70  s=1 u=1  EXPECT o=0xE0 (bin 00000111) ---
+setvector a 00001110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 339: a=0x71  s=0 u=0  EXPECT o=0x71 (bin 10001110) ---
+setvector a 10001110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 340: a=0x71  s=1 u=0  EXPECT o=0x38 (bin 00011100) ---
+setvector a 10001110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 341: a=0x71  s=1 u=1  EXPECT o=0xE2 (bin 01000111) ---
+setvector a 10001110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 342: a=0x72  s=0 u=0  EXPECT o=0x72 (bin 01001110) ---
+setvector a 01001110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 343: a=0x72  s=1 u=0  EXPECT o=0x39 (bin 10011100) ---
+setvector a 01001110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 344: a=0x72  s=1 u=1  EXPECT o=0xE4 (bin 00100111) ---
+setvector a 01001110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 345: a=0x73  s=0 u=0  EXPECT o=0x73 (bin 11001110) ---
+setvector a 11001110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 346: a=0x73  s=1 u=0  EXPECT o=0x39 (bin 10011100) ---
+setvector a 11001110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 347: a=0x73  s=1 u=1  EXPECT o=0xE6 (bin 01100111) ---
+setvector a 11001110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 348: a=0x74  s=0 u=0  EXPECT o=0x74 (bin 00101110) ---
+setvector a 00101110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 349: a=0x74  s=1 u=0  EXPECT o=0x3A (bin 01011100) ---
+setvector a 00101110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 350: a=0x74  s=1 u=1  EXPECT o=0xE8 (bin 00010111) ---
+setvector a 00101110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 351: a=0x75  s=0 u=0  EXPECT o=0x75 (bin 10101110) ---
+setvector a 10101110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 352: a=0x75  s=1 u=0  EXPECT o=0x3A (bin 01011100) ---
+setvector a 10101110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 353: a=0x75  s=1 u=1  EXPECT o=0xEA (bin 01010111) ---
+setvector a 10101110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 354: a=0x76  s=0 u=0  EXPECT o=0x76 (bin 01101110) ---
+setvector a 01101110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 355: a=0x76  s=1 u=0  EXPECT o=0x3B (bin 11011100) ---
+setvector a 01101110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 356: a=0x76  s=1 u=1  EXPECT o=0xEC (bin 00110111) ---
+setvector a 01101110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 357: a=0x77  s=0 u=0  EXPECT o=0x77 (bin 11101110) ---
+setvector a 11101110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 358: a=0x77  s=1 u=0  EXPECT o=0x3B (bin 11011100) ---
+setvector a 11101110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 359: a=0x77  s=1 u=1  EXPECT o=0xEE (bin 01110111) ---
+setvector a 11101110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 360: a=0x78  s=0 u=0  EXPECT o=0x78 (bin 00011110) ---
+setvector a 00011110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 361: a=0x78  s=1 u=0  EXPECT o=0x3C (bin 00111100) ---
+setvector a 00011110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 362: a=0x78  s=1 u=1  EXPECT o=0xF0 (bin 00001111) ---
+setvector a 00011110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 363: a=0x79  s=0 u=0  EXPECT o=0x79 (bin 10011110) ---
+setvector a 10011110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 364: a=0x79  s=1 u=0  EXPECT o=0x3C (bin 00111100) ---
+setvector a 10011110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 365: a=0x79  s=1 u=1  EXPECT o=0xF2 (bin 01001111) ---
+setvector a 10011110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 366: a=0x7A  s=0 u=0  EXPECT o=0x7A (bin 01011110) ---
+setvector a 01011110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 367: a=0x7A  s=1 u=0  EXPECT o=0x3D (bin 10111100) ---
+setvector a 01011110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 368: a=0x7A  s=1 u=1  EXPECT o=0xF4 (bin 00101111) ---
+setvector a 01011110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 369: a=0x7B  s=0 u=0  EXPECT o=0x7B (bin 11011110) ---
+setvector a 11011110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 370: a=0x7B  s=1 u=0  EXPECT o=0x3D (bin 10111100) ---
+setvector a 11011110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 371: a=0x7B  s=1 u=1  EXPECT o=0xF6 (bin 01101111) ---
+setvector a 11011110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 372: a=0x7C  s=0 u=0  EXPECT o=0x7C (bin 00111110) ---
+setvector a 00111110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 373: a=0x7C  s=1 u=0  EXPECT o=0x3E (bin 01111100) ---
+setvector a 00111110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 374: a=0x7C  s=1 u=1  EXPECT o=0xF8 (bin 00011111) ---
+setvector a 00111110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 375: a=0x7D  s=0 u=0  EXPECT o=0x7D (bin 10111110) ---
+setvector a 10111110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 376: a=0x7D  s=1 u=0  EXPECT o=0x3E (bin 01111100) ---
+setvector a 10111110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 377: a=0x7D  s=1 u=1  EXPECT o=0xFA (bin 01011111) ---
+setvector a 10111110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 378: a=0x7E  s=0 u=0  EXPECT o=0x7E (bin 01111110) ---
+setvector a 01111110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 379: a=0x7E  s=1 u=0  EXPECT o=0x3F (bin 11111100) ---
+setvector a 01111110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 380: a=0x7E  s=1 u=1  EXPECT o=0xFC (bin 00111111) ---
+setvector a 01111110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 381: a=0x7F  s=0 u=0  EXPECT o=0x7F (bin 11111110) ---
+setvector a 11111110
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 382: a=0x7F  s=1 u=0  EXPECT o=0x3F (bin 11111100) ---
+setvector a 11111110
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 383: a=0x7F  s=1 u=1  EXPECT o=0xFE (bin 01111111) ---
+setvector a 11111110
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 384: a=0x80  s=0 u=0  EXPECT o=0x80 (bin 00000001) ---
+setvector a 00000001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 385: a=0x80  s=1 u=0  EXPECT o=0x40 (bin 00000010) ---
+setvector a 00000001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 386: a=0x80  s=1 u=1  EXPECT o=0x00 (bin 00000000) ---
+setvector a 00000001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 387: a=0x81  s=0 u=0  EXPECT o=0x81 (bin 10000001) ---
+setvector a 10000001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 388: a=0x81  s=1 u=0  EXPECT o=0x40 (bin 00000010) ---
+setvector a 10000001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 389: a=0x81  s=1 u=1  EXPECT o=0x02 (bin 01000000) ---
+setvector a 10000001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 390: a=0x82  s=0 u=0  EXPECT o=0x82 (bin 01000001) ---
+setvector a 01000001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 391: a=0x82  s=1 u=0  EXPECT o=0x41 (bin 10000010) ---
+setvector a 01000001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 392: a=0x82  s=1 u=1  EXPECT o=0x04 (bin 00100000) ---
+setvector a 01000001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 393: a=0x83  s=0 u=0  EXPECT o=0x83 (bin 11000001) ---
+setvector a 11000001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 394: a=0x83  s=1 u=0  EXPECT o=0x41 (bin 10000010) ---
+setvector a 11000001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 395: a=0x83  s=1 u=1  EXPECT o=0x06 (bin 01100000) ---
+setvector a 11000001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 396: a=0x84  s=0 u=0  EXPECT o=0x84 (bin 00100001) ---
+setvector a 00100001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 397: a=0x84  s=1 u=0  EXPECT o=0x42 (bin 01000010) ---
+setvector a 00100001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 398: a=0x84  s=1 u=1  EXPECT o=0x08 (bin 00010000) ---
+setvector a 00100001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 399: a=0x85  s=0 u=0  EXPECT o=0x85 (bin 10100001) ---
+setvector a 10100001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 400: a=0x85  s=1 u=0  EXPECT o=0x42 (bin 01000010) ---
+setvector a 10100001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 401: a=0x85  s=1 u=1  EXPECT o=0x0A (bin 01010000) ---
+setvector a 10100001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 402: a=0x86  s=0 u=0  EXPECT o=0x86 (bin 01100001) ---
+setvector a 01100001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 403: a=0x86  s=1 u=0  EXPECT o=0x43 (bin 11000010) ---
+setvector a 01100001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 404: a=0x86  s=1 u=1  EXPECT o=0x0C (bin 00110000) ---
+setvector a 01100001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 405: a=0x87  s=0 u=0  EXPECT o=0x87 (bin 11100001) ---
+setvector a 11100001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 406: a=0x87  s=1 u=0  EXPECT o=0x43 (bin 11000010) ---
+setvector a 11100001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 407: a=0x87  s=1 u=1  EXPECT o=0x0E (bin 01110000) ---
+setvector a 11100001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 408: a=0x88  s=0 u=0  EXPECT o=0x88 (bin 00010001) ---
+setvector a 00010001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 409: a=0x88  s=1 u=0  EXPECT o=0x44 (bin 00100010) ---
+setvector a 00010001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 410: a=0x88  s=1 u=1  EXPECT o=0x10 (bin 00001000) ---
+setvector a 00010001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 411: a=0x89  s=0 u=0  EXPECT o=0x89 (bin 10010001) ---
+setvector a 10010001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 412: a=0x89  s=1 u=0  EXPECT o=0x44 (bin 00100010) ---
+setvector a 10010001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 413: a=0x89  s=1 u=1  EXPECT o=0x12 (bin 01001000) ---
+setvector a 10010001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 414: a=0x8A  s=0 u=0  EXPECT o=0x8A (bin 01010001) ---
+setvector a 01010001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 415: a=0x8A  s=1 u=0  EXPECT o=0x45 (bin 10100010) ---
+setvector a 01010001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 416: a=0x8A  s=1 u=1  EXPECT o=0x14 (bin 00101000) ---
+setvector a 01010001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 417: a=0x8B  s=0 u=0  EXPECT o=0x8B (bin 11010001) ---
+setvector a 11010001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 418: a=0x8B  s=1 u=0  EXPECT o=0x45 (bin 10100010) ---
+setvector a 11010001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 419: a=0x8B  s=1 u=1  EXPECT o=0x16 (bin 01101000) ---
+setvector a 11010001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 420: a=0x8C  s=0 u=0  EXPECT o=0x8C (bin 00110001) ---
+setvector a 00110001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 421: a=0x8C  s=1 u=0  EXPECT o=0x46 (bin 01100010) ---
+setvector a 00110001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 422: a=0x8C  s=1 u=1  EXPECT o=0x18 (bin 00011000) ---
+setvector a 00110001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 423: a=0x8D  s=0 u=0  EXPECT o=0x8D (bin 10110001) ---
+setvector a 10110001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 424: a=0x8D  s=1 u=0  EXPECT o=0x46 (bin 01100010) ---
+setvector a 10110001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 425: a=0x8D  s=1 u=1  EXPECT o=0x1A (bin 01011000) ---
+setvector a 10110001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 426: a=0x8E  s=0 u=0  EXPECT o=0x8E (bin 01110001) ---
+setvector a 01110001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 427: a=0x8E  s=1 u=0  EXPECT o=0x47 (bin 11100010) ---
+setvector a 01110001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 428: a=0x8E  s=1 u=1  EXPECT o=0x1C (bin 00111000) ---
+setvector a 01110001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 429: a=0x8F  s=0 u=0  EXPECT o=0x8F (bin 11110001) ---
+setvector a 11110001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 430: a=0x8F  s=1 u=0  EXPECT o=0x47 (bin 11100010) ---
+setvector a 11110001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 431: a=0x8F  s=1 u=1  EXPECT o=0x1E (bin 01111000) ---
+setvector a 11110001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 432: a=0x90  s=0 u=0  EXPECT o=0x90 (bin 00001001) ---
+setvector a 00001001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 433: a=0x90  s=1 u=0  EXPECT o=0x48 (bin 00010010) ---
+setvector a 00001001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 434: a=0x90  s=1 u=1  EXPECT o=0x20 (bin 00000100) ---
+setvector a 00001001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 435: a=0x91  s=0 u=0  EXPECT o=0x91 (bin 10001001) ---
+setvector a 10001001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 436: a=0x91  s=1 u=0  EXPECT o=0x48 (bin 00010010) ---
+setvector a 10001001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 437: a=0x91  s=1 u=1  EXPECT o=0x22 (bin 01000100) ---
+setvector a 10001001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 438: a=0x92  s=0 u=0  EXPECT o=0x92 (bin 01001001) ---
+setvector a 01001001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 439: a=0x92  s=1 u=0  EXPECT o=0x49 (bin 10010010) ---
+setvector a 01001001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 440: a=0x92  s=1 u=1  EXPECT o=0x24 (bin 00100100) ---
+setvector a 01001001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 441: a=0x93  s=0 u=0  EXPECT o=0x93 (bin 11001001) ---
+setvector a 11001001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 442: a=0x93  s=1 u=0  EXPECT o=0x49 (bin 10010010) ---
+setvector a 11001001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 443: a=0x93  s=1 u=1  EXPECT o=0x26 (bin 01100100) ---
+setvector a 11001001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 444: a=0x94  s=0 u=0  EXPECT o=0x94 (bin 00101001) ---
+setvector a 00101001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 445: a=0x94  s=1 u=0  EXPECT o=0x4A (bin 01010010) ---
+setvector a 00101001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 446: a=0x94  s=1 u=1  EXPECT o=0x28 (bin 00010100) ---
+setvector a 00101001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 447: a=0x95  s=0 u=0  EXPECT o=0x95 (bin 10101001) ---
+setvector a 10101001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 448: a=0x95  s=1 u=0  EXPECT o=0x4A (bin 01010010) ---
+setvector a 10101001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 449: a=0x95  s=1 u=1  EXPECT o=0x2A (bin 01010100) ---
+setvector a 10101001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 450: a=0x96  s=0 u=0  EXPECT o=0x96 (bin 01101001) ---
+setvector a 01101001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 451: a=0x96  s=1 u=0  EXPECT o=0x4B (bin 11010010) ---
+setvector a 01101001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 452: a=0x96  s=1 u=1  EXPECT o=0x2C (bin 00110100) ---
+setvector a 01101001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 453: a=0x97  s=0 u=0  EXPECT o=0x97 (bin 11101001) ---
+setvector a 11101001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 454: a=0x97  s=1 u=0  EXPECT o=0x4B (bin 11010010) ---
+setvector a 11101001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 455: a=0x97  s=1 u=1  EXPECT o=0x2E (bin 01110100) ---
+setvector a 11101001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 456: a=0x98  s=0 u=0  EXPECT o=0x98 (bin 00011001) ---
+setvector a 00011001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 457: a=0x98  s=1 u=0  EXPECT o=0x4C (bin 00110010) ---
+setvector a 00011001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 458: a=0x98  s=1 u=1  EXPECT o=0x30 (bin 00001100) ---
+setvector a 00011001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 459: a=0x99  s=0 u=0  EXPECT o=0x99 (bin 10011001) ---
+setvector a 10011001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 460: a=0x99  s=1 u=0  EXPECT o=0x4C (bin 00110010) ---
+setvector a 10011001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 461: a=0x99  s=1 u=1  EXPECT o=0x32 (bin 01001100) ---
+setvector a 10011001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 462: a=0x9A  s=0 u=0  EXPECT o=0x9A (bin 01011001) ---
+setvector a 01011001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 463: a=0x9A  s=1 u=0  EXPECT o=0x4D (bin 10110010) ---
+setvector a 01011001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 464: a=0x9A  s=1 u=1  EXPECT o=0x34 (bin 00101100) ---
+setvector a 01011001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 465: a=0x9B  s=0 u=0  EXPECT o=0x9B (bin 11011001) ---
+setvector a 11011001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 466: a=0x9B  s=1 u=0  EXPECT o=0x4D (bin 10110010) ---
+setvector a 11011001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 467: a=0x9B  s=1 u=1  EXPECT o=0x36 (bin 01101100) ---
+setvector a 11011001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 468: a=0x9C  s=0 u=0  EXPECT o=0x9C (bin 00111001) ---
+setvector a 00111001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 469: a=0x9C  s=1 u=0  EXPECT o=0x4E (bin 01110010) ---
+setvector a 00111001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 470: a=0x9C  s=1 u=1  EXPECT o=0x38 (bin 00011100) ---
+setvector a 00111001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 471: a=0x9D  s=0 u=0  EXPECT o=0x9D (bin 10111001) ---
+setvector a 10111001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 472: a=0x9D  s=1 u=0  EXPECT o=0x4E (bin 01110010) ---
+setvector a 10111001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 473: a=0x9D  s=1 u=1  EXPECT o=0x3A (bin 01011100) ---
+setvector a 10111001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 474: a=0x9E  s=0 u=0  EXPECT o=0x9E (bin 01111001) ---
+setvector a 01111001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 475: a=0x9E  s=1 u=0  EXPECT o=0x4F (bin 11110010) ---
+setvector a 01111001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 476: a=0x9E  s=1 u=1  EXPECT o=0x3C (bin 00111100) ---
+setvector a 01111001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 477: a=0x9F  s=0 u=0  EXPECT o=0x9F (bin 11111001) ---
+setvector a 11111001
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 478: a=0x9F  s=1 u=0  EXPECT o=0x4F (bin 11110010) ---
+setvector a 11111001
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 479: a=0x9F  s=1 u=1  EXPECT o=0x3E (bin 01111100) ---
+setvector a 11111001
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 480: a=0xA0  s=0 u=0  EXPECT o=0xA0 (bin 00000101) ---
+setvector a 00000101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 481: a=0xA0  s=1 u=0  EXPECT o=0x50 (bin 00001010) ---
+setvector a 00000101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 482: a=0xA0  s=1 u=1  EXPECT o=0x40 (bin 00000010) ---
+setvector a 00000101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 483: a=0xA1  s=0 u=0  EXPECT o=0xA1 (bin 10000101) ---
+setvector a 10000101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 484: a=0xA1  s=1 u=0  EXPECT o=0x50 (bin 00001010) ---
+setvector a 10000101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 485: a=0xA1  s=1 u=1  EXPECT o=0x42 (bin 01000010) ---
+setvector a 10000101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 486: a=0xA2  s=0 u=0  EXPECT o=0xA2 (bin 01000101) ---
+setvector a 01000101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 487: a=0xA2  s=1 u=0  EXPECT o=0x51 (bin 10001010) ---
+setvector a 01000101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 488: a=0xA2  s=1 u=1  EXPECT o=0x44 (bin 00100010) ---
+setvector a 01000101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 489: a=0xA3  s=0 u=0  EXPECT o=0xA3 (bin 11000101) ---
+setvector a 11000101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 490: a=0xA3  s=1 u=0  EXPECT o=0x51 (bin 10001010) ---
+setvector a 11000101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 491: a=0xA3  s=1 u=1  EXPECT o=0x46 (bin 01100010) ---
+setvector a 11000101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 492: a=0xA4  s=0 u=0  EXPECT o=0xA4 (bin 00100101) ---
+setvector a 00100101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 493: a=0xA4  s=1 u=0  EXPECT o=0x52 (bin 01001010) ---
+setvector a 00100101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 494: a=0xA4  s=1 u=1  EXPECT o=0x48 (bin 00010010) ---
+setvector a 00100101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 495: a=0xA5  s=0 u=0  EXPECT o=0xA5 (bin 10100101) ---
+setvector a 10100101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 496: a=0xA5  s=1 u=0  EXPECT o=0x52 (bin 01001010) ---
+setvector a 10100101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 497: a=0xA5  s=1 u=1  EXPECT o=0x4A (bin 01010010) ---
+setvector a 10100101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 498: a=0xA6  s=0 u=0  EXPECT o=0xA6 (bin 01100101) ---
+setvector a 01100101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 499: a=0xA6  s=1 u=0  EXPECT o=0x53 (bin 11001010) ---
+setvector a 01100101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 500: a=0xA6  s=1 u=1  EXPECT o=0x4C (bin 00110010) ---
+setvector a 01100101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 501: a=0xA7  s=0 u=0  EXPECT o=0xA7 (bin 11100101) ---
+setvector a 11100101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 502: a=0xA7  s=1 u=0  EXPECT o=0x53 (bin 11001010) ---
+setvector a 11100101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 503: a=0xA7  s=1 u=1  EXPECT o=0x4E (bin 01110010) ---
+setvector a 11100101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 504: a=0xA8  s=0 u=0  EXPECT o=0xA8 (bin 00010101) ---
+setvector a 00010101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 505: a=0xA8  s=1 u=0  EXPECT o=0x54 (bin 00101010) ---
+setvector a 00010101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 506: a=0xA8  s=1 u=1  EXPECT o=0x50 (bin 00001010) ---
+setvector a 00010101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 507: a=0xA9  s=0 u=0  EXPECT o=0xA9 (bin 10010101) ---
+setvector a 10010101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 508: a=0xA9  s=1 u=0  EXPECT o=0x54 (bin 00101010) ---
+setvector a 10010101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 509: a=0xA9  s=1 u=1  EXPECT o=0x52 (bin 01001010) ---
+setvector a 10010101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 510: a=0xAA  s=0 u=0  EXPECT o=0xAA (bin 01010101) ---
+setvector a 01010101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 511: a=0xAA  s=1 u=0  EXPECT o=0x55 (bin 10101010) ---
+setvector a 01010101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 512: a=0xAA  s=1 u=1  EXPECT o=0x54 (bin 00101010) ---
+setvector a 01010101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 513: a=0xAB  s=0 u=0  EXPECT o=0xAB (bin 11010101) ---
+setvector a 11010101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 514: a=0xAB  s=1 u=0  EXPECT o=0x55 (bin 10101010) ---
+setvector a 11010101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 515: a=0xAB  s=1 u=1  EXPECT o=0x56 (bin 01101010) ---
+setvector a 11010101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 516: a=0xAC  s=0 u=0  EXPECT o=0xAC (bin 00110101) ---
+setvector a 00110101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 517: a=0xAC  s=1 u=0  EXPECT o=0x56 (bin 01101010) ---
+setvector a 00110101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 518: a=0xAC  s=1 u=1  EXPECT o=0x58 (bin 00011010) ---
+setvector a 00110101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 519: a=0xAD  s=0 u=0  EXPECT o=0xAD (bin 10110101) ---
+setvector a 10110101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 520: a=0xAD  s=1 u=0  EXPECT o=0x56 (bin 01101010) ---
+setvector a 10110101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 521: a=0xAD  s=1 u=1  EXPECT o=0x5A (bin 01011010) ---
+setvector a 10110101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 522: a=0xAE  s=0 u=0  EXPECT o=0xAE (bin 01110101) ---
+setvector a 01110101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 523: a=0xAE  s=1 u=0  EXPECT o=0x57 (bin 11101010) ---
+setvector a 01110101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 524: a=0xAE  s=1 u=1  EXPECT o=0x5C (bin 00111010) ---
+setvector a 01110101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 525: a=0xAF  s=0 u=0  EXPECT o=0xAF (bin 11110101) ---
+setvector a 11110101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 526: a=0xAF  s=1 u=0  EXPECT o=0x57 (bin 11101010) ---
+setvector a 11110101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 527: a=0xAF  s=1 u=1  EXPECT o=0x5E (bin 01111010) ---
+setvector a 11110101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 528: a=0xB0  s=0 u=0  EXPECT o=0xB0 (bin 00001101) ---
+setvector a 00001101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 529: a=0xB0  s=1 u=0  EXPECT o=0x58 (bin 00011010) ---
+setvector a 00001101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 530: a=0xB0  s=1 u=1  EXPECT o=0x60 (bin 00000110) ---
+setvector a 00001101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 531: a=0xB1  s=0 u=0  EXPECT o=0xB1 (bin 10001101) ---
+setvector a 10001101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 532: a=0xB1  s=1 u=0  EXPECT o=0x58 (bin 00011010) ---
+setvector a 10001101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 533: a=0xB1  s=1 u=1  EXPECT o=0x62 (bin 01000110) ---
+setvector a 10001101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 534: a=0xB2  s=0 u=0  EXPECT o=0xB2 (bin 01001101) ---
+setvector a 01001101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 535: a=0xB2  s=1 u=0  EXPECT o=0x59 (bin 10011010) ---
+setvector a 01001101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 536: a=0xB2  s=1 u=1  EXPECT o=0x64 (bin 00100110) ---
+setvector a 01001101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 537: a=0xB3  s=0 u=0  EXPECT o=0xB3 (bin 11001101) ---
+setvector a 11001101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 538: a=0xB3  s=1 u=0  EXPECT o=0x59 (bin 10011010) ---
+setvector a 11001101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 539: a=0xB3  s=1 u=1  EXPECT o=0x66 (bin 01100110) ---
+setvector a 11001101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 540: a=0xB4  s=0 u=0  EXPECT o=0xB4 (bin 00101101) ---
+setvector a 00101101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 541: a=0xB4  s=1 u=0  EXPECT o=0x5A (bin 01011010) ---
+setvector a 00101101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 542: a=0xB4  s=1 u=1  EXPECT o=0x68 (bin 00010110) ---
+setvector a 00101101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 543: a=0xB5  s=0 u=0  EXPECT o=0xB5 (bin 10101101) ---
+setvector a 10101101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 544: a=0xB5  s=1 u=0  EXPECT o=0x5A (bin 01011010) ---
+setvector a 10101101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 545: a=0xB5  s=1 u=1  EXPECT o=0x6A (bin 01010110) ---
+setvector a 10101101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 546: a=0xB6  s=0 u=0  EXPECT o=0xB6 (bin 01101101) ---
+setvector a 01101101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 547: a=0xB6  s=1 u=0  EXPECT o=0x5B (bin 11011010) ---
+setvector a 01101101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 548: a=0xB6  s=1 u=1  EXPECT o=0x6C (bin 00110110) ---
+setvector a 01101101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 549: a=0xB7  s=0 u=0  EXPECT o=0xB7 (bin 11101101) ---
+setvector a 11101101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 550: a=0xB7  s=1 u=0  EXPECT o=0x5B (bin 11011010) ---
+setvector a 11101101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 551: a=0xB7  s=1 u=1  EXPECT o=0x6E (bin 01110110) ---
+setvector a 11101101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 552: a=0xB8  s=0 u=0  EXPECT o=0xB8 (bin 00011101) ---
+setvector a 00011101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 553: a=0xB8  s=1 u=0  EXPECT o=0x5C (bin 00111010) ---
+setvector a 00011101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 554: a=0xB8  s=1 u=1  EXPECT o=0x70 (bin 00001110) ---
+setvector a 00011101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 555: a=0xB9  s=0 u=0  EXPECT o=0xB9 (bin 10011101) ---
+setvector a 10011101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 556: a=0xB9  s=1 u=0  EXPECT o=0x5C (bin 00111010) ---
+setvector a 10011101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 557: a=0xB9  s=1 u=1  EXPECT o=0x72 (bin 01001110) ---
+setvector a 10011101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 558: a=0xBA  s=0 u=0  EXPECT o=0xBA (bin 01011101) ---
+setvector a 01011101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 559: a=0xBA  s=1 u=0  EXPECT o=0x5D (bin 10111010) ---
+setvector a 01011101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 560: a=0xBA  s=1 u=1  EXPECT o=0x74 (bin 00101110) ---
+setvector a 01011101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 561: a=0xBB  s=0 u=0  EXPECT o=0xBB (bin 11011101) ---
+setvector a 11011101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 562: a=0xBB  s=1 u=0  EXPECT o=0x5D (bin 10111010) ---
+setvector a 11011101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 563: a=0xBB  s=1 u=1  EXPECT o=0x76 (bin 01101110) ---
+setvector a 11011101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 564: a=0xBC  s=0 u=0  EXPECT o=0xBC (bin 00111101) ---
+setvector a 00111101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 565: a=0xBC  s=1 u=0  EXPECT o=0x5E (bin 01111010) ---
+setvector a 00111101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 566: a=0xBC  s=1 u=1  EXPECT o=0x78 (bin 00011110) ---
+setvector a 00111101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 567: a=0xBD  s=0 u=0  EXPECT o=0xBD (bin 10111101) ---
+setvector a 10111101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 568: a=0xBD  s=1 u=0  EXPECT o=0x5E (bin 01111010) ---
+setvector a 10111101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 569: a=0xBD  s=1 u=1  EXPECT o=0x7A (bin 01011110) ---
+setvector a 10111101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 570: a=0xBE  s=0 u=0  EXPECT o=0xBE (bin 01111101) ---
+setvector a 01111101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 571: a=0xBE  s=1 u=0  EXPECT o=0x5F (bin 11111010) ---
+setvector a 01111101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 572: a=0xBE  s=1 u=1  EXPECT o=0x7C (bin 00111110) ---
+setvector a 01111101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 573: a=0xBF  s=0 u=0  EXPECT o=0xBF (bin 11111101) ---
+setvector a 11111101
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 574: a=0xBF  s=1 u=0  EXPECT o=0x5F (bin 11111010) ---
+setvector a 11111101
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 575: a=0xBF  s=1 u=1  EXPECT o=0x7E (bin 01111110) ---
+setvector a 11111101
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 576: a=0xC0  s=0 u=0  EXPECT o=0xC0 (bin 00000011) ---
+setvector a 00000011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 577: a=0xC0  s=1 u=0  EXPECT o=0x60 (bin 00000110) ---
+setvector a 00000011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 578: a=0xC0  s=1 u=1  EXPECT o=0x80 (bin 00000001) ---
+setvector a 00000011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 579: a=0xC1  s=0 u=0  EXPECT o=0xC1 (bin 10000011) ---
+setvector a 10000011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 580: a=0xC1  s=1 u=0  EXPECT o=0x60 (bin 00000110) ---
+setvector a 10000011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 581: a=0xC1  s=1 u=1  EXPECT o=0x82 (bin 01000001) ---
+setvector a 10000011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 582: a=0xC2  s=0 u=0  EXPECT o=0xC2 (bin 01000011) ---
+setvector a 01000011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 583: a=0xC2  s=1 u=0  EXPECT o=0x61 (bin 10000110) ---
+setvector a 01000011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 584: a=0xC2  s=1 u=1  EXPECT o=0x84 (bin 00100001) ---
+setvector a 01000011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 585: a=0xC3  s=0 u=0  EXPECT o=0xC3 (bin 11000011) ---
+setvector a 11000011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 586: a=0xC3  s=1 u=0  EXPECT o=0x61 (bin 10000110) ---
+setvector a 11000011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 587: a=0xC3  s=1 u=1  EXPECT o=0x86 (bin 01100001) ---
+setvector a 11000011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 588: a=0xC4  s=0 u=0  EXPECT o=0xC4 (bin 00100011) ---
+setvector a 00100011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 589: a=0xC4  s=1 u=0  EXPECT o=0x62 (bin 01000110) ---
+setvector a 00100011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 590: a=0xC4  s=1 u=1  EXPECT o=0x88 (bin 00010001) ---
+setvector a 00100011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 591: a=0xC5  s=0 u=0  EXPECT o=0xC5 (bin 10100011) ---
+setvector a 10100011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 592: a=0xC5  s=1 u=0  EXPECT o=0x62 (bin 01000110) ---
+setvector a 10100011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 593: a=0xC5  s=1 u=1  EXPECT o=0x8A (bin 01010001) ---
+setvector a 10100011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 594: a=0xC6  s=0 u=0  EXPECT o=0xC6 (bin 01100011) ---
+setvector a 01100011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 595: a=0xC6  s=1 u=0  EXPECT o=0x63 (bin 11000110) ---
+setvector a 01100011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 596: a=0xC6  s=1 u=1  EXPECT o=0x8C (bin 00110001) ---
+setvector a 01100011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 597: a=0xC7  s=0 u=0  EXPECT o=0xC7 (bin 11100011) ---
+setvector a 11100011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 598: a=0xC7  s=1 u=0  EXPECT o=0x63 (bin 11000110) ---
+setvector a 11100011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 599: a=0xC7  s=1 u=1  EXPECT o=0x8E (bin 01110001) ---
+setvector a 11100011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 600: a=0xC8  s=0 u=0  EXPECT o=0xC8 (bin 00010011) ---
+setvector a 00010011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 601: a=0xC8  s=1 u=0  EXPECT o=0x64 (bin 00100110) ---
+setvector a 00010011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 602: a=0xC8  s=1 u=1  EXPECT o=0x90 (bin 00001001) ---
+setvector a 00010011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 603: a=0xC9  s=0 u=0  EXPECT o=0xC9 (bin 10010011) ---
+setvector a 10010011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 604: a=0xC9  s=1 u=0  EXPECT o=0x64 (bin 00100110) ---
+setvector a 10010011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 605: a=0xC9  s=1 u=1  EXPECT o=0x92 (bin 01001001) ---
+setvector a 10010011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 606: a=0xCA  s=0 u=0  EXPECT o=0xCA (bin 01010011) ---
+setvector a 01010011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 607: a=0xCA  s=1 u=0  EXPECT o=0x65 (bin 10100110) ---
+setvector a 01010011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 608: a=0xCA  s=1 u=1  EXPECT o=0x94 (bin 00101001) ---
+setvector a 01010011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 609: a=0xCB  s=0 u=0  EXPECT o=0xCB (bin 11010011) ---
+setvector a 11010011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 610: a=0xCB  s=1 u=0  EXPECT o=0x65 (bin 10100110) ---
+setvector a 11010011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 611: a=0xCB  s=1 u=1  EXPECT o=0x96 (bin 01101001) ---
+setvector a 11010011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 612: a=0xCC  s=0 u=0  EXPECT o=0xCC (bin 00110011) ---
+setvector a 00110011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 613: a=0xCC  s=1 u=0  EXPECT o=0x66 (bin 01100110) ---
+setvector a 00110011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 614: a=0xCC  s=1 u=1  EXPECT o=0x98 (bin 00011001) ---
+setvector a 00110011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 615: a=0xCD  s=0 u=0  EXPECT o=0xCD (bin 10110011) ---
+setvector a 10110011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 616: a=0xCD  s=1 u=0  EXPECT o=0x66 (bin 01100110) ---
+setvector a 10110011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 617: a=0xCD  s=1 u=1  EXPECT o=0x9A (bin 01011001) ---
+setvector a 10110011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 618: a=0xCE  s=0 u=0  EXPECT o=0xCE (bin 01110011) ---
+setvector a 01110011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 619: a=0xCE  s=1 u=0  EXPECT o=0x67 (bin 11100110) ---
+setvector a 01110011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 620: a=0xCE  s=1 u=1  EXPECT o=0x9C (bin 00111001) ---
+setvector a 01110011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 621: a=0xCF  s=0 u=0  EXPECT o=0xCF (bin 11110011) ---
+setvector a 11110011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 622: a=0xCF  s=1 u=0  EXPECT o=0x67 (bin 11100110) ---
+setvector a 11110011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 623: a=0xCF  s=1 u=1  EXPECT o=0x9E (bin 01111001) ---
+setvector a 11110011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 624: a=0xD0  s=0 u=0  EXPECT o=0xD0 (bin 00001011) ---
+setvector a 00001011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 625: a=0xD0  s=1 u=0  EXPECT o=0x68 (bin 00010110) ---
+setvector a 00001011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 626: a=0xD0  s=1 u=1  EXPECT o=0xA0 (bin 00000101) ---
+setvector a 00001011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 627: a=0xD1  s=0 u=0  EXPECT o=0xD1 (bin 10001011) ---
+setvector a 10001011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 628: a=0xD1  s=1 u=0  EXPECT o=0x68 (bin 00010110) ---
+setvector a 10001011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 629: a=0xD1  s=1 u=1  EXPECT o=0xA2 (bin 01000101) ---
+setvector a 10001011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 630: a=0xD2  s=0 u=0  EXPECT o=0xD2 (bin 01001011) ---
+setvector a 01001011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 631: a=0xD2  s=1 u=0  EXPECT o=0x69 (bin 10010110) ---
+setvector a 01001011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 632: a=0xD2  s=1 u=1  EXPECT o=0xA4 (bin 00100101) ---
+setvector a 01001011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 633: a=0xD3  s=0 u=0  EXPECT o=0xD3 (bin 11001011) ---
+setvector a 11001011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 634: a=0xD3  s=1 u=0  EXPECT o=0x69 (bin 10010110) ---
+setvector a 11001011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 635: a=0xD3  s=1 u=1  EXPECT o=0xA6 (bin 01100101) ---
+setvector a 11001011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 636: a=0xD4  s=0 u=0  EXPECT o=0xD4 (bin 00101011) ---
+setvector a 00101011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 637: a=0xD4  s=1 u=0  EXPECT o=0x6A (bin 01010110) ---
+setvector a 00101011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 638: a=0xD4  s=1 u=1  EXPECT o=0xA8 (bin 00010101) ---
+setvector a 00101011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 639: a=0xD5  s=0 u=0  EXPECT o=0xD5 (bin 10101011) ---
+setvector a 10101011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 640: a=0xD5  s=1 u=0  EXPECT o=0x6A (bin 01010110) ---
+setvector a 10101011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 641: a=0xD5  s=1 u=1  EXPECT o=0xAA (bin 01010101) ---
+setvector a 10101011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 642: a=0xD6  s=0 u=0  EXPECT o=0xD6 (bin 01101011) ---
+setvector a 01101011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 643: a=0xD6  s=1 u=0  EXPECT o=0x6B (bin 11010110) ---
+setvector a 01101011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 644: a=0xD6  s=1 u=1  EXPECT o=0xAC (bin 00110101) ---
+setvector a 01101011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 645: a=0xD7  s=0 u=0  EXPECT o=0xD7 (bin 11101011) ---
+setvector a 11101011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 646: a=0xD7  s=1 u=0  EXPECT o=0x6B (bin 11010110) ---
+setvector a 11101011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 647: a=0xD7  s=1 u=1  EXPECT o=0xAE (bin 01110101) ---
+setvector a 11101011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 648: a=0xD8  s=0 u=0  EXPECT o=0xD8 (bin 00011011) ---
+setvector a 00011011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 649: a=0xD8  s=1 u=0  EXPECT o=0x6C (bin 00110110) ---
+setvector a 00011011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 650: a=0xD8  s=1 u=1  EXPECT o=0xB0 (bin 00001101) ---
+setvector a 00011011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 651: a=0xD9  s=0 u=0  EXPECT o=0xD9 (bin 10011011) ---
+setvector a 10011011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 652: a=0xD9  s=1 u=0  EXPECT o=0x6C (bin 00110110) ---
+setvector a 10011011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 653: a=0xD9  s=1 u=1  EXPECT o=0xB2 (bin 01001101) ---
+setvector a 10011011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 654: a=0xDA  s=0 u=0  EXPECT o=0xDA (bin 01011011) ---
+setvector a 01011011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 655: a=0xDA  s=1 u=0  EXPECT o=0x6D (bin 10110110) ---
+setvector a 01011011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 656: a=0xDA  s=1 u=1  EXPECT o=0xB4 (bin 00101101) ---
+setvector a 01011011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 657: a=0xDB  s=0 u=0  EXPECT o=0xDB (bin 11011011) ---
+setvector a 11011011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 658: a=0xDB  s=1 u=0  EXPECT o=0x6D (bin 10110110) ---
+setvector a 11011011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 659: a=0xDB  s=1 u=1  EXPECT o=0xB6 (bin 01101101) ---
+setvector a 11011011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 660: a=0xDC  s=0 u=0  EXPECT o=0xDC (bin 00111011) ---
+setvector a 00111011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 661: a=0xDC  s=1 u=0  EXPECT o=0x6E (bin 01110110) ---
+setvector a 00111011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 662: a=0xDC  s=1 u=1  EXPECT o=0xB8 (bin 00011101) ---
+setvector a 00111011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 663: a=0xDD  s=0 u=0  EXPECT o=0xDD (bin 10111011) ---
+setvector a 10111011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 664: a=0xDD  s=1 u=0  EXPECT o=0x6E (bin 01110110) ---
+setvector a 10111011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 665: a=0xDD  s=1 u=1  EXPECT o=0xBA (bin 01011101) ---
+setvector a 10111011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 666: a=0xDE  s=0 u=0  EXPECT o=0xDE (bin 01111011) ---
+setvector a 01111011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 667: a=0xDE  s=1 u=0  EXPECT o=0x6F (bin 11110110) ---
+setvector a 01111011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 668: a=0xDE  s=1 u=1  EXPECT o=0xBC (bin 00111101) ---
+setvector a 01111011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 669: a=0xDF  s=0 u=0  EXPECT o=0xDF (bin 11111011) ---
+setvector a 11111011
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 670: a=0xDF  s=1 u=0  EXPECT o=0x6F (bin 11110110) ---
+setvector a 11111011
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 671: a=0xDF  s=1 u=1  EXPECT o=0xBE (bin 01111101) ---
+setvector a 11111011
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 672: a=0xE0  s=0 u=0  EXPECT o=0xE0 (bin 00000111) ---
+setvector a 00000111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 673: a=0xE0  s=1 u=0  EXPECT o=0x70 (bin 00001110) ---
+setvector a 00000111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 674: a=0xE0  s=1 u=1  EXPECT o=0xC0 (bin 00000011) ---
+setvector a 00000111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 675: a=0xE1  s=0 u=0  EXPECT o=0xE1 (bin 10000111) ---
+setvector a 10000111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 676: a=0xE1  s=1 u=0  EXPECT o=0x70 (bin 00001110) ---
+setvector a 10000111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 677: a=0xE1  s=1 u=1  EXPECT o=0xC2 (bin 01000011) ---
+setvector a 10000111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 678: a=0xE2  s=0 u=0  EXPECT o=0xE2 (bin 01000111) ---
+setvector a 01000111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 679: a=0xE2  s=1 u=0  EXPECT o=0x71 (bin 10001110) ---
+setvector a 01000111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 680: a=0xE2  s=1 u=1  EXPECT o=0xC4 (bin 00100011) ---
+setvector a 01000111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 681: a=0xE3  s=0 u=0  EXPECT o=0xE3 (bin 11000111) ---
+setvector a 11000111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 682: a=0xE3  s=1 u=0  EXPECT o=0x71 (bin 10001110) ---
+setvector a 11000111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 683: a=0xE3  s=1 u=1  EXPECT o=0xC6 (bin 01100011) ---
+setvector a 11000111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 684: a=0xE4  s=0 u=0  EXPECT o=0xE4 (bin 00100111) ---
+setvector a 00100111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 685: a=0xE4  s=1 u=0  EXPECT o=0x72 (bin 01001110) ---
+setvector a 00100111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 686: a=0xE4  s=1 u=1  EXPECT o=0xC8 (bin 00010011) ---
+setvector a 00100111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 687: a=0xE5  s=0 u=0  EXPECT o=0xE5 (bin 10100111) ---
+setvector a 10100111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 688: a=0xE5  s=1 u=0  EXPECT o=0x72 (bin 01001110) ---
+setvector a 10100111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 689: a=0xE5  s=1 u=1  EXPECT o=0xCA (bin 01010011) ---
+setvector a 10100111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 690: a=0xE6  s=0 u=0  EXPECT o=0xE6 (bin 01100111) ---
+setvector a 01100111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 691: a=0xE6  s=1 u=0  EXPECT o=0x73 (bin 11001110) ---
+setvector a 01100111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 692: a=0xE6  s=1 u=1  EXPECT o=0xCC (bin 00110011) ---
+setvector a 01100111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 693: a=0xE7  s=0 u=0  EXPECT o=0xE7 (bin 11100111) ---
+setvector a 11100111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 694: a=0xE7  s=1 u=0  EXPECT o=0x73 (bin 11001110) ---
+setvector a 11100111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 695: a=0xE7  s=1 u=1  EXPECT o=0xCE (bin 01110011) ---
+setvector a 11100111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 696: a=0xE8  s=0 u=0  EXPECT o=0xE8 (bin 00010111) ---
+setvector a 00010111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 697: a=0xE8  s=1 u=0  EXPECT o=0x74 (bin 00101110) ---
+setvector a 00010111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 698: a=0xE8  s=1 u=1  EXPECT o=0xD0 (bin 00001011) ---
+setvector a 00010111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 699: a=0xE9  s=0 u=0  EXPECT o=0xE9 (bin 10010111) ---
+setvector a 10010111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 700: a=0xE9  s=1 u=0  EXPECT o=0x74 (bin 00101110) ---
+setvector a 10010111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 701: a=0xE9  s=1 u=1  EXPECT o=0xD2 (bin 01001011) ---
+setvector a 10010111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 702: a=0xEA  s=0 u=0  EXPECT o=0xEA (bin 01010111) ---
+setvector a 01010111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 703: a=0xEA  s=1 u=0  EXPECT o=0x75 (bin 10101110) ---
+setvector a 01010111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 704: a=0xEA  s=1 u=1  EXPECT o=0xD4 (bin 00101011) ---
+setvector a 01010111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 705: a=0xEB  s=0 u=0  EXPECT o=0xEB (bin 11010111) ---
+setvector a 11010111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 706: a=0xEB  s=1 u=0  EXPECT o=0x75 (bin 10101110) ---
+setvector a 11010111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 707: a=0xEB  s=1 u=1  EXPECT o=0xD6 (bin 01101011) ---
+setvector a 11010111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 708: a=0xEC  s=0 u=0  EXPECT o=0xEC (bin 00110111) ---
+setvector a 00110111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 709: a=0xEC  s=1 u=0  EXPECT o=0x76 (bin 01101110) ---
+setvector a 00110111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 710: a=0xEC  s=1 u=1  EXPECT o=0xD8 (bin 00011011) ---
+setvector a 00110111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 711: a=0xED  s=0 u=0  EXPECT o=0xED (bin 10110111) ---
+setvector a 10110111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 712: a=0xED  s=1 u=0  EXPECT o=0x76 (bin 01101110) ---
+setvector a 10110111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 713: a=0xED  s=1 u=1  EXPECT o=0xDA (bin 01011011) ---
+setvector a 10110111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 714: a=0xEE  s=0 u=0  EXPECT o=0xEE (bin 01110111) ---
+setvector a 01110111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 715: a=0xEE  s=1 u=0  EXPECT o=0x77 (bin 11101110) ---
+setvector a 01110111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 716: a=0xEE  s=1 u=1  EXPECT o=0xDC (bin 00111011) ---
+setvector a 01110111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 717: a=0xEF  s=0 u=0  EXPECT o=0xEF (bin 11110111) ---
+setvector a 11110111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 718: a=0xEF  s=1 u=0  EXPECT o=0x77 (bin 11101110) ---
+setvector a 11110111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 719: a=0xEF  s=1 u=1  EXPECT o=0xDE (bin 01111011) ---
+setvector a 11110111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 720: a=0xF0  s=0 u=0  EXPECT o=0xF0 (bin 00001111) ---
+setvector a 00001111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 721: a=0xF0  s=1 u=0  EXPECT o=0x78 (bin 00011110) ---
+setvector a 00001111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 722: a=0xF0  s=1 u=1  EXPECT o=0xE0 (bin 00000111) ---
+setvector a 00001111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 723: a=0xF1  s=0 u=0  EXPECT o=0xF1 (bin 10001111) ---
+setvector a 10001111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 724: a=0xF1  s=1 u=0  EXPECT o=0x78 (bin 00011110) ---
+setvector a 10001111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 725: a=0xF1  s=1 u=1  EXPECT o=0xE2 (bin 01000111) ---
+setvector a 10001111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 726: a=0xF2  s=0 u=0  EXPECT o=0xF2 (bin 01001111) ---
+setvector a 01001111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 727: a=0xF2  s=1 u=0  EXPECT o=0x79 (bin 10011110) ---
+setvector a 01001111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 728: a=0xF2  s=1 u=1  EXPECT o=0xE4 (bin 00100111) ---
+setvector a 01001111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 729: a=0xF3  s=0 u=0  EXPECT o=0xF3 (bin 11001111) ---
+setvector a 11001111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 730: a=0xF3  s=1 u=0  EXPECT o=0x79 (bin 10011110) ---
+setvector a 11001111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 731: a=0xF3  s=1 u=1  EXPECT o=0xE6 (bin 01100111) ---
+setvector a 11001111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 732: a=0xF4  s=0 u=0  EXPECT o=0xF4 (bin 00101111) ---
+setvector a 00101111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 733: a=0xF4  s=1 u=0  EXPECT o=0x7A (bin 01011110) ---
+setvector a 00101111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 734: a=0xF4  s=1 u=1  EXPECT o=0xE8 (bin 00010111) ---
+setvector a 00101111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 735: a=0xF5  s=0 u=0  EXPECT o=0xF5 (bin 10101111) ---
+setvector a 10101111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 736: a=0xF5  s=1 u=0  EXPECT o=0x7A (bin 01011110) ---
+setvector a 10101111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 737: a=0xF5  s=1 u=1  EXPECT o=0xEA (bin 01010111) ---
+setvector a 10101111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 738: a=0xF6  s=0 u=0  EXPECT o=0xF6 (bin 01101111) ---
+setvector a 01101111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 739: a=0xF6  s=1 u=0  EXPECT o=0x7B (bin 11011110) ---
+setvector a 01101111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 740: a=0xF6  s=1 u=1  EXPECT o=0xEC (bin 00110111) ---
+setvector a 01101111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 741: a=0xF7  s=0 u=0  EXPECT o=0xF7 (bin 11101111) ---
+setvector a 11101111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 742: a=0xF7  s=1 u=0  EXPECT o=0x7B (bin 11011110) ---
+setvector a 11101111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 743: a=0xF7  s=1 u=1  EXPECT o=0xEE (bin 01110111) ---
+setvector a 11101111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 744: a=0xF8  s=0 u=0  EXPECT o=0xF8 (bin 00011111) ---
+setvector a 00011111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 745: a=0xF8  s=1 u=0  EXPECT o=0x7C (bin 00111110) ---
+setvector a 00011111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 746: a=0xF8  s=1 u=1  EXPECT o=0xF0 (bin 00001111) ---
+setvector a 00011111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 747: a=0xF9  s=0 u=0  EXPECT o=0xF9 (bin 10011111) ---
+setvector a 10011111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 748: a=0xF9  s=1 u=0  EXPECT o=0x7C (bin 00111110) ---
+setvector a 10011111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 749: a=0xF9  s=1 u=1  EXPECT o=0xF2 (bin 01001111) ---
+setvector a 10011111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 750: a=0xFA  s=0 u=0  EXPECT o=0xFA (bin 01011111) ---
+setvector a 01011111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 751: a=0xFA  s=1 u=0  EXPECT o=0x7D (bin 10111110) ---
+setvector a 01011111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 752: a=0xFA  s=1 u=1  EXPECT o=0xF4 (bin 00101111) ---
+setvector a 01011111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 753: a=0xFB  s=0 u=0  EXPECT o=0xFB (bin 11011111) ---
+setvector a 11011111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 754: a=0xFB  s=1 u=0  EXPECT o=0x7D (bin 10111110) ---
+setvector a 11011111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 755: a=0xFB  s=1 u=1  EXPECT o=0xF6 (bin 01101111) ---
+setvector a 11011111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 756: a=0xFC  s=0 u=0  EXPECT o=0xFC (bin 00111111) ---
+setvector a 00111111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 757: a=0xFC  s=1 u=0  EXPECT o=0x7E (bin 01111110) ---
+setvector a 00111111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 758: a=0xFC  s=1 u=1  EXPECT o=0xF8 (bin 00011111) ---
+setvector a 00111111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 759: a=0xFD  s=0 u=0  EXPECT o=0xFD (bin 10111111) ---
+setvector a 10111111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 760: a=0xFD  s=1 u=0  EXPECT o=0x7E (bin 01111110) ---
+setvector a 10111111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 761: a=0xFD  s=1 u=1  EXPECT o=0xFA (bin 01011111) ---
+setvector a 10111111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 762: a=0xFE  s=0 u=0  EXPECT o=0xFE (bin 01111111) ---
+setvector a 01111111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 763: a=0xFE  s=1 u=0  EXPECT o=0x7F (bin 11111110) ---
+setvector a 01111111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 764: a=0xFE  s=1 u=1  EXPECT o=0xFC (bin 00111111) ---
+setvector a 01111111
+h s
+h u
+s
+path o
+d a s u o
+
+# --- step 765: a=0xFF  s=0 u=0  EXPECT o=0xFF (bin 11111111) ---
+setvector a 11111111
+l s
+l u
+s
+path o
+d a s u o
+
+# --- step 766: a=0xFF  s=1 u=0  EXPECT o=0x7F (bin 11111110) ---
+setvector a 11111111
+h s
+l u
+s
+path o
+d a s u o
+
+# --- step 767: a=0xFF  s=1 u=1  EXPECT o=0xFE (bin 01111111) ---
+setvector a 11111111
+h s
+h u
+s
+path o
+d a s u o
+
+# =========================
+# Transition stress (glitch hunting)
+# =========================
+# a=0x96 s=0 u=0  EXPECT o=0x96 (bin 01101001)
+setvector a 01101001
+l s
+l u
+s
+path o
+d a s u o
+
+# a=0x96 s=1 u=0  EXPECT o=0x4B (bin 11010010)
+setvector a 01101001
+h s
+l u
+s
+path o
+d a s u o
+
+# a=0x96 s=1 u=1  EXPECT o=0x2C (bin 00110100)
+setvector a 01101001
+h s
+h u
+s
+path o
+d a s u o
+
+# a=0x96 s=0 u=1  EXPECT o=0x96 (bin 01101001)
+setvector a 01101001
+l s
+h u
+s
+path o
+d a s u o
+
+# End of generated tests.
+
+

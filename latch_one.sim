@@ -1,0 +1,17 @@
+| units: 9 tech: scmos format: MIT
+p c Vdd! a_12_n54# 2 10 10 -34
+n c GND! a_12_n54# 2 5 10 -53
+p a_12_n54# a_30_n35# out 2 10 34 -34
+p in a_n5_n54# Vdd! 2 10 1 -34
+n in a_n5_n54# GND! 2 5 1 -53
+n c a_30_n54# out 2 5 34 -53
+p a_n5_n54# Vdd! a_30_n35# 2 10 28 -34
+n a_n5_n54# GND! a_30_n54# 2 5 28 -53
+R out 22
+R a_30_n35# 20
+R a_n5_n54# 157
+R c 307
+R in 188
+R a_12_n54# 100
+R GND! 61
+R Vdd! 1999

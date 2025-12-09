@@ -1,78 +1,78 @@
 magic
 tech scmos
-timestamp 1761111742
+timestamp 1765315909
 << polysilicon >>
-rect -392 1210 -390 1212
-rect -392 1053 -390 1055
-rect -392 896 -390 898
-rect -392 739 -390 741
-rect -392 582 -390 584
-rect -392 425 -390 427
-rect -392 268 -390 270
+rect -392 1343 -390 1345
+rect -392 1167 -390 1169
+rect -392 991 -390 993
+rect -392 815 -390 817
+rect -392 639 -390 641
+rect -392 463 -390 465
+rect -392 287 -390 289
 rect -392 111 -390 113
 << metal1 >>
-rect -336 1204 -333 1209
-rect -336 1047 -333 1052
-rect -336 890 -333 895
-rect -336 733 -333 738
-rect -336 576 -333 581
-rect -336 419 -333 424
-rect -336 262 -333 267
+rect -336 1337 -333 1342
+rect -336 1161 -333 1166
+rect -336 985 -333 990
+rect -336 809 -333 814
+rect -336 633 -333 638
+rect -336 457 -333 462
+rect -336 281 -333 286
 rect -336 105 -333 110
 << metal3 >>
-rect -389 84 -384 1235
-rect -377 84 -372 1235
-rect -340 84 -335 1235
-use latch_one  latch_one_7
-timestamp 1761111102
-transform 1 0 -381 0 1 149
-box -11 -65 48 -13
+rect -389 84 -384 1368
+rect -377 84 -372 1368
+rect -340 84 -335 1368
 use latch_one  latch_one_6
-timestamp 1761111102
-transform 1 0 -381 0 1 306
-box -11 -65 48 -13
-use latch_one  latch_one_5
-timestamp 1761111102
-transform 1 0 -381 0 1 463
-box -11 -65 48 -13
+timestamp 1765002978
+transform 1 0 -381 0 1 325
+box -11 -67 48 -12
 use latch_one  latch_one_4
-timestamp 1761111102
-transform 1 0 -381 0 1 620
-box -11 -65 48 -13
-use latch_one  latch_one_3
-timestamp 1761111102
-transform 1 0 -381 0 1 777
-box -11 -65 48 -13
-use latch_one  latch_one_2
-timestamp 1761111102
-transform 1 0 -381 0 1 934
-box -11 -65 48 -13
+timestamp 1765002978
+transform 1 0 -381 0 1 677
+box -11 -67 48 -12
 use latch_one  latch_one_1
-timestamp 1761111102
-transform 1 0 -381 0 1 1091
-box -11 -65 48 -13
+timestamp 1765002978
+transform 1 0 -381 0 1 1205
+box -11 -67 48 -12
 use latch_one  latch_one_0
-timestamp 1761111102
-transform 1 0 -381 0 1 1248
-box -11 -65 48 -13
+timestamp 1765002978
+transform 1 0 -381 0 1 1381
+box -11 -67 48 -12
+use latch_one  latch_one_2
+timestamp 1765002978
+transform 1 0 -381 0 1 1029
+box -11 -67 48 -12
+use latch_one  latch_one_3
+timestamp 1765002978
+transform 1 0 -381 0 1 853
+box -11 -67 48 -12
+use latch_one  latch_one_5
+timestamp 1765002978
+transform 1 0 -381 0 1 501
+box -11 -67 48 -12
+use latch_one  latch_one_7
+timestamp 1765002978
+transform 1 0 -381 0 1 149
+box -11 -67 48 -12
 << labels >>
-rlabel metal3 -377 1232 -372 1235 5 GND!
-rlabel metal3 -389 1232 -384 1235 5 Vdd!
-rlabel polysilicon -392 1210 -390 1212 3 in0
-rlabel metal1 -336 1204 -333 1209 7 out0
-rlabel metal3 -340 1232 -335 1235 5 c
-rlabel polysilicon -392 1053 -390 1055 3 in1
-rlabel metal1 -336 1047 -333 1052 7 out1
-rlabel polysilicon -392 896 -390 898 3 in2
-rlabel metal1 -336 890 -333 895 7 out2
-rlabel polysilicon -392 739 -390 741 3 in3
-rlabel metal1 -336 733 -333 738 7 out3
-rlabel polysilicon -392 582 -390 584 3 in4
-rlabel metal1 -336 576 -333 581 7 out4
-rlabel polysilicon -392 425 -390 427 3 in5
-rlabel metal1 -336 419 -333 424 7 out5
-rlabel polysilicon -392 268 -390 270 3 in6
-rlabel metal1 -336 262 -333 267 7 out6
 rlabel polysilicon -392 111 -390 113 3 in7
 rlabel metal1 -336 105 -333 110 7 out7
+rlabel polysilicon -392 287 -390 289 3 in6
+rlabel metal1 -336 281 -333 286 7 out6
+rlabel polysilicon -392 463 -390 465 3 in5
+rlabel metal1 -336 457 -333 462 7 out5
+rlabel polysilicon -392 639 -390 641 3 in4
+rlabel metal1 -336 633 -333 638 7 out4
+rlabel metal3 -340 1365 -335 1368 5 c
+rlabel metal1 -336 1337 -333 1342 7 out0
+rlabel polysilicon -392 1343 -390 1345 3 in0
+rlabel metal3 -389 1365 -384 1368 5 Vdd!
+rlabel metal3 -377 1365 -372 1368 5 GND!
+rlabel metal1 -336 1161 -333 1166 7 out1
+rlabel polysilicon -392 1167 -390 1169 3 in1
+rlabel metal1 -336 985 -333 990 7 out2
+rlabel polysilicon -392 991 -390 993 3 in2
+rlabel metal1 -336 809 -333 814 7 out3
+rlabel polysilicon -392 815 -390 817 3 in3
 << end >>

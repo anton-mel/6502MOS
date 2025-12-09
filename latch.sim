@@ -1,0 +1,111 @@
+| units: 9 tech: scmos format: MIT
+p c Vdd! latch_one_0/a_12_n54# 2 10 -371 1214
+n c GND! latch_one_0/a_12_n54# 2 5 -371 1195
+p latch_one_0/a_12_n54# latch_one_0/a_30_n35# out0 2 10 -347 1214
+p in0 latch_one_0/a_n5_n54# Vdd! 2 10 -380 1214
+n in0 latch_one_0/a_n5_n54# GND! 2 5 -380 1195
+n c latch_one_0/a_30_n54# out0 2 5 -347 1195
+p latch_one_0/a_n5_n54# Vdd! latch_one_0/a_30_n35# 2 10 -353 1214
+n latch_one_0/a_n5_n54# GND! latch_one_0/a_30_n54# 2 5 -353 1195
+p c Vdd! latch_one_1/a_12_n54# 2 10 -371 1057
+n c GND! latch_one_1/a_12_n54# 2 5 -371 1038
+p latch_one_1/a_12_n54# latch_one_1/a_30_n35# out1 2 10 -347 1057
+p in1 latch_one_1/a_n5_n54# Vdd! 2 10 -380 1057
+n in1 latch_one_1/a_n5_n54# GND! 2 5 -380 1038
+n c latch_one_1/a_30_n54# out1 2 5 -347 1038
+p latch_one_1/a_n5_n54# Vdd! latch_one_1/a_30_n35# 2 10 -353 1057
+n latch_one_1/a_n5_n54# GND! latch_one_1/a_30_n54# 2 5 -353 1038
+p c Vdd! latch_one_2/a_12_n54# 2 10 -371 900
+n c GND! latch_one_2/a_12_n54# 2 5 -371 881
+p latch_one_2/a_12_n54# latch_one_2/a_30_n35# out2 2 10 -347 900
+p in2 latch_one_2/a_n5_n54# Vdd! 2 10 -380 900
+n in2 latch_one_2/a_n5_n54# GND! 2 5 -380 881
+n c latch_one_2/a_30_n54# out2 2 5 -347 881
+p latch_one_2/a_n5_n54# Vdd! latch_one_2/a_30_n35# 2 10 -353 900
+n latch_one_2/a_n5_n54# GND! latch_one_2/a_30_n54# 2 5 -353 881
+p c Vdd! latch_one_3/a_12_n54# 2 10 -371 743
+n c GND! latch_one_3/a_12_n54# 2 5 -371 724
+p latch_one_3/a_12_n54# latch_one_3/a_30_n35# out3 2 10 -347 743
+p in3 latch_one_3/a_n5_n54# Vdd! 2 10 -380 743
+n in3 latch_one_3/a_n5_n54# GND! 2 5 -380 724
+n c latch_one_3/a_30_n54# out3 2 5 -347 724
+p latch_one_3/a_n5_n54# Vdd! latch_one_3/a_30_n35# 2 10 -353 743
+n latch_one_3/a_n5_n54# GND! latch_one_3/a_30_n54# 2 5 -353 724
+p c Vdd! latch_one_4/a_12_n54# 2 10 -371 586
+n c GND! latch_one_4/a_12_n54# 2 5 -371 567
+p latch_one_4/a_12_n54# latch_one_4/a_30_n35# out4 2 10 -347 586
+p in4 latch_one_4/a_n5_n54# Vdd! 2 10 -380 586
+n in4 latch_one_4/a_n5_n54# GND! 2 5 -380 567
+n c latch_one_4/a_30_n54# out4 2 5 -347 567
+p latch_one_4/a_n5_n54# Vdd! latch_one_4/a_30_n35# 2 10 -353 586
+n latch_one_4/a_n5_n54# GND! latch_one_4/a_30_n54# 2 5 -353 567
+p c Vdd! latch_one_5/a_12_n54# 2 10 -371 429
+n c GND! latch_one_5/a_12_n54# 2 5 -371 410
+p latch_one_5/a_12_n54# latch_one_5/a_30_n35# out5 2 10 -347 429
+p in5 latch_one_5/a_n5_n54# Vdd! 2 10 -380 429
+n in5 latch_one_5/a_n5_n54# GND! 2 5 -380 410
+n c latch_one_5/a_30_n54# out5 2 5 -347 410
+p latch_one_5/a_n5_n54# Vdd! latch_one_5/a_30_n35# 2 10 -353 429
+n latch_one_5/a_n5_n54# GND! latch_one_5/a_30_n54# 2 5 -353 410
+p c Vdd! latch_one_6/a_12_n54# 2 10 -371 272
+n c GND! latch_one_6/a_12_n54# 2 5 -371 253
+p latch_one_6/a_12_n54# latch_one_6/a_30_n35# out6 2 10 -347 272
+p in6 latch_one_6/a_n5_n54# Vdd! 2 10 -380 272
+n in6 latch_one_6/a_n5_n54# GND! 2 5 -380 253
+n c latch_one_6/a_30_n54# out6 2 5 -347 253
+p latch_one_6/a_n5_n54# Vdd! latch_one_6/a_30_n35# 2 10 -353 272
+n latch_one_6/a_n5_n54# GND! latch_one_6/a_30_n54# 2 5 -353 253
+p c Vdd! latch_one_7/a_12_n54# 2 10 -371 115
+n c GND! latch_one_7/a_12_n54# 2 5 -371 96
+p latch_one_7/a_12_n54# latch_one_7/a_30_n35# out7 2 10 -347 115
+p in7 latch_one_7/a_n5_n54# Vdd! 2 10 -380 115
+n in7 latch_one_7/a_n5_n54# GND! 2 5 -380 96
+n c latch_one_7/a_30_n54# out7 2 5 -347 96
+p latch_one_7/a_n5_n54# Vdd! latch_one_7/a_30_n35# 2 10 -353 115
+n latch_one_7/a_n5_n54# GND! latch_one_7/a_30_n54# 2 5 -353 96
+C Vdd! GND! 9.60
+C c GND! 4.25
+R out7 22
+R latch_one_7/a_30_n35# 20
+R latch_one_7/a_n5_n54# 157
+R c 2591
+R in7 194
+R latch_one_7/a_12_n54# 100
+R GND! 747
+C Vdd! GND 8.94
+R Vdd! 33179
+R out6 22
+R latch_one_6/a_30_n35# 20
+R latch_one_6/a_n5_n54# 157
+R in6 194
+R latch_one_6/a_12_n54# 100
+R out5 22
+R latch_one_5/a_30_n35# 20
+R latch_one_5/a_n5_n54# 157
+R in5 194
+R latch_one_5/a_12_n54# 100
+R out4 22
+R latch_one_4/a_30_n35# 20
+R latch_one_4/a_n5_n54# 157
+R in4 190
+R latch_one_4/a_12_n54# 100
+R out3 22
+R latch_one_3/a_30_n35# 20
+R latch_one_3/a_n5_n54# 157
+R in3 194
+R latch_one_3/a_12_n54# 100
+R out2 22
+R latch_one_2/a_30_n35# 20
+R latch_one_2/a_n5_n54# 157
+R in2 194
+R latch_one_2/a_12_n54# 100
+R out1 22
+R latch_one_1/a_30_n35# 20
+R latch_one_1/a_n5_n54# 157
+R in1 194
+R latch_one_1/a_12_n54# 100
+R out0 22
+R latch_one_0/a_30_n35# 20
+R latch_one_0/a_n5_n54# 157
+R in0 194
+R latch_one_0/a_12_n54# 100

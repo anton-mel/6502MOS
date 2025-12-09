@@ -1,0 +1,302 @@
+| units: 9 tech: scmos format: MIT
+p reg_one_4/tmp reg_one_4/a_39_5# Vdd! 2 10 45 259
+p reg_one_4/a_4_n13# reg_one_4/a_54_5# port30 2 10 60 259
+n reg_one_4/tmp GND! reg_one_4/a_33_32# 2 5 62 312
+n r1 port31 reg_one_4/a_39_n13# 2 5 39 242
+n reg_one_4/a_16_27# reg_one_4/tmp reg_one_4/a_28_58# 2 5 28 312
+p reg_one_4/tmp Vdd! reg_one_4/a_54_5# 2 10 54 259
+p r1 Vdd! reg_one_4/a_21_n13# 2 10 21 259
+n r1 GND! reg_one_4/a_21_n13# 2 5 21 242
+p reg_one_4/tmp Vdd! reg_one_4/a_33_32# 2 10 62 289
+n r0 reg_one_4/a_54_n13# port30 2 5 60 242
+n in3 GND! reg_one_4/a_12_58# 2 5 12 312
+n reg_one_4/a_33_32# reg_one_4/a_28_58# GND! 2 5 35 312
+p w reg_one_4/tmp reg_one_4/a_28_35# 2 10 28 289
+n w reg_one_4/a_12_58# reg_one_4/tmp 2 5 18 312
+n w reg_one_4/a_16_27# GND! 2 5 53 312
+p r0 reg_one_4/a_4_n13# Vdd! 2 10 12 259
+n r0 reg_one_4/a_4_n13# GND! 2 5 12 242
+p in3 Vdd! reg_one_4/a_12_35# 2 10 12 289
+p reg_one_4/a_33_32# reg_one_4/a_28_35# Vdd! 2 10 35 289
+p reg_one_4/a_16_27# reg_one_4/a_12_35# reg_one_4/tmp 2 10 18 289
+p reg_one_4/a_21_n13# port31 reg_one_4/a_39_5# 2 10 39 259
+p w reg_one_4/a_16_27# Vdd! 2 10 53 289
+n reg_one_4/tmp GND! reg_one_4/a_54_n13# 2 5 54 242
+n reg_one_4/tmp reg_one_4/a_39_n13# GND! 2 5 45 242
+p reg_one_5/tmp reg_one_5/a_39_5# Vdd! 2 10 45 416
+p reg_one_5/a_4_n13# reg_one_5/a_54_5# port20 2 10 60 416
+n reg_one_5/tmp GND! reg_one_5/a_33_32# 2 5 62 469
+n r1 port21 reg_one_5/a_39_n13# 2 5 39 399
+n reg_one_5/a_16_27# reg_one_5/tmp reg_one_5/a_28_58# 2 5 28 469
+p reg_one_5/tmp Vdd! reg_one_5/a_54_5# 2 10 54 416
+p r1 Vdd! reg_one_5/a_21_n13# 2 10 21 416
+n r1 GND! reg_one_5/a_21_n13# 2 5 21 399
+p reg_one_5/tmp Vdd! reg_one_5/a_33_32# 2 10 62 446
+n r0 reg_one_5/a_54_n13# port20 2 5 60 399
+n in2 GND! reg_one_5/a_12_58# 2 5 12 469
+n reg_one_5/a_33_32# reg_one_5/a_28_58# GND! 2 5 35 469
+p w reg_one_5/tmp reg_one_5/a_28_35# 2 10 28 446
+n w reg_one_5/a_12_58# reg_one_5/tmp 2 5 18 469
+n w reg_one_5/a_16_27# GND! 2 5 53 469
+p r0 reg_one_5/a_4_n13# Vdd! 2 10 12 416
+n r0 reg_one_5/a_4_n13# GND! 2 5 12 399
+p in2 Vdd! reg_one_5/a_12_35# 2 10 12 446
+p reg_one_5/a_33_32# reg_one_5/a_28_35# Vdd! 2 10 35 446
+p reg_one_5/a_16_27# reg_one_5/a_12_35# reg_one_5/tmp 2 10 18 446
+p reg_one_5/a_21_n13# port21 reg_one_5/a_39_5# 2 10 39 416
+p w reg_one_5/a_16_27# Vdd! 2 10 53 446
+n reg_one_5/tmp GND! reg_one_5/a_54_n13# 2 5 54 399
+n reg_one_5/tmp reg_one_5/a_39_n13# GND! 2 5 45 399
+p reg_one_6/tmp reg_one_6/a_39_5# Vdd! 2 10 45 573
+p reg_one_6/a_4_n13# reg_one_6/a_54_5# port10 2 10 60 573
+n reg_one_6/tmp GND! reg_one_6/a_33_32# 2 5 62 626
+n r1 port11 reg_one_6/a_39_n13# 2 5 39 556
+n reg_one_6/a_16_27# reg_one_6/tmp reg_one_6/a_28_58# 2 5 28 626
+p reg_one_6/tmp Vdd! reg_one_6/a_54_5# 2 10 54 573
+p r1 Vdd! reg_one_6/a_21_n13# 2 10 21 573
+n r1 GND! reg_one_6/a_21_n13# 2 5 21 556
+p reg_one_6/tmp Vdd! reg_one_6/a_33_32# 2 10 62 603
+n r0 reg_one_6/a_54_n13# port10 2 5 60 556
+n in1 GND! reg_one_6/a_12_58# 2 5 12 626
+n reg_one_6/a_33_32# reg_one_6/a_28_58# GND! 2 5 35 626
+p w reg_one_6/tmp reg_one_6/a_28_35# 2 10 28 603
+n w reg_one_6/a_12_58# reg_one_6/tmp 2 5 18 626
+n w reg_one_6/a_16_27# GND! 2 5 53 626
+p r0 reg_one_6/a_4_n13# Vdd! 2 10 12 573
+n r0 reg_one_6/a_4_n13# GND! 2 5 12 556
+p in1 Vdd! reg_one_6/a_12_35# 2 10 12 603
+p reg_one_6/a_33_32# reg_one_6/a_28_35# Vdd! 2 10 35 603
+p reg_one_6/a_16_27# reg_one_6/a_12_35# reg_one_6/tmp 2 10 18 603
+p reg_one_6/a_21_n13# port11 reg_one_6/a_39_5# 2 10 39 573
+p w reg_one_6/a_16_27# Vdd! 2 10 53 603
+n reg_one_6/tmp GND! reg_one_6/a_54_n13# 2 5 54 556
+n reg_one_6/tmp reg_one_6/a_39_n13# GND! 2 5 45 556
+p reg_one_7/tmp reg_one_7/a_39_5# Vdd! 2 10 45 730
+p reg_one_7/a_4_n13# reg_one_7/a_54_5# port00 2 10 60 730
+n reg_one_7/tmp GND! reg_one_7/a_33_32# 2 5 62 783
+n r1 port01 reg_one_7/a_39_n13# 2 5 39 713
+n reg_one_7/a_16_27# reg_one_7/tmp reg_one_7/a_28_58# 2 5 28 783
+p reg_one_7/tmp Vdd! reg_one_7/a_54_5# 2 10 54 730
+p r1 Vdd! reg_one_7/a_21_n13# 2 10 21 730
+n r1 GND! reg_one_7/a_21_n13# 2 5 21 713
+p reg_one_7/tmp Vdd! reg_one_7/a_33_32# 2 10 62 760
+n r0 reg_one_7/a_54_n13# port00 2 5 60 713
+n in0 GND! reg_one_7/a_12_58# 2 5 12 783
+n reg_one_7/a_33_32# reg_one_7/a_28_58# GND! 2 5 35 783
+p w reg_one_7/tmp reg_one_7/a_28_35# 2 10 28 760
+n w reg_one_7/a_12_58# reg_one_7/tmp 2 5 18 783
+n w reg_one_7/a_16_27# GND! 2 5 53 783
+p r0 reg_one_7/a_4_n13# Vdd! 2 10 12 730
+n r0 reg_one_7/a_4_n13# GND! 2 5 12 713
+p in0 Vdd! reg_one_7/a_12_35# 2 10 12 760
+p reg_one_7/a_33_32# reg_one_7/a_28_35# Vdd! 2 10 35 760
+p reg_one_7/a_16_27# reg_one_7/a_12_35# reg_one_7/tmp 2 10 18 760
+p reg_one_7/a_21_n13# port01 reg_one_7/a_39_5# 2 10 39 730
+p w reg_one_7/a_16_27# Vdd! 2 10 53 760
+n reg_one_7/tmp GND! reg_one_7/a_54_n13# 2 5 54 713
+n reg_one_7/tmp reg_one_7/a_39_n13# GND! 2 5 45 713
+p reg_one_0/tmp reg_one_0/a_39_5# Vdd! 2 10 45 -369
+p reg_one_0/a_4_n13# reg_one_0/a_54_5# port70 2 10 60 -369
+n reg_one_0/tmp GND! reg_one_0/a_33_32# 2 5 62 -316
+n r1 port71 reg_one_0/a_39_n13# 2 5 39 -386
+n reg_one_0/a_16_27# reg_one_0/tmp reg_one_0/a_28_58# 2 5 28 -316
+p reg_one_0/tmp Vdd! reg_one_0/a_54_5# 2 10 54 -369
+p r1 Vdd! reg_one_0/a_21_n13# 2 10 21 -369
+n r1 GND! reg_one_0/a_21_n13# 2 5 21 -386
+p reg_one_0/tmp Vdd! reg_one_0/a_33_32# 2 10 62 -339
+n r0 reg_one_0/a_54_n13# port70 2 5 60 -386
+n in7 GND! reg_one_0/a_12_58# 2 5 12 -316
+n reg_one_0/a_33_32# reg_one_0/a_28_58# GND! 2 5 35 -316
+p w reg_one_0/tmp reg_one_0/a_28_35# 2 10 28 -339
+n w reg_one_0/a_12_58# reg_one_0/tmp 2 5 18 -316
+n w reg_one_0/a_16_27# GND! 2 5 53 -316
+p r0 reg_one_0/a_4_n13# Vdd! 2 10 12 -369
+n r0 reg_one_0/a_4_n13# GND! 2 5 12 -386
+p in7 Vdd! reg_one_0/a_12_35# 2 10 12 -339
+p reg_one_0/a_33_32# reg_one_0/a_28_35# Vdd! 2 10 35 -339
+p reg_one_0/a_16_27# reg_one_0/a_12_35# reg_one_0/tmp 2 10 18 -339
+p reg_one_0/a_21_n13# port71 reg_one_0/a_39_5# 2 10 39 -369
+p w reg_one_0/a_16_27# Vdd! 2 10 53 -339
+n reg_one_0/tmp GND! reg_one_0/a_54_n13# 2 5 54 -386
+n reg_one_0/tmp reg_one_0/a_39_n13# GND! 2 5 45 -386
+p reg_one_1/tmp reg_one_1/a_39_5# Vdd! 2 10 45 -212
+p reg_one_1/a_4_n13# reg_one_1/a_54_5# port60 2 10 60 -212
+n reg_one_1/tmp GND! reg_one_1/a_33_32# 2 5 62 -159
+n r1 port61 reg_one_1/a_39_n13# 2 5 39 -229
+n reg_one_1/a_16_27# reg_one_1/tmp reg_one_1/a_28_58# 2 5 28 -159
+p reg_one_1/tmp Vdd! reg_one_1/a_54_5# 2 10 54 -212
+p r1 Vdd! reg_one_1/a_21_n13# 2 10 21 -212
+n r1 GND! reg_one_1/a_21_n13# 2 5 21 -229
+p reg_one_1/tmp Vdd! reg_one_1/a_33_32# 2 10 62 -182
+n r0 reg_one_1/a_54_n13# port60 2 5 60 -229
+n in6 GND! reg_one_1/a_12_58# 2 5 12 -159
+n reg_one_1/a_33_32# reg_one_1/a_28_58# GND! 2 5 35 -159
+p w reg_one_1/tmp reg_one_1/a_28_35# 2 10 28 -182
+n w reg_one_1/a_12_58# reg_one_1/tmp 2 5 18 -159
+n w reg_one_1/a_16_27# GND! 2 5 53 -159
+p r0 reg_one_1/a_4_n13# Vdd! 2 10 12 -212
+n r0 reg_one_1/a_4_n13# GND! 2 5 12 -229
+p in6 Vdd! reg_one_1/a_12_35# 2 10 12 -182
+p reg_one_1/a_33_32# reg_one_1/a_28_35# Vdd! 2 10 35 -182
+p reg_one_1/a_16_27# reg_one_1/a_12_35# reg_one_1/tmp 2 10 18 -182
+p reg_one_1/a_21_n13# port61 reg_one_1/a_39_5# 2 10 39 -212
+p w reg_one_1/a_16_27# Vdd! 2 10 53 -182
+n reg_one_1/tmp GND! reg_one_1/a_54_n13# 2 5 54 -229
+n reg_one_1/tmp reg_one_1/a_39_n13# GND! 2 5 45 -229
+p reg_one_2/tmp reg_one_2/a_39_5# Vdd! 2 10 45 -55
+p reg_one_2/a_4_n13# reg_one_2/a_54_5# port50 2 10 60 -55
+n reg_one_2/tmp GND! reg_one_2/a_33_32# 2 5 62 -2
+n r1 port51 reg_one_2/a_39_n13# 2 5 39 -72
+n reg_one_2/a_16_27# reg_one_2/tmp reg_one_2/a_28_58# 2 5 28 -2
+p reg_one_2/tmp Vdd! reg_one_2/a_54_5# 2 10 54 -55
+p r1 Vdd! reg_one_2/a_21_n13# 2 10 21 -55
+n r1 GND! reg_one_2/a_21_n13# 2 5 21 -72
+p reg_one_2/tmp Vdd! reg_one_2/a_33_32# 2 10 62 -25
+n r0 reg_one_2/a_54_n13# port50 2 5 60 -72
+n in5 GND! reg_one_2/a_12_58# 2 5 12 -2
+n reg_one_2/a_33_32# reg_one_2/a_28_58# GND! 2 5 35 -2
+p w reg_one_2/tmp reg_one_2/a_28_35# 2 10 28 -25
+n w reg_one_2/a_12_58# reg_one_2/tmp 2 5 18 -2
+n w reg_one_2/a_16_27# GND! 2 5 53 -2
+p r0 reg_one_2/a_4_n13# Vdd! 2 10 12 -55
+n r0 reg_one_2/a_4_n13# GND! 2 5 12 -72
+p in5 Vdd! reg_one_2/a_12_35# 2 10 12 -25
+p reg_one_2/a_33_32# reg_one_2/a_28_35# Vdd! 2 10 35 -25
+p reg_one_2/a_16_27# reg_one_2/a_12_35# reg_one_2/tmp 2 10 18 -25
+p reg_one_2/a_21_n13# port51 reg_one_2/a_39_5# 2 10 39 -55
+p w reg_one_2/a_16_27# Vdd! 2 10 53 -25
+n reg_one_2/tmp GND! reg_one_2/a_54_n13# 2 5 54 -72
+n reg_one_2/tmp reg_one_2/a_39_n13# GND! 2 5 45 -72
+p reg_one_3/tmp reg_one_3/a_39_5# Vdd! 2 10 45 102
+p reg_one_3/a_4_n13# reg_one_3/a_54_5# port40 2 10 60 102
+n reg_one_3/tmp GND! reg_one_3/a_33_32# 2 5 62 155
+n r1 port41 reg_one_3/a_39_n13# 2 5 39 85
+n reg_one_3/a_16_27# reg_one_3/tmp reg_one_3/a_28_58# 2 5 28 155
+p reg_one_3/tmp Vdd! reg_one_3/a_54_5# 2 10 54 102
+p r1 Vdd! reg_one_3/a_21_n13# 2 10 21 102
+n r1 GND! reg_one_3/a_21_n13# 2 5 21 85
+p reg_one_3/tmp Vdd! reg_one_3/a_33_32# 2 10 62 132
+n r0 reg_one_3/a_54_n13# port40 2 5 60 85
+n in4 GND! reg_one_3/a_12_58# 2 5 12 155
+n reg_one_3/a_33_32# reg_one_3/a_28_58# GND! 2 5 35 155
+p w reg_one_3/tmp reg_one_3/a_28_35# 2 10 28 132
+n w reg_one_3/a_12_58# reg_one_3/tmp 2 5 18 155
+n w reg_one_3/a_16_27# GND! 2 5 53 155
+p r0 reg_one_3/a_4_n13# Vdd! 2 10 12 102
+n r0 reg_one_3/a_4_n13# GND! 2 5 12 85
+p in4 Vdd! reg_one_3/a_12_35# 2 10 12 132
+p reg_one_3/a_33_32# reg_one_3/a_28_35# Vdd! 2 10 35 132
+p reg_one_3/a_16_27# reg_one_3/a_12_35# reg_one_3/tmp 2 10 18 132
+p reg_one_3/a_21_n13# port41 reg_one_3/a_39_5# 2 10 39 102
+p w reg_one_3/a_16_27# Vdd! 2 10 53 132
+n reg_one_3/tmp GND! reg_one_3/a_54_n13# 2 5 54 85
+n reg_one_3/tmp reg_one_3/a_39_n13# GND! 2 5 45 85
+C GND! Vdd! 2.23
+C GND! r1 2.28
+C GND! w 8.67
+C r1 r0 2.42
+C GND! r0 6.24
+C Vdd! r1 20.17
+C Vdd! w 3.02
+R port40 22
+R reg_one_3/a_54_5# 20
+R reg_one_3/a_39_5# 20
+R port41 23
+R reg_one_3/a_4_n13# 101
+R reg_one_3/a_21_n13# 100
+R reg_one_3/a_28_35# 16
+R reg_one_3/a_12_35# 20
+R reg_one_3/tmp 560
+R reg_one_3/a_33_32# 153
+R reg_one_3/a_16_27# 212
+R in4 129
+R port50 22
+R reg_one_2/a_54_5# 20
+R reg_one_2/a_39_5# 20
+R port51 23
+R reg_one_2/a_4_n13# 101
+R reg_one_2/a_21_n13# 100
+R reg_one_2/a_28_35# 16
+R reg_one_2/a_12_35# 20
+R reg_one_2/tmp 560
+R reg_one_2/a_33_32# 153
+R reg_one_2/a_16_27# 212
+R in5 128
+R port60 22
+R reg_one_1/a_54_5# 20
+R reg_one_1/a_39_5# 20
+R port61 23
+R reg_one_1/a_4_n13# 101
+R reg_one_1/a_21_n13# 100
+R reg_one_1/a_28_35# 16
+R reg_one_1/a_12_35# 20
+R reg_one_1/tmp 560
+R reg_one_1/a_33_32# 153
+R reg_one_1/a_16_27# 212
+R in6 129
+R port70 22
+R reg_one_0/a_54_5# 20
+R reg_one_0/a_39_5# 20
+R port71 23
+R reg_one_0/a_4_n13# 101
+R reg_one_0/a_21_n13# 100
+R r0 3986
+R r1 2934
+R reg_one_0/a_28_35# 16
+R reg_one_0/a_12_35# 20
+R reg_one_0/tmp 560
+R reg_one_0/a_33_32# 153
+R reg_one_0/a_16_27# 212
+R in7 129
+R w 5529
+C Vdd! GND 21.67
+R Vdd! 32034
+R GND! 1710
+R port00 22
+R reg_one_7/a_54_5# 20
+R reg_one_7/a_39_5# 20
+R port01 23
+R reg_one_7/a_4_n13# 101
+R reg_one_7/a_21_n13# 100
+R reg_one_7/a_28_35# 16
+R reg_one_7/a_12_35# 20
+R reg_one_7/tmp 560
+R reg_one_7/a_33_32# 153
+R reg_one_7/a_16_27# 212
+R in0 129
+R port10 22
+R reg_one_6/a_54_5# 20
+R reg_one_6/a_39_5# 20
+R port11 23
+R reg_one_6/a_4_n13# 101
+R reg_one_6/a_21_n13# 100
+R reg_one_6/a_28_35# 16
+R reg_one_6/a_12_35# 20
+R reg_one_6/tmp 560
+R reg_one_6/a_33_32# 153
+R reg_one_6/a_16_27# 212
+R in1 129
+R port20 22
+R reg_one_5/a_54_5# 20
+R reg_one_5/a_39_5# 20
+R port21 23
+R reg_one_5/a_4_n13# 101
+R reg_one_5/a_21_n13# 100
+R reg_one_5/a_28_35# 16
+R reg_one_5/a_12_35# 20
+R reg_one_5/tmp 560
+R reg_one_5/a_33_32# 153
+R reg_one_5/a_16_27# 212
+R in2 129
+R port30 22
+R reg_one_4/a_54_5# 20
+R reg_one_4/a_39_5# 20
+R port31 23
+R reg_one_4/a_4_n13# 101
+R reg_one_4/a_21_n13# 100
+R reg_one_4/a_28_35# 16
+R reg_one_4/a_12_35# 20
+R reg_one_4/tmp 560
+R reg_one_4/a_33_32# 153
+R reg_one_4/a_16_27# 212
+R in3 128
