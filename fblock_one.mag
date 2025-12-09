@@ -93,38 +93,38 @@ rect 110 -47 115 -45
 rect 14 -52 115 -47
 rect 0 -87 9 -82
 rect 32 -87 66 -82
-use 2mux_nr  2mux_nr_1
-timestamp 1765248526
-transform 0 -1 87 -1 0 0
-box -32 -38 29 27
-use 2mux_nr  2mux_nr_0
-timestamp 1765248526
-transform 0 -1 22 -1 0 0
-box -32 -38 29 27
-use inv  inv_0
+use inv  inv_3
 timestamp 1765001281
-transform 1 0 73 0 1 -76
-box -10 -13 20 40
-use 2mux_nr  2mux_nr_2
-timestamp 1765248526
-transform 0 -1 22 -1 0 -61
-box -32 -38 29 27
-use inv  inv_2
-timestamp 1765001281
-transform 1 0 38 0 1 46
-box -10 -13 20 40
-use inv  inv_4
-timestamp 1765001281
-transform 1 0 105 0 1 46
+transform 1 0 72 0 1 46
 box -10 -13 20 40
 use inv  inv_1
 timestamp 1765001281
 transform 1 0 5 0 1 46
 box -10 -13 20 40
-use inv  inv_3
+use inv  inv_4
 timestamp 1765001281
-transform 1 0 72 0 1 46
+transform 1 0 105 0 1 46
 box -10 -13 20 40
+use inv  inv_2
+timestamp 1765001281
+transform 1 0 38 0 1 46
+box -10 -13 20 40
+use 2mux_nr  2mux_nr_2
+timestamp 1765248526
+transform 0 -1 22 -1 0 -61
+box -32 -38 29 27
+use inv  inv_0
+timestamp 1765001281
+transform 1 0 73 0 1 -76
+box -10 -13 20 40
+use 2mux_nr  2mux_nr_0
+timestamp 1765248526
+transform 0 -1 22 -1 0 0
+box -32 -38 29 27
+use 2mux_nr  2mux_nr_1
+timestamp 1765248526
+transform 0 -1 87 -1 0 0
+box -32 -38 29 27
 << labels >>
 rlabel metal1 0 59 0 59 3 g3
 rlabel metal1 32 59 32 59 1 g2
