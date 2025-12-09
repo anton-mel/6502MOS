@@ -1,6 +1,50 @@
 magic
 tech scmos
-timestamp 1759303105
+timestamp 1765248240
+<< error_s >>
+rect 28 85 31 86
+rect 62 85 64 86
+rect 95 85 98 86
+rect 68 77 70 78
+rect 34 42 36 45
+rect 9 41 36 42
+rect 9 40 34 41
+rect 74 40 99 42
+rect 3 37 34 40
+rect 70 37 99 40
+rect -5 34 125 37
+rect -5 33 25 34
+rect 28 33 58 34
+rect 62 33 92 34
+rect 95 33 125 34
+rect 0 32 14 33
+rect 66 32 79 33
+rect 21 30 22 31
+rect 86 30 87 31
+rect 22 25 27 30
+rect 66 26 68 29
+rect 87 25 92 30
+rect 15 19 19 23
+rect 23 19 28 24
+rect 80 19 84 23
+rect 88 19 93 24
+rect 1 -11 3 -6
+rect 9 -11 34 -9
+rect 66 -11 68 -6
+rect 0 -14 34 -11
+rect -5 -17 60 -14
+rect 65 -16 91 -13
+rect 63 -17 93 -16
+rect -5 -19 93 -17
+rect 101 -19 106 -17
+rect 0 -20 14 -19
+rect 71 -20 85 -19
+rect 21 -21 22 -20
+rect 22 -26 27 -21
+rect 15 -32 19 -28
+rect 23 -32 28 -27
+rect 1 -62 3 -57
+rect 63 -69 66 -68
 << nwell >>
 rect 23 82 31 85
 rect 55 82 63 85
@@ -105,38 +149,38 @@ rect 110 -27 115 -25
 rect 14 -32 115 -27
 rect 0 -65 9 -60
 rect 32 -65 66 -60
-use 2mux_nr  2mux_nr_0
-timestamp 1758867764
-transform 0 -1 22 -1 0 10
-box -24 -38 27 27
 use inv  inv_3
-timestamp 1758863638
+timestamp 1765001281
 transform 1 0 72 0 1 46
-box -10 -12 20 39
+box -10 -13 20 40
 use inv  inv_1
-timestamp 1758863638
+timestamp 1765001281
 transform 1 0 5 0 1 46
-box -10 -12 20 39
-use 2mux_nr  2mux_nr_1
-timestamp 1758867764
-transform 0 -1 87 -1 0 10
-box -24 -38 27 27
-use 2mux_nr  2mux_nr_2
-timestamp 1758867764
-transform 0 -1 22 -1 0 -41
-box -24 -38 27 27
+box -10 -13 20 40
 use inv  inv_0
-timestamp 1758863638
+timestamp 1765001281
 transform 1 0 73 0 1 -56
-box -10 -12 20 39
+box -10 -13 20 40
 use inv  inv_4
-timestamp 1758863638
+timestamp 1765001281
 transform 1 0 105 0 1 46
-box -10 -12 20 39
+box -10 -13 20 40
 use inv  inv_2
-timestamp 1758863638
+timestamp 1765001281
 transform 1 0 38 0 1 46
-box -10 -12 20 39
+box -10 -13 20 40
+use 2mux_nr  2mux_nr_0
+timestamp 1765000963
+transform 0 -1 22 -1 0 10
+box -32 -38 29 27
+use 2mux_nr  2mux_nr_1
+timestamp 1765000963
+transform 0 -1 87 -1 0 10
+box -32 -38 29 27
+use 2mux_nr  2mux_nr_2
+timestamp 1765000963
+transform 0 -1 22 -1 0 -41
+box -32 -38 29 27
 << labels >>
 rlabel metal1 25 79 25 79 1 Vdd!
 rlabel metal1 0 59 0 59 3 g3

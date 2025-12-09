@@ -1,17 +1,8 @@
 magic
 tech scmos
-timestamp 1765000963
-<< error_p >>
-rect -32 1 -27 13
-rect -20 1 -15 6
-rect -13 3 -9 7
-rect -20 0 -14 1
-rect -14 -6 -9 -1
+timestamp 1765248526
 << nwell >>
-rect -27 1 1 27
-rect -27 0 -20 1
-rect -15 0 1 1
-rect -27 -38 1 0
+rect -32 -38 1 27
 << pwell >>
 rect 1 -38 29 27
 << ntransistor >>

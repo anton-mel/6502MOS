@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1761107410
+timestamp 1765248927
 << metal1 >>
 rect -90 738 -77 743
 rect 76 738 79 743
@@ -26,8 +26,8 @@ rect -82 -290 -77 -204
 rect -90 -361 -77 -356
 rect 76 -361 79 -356
 << metal3 >>
-rect -34 813 -29 853
-rect -73 808 -29 813
+rect -33 815 -28 853
+rect -72 810 -28 815
 rect -87 770 -77 775
 rect -87 586 -82 770
 rect -74 613 -62 618
@@ -48,49 +48,48 @@ rect -87 -172 -77 -167
 rect -87 -356 -82 -172
 rect -67 -199 -62 -15
 rect -73 -204 -62 -199
-rect -34 -324 -29 808
-rect -72 -329 -29 -324
+rect -33 -324 -28 810
+rect -71 -329 -28 -324
 rect -87 -361 -77 -356
-rect -34 -361 -29 -329
+rect -33 -361 -28 -329
 rect -23 -361 -18 853
 rect -3 -361 2 853
 rect 48 -361 53 853
 use shift_one  shift_one_7
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 -288
-box -103 -73 50 42
+box -113 -73 63 42
 use shift_one  shift_one_6
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 -131
-box -103 -73 50 42
+box -113 -73 63 42
 use shift_one  shift_one_5
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 26
-box -103 -73 50 42
+box -113 -73 63 42
 use shift_one  shift_one_4
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 183
-box -103 -73 50 42
+box -113 -73 63 42
 use shift_one  shift_one_2
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 497
-box -103 -73 50 42
+box -113 -73 63 42
 use shift_one  shift_one_1
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 654
-box -103 -73 50 42
+box -113 -73 63 42
 use shift_one  shift_one_0
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 811
-box -103 -73 50 42
+box -113 -73 63 42
 use shift_one  shift_one_3
-timestamp 1759282424
+timestamp 1765248598
 transform 1 0 26 0 1 340
-box -103 -73 50 42
+box -113 -73 63 42
 << labels >>
 rlabel metal3 -3 853 2 853 5 u
 rlabel metal3 48 853 53 853 5 s
-rlabel metal3 -32 842 -32 842 1 GND!
 rlabel metal3 -21 823 -21 823 1 Vdd!
 rlabel metal1 -90 738 -90 743 3 a0
 rlabel metal1 77 738 79 743 7 o0
@@ -108,6 +107,7 @@ rlabel metal1 77 -204 79 -199 7 o6
 rlabel metal1 -90 -204 -90 -199 3 a6
 rlabel metal1 77 -361 79 -356 8 o7
 rlabel metal1 -90 -361 -90 -356 2 a7
+rlabel metal3 -31 842 -31 842 1 GND!
 << properties >>
 string name shift_one_0
 << end >>

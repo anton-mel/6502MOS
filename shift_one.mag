@@ -1,117 +1,121 @@
 magic
 tech scmos
-timestamp 1759282424
+timestamp 1765248598
+<< pwell >>
+rect -12 28 -7 33
+rect 49 28 57 33
 << nsubstratendiff >>
-rect -100 -50 -95 -49
-rect -100 -60 -95 -59
+rect -109 -50 -104 -49
+rect -109 -60 -104 -59
 << nsubstratencontact >>
-rect -100 -59 -95 -50
+rect -109 -59 -104 -50
 << metal1 >>
 rect -29 33 -24 37
-rect 22 33 27 37
-rect -103 2 -75 3
-rect -98 -2 -75 2
-rect -60 -5 -55 7
-rect -1 -13 4 1
-rect -10 -26 2 -21
+rect 33 33 38 37
+rect -112 2 -84 3
+rect -107 -2 -84 2
+rect -68 -5 -63 7
+rect 1 0 7 5
+rect 1 -13 6 0
+rect -10 -26 7 -21
 rect -10 -29 -7 -26
-rect -103 -36 -75 -35
-rect -98 -40 -75 -36
+rect -112 -36 -84 -35
+rect -107 -40 -84 -36
 rect -60 -65 -55 -31
 rect -29 -32 -7 -29
 rect -29 -39 -24 -32
-rect 45 -33 50 -11
+rect 56 -33 61 -11
 rect -9 -38 2 -35
-rect 22 -38 50 -33
+rect 22 -38 61 -33
 rect -9 -41 -4 -38
 rect -5 -65 4 -60
-rect -98 -73 -24 -68
+rect -107 -73 -24 -68
 rect 22 -73 45 -68
 << m2contact >>
-rect -100 25 -95 30
-rect -80 28 -75 33
+rect -109 25 -104 30
+rect -89 28 -84 33
 rect -60 28 -55 33
-rect -9 28 -4 33
-rect 42 28 47 33
-rect -100 6 -95 11
-rect 2 9 7 14
+rect -7 28 -2 33
+rect 55 28 60 33
+rect -109 6 -104 11
+rect 13 9 18 14
 rect -52 0 -47 5
 rect -9 -4 -4 1
-rect -100 -13 -95 -8
-rect -80 -10 -75 -5
+rect -109 -13 -104 -8
+rect -89 -10 -84 -5
 rect -52 -26 -47 -21
-rect -100 -32 -95 -27
-rect -100 -50 -95 -45
-rect -100 -64 -95 -59
+rect -109 -32 -104 -27
+rect -109 -50 -104 -45
+rect -109 -64 -104 -59
 rect -3 -35 2 -30
 rect -49 -46 -44 -41
 rect 42 -46 47 -41
 rect -49 -65 -44 -60
 rect 45 -73 50 -68
 << metal2 >>
-rect -95 6 -89 11
-rect -94 -8 -89 6
-rect -75 5 -70 33
-rect -55 28 -9 33
-rect -4 28 42 33
-rect -49 18 7 23
+rect -104 6 -98 11
+rect -103 -8 -98 6
+rect -84 5 -79 33
+rect -55 28 -7 33
+rect -2 28 55 33
+rect -49 18 18 23
 rect -49 14 -44 18
-rect 2 14 7 18
-rect -75 0 -52 5
-rect -95 -13 -89 -8
-rect -75 -21 -70 -5
-rect -75 -26 -52 -21
-rect -95 -32 -89 -27
-rect -94 -45 -89 -32
+rect 13 14 18 18
+rect -84 0 -52 5
+rect -104 -13 -98 -8
+rect -84 -21 -79 -5
+rect -84 -26 -52 -21
+rect -104 -32 -98 -27
+rect -103 -45 -98 -32
 rect -9 -30 -4 -4
-rect 2 -16 7 9
-rect 2 -21 12 -16
+rect 13 -16 18 9
+rect 8 -21 18 -16
 rect -9 -35 -3 -30
-rect 7 -41 12 -21
-rect -95 -50 -89 -45
+rect 8 -41 13 -21
+rect -104 -50 -98 -45
 rect -44 -46 42 -41
-rect -95 -60 -74 -59
-rect -95 -64 -49 -60
-rect -79 -65 -49 -64
+rect -104 -60 -83 -59
+rect -104 -64 -49 -60
+rect -88 -65 -49 -64
 << m123contact >>
 rect -29 37 -24 42
-rect 22 37 27 42
-rect -103 -3 -98 2
+rect 33 37 38 42
+rect -112 -3 -107 2
 rect -49 9 -44 14
-rect -60 -10 -55 -5
-rect -103 -41 -98 -36
-rect -103 -73 -98 -68
-use 2mux_nr  2mux_nr_0
-timestamp 1758867764
-transform 1 0 -28 0 1 6
-box -24 -38 27 27
-use 2mux_nr  2mux_nr_1
-timestamp 1758867764
-transform 1 0 23 0 1 6
-box -24 -38 27 27
-use inv  inv_0
-timestamp 1758863638
-transform 0 -1 -64 1 0 13
-box -10 -12 20 39
-use inv  inv_2
-timestamp 1758863638
-transform 0 -1 -13 1 0 -58
-box -10 -12 20 39
+rect -68 -10 -63 -5
+rect -112 -41 -107 -36
+rect -112 -73 -107 -68
 use inv  inv_1
-timestamp 1758863638
-transform 0 -1 -64 1 0 -25
-box -10 -12 20 39
+timestamp 1765001281
+transform 0 -1 -73 1 0 -25
+box -10 -13 20 40
+use inv  inv_0
+timestamp 1765001281
+transform 0 -1 -73 1 0 13
+box -10 -13 20 40
+use inv  inv_2
+timestamp 1765001281
+transform 0 -1 -13 1 0 -58
+box -10 -13 20 40
 use inv  inv_3
-timestamp 1758863638
+timestamp 1765001281
 transform 0 1 11 -1 0 -48
-box -10 -12 20 39
+box -10 -13 20 40
+use 2mux_nr  2mux_nr_0
+timestamp 1765248526
+transform 1 0 -28 0 1 6
+box -32 -38 29 27
+use 2mux_nr  2mux_nr_1
+timestamp 1765248526
+transform 1 0 34 0 1 6
+box -32 -38 29 27
 << labels >>
-rlabel metal2 -76 -63 -76 -63 1 Vdd!
 rlabel metal2 -45 30 -45 30 1 GND!
-rlabel metal1 -103 -73 -103 -68 2 a
 rlabel m2contact 50 -73 50 -68 8 o
-rlabel metal1 22 37 27 37 5 s
 rlabel metal1 -29 37 -24 37 5 u
-rlabel metal1 -103 -41 -103 -35 3 ad
-rlabel metal1 -103 -2 -103 3 3 au
+rlabel metal1 -112 -2 -112 3 3 au
+rlabel metal1 -112 -41 -112 -35 3 ad
+rlabel metal2 -85 -63 -85 -63 1 Vdd!
+rlabel metal1 -112 -73 -112 -68 2 a
+rlabel metal1 33 37 38 37 5 s
 << end >>
