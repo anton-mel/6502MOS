@@ -1,0 +1,144 @@
+magic
+tech scmos
+timestamp 1765349323
+<< metal1 >>
+rect 62 109 67 111
+rect 1 84 6 89
+rect 1 25 6 30
+rect 67 13 72 18
+rect 62 -67 67 -65
+rect 1 -92 6 -87
+rect 1 -151 6 -146
+rect 67 -163 72 -158
+rect 62 -243 67 -241
+rect 1 -268 6 -263
+rect 1 -327 6 -322
+rect 67 -339 72 -334
+rect 62 -419 67 -417
+rect 1 -444 6 -439
+rect 1 -503 6 -498
+rect 67 -515 72 -510
+rect 62 -595 67 -593
+rect 1 -620 6 -615
+rect 1 -679 6 -674
+rect 67 -691 72 -686
+rect 62 -771 67 -769
+rect 1 -796 6 -791
+rect 1 -855 6 -850
+rect 67 -867 72 -862
+rect 62 -947 67 -945
+rect 1 -972 6 -967
+rect 1 -1031 6 -1026
+rect 67 -1043 72 -1038
+rect 62 -1123 67 -1121
+rect 1 -1148 6 -1143
+rect 1 -1207 6 -1202
+rect 67 -1219 72 -1214
+<< m123contact >>
+rect 62 111 67 116
+rect 84 105 89 110
+rect 39 86 44 91
+rect 62 -65 67 -60
+rect 84 -71 89 -66
+rect 39 -90 44 -85
+rect 62 -241 67 -236
+rect 84 -247 89 -242
+rect 39 -266 44 -261
+rect 62 -417 67 -412
+rect 84 -423 89 -418
+rect 39 -442 44 -437
+rect 62 -593 67 -588
+rect 84 -599 89 -594
+rect 39 -618 44 -613
+rect 62 -769 67 -764
+rect 84 -775 89 -770
+rect 39 -794 44 -789
+rect 62 -945 67 -940
+rect 84 -951 89 -946
+rect 39 -970 44 -965
+rect 62 -1121 67 -1116
+rect 84 -1127 89 -1122
+rect 39 -1146 44 -1141
+<< metal3 >>
+rect 39 -85 44 86
+rect 39 -261 44 -90
+rect 39 -437 44 -266
+rect 39 -613 44 -442
+rect 39 -789 44 -618
+rect 39 -965 44 -794
+rect 39 -1141 44 -970
+rect 62 -60 67 111
+rect 62 -236 67 -65
+rect 62 -412 67 -241
+rect 62 -588 67 -417
+rect 62 -764 67 -593
+rect 62 -940 67 -769
+rect 62 -1116 67 -945
+rect 84 -66 89 105
+rect 84 -242 89 -71
+rect 84 -418 89 -247
+rect 84 -594 89 -423
+rect 84 -770 89 -599
+rect 84 -946 89 -775
+rect 84 -1122 89 -951
+use mux_one  mux_one_7
+timestamp 1765348778
+transform 1 0 55 0 1 -1194
+box -54 -34 37 72
+use mux_one  mux_one_6
+timestamp 1765348778
+transform 1 0 55 0 1 -1018
+box -54 -34 37 72
+use mux_one  mux_one_5
+timestamp 1765348778
+transform 1 0 55 0 1 -842
+box -54 -34 37 72
+use mux_one  mux_one_4
+timestamp 1765348778
+transform 1 0 55 0 1 -666
+box -54 -34 37 72
+use mux_one  mux_one_3
+timestamp 1765348778
+transform 1 0 55 0 1 -490
+box -54 -34 37 72
+use mux_one  mux_one_2
+timestamp 1765348778
+transform 1 0 55 0 1 -314
+box -54 -34 37 72
+use mux_one  mux_one_1
+timestamp 1765348778
+transform 1 0 55 0 1 -138
+box -54 -34 37 72
+use mux_one  mux_one_0
+timestamp 1765348778
+transform 1 0 55 0 1 38
+box -54 -34 37 72
+<< labels >>
+rlabel metal1 67 13 72 18 1 out0
+rlabel metal1 67 -163 72 -158 1 out1
+rlabel metal1 67 -339 72 -334 1 out2
+rlabel metal1 67 -515 72 -510 1 out3
+rlabel metal1 67 -691 72 -686 1 out4
+rlabel metal1 67 -867 72 -862 1 out5
+rlabel metal1 67 -1043 72 -1038 1 out6
+rlabel metal1 67 -1219 72 -1214 1 out7
+rlabel metal1 1 -1207 6 -1202 3 in0_7
+rlabel metal1 1 -1031 6 -1026 3 in0_6
+rlabel metal1 1 -855 6 -850 3 in0_5
+rlabel metal1 1 -679 6 -674 3 in0_4
+rlabel metal1 1 -503 6 -498 3 in0_3
+rlabel metal1 1 -327 6 -322 3 in0_2
+rlabel metal1 1 -151 6 -146 3 in0_1
+rlabel metal1 1 25 6 30 3 in0_0
+rlabel metal1 1 84 6 89 3 in1_0
+rlabel metal1 1 -92 6 -87 3 in1_1
+rlabel metal1 1 -268 6 -263 3 in1_2
+rlabel metal1 1 -444 6 -439 3 in1_3
+rlabel metal1 1 -620 6 -615 3 in1_4
+rlabel metal1 1 -796 6 -791 3 in1_5
+rlabel metal1 1 -972 6 -967 3 in1_6
+rlabel metal1 1 -1148 6 -1143 3 in1_7
+rlabel m123contact 62 111 67 116 5 sel
+rlabel m123contact 39 86 44 91 1 Vdd!
+rlabel m123contact 84 105 89 110 1 GND!
+<< end >>

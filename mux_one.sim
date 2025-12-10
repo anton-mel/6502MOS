@@ -1,0 +1,24 @@
+| units: 9 tech: scmos format: MIT
+p sel inv2_2/out inv2_1/in 2 7 -5 22
+p 2mux_nr_0/a_n17_n11# inv2_1/in inv2_0/out 2 7 -5 35
+p sel 2mux_nr_0/a_n17_n11# Vdd! 2 7 -4 56
+n 2mux_nr_0/a_n17_n11# inv2_2/out inv2_1/in 2 7 16 22
+n sel 2mux_nr_0/a_n17_n11# GND! 2 7 16 56
+n sel inv2_1/in inv2_0/out 2 7 16 35
+p in1 Vdd! inv2_0/out 2 10 -40 40
+n in1 GND! inv2_0/out 2 5 -40 59
+p inv2_1/in Vdd! out 2 10 1 -8
+n inv2_1/in GND! out 2 5 20 -8
+p in0 Vdd! inv2_2/out 2 10 -40 -3
+n in0 GND! inv2_2/out 2 5 -40 -21
+C Vdd! GND 2.89
+R Vdd! 2999
+R inv2_2/out 89
+R in0 134
+R out 21
+R inv2_1/in 159
+R inv2_0/out 88
+R in1 134
+R GND! 322
+R 2mux_nr_0/a_n17_n11# 192
+R sel 498

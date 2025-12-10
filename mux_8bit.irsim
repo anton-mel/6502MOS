@@ -1,0 +1,98 @@
+h Vdd!
+l GND!
+
+vector in0 in0_7 in0_6 in0_5 in0_4 in0_3 in0_2 in0_1 in0_0
+vector in1 in1_7 in1_6 in1_5 in1_4 in1_3 in1_2 in1_1 in1_0
+vector out out7 out6 out5 out4 out3 out2 out1 out0
+
+ana in0 in1 sel out
+
+# -------------------------
+# Test case 1
+setvector in0 10101010
+setvector in1 01010101
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 2
+setvector in0 11110000
+setvector in1 00001111
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 3
+setvector in0 11001100
+setvector in1 00110011
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 4
+setvector in0 11111111
+setvector in1 00000000
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 5
+setvector in0 00001111
+setvector in1 11110000
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 6
+setvector in0 10110110
+setvector in1 01001001
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 7
+setvector in0 01101001
+setvector in1 10010110
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 8
+setvector in0 00111100
+setvector in1 11000011
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 9
+setvector in0 10011001
+setvector in1 01100110
+l sel
+s
+h sel
+s
+
+# -------------------------
+# Test case 10
+setvector in0 01010101
+setvector in1 10101010
+l sel
+s
+h sel
+s

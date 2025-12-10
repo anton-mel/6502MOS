@@ -1,0 +1,67 @@
+magic
+tech scmos
+timestamp 1765348778
+<< nwell >>
+rect -22 13 -16 18
+rect -25 -9 -18 7
+rect -25 -10 -20 -9
+<< metal1 >>
+rect 7 69 12 72
+rect -54 46 -49 51
+rect -24 39 -19 51
+rect -32 22 -30 27
+rect -32 11 -27 22
+rect -54 -13 -49 -8
+rect 7 -25 12 -21
+<< m2contact >>
+rect -41 64 -36 69
+rect 29 67 34 72
+rect -16 48 -11 53
+rect 29 35 34 40
+rect -30 22 -25 27
+rect 7 22 12 27
+rect -19 13 -14 18
+rect -17 1 -12 6
+rect 7 2 12 7
+rect 25 1 30 6
+rect -26 -13 -21 -8
+rect 25 -22 30 -17
+rect -41 -31 -36 -26
+<< metal2 >>
+rect -36 67 29 69
+rect -36 64 34 67
+rect -16 27 -11 48
+rect 25 35 29 40
+rect -25 22 -5 27
+rect -26 13 -19 18
+rect -26 -8 -21 13
+rect -10 6 -5 22
+rect -12 1 -5 6
+rect 7 7 12 22
+rect 25 6 30 35
+rect 25 -26 30 -22
+rect -36 -31 30 -26
+use inv2  inv2_0
+timestamp 1765338958
+transform 1 0 -44 0 -1 59
+box -10 -13 20 40
+use inv2  inv2_1
+timestamp 1765338958
+transform 0 -1 20 -1 0 -3
+box -10 -13 20 40
+use inv2  inv2_2
+timestamp 1765338958
+transform 1 0 -44 0 1 -21
+box -10 -13 20 40
+use 2mux_nr  2mux_nr_0
+timestamp 1765248526
+transform 1 0 8 0 1 45
+box -32 -38 29 27
+<< labels >>
+rlabel metal1 7 -25 12 -21 1 out
+rlabel metal1 -54 46 -49 51 3 in1
+rlabel metal1 -54 -13 -49 -8 3 in0
+rlabel m2contact -16 48 -11 53 1 Vdd!
+rlabel m2contact 29 67 34 72 5 GND!
+rlabel metal1 7 69 12 72 5 sel
+<< end >>

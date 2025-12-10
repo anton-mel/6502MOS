@@ -1,0 +1,159 @@
+| units: 9 tech: scmos format: MIT
+p sel mux_one_0/inv2_2/out mux_one_0/inv2_1/in 2 7 50 60
+p mux_one_0/2mux_nr_0/a_n17_n11# mux_one_0/inv2_1/in mux_one_0/inv2_0/out 2 7 50 73
+p sel mux_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 94
+n mux_one_0/2mux_nr_0/a_n17_n11# mux_one_0/inv2_2/out mux_one_0/inv2_1/in 2 7 71 60
+n sel mux_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 71 94
+n sel mux_one_0/inv2_1/in mux_one_0/inv2_0/out 2 7 71 73
+p in1_0 Vdd! mux_one_0/inv2_0/out 2 10 15 78
+n in1_0 GND! mux_one_0/inv2_0/out 2 5 15 97
+p mux_one_0/inv2_1/in Vdd! out0 2 10 56 30
+n mux_one_0/inv2_1/in GND! out0 2 5 75 30
+p in0_0 Vdd! mux_one_0/inv2_2/out 2 10 15 35
+n in0_0 GND! mux_one_0/inv2_2/out 2 5 15 17
+p sel mux_one_1/inv2_2/out mux_one_1/inv2_1/in 2 7 50 -116
+p mux_one_1/2mux_nr_0/a_n17_n11# mux_one_1/inv2_1/in mux_one_1/inv2_0/out 2 7 50 -103
+p sel mux_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 -82
+n mux_one_1/2mux_nr_0/a_n17_n11# mux_one_1/inv2_2/out mux_one_1/inv2_1/in 2 7 71 -116
+n sel mux_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 71 -82
+n sel mux_one_1/inv2_1/in mux_one_1/inv2_0/out 2 7 71 -103
+p in1_1 Vdd! mux_one_1/inv2_0/out 2 10 15 -98
+n in1_1 GND! mux_one_1/inv2_0/out 2 5 15 -79
+p mux_one_1/inv2_1/in Vdd! out1 2 10 56 -146
+n mux_one_1/inv2_1/in GND! out1 2 5 75 -146
+p in0_1 Vdd! mux_one_1/inv2_2/out 2 10 15 -141
+n in0_1 GND! mux_one_1/inv2_2/out 2 5 15 -159
+p sel mux_one_2/inv2_2/out mux_one_2/inv2_1/in 2 7 50 -292
+p mux_one_2/2mux_nr_0/a_n17_n11# mux_one_2/inv2_1/in mux_one_2/inv2_0/out 2 7 50 -279
+p sel mux_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 -258
+n mux_one_2/2mux_nr_0/a_n17_n11# mux_one_2/inv2_2/out mux_one_2/inv2_1/in 2 7 71 -292
+n sel mux_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 71 -258
+n sel mux_one_2/inv2_1/in mux_one_2/inv2_0/out 2 7 71 -279
+p in1_2 Vdd! mux_one_2/inv2_0/out 2 10 15 -274
+n in1_2 GND! mux_one_2/inv2_0/out 2 5 15 -255
+p mux_one_2/inv2_1/in Vdd! out2 2 10 56 -322
+n mux_one_2/inv2_1/in GND! out2 2 5 75 -322
+p in0_2 Vdd! mux_one_2/inv2_2/out 2 10 15 -317
+n in0_2 GND! mux_one_2/inv2_2/out 2 5 15 -335
+p sel mux_one_3/inv2_2/out mux_one_3/inv2_1/in 2 7 50 -468
+p mux_one_3/2mux_nr_0/a_n17_n11# mux_one_3/inv2_1/in mux_one_3/inv2_0/out 2 7 50 -455
+p sel mux_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 -434
+n mux_one_3/2mux_nr_0/a_n17_n11# mux_one_3/inv2_2/out mux_one_3/inv2_1/in 2 7 71 -468
+n sel mux_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 71 -434
+n sel mux_one_3/inv2_1/in mux_one_3/inv2_0/out 2 7 71 -455
+p in1_3 Vdd! mux_one_3/inv2_0/out 2 10 15 -450
+n in1_3 GND! mux_one_3/inv2_0/out 2 5 15 -431
+p mux_one_3/inv2_1/in Vdd! out3 2 10 56 -498
+n mux_one_3/inv2_1/in GND! out3 2 5 75 -498
+p in0_3 Vdd! mux_one_3/inv2_2/out 2 10 15 -493
+n in0_3 GND! mux_one_3/inv2_2/out 2 5 15 -511
+p sel mux_one_4/inv2_2/out mux_one_4/inv2_1/in 2 7 50 -644
+p mux_one_4/2mux_nr_0/a_n17_n11# mux_one_4/inv2_1/in mux_one_4/inv2_0/out 2 7 50 -631
+p sel mux_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 -610
+n mux_one_4/2mux_nr_0/a_n17_n11# mux_one_4/inv2_2/out mux_one_4/inv2_1/in 2 7 71 -644
+n sel mux_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 71 -610
+n sel mux_one_4/inv2_1/in mux_one_4/inv2_0/out 2 7 71 -631
+p in1_4 Vdd! mux_one_4/inv2_0/out 2 10 15 -626
+n in1_4 GND! mux_one_4/inv2_0/out 2 5 15 -607
+p mux_one_4/inv2_1/in Vdd! out4 2 10 56 -674
+n mux_one_4/inv2_1/in GND! out4 2 5 75 -674
+p in0_4 Vdd! mux_one_4/inv2_2/out 2 10 15 -669
+n in0_4 GND! mux_one_4/inv2_2/out 2 5 15 -687
+p sel mux_one_5/inv2_2/out mux_one_5/inv2_1/in 2 7 50 -820
+p mux_one_5/2mux_nr_0/a_n17_n11# mux_one_5/inv2_1/in mux_one_5/inv2_0/out 2 7 50 -807
+p sel mux_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 -786
+n mux_one_5/2mux_nr_0/a_n17_n11# mux_one_5/inv2_2/out mux_one_5/inv2_1/in 2 7 71 -820
+n sel mux_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 71 -786
+n sel mux_one_5/inv2_1/in mux_one_5/inv2_0/out 2 7 71 -807
+p in1_5 Vdd! mux_one_5/inv2_0/out 2 10 15 -802
+n in1_5 GND! mux_one_5/inv2_0/out 2 5 15 -783
+p mux_one_5/inv2_1/in Vdd! out5 2 10 56 -850
+n mux_one_5/inv2_1/in GND! out5 2 5 75 -850
+p in0_5 Vdd! mux_one_5/inv2_2/out 2 10 15 -845
+n in0_5 GND! mux_one_5/inv2_2/out 2 5 15 -863
+p sel mux_one_6/inv2_2/out mux_one_6/inv2_1/in 2 7 50 -996
+p mux_one_6/2mux_nr_0/a_n17_n11# mux_one_6/inv2_1/in mux_one_6/inv2_0/out 2 7 50 -983
+p sel mux_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 -962
+n mux_one_6/2mux_nr_0/a_n17_n11# mux_one_6/inv2_2/out mux_one_6/inv2_1/in 2 7 71 -996
+n sel mux_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 71 -962
+n sel mux_one_6/inv2_1/in mux_one_6/inv2_0/out 2 7 71 -983
+p in1_6 Vdd! mux_one_6/inv2_0/out 2 10 15 -978
+n in1_6 GND! mux_one_6/inv2_0/out 2 5 15 -959
+p mux_one_6/inv2_1/in Vdd! out6 2 10 56 -1026
+n mux_one_6/inv2_1/in GND! out6 2 5 75 -1026
+p in0_6 Vdd! mux_one_6/inv2_2/out 2 10 15 -1021
+n in0_6 GND! mux_one_6/inv2_2/out 2 5 15 -1039
+p sel mux_one_7/inv2_2/out mux_one_7/inv2_1/in 2 7 50 -1172
+p mux_one_7/2mux_nr_0/a_n17_n11# mux_one_7/inv2_1/in mux_one_7/inv2_0/out 2 7 50 -1159
+p sel mux_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 51 -1138
+n mux_one_7/2mux_nr_0/a_n17_n11# mux_one_7/inv2_2/out mux_one_7/inv2_1/in 2 7 71 -1172
+n sel mux_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 71 -1138
+n sel mux_one_7/inv2_1/in mux_one_7/inv2_0/out 2 7 71 -1159
+p in1_7 Vdd! mux_one_7/inv2_0/out 2 10 15 -1154
+n in1_7 GND! mux_one_7/inv2_0/out 2 5 15 -1135
+p mux_one_7/inv2_1/in Vdd! out7 2 10 56 -1202
+n mux_one_7/inv2_1/in GND! out7 2 5 75 -1202
+p in0_7 Vdd! mux_one_7/inv2_2/out 2 10 15 -1197
+n in0_7 GND! mux_one_7/inv2_2/out 2 5 15 -1215
+C sel Vdd! 4.43
+C GND! sel 4.48
+C Vdd! GND 24.55
+R Vdd! 40084
+R mux_one_7/inv2_2/out 89
+R in0_7 134
+R out7 21
+R mux_one_7/inv2_1/in 159
+R mux_one_7/inv2_0/out 88
+R in1_7 134
+R GND! 2807
+R mux_one_7/2mux_nr_0/a_n17_n11# 192
+R sel 4116
+R mux_one_6/inv2_2/out 89
+R in0_6 134
+R out6 21
+R mux_one_6/inv2_1/in 159
+R mux_one_6/inv2_0/out 88
+R in1_6 134
+R mux_one_6/2mux_nr_0/a_n17_n11# 192
+R mux_one_5/inv2_2/out 89
+R in0_5 134
+R out5 21
+R mux_one_5/inv2_1/in 159
+R mux_one_5/inv2_0/out 88
+R in1_5 134
+R mux_one_5/2mux_nr_0/a_n17_n11# 192
+R mux_one_4/inv2_2/out 89
+R in0_4 134
+R out4 21
+R mux_one_4/inv2_1/in 159
+R mux_one_4/inv2_0/out 88
+R in1_4 134
+R mux_one_4/2mux_nr_0/a_n17_n11# 192
+R mux_one_3/inv2_2/out 89
+R in0_3 134
+R out3 21
+R mux_one_3/inv2_1/in 159
+R mux_one_3/inv2_0/out 88
+R in1_3 134
+R mux_one_3/2mux_nr_0/a_n17_n11# 192
+R mux_one_2/inv2_2/out 89
+R in0_2 134
+R out2 22
+R mux_one_2/inv2_1/in 159
+R mux_one_2/inv2_0/out 88
+R in1_2 134
+R mux_one_2/2mux_nr_0/a_n17_n11# 192
+R mux_one_1/inv2_2/out 89
+R in0_1 134
+R out1 21
+R mux_one_1/inv2_1/in 159
+R mux_one_1/inv2_0/out 88
+R in1_1 134
+R mux_one_1/2mux_nr_0/a_n17_n11# 192
+R mux_one_0/inv2_2/out 89
+R in0_0 134
+R out0 21
+R mux_one_0/inv2_1/in 159
+R mux_one_0/inv2_0/out 88
+R in1_0 134
+R mux_one_0/2mux_nr_0/a_n17_n11# 192

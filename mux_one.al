@@ -1,0 +1,14 @@
+= Vdd! w_n25_n10#
+= Vdd! w_n22_13#
+= inv2_2/out 2mux_nr_0/in0
+= inv2_2/out m1_n26_n13#
+= in0 inv2_2/in
+= out inv2_1/out
+= inv2_1/in 2mux_nr_0/out
+= inv2_1/in m1_7_2#
+= inv2_0/out 2mux_nr_0/in1
+= inv2_0/out m1_n24_39#
+= in1 inv2_0/in
+= GND! m1_25_1#
+= GND! m1_n41_n31#
+= sel 2mux_nr_0/s
