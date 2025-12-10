@@ -1,0 +1,243 @@
+| units: 9 tech: scmos format: MIT
+p u shift_one_6/inv_1/out shift_one_6/2mux_nr_1/in1 2 7 -58 -1388
+p shift_one_6/2mux_nr_0/a_n17_n11# shift_one_6/2mux_nr_1/in1 shift_one_6/inv_0/out 2 7 -58 -1375
+p u shift_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -1354
+n shift_one_6/2mux_nr_0/a_n17_n11# shift_one_6/inv_1/out shift_one_6/2mux_nr_1/in1 2 7 -37 -1388
+n u shift_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -1354
+n u shift_one_6/2mux_nr_1/in1 shift_one_6/inv_0/out 2 7 -37 -1375
+p s shift_one_6/inv_2/out shift_one_6/inv_3/in 2 7 4 -1388
+p shift_one_6/2mux_nr_1/a_n17_n11# shift_one_6/inv_3/in shift_one_6/2mux_nr_1/in1 2 7 4 -1375
+p s shift_one_6/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -1354
+n shift_one_6/2mux_nr_1/a_n17_n11# shift_one_6/inv_2/out shift_one_6/inv_3/in 2 7 25 -1388
+n s shift_one_6/2mux_nr_1/a_n17_n11# GND! 2 7 25 -1354
+n s shift_one_6/inv_3/in shift_one_6/2mux_nr_1/in1 2 7 25 -1375
+n a5 GND! shift_one_6/inv_0/out 2 7 -91 -1354
+p a5 Vdd! shift_one_6/inv_0/out 2 7 -111 -1354
+n a7 GND! shift_one_6/inv_1/out 2 7 -91 -1392
+p a7 Vdd! shift_one_6/inv_1/out 2 7 -111 -1392
+n a6 GND! shift_one_6/inv_2/out 2 7 -31 -1425
+p a6 Vdd! shift_one_6/inv_2/out 2 7 -51 -1425
+n shift_one_6/inv_3/in GND! o6 2 7 -6 -1424
+p shift_one_6/inv_3/in Vdd! o6 2 7 14 -1424
+p u shift_one_7/inv_1/out shift_one_7/2mux_nr_1/in1 2 7 -58 -1559
+p shift_one_7/2mux_nr_0/a_n17_n11# shift_one_7/2mux_nr_1/in1 shift_one_7/inv_0/out 2 7 -58 -1546
+p u shift_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -1525
+n shift_one_7/2mux_nr_0/a_n17_n11# shift_one_7/inv_1/out shift_one_7/2mux_nr_1/in1 2 7 -37 -1559
+n u shift_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -1525
+n u shift_one_7/2mux_nr_1/in1 shift_one_7/inv_0/out 2 7 -37 -1546
+p s shift_one_7/inv_2/out shift_one_7/inv_3/in 2 7 4 -1559
+p shift_one_7/2mux_nr_1/a_n17_n11# shift_one_7/inv_3/in shift_one_7/2mux_nr_1/in1 2 7 4 -1546
+p s shift_one_7/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -1525
+n shift_one_7/2mux_nr_1/a_n17_n11# shift_one_7/inv_2/out shift_one_7/inv_3/in 2 7 25 -1559
+n s shift_one_7/2mux_nr_1/a_n17_n11# GND! 2 7 25 -1525
+n s shift_one_7/inv_3/in shift_one_7/2mux_nr_1/in1 2 7 25 -1546
+n a6 GND! shift_one_7/inv_0/out 2 7 -91 -1525
+p a6 Vdd! shift_one_7/inv_0/out 2 7 -111 -1525
+n GND! GND! shift_one_7/inv_1/out 2 7 -91 -1563
+p GND! Vdd! shift_one_7/inv_1/out 2 7 -111 -1563
+n a7 GND! shift_one_7/inv_2/out 2 7 -31 -1596
+p a7 Vdd! shift_one_7/inv_2/out 2 7 -51 -1596
+n shift_one_7/inv_3/in GND! o7 2 7 -6 -1595
+p shift_one_7/inv_3/in Vdd! o7 2 7 14 -1595
+p u shift_one_0/inv_1/out shift_one_0/2mux_nr_1/in1 2 7 -58 -327
+p shift_one_0/2mux_nr_0/a_n17_n11# shift_one_0/2mux_nr_1/in1 shift_one_0/inv_0/out 2 7 -58 -314
+p u shift_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -293
+n shift_one_0/2mux_nr_0/a_n17_n11# shift_one_0/inv_1/out shift_one_0/2mux_nr_1/in1 2 7 -37 -327
+n u shift_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -293
+n u shift_one_0/2mux_nr_1/in1 shift_one_0/inv_0/out 2 7 -37 -314
+p s shift_one_0/inv_2/out shift_one_0/inv_3/in 2 7 4 -327
+p shift_one_0/2mux_nr_1/a_n17_n11# shift_one_0/inv_3/in shift_one_0/2mux_nr_1/in1 2 7 4 -314
+p s shift_one_0/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -293
+n shift_one_0/2mux_nr_1/a_n17_n11# shift_one_0/inv_2/out shift_one_0/inv_3/in 2 7 25 -327
+n s shift_one_0/2mux_nr_1/a_n17_n11# GND! 2 7 25 -293
+n s shift_one_0/inv_3/in shift_one_0/2mux_nr_1/in1 2 7 25 -314
+n GND! GND! shift_one_0/inv_0/out 2 7 -91 -293
+p GND! Vdd! shift_one_0/inv_0/out 2 7 -111 -293
+n a1 GND! shift_one_0/inv_1/out 2 7 -91 -331
+p a1 Vdd! shift_one_0/inv_1/out 2 7 -111 -331
+n a0 GND! shift_one_0/inv_2/out 2 7 -31 -364
+p a0 Vdd! shift_one_0/inv_2/out 2 7 -51 -364
+n shift_one_0/inv_3/in GND! o0 2 7 -6 -363
+p shift_one_0/inv_3/in Vdd! o0 2 7 14 -363
+p u shift_one_1/inv_1/out shift_one_1/2mux_nr_1/in1 2 7 -58 -503
+p shift_one_1/2mux_nr_0/a_n17_n11# shift_one_1/2mux_nr_1/in1 shift_one_1/inv_0/out 2 7 -58 -490
+p u shift_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -469
+n shift_one_1/2mux_nr_0/a_n17_n11# shift_one_1/inv_1/out shift_one_1/2mux_nr_1/in1 2 7 -37 -503
+n u shift_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -469
+n u shift_one_1/2mux_nr_1/in1 shift_one_1/inv_0/out 2 7 -37 -490
+p s shift_one_1/inv_2/out shift_one_1/inv_3/in 2 7 4 -503
+p shift_one_1/2mux_nr_1/a_n17_n11# shift_one_1/inv_3/in shift_one_1/2mux_nr_1/in1 2 7 4 -490
+p s shift_one_1/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -469
+n shift_one_1/2mux_nr_1/a_n17_n11# shift_one_1/inv_2/out shift_one_1/inv_3/in 2 7 25 -503
+n s shift_one_1/2mux_nr_1/a_n17_n11# GND! 2 7 25 -469
+n s shift_one_1/inv_3/in shift_one_1/2mux_nr_1/in1 2 7 25 -490
+n a0 GND! shift_one_1/inv_0/out 2 7 -91 -469
+p a0 Vdd! shift_one_1/inv_0/out 2 7 -111 -469
+n a2 GND! shift_one_1/inv_1/out 2 7 -91 -507
+p a2 Vdd! shift_one_1/inv_1/out 2 7 -111 -507
+n a1 GND! shift_one_1/inv_2/out 2 7 -31 -540
+p a1 Vdd! shift_one_1/inv_2/out 2 7 -51 -540
+n shift_one_1/inv_3/in GND! o1 2 7 -6 -539
+p shift_one_1/inv_3/in Vdd! o1 2 7 14 -539
+p u shift_one_2/inv_1/out shift_one_2/2mux_nr_1/in1 2 7 -58 -679
+p shift_one_2/2mux_nr_0/a_n17_n11# shift_one_2/2mux_nr_1/in1 shift_one_2/inv_0/out 2 7 -58 -666
+p u shift_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -645
+n shift_one_2/2mux_nr_0/a_n17_n11# shift_one_2/inv_1/out shift_one_2/2mux_nr_1/in1 2 7 -37 -679
+n u shift_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -645
+n u shift_one_2/2mux_nr_1/in1 shift_one_2/inv_0/out 2 7 -37 -666
+p s shift_one_2/inv_2/out shift_one_2/inv_3/in 2 7 4 -679
+p shift_one_2/2mux_nr_1/a_n17_n11# shift_one_2/inv_3/in shift_one_2/2mux_nr_1/in1 2 7 4 -666
+p s shift_one_2/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -645
+n shift_one_2/2mux_nr_1/a_n17_n11# shift_one_2/inv_2/out shift_one_2/inv_3/in 2 7 25 -679
+n s shift_one_2/2mux_nr_1/a_n17_n11# GND! 2 7 25 -645
+n s shift_one_2/inv_3/in shift_one_2/2mux_nr_1/in1 2 7 25 -666
+n a1 GND! shift_one_2/inv_0/out 2 7 -91 -645
+p a1 Vdd! shift_one_2/inv_0/out 2 7 -111 -645
+n a3 GND! shift_one_2/inv_1/out 2 7 -91 -683
+p a3 Vdd! shift_one_2/inv_1/out 2 7 -111 -683
+n a2 GND! shift_one_2/inv_2/out 2 7 -31 -716
+p a2 Vdd! shift_one_2/inv_2/out 2 7 -51 -716
+n shift_one_2/inv_3/in GND! o2 2 7 -6 -715
+p shift_one_2/inv_3/in Vdd! o2 2 7 14 -715
+p u shift_one_3/inv_1/out shift_one_3/2mux_nr_1/in1 2 7 -58 -855
+p shift_one_3/2mux_nr_0/a_n17_n11# shift_one_3/2mux_nr_1/in1 shift_one_3/inv_0/out 2 7 -58 -842
+p u shift_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -821
+n shift_one_3/2mux_nr_0/a_n17_n11# shift_one_3/inv_1/out shift_one_3/2mux_nr_1/in1 2 7 -37 -855
+n u shift_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -821
+n u shift_one_3/2mux_nr_1/in1 shift_one_3/inv_0/out 2 7 -37 -842
+p s shift_one_3/inv_2/out shift_one_3/inv_3/in 2 7 4 -855
+p shift_one_3/2mux_nr_1/a_n17_n11# shift_one_3/inv_3/in shift_one_3/2mux_nr_1/in1 2 7 4 -842
+p s shift_one_3/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -821
+n shift_one_3/2mux_nr_1/a_n17_n11# shift_one_3/inv_2/out shift_one_3/inv_3/in 2 7 25 -855
+n s shift_one_3/2mux_nr_1/a_n17_n11# GND! 2 7 25 -821
+n s shift_one_3/inv_3/in shift_one_3/2mux_nr_1/in1 2 7 25 -842
+n a2 GND! shift_one_3/inv_0/out 2 7 -91 -821
+p a2 Vdd! shift_one_3/inv_0/out 2 7 -111 -821
+n a4 GND! shift_one_3/inv_1/out 2 7 -91 -859
+p a4 Vdd! shift_one_3/inv_1/out 2 7 -111 -859
+n a3 GND! shift_one_3/inv_2/out 2 7 -31 -892
+p a3 Vdd! shift_one_3/inv_2/out 2 7 -51 -892
+n shift_one_3/inv_3/in GND! o3 2 7 -6 -891
+p shift_one_3/inv_3/in Vdd! o3 2 7 14 -891
+p u shift_one_4/inv_1/out shift_one_4/2mux_nr_1/in1 2 7 -58 -1031
+p shift_one_4/2mux_nr_0/a_n17_n11# shift_one_4/2mux_nr_1/in1 shift_one_4/inv_0/out 2 7 -58 -1018
+p u shift_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -997
+n shift_one_4/2mux_nr_0/a_n17_n11# shift_one_4/inv_1/out shift_one_4/2mux_nr_1/in1 2 7 -37 -1031
+n u shift_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -997
+n u shift_one_4/2mux_nr_1/in1 shift_one_4/inv_0/out 2 7 -37 -1018
+p s shift_one_4/inv_2/out shift_one_4/inv_3/in 2 7 4 -1031
+p shift_one_4/2mux_nr_1/a_n17_n11# shift_one_4/inv_3/in shift_one_4/2mux_nr_1/in1 2 7 4 -1018
+p s shift_one_4/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -997
+n shift_one_4/2mux_nr_1/a_n17_n11# shift_one_4/inv_2/out shift_one_4/inv_3/in 2 7 25 -1031
+n s shift_one_4/2mux_nr_1/a_n17_n11# GND! 2 7 25 -997
+n s shift_one_4/inv_3/in shift_one_4/2mux_nr_1/in1 2 7 25 -1018
+n a3 GND! shift_one_4/inv_0/out 2 7 -91 -997
+p a3 Vdd! shift_one_4/inv_0/out 2 7 -111 -997
+n a5 GND! shift_one_4/inv_1/out 2 7 -91 -1035
+p a5 Vdd! shift_one_4/inv_1/out 2 7 -111 -1035
+n a4 GND! shift_one_4/inv_2/out 2 7 -31 -1068
+p a4 Vdd! shift_one_4/inv_2/out 2 7 -51 -1068
+n shift_one_4/inv_3/in GND! o4 2 7 -6 -1067
+p shift_one_4/inv_3/in Vdd! o4 2 7 14 -1067
+p u shift_one_5/inv_1/out shift_one_5/2mux_nr_1/in1 2 7 -58 -1207
+p shift_one_5/2mux_nr_0/a_n17_n11# shift_one_5/2mux_nr_1/in1 shift_one_5/inv_0/out 2 7 -58 -1194
+p u shift_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 -57 -1173
+n shift_one_5/2mux_nr_0/a_n17_n11# shift_one_5/inv_1/out shift_one_5/2mux_nr_1/in1 2 7 -37 -1207
+n u shift_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 -37 -1173
+n u shift_one_5/2mux_nr_1/in1 shift_one_5/inv_0/out 2 7 -37 -1194
+p s shift_one_5/inv_2/out shift_one_5/inv_3/in 2 7 4 -1207
+p shift_one_5/2mux_nr_1/a_n17_n11# shift_one_5/inv_3/in shift_one_5/2mux_nr_1/in1 2 7 4 -1194
+p s shift_one_5/2mux_nr_1/a_n17_n11# Vdd! 2 7 5 -1173
+n shift_one_5/2mux_nr_1/a_n17_n11# shift_one_5/inv_2/out shift_one_5/inv_3/in 2 7 25 -1207
+n s shift_one_5/2mux_nr_1/a_n17_n11# GND! 2 7 25 -1173
+n s shift_one_5/inv_3/in shift_one_5/2mux_nr_1/in1 2 7 25 -1194
+n a4 GND! shift_one_5/inv_0/out 2 7 -91 -1173
+p a4 Vdd! shift_one_5/inv_0/out 2 7 -111 -1173
+n a6 GND! shift_one_5/inv_1/out 2 7 -91 -1211
+p a6 Vdd! shift_one_5/inv_1/out 2 7 -111 -1211
+n a5 GND! shift_one_5/inv_2/out 2 7 -31 -1244
+p a5 Vdd! shift_one_5/inv_2/out 2 7 -51 -1244
+n shift_one_5/inv_3/in GND! o5 2 7 -6 -1243
+p shift_one_5/inv_3/in Vdd! o5 2 7 14 -1243
+C GND! s 4.15
+C Vdd! s 4.99
+C u GND! 4.29
+C u Vdd! 5.57
+C GND! Vdd! 10.85
+R o5 18
+R shift_one_5/inv_2/out 88
+R a4 420
+R shift_one_5/inv_3/in 151
+R shift_one_5/2mux_nr_1/in1 90
+R shift_one_5/2mux_nr_1/a_n17_n11# 192
+R shift_one_5/inv_1/out 89
+R shift_one_5/inv_0/out 89
+R shift_one_5/2mux_nr_0/a_n17_n11# 192
+R o4 18
+R shift_one_4/inv_2/out 88
+R a3 420
+R shift_one_4/inv_3/in 151
+R shift_one_4/2mux_nr_1/in1 90
+R shift_one_4/2mux_nr_1/a_n17_n11# 192
+R shift_one_4/inv_1/out 89
+R shift_one_4/inv_0/out 89
+R shift_one_4/2mux_nr_0/a_n17_n11# 192
+R o3 18
+R shift_one_3/inv_2/out 88
+R a2 420
+R shift_one_3/inv_3/in 151
+R shift_one_3/2mux_nr_1/in1 90
+R shift_one_3/2mux_nr_1/a_n17_n11# 192
+R shift_one_3/inv_1/out 89
+R shift_one_3/inv_0/out 89
+R shift_one_3/2mux_nr_0/a_n17_n11# 192
+R o2 18
+R shift_one_2/inv_2/out 88
+R a1 420
+R shift_one_2/inv_3/in 151
+R shift_one_2/2mux_nr_1/in1 90
+R shift_one_2/2mux_nr_1/a_n17_n11# 192
+R shift_one_2/inv_1/out 89
+R shift_one_2/inv_0/out 89
+R shift_one_2/2mux_nr_0/a_n17_n11# 192
+R o1 18
+R shift_one_1/inv_2/out 88
+R a0 274
+R shift_one_1/inv_3/in 151
+R shift_one_1/2mux_nr_1/in1 90
+R shift_one_1/2mux_nr_1/a_n17_n11# 192
+R shift_one_1/inv_1/out 89
+R shift_one_1/inv_0/out 89
+R shift_one_1/2mux_nr_0/a_n17_n11# 192
+R o0 18
+R shift_one_0/inv_2/out 88
+R shift_one_0/inv_3/in 151
+R shift_one_0/2mux_nr_1/in1 90
+R shift_one_0/2mux_nr_1/a_n17_n11# 192
+R shift_one_0/inv_1/out 89
+R shift_one_0/inv_0/out 89
+R shift_one_0/2mux_nr_0/a_n17_n11# 192
+C Vdd! GND 39.76
+R Vdd! 181540
+R o7 18
+R shift_one_7/inv_2/out 88
+R a7 276
+R GND! 3877
+R a6 420
+R shift_one_7/inv_3/in 151
+R shift_one_7/2mux_nr_1/in1 90
+R shift_one_7/2mux_nr_1/a_n17_n11# 192
+R s 4117
+R shift_one_7/inv_1/out 89
+R shift_one_7/inv_0/out 89
+R shift_one_7/2mux_nr_0/a_n17_n11# 192
+R u 4114
+R o6 18
+R shift_one_6/inv_2/out 88
+R a5 420
+R shift_one_6/inv_3/in 151
+R shift_one_6/2mux_nr_1/in1 90
+R shift_one_6/2mux_nr_1/a_n17_n11# 192
+R shift_one_6/inv_1/out 89
+R shift_one_6/inv_0/out 89
+R shift_one_6/2mux_nr_0/a_n17_n11# 192

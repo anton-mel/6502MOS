@@ -1,14 +1,9 @@
 magic
 tech scmos
-timestamp 1765314925
+timestamp 1765339832
 << pwell >>
 rect -12 28 -7 33
 rect 49 28 57 33
-<< nsubstratendiff >>
-rect -109 -50 -104 -49
-rect -109 -60 -104 -59
-<< nsubstratencontact >>
-rect -109 -59 -104 -50
 << metal1 >>
 rect -29 33 -24 37
 rect 33 33 38 37
@@ -45,8 +40,6 @@ rect -109 -13 -104 -8
 rect -89 -10 -84 -5
 rect -52 -26 -47 -21
 rect -109 -32 -104 -27
-rect -109 -50 -104 -45
-rect -109 -64 -104 -59
 rect -3 -35 2 -30
 rect -49 -46 -44 -41
 rect 42 -46 47 -41
@@ -66,16 +59,15 @@ rect -104 -13 -98 -8
 rect -84 -21 -79 -5
 rect -84 -26 -52 -21
 rect -104 -32 -98 -27
-rect -103 -45 -98 -32
+rect -103 -59 -98 -32
 rect -9 -30 -4 -4
 rect 13 -16 18 9
 rect 8 -21 18 -16
 rect -9 -35 -3 -30
 rect 8 -41 13 -21
-rect -104 -50 -98 -45
 rect -44 -46 42 -41
-rect -104 -60 -83 -59
-rect -104 -64 -49 -60
+rect -103 -60 -83 -59
+rect -103 -64 -49 -60
 rect -88 -65 -49 -64
 << m123contact >>
 rect -29 37 -24 42
@@ -85,30 +77,30 @@ rect -49 9 -44 14
 rect -68 -10 -63 -5
 rect -112 -41 -107 -36
 rect -112 -73 -107 -68
-use inv  inv_3
+use 2mux_nr  2mux_nr_1
+timestamp 1765248526
+transform 1 0 34 0 1 6
+box -32 -38 29 27
+use 2mux_nr  2mux_nr_0
+timestamp 1765248526
+transform 1 0 -28 0 1 6
+box -32 -38 29 27
+use inv  inv_1
 timestamp 1765001281
-transform 0 1 11 -1 0 -48
-box -10 -13 20 40
-use inv  inv_2
-timestamp 1765001281
-transform 0 -1 -13 1 0 -58
+transform 0 -1 -73 1 0 -25
 box -10 -13 20 40
 use inv  inv_0
 timestamp 1765001281
 transform 0 -1 -73 1 0 13
 box -10 -13 20 40
-use inv  inv_1
+use inv  inv_2
 timestamp 1765001281
-transform 0 -1 -73 1 0 -25
+transform 0 -1 -13 1 0 -58
 box -10 -13 20 40
-use 2mux_nr  2mux_nr_0
-timestamp 1765248526
-transform 1 0 -28 0 1 6
-box -32 -38 29 27
-use 2mux_nr  2mux_nr_1
-timestamp 1765248526
-transform 1 0 34 0 1 6
-box -32 -38 29 27
+use inv  inv_3
+timestamp 1765001281
+transform 0 1 11 -1 0 -48
+box -10 -13 20 40
 << labels >>
 rlabel metal2 -45 30 -45 30 1 GND!
 rlabel m2contact 50 -73 50 -68 8 o

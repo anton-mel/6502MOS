@@ -1,113 +1,103 @@
 magic
 tech scmos
-timestamp 1765250278
-<< metal1 >>
-rect -90 738 -77 743
-rect 76 738 79 743
-rect -82 651 -77 738
-rect -90 581 -77 586
-rect 76 581 79 586
-rect -82 495 -77 581
-rect -90 424 -77 429
-rect 76 424 79 429
-rect -82 338 -77 424
-rect -90 267 -77 272
-rect 76 267 79 272
-rect -82 181 -77 267
-rect -90 110 -77 115
-rect 76 110 79 115
-rect -82 24 -77 110
-rect -90 -47 -77 -42
-rect 76 -47 79 -42
-rect -82 -133 -77 -47
-rect -90 -204 -77 -199
-rect 76 -204 79 -199
-rect -82 -290 -77 -204
-rect -90 -361 -77 -356
-rect 76 -361 79 -356
+timestamp 1765341740
+<< metal2 >>
+rect 28 -383 33 -378
+rect 28 -559 33 -554
+rect 28 -735 33 -730
+rect 28 -911 33 -906
+rect 28 -1087 33 -1082
+rect 28 -1263 33 -1258
+rect 28 -1439 33 -1434
+rect 28 -1615 33 -1610
 << metal3 >>
-rect -33 815 -28 853
-rect -72 810 -28 815
-rect -87 770 -77 775
-rect -87 586 -82 770
-rect -74 613 -62 618
-rect -87 581 -77 586
-rect -87 456 -77 461
-rect -87 272 -82 456
-rect -67 429 -62 613
-rect -77 424 -62 429
-rect -73 299 -62 304
-rect -87 267 -77 272
-rect -87 142 -77 147
-rect -87 -42 -82 142
-rect -67 115 -62 299
-rect -73 110 -62 115
-rect -73 -15 -62 -10
-rect -87 -47 -77 -42
-rect -87 -172 -77 -167
-rect -87 -356 -82 -172
-rect -67 -199 -62 -15
-rect -73 -204 -62 -199
-rect -33 -324 -28 810
-rect -71 -329 -28 -324
-rect -87 -361 -77 -356
-rect -33 -361 -28 -329
-rect -23 -361 -18 853
-rect -3 -361 2 853
-rect 48 -361 53 853
+rect -124 -313 -80 -308
+rect -138 -351 -124 -346
+rect -138 -554 -133 -351
+rect -129 -489 -124 -378
+rect -129 -527 -115 -522
+rect -138 -559 -124 -554
+rect -129 -665 -124 -559
+rect -138 -703 -124 -698
+rect -138 -906 -133 -703
+rect -120 -730 -115 -527
+rect -129 -735 -115 -730
+rect -129 -841 -124 -735
+rect -129 -879 -115 -874
+rect -138 -911 -124 -906
+rect -129 -1017 -124 -911
+rect -138 -1055 -124 -1050
+rect -138 -1258 -133 -1055
+rect -120 -1082 -115 -879
+rect -129 -1087 -115 -1082
+rect -129 -1193 -124 -1087
+rect -129 -1231 -115 -1226
+rect -138 -1263 -124 -1258
+rect -129 -1369 -124 -1263
+rect -138 -1407 -124 -1402
+rect -138 -1610 -133 -1407
+rect -120 -1434 -115 -1231
+rect -129 -1439 -115 -1434
+rect -129 -1545 -124 -1439
+rect -85 -1578 -80 -313
+rect -66 -1533 -61 -296
+rect -46 -1505 -41 -268
+rect 16 -1505 21 -268
+rect -124 -1583 -80 -1578
+rect -138 -1615 -124 -1610
 use shift_one  shift_one_7
-timestamp 1765250278
-transform 1 0 26 0 1 -288
+timestamp 1765339832
+transform 1 0 -17 0 1 -1542
 box -113 -73 63 42
 use shift_one  shift_one_6
-timestamp 1765250278
-transform 1 0 26 0 1 -131
+timestamp 1765339832
+transform 1 0 -17 0 1 -1371
 box -113 -73 63 42
 use shift_one  shift_one_5
-timestamp 1765250278
-transform 1 0 26 0 1 26
+timestamp 1765339832
+transform 1 0 -17 0 1 -1190
 box -113 -73 63 42
 use shift_one  shift_one_4
-timestamp 1765250278
-transform 1 0 26 0 1 183
-box -113 -73 63 42
-use shift_one  shift_one_2
-timestamp 1765250278
-transform 1 0 26 0 1 497
-box -113 -73 63 42
-use shift_one  shift_one_1
-timestamp 1765250278
-transform 1 0 26 0 1 654
-box -113 -73 63 42
-use shift_one  shift_one_0
-timestamp 1765250278
-transform 1 0 26 0 1 811
+timestamp 1765339832
+transform 1 0 -17 0 1 -1014
 box -113 -73 63 42
 use shift_one  shift_one_3
-timestamp 1765250278
-transform 1 0 26 0 1 340
+timestamp 1765339832
+transform 1 0 -17 0 1 -838
+box -113 -73 63 42
+use shift_one  shift_one_2
+timestamp 1765339832
+transform 1 0 -17 0 1 -662
+box -113 -73 63 42
+use shift_one  shift_one_1
+timestamp 1765339832
+transform 1 0 -17 0 1 -486
+box -113 -73 63 42
+use shift_one  shift_one_0
+timestamp 1765339832
+transform 1 0 -17 0 1 -310
 box -113 -73 63 42
 << labels >>
-rlabel metal3 -3 853 2 853 5 u
-rlabel metal3 48 853 53 853 5 s
-rlabel metal3 -21 823 -21 823 1 Vdd!
-rlabel metal1 -90 738 -90 743 3 a0
-rlabel metal1 77 738 79 743 7 o0
-rlabel metal1 -90 581 -90 586 3 a1
-rlabel metal1 77 581 79 586 7 o1
-rlabel metal1 -90 424 -90 429 3 a2
-rlabel metal1 77 424 79 429 7 o2
-rlabel metal1 77 267 79 272 7 o3
-rlabel metal1 -90 267 -90 272 3 a3
-rlabel metal1 77 110 79 115 7 o4
-rlabel metal1 -90 110 -90 115 3 a4
-rlabel metal1 77 -47 79 -42 7 o5
-rlabel metal1 -90 -47 -90 -42 3 a5
-rlabel metal1 77 -204 79 -199 7 o6
-rlabel metal1 -90 -204 -90 -199 3 a6
-rlabel metal1 77 -361 79 -356 8 o7
-rlabel metal1 -90 -361 -90 -356 2 a7
-rlabel metal3 -31 842 -31 842 1 GND!
+rlabel metal3 -66 -301 -61 -296 1 Vdd!
+rlabel metal3 -85 -313 -80 -308 1 GND!
+rlabel metal2 28 -1615 33 -1610 1 o7
+rlabel metal2 28 -1439 33 -1434 1 o6
+rlabel metal2 28 -1263 33 -1258 1 o5
+rlabel metal2 28 -1087 33 -1082 1 o4
+rlabel metal2 28 -911 33 -906 1 o3
+rlabel metal2 28 -735 33 -730 1 o2
+rlabel metal2 28 -559 33 -554 1 o1
+rlabel metal2 28 -383 33 -378 1 o0
+rlabel metal3 -46 -273 -41 -268 5 u
+rlabel metal3 16 -273 21 -268 5 s
+rlabel metal3 -129 -383 -124 -378 1 a0
+rlabel metal3 -129 -559 -124 -554 1 a1
+rlabel metal3 -129 -735 -124 -730 1 a2
+rlabel metal3 -129 -911 -124 -906 1 a3
+rlabel metal3 -129 -1087 -124 -1082 1 a4
+rlabel metal3 -129 -1263 -124 -1258 1 a5
+rlabel metal3 -129 -1439 -124 -1434 1 a6
+rlabel metal3 -129 -1615 -124 -1610 1 a7
 << properties >>
 string name shift_one_0
 << end >>
