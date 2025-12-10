@@ -1,63 +1,111 @@
 magic
 tech scmos
-timestamp 1765003094
+timestamp 1765334200
 << pwell >>
-rect 90 -1096 95 -1093
+rect 90 -1211 95 -1209
 << polysilicon >>
-rect 61 31 63 33
-rect 61 -126 63 -124
-rect 61 -283 63 -281
-rect 61 -440 63 -438
-rect 61 -597 63 -595
-rect 61 -754 63 -752
-rect 61 -911 63 -909
-rect 61 -1068 63 -1066
+rect 61 48 63 50
+rect 61 -128 63 -126
+rect 61 -304 63 -302
+rect 61 -480 63 -478
+rect 61 -656 63 -654
+rect 61 -832 63 -830
+rect 61 -1008 63 -1006
+rect 61 -1184 63 -1182
+<< m123contact >>
+rect 64 65 69 70
+rect 76 21 81 26
+rect 90 17 95 22
+rect 64 -111 69 -106
+rect 76 -155 81 -150
+rect 90 -159 95 -154
+rect 64 -287 69 -282
+rect 76 -331 81 -326
+rect 90 -335 95 -330
+rect 64 -463 69 -458
+rect 76 -507 81 -502
+rect 90 -511 95 -506
+rect 64 -639 69 -634
+rect 76 -683 81 -678
+rect 90 -687 95 -682
+rect 64 -815 69 -810
+rect 76 -859 81 -854
+rect 90 -863 95 -858
+rect 64 -991 69 -986
+rect 76 -1035 81 -1030
+rect 90 -1039 95 -1034
+rect 64 -1167 69 -1162
+rect 76 -1211 81 -1206
+rect 90 -1215 95 -1210
 << metal3 >>
-rect 64 -1047 69 61
-rect 76 -1094 81 61
-rect 90 -1096 95 61
-use staticizer_one  staticizer_one_0
-timestamp 1765002646
-transform 1 0 7 0 1 61
-box 53 -63 113 -1
+rect 64 70 69 78
+rect 64 -106 69 65
+rect 64 -282 69 -111
+rect 64 -458 69 -287
+rect 64 -634 69 -463
+rect 64 -810 69 -639
+rect 64 -986 69 -815
+rect 64 -1162 69 -991
+rect 64 -1215 69 -1167
+rect 76 26 81 78
+rect 76 -150 81 21
+rect 76 -326 81 -155
+rect 76 -502 81 -331
+rect 76 -678 81 -507
+rect 76 -854 81 -683
+rect 76 -1030 81 -859
+rect 76 -1206 81 -1035
+rect 76 -1215 81 -1211
+rect 90 22 95 78
+rect 90 -154 95 17
+rect 90 -330 95 -159
+rect 90 -506 95 -335
+rect 90 -682 95 -511
+rect 90 -858 95 -687
+rect 90 -1034 95 -863
+rect 90 -1210 95 -1039
 use staticizer_one  staticizer_one_1
-timestamp 1765002646
-transform 1 0 7 0 1 -96
-box 53 -63 113 -1
+timestamp 1765328088
+transform 1 0 7 0 1 -98
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_0
+timestamp 1765328088
+transform 1 0 7 0 1 78
+box 54 -61 113 -1
 use staticizer_one  staticizer_one_2
-timestamp 1765002646
-transform 1 0 7 0 1 -253
-box 53 -63 113 -1
-use staticizer_one  staticizer_one_3
-timestamp 1765002646
-transform 1 0 7 0 1 -410
-box 53 -63 113 -1
+timestamp 1765328088
+transform 1 0 7 0 1 -274
+box 54 -61 113 -1
 use staticizer_one  staticizer_one_4
-timestamp 1765002646
-transform 1 0 7 0 1 -567
-box 53 -63 113 -1
-use staticizer_one  staticizer_one_5
-timestamp 1765002646
-transform 1 0 7 0 1 -724
-box 53 -63 113 -1
+timestamp 1765328088
+transform 1 0 7 0 1 -626
+box 54 -61 113 -1
 use staticizer_one  staticizer_one_6
-timestamp 1765002646
-transform 1 0 7 0 1 -881
-box 53 -63 113 -1
+timestamp 1765328088
+transform 1 0 7 0 1 -978
+box 54 -61 113 -1
 use staticizer_one  staticizer_one_7
-timestamp 1765002646
-transform 1 0 7 0 1 -1038
-box 53 -63 113 -1
+timestamp 1765328088
+transform 1 0 7 0 1 -1154
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_5
+timestamp 1765328088
+transform 1 0 7 0 1 -802
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_3
+timestamp 1765328088
+transform 1 0 7 0 1 -450
+box 54 -61 113 -1
 << labels >>
-rlabel metal3 64 59 69 61 4 Vdd!
-rlabel metal3 76 59 81 61 5 GND!
-rlabel metal3 90 59 95 61 5 c
-rlabel polysilicon 61 31 63 33 3 in0
-rlabel polysilicon 61 -126 63 -124 3 in1
-rlabel polysilicon 61 -283 63 -281 3 in2
-rlabel polysilicon 61 -440 63 -438 3 in3
-rlabel polysilicon 61 -597 63 -595 3 in4
-rlabel polysilicon 61 -754 63 -752 3 in5
-rlabel polysilicon 61 -911 63 -909 3 in6
-rlabel polysilicon 61 -1068 63 -1066 3 in7
+rlabel polysilicon 61 -304 63 -302 3 in2
+rlabel polysilicon 61 -480 63 -478 3 in3
+rlabel polysilicon 61 -656 63 -654 3 in4
+rlabel polysilicon 61 -832 63 -830 3 in5
+rlabel polysilicon 61 -1008 63 -1006 3 in6
+rlabel polysilicon 61 -1184 63 -1182 3 in7
+rlabel polysilicon 61 -128 63 -126 3 in1
+rlabel polysilicon 61 48 63 50 3 in0
+rlabel metal3 90 76 95 78 5 c
+rlabel metal3 76 76 81 78 5 GND!
+rlabel metal3 64 76 69 78 4 Vdd!
 << end >>
