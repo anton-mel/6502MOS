@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765250278
+timestamp 1765416915
 << nwell >>
 rect -5 60 125 86
 rect 60 14 65 19
@@ -109,21 +109,21 @@ use inv  inv_2
 timestamp 1765001281
 transform 1 0 38 0 1 46
 box -10 -13 20 40
-use 2mux_nr  2mux_nr_2
-timestamp 1765248526
-transform 0 -1 22 -1 0 -61
-box -32 -38 29 27
 use inv  inv_0
 timestamp 1765001281
 transform 1 0 73 0 1 -76
 box -10 -13 20 40
+use 2mux_nr  2mux_nr_1
+timestamp 1765248526
+transform 0 -1 87 -1 0 0
+box -32 -38 29 27
 use 2mux_nr  2mux_nr_0
 timestamp 1765248526
 transform 0 -1 22 -1 0 0
 box -32 -38 29 27
-use 2mux_nr  2mux_nr_1
+use 2mux_nr  2mux_nr_2
 timestamp 1765248526
-transform 0 -1 87 -1 0 0
+transform 0 -1 22 -1 0 -61
 box -32 -38 29 27
 << labels >>
 rlabel metal1 0 59 0 59 3 g3
