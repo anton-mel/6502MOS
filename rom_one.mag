@@ -1,0 +1,106 @@
+magic
+tech scmos
+timestamp 1765515100
+<< pwell >>
+rect 35 -90 117 32
+<< ntransistor >>
+rect 41 10 51 12
+rect 61 10 71 12
+rect 81 10 91 12
+rect 101 10 111 12
+rect 41 -10 51 -8
+rect 61 -10 71 -8
+rect 81 -10 91 -8
+rect 101 -10 111 -8
+rect 41 -50 51 -48
+rect 61 -50 71 -48
+rect 81 -50 91 -48
+rect 101 -50 111 -48
+rect 41 -70 51 -68
+rect 61 -70 71 -68
+rect 81 -70 91 -68
+rect 101 -70 111 -68
+<< ndiffusion >>
+rect 41 12 51 26
+rect 61 12 71 26
+rect 81 12 91 26
+rect 101 12 111 26
+rect 41 6 51 10
+rect 41 -8 51 -4
+rect 61 6 71 10
+rect 61 -8 71 -4
+rect 81 6 91 10
+rect 81 -8 91 -4
+rect 101 6 111 10
+rect 101 -8 111 -4
+rect 41 -22 51 -10
+rect 61 -22 71 -10
+rect 81 -22 91 -10
+rect 101 -22 111 -10
+rect 41 -48 51 -36
+rect 61 -48 71 -36
+rect 81 -48 91 -36
+rect 101 -48 111 -36
+rect 41 -54 51 -50
+rect 41 -68 51 -64
+rect 61 -54 71 -50
+rect 61 -68 71 -64
+rect 81 -54 91 -50
+rect 81 -68 91 -64
+rect 101 -54 111 -50
+rect 101 -68 111 -64
+rect 41 -84 51 -70
+rect 61 -84 71 -70
+rect 81 -84 91 -70
+rect 101 -84 111 -70
+<< ndcontact >>
+rect 41 -4 51 6
+rect 61 -4 71 6
+rect 81 -4 91 6
+rect 101 -4 111 6
+rect 41 -64 51 -54
+rect 61 -64 71 -54
+rect 81 -64 91 -54
+rect 101 -64 111 -54
+<< psubstratepcontact >>
+rect 73 -32 79 -26
+<< polysilicon >>
+rect 35 10 41 12
+rect 51 10 61 12
+rect 71 10 81 12
+rect 91 10 101 12
+rect 111 10 117 12
+rect 35 -10 41 -8
+rect 51 -10 61 -8
+rect 71 -10 81 -8
+rect 91 -10 101 -8
+rect 111 -10 117 -8
+rect 35 -50 41 -48
+rect 51 -50 61 -48
+rect 71 -50 81 -48
+rect 91 -50 101 -48
+rect 111 -50 117 -48
+rect 35 -70 41 -68
+rect 51 -70 61 -68
+rect 71 -70 81 -68
+rect 91 -70 101 -68
+rect 111 -70 117 -68
+<< metal1 >>
+rect 35 -4 41 6
+rect 51 -4 61 6
+rect 71 -26 81 6
+rect 91 -4 101 6
+rect 111 -4 117 6
+rect 71 -32 73 -26
+rect 79 -32 81 -26
+rect 35 -64 41 -54
+rect 51 -64 61 -54
+rect 71 -64 81 -32
+rect 91 -64 101 -54
+rect 111 -64 117 -54
+<< metal2 >>
+rect 41 -90 51 32
+rect 61 -90 71 32
+rect 81 -90 91 32
+rect 101 -90 111 32
+<< end >>

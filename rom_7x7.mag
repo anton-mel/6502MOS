@@ -1,0 +1,200 @@
+magic
+tech scmos
+timestamp 1765515877
+use rom_one  rom_one_32
+timestamp 1765515100
+transform 1 0 -35 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_33
+timestamp 1765515100
+transform 1 0 47 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_48
+timestamp 1765515100
+transform 1 0 47 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_47
+timestamp 1765515100
+transform 1 0 -35 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_36
+timestamp 1765515100
+transform 1 0 211 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_31
+timestamp 1765515100
+transform 1 0 129 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_45
+timestamp 1765515100
+transform 1 0 129 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_44
+timestamp 1765515100
+transform 1 0 211 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_37
+timestamp 1765515100
+transform 1 0 293 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_40
+timestamp 1765515100
+transform 1 0 375 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_41
+timestamp 1765515100
+transform 1 0 457 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_46
+timestamp 1765515100
+transform 1 0 293 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_43
+timestamp 1765515100
+transform 1 0 457 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_42
+timestamp 1765515100
+transform 1 0 375 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_28
+timestamp 1765515100
+transform 1 0 -35 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_29
+timestamp 1765515100
+transform 1 0 47 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_34
+timestamp 1765515100
+transform 1 0 211 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_30
+timestamp 1765515100
+transform 1 0 129 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_35
+timestamp 1765515100
+transform 1 0 293 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_38
+timestamp 1765515100
+transform 1 0 375 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_39
+timestamp 1765515100
+transform 1 0 457 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_14
+timestamp 1765515100
+transform 1 0 -35 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_16
+timestamp 1765515100
+transform 1 0 -35 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_15
+timestamp 1765515100
+transform 1 0 47 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_17
+timestamp 1765515100
+transform 1 0 47 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_20
+timestamp 1765515100
+transform 1 0 211 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_18
+timestamp 1765515100
+transform 1 0 129 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_21
+timestamp 1765515100
+transform 1 0 211 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_19
+timestamp 1765515100
+transform 1 0 129 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_24
+timestamp 1765515100
+transform 1 0 375 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_26
+timestamp 1765515100
+transform 1 0 457 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_22
+timestamp 1765515100
+transform 1 0 293 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_25
+timestamp 1765515100
+transform 1 0 375 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_27
+timestamp 1765515100
+transform 1 0 457 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_23
+timestamp 1765515100
+transform 1 0 293 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_0
+timestamp 1765515100
+transform 1 0 -35 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_13
+timestamp 1765515100
+transform 1 0 -35 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_1
+timestamp 1765515100
+transform 1 0 47 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_12
+timestamp 1765515100
+transform 1 0 47 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_3
+timestamp 1765515100
+transform 1 0 129 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_2
+timestamp 1765515100
+transform 1 0 211 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_11
+timestamp 1765515100
+transform 1 0 211 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_10
+timestamp 1765515100
+transform 1 0 129 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_6
+timestamp 1765515100
+transform 1 0 293 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_4
+timestamp 1765515100
+transform 1 0 375 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_5
+timestamp 1765515100
+transform 1 0 457 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_9
+timestamp 1765515100
+transform 1 0 375 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_8
+timestamp 1765515100
+transform 1 0 457 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_7
+timestamp 1765515100
+transform 1 0 293 0 1 -32
+box 35 -90 117 32
+<< end >>
