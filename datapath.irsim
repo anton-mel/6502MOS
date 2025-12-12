@@ -4,11 +4,11 @@ stepsize 200
 h Vdd!
 l GND!
 
-vector in         in7 in6 in5 in4 in3 in2 in1 in0
+vector in         data_in7 data_in6 data_in5 data_in4 data_in3 data_in2 data_in1 data_in0
 vector wz         wz7 wz6 wz5 wz4 wz3 wz2 wz1 wz0
 vector rx         rx7 rx6 rx5 rx4 rx3 rx2 rx1 rx0
 vector ry         ry7 ry6 ry5 ry4 ry3 ry2 ry1 ry0
-vector out        out7 out6 out5 out4 out3 out2 out1 out0
+vector out        data_out7 data_out6 data_out5 data_out4 data_out3 data_out2 data_out1 data_out0
 
 vector fb_ctrl    fb_g3 fb_g2 fb_g1 fb_g0
 vector os_ctrl    os_s os_u
@@ -16,7 +16,7 @@ vector latch_ctrl ld rfb ros ras
 vector reg0_ctrl  reg0_w reg0_r0 reg0_r1
 vector reg1_ctrl  reg1_w reg1_r0 reg1_r1
 
-ana in latch_ctrl fb_ctrl os_ctrl as_cin reg0_ctrl reg1_ctrl rd out wz rx ry as_cout
+ana in latch_ctrl fb_ctrl os_ctrl as_cin reg0_ctrl reg1_ctrl rd out wz rx ry
 
 # ----------------------------
 # Initialize everything

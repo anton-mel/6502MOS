@@ -1,4 +1,4 @@
-timestamp 1765338007
+timestamp 1765338694
 version 8.3
 tech scmos
 style TSMC0.18um(tsmc18)from:t24i
@@ -48,7 +48,7 @@ node "Vdd!" 22 5918.62 59 1199 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6890 2766 0 0 0 0 
 node "GND!" 24 4797.36 -4 1155 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7610 3054 0 0 0 0 0 0 0 0 0 0
 node "b7" 68 120.172 1 -140 p 0 0 0 0 0 0 0 0 0 0 34 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a7" 72 126.696 59 -79 p 0 0 0 0 0 0 0 0 0 0 36 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "a_127_8#" 363 203.614 127 8 p 0 0 0 0 0 0 0 0 0 0 211 200 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "c7" 363 203.614 127 8 p 0 0 0 0 0 0 0 0 0 0 211 200 0 0 25 20 0 0 0 0 0 0 0 0 0 0
 node "b6" 68 120.172 1 36 p 0 0 0 0 0 0 0 0 0 0 34 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a6" 72 126.696 59 97 p 0 0 0 0 0 0 0 0 0 0 36 40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a_126_184#" 367 203.614 126 184 p 0 0 0 0 0 0 0 0 0 0 213 202 0 0 25 20 0 0 0 0 0 0 0 0 0 0
@@ -80,103 +80,103 @@ node "w_n7_765#" 0 0 -7 765 pw 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "w_n7_941#" 0 0 -7 941 pw 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "w_1_1107#" 0 0 1 1107 pw 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "w_n7_1117#" 0 0 -7 1117 pw 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "a_127_1064#" "w_124_n169#" 476.622
-cap "s4" "w_124_n169#" 76.969
-cap "m1_36_613#" "Vdd!" 26.903
-cap "s5" "GND!" 36.385
-cap "b0" "m1_n4_979#" 32.648
-cap "m1_n4_803#" "b1" 32.648
-cap "Vdd!" "a4" 14.06
-cap "a2" "Vdd!" 14.06
-cap "a0" "Vdd!" 14.06
-cap "sub" "m1_n4_n77#" 1172.82
 cap "sub" "m1_n4_275#" 1172.82
-cap "s6" "w_124_n169#" 76.969
-cap "a_126_536#" "w_124_n169#" 483.146
-cap "b4" "m1_n4_275#" 32.648
-cap "a1" "Vdd!" 14.06
-cap "w_n7_413#" "sub" 3.784
+cap "Vdd!" "m1_36_1141#" 26.903
+cap "s2" "w_124_n169#" 76.969
+cap "m1_n4_99#" "b5" 32.648
+cap "m1_36_613#" "Vdd!" 26.903
+cap "m1_n4_n77#" "b6" 32.648
+cap "sub" "w_n7_941#" 3.784
+cap "w_124_n169#" "s6" 76.969
+cap "s2" "GND!" 36.385
+cap "w_124_n169#" "a_126_888#" 483.146
+cap "sub" "m1_n4_803#" 1172.82
+cap "s6" "GND!" 36.385
+cap "w_124_n169#" "a_127_360#" 476.622
+cap "Vdd!" "a5" 14.06
+cap "w_124_n169#" "c7" 476.622
+cap "Vdd!" "a7" 14.06
 cap "w_n7_237#" "sub" 3.784
-cap "a_127_1064#" "GND!" 173.316
+cap "GND!" "a_126_888#" 173.316
+cap "b4" "m1_n4_275#" 32.648
+cap "a2" "Vdd!" 14.06
+cap "sub" "w_n7_61#" 3.784
+cap "w_124_n169#" "s0" 76.969
+cap "b2" "m1_n4_627#" 32.648
+cap "sub" "m1_n4_99#" 1172.82
+cap "Vdd!" "m1_36_965#" 31.644
+cap "s3" "w_124_n169#" 76.969
+cap "m1_36_437#" "Vdd!" 26.903
+cap "a_127_360#" "GND!" 173.316
+cap "w_124_n169#" "s7" 76.969
+cap "c7" "GND!" 151.46
+cap "s0" "GND!" 36.385
+cap "s3" "GND!" 36.385
+cap "m1_n4_803#" "b1" 32.648
+cap "sub" "w_n7_1117#" 3.784
+cap "w_124_n169#" "s4" 76.969
+cap "Vdd!" "m1_36_261#" 26.903
+cap "sub" "w_n7_765#" 3.784
+cap "w_124_n169#" "a_127_1064#" 476.622
+cap "Vdd!" "m1_36_n91#" 26.903
+cap "a3" "Vdd!" 14.06
+cap "m1_n4_979#" "b0" 32.648
+cap "w_124_n169#" "a_126_184#" 483.146
+cap "Vdd!" "a6" 14.06
+cap "w_124_n169#" "GND!" 1131.92
+cap "m1_n4_627#" "sub" 1172.82
+cap "b0" "w_1_1107#" 3.784
 cap "a_127_712#" "w_124_n169#" 476.622
 cap "s4" "GND!" 36.385
-cap "sub" "m1_n4_451#" 1172.82
-cap "a_127_360#" "w_124_n169#" 476.622
-cap "Vdd!" "m1_36_85#" 26.903
-cap "Vdd!" "m1_36_437#" 26.903
-cap "Vdd!" "m1_36_1141#" 26.903
-cap "s1" "w_124_n169#" 76.969
-cap "m1_36_261#" "Vdd!" 26.903
-cap "b6" "m1_n4_n77#" 32.648
-cap "w_n7_1117#" "sub" 3.784
-cap "s6" "GND!" 36.385
-cap "a_126_536#" "GND!" 173.316
-cap "sub" "m1_n4_627#" 1172.82
-cap "w_124_n169#" "s3" 76.969
-cap "s7" "w_124_n169#" 76.969
-cap "b5" "m1_n4_99#" 32.648
-cap "m1_36_n91#" "Vdd!" 26.903
-cap "w_124_n169#" "a_126_888#" 483.146
+cap "w_124_n169#" "s1" 76.969
+cap "a_127_1064#" "GND!" 173.316
+cap "sub" "m1_n4_n77#" 1172.82
+cap "Vdd!" "a0" 14.06
+cap "a_126_184#" "GND!" 173.316
+cap "m1_36_789#" "Vdd!" 26.903
 cap "a_127_712#" "GND!" 173.316
-cap "a_127_360#" "GND!" 173.316
-cap "a3" "Vdd!" 14.06
-cap "m1_n4_99#" "sub" 1172.82
-cap "Vdd!" "m1_36_789#" 26.903
-cap "cin" "w_124_n169#" 24.204
-cap "b0" "w_1_1107#" 3.784
 cap "s1" "GND!" 36.385
-cap "w_124_n169#" "s0" 76.969
-cap "w_124_n169#" "a_127_8#" 476.622
-cap "w_124_n169#" "a_126_184#" 483.146
-cap "w_124_n169#" "s2" 76.969
-cap "a6" "Vdd!" 14.06
-cap "a5" "Vdd!" 14.06
-cap "s3" "GND!" 36.385
-cap "m1_36_965#" "Vdd!" 31.644
-cap "s5" "w_124_n169#" 76.969
-cap "a7" "Vdd!" 14.06
-cap "b3" "m1_n4_451#" 32.648
-cap "w_n7_765#" "sub" 3.784
-cap "GND!" "a_126_888#" 173.316
-cap "w_124_n169#" "GND!" 1131.92
+cap "w_124_n169#" "s5" 76.969
+cap "cin" "w_124_n169#" 24.204
+cap "Vdd!" "m1_36_85#" 26.903
+cap "w_124_n169#" "a_126_536#" 483.146
+cap "a4" "Vdd!" 14.06
+cap "w_n7_413#" "sub" 3.784
+cap "m1_n4_451#" "b3" 32.648
+cap "Vdd!" "a1" 14.06
 cap "sub" "m1_n4_979#" 1172.82
-cap "b2" "m1_n4_627#" 32.648
-cap "sub" "w_n7_941#" 3.784
+cap "m1_n4_451#" "sub" 1172.82
+cap "s5" "GND!" 36.385
 cap "cin" "GND!" 10.928
 cap "sub" "w_n7_589#" 3.784
-cap "sub" "w_n7_61#" 3.784
-cap "s0" "GND!" 36.385
-cap "a_127_8#" "GND!" 151.46
-cap "a_126_184#" "GND!" 173.316
-cap "s2" "GND!" 36.385
-cap "m1_n4_803#" "sub" 1172.82
+cap "a_126_536#" "GND!" 173.316
 subcap "m1_36_n91#" -66.273
 subcap "m1_n4_n77#" -543.23
 subcap "b7" -89.444
 subcap "a7" -117.432
 subcap "sub" -6168.01
-cap "xor_7/a_61_n1#" "addsub_one_7/a" 6.996
-cap "xor_7/b" "xor_7/GND!" 531.634
-cap "addsub_one_7/a" "xor_7/Vdd!" 80.392
-cap "xor_7/a_61_n1#" "addsub_one_7/b" 36.385
-cap "xor_7/a" "xor_7/GND!" 100.504
-cap "xor_7/Vdd!" "addsub_one_7/b" 24.281
+cap "xor_7/Vdd!" "xor_7/a_61_n1#" 319.732
 cap "xor_7/a_61_n31#" "addsub_one_7/b" 50.95
-cap "xor_7/a_61_n1#" "xor_7/Vdd!" 319.732
+cap "xor_7/Vdd!" "addsub_one_7/b" 24.281
+cap "xor_7/Vdd!" "addsub_one_7/a" 80.392
+cap "xor_7/GND!" "xor_7/a" 100.504
+cap "xor_7/a_61_n1#" "addsub_one_7/b" 36.385
+cap "xor_7/GND!" "xor_7/b" 531.634
+cap "xor_7/a_61_n1#" "addsub_one_7/a" 6.996
 subcap "cout" -22.398
 cap "addsub_one_7/a_35_n41#" "addsub_one_7/s" 50.95
 cap "addsub_one_7/GND!" "addsub_one_7/s" 36.385
-cap "addsub_one_7/s" "w_124_n169#" -50.855
 cap "w_124_n169#" "addsub_one_7/cout" 20.074
+cap "w_124_n169#" "addsub_one_7/s" -50.855
 cap "addsub_one_7/b" "addsub_one_7/s" 36.3929
 subcap "m1_n4_n77#" -154.956
 subcap "a7" -169.756
+cap "addsub_one_6/Vdd!" "Vdd!" 59.888
 cap "Vdd!" "addsub_one_6/Vdd!" 46.174
+cap "addsub_one_7/a" "xor_7/Vdd!" 26.096
 cap "Vdd!" "addsub_one_7/a" 93.28
 cap "xor_7/GND!" "xor_7/GND!" 17.256
-cap "addsub_one_7/a" "xor_7/Vdd!" 26.096
 cap "Vdd!" "xor_7/Vdd!" 154.914
-cap "Vdd!" "addsub_one_6/Vdd!" 59.888
 subcap "s6" -197.069
 cap "addsub_one_6/a_35_n41#" "addsub_one_7/cin" 31.785
 cap "addsub_one_7/GND!" "addsub_one_7/cin" -29.512
@@ -184,183 +184,183 @@ subcap "m1_36_85#" -66.273
 subcap "m1_n4_99#" -404.354
 subcap "b6" -89.444
 subcap "a6" -93.228
-cap "xor_6/a" "xor_6/GND!" 88.844
-cap "addsub_one_6/b" "xor_6/a_61_n31#" 50.95
-cap "addsub_one_6/a" "xor_6/a_61_n1#" 6.996
-cap "addsub_one_6/Vdd!" "addsub_one_6/a" 162.456
-cap "addsub_one_6/b" "xor_6/a_61_n1#" 36.385
-cap "addsub_one_6/Vdd!" "xor_6/a_61_n1#" 319.732
-cap "addsub_one_6/b" "addsub_one_6/Vdd!" 24.281
+cap "xor_6/a_61_n1#" "addsub_one_6/a" 6.996
 cap "xor_6/GND!" "xor_6/b" 629.373
-cap "addsub_one_6/cin" "addsub_one_6/GND!" -4.632
+cap "addsub_one_6/Vdd!" "xor_6/a_61_n1#" 319.732
+cap "xor_6/a_61_n1#" "addsub_one_6/b" 36.385
+cap "addsub_one_6/Vdd!" "addsub_one_6/a" 162.456
+cap "xor_6/a" "xor_6/GND!" 88.844
+cap "addsub_one_6/Vdd!" "addsub_one_6/b" 24.281
+cap "xor_6/a_61_n31#" "addsub_one_6/b" 50.95
+cap "addsub_one_6/s" "addsub_one_6/GND!" -14.47
+cap "addsub_one_6/GND!" "addsub_one_6/cin" -4.632
 cap "addsub_one_6/b" "addsub_one_6/s" 36.3929
-cap "addsub_one_6/GND!" "addsub_one_6/s" -14.47
-cap "addsub_one_6/a_35_n41#" "addsub_one_6/s" 50.95
+cap "addsub_one_6/s" "addsub_one_6/a_35_n41#" 50.95
 subcap "b5" -127.186
-cap "xor_5/GND!" "xor_5/a" 71.764
-cap "addsub_one_6/a" "xor_5/Vdd!" 37.312
 cap "xor_5/a" "xor_5/GND!" 8.664
-cap "xor_5/GND!" "xor_5/GND!" 4.474
-cap "xor_5/Vdd!" "addsub_one_6/Vdd!" 102.506
+cap "xor_5/a" "xor_5/GND!" 71.764
+cap "addsub_one_6/a" "xor_5/Vdd!" 37.312
 cap "sub" "xor_5/GND!" 11.5435
+cap "xor_5/Vdd!" "addsub_one_6/Vdd!" 102.506
+cap "xor_5/GND!" "xor_5/GND!" 4.474
 subcap "a_126_184#" -138.602
-cap "addsub_one_6/cin" "addsub_one_5/a_35_n41#" 31.785
-cap "addsub_one_6/GND!" "addsub_one_6/cin" -24.88
 cap "addsub_one_5/GND!" "addsub_one_5/s" 36.385
-cap "addsub_one_5/s" "addsub_one_5/b" 36.3929
+cap "addsub_one_5/a_35_n41#" "addsub_one_6/cin" 31.785
+cap "addsub_one_5/b" "addsub_one_5/s" 36.3929
+cap "addsub_one_6/GND!" "addsub_one_6/cin" -24.88
 cap "addsub_one_5/s" "addsub_one_5/a_35_n41#" 50.95
-cap "addsub_one_5/s" "addsub_one_6/GND!" -50.855
+cap "addsub_one_6/GND!" "addsub_one_5/s" -50.855
 subcap "m1_36_261#" -66.273
 subcap "m1_n4_275#" -351.744
 subcap "a5" -88.596
+cap "xor_5/GND!" "xor_5/b" 617.829
+cap "xor_5/a_61_n31#" "xor_5/Vdd!" 2.84217e-14
+cap "addsub_one_5/a" "xor_5/a_61_n1#" 6.996
+cap "xor_5/GND!" "xor_5/a" 8.416
+cap "xor_5/a_61_n1#" "xor_5/out" 36.385
+cap "xor_5/a_61_n1#" "xor_5/Vdd!" 319.732
+cap "addsub_one_5/a" "xor_5/Vdd!" 199.768
 cap "xor_5/Vdd!" "xor_5/out" 24.281
 cap "xor_5/a_61_n31#" "xor_5/out" 50.95
-cap "addsub_one_5/a" "xor_5/a_61_n1#" 6.996
-cap "xor_5/Vdd!" "xor_5/a_61_n31#" 2.84217e-14
-cap "xor_5/a_61_n1#" "xor_5/out" 36.385
-cap "xor_5/Vdd!" "xor_5/a_61_n1#" 319.732
-cap "xor_5/a" "xor_5/GND!" 8.416
-cap "xor_5/GND!" "xor_5/b" 617.829
-cap "xor_5/Vdd!" "addsub_one_5/a" 199.768
 cap "addsub_one_5/cin" "addsub_one_5/GND!" -9.264
 subcap "b4" -89.444
-cap "xor_4/a_61_n1#" "xor_4/Vdd!" 83.1132
+cap "xor_4/Vdd!" "addsub_one_5/Vdd!" 44.128
 cap "xor_4/GND!" "xor_4/a" 88.844
-cap "xor_4/GND!" "xor_4/b" 367.335
-cap "addsub_one_5/Vdd!" "xor_4/Vdd!" 44.128
+cap "xor_4/Vdd!" "xor_4/a_61_n1#" 83.1132
+cap "xor_4/GND!" "xor_4/b" 367.336
 subcap "a_127_360#" -74.57
-cap "w_124_n169#" "addsub_one_4/cout" -20.248
-cap "addsub_one_4/s" "addsub_one_4/b" 36.3929
-cap "w_124_n169#" "addsub_one_4/s" -50.855
+cap "addsub_one_4/cout" "addsub_one_4/a_35_n41#" 31.785
+cap "addsub_one_4/b" "addsub_one_4/s" 36.3929
 cap "addsub_one_4/GND!" "addsub_one_4/s" 36.385
-cap "GND!" "addsub_one_4/cout" -1.42109e-14
-cap "addsub_one_4/a_35_n41#" "addsub_one_4/cout" 31.785
-cap "addsub_one_4/a_35_n41#" "addsub_one_4/s" 50.95
+cap "w_124_n169#" "addsub_one_4/s" -50.855
+cap "addsub_one_4/cout" "GND!" -1.42109e-14
+cap "w_124_n169#" "addsub_one_4/cout" -20.248
+cap "addsub_one_4/s" "addsub_one_4/a_35_n41#" 50.95
 subcap "m1_36_437#" -66.273
 subcap "m1_n4_451#" -249.878
 subcap "a4" -93.228
-cap "xor_4/out" "xor_4/a_61_n31#" 50.95
-cap "xor_4/a_61_n1#" "addsub_one_4/Vdd!" -3.486
-cap "xor_4/a_61_n1#" "Vdd!" 240.105
-cap "Vdd!" "addsub_one_4/Vdd!" 263.592
-cap "xor_4/out" "xor_4/a_61_n1#" 36.385
 cap "sub" "xor_4/GND!" 262.037
-cap "addsub_one_4/a" "xor_4/a_61_n1#" 6.996
+cap "xor_4/a_61_n1#" "addsub_one_4/a" 6.996
+cap "Vdd!" "addsub_one_4/a" 106.54
+cap "Vdd!" "xor_4/a_61_n1#" 240.105
+cap "Vdd!" "xor_4/out" 9.482
+cap "xor_4/a_61_n1#" "xor_4/out" 36.385
+cap "xor_4/a_61_n1#" "addsub_one_4/Vdd!" -3.486
+cap "addsub_one_4/Vdd!" "addsub_one_4/a" 93.228
+cap "Vdd!" "addsub_one_4/Vdd!" 263.592
 cap "xor_4/out" "addsub_one_4/Vdd!" 14.799
-cap "xor_4/out" "Vdd!" 9.482
-cap "addsub_one_4/a" "addsub_one_4/Vdd!" 93.228
-cap "addsub_one_4/a" "Vdd!" 106.54
-cap "addsub_one_4/GND!" "addsub_one_4/cin" -9.264
+cap "xor_4/out" "xor_4/a_61_n31#" 50.95
+cap "addsub_one_4/cin" "addsub_one_4/GND!" -9.264
 subcap "m1_36_613#" -66.273
 subcap "m1_n4_627#" -385.442
 subcap "b3" -89.444
 subcap "a3" -158.272
-cap "addsub_one_3/Vdd!" "addsub_one_3/b" 24.281
-cap "xor_3/a_61_n1#" "addsub_one_3/a" 2.332
-cap "xor_3/a" "xor_3/GND!" 88.844
-cap "xor_3/a_61_n1#" "addsub_one_3/b" 36.385
 cap "addsub_one_3/Vdd!" "xor_3/a_61_n1#" 303.586
 cap "xor_3/a_61_n31#" "addsub_one_3/b" 50.95
-cap "xor_3/b" "xor_3/GND!" 615.521
+cap "addsub_one_3/Vdd!" "addsub_one_3/b" 24.281
+cap "xor_3/GND!" "xor_3/a" 88.844
+cap "xor_3/GND!" "xor_3/b" 615.521
 cap "addsub_one_3/Vdd!" "addsub_one_3/a" 48.954
+cap "xor_3/a_61_n1#" "addsub_one_3/b" 36.385
+cap "xor_3/a_61_n1#" "addsub_one_3/a" 2.332
 subcap "a_126_536#" -152.858
+cap "addsub_one_3/b" "addsub_one_3/s" 36.3929
+cap "addsub_one_3/GND!" "addsub_one_3/s" 36.385
+cap "addsub_one_3/a_35_n41#" "addsub_one_3/cout" 31.785
+cap "addsub_one_3/a_35_n41#" "addsub_one_3/s" 50.95
 cap "addsub_one_3/cout" "w_124_n169#" -20.248
-cap "addsub_one_3/s" "addsub_one_3/b" 36.3929
 cap "addsub_one_3/s" "w_124_n169#" -50.855
-cap "addsub_one_3/cout" "addsub_one_3/a_35_n41#" 31.785
-cap "addsub_one_3/s" "addsub_one_3/GND!" 36.385
 cap "GND!" "w_124_n169#" -1.42109e-14
-cap "addsub_one_3/s" "addsub_one_3/a_35_n41#" 50.95
 subcap "m1_n4_627#" -163.932
 subcap "a3" -143.756
-cap "addsub_one_2/Vdd!" "Vdd!" 47.28
-cap "xor_3/a_61_n1#" "addsub_one_3/a" 4.664
+cap "xor_3/a_61_n1#" "Vdd!" 18.4696
+cap "Vdd!" "xor_3/Vdd!" 164.37
+cap "xor_3/a_61_n1#" "xor_3/Vdd!" -2.324
 cap "sub" "xor_3/GND!" 13.8522
-cap "xor_3/Vdd!" "addsub_one_3/a" 85.66
-cap "xor_3/Vdd!" "xor_3/a_61_n1#" -2.324
 cap "Vdd!" "addsub_one_3/a" 105.74
-cap "Vdd!" "xor_3/a_61_n1#" 18.4696
+cap "xor_3/a_61_n1#" "addsub_one_3/a" 4.664
+cap "Vdd!" "addsub_one_2/Vdd!" 47.28
 cap "xor_3/GND!" "xor_3/GND!" 20.074
-cap "xor_3/Vdd!" "Vdd!" 164.37
+cap "xor_3/Vdd!" "addsub_one_3/a" 85.66
 subcap "a_127_712#" -243.286
+cap "addsub_one_2/a_35_n41#" "addsub_one_3/cin" 31.785
 cap "addsub_one_3/cin" "addsub_one_3/GND!" -29.512
-cap "addsub_one_3/cin" "addsub_one_2/a_35_n41#" 31.785
 subcap "m1_36_789#" -66.273
 subcap "m1_n4_803#" -404.354
 subcap "b2" -89.444
 subcap "a2" -93.228
-cap "xor_2/a_61_n31#" "addsub_one_2/b" 50.95
-cap "xor_2/a_61_n1#" "addsub_one_2/a" 6.996
-cap "addsub_one_2/a" "addsub_one_2/Vdd!" 153.128
-cap "xor_2/b" "xor_2/GND!" 629.373
-cap "xor_2/a_61_n1#" "addsub_one_2/b" 36.385
-cap "xor_2/a" "xor_2/GND!" 88.844
-cap "addsub_one_2/b" "addsub_one_2/Vdd!" 24.281
 cap "xor_2/a_61_n1#" "addsub_one_2/Vdd!" 319.732
-cap "addsub_one_2/GND!" "addsub_one_2/s" 36.385
-cap "addsub_one_2/s" "w_124_n169#" -50.855
+cap "xor_2/a_61_n31#" "addsub_one_2/b" 50.95
+cap "addsub_one_2/a" "xor_2/a_61_n1#" 6.996
+cap "xor_2/a_61_n1#" "addsub_one_2/b" 36.385
+cap "xor_2/GND!" "xor_2/b" 629.373
+cap "xor_2/GND!" "xor_2/a" 88.844
+cap "addsub_one_2/a" "addsub_one_2/Vdd!" 153.128
+cap "addsub_one_2/b" "addsub_one_2/Vdd!" 24.281
 cap "addsub_one_2/s" "addsub_one_2/b" 36.3929
 cap "GND!" "w_124_n169#" 1.42109e-14
-cap "addsub_one_2/a_35_n41#" "addsub_one_2/s" 50.95
+cap "addsub_one_2/s" "addsub_one_2/GND!" 36.385
+cap "addsub_one_2/s" "addsub_one_2/a_35_n41#" 50.95
+cap "addsub_one_2/s" "w_124_n169#" -50.855
 subcap "b1" -252.058
-cap "xor_1/a" "xor_1/GND!" 5.464
-cap "addsub_one_2/a" "Vdd!" 46.64
 cap "xor_1/GND!" "xor_1/GND!" 9.982
-cap "addsub_one_1/Vdd!" "Vdd!" 461.976
+cap "Vdd!" "addsub_one_2/Vdd!" 110.466
+cap "Vdd!" "addsub_one_2/a" 46.64
+cap "Vdd!" "addsub_one_1/Vdd!" 461.976
+cap "xor_1/a" "xor_1/GND!" 45.668
 cap "sub" "xor_1/GND!" 2.3087
-cap "addsub_one_2/Vdd!" "Vdd!" 110.466
-cap "xor_1/GND!" "xor_1/a" 45.668
-cap "addsub_one_1/GND!" "addsub_one_1/s" 36.385
-cap "addsub_one_1/s" "addsub_one_1/a_35_n41#" 50.95
+cap "xor_1/a" "xor_1/GND!" 5.464
+cap "addsub_one_1/s" "addsub_one_1/GND!" 36.385
 cap "addsub_one_1/a_35_n41#" "addsub_one_2/cin" 31.785
-cap "addsub_one_2/GND!" "addsub_one_1/s" -50.855
-cap "addsub_one_2/GND!" "addsub_one_2/cin" -29.512
-cap "addsub_one_1/b" "addsub_one_1/s" 36.3929
+cap "addsub_one_1/s" "addsub_one_1/b" 36.3929
+cap "addsub_one_1/s" "addsub_one_2/GND!" -50.855
+cap "addsub_one_2/cin" "addsub_one_2/GND!" -29.512
+cap "addsub_one_1/s" "addsub_one_1/a_35_n41#" 50.95
 subcap "m1_36_965#" -66.273
 subcap "m1_n4_979#" -386.604
 subcap "a1" -88.596
+cap "xor_1/a" "xor_1/GND!" 42.376
 cap "xor_1/Vdd!" "addsub_one_1/a" 199.768
-cap "addsub_one_1/a" "xor_1/a_61_n1#" 6.996
-cap "xor_1/GND!" "xor_1/b" 627.064
+cap "xor_1/a_61_n1#" "addsub_one_1/b" 36.385
+cap "xor_1/a_61_n1#" "xor_1/Vdd!" 319.732
 cap "addsub_one_1/b" "xor_1/Vdd!" 19.54
-cap "xor_1/Vdd!" "xor_1/a_61_n1#" 319.732
-cap "addsub_one_1/b" "xor_1/a_61_n1#" 36.385
-cap "addsub_one_1/b" "xor_1/a_61_n31#" 50.95
-cap "xor_1/GND!" "xor_1/a" 42.376
-cap "addsub_one_1/cin" "addsub_one_1/GND!" -9.264
+cap "xor_1/a_61_n1#" "addsub_one_1/a" 6.996
+cap "xor_1/a_61_n31#" "addsub_one_1/b" 50.95
+cap "xor_1/b" "xor_1/GND!" 627.064
+cap "addsub_one_1/GND!" "addsub_one_1/cin" -9.264
 subcap "b0" -85.66
-cap "xor_0/b" "xor_0/GND!" 274.988
 cap "addsub_one_0/Vdd!" "xor_0/a_61_n1#" 46.174
 cap "xor_0/GND!" "xor_0/a" 85.06
 cap "addsub_one_0/Vdd!" "addsub_one_1/Vdd!" 61.448
+cap "xor_0/GND!" "xor_0/b" 274.988
 subcap "a_127_1064#" -61.522
-cap "w_124_n169#" "addsub_one_0/cout" -20.248
-cap "addsub_one_0/s" "addsub_one_0/GND!" 36.385
-cap "addsub_one_0/s" "w_124_n169#" -50.855
 cap "addsub_one_0/a_35_n41#" "addsub_one_0/cout" 31.785
+cap "addsub_one_0/s" "addsub_one_0/GND!" 36.385
+cap "w_124_n169#" "addsub_one_0/cout" -20.248
 cap "addsub_one_0/b" "addsub_one_0/s" 36.3929
 cap "addsub_one_0/s" "addsub_one_0/a_35_n41#" 50.95
+cap "w_124_n169#" "addsub_one_0/s" -50.855
 subcap "m1_36_1141#" -68.308
 subcap "Vdd!" -5864.02
 subcap "GND!" -4230.38
 subcap "a0" -125.196
-cap "addsub_one_0/b" "xor_0/Vdd!" 14.799
-cap "xor_0/Vdd!" "xor_0/a_61_n31#" 2.84217e-14
-cap "addsub_one_0/b" "xor_0/a_61_n31#" 50.95
 cap "xor_0/GND!" "addsub_one_0/a_11_9#" 30.7827
-cap "addsub_one_0/Vdd!" "addsub_one_0/a" 106.54
-cap "xor_0/a_61_n1#" "addsub_one_0/a" 6.996
-cap "xor_0/a_61_n1#" "addsub_one_0/Vdd!" 277.044
-cap "xor_0/Vdd!" "addsub_one_0/a" 93.228
-cap "addsub_one_0/Vdd!" "xor_0/Vdd!" 236.226
+cap "addsub_one_0/b" "xor_0/Vdd!" 14.799
+cap "xor_0/a_61_n31#" "addsub_one_0/b" 50.95
+cap "xor_0/Vdd!" "xor_0/GND!" 25.564
+cap "addsub_one_0/Vdd!" "addsub_one_0/b" 9.482
 cap "xor_0/a_61_n1#" "xor_0/Vdd!" -3.486
-cap "addsub_one_0/b" "addsub_one_0/Vdd!" 9.482
-cap "xor_0/GND!" "xor_0/Vdd!" 25.564
+cap "addsub_one_0/a" "xor_0/Vdd!" 93.228
+cap "addsub_one_0/Vdd!" "xor_0/a_61_n1#" 277.044
 cap "xor_0/a_61_n1#" "addsub_one_0/b" 36.385
+cap "addsub_one_0/Vdd!" "addsub_one_0/a" 106.54
+cap "xor_0/a_61_n31#" "xor_0/Vdd!" 2.84217e-14
+cap "addsub_one_0/a" "xor_0/a_61_n1#" 6.996
+cap "addsub_one_0/Vdd!" "xor_0/Vdd!" 236.226
 subcap "cin" -141.668
-cap "addsub_one_0/a_11_9#" "addsub_one_0/GND!" 161.609
-cap "addsub_one_0/a_11_n41#" "addsub_one_0/GND!" 115.435
-cap "addsub_one_0/GND!" "addsub_one_0/Vdd!" 17.43
+cap "addsub_one_0/GND!" "addsub_one_0/a_11_9#" 161.609
+cap "addsub_one_0/Vdd!" "addsub_one_0/GND!" 17.43
+cap "addsub_one_0/GND!" "addsub_one_0/a_11_n41#" 115.435
 cap "addsub_one_0/cin" "addsub_one_0/GND!" -9.264
 merge "addsub_one_0/cin" "cin" -1.56319e-13 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "xor_0/GND!" "w_n7_1117#" -1274.85 0 -11 40 0 0 0 0 0 -61179 -3747 0 0 0 0 -1912 -909 0 0 0 0 0 0 0 0 0 0
@@ -429,7 +429,7 @@ merge "addsub_one_3/cin" "a_127_712#"
 merge "xor_7/out" "addsub_one_7/b" -72.622 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 -10 0 0 0 0 0 0 0 0
 merge "addsub_one_7/b" "m1_36_n91#"
 merge "addsub_one_6/cout" "addsub_one_7/cin" 7.95808e-13 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 -10 -14 0 0 0 0 0 0 0 0 0 0
-merge "addsub_one_7/cin" "a_127_8#"
+merge "addsub_one_7/cin" "c7"
 merge "addsub_one_0/s" "s0" 5.15143e-14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
 merge "addsub_one_7/a" "a7" -102.492 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "addsub_one_5/cout" "addsub_one_6/cin" 1.13687e-13 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 -10 -14 0 0 0 0 0 0 0 0 0 0

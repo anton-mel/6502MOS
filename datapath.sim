@@ -1,0 +1,2830 @@
+| units: 9 tech: scmos format: MIT
+n inv2_0/out GND! staticizer_1/staticizer_one_0/a_77_n45# 2 5 -44 1787
+p staticizer_1/staticizer_one_0/a_77_n45# staticizer_1/staticizer_one_0/a_95_n27# data_out0 2 10 -68 1805
+n data_out0 staticizer_1/staticizer_one_0/a_60_n45# GND! 2 5 -35 1787
+n inv2_0/out staticizer_1/staticizer_one_0/a_95_n45# data_out0 2 5 -68 1787
+p staticizer_1/staticizer_one_0/a_60_n45# Vdd! staticizer_1/staticizer_one_0/a_95_n27# 2 10 -62 1805
+p inv2_0/out Vdd! staticizer_1/staticizer_one_0/a_77_n45# 2 10 -44 1805
+p data_out0 staticizer_1/staticizer_one_0/a_60_n45# Vdd! 2 10 -35 1805
+n staticizer_1/staticizer_one_0/a_60_n45# GND! staticizer_1/staticizer_one_0/a_95_n45# 2 5 -62 1787
+n inv2_0/out GND! staticizer_1/staticizer_one_1/a_77_n45# 2 5 -44 1611
+p staticizer_1/staticizer_one_1/a_77_n45# staticizer_1/staticizer_one_1/a_95_n27# data_out1 2 10 -68 1629
+n data_out1 staticizer_1/staticizer_one_1/a_60_n45# GND! 2 5 -35 1611
+n inv2_0/out staticizer_1/staticizer_one_1/a_95_n45# data_out1 2 5 -68 1611
+p staticizer_1/staticizer_one_1/a_60_n45# Vdd! staticizer_1/staticizer_one_1/a_95_n27# 2 10 -62 1629
+p inv2_0/out Vdd! staticizer_1/staticizer_one_1/a_77_n45# 2 10 -44 1629
+p data_out1 staticizer_1/staticizer_one_1/a_60_n45# Vdd! 2 10 -35 1629
+n staticizer_1/staticizer_one_1/a_60_n45# GND! staticizer_1/staticizer_one_1/a_95_n45# 2 5 -62 1611
+n inv2_0/out GND! staticizer_1/staticizer_one_2/a_77_n45# 2 5 -44 1435
+p staticizer_1/staticizer_one_2/a_77_n45# staticizer_1/staticizer_one_2/a_95_n27# data_out2 2 10 -68 1453
+n data_out2 staticizer_1/staticizer_one_2/a_60_n45# GND! 2 5 -35 1435
+n inv2_0/out staticizer_1/staticizer_one_2/a_95_n45# data_out2 2 5 -68 1435
+p staticizer_1/staticizer_one_2/a_60_n45# Vdd! staticizer_1/staticizer_one_2/a_95_n27# 2 10 -62 1453
+p inv2_0/out Vdd! staticizer_1/staticizer_one_2/a_77_n45# 2 10 -44 1453
+p data_out2 staticizer_1/staticizer_one_2/a_60_n45# Vdd! 2 10 -35 1453
+n staticizer_1/staticizer_one_2/a_60_n45# GND! staticizer_1/staticizer_one_2/a_95_n45# 2 5 -62 1435
+n inv2_0/out GND! staticizer_1/staticizer_one_3/a_77_n45# 2 5 -44 1259
+p staticizer_1/staticizer_one_3/a_77_n45# staticizer_1/staticizer_one_3/a_95_n27# data_out3 2 10 -68 1277
+n data_out3 staticizer_1/staticizer_one_3/a_60_n45# GND! 2 5 -35 1259
+n inv2_0/out staticizer_1/staticizer_one_3/a_95_n45# data_out3 2 5 -68 1259
+p staticizer_1/staticizer_one_3/a_60_n45# Vdd! staticizer_1/staticizer_one_3/a_95_n27# 2 10 -62 1277
+p inv2_0/out Vdd! staticizer_1/staticizer_one_3/a_77_n45# 2 10 -44 1277
+p data_out3 staticizer_1/staticizer_one_3/a_60_n45# Vdd! 2 10 -35 1277
+n staticizer_1/staticizer_one_3/a_60_n45# GND! staticizer_1/staticizer_one_3/a_95_n45# 2 5 -62 1259
+n inv2_0/out GND! staticizer_1/staticizer_one_4/a_77_n45# 2 5 -44 1083
+p staticizer_1/staticizer_one_4/a_77_n45# staticizer_1/staticizer_one_4/a_95_n27# data_out4 2 10 -68 1101
+n data_out4 staticizer_1/staticizer_one_4/a_60_n45# GND! 2 5 -35 1083
+n inv2_0/out staticizer_1/staticizer_one_4/a_95_n45# data_out4 2 5 -68 1083
+p staticizer_1/staticizer_one_4/a_60_n45# Vdd! staticizer_1/staticizer_one_4/a_95_n27# 2 10 -62 1101
+p inv2_0/out Vdd! staticizer_1/staticizer_one_4/a_77_n45# 2 10 -44 1101
+p data_out4 staticizer_1/staticizer_one_4/a_60_n45# Vdd! 2 10 -35 1101
+n staticizer_1/staticizer_one_4/a_60_n45# GND! staticizer_1/staticizer_one_4/a_95_n45# 2 5 -62 1083
+n inv2_0/out GND! staticizer_1/staticizer_one_5/a_77_n45# 2 5 -44 907
+p staticizer_1/staticizer_one_5/a_77_n45# staticizer_1/staticizer_one_5/a_95_n27# data_out5 2 10 -68 925
+n data_out5 staticizer_1/staticizer_one_5/a_60_n45# GND! 2 5 -35 907
+n inv2_0/out staticizer_1/staticizer_one_5/a_95_n45# data_out5 2 5 -68 907
+p staticizer_1/staticizer_one_5/a_60_n45# Vdd! staticizer_1/staticizer_one_5/a_95_n27# 2 10 -62 925
+p inv2_0/out Vdd! staticizer_1/staticizer_one_5/a_77_n45# 2 10 -44 925
+p data_out5 staticizer_1/staticizer_one_5/a_60_n45# Vdd! 2 10 -35 925
+n staticizer_1/staticizer_one_5/a_60_n45# GND! staticizer_1/staticizer_one_5/a_95_n45# 2 5 -62 907
+n inv2_0/out GND! staticizer_1/staticizer_one_6/a_77_n45# 2 5 -44 731
+p staticizer_1/staticizer_one_6/a_77_n45# staticizer_1/staticizer_one_6/a_95_n27# data_out6 2 10 -68 749
+n data_out6 staticizer_1/staticizer_one_6/a_60_n45# GND! 2 5 -35 731
+n inv2_0/out staticizer_1/staticizer_one_6/a_95_n45# data_out6 2 5 -68 731
+p staticizer_1/staticizer_one_6/a_60_n45# Vdd! staticizer_1/staticizer_one_6/a_95_n27# 2 10 -62 749
+p inv2_0/out Vdd! staticizer_1/staticizer_one_6/a_77_n45# 2 10 -44 749
+p data_out6 staticizer_1/staticizer_one_6/a_60_n45# Vdd! 2 10 -35 749
+n staticizer_1/staticizer_one_6/a_60_n45# GND! staticizer_1/staticizer_one_6/a_95_n45# 2 5 -62 731
+n inv2_0/out GND! staticizer_1/staticizer_one_7/a_77_n45# 2 5 -44 555
+p staticizer_1/staticizer_one_7/a_77_n45# staticizer_1/staticizer_one_7/a_95_n27# data_out7 2 10 -68 573
+n data_out7 staticizer_1/staticizer_one_7/a_60_n45# GND! 2 5 -35 555
+n inv2_0/out staticizer_1/staticizer_one_7/a_95_n45# data_out7 2 5 -68 555
+p staticizer_1/staticizer_one_7/a_60_n45# Vdd! staticizer_1/staticizer_one_7/a_95_n27# 2 10 -62 573
+p inv2_0/out Vdd! staticizer_1/staticizer_one_7/a_77_n45# 2 10 -44 573
+p data_out7 staticizer_1/staticizer_one_7/a_60_n45# Vdd! 2 10 -35 573
+n staticizer_1/staticizer_one_7/a_60_n45# GND! staticizer_1/staticizer_one_7/a_95_n45# 2 5 -62 555
+p reg_2/reg_one_4/tmp reg_2/reg_one_4/a_39_5# Vdd! 2 10 1187 1272
+p reg_2/reg_one_4/a_4_n13# reg_2/reg_one_4/a_54_5# shift_0/a4 2 10 1202 1272
+n reg_2/reg_one_4/tmp GND! reg_2/reg_one_4/a_33_32# 2 5 1204 1325
+n reg1_r1 fblock_0/b3 reg_2/reg_one_4/a_39_n13# 2 5 1181 1255
+n reg_2/reg_one_4/a_16_27# reg_2/reg_one_4/tmp reg_2/reg_one_4/a_28_58# 2 5 1170 1325
+p reg_2/reg_one_4/tmp Vdd! reg_2/reg_one_4/a_54_5# 2 10 1196 1272
+p reg1_r1 Vdd! reg_2/reg_one_4/a_21_n13# 2 10 1163 1272
+n reg1_r1 GND! reg_2/reg_one_4/a_21_n13# 2 5 1163 1255
+p reg_2/reg_one_4/tmp Vdd! reg_2/reg_one_4/a_33_32# 2 10 1204 1302
+n reg1_r0 reg_2/reg_one_4/a_54_n13# shift_0/a4 2 5 1202 1255
+n reg_3/in3 GND! reg_2/reg_one_4/a_12_58# 2 5 1154 1325
+n reg_2/reg_one_4/a_33_32# reg_2/reg_one_4/a_28_58# GND! 2 5 1177 1325
+p reg1_w reg_2/reg_one_4/tmp reg_2/reg_one_4/a_28_35# 2 10 1170 1302
+n reg1_w reg_2/reg_one_4/a_12_58# reg_2/reg_one_4/tmp 2 5 1160 1325
+n reg1_w reg_2/reg_one_4/a_16_27# GND! 2 5 1195 1325
+p reg1_r0 reg_2/reg_one_4/a_4_n13# Vdd! 2 10 1154 1272
+n reg1_r0 reg_2/reg_one_4/a_4_n13# GND! 2 5 1154 1255
+p reg_3/in3 Vdd! reg_2/reg_one_4/a_12_35# 2 10 1154 1302
+p reg_2/reg_one_4/a_33_32# reg_2/reg_one_4/a_28_35# Vdd! 2 10 1177 1302
+p reg_2/reg_one_4/a_16_27# reg_2/reg_one_4/a_12_35# reg_2/reg_one_4/tmp 2 10 1160 1302
+p reg_2/reg_one_4/a_21_n13# fblock_0/b3 reg_2/reg_one_4/a_39_5# 2 10 1181 1272
+p reg1_w reg_2/reg_one_4/a_16_27# Vdd! 2 10 1195 1302
+n reg_2/reg_one_4/tmp GND! reg_2/reg_one_4/a_54_n13# 2 5 1196 1255
+n reg_2/reg_one_4/tmp reg_2/reg_one_4/a_39_n13# GND! 2 5 1187 1255
+p reg_2/reg_one_5/tmp reg_2/reg_one_5/a_39_5# Vdd! 2 10 1187 1448
+p reg_2/reg_one_5/a_4_n13# reg_2/reg_one_5/a_54_5# shift_0/a2 2 10 1202 1448
+n reg_2/reg_one_5/tmp GND! reg_2/reg_one_5/a_33_32# 2 5 1204 1501
+n reg1_r1 fblock_0/b2 reg_2/reg_one_5/a_39_n13# 2 5 1181 1431
+n reg_2/reg_one_5/a_16_27# reg_2/reg_one_5/tmp reg_2/reg_one_5/a_28_58# 2 5 1170 1501
+p reg_2/reg_one_5/tmp Vdd! reg_2/reg_one_5/a_54_5# 2 10 1196 1448
+p reg1_r1 Vdd! reg_2/reg_one_5/a_21_n13# 2 10 1163 1448
+n reg1_r1 GND! reg_2/reg_one_5/a_21_n13# 2 5 1163 1431
+p reg_2/reg_one_5/tmp Vdd! reg_2/reg_one_5/a_33_32# 2 10 1204 1478
+n reg1_r0 reg_2/reg_one_5/a_54_n13# shift_0/a2 2 5 1202 1431
+n reg_3/in2 GND! reg_2/reg_one_5/a_12_58# 2 5 1154 1501
+n reg_2/reg_one_5/a_33_32# reg_2/reg_one_5/a_28_58# GND! 2 5 1177 1501
+p reg1_w reg_2/reg_one_5/tmp reg_2/reg_one_5/a_28_35# 2 10 1170 1478
+n reg1_w reg_2/reg_one_5/a_12_58# reg_2/reg_one_5/tmp 2 5 1160 1501
+n reg1_w reg_2/reg_one_5/a_16_27# GND! 2 5 1195 1501
+p reg1_r0 reg_2/reg_one_5/a_4_n13# Vdd! 2 10 1154 1448
+n reg1_r0 reg_2/reg_one_5/a_4_n13# GND! 2 5 1154 1431
+p reg_3/in2 Vdd! reg_2/reg_one_5/a_12_35# 2 10 1154 1478
+p reg_2/reg_one_5/a_33_32# reg_2/reg_one_5/a_28_35# Vdd! 2 10 1177 1478
+p reg_2/reg_one_5/a_16_27# reg_2/reg_one_5/a_12_35# reg_2/reg_one_5/tmp 2 10 1160 1478
+p reg_2/reg_one_5/a_21_n13# fblock_0/b2 reg_2/reg_one_5/a_39_5# 2 10 1181 1448
+p reg1_w reg_2/reg_one_5/a_16_27# Vdd! 2 10 1195 1478
+n reg_2/reg_one_5/tmp GND! reg_2/reg_one_5/a_54_n13# 2 5 1196 1431
+n reg_2/reg_one_5/tmp reg_2/reg_one_5/a_39_n13# GND! 2 5 1187 1431
+p reg_2/reg_one_6/tmp reg_2/reg_one_6/a_39_5# Vdd! 2 10 1187 1624
+p reg_2/reg_one_6/a_4_n13# reg_2/reg_one_6/a_54_5# shift_0/a2 2 10 1202 1624
+n reg_2/reg_one_6/tmp GND! reg_2/reg_one_6/a_33_32# 2 5 1204 1677
+n reg1_r1 fblock_0/b1 reg_2/reg_one_6/a_39_n13# 2 5 1181 1607
+n reg_2/reg_one_6/a_16_27# reg_2/reg_one_6/tmp reg_2/reg_one_6/a_28_58# 2 5 1170 1677
+p reg_2/reg_one_6/tmp Vdd! reg_2/reg_one_6/a_54_5# 2 10 1196 1624
+p reg1_r1 Vdd! reg_2/reg_one_6/a_21_n13# 2 10 1163 1624
+n reg1_r1 GND! reg_2/reg_one_6/a_21_n13# 2 5 1163 1607
+p reg_2/reg_one_6/tmp Vdd! reg_2/reg_one_6/a_33_32# 2 10 1204 1654
+n reg1_r0 reg_2/reg_one_6/a_54_n13# shift_0/a2 2 5 1202 1607
+n reg_3/in1 GND! reg_2/reg_one_6/a_12_58# 2 5 1154 1677
+n reg_2/reg_one_6/a_33_32# reg_2/reg_one_6/a_28_58# GND! 2 5 1177 1677
+p reg1_w reg_2/reg_one_6/tmp reg_2/reg_one_6/a_28_35# 2 10 1170 1654
+n reg1_w reg_2/reg_one_6/a_12_58# reg_2/reg_one_6/tmp 2 5 1160 1677
+n reg1_w reg_2/reg_one_6/a_16_27# GND! 2 5 1195 1677
+p reg1_r0 reg_2/reg_one_6/a_4_n13# Vdd! 2 10 1154 1624
+n reg1_r0 reg_2/reg_one_6/a_4_n13# GND! 2 5 1154 1607
+p reg_3/in1 Vdd! reg_2/reg_one_6/a_12_35# 2 10 1154 1654
+p reg_2/reg_one_6/a_33_32# reg_2/reg_one_6/a_28_35# Vdd! 2 10 1177 1654
+p reg_2/reg_one_6/a_16_27# reg_2/reg_one_6/a_12_35# reg_2/reg_one_6/tmp 2 10 1160 1654
+p reg_2/reg_one_6/a_21_n13# fblock_0/b1 reg_2/reg_one_6/a_39_5# 2 10 1181 1624
+p reg1_w reg_2/reg_one_6/a_16_27# Vdd! 2 10 1195 1654
+n reg_2/reg_one_6/tmp GND! reg_2/reg_one_6/a_54_n13# 2 5 1196 1607
+n reg_2/reg_one_6/tmp reg_2/reg_one_6/a_39_n13# GND! 2 5 1187 1607
+p reg_2/reg_one_7/tmp reg_2/reg_one_7/a_39_5# Vdd! 2 10 1187 1800
+p reg_2/reg_one_7/a_4_n13# reg_2/reg_one_7/a_54_5# shift_0/a0 2 10 1202 1800
+n reg_2/reg_one_7/tmp GND! reg_2/reg_one_7/a_33_32# 2 5 1204 1853
+n reg1_r1 fblock_0/b0 reg_2/reg_one_7/a_39_n13# 2 5 1181 1783
+n reg_2/reg_one_7/a_16_27# reg_2/reg_one_7/tmp reg_2/reg_one_7/a_28_58# 2 5 1170 1853
+p reg_2/reg_one_7/tmp Vdd! reg_2/reg_one_7/a_54_5# 2 10 1196 1800
+p reg1_r1 Vdd! reg_2/reg_one_7/a_21_n13# 2 10 1163 1800
+n reg1_r1 GND! reg_2/reg_one_7/a_21_n13# 2 5 1163 1783
+p reg_2/reg_one_7/tmp Vdd! reg_2/reg_one_7/a_33_32# 2 10 1204 1830
+n reg1_r0 reg_2/reg_one_7/a_54_n13# shift_0/a0 2 5 1202 1783
+n reg_3/in0 GND! reg_2/reg_one_7/a_12_58# 2 5 1154 1853
+n reg_2/reg_one_7/a_33_32# reg_2/reg_one_7/a_28_58# GND! 2 5 1177 1853
+p reg1_w reg_2/reg_one_7/tmp reg_2/reg_one_7/a_28_35# 2 10 1170 1830
+n reg1_w reg_2/reg_one_7/a_12_58# reg_2/reg_one_7/tmp 2 5 1160 1853
+n reg1_w reg_2/reg_one_7/a_16_27# GND! 2 5 1195 1853
+p reg1_r0 reg_2/reg_one_7/a_4_n13# Vdd! 2 10 1154 1800
+n reg1_r0 reg_2/reg_one_7/a_4_n13# GND! 2 5 1154 1783
+p reg_3/in0 Vdd! reg_2/reg_one_7/a_12_35# 2 10 1154 1830
+p reg_2/reg_one_7/a_33_32# reg_2/reg_one_7/a_28_35# Vdd! 2 10 1177 1830
+p reg_2/reg_one_7/a_16_27# reg_2/reg_one_7/a_12_35# reg_2/reg_one_7/tmp 2 10 1160 1830
+p reg_2/reg_one_7/a_21_n13# fblock_0/b0 reg_2/reg_one_7/a_39_5# 2 10 1181 1800
+p reg1_w reg_2/reg_one_7/a_16_27# Vdd! 2 10 1195 1830
+n reg_2/reg_one_7/tmp GND! reg_2/reg_one_7/a_54_n13# 2 5 1196 1783
+n reg_2/reg_one_7/tmp reg_2/reg_one_7/a_39_n13# GND! 2 5 1187 1783
+p reg_2/reg_one_0/tmp reg_2/reg_one_0/a_39_5# Vdd! 2 10 1187 568
+p reg_2/reg_one_0/a_4_n13# reg_2/reg_one_0/a_54_5# shift_0/a7 2 10 1202 568
+n reg_2/reg_one_0/tmp GND! reg_2/reg_one_0/a_33_32# 2 5 1204 621
+n reg1_r1 fblock_0/b7 reg_2/reg_one_0/a_39_n13# 2 5 1181 551
+n reg_2/reg_one_0/a_16_27# reg_2/reg_one_0/tmp reg_2/reg_one_0/a_28_58# 2 5 1170 621
+p reg_2/reg_one_0/tmp Vdd! reg_2/reg_one_0/a_54_5# 2 10 1196 568
+p reg1_r1 Vdd! reg_2/reg_one_0/a_21_n13# 2 10 1163 568
+n reg1_r1 GND! reg_2/reg_one_0/a_21_n13# 2 5 1163 551
+p reg_2/reg_one_0/tmp Vdd! reg_2/reg_one_0/a_33_32# 2 10 1204 598
+n reg1_r0 reg_2/reg_one_0/a_54_n13# shift_0/a7 2 5 1202 551
+n reg_3/in7 GND! reg_2/reg_one_0/a_12_58# 2 5 1154 621
+n reg_2/reg_one_0/a_33_32# reg_2/reg_one_0/a_28_58# GND! 2 5 1177 621
+p reg1_w reg_2/reg_one_0/tmp reg_2/reg_one_0/a_28_35# 2 10 1170 598
+n reg1_w reg_2/reg_one_0/a_12_58# reg_2/reg_one_0/tmp 2 5 1160 621
+n reg1_w reg_2/reg_one_0/a_16_27# GND! 2 5 1195 621
+p reg1_r0 reg_2/reg_one_0/a_4_n13# Vdd! 2 10 1154 568
+n reg1_r0 reg_2/reg_one_0/a_4_n13# GND! 2 5 1154 551
+p reg_3/in7 Vdd! reg_2/reg_one_0/a_12_35# 2 10 1154 598
+p reg_2/reg_one_0/a_33_32# reg_2/reg_one_0/a_28_35# Vdd! 2 10 1177 598
+p reg_2/reg_one_0/a_16_27# reg_2/reg_one_0/a_12_35# reg_2/reg_one_0/tmp 2 10 1160 598
+p reg_2/reg_one_0/a_21_n13# fblock_0/b7 reg_2/reg_one_0/a_39_5# 2 10 1181 568
+p reg1_w reg_2/reg_one_0/a_16_27# Vdd! 2 10 1195 598
+n reg_2/reg_one_0/tmp GND! reg_2/reg_one_0/a_54_n13# 2 5 1196 551
+n reg_2/reg_one_0/tmp reg_2/reg_one_0/a_39_n13# GND! 2 5 1187 551
+p reg_2/reg_one_1/tmp reg_2/reg_one_1/a_39_5# Vdd! 2 10 1187 744
+p reg_2/reg_one_1/a_4_n13# reg_2/reg_one_1/a_54_5# shift_0/a6 2 10 1202 744
+n reg_2/reg_one_1/tmp GND! reg_2/reg_one_1/a_33_32# 2 5 1204 797
+n reg1_r1 fblock_0/b6 reg_2/reg_one_1/a_39_n13# 2 5 1181 727
+n reg_2/reg_one_1/a_16_27# reg_2/reg_one_1/tmp reg_2/reg_one_1/a_28_58# 2 5 1170 797
+p reg_2/reg_one_1/tmp Vdd! reg_2/reg_one_1/a_54_5# 2 10 1196 744
+p reg1_r1 Vdd! reg_2/reg_one_1/a_21_n13# 2 10 1163 744
+n reg1_r1 GND! reg_2/reg_one_1/a_21_n13# 2 5 1163 727
+p reg_2/reg_one_1/tmp Vdd! reg_2/reg_one_1/a_33_32# 2 10 1204 774
+n reg1_r0 reg_2/reg_one_1/a_54_n13# shift_0/a6 2 5 1202 727
+n reg_3/in6 GND! reg_2/reg_one_1/a_12_58# 2 5 1154 797
+n reg_2/reg_one_1/a_33_32# reg_2/reg_one_1/a_28_58# GND! 2 5 1177 797
+p reg1_w reg_2/reg_one_1/tmp reg_2/reg_one_1/a_28_35# 2 10 1170 774
+n reg1_w reg_2/reg_one_1/a_12_58# reg_2/reg_one_1/tmp 2 5 1160 797
+n reg1_w reg_2/reg_one_1/a_16_27# GND! 2 5 1195 797
+p reg1_r0 reg_2/reg_one_1/a_4_n13# Vdd! 2 10 1154 744
+n reg1_r0 reg_2/reg_one_1/a_4_n13# GND! 2 5 1154 727
+p reg_3/in6 Vdd! reg_2/reg_one_1/a_12_35# 2 10 1154 774
+p reg_2/reg_one_1/a_33_32# reg_2/reg_one_1/a_28_35# Vdd! 2 10 1177 774
+p reg_2/reg_one_1/a_16_27# reg_2/reg_one_1/a_12_35# reg_2/reg_one_1/tmp 2 10 1160 774
+p reg_2/reg_one_1/a_21_n13# fblock_0/b6 reg_2/reg_one_1/a_39_5# 2 10 1181 744
+p reg1_w reg_2/reg_one_1/a_16_27# Vdd! 2 10 1195 774
+n reg_2/reg_one_1/tmp GND! reg_2/reg_one_1/a_54_n13# 2 5 1196 727
+n reg_2/reg_one_1/tmp reg_2/reg_one_1/a_39_n13# GND! 2 5 1187 727
+p reg_2/reg_one_2/tmp reg_2/reg_one_2/a_39_5# Vdd! 2 10 1187 920
+p reg_2/reg_one_2/a_4_n13# reg_2/reg_one_2/a_54_5# shift_0/a6 2 10 1202 920
+n reg_2/reg_one_2/tmp GND! reg_2/reg_one_2/a_33_32# 2 5 1204 973
+n reg1_r1 fblock_0/b5 reg_2/reg_one_2/a_39_n13# 2 5 1181 903
+n reg_2/reg_one_2/a_16_27# reg_2/reg_one_2/tmp reg_2/reg_one_2/a_28_58# 2 5 1170 973
+p reg_2/reg_one_2/tmp Vdd! reg_2/reg_one_2/a_54_5# 2 10 1196 920
+p reg1_r1 Vdd! reg_2/reg_one_2/a_21_n13# 2 10 1163 920
+n reg1_r1 GND! reg_2/reg_one_2/a_21_n13# 2 5 1163 903
+p reg_2/reg_one_2/tmp Vdd! reg_2/reg_one_2/a_33_32# 2 10 1204 950
+n reg1_r0 reg_2/reg_one_2/a_54_n13# shift_0/a6 2 5 1202 903
+n reg_3/in5 GND! reg_2/reg_one_2/a_12_58# 2 5 1154 973
+n reg_2/reg_one_2/a_33_32# reg_2/reg_one_2/a_28_58# GND! 2 5 1177 973
+p reg1_w reg_2/reg_one_2/tmp reg_2/reg_one_2/a_28_35# 2 10 1170 950
+n reg1_w reg_2/reg_one_2/a_12_58# reg_2/reg_one_2/tmp 2 5 1160 973
+n reg1_w reg_2/reg_one_2/a_16_27# GND! 2 5 1195 973
+p reg1_r0 reg_2/reg_one_2/a_4_n13# Vdd! 2 10 1154 920
+n reg1_r0 reg_2/reg_one_2/a_4_n13# GND! 2 5 1154 903
+p reg_3/in5 Vdd! reg_2/reg_one_2/a_12_35# 2 10 1154 950
+p reg_2/reg_one_2/a_33_32# reg_2/reg_one_2/a_28_35# Vdd! 2 10 1177 950
+p reg_2/reg_one_2/a_16_27# reg_2/reg_one_2/a_12_35# reg_2/reg_one_2/tmp 2 10 1160 950
+p reg_2/reg_one_2/a_21_n13# fblock_0/b5 reg_2/reg_one_2/a_39_5# 2 10 1181 920
+p reg1_w reg_2/reg_one_2/a_16_27# Vdd! 2 10 1195 950
+n reg_2/reg_one_2/tmp GND! reg_2/reg_one_2/a_54_n13# 2 5 1196 903
+n reg_2/reg_one_2/tmp reg_2/reg_one_2/a_39_n13# GND! 2 5 1187 903
+p reg_2/reg_one_3/tmp reg_2/reg_one_3/a_39_5# Vdd! 2 10 1187 1096
+p reg_2/reg_one_3/a_4_n13# reg_2/reg_one_3/a_54_5# shift_0/a4 2 10 1202 1096
+n reg_2/reg_one_3/tmp GND! reg_2/reg_one_3/a_33_32# 2 5 1204 1149
+n reg1_r1 fblock_0/b4 reg_2/reg_one_3/a_39_n13# 2 5 1181 1079
+n reg_2/reg_one_3/a_16_27# reg_2/reg_one_3/tmp reg_2/reg_one_3/a_28_58# 2 5 1170 1149
+p reg_2/reg_one_3/tmp Vdd! reg_2/reg_one_3/a_54_5# 2 10 1196 1096
+p reg1_r1 Vdd! reg_2/reg_one_3/a_21_n13# 2 10 1163 1096
+n reg1_r1 GND! reg_2/reg_one_3/a_21_n13# 2 5 1163 1079
+p reg_2/reg_one_3/tmp Vdd! reg_2/reg_one_3/a_33_32# 2 10 1204 1126
+n reg1_r0 reg_2/reg_one_3/a_54_n13# shift_0/a4 2 5 1202 1079
+n reg_3/in4 GND! reg_2/reg_one_3/a_12_58# 2 5 1154 1149
+n reg_2/reg_one_3/a_33_32# reg_2/reg_one_3/a_28_58# GND! 2 5 1177 1149
+p reg1_w reg_2/reg_one_3/tmp reg_2/reg_one_3/a_28_35# 2 10 1170 1126
+n reg1_w reg_2/reg_one_3/a_12_58# reg_2/reg_one_3/tmp 2 5 1160 1149
+n reg1_w reg_2/reg_one_3/a_16_27# GND! 2 5 1195 1149
+p reg1_r0 reg_2/reg_one_3/a_4_n13# Vdd! 2 10 1154 1096
+n reg1_r0 reg_2/reg_one_3/a_4_n13# GND! 2 5 1154 1079
+p reg_3/in4 Vdd! reg_2/reg_one_3/a_12_35# 2 10 1154 1126
+p reg_2/reg_one_3/a_33_32# reg_2/reg_one_3/a_28_35# Vdd! 2 10 1177 1126
+p reg_2/reg_one_3/a_16_27# reg_2/reg_one_3/a_12_35# reg_2/reg_one_3/tmp 2 10 1160 1126
+p reg_2/reg_one_3/a_21_n13# fblock_0/b4 reg_2/reg_one_3/a_39_5# 2 10 1181 1096
+p reg1_w reg_2/reg_one_3/a_16_27# Vdd! 2 10 1195 1126
+n reg_2/reg_one_3/tmp GND! reg_2/reg_one_3/a_54_n13# 2 5 1196 1079
+n reg_2/reg_one_3/tmp reg_2/reg_one_3/a_39_n13# GND! 2 5 1187 1079
+p reg_3/reg_one_4/tmp reg_3/reg_one_4/a_39_5# Vdd! 2 10 1294 1272
+p reg_3/reg_one_4/a_4_n13# reg_3/reg_one_4/a_54_5# shift_0/a4 2 10 1309 1272
+n reg_3/reg_one_4/tmp GND! reg_3/reg_one_4/a_33_32# 2 5 1311 1325
+n reg_3/r1 fblock_0/b3 reg_3/reg_one_4/a_39_n13# 2 5 1288 1255
+n reg_3/reg_one_4/a_16_27# reg_3/reg_one_4/tmp reg_3/reg_one_4/a_28_58# 2 5 1277 1325
+p reg_3/reg_one_4/tmp Vdd! reg_3/reg_one_4/a_54_5# 2 10 1303 1272
+p reg_3/r1 Vdd! reg_3/reg_one_4/a_21_n13# 2 10 1270 1272
+n reg_3/r1 GND! reg_3/reg_one_4/a_21_n13# 2 5 1270 1255
+p reg_3/reg_one_4/tmp Vdd! reg_3/reg_one_4/a_33_32# 2 10 1311 1302
+n reg_3/r0 reg_3/reg_one_4/a_54_n13# shift_0/a4 2 5 1309 1255
+n reg_3/in3 GND! reg_3/reg_one_4/a_12_58# 2 5 1261 1325
+n reg_3/reg_one_4/a_33_32# reg_3/reg_one_4/a_28_58# GND! 2 5 1284 1325
+p reg_3/w reg_3/reg_one_4/tmp reg_3/reg_one_4/a_28_35# 2 10 1277 1302
+n reg_3/w reg_3/reg_one_4/a_12_58# reg_3/reg_one_4/tmp 2 5 1267 1325
+n reg_3/w reg_3/reg_one_4/a_16_27# GND! 2 5 1302 1325
+p reg_3/r0 reg_3/reg_one_4/a_4_n13# Vdd! 2 10 1261 1272
+n reg_3/r0 reg_3/reg_one_4/a_4_n13# GND! 2 5 1261 1255
+p reg_3/in3 Vdd! reg_3/reg_one_4/a_12_35# 2 10 1261 1302
+p reg_3/reg_one_4/a_33_32# reg_3/reg_one_4/a_28_35# Vdd! 2 10 1284 1302
+p reg_3/reg_one_4/a_16_27# reg_3/reg_one_4/a_12_35# reg_3/reg_one_4/tmp 2 10 1267 1302
+p reg_3/reg_one_4/a_21_n13# fblock_0/b3 reg_3/reg_one_4/a_39_5# 2 10 1288 1272
+p reg_3/w reg_3/reg_one_4/a_16_27# Vdd! 2 10 1302 1302
+n reg_3/reg_one_4/tmp GND! reg_3/reg_one_4/a_54_n13# 2 5 1303 1255
+n reg_3/reg_one_4/tmp reg_3/reg_one_4/a_39_n13# GND! 2 5 1294 1255
+p reg_3/reg_one_5/tmp reg_3/reg_one_5/a_39_5# Vdd! 2 10 1294 1448
+p reg_3/reg_one_5/a_4_n13# reg_3/reg_one_5/a_54_5# shift_0/a2 2 10 1309 1448
+n reg_3/reg_one_5/tmp GND! reg_3/reg_one_5/a_33_32# 2 5 1311 1501
+n reg_3/r1 fblock_0/b2 reg_3/reg_one_5/a_39_n13# 2 5 1288 1431
+n reg_3/reg_one_5/a_16_27# reg_3/reg_one_5/tmp reg_3/reg_one_5/a_28_58# 2 5 1277 1501
+p reg_3/reg_one_5/tmp Vdd! reg_3/reg_one_5/a_54_5# 2 10 1303 1448
+p reg_3/r1 Vdd! reg_3/reg_one_5/a_21_n13# 2 10 1270 1448
+n reg_3/r1 GND! reg_3/reg_one_5/a_21_n13# 2 5 1270 1431
+p reg_3/reg_one_5/tmp Vdd! reg_3/reg_one_5/a_33_32# 2 10 1311 1478
+n reg_3/r0 reg_3/reg_one_5/a_54_n13# shift_0/a2 2 5 1309 1431
+n reg_3/in2 GND! reg_3/reg_one_5/a_12_58# 2 5 1261 1501
+n reg_3/reg_one_5/a_33_32# reg_3/reg_one_5/a_28_58# GND! 2 5 1284 1501
+p reg_3/w reg_3/reg_one_5/tmp reg_3/reg_one_5/a_28_35# 2 10 1277 1478
+n reg_3/w reg_3/reg_one_5/a_12_58# reg_3/reg_one_5/tmp 2 5 1267 1501
+n reg_3/w reg_3/reg_one_5/a_16_27# GND! 2 5 1302 1501
+p reg_3/r0 reg_3/reg_one_5/a_4_n13# Vdd! 2 10 1261 1448
+n reg_3/r0 reg_3/reg_one_5/a_4_n13# GND! 2 5 1261 1431
+p reg_3/in2 Vdd! reg_3/reg_one_5/a_12_35# 2 10 1261 1478
+p reg_3/reg_one_5/a_33_32# reg_3/reg_one_5/a_28_35# Vdd! 2 10 1284 1478
+p reg_3/reg_one_5/a_16_27# reg_3/reg_one_5/a_12_35# reg_3/reg_one_5/tmp 2 10 1267 1478
+p reg_3/reg_one_5/a_21_n13# fblock_0/b2 reg_3/reg_one_5/a_39_5# 2 10 1288 1448
+p reg_3/w reg_3/reg_one_5/a_16_27# Vdd! 2 10 1302 1478
+n reg_3/reg_one_5/tmp GND! reg_3/reg_one_5/a_54_n13# 2 5 1303 1431
+n reg_3/reg_one_5/tmp reg_3/reg_one_5/a_39_n13# GND! 2 5 1294 1431
+p reg_3/reg_one_6/tmp reg_3/reg_one_6/a_39_5# Vdd! 2 10 1294 1624
+p reg_3/reg_one_6/a_4_n13# reg_3/reg_one_6/a_54_5# shift_0/a2 2 10 1309 1624
+n reg_3/reg_one_6/tmp GND! reg_3/reg_one_6/a_33_32# 2 5 1311 1677
+n reg_3/r1 fblock_0/b1 reg_3/reg_one_6/a_39_n13# 2 5 1288 1607
+n reg_3/reg_one_6/a_16_27# reg_3/reg_one_6/tmp reg_3/reg_one_6/a_28_58# 2 5 1277 1677
+p reg_3/reg_one_6/tmp Vdd! reg_3/reg_one_6/a_54_5# 2 10 1303 1624
+p reg_3/r1 Vdd! reg_3/reg_one_6/a_21_n13# 2 10 1270 1624
+n reg_3/r1 GND! reg_3/reg_one_6/a_21_n13# 2 5 1270 1607
+p reg_3/reg_one_6/tmp Vdd! reg_3/reg_one_6/a_33_32# 2 10 1311 1654
+n reg_3/r0 reg_3/reg_one_6/a_54_n13# shift_0/a2 2 5 1309 1607
+n reg_3/in1 GND! reg_3/reg_one_6/a_12_58# 2 5 1261 1677
+n reg_3/reg_one_6/a_33_32# reg_3/reg_one_6/a_28_58# GND! 2 5 1284 1677
+p reg_3/w reg_3/reg_one_6/tmp reg_3/reg_one_6/a_28_35# 2 10 1277 1654
+n reg_3/w reg_3/reg_one_6/a_12_58# reg_3/reg_one_6/tmp 2 5 1267 1677
+n reg_3/w reg_3/reg_one_6/a_16_27# GND! 2 5 1302 1677
+p reg_3/r0 reg_3/reg_one_6/a_4_n13# Vdd! 2 10 1261 1624
+n reg_3/r0 reg_3/reg_one_6/a_4_n13# GND! 2 5 1261 1607
+p reg_3/in1 Vdd! reg_3/reg_one_6/a_12_35# 2 10 1261 1654
+p reg_3/reg_one_6/a_33_32# reg_3/reg_one_6/a_28_35# Vdd! 2 10 1284 1654
+p reg_3/reg_one_6/a_16_27# reg_3/reg_one_6/a_12_35# reg_3/reg_one_6/tmp 2 10 1267 1654
+p reg_3/reg_one_6/a_21_n13# fblock_0/b1 reg_3/reg_one_6/a_39_5# 2 10 1288 1624
+p reg_3/w reg_3/reg_one_6/a_16_27# Vdd! 2 10 1302 1654
+n reg_3/reg_one_6/tmp GND! reg_3/reg_one_6/a_54_n13# 2 5 1303 1607
+n reg_3/reg_one_6/tmp reg_3/reg_one_6/a_39_n13# GND! 2 5 1294 1607
+p reg_3/reg_one_7/tmp reg_3/reg_one_7/a_39_5# Vdd! 2 10 1294 1800
+p reg_3/reg_one_7/a_4_n13# reg_3/reg_one_7/a_54_5# shift_0/a0 2 10 1309 1800
+n reg_3/reg_one_7/tmp GND! reg_3/reg_one_7/a_33_32# 2 5 1311 1853
+n reg_3/r1 fblock_0/b0 reg_3/reg_one_7/a_39_n13# 2 5 1288 1783
+n reg_3/reg_one_7/a_16_27# reg_3/reg_one_7/tmp reg_3/reg_one_7/a_28_58# 2 5 1277 1853
+p reg_3/reg_one_7/tmp Vdd! reg_3/reg_one_7/a_54_5# 2 10 1303 1800
+p reg_3/r1 Vdd! reg_3/reg_one_7/a_21_n13# 2 10 1270 1800
+n reg_3/r1 GND! reg_3/reg_one_7/a_21_n13# 2 5 1270 1783
+p reg_3/reg_one_7/tmp Vdd! reg_3/reg_one_7/a_33_32# 2 10 1311 1830
+n reg_3/r0 reg_3/reg_one_7/a_54_n13# shift_0/a0 2 5 1309 1783
+n reg_3/in0 GND! reg_3/reg_one_7/a_12_58# 2 5 1261 1853
+n reg_3/reg_one_7/a_33_32# reg_3/reg_one_7/a_28_58# GND! 2 5 1284 1853
+p reg_3/w reg_3/reg_one_7/tmp reg_3/reg_one_7/a_28_35# 2 10 1277 1830
+n reg_3/w reg_3/reg_one_7/a_12_58# reg_3/reg_one_7/tmp 2 5 1267 1853
+n reg_3/w reg_3/reg_one_7/a_16_27# GND! 2 5 1302 1853
+p reg_3/r0 reg_3/reg_one_7/a_4_n13# Vdd! 2 10 1261 1800
+n reg_3/r0 reg_3/reg_one_7/a_4_n13# GND! 2 5 1261 1783
+p reg_3/in0 Vdd! reg_3/reg_one_7/a_12_35# 2 10 1261 1830
+p reg_3/reg_one_7/a_33_32# reg_3/reg_one_7/a_28_35# Vdd! 2 10 1284 1830
+p reg_3/reg_one_7/a_16_27# reg_3/reg_one_7/a_12_35# reg_3/reg_one_7/tmp 2 10 1267 1830
+p reg_3/reg_one_7/a_21_n13# fblock_0/b0 reg_3/reg_one_7/a_39_5# 2 10 1288 1800
+p reg_3/w reg_3/reg_one_7/a_16_27# Vdd! 2 10 1302 1830
+n reg_3/reg_one_7/tmp GND! reg_3/reg_one_7/a_54_n13# 2 5 1303 1783
+n reg_3/reg_one_7/tmp reg_3/reg_one_7/a_39_n13# GND! 2 5 1294 1783
+p reg_3/reg_one_0/tmp reg_3/reg_one_0/a_39_5# Vdd! 2 10 1294 568
+p reg_3/reg_one_0/a_4_n13# reg_3/reg_one_0/a_54_5# shift_0/a7 2 10 1309 568
+n reg_3/reg_one_0/tmp GND! reg_3/reg_one_0/a_33_32# 2 5 1311 621
+n reg_3/r1 fblock_0/b7 reg_3/reg_one_0/a_39_n13# 2 5 1288 551
+n reg_3/reg_one_0/a_16_27# reg_3/reg_one_0/tmp reg_3/reg_one_0/a_28_58# 2 5 1277 621
+p reg_3/reg_one_0/tmp Vdd! reg_3/reg_one_0/a_54_5# 2 10 1303 568
+p reg_3/r1 Vdd! reg_3/reg_one_0/a_21_n13# 2 10 1270 568
+n reg_3/r1 GND! reg_3/reg_one_0/a_21_n13# 2 5 1270 551
+p reg_3/reg_one_0/tmp Vdd! reg_3/reg_one_0/a_33_32# 2 10 1311 598
+n reg_3/r0 reg_3/reg_one_0/a_54_n13# shift_0/a7 2 5 1309 551
+n reg_3/in7 GND! reg_3/reg_one_0/a_12_58# 2 5 1261 621
+n reg_3/reg_one_0/a_33_32# reg_3/reg_one_0/a_28_58# GND! 2 5 1284 621
+p reg_3/w reg_3/reg_one_0/tmp reg_3/reg_one_0/a_28_35# 2 10 1277 598
+n reg_3/w reg_3/reg_one_0/a_12_58# reg_3/reg_one_0/tmp 2 5 1267 621
+n reg_3/w reg_3/reg_one_0/a_16_27# GND! 2 5 1302 621
+p reg_3/r0 reg_3/reg_one_0/a_4_n13# Vdd! 2 10 1261 568
+n reg_3/r0 reg_3/reg_one_0/a_4_n13# GND! 2 5 1261 551
+p reg_3/in7 Vdd! reg_3/reg_one_0/a_12_35# 2 10 1261 598
+p reg_3/reg_one_0/a_33_32# reg_3/reg_one_0/a_28_35# Vdd! 2 10 1284 598
+p reg_3/reg_one_0/a_16_27# reg_3/reg_one_0/a_12_35# reg_3/reg_one_0/tmp 2 10 1267 598
+p reg_3/reg_one_0/a_21_n13# fblock_0/b7 reg_3/reg_one_0/a_39_5# 2 10 1288 568
+p reg_3/w reg_3/reg_one_0/a_16_27# Vdd! 2 10 1302 598
+n reg_3/reg_one_0/tmp GND! reg_3/reg_one_0/a_54_n13# 2 5 1303 551
+n reg_3/reg_one_0/tmp reg_3/reg_one_0/a_39_n13# GND! 2 5 1294 551
+p reg_3/reg_one_1/tmp reg_3/reg_one_1/a_39_5# Vdd! 2 10 1294 744
+p reg_3/reg_one_1/a_4_n13# reg_3/reg_one_1/a_54_5# shift_0/a6 2 10 1309 744
+n reg_3/reg_one_1/tmp GND! reg_3/reg_one_1/a_33_32# 2 5 1311 797
+n reg_3/r1 fblock_0/b6 reg_3/reg_one_1/a_39_n13# 2 5 1288 727
+n reg_3/reg_one_1/a_16_27# reg_3/reg_one_1/tmp reg_3/reg_one_1/a_28_58# 2 5 1277 797
+p reg_3/reg_one_1/tmp Vdd! reg_3/reg_one_1/a_54_5# 2 10 1303 744
+p reg_3/r1 Vdd! reg_3/reg_one_1/a_21_n13# 2 10 1270 744
+n reg_3/r1 GND! reg_3/reg_one_1/a_21_n13# 2 5 1270 727
+p reg_3/reg_one_1/tmp Vdd! reg_3/reg_one_1/a_33_32# 2 10 1311 774
+n reg_3/r0 reg_3/reg_one_1/a_54_n13# shift_0/a6 2 5 1309 727
+n reg_3/in6 GND! reg_3/reg_one_1/a_12_58# 2 5 1261 797
+n reg_3/reg_one_1/a_33_32# reg_3/reg_one_1/a_28_58# GND! 2 5 1284 797
+p reg_3/w reg_3/reg_one_1/tmp reg_3/reg_one_1/a_28_35# 2 10 1277 774
+n reg_3/w reg_3/reg_one_1/a_12_58# reg_3/reg_one_1/tmp 2 5 1267 797
+n reg_3/w reg_3/reg_one_1/a_16_27# GND! 2 5 1302 797
+p reg_3/r0 reg_3/reg_one_1/a_4_n13# Vdd! 2 10 1261 744
+n reg_3/r0 reg_3/reg_one_1/a_4_n13# GND! 2 5 1261 727
+p reg_3/in6 Vdd! reg_3/reg_one_1/a_12_35# 2 10 1261 774
+p reg_3/reg_one_1/a_33_32# reg_3/reg_one_1/a_28_35# Vdd! 2 10 1284 774
+p reg_3/reg_one_1/a_16_27# reg_3/reg_one_1/a_12_35# reg_3/reg_one_1/tmp 2 10 1267 774
+p reg_3/reg_one_1/a_21_n13# fblock_0/b6 reg_3/reg_one_1/a_39_5# 2 10 1288 744
+p reg_3/w reg_3/reg_one_1/a_16_27# Vdd! 2 10 1302 774
+n reg_3/reg_one_1/tmp GND! reg_3/reg_one_1/a_54_n13# 2 5 1303 727
+n reg_3/reg_one_1/tmp reg_3/reg_one_1/a_39_n13# GND! 2 5 1294 727
+p reg_3/reg_one_2/tmp reg_3/reg_one_2/a_39_5# Vdd! 2 10 1294 920
+p reg_3/reg_one_2/a_4_n13# reg_3/reg_one_2/a_54_5# shift_0/a6 2 10 1309 920
+n reg_3/reg_one_2/tmp GND! reg_3/reg_one_2/a_33_32# 2 5 1311 973
+n reg_3/r1 fblock_0/b5 reg_3/reg_one_2/a_39_n13# 2 5 1288 903
+n reg_3/reg_one_2/a_16_27# reg_3/reg_one_2/tmp reg_3/reg_one_2/a_28_58# 2 5 1277 973
+p reg_3/reg_one_2/tmp Vdd! reg_3/reg_one_2/a_54_5# 2 10 1303 920
+p reg_3/r1 Vdd! reg_3/reg_one_2/a_21_n13# 2 10 1270 920
+n reg_3/r1 GND! reg_3/reg_one_2/a_21_n13# 2 5 1270 903
+p reg_3/reg_one_2/tmp Vdd! reg_3/reg_one_2/a_33_32# 2 10 1311 950
+n reg_3/r0 reg_3/reg_one_2/a_54_n13# shift_0/a6 2 5 1309 903
+n reg_3/in5 GND! reg_3/reg_one_2/a_12_58# 2 5 1261 973
+n reg_3/reg_one_2/a_33_32# reg_3/reg_one_2/a_28_58# GND! 2 5 1284 973
+p reg_3/w reg_3/reg_one_2/tmp reg_3/reg_one_2/a_28_35# 2 10 1277 950
+n reg_3/w reg_3/reg_one_2/a_12_58# reg_3/reg_one_2/tmp 2 5 1267 973
+n reg_3/w reg_3/reg_one_2/a_16_27# GND! 2 5 1302 973
+p reg_3/r0 reg_3/reg_one_2/a_4_n13# Vdd! 2 10 1261 920
+n reg_3/r0 reg_3/reg_one_2/a_4_n13# GND! 2 5 1261 903
+p reg_3/in5 Vdd! reg_3/reg_one_2/a_12_35# 2 10 1261 950
+p reg_3/reg_one_2/a_33_32# reg_3/reg_one_2/a_28_35# Vdd! 2 10 1284 950
+p reg_3/reg_one_2/a_16_27# reg_3/reg_one_2/a_12_35# reg_3/reg_one_2/tmp 2 10 1267 950
+p reg_3/reg_one_2/a_21_n13# fblock_0/b5 reg_3/reg_one_2/a_39_5# 2 10 1288 920
+p reg_3/w reg_3/reg_one_2/a_16_27# Vdd! 2 10 1302 950
+n reg_3/reg_one_2/tmp GND! reg_3/reg_one_2/a_54_n13# 2 5 1303 903
+n reg_3/reg_one_2/tmp reg_3/reg_one_2/a_39_n13# GND! 2 5 1294 903
+p reg_3/reg_one_3/tmp reg_3/reg_one_3/a_39_5# Vdd! 2 10 1294 1096
+p reg_3/reg_one_3/a_4_n13# reg_3/reg_one_3/a_54_5# shift_0/a4 2 10 1309 1096
+n reg_3/reg_one_3/tmp GND! reg_3/reg_one_3/a_33_32# 2 5 1311 1149
+n reg_3/r1 fblock_0/b4 reg_3/reg_one_3/a_39_n13# 2 5 1288 1079
+n reg_3/reg_one_3/a_16_27# reg_3/reg_one_3/tmp reg_3/reg_one_3/a_28_58# 2 5 1277 1149
+p reg_3/reg_one_3/tmp Vdd! reg_3/reg_one_3/a_54_5# 2 10 1303 1096
+p reg_3/r1 Vdd! reg_3/reg_one_3/a_21_n13# 2 10 1270 1096
+n reg_3/r1 GND! reg_3/reg_one_3/a_21_n13# 2 5 1270 1079
+p reg_3/reg_one_3/tmp Vdd! reg_3/reg_one_3/a_33_32# 2 10 1311 1126
+n reg_3/r0 reg_3/reg_one_3/a_54_n13# shift_0/a4 2 5 1309 1079
+n reg_3/in4 GND! reg_3/reg_one_3/a_12_58# 2 5 1261 1149
+n reg_3/reg_one_3/a_33_32# reg_3/reg_one_3/a_28_58# GND! 2 5 1284 1149
+p reg_3/w reg_3/reg_one_3/tmp reg_3/reg_one_3/a_28_35# 2 10 1277 1126
+n reg_3/w reg_3/reg_one_3/a_12_58# reg_3/reg_one_3/tmp 2 5 1267 1149
+n reg_3/w reg_3/reg_one_3/a_16_27# GND! 2 5 1302 1149
+p reg_3/r0 reg_3/reg_one_3/a_4_n13# Vdd! 2 10 1261 1096
+n reg_3/r0 reg_3/reg_one_3/a_4_n13# GND! 2 5 1261 1079
+p reg_3/in4 Vdd! reg_3/reg_one_3/a_12_35# 2 10 1261 1126
+p reg_3/reg_one_3/a_33_32# reg_3/reg_one_3/a_28_35# Vdd! 2 10 1284 1126
+p reg_3/reg_one_3/a_16_27# reg_3/reg_one_3/a_12_35# reg_3/reg_one_3/tmp 2 10 1267 1126
+p reg_3/reg_one_3/a_21_n13# fblock_0/b4 reg_3/reg_one_3/a_39_5# 2 10 1288 1096
+p reg_3/w reg_3/reg_one_3/a_16_27# Vdd! 2 10 1302 1126
+n reg_3/reg_one_3/tmp GND! reg_3/reg_one_3/a_54_n13# 2 5 1303 1079
+n reg_3/reg_one_3/tmp reg_3/reg_one_3/a_39_n13# GND! 2 5 1294 1079
+p ld Vdd! latch_0/latch_one_0/a_12_n54# 2 10 74 1810
+n ld GND! latch_0/latch_one_0/a_12_n54# 2 5 74 1791
+p latch_0/latch_one_0/a_12_n54# latch_0/latch_one_0/a_30_n35# reg_3/in0 2 10 98 1810
+p data_in0 latch_0/latch_one_0/a_n5_n54# Vdd! 2 10 65 1810
+n data_in0 latch_0/latch_one_0/a_n5_n54# GND! 2 5 65 1791
+n ld latch_0/latch_one_0/a_30_n54# reg_3/in0 2 5 98 1791
+p latch_0/latch_one_0/a_n5_n54# Vdd! latch_0/latch_one_0/a_30_n35# 2 10 92 1810
+n latch_0/latch_one_0/a_n5_n54# GND! latch_0/latch_one_0/a_30_n54# 2 5 92 1791
+p ld Vdd! latch_0/latch_one_1/a_12_n54# 2 10 74 1634
+n ld GND! latch_0/latch_one_1/a_12_n54# 2 5 74 1615
+p latch_0/latch_one_1/a_12_n54# latch_0/latch_one_1/a_30_n35# reg_3/in1 2 10 98 1634
+p data_in1 latch_0/latch_one_1/a_n5_n54# Vdd! 2 10 65 1634
+n data_in1 latch_0/latch_one_1/a_n5_n54# GND! 2 5 65 1615
+n ld latch_0/latch_one_1/a_30_n54# reg_3/in1 2 5 98 1615
+p latch_0/latch_one_1/a_n5_n54# Vdd! latch_0/latch_one_1/a_30_n35# 2 10 92 1634
+n latch_0/latch_one_1/a_n5_n54# GND! latch_0/latch_one_1/a_30_n54# 2 5 92 1615
+p ld Vdd! latch_0/latch_one_2/a_12_n54# 2 10 74 1458
+n ld GND! latch_0/latch_one_2/a_12_n54# 2 5 74 1439
+p latch_0/latch_one_2/a_12_n54# latch_0/latch_one_2/a_30_n35# reg_3/in2 2 10 98 1458
+p data_in2 latch_0/latch_one_2/a_n5_n54# Vdd! 2 10 65 1458
+n data_in2 latch_0/latch_one_2/a_n5_n54# GND! 2 5 65 1439
+n ld latch_0/latch_one_2/a_30_n54# reg_3/in2 2 5 98 1439
+p latch_0/latch_one_2/a_n5_n54# Vdd! latch_0/latch_one_2/a_30_n35# 2 10 92 1458
+n latch_0/latch_one_2/a_n5_n54# GND! latch_0/latch_one_2/a_30_n54# 2 5 92 1439
+p ld Vdd! latch_0/latch_one_3/a_12_n54# 2 10 74 1282
+n ld GND! latch_0/latch_one_3/a_12_n54# 2 5 74 1263
+p latch_0/latch_one_3/a_12_n54# latch_0/latch_one_3/a_30_n35# reg_3/in3 2 10 98 1282
+p data_in3 latch_0/latch_one_3/a_n5_n54# Vdd! 2 10 65 1282
+n data_in3 latch_0/latch_one_3/a_n5_n54# GND! 2 5 65 1263
+n ld latch_0/latch_one_3/a_30_n54# reg_3/in3 2 5 98 1263
+p latch_0/latch_one_3/a_n5_n54# Vdd! latch_0/latch_one_3/a_30_n35# 2 10 92 1282
+n latch_0/latch_one_3/a_n5_n54# GND! latch_0/latch_one_3/a_30_n54# 2 5 92 1263
+p ld Vdd! latch_0/latch_one_4/a_12_n54# 2 10 74 1106
+n ld GND! latch_0/latch_one_4/a_12_n54# 2 5 74 1087
+p latch_0/latch_one_4/a_12_n54# latch_0/latch_one_4/a_30_n35# reg_3/in4 2 10 98 1106
+p data_in4 latch_0/latch_one_4/a_n5_n54# Vdd! 2 10 65 1106
+n data_in4 latch_0/latch_one_4/a_n5_n54# GND! 2 5 65 1087
+n ld latch_0/latch_one_4/a_30_n54# reg_3/in4 2 5 98 1087
+p latch_0/latch_one_4/a_n5_n54# Vdd! latch_0/latch_one_4/a_30_n35# 2 10 92 1106
+n latch_0/latch_one_4/a_n5_n54# GND! latch_0/latch_one_4/a_30_n54# 2 5 92 1087
+p ld Vdd! latch_0/latch_one_5/a_12_n54# 2 10 74 930
+n ld GND! latch_0/latch_one_5/a_12_n54# 2 5 74 911
+p latch_0/latch_one_5/a_12_n54# latch_0/latch_one_5/a_30_n35# reg_3/in5 2 10 98 930
+p data_in5 latch_0/latch_one_5/a_n5_n54# Vdd! 2 10 65 930
+n data_in5 latch_0/latch_one_5/a_n5_n54# GND! 2 5 65 911
+n ld latch_0/latch_one_5/a_30_n54# reg_3/in5 2 5 98 911
+p latch_0/latch_one_5/a_n5_n54# Vdd! latch_0/latch_one_5/a_30_n35# 2 10 92 930
+n latch_0/latch_one_5/a_n5_n54# GND! latch_0/latch_one_5/a_30_n54# 2 5 92 911
+p ld Vdd! latch_0/latch_one_6/a_12_n54# 2 10 74 754
+n ld GND! latch_0/latch_one_6/a_12_n54# 2 5 74 735
+p latch_0/latch_one_6/a_12_n54# latch_0/latch_one_6/a_30_n35# reg_3/in6 2 10 98 754
+p data_in6 latch_0/latch_one_6/a_n5_n54# Vdd! 2 10 65 754
+n data_in6 latch_0/latch_one_6/a_n5_n54# GND! 2 5 65 735
+n ld latch_0/latch_one_6/a_30_n54# reg_3/in6 2 5 98 735
+p latch_0/latch_one_6/a_n5_n54# Vdd! latch_0/latch_one_6/a_30_n35# 2 10 92 754
+n latch_0/latch_one_6/a_n5_n54# GND! latch_0/latch_one_6/a_30_n54# 2 5 92 735
+p ld Vdd! latch_0/latch_one_7/a_12_n54# 2 10 74 578
+n ld GND! latch_0/latch_one_7/a_12_n54# 2 5 74 559
+p latch_0/latch_one_7/a_12_n54# latch_0/latch_one_7/a_30_n35# reg_3/in7 2 10 98 578
+p data_in7 latch_0/latch_one_7/a_n5_n54# Vdd! 2 10 65 578
+n data_in7 latch_0/latch_one_7/a_n5_n54# GND! 2 5 65 559
+n ld latch_0/latch_one_7/a_30_n54# reg_3/in7 2 5 98 559
+p latch_0/latch_one_7/a_n5_n54# Vdd! latch_0/latch_one_7/a_30_n35# 2 10 92 578
+n latch_0/latch_one_7/a_n5_n54# GND! latch_0/latch_one_7/a_30_n54# 2 5 92 559
+p rfb 4nor2_0/a_87_24# 4nor2_0/a_97_24# 2 40 105 1884
+n ros GND! 4nor2_0/out 2 20 71 1874
+p ras Vdd! 4nor2_0/a_87_24# 2 40 105 1894
+n rfb 4nor2_0/out GND! 2 20 71 1884
+p ld 4nor2_0/a_107_24# 4nor2_0/out 2 40 105 1863
+p ros 4nor2_0/a_97_24# 4nor2_0/a_107_24# 2 40 105 1874
+n ld 4nor2_0/out GND! 2 20 71 1863
+n ras GND! 4nor2_0/out 2 20 71 1894
+p rfb Vdd! latch_1/latch_one_0/a_12_n54# 2 10 604 1803
+n rfb GND! latch_1/latch_one_0/a_12_n54# 2 5 604 1784
+p latch_1/latch_one_0/a_12_n54# latch_1/latch_one_0/a_30_n35# reg_3/in0 2 10 628 1803
+p latch_1/in0 latch_1/latch_one_0/a_n5_n54# Vdd! 2 10 595 1803
+n latch_1/in0 latch_1/latch_one_0/a_n5_n54# GND! 2 5 595 1784
+n rfb latch_1/latch_one_0/a_30_n54# reg_3/in0 2 5 628 1784
+p latch_1/latch_one_0/a_n5_n54# Vdd! latch_1/latch_one_0/a_30_n35# 2 10 622 1803
+n latch_1/latch_one_0/a_n5_n54# GND! latch_1/latch_one_0/a_30_n54# 2 5 622 1784
+p rfb Vdd! latch_1/latch_one_1/a_12_n54# 2 10 604 1627
+n rfb GND! latch_1/latch_one_1/a_12_n54# 2 5 604 1608
+p latch_1/latch_one_1/a_12_n54# latch_1/latch_one_1/a_30_n35# reg_3/in1 2 10 628 1627
+p latch_1/in1 latch_1/latch_one_1/a_n5_n54# Vdd! 2 10 595 1627
+n latch_1/in1 latch_1/latch_one_1/a_n5_n54# GND! 2 5 595 1608
+n rfb latch_1/latch_one_1/a_30_n54# reg_3/in1 2 5 628 1608
+p latch_1/latch_one_1/a_n5_n54# Vdd! latch_1/latch_one_1/a_30_n35# 2 10 622 1627
+n latch_1/latch_one_1/a_n5_n54# GND! latch_1/latch_one_1/a_30_n54# 2 5 622 1608
+p rfb Vdd! latch_1/latch_one_2/a_12_n54# 2 10 604 1451
+n rfb GND! latch_1/latch_one_2/a_12_n54# 2 5 604 1432
+p latch_1/latch_one_2/a_12_n54# latch_1/latch_one_2/a_30_n35# reg_3/in2 2 10 628 1451
+p latch_1/in2 latch_1/latch_one_2/a_n5_n54# Vdd! 2 10 595 1451
+n latch_1/in2 latch_1/latch_one_2/a_n5_n54# GND! 2 5 595 1432
+n rfb latch_1/latch_one_2/a_30_n54# reg_3/in2 2 5 628 1432
+p latch_1/latch_one_2/a_n5_n54# Vdd! latch_1/latch_one_2/a_30_n35# 2 10 622 1451
+n latch_1/latch_one_2/a_n5_n54# GND! latch_1/latch_one_2/a_30_n54# 2 5 622 1432
+p rfb Vdd! latch_1/latch_one_3/a_12_n54# 2 10 604 1275
+n rfb GND! latch_1/latch_one_3/a_12_n54# 2 5 604 1256
+p latch_1/latch_one_3/a_12_n54# latch_1/latch_one_3/a_30_n35# reg_3/in3 2 10 628 1275
+p latch_1/in3 latch_1/latch_one_3/a_n5_n54# Vdd! 2 10 595 1275
+n latch_1/in3 latch_1/latch_one_3/a_n5_n54# GND! 2 5 595 1256
+n rfb latch_1/latch_one_3/a_30_n54# reg_3/in3 2 5 628 1256
+p latch_1/latch_one_3/a_n5_n54# Vdd! latch_1/latch_one_3/a_30_n35# 2 10 622 1275
+n latch_1/latch_one_3/a_n5_n54# GND! latch_1/latch_one_3/a_30_n54# 2 5 622 1256
+p rfb Vdd! latch_1/latch_one_4/a_12_n54# 2 10 604 1099
+n rfb GND! latch_1/latch_one_4/a_12_n54# 2 5 604 1080
+p latch_1/latch_one_4/a_12_n54# latch_1/latch_one_4/a_30_n35# reg_3/in4 2 10 628 1099
+p latch_1/in4 latch_1/latch_one_4/a_n5_n54# Vdd! 2 10 595 1099
+n latch_1/in4 latch_1/latch_one_4/a_n5_n54# GND! 2 5 595 1080
+n rfb latch_1/latch_one_4/a_30_n54# reg_3/in4 2 5 628 1080
+p latch_1/latch_one_4/a_n5_n54# Vdd! latch_1/latch_one_4/a_30_n35# 2 10 622 1099
+n latch_1/latch_one_4/a_n5_n54# GND! latch_1/latch_one_4/a_30_n54# 2 5 622 1080
+p rfb Vdd! latch_1/latch_one_5/a_12_n54# 2 10 604 923
+n rfb GND! latch_1/latch_one_5/a_12_n54# 2 5 604 904
+p latch_1/latch_one_5/a_12_n54# latch_1/latch_one_5/a_30_n35# reg_3/in5 2 10 628 923
+p latch_1/in5 latch_1/latch_one_5/a_n5_n54# Vdd! 2 10 595 923
+n latch_1/in5 latch_1/latch_one_5/a_n5_n54# GND! 2 5 595 904
+n rfb latch_1/latch_one_5/a_30_n54# reg_3/in5 2 5 628 904
+p latch_1/latch_one_5/a_n5_n54# Vdd! latch_1/latch_one_5/a_30_n35# 2 10 622 923
+n latch_1/latch_one_5/a_n5_n54# GND! latch_1/latch_one_5/a_30_n54# 2 5 622 904
+p rfb Vdd! latch_1/latch_one_6/a_12_n54# 2 10 604 747
+n rfb GND! latch_1/latch_one_6/a_12_n54# 2 5 604 728
+p latch_1/latch_one_6/a_12_n54# latch_1/latch_one_6/a_30_n35# reg_3/in6 2 10 628 747
+p latch_1/in6 latch_1/latch_one_6/a_n5_n54# Vdd! 2 10 595 747
+n latch_1/in6 latch_1/latch_one_6/a_n5_n54# GND! 2 5 595 728
+n rfb latch_1/latch_one_6/a_30_n54# reg_3/in6 2 5 628 728
+p latch_1/latch_one_6/a_n5_n54# Vdd! latch_1/latch_one_6/a_30_n35# 2 10 622 747
+n latch_1/latch_one_6/a_n5_n54# GND! latch_1/latch_one_6/a_30_n54# 2 5 622 728
+p rfb Vdd! latch_1/latch_one_7/a_12_n54# 2 10 604 571
+n rfb GND! latch_1/latch_one_7/a_12_n54# 2 5 604 552
+p latch_1/latch_one_7/a_12_n54# latch_1/latch_one_7/a_30_n35# reg_3/in7 2 10 628 571
+p latch_1/in7 latch_1/latch_one_7/a_n5_n54# Vdd! 2 10 595 571
+n latch_1/in7 latch_1/latch_one_7/a_n5_n54# GND! 2 5 595 552
+n rfb latch_1/latch_one_7/a_30_n54# reg_3/in7 2 5 628 552
+p latch_1/latch_one_7/a_n5_n54# Vdd! latch_1/latch_one_7/a_30_n35# 2 10 622 571
+n latch_1/latch_one_7/a_n5_n54# GND! latch_1/latch_one_7/a_30_n54# 2 5 622 552
+p rd Vdd! inv2_0/out 2 10 -27 1870
+n rd GND! inv2_0/out 2 5 -27 1852
+p ras Vdd! latch_2/latch_one_0/a_12_n54# 2 10 865 1806
+n ras GND! latch_2/latch_one_0/a_12_n54# 2 5 865 1787
+p latch_2/latch_one_0/a_12_n54# latch_2/latch_one_0/a_30_n35# reg_3/in0 2 10 889 1806
+p latch_2/in0 latch_2/latch_one_0/a_n5_n54# Vdd! 2 10 856 1806
+n latch_2/in0 latch_2/latch_one_0/a_n5_n54# GND! 2 5 856 1787
+n ras latch_2/latch_one_0/a_30_n54# reg_3/in0 2 5 889 1787
+p latch_2/latch_one_0/a_n5_n54# Vdd! latch_2/latch_one_0/a_30_n35# 2 10 883 1806
+n latch_2/latch_one_0/a_n5_n54# GND! latch_2/latch_one_0/a_30_n54# 2 5 883 1787
+p ras Vdd! latch_2/latch_one_1/a_12_n54# 2 10 865 1630
+n ras GND! latch_2/latch_one_1/a_12_n54# 2 5 865 1611
+p latch_2/latch_one_1/a_12_n54# latch_2/latch_one_1/a_30_n35# reg_3/in1 2 10 889 1630
+p latch_2/in1 latch_2/latch_one_1/a_n5_n54# Vdd! 2 10 856 1630
+n latch_2/in1 latch_2/latch_one_1/a_n5_n54# GND! 2 5 856 1611
+n ras latch_2/latch_one_1/a_30_n54# reg_3/in1 2 5 889 1611
+p latch_2/latch_one_1/a_n5_n54# Vdd! latch_2/latch_one_1/a_30_n35# 2 10 883 1630
+n latch_2/latch_one_1/a_n5_n54# GND! latch_2/latch_one_1/a_30_n54# 2 5 883 1611
+p ras Vdd! latch_2/latch_one_2/a_12_n54# 2 10 865 1454
+n ras GND! latch_2/latch_one_2/a_12_n54# 2 5 865 1435
+p latch_2/latch_one_2/a_12_n54# latch_2/latch_one_2/a_30_n35# reg_3/in2 2 10 889 1454
+p latch_2/in2 latch_2/latch_one_2/a_n5_n54# Vdd! 2 10 856 1454
+n latch_2/in2 latch_2/latch_one_2/a_n5_n54# GND! 2 5 856 1435
+n ras latch_2/latch_one_2/a_30_n54# reg_3/in2 2 5 889 1435
+p latch_2/latch_one_2/a_n5_n54# Vdd! latch_2/latch_one_2/a_30_n35# 2 10 883 1454
+n latch_2/latch_one_2/a_n5_n54# GND! latch_2/latch_one_2/a_30_n54# 2 5 883 1435
+p ras Vdd! latch_2/latch_one_3/a_12_n54# 2 10 865 1278
+n ras GND! latch_2/latch_one_3/a_12_n54# 2 5 865 1259
+p latch_2/latch_one_3/a_12_n54# latch_2/latch_one_3/a_30_n35# reg_3/in3 2 10 889 1278
+p latch_2/in3 latch_2/latch_one_3/a_n5_n54# Vdd! 2 10 856 1278
+n latch_2/in3 latch_2/latch_one_3/a_n5_n54# GND! 2 5 856 1259
+n ras latch_2/latch_one_3/a_30_n54# reg_3/in3 2 5 889 1259
+p latch_2/latch_one_3/a_n5_n54# Vdd! latch_2/latch_one_3/a_30_n35# 2 10 883 1278
+n latch_2/latch_one_3/a_n5_n54# GND! latch_2/latch_one_3/a_30_n54# 2 5 883 1259
+p ras Vdd! latch_2/latch_one_4/a_12_n54# 2 10 865 1102
+n ras GND! latch_2/latch_one_4/a_12_n54# 2 5 865 1083
+p latch_2/latch_one_4/a_12_n54# latch_2/latch_one_4/a_30_n35# reg_3/in4 2 10 889 1102
+p latch_2/in4 latch_2/latch_one_4/a_n5_n54# Vdd! 2 10 856 1102
+n latch_2/in4 latch_2/latch_one_4/a_n5_n54# GND! 2 5 856 1083
+n ras latch_2/latch_one_4/a_30_n54# reg_3/in4 2 5 889 1083
+p latch_2/latch_one_4/a_n5_n54# Vdd! latch_2/latch_one_4/a_30_n35# 2 10 883 1102
+n latch_2/latch_one_4/a_n5_n54# GND! latch_2/latch_one_4/a_30_n54# 2 5 883 1083
+p ras Vdd! latch_2/latch_one_5/a_12_n54# 2 10 865 926
+n ras GND! latch_2/latch_one_5/a_12_n54# 2 5 865 907
+p latch_2/latch_one_5/a_12_n54# latch_2/latch_one_5/a_30_n35# reg_3/in5 2 10 889 926
+p latch_2/in5 latch_2/latch_one_5/a_n5_n54# Vdd! 2 10 856 926
+n latch_2/in5 latch_2/latch_one_5/a_n5_n54# GND! 2 5 856 907
+n ras latch_2/latch_one_5/a_30_n54# reg_3/in5 2 5 889 907
+p latch_2/latch_one_5/a_n5_n54# Vdd! latch_2/latch_one_5/a_30_n35# 2 10 883 926
+n latch_2/latch_one_5/a_n5_n54# GND! latch_2/latch_one_5/a_30_n54# 2 5 883 907
+p ras Vdd! latch_2/latch_one_6/a_12_n54# 2 10 865 750
+n ras GND! latch_2/latch_one_6/a_12_n54# 2 5 865 731
+p latch_2/latch_one_6/a_12_n54# latch_2/latch_one_6/a_30_n35# reg_3/in6 2 10 889 750
+p latch_2/in6 latch_2/latch_one_6/a_n5_n54# Vdd! 2 10 856 750
+n latch_2/in6 latch_2/latch_one_6/a_n5_n54# GND! 2 5 856 731
+n ras latch_2/latch_one_6/a_30_n54# reg_3/in6 2 5 889 731
+p latch_2/latch_one_6/a_n5_n54# Vdd! latch_2/latch_one_6/a_30_n35# 2 10 883 750
+n latch_2/latch_one_6/a_n5_n54# GND! latch_2/latch_one_6/a_30_n54# 2 5 883 731
+p ras Vdd! latch_2/latch_one_7/a_12_n54# 2 10 865 574
+n ras GND! latch_2/latch_one_7/a_12_n54# 2 5 865 555
+p latch_2/latch_one_7/a_12_n54# latch_2/latch_one_7/a_30_n35# reg_3/in7 2 10 889 574
+p latch_2/in7 latch_2/latch_one_7/a_n5_n54# Vdd! 2 10 856 574
+n latch_2/in7 latch_2/latch_one_7/a_n5_n54# GND! 2 5 856 555
+n ras latch_2/latch_one_7/a_30_n54# reg_3/in7 2 5 889 555
+p latch_2/latch_one_7/a_n5_n54# Vdd! latch_2/latch_one_7/a_30_n35# 2 10 883 574
+n latch_2/latch_one_7/a_n5_n54# GND! latch_2/latch_one_7/a_30_n54# 2 5 883 555
+p fblock_0/b0 fblock_0/fblock_one_0/inv_2/out fblock_0/fblock_one_0/2mux_nr_2/in1 2 7 504 1872
+p fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_0/2mux_nr_2/in1 fblock_0/fblock_one_0/inv_1/out 2 7 491 1872
+p fblock_0/b0 fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 1871
+n fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_0/inv_2/out fblock_0/fblock_one_0/2mux_nr_2/in1 2 7 504 1851
+n fblock_0/b0 fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 470 1851
+n fblock_0/b0 fblock_0/fblock_one_0/2mux_nr_2/in1 fblock_0/fblock_one_0/inv_1/out 2 7 491 1851
+p fblock_0/b0 fblock_0/fblock_one_0/inv_4/out fblock_0/fblock_one_0/2mux_nr_2/in0 2 7 569 1872
+p fblock_0/fblock_one_0/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_0/2mux_nr_2/in0 fblock_0/fblock_one_0/inv_3/out 2 7 556 1872
+p fblock_0/b0 fblock_0/fblock_one_0/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 1871
+n fblock_0/fblock_one_0/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_0/inv_4/out fblock_0/fblock_one_0/2mux_nr_2/in0 2 7 569 1851
+n fblock_0/b0 fblock_0/fblock_one_0/2mux_nr_1/a_n17_n11# GND! 2 7 535 1851
+n fblock_0/b0 fblock_0/fblock_one_0/2mux_nr_2/in0 fblock_0/fblock_one_0/inv_3/out 2 7 556 1851
+p shift_0/a0 fblock_0/fblock_one_0/2mux_nr_2/in0 fblock_0/fblock_one_0/inv_0/in 2 7 504 1811
+p fblock_0/fblock_one_0/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_0/inv_0/in fblock_0/fblock_one_0/2mux_nr_2/in1 2 7 491 1811
+p shift_0/a0 fblock_0/fblock_one_0/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 1810
+n fblock_0/fblock_one_0/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_0/2mux_nr_2/in0 fblock_0/fblock_one_0/inv_0/in 2 7 504 1790
+n shift_0/a0 fblock_0/fblock_one_0/2mux_nr_2/a_n17_n11# GND! 2 7 470 1790
+n shift_0/a0 fblock_0/fblock_one_0/inv_0/in fblock_0/fblock_one_0/2mux_nr_2/in1 2 7 491 1790
+n fblock_0/fblock_one_0/inv_0/in GND! latch_1/in0 2 7 537 1784
+p fblock_0/fblock_one_0/inv_0/in Vdd! latch_1/in0 2 7 537 1804
+n fb_g3 GND! fblock_0/fblock_one_0/inv_1/out 2 7 469 1906
+p fb_g3 Vdd! fblock_0/fblock_one_0/inv_1/out 2 7 469 1926
+n fb_g2 GND! fblock_0/fblock_one_0/inv_2/out 2 7 502 1906
+p fb_g2 Vdd! fblock_0/fblock_one_0/inv_2/out 2 7 502 1926
+n fb_g1 GND! fblock_0/fblock_one_0/inv_3/out 2 7 536 1906
+p fb_g1 Vdd! fblock_0/fblock_one_0/inv_3/out 2 7 536 1926
+n fb_g0 GND! fblock_0/fblock_one_0/inv_4/out 2 7 569 1906
+p fb_g0 Vdd! fblock_0/fblock_one_0/inv_4/out 2 7 569 1926
+p fblock_0/b1 fblock_0/fblock_one_1/inv_2/out fblock_0/fblock_one_1/2mux_nr_2/in1 2 7 504 1696
+p fblock_0/fblock_one_1/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_1/2mux_nr_2/in1 fblock_0/fblock_one_1/inv_1/out 2 7 491 1696
+p fblock_0/b1 fblock_0/fblock_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 1695
+n fblock_0/fblock_one_1/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_1/inv_2/out fblock_0/fblock_one_1/2mux_nr_2/in1 2 7 504 1675
+n fblock_0/b1 fblock_0/fblock_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 470 1675
+n fblock_0/b1 fblock_0/fblock_one_1/2mux_nr_2/in1 fblock_0/fblock_one_1/inv_1/out 2 7 491 1675
+p fblock_0/b1 fblock_0/fblock_one_1/inv_4/out fblock_0/fblock_one_1/2mux_nr_2/in0 2 7 569 1696
+p fblock_0/fblock_one_1/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_1/2mux_nr_2/in0 fblock_0/fblock_one_1/inv_3/out 2 7 556 1696
+p fblock_0/b1 fblock_0/fblock_one_1/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 1695
+n fblock_0/fblock_one_1/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_1/inv_4/out fblock_0/fblock_one_1/2mux_nr_2/in0 2 7 569 1675
+n fblock_0/b1 fblock_0/fblock_one_1/2mux_nr_1/a_n17_n11# GND! 2 7 535 1675
+n fblock_0/b1 fblock_0/fblock_one_1/2mux_nr_2/in0 fblock_0/fblock_one_1/inv_3/out 2 7 556 1675
+p shift_0/a2 fblock_0/fblock_one_1/2mux_nr_2/in0 fblock_0/fblock_one_1/inv_0/in 2 7 504 1635
+p fblock_0/fblock_one_1/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_1/inv_0/in fblock_0/fblock_one_1/2mux_nr_2/in1 2 7 491 1635
+p shift_0/a2 fblock_0/fblock_one_1/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 1634
+n fblock_0/fblock_one_1/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_1/2mux_nr_2/in0 fblock_0/fblock_one_1/inv_0/in 2 7 504 1614
+n shift_0/a2 fblock_0/fblock_one_1/2mux_nr_2/a_n17_n11# GND! 2 7 470 1614
+n shift_0/a2 fblock_0/fblock_one_1/inv_0/in fblock_0/fblock_one_1/2mux_nr_2/in1 2 7 491 1614
+n fblock_0/fblock_one_1/inv_0/in GND! latch_1/in1 2 7 537 1608
+p fblock_0/fblock_one_1/inv_0/in Vdd! latch_1/in1 2 7 537 1628
+n fb_g3 GND! fblock_0/fblock_one_1/inv_1/out 2 7 469 1730
+p fb_g3 Vdd! fblock_0/fblock_one_1/inv_1/out 2 7 469 1750
+n fb_g2 GND! fblock_0/fblock_one_1/inv_2/out 2 7 502 1730
+p fb_g2 Vdd! fblock_0/fblock_one_1/inv_2/out 2 7 502 1750
+n fb_g1 GND! fblock_0/fblock_one_1/inv_3/out 2 7 536 1730
+p fb_g1 Vdd! fblock_0/fblock_one_1/inv_3/out 2 7 536 1750
+n fb_g0 GND! fblock_0/fblock_one_1/inv_4/out 2 7 569 1730
+p fb_g0 Vdd! fblock_0/fblock_one_1/inv_4/out 2 7 569 1750
+p fblock_0/b2 fblock_0/fblock_one_2/inv_2/out fblock_0/fblock_one_2/2mux_nr_2/in1 2 7 504 1520
+p fblock_0/fblock_one_2/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_2/2mux_nr_2/in1 fblock_0/fblock_one_2/inv_1/out 2 7 491 1520
+p fblock_0/b2 fblock_0/fblock_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 1519
+n fblock_0/fblock_one_2/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_2/inv_2/out fblock_0/fblock_one_2/2mux_nr_2/in1 2 7 504 1499
+n fblock_0/b2 fblock_0/fblock_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 470 1499
+n fblock_0/b2 fblock_0/fblock_one_2/2mux_nr_2/in1 fblock_0/fblock_one_2/inv_1/out 2 7 491 1499
+p fblock_0/b2 fblock_0/fblock_one_2/inv_4/out fblock_0/fblock_one_2/2mux_nr_2/in0 2 7 569 1520
+p fblock_0/fblock_one_2/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_2/2mux_nr_2/in0 fblock_0/fblock_one_2/inv_3/out 2 7 556 1520
+p fblock_0/b2 fblock_0/fblock_one_2/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 1519
+n fblock_0/fblock_one_2/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_2/inv_4/out fblock_0/fblock_one_2/2mux_nr_2/in0 2 7 569 1499
+n fblock_0/b2 fblock_0/fblock_one_2/2mux_nr_1/a_n17_n11# GND! 2 7 535 1499
+n fblock_0/b2 fblock_0/fblock_one_2/2mux_nr_2/in0 fblock_0/fblock_one_2/inv_3/out 2 7 556 1499
+p shift_0/a2 fblock_0/fblock_one_2/2mux_nr_2/in0 fblock_0/fblock_one_2/inv_0/in 2 7 504 1459
+p fblock_0/fblock_one_2/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_2/inv_0/in fblock_0/fblock_one_2/2mux_nr_2/in1 2 7 491 1459
+p shift_0/a2 fblock_0/fblock_one_2/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 1458
+n fblock_0/fblock_one_2/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_2/2mux_nr_2/in0 fblock_0/fblock_one_2/inv_0/in 2 7 504 1438
+n shift_0/a2 fblock_0/fblock_one_2/2mux_nr_2/a_n17_n11# GND! 2 7 470 1438
+n shift_0/a2 fblock_0/fblock_one_2/inv_0/in fblock_0/fblock_one_2/2mux_nr_2/in1 2 7 491 1438
+n fblock_0/fblock_one_2/inv_0/in GND! latch_1/in2 2 7 537 1432
+p fblock_0/fblock_one_2/inv_0/in Vdd! latch_1/in2 2 7 537 1452
+n fb_g3 GND! fblock_0/fblock_one_2/inv_1/out 2 7 469 1554
+p fb_g3 Vdd! fblock_0/fblock_one_2/inv_1/out 2 7 469 1574
+n fb_g2 GND! fblock_0/fblock_one_2/inv_2/out 2 7 502 1554
+p fb_g2 Vdd! fblock_0/fblock_one_2/inv_2/out 2 7 502 1574
+n fb_g1 GND! fblock_0/fblock_one_2/inv_3/out 2 7 536 1554
+p fb_g1 Vdd! fblock_0/fblock_one_2/inv_3/out 2 7 536 1574
+n fb_g0 GND! fblock_0/fblock_one_2/inv_4/out 2 7 569 1554
+p fb_g0 Vdd! fblock_0/fblock_one_2/inv_4/out 2 7 569 1574
+p fblock_0/b4 fblock_0/fblock_one_4/inv_2/out fblock_0/fblock_one_4/2mux_nr_2/in1 2 7 504 1168
+p fblock_0/fblock_one_4/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_4/2mux_nr_2/in1 fblock_0/fblock_one_4/inv_1/out 2 7 491 1168
+p fblock_0/b4 fblock_0/fblock_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 1167
+n fblock_0/fblock_one_4/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_4/inv_2/out fblock_0/fblock_one_4/2mux_nr_2/in1 2 7 504 1147
+n fblock_0/b4 fblock_0/fblock_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 470 1147
+n fblock_0/b4 fblock_0/fblock_one_4/2mux_nr_2/in1 fblock_0/fblock_one_4/inv_1/out 2 7 491 1147
+p fblock_0/b4 fblock_0/fblock_one_4/inv_4/out fblock_0/fblock_one_4/2mux_nr_2/in0 2 7 569 1168
+p fblock_0/fblock_one_4/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_4/2mux_nr_2/in0 fblock_0/fblock_one_4/inv_3/out 2 7 556 1168
+p fblock_0/b4 fblock_0/fblock_one_4/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 1167
+n fblock_0/fblock_one_4/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_4/inv_4/out fblock_0/fblock_one_4/2mux_nr_2/in0 2 7 569 1147
+n fblock_0/b4 fblock_0/fblock_one_4/2mux_nr_1/a_n17_n11# GND! 2 7 535 1147
+n fblock_0/b4 fblock_0/fblock_one_4/2mux_nr_2/in0 fblock_0/fblock_one_4/inv_3/out 2 7 556 1147
+p shift_0/a4 fblock_0/fblock_one_4/2mux_nr_2/in0 fblock_0/fblock_one_4/inv_0/in 2 7 504 1107
+p fblock_0/fblock_one_4/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_4/inv_0/in fblock_0/fblock_one_4/2mux_nr_2/in1 2 7 491 1107
+p shift_0/a4 fblock_0/fblock_one_4/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 1106
+n fblock_0/fblock_one_4/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_4/2mux_nr_2/in0 fblock_0/fblock_one_4/inv_0/in 2 7 504 1086
+n shift_0/a4 fblock_0/fblock_one_4/2mux_nr_2/a_n17_n11# GND! 2 7 470 1086
+n shift_0/a4 fblock_0/fblock_one_4/inv_0/in fblock_0/fblock_one_4/2mux_nr_2/in1 2 7 491 1086
+n fblock_0/fblock_one_4/inv_0/in GND! latch_1/in4 2 7 537 1080
+p fblock_0/fblock_one_4/inv_0/in Vdd! latch_1/in4 2 7 537 1100
+n fb_g3 GND! fblock_0/fblock_one_4/inv_1/out 2 7 469 1202
+p fb_g3 Vdd! fblock_0/fblock_one_4/inv_1/out 2 7 469 1222
+n fb_g2 GND! fblock_0/fblock_one_4/inv_2/out 2 7 502 1202
+p fb_g2 Vdd! fblock_0/fblock_one_4/inv_2/out 2 7 502 1222
+n fb_g1 GND! fblock_0/fblock_one_4/inv_3/out 2 7 536 1202
+p fb_g1 Vdd! fblock_0/fblock_one_4/inv_3/out 2 7 536 1222
+n fb_g0 GND! fblock_0/fblock_one_4/inv_4/out 2 7 569 1202
+p fb_g0 Vdd! fblock_0/fblock_one_4/inv_4/out 2 7 569 1222
+p fblock_0/b3 fblock_0/fblock_one_3/inv_2/out fblock_0/fblock_one_3/2mux_nr_2/in1 2 7 504 1344
+p fblock_0/fblock_one_3/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_3/2mux_nr_2/in1 fblock_0/fblock_one_3/inv_1/out 2 7 491 1344
+p fblock_0/b3 fblock_0/fblock_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 1343
+n fblock_0/fblock_one_3/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_3/inv_2/out fblock_0/fblock_one_3/2mux_nr_2/in1 2 7 504 1323
+n fblock_0/b3 fblock_0/fblock_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 470 1323
+n fblock_0/b3 fblock_0/fblock_one_3/2mux_nr_2/in1 fblock_0/fblock_one_3/inv_1/out 2 7 491 1323
+p fblock_0/b3 fblock_0/fblock_one_3/inv_4/out fblock_0/fblock_one_3/2mux_nr_2/in0 2 7 569 1344
+p fblock_0/fblock_one_3/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_3/2mux_nr_2/in0 fblock_0/fblock_one_3/inv_3/out 2 7 556 1344
+p fblock_0/b3 fblock_0/fblock_one_3/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 1343
+n fblock_0/fblock_one_3/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_3/inv_4/out fblock_0/fblock_one_3/2mux_nr_2/in0 2 7 569 1323
+n fblock_0/b3 fblock_0/fblock_one_3/2mux_nr_1/a_n17_n11# GND! 2 7 535 1323
+n fblock_0/b3 fblock_0/fblock_one_3/2mux_nr_2/in0 fblock_0/fblock_one_3/inv_3/out 2 7 556 1323
+p shift_0/a4 fblock_0/fblock_one_3/2mux_nr_2/in0 fblock_0/fblock_one_3/inv_0/in 2 7 504 1283
+p fblock_0/fblock_one_3/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_3/inv_0/in fblock_0/fblock_one_3/2mux_nr_2/in1 2 7 491 1283
+p shift_0/a4 fblock_0/fblock_one_3/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 1282
+n fblock_0/fblock_one_3/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_3/2mux_nr_2/in0 fblock_0/fblock_one_3/inv_0/in 2 7 504 1262
+n shift_0/a4 fblock_0/fblock_one_3/2mux_nr_2/a_n17_n11# GND! 2 7 470 1262
+n shift_0/a4 fblock_0/fblock_one_3/inv_0/in fblock_0/fblock_one_3/2mux_nr_2/in1 2 7 491 1262
+n fblock_0/fblock_one_3/inv_0/in GND! latch_1/in3 2 7 537 1256
+p fblock_0/fblock_one_3/inv_0/in Vdd! latch_1/in3 2 7 537 1276
+n fb_g3 GND! fblock_0/fblock_one_3/inv_1/out 2 7 469 1378
+p fb_g3 Vdd! fblock_0/fblock_one_3/inv_1/out 2 7 469 1398
+n fb_g2 GND! fblock_0/fblock_one_3/inv_2/out 2 7 502 1378
+p fb_g2 Vdd! fblock_0/fblock_one_3/inv_2/out 2 7 502 1398
+n fb_g1 GND! fblock_0/fblock_one_3/inv_3/out 2 7 536 1378
+p fb_g1 Vdd! fblock_0/fblock_one_3/inv_3/out 2 7 536 1398
+n fb_g0 GND! fblock_0/fblock_one_3/inv_4/out 2 7 569 1378
+p fb_g0 Vdd! fblock_0/fblock_one_3/inv_4/out 2 7 569 1398
+p fblock_0/b5 fblock_0/fblock_one_5/inv_2/out fblock_0/fblock_one_5/2mux_nr_2/in1 2 7 504 992
+p fblock_0/fblock_one_5/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_5/2mux_nr_2/in1 fblock_0/fblock_one_5/inv_1/out 2 7 491 992
+p fblock_0/b5 fblock_0/fblock_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 991
+n fblock_0/fblock_one_5/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_5/inv_2/out fblock_0/fblock_one_5/2mux_nr_2/in1 2 7 504 971
+n fblock_0/b5 fblock_0/fblock_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 470 971
+n fblock_0/b5 fblock_0/fblock_one_5/2mux_nr_2/in1 fblock_0/fblock_one_5/inv_1/out 2 7 491 971
+p fblock_0/b5 fblock_0/fblock_one_5/inv_4/out fblock_0/fblock_one_5/2mux_nr_2/in0 2 7 569 992
+p fblock_0/fblock_one_5/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_5/2mux_nr_2/in0 fblock_0/fblock_one_5/inv_3/out 2 7 556 992
+p fblock_0/b5 fblock_0/fblock_one_5/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 991
+n fblock_0/fblock_one_5/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_5/inv_4/out fblock_0/fblock_one_5/2mux_nr_2/in0 2 7 569 971
+n fblock_0/b5 fblock_0/fblock_one_5/2mux_nr_1/a_n17_n11# GND! 2 7 535 971
+n fblock_0/b5 fblock_0/fblock_one_5/2mux_nr_2/in0 fblock_0/fblock_one_5/inv_3/out 2 7 556 971
+p shift_0/a6 fblock_0/fblock_one_5/2mux_nr_2/in0 fblock_0/fblock_one_5/inv_0/in 2 7 504 931
+p fblock_0/fblock_one_5/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_5/inv_0/in fblock_0/fblock_one_5/2mux_nr_2/in1 2 7 491 931
+p shift_0/a6 fblock_0/fblock_one_5/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 930
+n fblock_0/fblock_one_5/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_5/2mux_nr_2/in0 fblock_0/fblock_one_5/inv_0/in 2 7 504 910
+n shift_0/a6 fblock_0/fblock_one_5/2mux_nr_2/a_n17_n11# GND! 2 7 470 910
+n shift_0/a6 fblock_0/fblock_one_5/inv_0/in fblock_0/fblock_one_5/2mux_nr_2/in1 2 7 491 910
+n fblock_0/fblock_one_5/inv_0/in GND! latch_1/in5 2 7 537 904
+p fblock_0/fblock_one_5/inv_0/in Vdd! latch_1/in5 2 7 537 924
+n fb_g3 GND! fblock_0/fblock_one_5/inv_1/out 2 7 469 1026
+p fb_g3 Vdd! fblock_0/fblock_one_5/inv_1/out 2 7 469 1046
+n fb_g2 GND! fblock_0/fblock_one_5/inv_2/out 2 7 502 1026
+p fb_g2 Vdd! fblock_0/fblock_one_5/inv_2/out 2 7 502 1046
+n fb_g1 GND! fblock_0/fblock_one_5/inv_3/out 2 7 536 1026
+p fb_g1 Vdd! fblock_0/fblock_one_5/inv_3/out 2 7 536 1046
+n fb_g0 GND! fblock_0/fblock_one_5/inv_4/out 2 7 569 1026
+p fb_g0 Vdd! fblock_0/fblock_one_5/inv_4/out 2 7 569 1046
+p fblock_0/b6 fblock_0/fblock_one_6/inv_2/out fblock_0/fblock_one_6/2mux_nr_2/in1 2 7 504 816
+p fblock_0/fblock_one_6/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_6/2mux_nr_2/in1 fblock_0/fblock_one_6/inv_1/out 2 7 491 816
+p fblock_0/b6 fblock_0/fblock_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 815
+n fblock_0/fblock_one_6/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_6/inv_2/out fblock_0/fblock_one_6/2mux_nr_2/in1 2 7 504 795
+n fblock_0/b6 fblock_0/fblock_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 470 795
+n fblock_0/b6 fblock_0/fblock_one_6/2mux_nr_2/in1 fblock_0/fblock_one_6/inv_1/out 2 7 491 795
+p fblock_0/b6 fblock_0/fblock_one_6/inv_4/out fblock_0/fblock_one_6/2mux_nr_2/in0 2 7 569 816
+p fblock_0/fblock_one_6/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_6/2mux_nr_2/in0 fblock_0/fblock_one_6/inv_3/out 2 7 556 816
+p fblock_0/b6 fblock_0/fblock_one_6/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 815
+n fblock_0/fblock_one_6/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_6/inv_4/out fblock_0/fblock_one_6/2mux_nr_2/in0 2 7 569 795
+n fblock_0/b6 fblock_0/fblock_one_6/2mux_nr_1/a_n17_n11# GND! 2 7 535 795
+n fblock_0/b6 fblock_0/fblock_one_6/2mux_nr_2/in0 fblock_0/fblock_one_6/inv_3/out 2 7 556 795
+p shift_0/a6 fblock_0/fblock_one_6/2mux_nr_2/in0 fblock_0/fblock_one_6/inv_0/in 2 7 504 755
+p fblock_0/fblock_one_6/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_6/inv_0/in fblock_0/fblock_one_6/2mux_nr_2/in1 2 7 491 755
+p shift_0/a6 fblock_0/fblock_one_6/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 754
+n fblock_0/fblock_one_6/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_6/2mux_nr_2/in0 fblock_0/fblock_one_6/inv_0/in 2 7 504 734
+n shift_0/a6 fblock_0/fblock_one_6/2mux_nr_2/a_n17_n11# GND! 2 7 470 734
+n shift_0/a6 fblock_0/fblock_one_6/inv_0/in fblock_0/fblock_one_6/2mux_nr_2/in1 2 7 491 734
+n fblock_0/fblock_one_6/inv_0/in GND! latch_1/in6 2 7 537 728
+p fblock_0/fblock_one_6/inv_0/in Vdd! latch_1/in6 2 7 537 748
+n fb_g3 GND! fblock_0/fblock_one_6/inv_1/out 2 7 469 850
+p fb_g3 Vdd! fblock_0/fblock_one_6/inv_1/out 2 7 469 870
+n fb_g2 GND! fblock_0/fblock_one_6/inv_2/out 2 7 502 850
+p fb_g2 Vdd! fblock_0/fblock_one_6/inv_2/out 2 7 502 870
+n fb_g1 GND! fblock_0/fblock_one_6/inv_3/out 2 7 536 850
+p fb_g1 Vdd! fblock_0/fblock_one_6/inv_3/out 2 7 536 870
+n fb_g0 GND! fblock_0/fblock_one_6/inv_4/out 2 7 569 850
+p fb_g0 Vdd! fblock_0/fblock_one_6/inv_4/out 2 7 569 870
+p fblock_0/b7 fblock_0/fblock_one_7/inv_2/out fblock_0/fblock_one_7/2mux_nr_2/in1 2 7 504 640
+p fblock_0/fblock_one_7/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_7/2mux_nr_2/in1 fblock_0/fblock_one_7/inv_1/out 2 7 491 640
+p fblock_0/b7 fblock_0/fblock_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 470 639
+n fblock_0/fblock_one_7/2mux_nr_0/a_n17_n11# fblock_0/fblock_one_7/inv_2/out fblock_0/fblock_one_7/2mux_nr_2/in1 2 7 504 619
+n fblock_0/b7 fblock_0/fblock_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 470 619
+n fblock_0/b7 fblock_0/fblock_one_7/2mux_nr_2/in1 fblock_0/fblock_one_7/inv_1/out 2 7 491 619
+p fblock_0/b7 fblock_0/fblock_one_7/inv_4/out fblock_0/fblock_one_7/2mux_nr_2/in0 2 7 569 640
+p fblock_0/fblock_one_7/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_7/2mux_nr_2/in0 fblock_0/fblock_one_7/inv_3/out 2 7 556 640
+p fblock_0/b7 fblock_0/fblock_one_7/2mux_nr_1/a_n17_n11# Vdd! 2 7 535 639
+n fblock_0/fblock_one_7/2mux_nr_1/a_n17_n11# fblock_0/fblock_one_7/inv_4/out fblock_0/fblock_one_7/2mux_nr_2/in0 2 7 569 619
+n fblock_0/b7 fblock_0/fblock_one_7/2mux_nr_1/a_n17_n11# GND! 2 7 535 619
+n fblock_0/b7 fblock_0/fblock_one_7/2mux_nr_2/in0 fblock_0/fblock_one_7/inv_3/out 2 7 556 619
+p shift_0/a7 fblock_0/fblock_one_7/2mux_nr_2/in0 fblock_0/fblock_one_7/inv_0/in 2 7 504 579
+p fblock_0/fblock_one_7/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_7/inv_0/in fblock_0/fblock_one_7/2mux_nr_2/in1 2 7 491 579
+p shift_0/a7 fblock_0/fblock_one_7/2mux_nr_2/a_n17_n11# Vdd! 2 7 470 578
+n fblock_0/fblock_one_7/2mux_nr_2/a_n17_n11# fblock_0/fblock_one_7/2mux_nr_2/in0 fblock_0/fblock_one_7/inv_0/in 2 7 504 558
+n shift_0/a7 fblock_0/fblock_one_7/2mux_nr_2/a_n17_n11# GND! 2 7 470 558
+n shift_0/a7 fblock_0/fblock_one_7/inv_0/in fblock_0/fblock_one_7/2mux_nr_2/in1 2 7 491 558
+n fblock_0/fblock_one_7/inv_0/in GND! latch_1/in7 2 7 537 552
+p fblock_0/fblock_one_7/inv_0/in Vdd! latch_1/in7 2 7 537 572
+n fb_g3 GND! fblock_0/fblock_one_7/inv_1/out 2 7 469 674
+p fb_g3 Vdd! fblock_0/fblock_one_7/inv_1/out 2 7 469 694
+n fb_g2 GND! fblock_0/fblock_one_7/inv_2/out 2 7 502 674
+p fb_g2 Vdd! fblock_0/fblock_one_7/inv_2/out 2 7 502 694
+n fb_g1 GND! fblock_0/fblock_one_7/inv_3/out 2 7 536 674
+p fb_g1 Vdd! fblock_0/fblock_one_7/inv_3/out 2 7 536 694
+n fb_g0 GND! fblock_0/fblock_one_7/inv_4/out 2 7 569 674
+p fb_g0 Vdd! fblock_0/fblock_one_7/inv_4/out 2 7 569 694
+p ros Vdd! latch_3/latch_one_0/a_12_n54# 2 10 397 1803
+n ros GND! latch_3/latch_one_0/a_12_n54# 2 5 397 1784
+p latch_3/latch_one_0/a_12_n54# latch_3/latch_one_0/a_30_n35# reg_3/in0 2 10 421 1803
+p shift_0/o0 latch_3/latch_one_0/a_n5_n54# Vdd! 2 10 388 1803
+n shift_0/o0 latch_3/latch_one_0/a_n5_n54# GND! 2 5 388 1784
+n ros latch_3/latch_one_0/a_30_n54# reg_3/in0 2 5 421 1784
+p latch_3/latch_one_0/a_n5_n54# Vdd! latch_3/latch_one_0/a_30_n35# 2 10 415 1803
+n latch_3/latch_one_0/a_n5_n54# GND! latch_3/latch_one_0/a_30_n54# 2 5 415 1784
+p ros Vdd! latch_3/latch_one_1/a_12_n54# 2 10 397 1627
+n ros GND! latch_3/latch_one_1/a_12_n54# 2 5 397 1608
+p latch_3/latch_one_1/a_12_n54# latch_3/latch_one_1/a_30_n35# reg_3/in1 2 10 421 1627
+p shift_0/o1 latch_3/latch_one_1/a_n5_n54# Vdd! 2 10 388 1627
+n shift_0/o1 latch_3/latch_one_1/a_n5_n54# GND! 2 5 388 1608
+n ros latch_3/latch_one_1/a_30_n54# reg_3/in1 2 5 421 1608
+p latch_3/latch_one_1/a_n5_n54# Vdd! latch_3/latch_one_1/a_30_n35# 2 10 415 1627
+n latch_3/latch_one_1/a_n5_n54# GND! latch_3/latch_one_1/a_30_n54# 2 5 415 1608
+p ros Vdd! latch_3/latch_one_2/a_12_n54# 2 10 397 1451
+n ros GND! latch_3/latch_one_2/a_12_n54# 2 5 397 1432
+p latch_3/latch_one_2/a_12_n54# latch_3/latch_one_2/a_30_n35# reg_3/in2 2 10 421 1451
+p shift_0/o2 latch_3/latch_one_2/a_n5_n54# Vdd! 2 10 388 1451
+n shift_0/o2 latch_3/latch_one_2/a_n5_n54# GND! 2 5 388 1432
+n ros latch_3/latch_one_2/a_30_n54# reg_3/in2 2 5 421 1432
+p latch_3/latch_one_2/a_n5_n54# Vdd! latch_3/latch_one_2/a_30_n35# 2 10 415 1451
+n latch_3/latch_one_2/a_n5_n54# GND! latch_3/latch_one_2/a_30_n54# 2 5 415 1432
+p ros Vdd! latch_3/latch_one_3/a_12_n54# 2 10 397 1275
+n ros GND! latch_3/latch_one_3/a_12_n54# 2 5 397 1256
+p latch_3/latch_one_3/a_12_n54# latch_3/latch_one_3/a_30_n35# reg_3/in3 2 10 421 1275
+p shift_0/o3 latch_3/latch_one_3/a_n5_n54# Vdd! 2 10 388 1275
+n shift_0/o3 latch_3/latch_one_3/a_n5_n54# GND! 2 5 388 1256
+n ros latch_3/latch_one_3/a_30_n54# reg_3/in3 2 5 421 1256
+p latch_3/latch_one_3/a_n5_n54# Vdd! latch_3/latch_one_3/a_30_n35# 2 10 415 1275
+n latch_3/latch_one_3/a_n5_n54# GND! latch_3/latch_one_3/a_30_n54# 2 5 415 1256
+p ros Vdd! latch_3/latch_one_4/a_12_n54# 2 10 397 1099
+n ros GND! latch_3/latch_one_4/a_12_n54# 2 5 397 1080
+p latch_3/latch_one_4/a_12_n54# latch_3/latch_one_4/a_30_n35# reg_3/in4 2 10 421 1099
+p shift_0/o4 latch_3/latch_one_4/a_n5_n54# Vdd! 2 10 388 1099
+n shift_0/o4 latch_3/latch_one_4/a_n5_n54# GND! 2 5 388 1080
+n ros latch_3/latch_one_4/a_30_n54# reg_3/in4 2 5 421 1080
+p latch_3/latch_one_4/a_n5_n54# Vdd! latch_3/latch_one_4/a_30_n35# 2 10 415 1099
+n latch_3/latch_one_4/a_n5_n54# GND! latch_3/latch_one_4/a_30_n54# 2 5 415 1080
+p ros Vdd! latch_3/latch_one_5/a_12_n54# 2 10 397 923
+n ros GND! latch_3/latch_one_5/a_12_n54# 2 5 397 904
+p latch_3/latch_one_5/a_12_n54# latch_3/latch_one_5/a_30_n35# reg_3/in5 2 10 421 923
+p shift_0/o5 latch_3/latch_one_5/a_n5_n54# Vdd! 2 10 388 923
+n shift_0/o5 latch_3/latch_one_5/a_n5_n54# GND! 2 5 388 904
+n ros latch_3/latch_one_5/a_30_n54# reg_3/in5 2 5 421 904
+p latch_3/latch_one_5/a_n5_n54# Vdd! latch_3/latch_one_5/a_30_n35# 2 10 415 923
+n latch_3/latch_one_5/a_n5_n54# GND! latch_3/latch_one_5/a_30_n54# 2 5 415 904
+p ros Vdd! latch_3/latch_one_6/a_12_n54# 2 10 397 747
+n ros GND! latch_3/latch_one_6/a_12_n54# 2 5 397 728
+p latch_3/latch_one_6/a_12_n54# latch_3/latch_one_6/a_30_n35# reg_3/in6 2 10 421 747
+p shift_0/o6 latch_3/latch_one_6/a_n5_n54# Vdd! 2 10 388 747
+n shift_0/o6 latch_3/latch_one_6/a_n5_n54# GND! 2 5 388 728
+n ros latch_3/latch_one_6/a_30_n54# reg_3/in6 2 5 421 728
+p latch_3/latch_one_6/a_n5_n54# Vdd! latch_3/latch_one_6/a_30_n35# 2 10 415 747
+n latch_3/latch_one_6/a_n5_n54# GND! latch_3/latch_one_6/a_30_n54# 2 5 415 728
+p ros Vdd! latch_3/latch_one_7/a_12_n54# 2 10 397 571
+n ros GND! latch_3/latch_one_7/a_12_n54# 2 5 397 552
+p latch_3/latch_one_7/a_12_n54# latch_3/latch_one_7/a_30_n35# reg_3/in7 2 10 421 571
+p shift_0/o7 latch_3/latch_one_7/a_n5_n54# Vdd! 2 10 388 571
+n shift_0/o7 latch_3/latch_one_7/a_n5_n54# GND! 2 5 388 552
+n ros latch_3/latch_one_7/a_30_n54# reg_3/in7 2 5 421 552
+p latch_3/latch_one_7/a_n5_n54# Vdd! latch_3/latch_one_7/a_30_n35# 2 10 415 571
+n latch_3/latch_one_7/a_n5_n54# GND! latch_3/latch_one_7/a_30_n54# 2 5 415 552
+p rd Vdd! latch_4/latch_one_0/a_12_n54# 2 10 15 1810
+n rd GND! latch_4/latch_one_0/a_12_n54# 2 5 15 1791
+p latch_4/latch_one_0/a_12_n54# latch_4/latch_one_0/a_30_n35# data_out0 2 10 -9 1810
+p shift_0/a0 latch_4/latch_one_0/a_n5_n54# Vdd! 2 10 24 1810
+n shift_0/a0 latch_4/latch_one_0/a_n5_n54# GND! 2 5 24 1791
+n rd latch_4/latch_one_0/a_30_n54# data_out0 2 5 -9 1791
+p latch_4/latch_one_0/a_n5_n54# Vdd! latch_4/latch_one_0/a_30_n35# 2 10 -3 1810
+n latch_4/latch_one_0/a_n5_n54# GND! latch_4/latch_one_0/a_30_n54# 2 5 -3 1791
+p rd Vdd! latch_4/latch_one_1/a_12_n54# 2 10 15 1634
+n rd GND! latch_4/latch_one_1/a_12_n54# 2 5 15 1615
+p latch_4/latch_one_1/a_12_n54# latch_4/latch_one_1/a_30_n35# data_out1 2 10 -9 1634
+p shift_0/a2 latch_4/latch_one_1/a_n5_n54# Vdd! 2 10 24 1634
+n shift_0/a2 latch_4/latch_one_1/a_n5_n54# GND! 2 5 24 1615
+n rd latch_4/latch_one_1/a_30_n54# data_out1 2 5 -9 1615
+p latch_4/latch_one_1/a_n5_n54# Vdd! latch_4/latch_one_1/a_30_n35# 2 10 -3 1634
+n latch_4/latch_one_1/a_n5_n54# GND! latch_4/latch_one_1/a_30_n54# 2 5 -3 1615
+p rd Vdd! latch_4/latch_one_2/a_12_n54# 2 10 15 1458
+n rd GND! latch_4/latch_one_2/a_12_n54# 2 5 15 1439
+p latch_4/latch_one_2/a_12_n54# latch_4/latch_one_2/a_30_n35# data_out2 2 10 -9 1458
+p shift_0/a2 latch_4/latch_one_2/a_n5_n54# Vdd! 2 10 24 1458
+n shift_0/a2 latch_4/latch_one_2/a_n5_n54# GND! 2 5 24 1439
+n rd latch_4/latch_one_2/a_30_n54# data_out2 2 5 -9 1439
+p latch_4/latch_one_2/a_n5_n54# Vdd! latch_4/latch_one_2/a_30_n35# 2 10 -3 1458
+n latch_4/latch_one_2/a_n5_n54# GND! latch_4/latch_one_2/a_30_n54# 2 5 -3 1439
+p rd Vdd! latch_4/latch_one_3/a_12_n54# 2 10 15 1282
+n rd GND! latch_4/latch_one_3/a_12_n54# 2 5 15 1263
+p latch_4/latch_one_3/a_12_n54# latch_4/latch_one_3/a_30_n35# data_out3 2 10 -9 1282
+p shift_0/a4 latch_4/latch_one_3/a_n5_n54# Vdd! 2 10 24 1282
+n shift_0/a4 latch_4/latch_one_3/a_n5_n54# GND! 2 5 24 1263
+n rd latch_4/latch_one_3/a_30_n54# data_out3 2 5 -9 1263
+p latch_4/latch_one_3/a_n5_n54# Vdd! latch_4/latch_one_3/a_30_n35# 2 10 -3 1282
+n latch_4/latch_one_3/a_n5_n54# GND! latch_4/latch_one_3/a_30_n54# 2 5 -3 1263
+p rd Vdd! latch_4/latch_one_4/a_12_n54# 2 10 15 1106
+n rd GND! latch_4/latch_one_4/a_12_n54# 2 5 15 1087
+p latch_4/latch_one_4/a_12_n54# latch_4/latch_one_4/a_30_n35# data_out4 2 10 -9 1106
+p shift_0/a4 latch_4/latch_one_4/a_n5_n54# Vdd! 2 10 24 1106
+n shift_0/a4 latch_4/latch_one_4/a_n5_n54# GND! 2 5 24 1087
+n rd latch_4/latch_one_4/a_30_n54# data_out4 2 5 -9 1087
+p latch_4/latch_one_4/a_n5_n54# Vdd! latch_4/latch_one_4/a_30_n35# 2 10 -3 1106
+n latch_4/latch_one_4/a_n5_n54# GND! latch_4/latch_one_4/a_30_n54# 2 5 -3 1087
+p rd Vdd! latch_4/latch_one_5/a_12_n54# 2 10 15 930
+n rd GND! latch_4/latch_one_5/a_12_n54# 2 5 15 911
+p latch_4/latch_one_5/a_12_n54# latch_4/latch_one_5/a_30_n35# data_out5 2 10 -9 930
+p shift_0/a6 latch_4/latch_one_5/a_n5_n54# Vdd! 2 10 24 930
+n shift_0/a6 latch_4/latch_one_5/a_n5_n54# GND! 2 5 24 911
+n rd latch_4/latch_one_5/a_30_n54# data_out5 2 5 -9 911
+p latch_4/latch_one_5/a_n5_n54# Vdd! latch_4/latch_one_5/a_30_n35# 2 10 -3 930
+n latch_4/latch_one_5/a_n5_n54# GND! latch_4/latch_one_5/a_30_n54# 2 5 -3 911
+p rd Vdd! latch_4/latch_one_6/a_12_n54# 2 10 15 754
+n rd GND! latch_4/latch_one_6/a_12_n54# 2 5 15 735
+p latch_4/latch_one_6/a_12_n54# latch_4/latch_one_6/a_30_n35# data_out6 2 10 -9 754
+p shift_0/a6 latch_4/latch_one_6/a_n5_n54# Vdd! 2 10 24 754
+n shift_0/a6 latch_4/latch_one_6/a_n5_n54# GND! 2 5 24 735
+n rd latch_4/latch_one_6/a_30_n54# data_out6 2 5 -9 735
+p latch_4/latch_one_6/a_n5_n54# Vdd! latch_4/latch_one_6/a_30_n35# 2 10 -3 754
+n latch_4/latch_one_6/a_n5_n54# GND! latch_4/latch_one_6/a_30_n54# 2 5 -3 735
+p rd Vdd! latch_4/latch_one_7/a_12_n54# 2 10 15 578
+n rd GND! latch_4/latch_one_7/a_12_n54# 2 5 15 559
+p latch_4/latch_one_7/a_12_n54# latch_4/latch_one_7/a_30_n35# data_out7 2 10 -9 578
+p shift_0/a7 latch_4/latch_one_7/a_n5_n54# Vdd! 2 10 24 578
+n shift_0/a7 latch_4/latch_one_7/a_n5_n54# GND! 2 5 24 559
+n rd latch_4/latch_one_7/a_30_n54# data_out7 2 5 -9 559
+p latch_4/latch_one_7/a_n5_n54# Vdd! latch_4/latch_one_7/a_30_n35# 2 10 -3 578
+n latch_4/latch_one_7/a_n5_n54# GND! latch_4/latch_one_7/a_30_n54# 2 5 -3 559
+p as_cin Vdd! addsub_0/xor_0/a_61_n1# 2 5 722 1829
+p as_cin Vdd! addsub_0/xor_0/a_89_n31# 2 5 712 1839
+p addsub_0/xor_0/a_61_n31# addsub_0/xor_0/out addsub_0/xor_0/a_61_n1# 2 5 722 1859
+p addsub_0/xor_0/a_89_n31# addsub_0/xor_0/a_61_n1# addsub_0/xor_0/out 2 5 722 1850
+n fblock_0/b0 addsub_0/xor_0/a_61_n31# GND! 2 5 692 1819
+n as_cin addsub_0/xor_0/a_69_n42# addsub_0/xor_0/out 2 5 681 1829
+n addsub_0/xor_0/a_89_n31# addsub_0/xor_0/out addsub_0/xor_0/a_100_n42# 2 5 681 1850
+n addsub_0/xor_0/a_61_n31# addsub_0/xor_0/a_100_n42# GND! 2 5 681 1859
+p fblock_0/b0 addsub_0/xor_0/a_61_n31# Vdd! 2 5 712 1819
+n as_cin GND! addsub_0/xor_0/a_89_n31# 2 5 692 1839
+n fblock_0/b0 GND! addsub_0/xor_0/a_69_n42# 2 5 681 1819
+p fblock_0/b0 addsub_0/xor_0/a_61_n1# Vdd! 2 5 722 1819
+p as_cin Vdd! addsub_0/xor_1/a_61_n1# 2 5 722 1653
+p as_cin Vdd! addsub_0/xor_1/a_89_n31# 2 5 712 1663
+p addsub_0/xor_1/a_61_n31# addsub_0/xor_1/out addsub_0/xor_1/a_61_n1# 2 5 722 1683
+p addsub_0/xor_1/a_89_n31# addsub_0/xor_1/a_61_n1# addsub_0/xor_1/out 2 5 722 1674
+n fblock_0/b1 addsub_0/xor_1/a_61_n31# GND! 2 5 692 1643
+n as_cin addsub_0/xor_1/a_69_n42# addsub_0/xor_1/out 2 5 681 1653
+n addsub_0/xor_1/a_89_n31# addsub_0/xor_1/out addsub_0/xor_1/a_100_n42# 2 5 681 1674
+n addsub_0/xor_1/a_61_n31# addsub_0/xor_1/a_100_n42# GND! 2 5 681 1683
+p fblock_0/b1 addsub_0/xor_1/a_61_n31# Vdd! 2 5 712 1643
+n as_cin GND! addsub_0/xor_1/a_89_n31# 2 5 692 1663
+n fblock_0/b1 GND! addsub_0/xor_1/a_69_n42# 2 5 681 1643
+p fblock_0/b1 addsub_0/xor_1/a_61_n1# Vdd! 2 5 722 1643
+p as_cin Vdd! addsub_0/xor_2/a_61_n1# 2 5 722 1477
+p as_cin Vdd! addsub_0/xor_2/a_89_n31# 2 5 712 1487
+p addsub_0/xor_2/a_61_n31# addsub_0/xor_2/out addsub_0/xor_2/a_61_n1# 2 5 722 1507
+p addsub_0/xor_2/a_89_n31# addsub_0/xor_2/a_61_n1# addsub_0/xor_2/out 2 5 722 1498
+n fblock_0/b2 addsub_0/xor_2/a_61_n31# GND! 2 5 692 1467
+n as_cin addsub_0/xor_2/a_69_n42# addsub_0/xor_2/out 2 5 681 1477
+n addsub_0/xor_2/a_89_n31# addsub_0/xor_2/out addsub_0/xor_2/a_100_n42# 2 5 681 1498
+n addsub_0/xor_2/a_61_n31# addsub_0/xor_2/a_100_n42# GND! 2 5 681 1507
+p fblock_0/b2 addsub_0/xor_2/a_61_n31# Vdd! 2 5 712 1467
+n as_cin GND! addsub_0/xor_2/a_89_n31# 2 5 692 1487
+n fblock_0/b2 GND! addsub_0/xor_2/a_69_n42# 2 5 681 1467
+p fblock_0/b2 addsub_0/xor_2/a_61_n1# Vdd! 2 5 722 1467
+p as_cin Vdd! addsub_0/xor_3/a_61_n1# 2 5 722 1301
+p as_cin Vdd! addsub_0/xor_3/a_89_n31# 2 5 712 1311
+p addsub_0/xor_3/a_61_n31# addsub_0/xor_3/out addsub_0/xor_3/a_61_n1# 2 5 722 1331
+p addsub_0/xor_3/a_89_n31# addsub_0/xor_3/a_61_n1# addsub_0/xor_3/out 2 5 722 1322
+n fblock_0/b3 addsub_0/xor_3/a_61_n31# GND! 2 5 692 1291
+n as_cin addsub_0/xor_3/a_69_n42# addsub_0/xor_3/out 2 5 681 1301
+n addsub_0/xor_3/a_89_n31# addsub_0/xor_3/out addsub_0/xor_3/a_100_n42# 2 5 681 1322
+n addsub_0/xor_3/a_61_n31# addsub_0/xor_3/a_100_n42# GND! 2 5 681 1331
+p fblock_0/b3 addsub_0/xor_3/a_61_n31# Vdd! 2 5 712 1291
+n as_cin GND! addsub_0/xor_3/a_89_n31# 2 5 692 1311
+n fblock_0/b3 GND! addsub_0/xor_3/a_69_n42# 2 5 681 1291
+p fblock_0/b3 addsub_0/xor_3/a_61_n1# Vdd! 2 5 722 1291
+n as_cin addsub_0/addsub_one_0/a_72_n41# addsub_0/addsub_one_0/a_78_n41# 2 5 815 1860
+p addsub_0/xor_0/out addsub_0/addsub_one_0/a_11_9# Vdd! 2 10 766 1883
+n addsub_0/addsub_one_0/a_78_n41# GND! latch_2/in0 2 5 815 1808
+p shift_0/a0 addsub_0/addsub_one_0/a_11_9# Vdd! 2 10 766 1918
+p addsub_0/addsub_one_0/a_35_n41# Vdd! addsub_0/addsub_one_1/cin 2 10 766 1788
+p addsub_0/xor_0/out Vdd! addsub_0/addsub_one_0/a_66_9# 2 10 766 1872
+n shift_0/a0 GND! addsub_0/addsub_one_0/a_29_n41# 2 5 815 1909
+n shift_0/a0 addsub_0/addsub_one_0/a_11_n41# GND! 2 5 815 1918
+p as_cin addsub_0/addsub_one_0/a_72_9# addsub_0/addsub_one_0/a_78_n41# 2 10 766 1860
+p shift_0/a0 Vdd! addsub_0/addsub_one_0/a_29_9# 2 10 766 1909
+n addsub_0/xor_0/out addsub_0/addsub_one_0/a_11_n41# GND! 2 5 815 1883
+n addsub_0/xor_0/out addsub_0/addsub_one_0/a_89_n41# GND! 2 5 815 1818
+p addsub_0/addsub_one_0/a_35_n41# addsub_0/addsub_one_0/a_78_n41# addsub_0/addsub_one_0/a_89_9# 2 10 766 1849
+p shift_0/a0 Vdd! addsub_0/addsub_one_0/a_89_9# 2 10 766 1828
+n addsub_0/addsub_one_0/a_35_n41# addsub_0/addsub_one_0/a_78_n41# addsub_0/addsub_one_0/a_89_n41# 2 5 815 1849
+p shift_0/a0 addsub_0/addsub_one_0/a_66_9# addsub_0/addsub_one_0/a_72_9# 2 10 766 1866
+n addsub_0/addsub_one_0/a_35_n41# GND! addsub_0/addsub_one_1/cin 2 5 815 1788
+n shift_0/a0 addsub_0/addsub_one_0/a_66_n41# addsub_0/addsub_one_0/a_72_n41# 2 5 815 1866
+p as_cin addsub_0/addsub_one_0/a_89_9# Vdd! 2 10 766 1838
+p addsub_0/xor_0/out addsub_0/addsub_one_0/a_89_9# Vdd! 2 10 766 1818
+p addsub_0/xor_0/out addsub_0/addsub_one_0/a_29_9# addsub_0/addsub_one_0/a_35_n41# 2 10 766 1903
+n shift_0/a0 GND! addsub_0/addsub_one_0/a_89_n41# 2 5 815 1828
+p addsub_0/addsub_one_0/a_78_n41# Vdd! latch_2/in0 2 10 766 1808
+n addsub_0/xor_0/out GND! addsub_0/addsub_one_0/a_66_n41# 2 5 815 1872
+p as_cin addsub_0/addsub_one_0/a_35_n41# addsub_0/addsub_one_0/a_11_9# 2 10 766 1894
+n as_cin addsub_0/addsub_one_0/a_89_n41# GND! 2 5 815 1838
+n as_cin addsub_0/addsub_one_0/a_35_n41# addsub_0/addsub_one_0/a_11_n41# 2 5 815 1894
+n addsub_0/xor_0/out addsub_0/addsub_one_0/a_29_n41# addsub_0/addsub_one_0/a_35_n41# 2 5 815 1903
+p as_cin Vdd! addsub_0/xor_4/a_61_n1# 2 5 722 1125
+p as_cin Vdd! addsub_0/xor_4/a_89_n31# 2 5 712 1135
+p addsub_0/xor_4/a_61_n31# addsub_0/xor_4/out addsub_0/xor_4/a_61_n1# 2 5 722 1155
+p addsub_0/xor_4/a_89_n31# addsub_0/xor_4/a_61_n1# addsub_0/xor_4/out 2 5 722 1146
+n fblock_0/b4 addsub_0/xor_4/a_61_n31# GND! 2 5 692 1115
+n as_cin addsub_0/xor_4/a_69_n42# addsub_0/xor_4/out 2 5 681 1125
+n addsub_0/xor_4/a_89_n31# addsub_0/xor_4/out addsub_0/xor_4/a_100_n42# 2 5 681 1146
+n addsub_0/xor_4/a_61_n31# addsub_0/xor_4/a_100_n42# GND! 2 5 681 1155
+p fblock_0/b4 addsub_0/xor_4/a_61_n31# Vdd! 2 5 712 1115
+n as_cin GND! addsub_0/xor_4/a_89_n31# 2 5 692 1135
+n fblock_0/b4 GND! addsub_0/xor_4/a_69_n42# 2 5 681 1115
+p fblock_0/b4 addsub_0/xor_4/a_61_n1# Vdd! 2 5 722 1115
+n addsub_0/addsub_one_1/cin addsub_0/addsub_one_1/a_72_n41# addsub_0/addsub_one_1/a_78_n41# 2 5 815 1684
+p addsub_0/xor_1/out addsub_0/addsub_one_1/a_11_9# Vdd! 2 10 766 1707
+n addsub_0/addsub_one_1/a_78_n41# GND! latch_2/in1 2 5 815 1632
+p shift_0/a2 addsub_0/addsub_one_1/a_11_9# Vdd! 2 10 766 1742
+p addsub_0/addsub_one_1/a_35_n41# Vdd! addsub_0/addsub_one_2/cin 2 10 766 1612
+p addsub_0/xor_1/out Vdd! addsub_0/addsub_one_1/a_66_9# 2 10 766 1696
+n shift_0/a2 GND! addsub_0/addsub_one_1/a_29_n41# 2 5 815 1733
+n shift_0/a2 addsub_0/addsub_one_1/a_11_n41# GND! 2 5 815 1742
+p addsub_0/addsub_one_1/cin addsub_0/addsub_one_1/a_72_9# addsub_0/addsub_one_1/a_78_n41# 2 10 766 1684
+p shift_0/a2 Vdd! addsub_0/addsub_one_1/a_29_9# 2 10 766 1733
+n addsub_0/xor_1/out addsub_0/addsub_one_1/a_11_n41# GND! 2 5 815 1707
+n addsub_0/xor_1/out addsub_0/addsub_one_1/a_89_n41# GND! 2 5 815 1642
+p addsub_0/addsub_one_1/a_35_n41# addsub_0/addsub_one_1/a_78_n41# addsub_0/addsub_one_1/a_89_9# 2 10 766 1673
+p shift_0/a2 Vdd! addsub_0/addsub_one_1/a_89_9# 2 10 766 1652
+n addsub_0/addsub_one_1/a_35_n41# addsub_0/addsub_one_1/a_78_n41# addsub_0/addsub_one_1/a_89_n41# 2 5 815 1673
+p shift_0/a2 addsub_0/addsub_one_1/a_66_9# addsub_0/addsub_one_1/a_72_9# 2 10 766 1690
+n addsub_0/addsub_one_1/a_35_n41# GND! addsub_0/addsub_one_2/cin 2 5 815 1612
+n shift_0/a2 addsub_0/addsub_one_1/a_66_n41# addsub_0/addsub_one_1/a_72_n41# 2 5 815 1690
+p addsub_0/addsub_one_1/cin addsub_0/addsub_one_1/a_89_9# Vdd! 2 10 766 1662
+p addsub_0/xor_1/out addsub_0/addsub_one_1/a_89_9# Vdd! 2 10 766 1642
+p addsub_0/xor_1/out addsub_0/addsub_one_1/a_29_9# addsub_0/addsub_one_1/a_35_n41# 2 10 766 1727
+n shift_0/a2 GND! addsub_0/addsub_one_1/a_89_n41# 2 5 815 1652
+p addsub_0/addsub_one_1/a_78_n41# Vdd! latch_2/in1 2 10 766 1632
+n addsub_0/xor_1/out GND! addsub_0/addsub_one_1/a_66_n41# 2 5 815 1696
+p addsub_0/addsub_one_1/cin addsub_0/addsub_one_1/a_35_n41# addsub_0/addsub_one_1/a_11_9# 2 10 766 1718
+n addsub_0/addsub_one_1/cin addsub_0/addsub_one_1/a_89_n41# GND! 2 5 815 1662
+n addsub_0/addsub_one_1/cin addsub_0/addsub_one_1/a_35_n41# addsub_0/addsub_one_1/a_11_n41# 2 5 815 1718
+n addsub_0/xor_1/out addsub_0/addsub_one_1/a_29_n41# addsub_0/addsub_one_1/a_35_n41# 2 5 815 1727
+p as_cin Vdd! addsub_0/xor_5/a_61_n1# 2 5 722 949
+p as_cin Vdd! addsub_0/xor_5/a_89_n31# 2 5 712 959
+p addsub_0/xor_5/a_61_n31# addsub_0/xor_5/out addsub_0/xor_5/a_61_n1# 2 5 722 979
+p addsub_0/xor_5/a_89_n31# addsub_0/xor_5/a_61_n1# addsub_0/xor_5/out 2 5 722 970
+n fblock_0/b5 addsub_0/xor_5/a_61_n31# GND! 2 5 692 939
+n as_cin addsub_0/xor_5/a_69_n42# addsub_0/xor_5/out 2 5 681 949
+n addsub_0/xor_5/a_89_n31# addsub_0/xor_5/out addsub_0/xor_5/a_100_n42# 2 5 681 970
+n addsub_0/xor_5/a_61_n31# addsub_0/xor_5/a_100_n42# GND! 2 5 681 979
+p fblock_0/b5 addsub_0/xor_5/a_61_n31# Vdd! 2 5 712 939
+n as_cin GND! addsub_0/xor_5/a_89_n31# 2 5 692 959
+n fblock_0/b5 GND! addsub_0/xor_5/a_69_n42# 2 5 681 939
+p fblock_0/b5 addsub_0/xor_5/a_61_n1# Vdd! 2 5 722 939
+n addsub_0/addsub_one_2/cin addsub_0/addsub_one_2/a_72_n41# addsub_0/addsub_one_2/a_78_n41# 2 5 815 1508
+p addsub_0/xor_2/out addsub_0/addsub_one_2/a_11_9# Vdd! 2 10 766 1531
+n addsub_0/addsub_one_2/a_78_n41# GND! latch_2/in2 2 5 815 1456
+p shift_0/a2 addsub_0/addsub_one_2/a_11_9# Vdd! 2 10 766 1566
+p addsub_0/addsub_one_2/a_35_n41# Vdd! addsub_0/addsub_one_3/cin 2 10 766 1436
+p addsub_0/xor_2/out Vdd! addsub_0/addsub_one_2/a_66_9# 2 10 766 1520
+n shift_0/a2 GND! addsub_0/addsub_one_2/a_29_n41# 2 5 815 1557
+n shift_0/a2 addsub_0/addsub_one_2/a_11_n41# GND! 2 5 815 1566
+p addsub_0/addsub_one_2/cin addsub_0/addsub_one_2/a_72_9# addsub_0/addsub_one_2/a_78_n41# 2 10 766 1508
+p shift_0/a2 Vdd! addsub_0/addsub_one_2/a_29_9# 2 10 766 1557
+n addsub_0/xor_2/out addsub_0/addsub_one_2/a_11_n41# GND! 2 5 815 1531
+n addsub_0/xor_2/out addsub_0/addsub_one_2/a_89_n41# GND! 2 5 815 1466
+p addsub_0/addsub_one_2/a_35_n41# addsub_0/addsub_one_2/a_78_n41# addsub_0/addsub_one_2/a_89_9# 2 10 766 1497
+p shift_0/a2 Vdd! addsub_0/addsub_one_2/a_89_9# 2 10 766 1476
+n addsub_0/addsub_one_2/a_35_n41# addsub_0/addsub_one_2/a_78_n41# addsub_0/addsub_one_2/a_89_n41# 2 5 815 1497
+p shift_0/a2 addsub_0/addsub_one_2/a_66_9# addsub_0/addsub_one_2/a_72_9# 2 10 766 1514
+n addsub_0/addsub_one_2/a_35_n41# GND! addsub_0/addsub_one_3/cin 2 5 815 1436
+n shift_0/a2 addsub_0/addsub_one_2/a_66_n41# addsub_0/addsub_one_2/a_72_n41# 2 5 815 1514
+p addsub_0/addsub_one_2/cin addsub_0/addsub_one_2/a_89_9# Vdd! 2 10 766 1486
+p addsub_0/xor_2/out addsub_0/addsub_one_2/a_89_9# Vdd! 2 10 766 1466
+p addsub_0/xor_2/out addsub_0/addsub_one_2/a_29_9# addsub_0/addsub_one_2/a_35_n41# 2 10 766 1551
+n shift_0/a2 GND! addsub_0/addsub_one_2/a_89_n41# 2 5 815 1476
+p addsub_0/addsub_one_2/a_78_n41# Vdd! latch_2/in2 2 10 766 1456
+n addsub_0/xor_2/out GND! addsub_0/addsub_one_2/a_66_n41# 2 5 815 1520
+p addsub_0/addsub_one_2/cin addsub_0/addsub_one_2/a_35_n41# addsub_0/addsub_one_2/a_11_9# 2 10 766 1542
+n addsub_0/addsub_one_2/cin addsub_0/addsub_one_2/a_89_n41# GND! 2 5 815 1486
+n addsub_0/addsub_one_2/cin addsub_0/addsub_one_2/a_35_n41# addsub_0/addsub_one_2/a_11_n41# 2 5 815 1542
+n addsub_0/xor_2/out addsub_0/addsub_one_2/a_29_n41# addsub_0/addsub_one_2/a_35_n41# 2 5 815 1551
+n addsub_0/addsub_one_3/cin addsub_0/addsub_one_3/a_72_n41# addsub_0/addsub_one_3/a_78_n41# 2 5 815 1332
+p addsub_0/xor_3/out addsub_0/addsub_one_3/a_11_9# Vdd! 2 10 766 1355
+n addsub_0/addsub_one_3/a_78_n41# GND! latch_2/in3 2 5 815 1280
+p shift_0/a4 addsub_0/addsub_one_3/a_11_9# Vdd! 2 10 766 1390
+p addsub_0/addsub_one_3/a_35_n41# Vdd! addsub_0/addsub_one_4/cin 2 10 766 1260
+p addsub_0/xor_3/out Vdd! addsub_0/addsub_one_3/a_66_9# 2 10 766 1344
+n shift_0/a4 GND! addsub_0/addsub_one_3/a_29_n41# 2 5 815 1381
+n shift_0/a4 addsub_0/addsub_one_3/a_11_n41# GND! 2 5 815 1390
+p addsub_0/addsub_one_3/cin addsub_0/addsub_one_3/a_72_9# addsub_0/addsub_one_3/a_78_n41# 2 10 766 1332
+p shift_0/a4 Vdd! addsub_0/addsub_one_3/a_29_9# 2 10 766 1381
+n addsub_0/xor_3/out addsub_0/addsub_one_3/a_11_n41# GND! 2 5 815 1355
+n addsub_0/xor_3/out addsub_0/addsub_one_3/a_89_n41# GND! 2 5 815 1290
+p addsub_0/addsub_one_3/a_35_n41# addsub_0/addsub_one_3/a_78_n41# addsub_0/addsub_one_3/a_89_9# 2 10 766 1321
+p shift_0/a4 Vdd! addsub_0/addsub_one_3/a_89_9# 2 10 766 1300
+n addsub_0/addsub_one_3/a_35_n41# addsub_0/addsub_one_3/a_78_n41# addsub_0/addsub_one_3/a_89_n41# 2 5 815 1321
+p shift_0/a4 addsub_0/addsub_one_3/a_66_9# addsub_0/addsub_one_3/a_72_9# 2 10 766 1338
+n addsub_0/addsub_one_3/a_35_n41# GND! addsub_0/addsub_one_4/cin 2 5 815 1260
+n shift_0/a4 addsub_0/addsub_one_3/a_66_n41# addsub_0/addsub_one_3/a_72_n41# 2 5 815 1338
+p addsub_0/addsub_one_3/cin addsub_0/addsub_one_3/a_89_9# Vdd! 2 10 766 1310
+p addsub_0/xor_3/out addsub_0/addsub_one_3/a_89_9# Vdd! 2 10 766 1290
+p addsub_0/xor_3/out addsub_0/addsub_one_3/a_29_9# addsub_0/addsub_one_3/a_35_n41# 2 10 766 1375
+n shift_0/a4 GND! addsub_0/addsub_one_3/a_89_n41# 2 5 815 1300
+p addsub_0/addsub_one_3/a_78_n41# Vdd! latch_2/in3 2 10 766 1280
+n addsub_0/xor_3/out GND! addsub_0/addsub_one_3/a_66_n41# 2 5 815 1344
+p addsub_0/addsub_one_3/cin addsub_0/addsub_one_3/a_35_n41# addsub_0/addsub_one_3/a_11_9# 2 10 766 1366
+n addsub_0/addsub_one_3/cin addsub_0/addsub_one_3/a_89_n41# GND! 2 5 815 1310
+n addsub_0/addsub_one_3/cin addsub_0/addsub_one_3/a_35_n41# addsub_0/addsub_one_3/a_11_n41# 2 5 815 1366
+n addsub_0/xor_3/out addsub_0/addsub_one_3/a_29_n41# addsub_0/addsub_one_3/a_35_n41# 2 5 815 1375
+p as_cin Vdd! addsub_0/xor_6/a_61_n1# 2 5 722 773
+p as_cin Vdd! addsub_0/xor_6/a_89_n31# 2 5 712 783
+p addsub_0/xor_6/a_61_n31# addsub_0/xor_6/out addsub_0/xor_6/a_61_n1# 2 5 722 803
+p addsub_0/xor_6/a_89_n31# addsub_0/xor_6/a_61_n1# addsub_0/xor_6/out 2 5 722 794
+n fblock_0/b6 addsub_0/xor_6/a_61_n31# GND! 2 5 692 763
+n as_cin addsub_0/xor_6/a_69_n42# addsub_0/xor_6/out 2 5 681 773
+n addsub_0/xor_6/a_89_n31# addsub_0/xor_6/out addsub_0/xor_6/a_100_n42# 2 5 681 794
+n addsub_0/xor_6/a_61_n31# addsub_0/xor_6/a_100_n42# GND! 2 5 681 803
+p fblock_0/b6 addsub_0/xor_6/a_61_n31# Vdd! 2 5 712 763
+n as_cin GND! addsub_0/xor_6/a_89_n31# 2 5 692 783
+n fblock_0/b6 GND! addsub_0/xor_6/a_69_n42# 2 5 681 763
+p fblock_0/b6 addsub_0/xor_6/a_61_n1# Vdd! 2 5 722 763
+n addsub_0/addsub_one_4/cin addsub_0/addsub_one_4/a_72_n41# addsub_0/addsub_one_4/a_78_n41# 2 5 815 1156
+p addsub_0/xor_4/out addsub_0/addsub_one_4/a_11_9# Vdd! 2 10 766 1179
+n addsub_0/addsub_one_4/a_78_n41# GND! latch_2/in4 2 5 815 1104
+p shift_0/a4 addsub_0/addsub_one_4/a_11_9# Vdd! 2 10 766 1214
+p addsub_0/addsub_one_4/a_35_n41# Vdd! addsub_0/addsub_one_5/cin 2 10 766 1084
+p addsub_0/xor_4/out Vdd! addsub_0/addsub_one_4/a_66_9# 2 10 766 1168
+n shift_0/a4 GND! addsub_0/addsub_one_4/a_29_n41# 2 5 815 1205
+n shift_0/a4 addsub_0/addsub_one_4/a_11_n41# GND! 2 5 815 1214
+p addsub_0/addsub_one_4/cin addsub_0/addsub_one_4/a_72_9# addsub_0/addsub_one_4/a_78_n41# 2 10 766 1156
+p shift_0/a4 Vdd! addsub_0/addsub_one_4/a_29_9# 2 10 766 1205
+n addsub_0/xor_4/out addsub_0/addsub_one_4/a_11_n41# GND! 2 5 815 1179
+n addsub_0/xor_4/out addsub_0/addsub_one_4/a_89_n41# GND! 2 5 815 1114
+p addsub_0/addsub_one_4/a_35_n41# addsub_0/addsub_one_4/a_78_n41# addsub_0/addsub_one_4/a_89_9# 2 10 766 1145
+p shift_0/a4 Vdd! addsub_0/addsub_one_4/a_89_9# 2 10 766 1124
+n addsub_0/addsub_one_4/a_35_n41# addsub_0/addsub_one_4/a_78_n41# addsub_0/addsub_one_4/a_89_n41# 2 5 815 1145
+p shift_0/a4 addsub_0/addsub_one_4/a_66_9# addsub_0/addsub_one_4/a_72_9# 2 10 766 1162
+n addsub_0/addsub_one_4/a_35_n41# GND! addsub_0/addsub_one_5/cin 2 5 815 1084
+n shift_0/a4 addsub_0/addsub_one_4/a_66_n41# addsub_0/addsub_one_4/a_72_n41# 2 5 815 1162
+p addsub_0/addsub_one_4/cin addsub_0/addsub_one_4/a_89_9# Vdd! 2 10 766 1134
+p addsub_0/xor_4/out addsub_0/addsub_one_4/a_89_9# Vdd! 2 10 766 1114
+p addsub_0/xor_4/out addsub_0/addsub_one_4/a_29_9# addsub_0/addsub_one_4/a_35_n41# 2 10 766 1199
+n shift_0/a4 GND! addsub_0/addsub_one_4/a_89_n41# 2 5 815 1124
+p addsub_0/addsub_one_4/a_78_n41# Vdd! latch_2/in4 2 10 766 1104
+n addsub_0/xor_4/out GND! addsub_0/addsub_one_4/a_66_n41# 2 5 815 1168
+p addsub_0/addsub_one_4/cin addsub_0/addsub_one_4/a_35_n41# addsub_0/addsub_one_4/a_11_9# 2 10 766 1190
+n addsub_0/addsub_one_4/cin addsub_0/addsub_one_4/a_89_n41# GND! 2 5 815 1134
+n addsub_0/addsub_one_4/cin addsub_0/addsub_one_4/a_35_n41# addsub_0/addsub_one_4/a_11_n41# 2 5 815 1190
+n addsub_0/xor_4/out addsub_0/addsub_one_4/a_29_n41# addsub_0/addsub_one_4/a_35_n41# 2 5 815 1199
+p as_cin Vdd! addsub_0/xor_7/a_61_n1# 2 5 722 597
+p as_cin Vdd! addsub_0/xor_7/a_89_n31# 2 5 712 607
+p addsub_0/xor_7/a_61_n31# addsub_0/xor_7/out addsub_0/xor_7/a_61_n1# 2 5 722 627
+p addsub_0/xor_7/a_89_n31# addsub_0/xor_7/a_61_n1# addsub_0/xor_7/out 2 5 722 618
+n fblock_0/b7 addsub_0/xor_7/a_61_n31# GND! 2 5 692 587
+n as_cin addsub_0/xor_7/a_69_n42# addsub_0/xor_7/out 2 5 681 597
+n addsub_0/xor_7/a_89_n31# addsub_0/xor_7/out addsub_0/xor_7/a_100_n42# 2 5 681 618
+n addsub_0/xor_7/a_61_n31# addsub_0/xor_7/a_100_n42# GND! 2 5 681 627
+p fblock_0/b7 addsub_0/xor_7/a_61_n31# Vdd! 2 5 712 587
+n as_cin GND! addsub_0/xor_7/a_89_n31# 2 5 692 607
+n fblock_0/b7 GND! addsub_0/xor_7/a_69_n42# 2 5 681 587
+p fblock_0/b7 addsub_0/xor_7/a_61_n1# Vdd! 2 5 722 587
+n addsub_0/addsub_one_5/cin addsub_0/addsub_one_5/a_72_n41# addsub_0/addsub_one_5/a_78_n41# 2 5 815 980
+p addsub_0/xor_5/out addsub_0/addsub_one_5/a_11_9# Vdd! 2 10 766 1003
+n addsub_0/addsub_one_5/a_78_n41# GND! latch_2/in5 2 5 815 928
+p shift_0/a6 addsub_0/addsub_one_5/a_11_9# Vdd! 2 10 766 1038
+p addsub_0/addsub_one_5/a_35_n41# Vdd! addsub_0/addsub_one_6/cin 2 10 766 908
+p addsub_0/xor_5/out Vdd! addsub_0/addsub_one_5/a_66_9# 2 10 766 992
+n shift_0/a6 GND! addsub_0/addsub_one_5/a_29_n41# 2 5 815 1029
+n shift_0/a6 addsub_0/addsub_one_5/a_11_n41# GND! 2 5 815 1038
+p addsub_0/addsub_one_5/cin addsub_0/addsub_one_5/a_72_9# addsub_0/addsub_one_5/a_78_n41# 2 10 766 980
+p shift_0/a6 Vdd! addsub_0/addsub_one_5/a_29_9# 2 10 766 1029
+n addsub_0/xor_5/out addsub_0/addsub_one_5/a_11_n41# GND! 2 5 815 1003
+n addsub_0/xor_5/out addsub_0/addsub_one_5/a_89_n41# GND! 2 5 815 938
+p addsub_0/addsub_one_5/a_35_n41# addsub_0/addsub_one_5/a_78_n41# addsub_0/addsub_one_5/a_89_9# 2 10 766 969
+p shift_0/a6 Vdd! addsub_0/addsub_one_5/a_89_9# 2 10 766 948
+n addsub_0/addsub_one_5/a_35_n41# addsub_0/addsub_one_5/a_78_n41# addsub_0/addsub_one_5/a_89_n41# 2 5 815 969
+p shift_0/a6 addsub_0/addsub_one_5/a_66_9# addsub_0/addsub_one_5/a_72_9# 2 10 766 986
+n addsub_0/addsub_one_5/a_35_n41# GND! addsub_0/addsub_one_6/cin 2 5 815 908
+n shift_0/a6 addsub_0/addsub_one_5/a_66_n41# addsub_0/addsub_one_5/a_72_n41# 2 5 815 986
+p addsub_0/addsub_one_5/cin addsub_0/addsub_one_5/a_89_9# Vdd! 2 10 766 958
+p addsub_0/xor_5/out addsub_0/addsub_one_5/a_89_9# Vdd! 2 10 766 938
+p addsub_0/xor_5/out addsub_0/addsub_one_5/a_29_9# addsub_0/addsub_one_5/a_35_n41# 2 10 766 1023
+n shift_0/a6 GND! addsub_0/addsub_one_5/a_89_n41# 2 5 815 948
+p addsub_0/addsub_one_5/a_78_n41# Vdd! latch_2/in5 2 10 766 928
+n addsub_0/xor_5/out GND! addsub_0/addsub_one_5/a_66_n41# 2 5 815 992
+p addsub_0/addsub_one_5/cin addsub_0/addsub_one_5/a_35_n41# addsub_0/addsub_one_5/a_11_9# 2 10 766 1014
+n addsub_0/addsub_one_5/cin addsub_0/addsub_one_5/a_89_n41# GND! 2 5 815 958
+n addsub_0/addsub_one_5/cin addsub_0/addsub_one_5/a_35_n41# addsub_0/addsub_one_5/a_11_n41# 2 5 815 1014
+n addsub_0/xor_5/out addsub_0/addsub_one_5/a_29_n41# addsub_0/addsub_one_5/a_35_n41# 2 5 815 1023
+n addsub_0/addsub_one_6/cin addsub_0/addsub_one_6/a_72_n41# addsub_0/addsub_one_6/a_78_n41# 2 5 815 804
+p addsub_0/xor_6/out addsub_0/addsub_one_6/a_11_9# Vdd! 2 10 766 827
+n addsub_0/addsub_one_6/a_78_n41# GND! latch_2/in6 2 5 815 752
+p shift_0/a6 addsub_0/addsub_one_6/a_11_9# Vdd! 2 10 766 862
+p addsub_0/addsub_one_6/a_35_n41# Vdd! addsub_0/c7 2 10 766 732
+p addsub_0/xor_6/out Vdd! addsub_0/addsub_one_6/a_66_9# 2 10 766 816
+n shift_0/a6 GND! addsub_0/addsub_one_6/a_29_n41# 2 5 815 853
+n shift_0/a6 addsub_0/addsub_one_6/a_11_n41# GND! 2 5 815 862
+p addsub_0/addsub_one_6/cin addsub_0/addsub_one_6/a_72_9# addsub_0/addsub_one_6/a_78_n41# 2 10 766 804
+p shift_0/a6 Vdd! addsub_0/addsub_one_6/a_29_9# 2 10 766 853
+n addsub_0/xor_6/out addsub_0/addsub_one_6/a_11_n41# GND! 2 5 815 827
+n addsub_0/xor_6/out addsub_0/addsub_one_6/a_89_n41# GND! 2 5 815 762
+p addsub_0/addsub_one_6/a_35_n41# addsub_0/addsub_one_6/a_78_n41# addsub_0/addsub_one_6/a_89_9# 2 10 766 793
+p shift_0/a6 Vdd! addsub_0/addsub_one_6/a_89_9# 2 10 766 772
+n addsub_0/addsub_one_6/a_35_n41# addsub_0/addsub_one_6/a_78_n41# addsub_0/addsub_one_6/a_89_n41# 2 5 815 793
+p shift_0/a6 addsub_0/addsub_one_6/a_66_9# addsub_0/addsub_one_6/a_72_9# 2 10 766 810
+n addsub_0/addsub_one_6/a_35_n41# GND! addsub_0/c7 2 5 815 732
+n shift_0/a6 addsub_0/addsub_one_6/a_66_n41# addsub_0/addsub_one_6/a_72_n41# 2 5 815 810
+p addsub_0/addsub_one_6/cin addsub_0/addsub_one_6/a_89_9# Vdd! 2 10 766 782
+p addsub_0/xor_6/out addsub_0/addsub_one_6/a_89_9# Vdd! 2 10 766 762
+p addsub_0/xor_6/out addsub_0/addsub_one_6/a_29_9# addsub_0/addsub_one_6/a_35_n41# 2 10 766 847
+n shift_0/a6 GND! addsub_0/addsub_one_6/a_89_n41# 2 5 815 772
+p addsub_0/addsub_one_6/a_78_n41# Vdd! latch_2/in6 2 10 766 752
+n addsub_0/xor_6/out GND! addsub_0/addsub_one_6/a_66_n41# 2 5 815 816
+p addsub_0/addsub_one_6/cin addsub_0/addsub_one_6/a_35_n41# addsub_0/addsub_one_6/a_11_9# 2 10 766 838
+n addsub_0/addsub_one_6/cin addsub_0/addsub_one_6/a_89_n41# GND! 2 5 815 782
+n addsub_0/addsub_one_6/cin addsub_0/addsub_one_6/a_35_n41# addsub_0/addsub_one_6/a_11_n41# 2 5 815 838
+n addsub_0/xor_6/out addsub_0/addsub_one_6/a_29_n41# addsub_0/addsub_one_6/a_35_n41# 2 5 815 847
+n addsub_0/c7 addsub_0/addsub_one_7/a_72_n41# addsub_0/addsub_one_7/a_78_n41# 2 5 815 628
+p addsub_0/xor_7/out addsub_0/addsub_one_7/a_11_9# Vdd! 2 10 766 651
+n addsub_0/addsub_one_7/a_78_n41# GND! latch_2/in7 2 5 815 576
+p shift_0/a7 addsub_0/addsub_one_7/a_11_9# Vdd! 2 10 766 686
+p addsub_0/addsub_one_7/a_35_n41# Vdd! addsub_0/cout 2 10 766 556
+p addsub_0/xor_7/out Vdd! addsub_0/addsub_one_7/a_66_9# 2 10 766 640
+n shift_0/a7 GND! addsub_0/addsub_one_7/a_29_n41# 2 5 815 677
+n shift_0/a7 addsub_0/addsub_one_7/a_11_n41# GND! 2 5 815 686
+p addsub_0/c7 addsub_0/addsub_one_7/a_72_9# addsub_0/addsub_one_7/a_78_n41# 2 10 766 628
+p shift_0/a7 Vdd! addsub_0/addsub_one_7/a_29_9# 2 10 766 677
+n addsub_0/xor_7/out addsub_0/addsub_one_7/a_11_n41# GND! 2 5 815 651
+n addsub_0/xor_7/out addsub_0/addsub_one_7/a_89_n41# GND! 2 5 815 586
+p addsub_0/addsub_one_7/a_35_n41# addsub_0/addsub_one_7/a_78_n41# addsub_0/addsub_one_7/a_89_9# 2 10 766 617
+p shift_0/a7 Vdd! addsub_0/addsub_one_7/a_89_9# 2 10 766 596
+n addsub_0/addsub_one_7/a_35_n41# addsub_0/addsub_one_7/a_78_n41# addsub_0/addsub_one_7/a_89_n41# 2 5 815 617
+p shift_0/a7 addsub_0/addsub_one_7/a_66_9# addsub_0/addsub_one_7/a_72_9# 2 10 766 634
+n addsub_0/addsub_one_7/a_35_n41# GND! addsub_0/cout 2 5 815 556
+n shift_0/a7 addsub_0/addsub_one_7/a_66_n41# addsub_0/addsub_one_7/a_72_n41# 2 5 815 634
+p addsub_0/c7 addsub_0/addsub_one_7/a_89_9# Vdd! 2 10 766 606
+p addsub_0/xor_7/out addsub_0/addsub_one_7/a_89_9# Vdd! 2 10 766 586
+p addsub_0/xor_7/out addsub_0/addsub_one_7/a_29_9# addsub_0/addsub_one_7/a_35_n41# 2 10 766 671
+n shift_0/a7 GND! addsub_0/addsub_one_7/a_89_n41# 2 5 815 596
+p addsub_0/addsub_one_7/a_78_n41# Vdd! latch_2/in7 2 10 766 576
+n addsub_0/xor_7/out GND! addsub_0/addsub_one_7/a_66_n41# 2 5 815 640
+p addsub_0/c7 addsub_0/addsub_one_7/a_35_n41# addsub_0/addsub_one_7/a_11_9# 2 10 766 662
+n addsub_0/c7 addsub_0/addsub_one_7/a_89_n41# GND! 2 5 815 606
+n addsub_0/c7 addsub_0/addsub_one_7/a_35_n41# addsub_0/addsub_one_7/a_11_n41# 2 5 815 662
+n addsub_0/xor_7/out addsub_0/addsub_one_7/a_29_n41# addsub_0/addsub_one_7/a_35_n41# 2 5 815 671
+p os_u shift_0/shift_one_6/inv_1/out shift_0/shift_one_6/2mux_nr_1/in1 2 7 272 770
+p shift_0/shift_one_6/2mux_nr_0/a_n17_n11# shift_0/shift_one_6/2mux_nr_1/in1 shift_0/shift_one_6/inv_0/out 2 7 272 783
+p os_u shift_0/shift_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 804
+n shift_0/shift_one_6/2mux_nr_0/a_n17_n11# shift_0/shift_one_6/inv_1/out shift_0/shift_one_6/2mux_nr_1/in1 2 7 293 770
+n os_u shift_0/shift_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 293 804
+n os_u shift_0/shift_one_6/2mux_nr_1/in1 shift_0/shift_one_6/inv_0/out 2 7 293 783
+p os_s shift_0/shift_one_6/inv_2/out shift_0/shift_one_6/inv_3/in 2 7 334 770
+p shift_0/shift_one_6/2mux_nr_1/a_n17_n11# shift_0/shift_one_6/inv_3/in shift_0/shift_one_6/2mux_nr_1/in1 2 7 334 783
+p os_s shift_0/shift_one_6/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 804
+n shift_0/shift_one_6/2mux_nr_1/a_n17_n11# shift_0/shift_one_6/inv_2/out shift_0/shift_one_6/inv_3/in 2 7 355 770
+n os_s shift_0/shift_one_6/2mux_nr_1/a_n17_n11# GND! 2 7 355 804
+n os_s shift_0/shift_one_6/inv_3/in shift_0/shift_one_6/2mux_nr_1/in1 2 7 355 783
+n shift_0/a6 GND! shift_0/shift_one_6/inv_0/out 2 7 239 804
+p shift_0/a6 Vdd! shift_0/shift_one_6/inv_0/out 2 7 219 804
+n shift_0/a7 GND! shift_0/shift_one_6/inv_1/out 2 7 239 766
+p shift_0/a7 Vdd! shift_0/shift_one_6/inv_1/out 2 7 219 766
+n shift_0/a6 GND! shift_0/shift_one_6/inv_2/out 2 7 299 733
+p shift_0/a6 Vdd! shift_0/shift_one_6/inv_2/out 2 7 279 733
+n shift_0/shift_one_6/inv_3/in GND! shift_0/o6 2 7 324 734
+p shift_0/shift_one_6/inv_3/in Vdd! shift_0/o6 2 7 344 734
+p os_u shift_0/shift_one_7/inv_1/out shift_0/shift_one_7/2mux_nr_1/in1 2 7 272 594
+p shift_0/shift_one_7/2mux_nr_0/a_n17_n11# shift_0/shift_one_7/2mux_nr_1/in1 shift_0/shift_one_7/inv_0/out 2 7 272 607
+p os_u shift_0/shift_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 628
+n shift_0/shift_one_7/2mux_nr_0/a_n17_n11# shift_0/shift_one_7/inv_1/out shift_0/shift_one_7/2mux_nr_1/in1 2 7 293 594
+n os_u shift_0/shift_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 293 628
+n os_u shift_0/shift_one_7/2mux_nr_1/in1 shift_0/shift_one_7/inv_0/out 2 7 293 607
+p os_s shift_0/shift_one_7/inv_2/out shift_0/shift_one_7/inv_3/in 2 7 334 594
+p shift_0/shift_one_7/2mux_nr_1/a_n17_n11# shift_0/shift_one_7/inv_3/in shift_0/shift_one_7/2mux_nr_1/in1 2 7 334 607
+p os_s shift_0/shift_one_7/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 628
+n shift_0/shift_one_7/2mux_nr_1/a_n17_n11# shift_0/shift_one_7/inv_2/out shift_0/shift_one_7/inv_3/in 2 7 355 594
+n os_s shift_0/shift_one_7/2mux_nr_1/a_n17_n11# GND! 2 7 355 628
+n os_s shift_0/shift_one_7/inv_3/in shift_0/shift_one_7/2mux_nr_1/in1 2 7 355 607
+n shift_0/a6 GND! shift_0/shift_one_7/inv_0/out 2 7 239 628
+p shift_0/a6 Vdd! shift_0/shift_one_7/inv_0/out 2 7 219 628
+n GND! GND! shift_0/shift_one_7/inv_1/out 2 7 239 590
+p GND! Vdd! shift_0/shift_one_7/inv_1/out 2 7 219 590
+n shift_0/a7 GND! shift_0/shift_one_7/inv_2/out 2 7 299 557
+p shift_0/a7 Vdd! shift_0/shift_one_7/inv_2/out 2 7 279 557
+n shift_0/shift_one_7/inv_3/in GND! shift_0/o7 2 7 324 558
+p shift_0/shift_one_7/inv_3/in Vdd! shift_0/o7 2 7 344 558
+p os_u shift_0/shift_one_0/inv_1/out shift_0/shift_one_0/2mux_nr_1/in1 2 7 272 1826
+p shift_0/shift_one_0/2mux_nr_0/a_n17_n11# shift_0/shift_one_0/2mux_nr_1/in1 shift_0/shift_one_0/inv_0/out 2 7 272 1839
+p os_u shift_0/shift_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 1860
+n shift_0/shift_one_0/2mux_nr_0/a_n17_n11# shift_0/shift_one_0/inv_1/out shift_0/shift_one_0/2mux_nr_1/in1 2 7 293 1826
+n os_u shift_0/shift_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 293 1860
+n os_u shift_0/shift_one_0/2mux_nr_1/in1 shift_0/shift_one_0/inv_0/out 2 7 293 1839
+p os_s shift_0/shift_one_0/inv_2/out shift_0/shift_one_0/inv_3/in 2 7 334 1826
+p shift_0/shift_one_0/2mux_nr_1/a_n17_n11# shift_0/shift_one_0/inv_3/in shift_0/shift_one_0/2mux_nr_1/in1 2 7 334 1839
+p os_s shift_0/shift_one_0/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 1860
+n shift_0/shift_one_0/2mux_nr_1/a_n17_n11# shift_0/shift_one_0/inv_2/out shift_0/shift_one_0/inv_3/in 2 7 355 1826
+n os_s shift_0/shift_one_0/2mux_nr_1/a_n17_n11# GND! 2 7 355 1860
+n os_s shift_0/shift_one_0/inv_3/in shift_0/shift_one_0/2mux_nr_1/in1 2 7 355 1839
+n GND! GND! shift_0/shift_one_0/inv_0/out 2 7 239 1860
+p GND! Vdd! shift_0/shift_one_0/inv_0/out 2 7 219 1860
+n shift_0/a2 GND! shift_0/shift_one_0/inv_1/out 2 7 239 1822
+p shift_0/a2 Vdd! shift_0/shift_one_0/inv_1/out 2 7 219 1822
+n shift_0/a0 GND! shift_0/shift_one_0/inv_2/out 2 7 299 1789
+p shift_0/a0 Vdd! shift_0/shift_one_0/inv_2/out 2 7 279 1789
+n shift_0/shift_one_0/inv_3/in GND! shift_0/o0 2 7 324 1790
+p shift_0/shift_one_0/inv_3/in Vdd! shift_0/o0 2 7 344 1790
+p os_u shift_0/shift_one_1/inv_1/out shift_0/shift_one_1/2mux_nr_1/in1 2 7 272 1650
+p shift_0/shift_one_1/2mux_nr_0/a_n17_n11# shift_0/shift_one_1/2mux_nr_1/in1 shift_0/shift_one_1/inv_0/out 2 7 272 1663
+p os_u shift_0/shift_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 1684
+n shift_0/shift_one_1/2mux_nr_0/a_n17_n11# shift_0/shift_one_1/inv_1/out shift_0/shift_one_1/2mux_nr_1/in1 2 7 293 1650
+n os_u shift_0/shift_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 293 1684
+n os_u shift_0/shift_one_1/2mux_nr_1/in1 shift_0/shift_one_1/inv_0/out 2 7 293 1663
+p os_s shift_0/shift_one_1/inv_2/out shift_0/shift_one_1/inv_3/in 2 7 334 1650
+p shift_0/shift_one_1/2mux_nr_1/a_n17_n11# shift_0/shift_one_1/inv_3/in shift_0/shift_one_1/2mux_nr_1/in1 2 7 334 1663
+p os_s shift_0/shift_one_1/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 1684
+n shift_0/shift_one_1/2mux_nr_1/a_n17_n11# shift_0/shift_one_1/inv_2/out shift_0/shift_one_1/inv_3/in 2 7 355 1650
+n os_s shift_0/shift_one_1/2mux_nr_1/a_n17_n11# GND! 2 7 355 1684
+n os_s shift_0/shift_one_1/inv_3/in shift_0/shift_one_1/2mux_nr_1/in1 2 7 355 1663
+n shift_0/a0 GND! shift_0/shift_one_1/inv_0/out 2 7 239 1684
+p shift_0/a0 Vdd! shift_0/shift_one_1/inv_0/out 2 7 219 1684
+n shift_0/a2 GND! shift_0/shift_one_1/inv_1/out 2 7 239 1646
+p shift_0/a2 Vdd! shift_0/shift_one_1/inv_1/out 2 7 219 1646
+n shift_0/a2 GND! shift_0/shift_one_1/inv_2/out 2 7 299 1613
+p shift_0/a2 Vdd! shift_0/shift_one_1/inv_2/out 2 7 279 1613
+n shift_0/shift_one_1/inv_3/in GND! shift_0/o1 2 7 324 1614
+p shift_0/shift_one_1/inv_3/in Vdd! shift_0/o1 2 7 344 1614
+p os_u shift_0/shift_one_2/inv_1/out shift_0/shift_one_2/2mux_nr_1/in1 2 7 272 1474
+p shift_0/shift_one_2/2mux_nr_0/a_n17_n11# shift_0/shift_one_2/2mux_nr_1/in1 shift_0/shift_one_2/inv_0/out 2 7 272 1487
+p os_u shift_0/shift_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 1508
+n shift_0/shift_one_2/2mux_nr_0/a_n17_n11# shift_0/shift_one_2/inv_1/out shift_0/shift_one_2/2mux_nr_1/in1 2 7 293 1474
+n os_u shift_0/shift_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 293 1508
+n os_u shift_0/shift_one_2/2mux_nr_1/in1 shift_0/shift_one_2/inv_0/out 2 7 293 1487
+p os_s shift_0/shift_one_2/inv_2/out shift_0/shift_one_2/inv_3/in 2 7 334 1474
+p shift_0/shift_one_2/2mux_nr_1/a_n17_n11# shift_0/shift_one_2/inv_3/in shift_0/shift_one_2/2mux_nr_1/in1 2 7 334 1487
+p os_s shift_0/shift_one_2/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 1508
+n shift_0/shift_one_2/2mux_nr_1/a_n17_n11# shift_0/shift_one_2/inv_2/out shift_0/shift_one_2/inv_3/in 2 7 355 1474
+n os_s shift_0/shift_one_2/2mux_nr_1/a_n17_n11# GND! 2 7 355 1508
+n os_s shift_0/shift_one_2/inv_3/in shift_0/shift_one_2/2mux_nr_1/in1 2 7 355 1487
+n shift_0/a2 GND! shift_0/shift_one_2/inv_0/out 2 7 239 1508
+p shift_0/a2 Vdd! shift_0/shift_one_2/inv_0/out 2 7 219 1508
+n shift_0/a4 GND! shift_0/shift_one_2/inv_1/out 2 7 239 1470
+p shift_0/a4 Vdd! shift_0/shift_one_2/inv_1/out 2 7 219 1470
+n shift_0/a2 GND! shift_0/shift_one_2/inv_2/out 2 7 299 1437
+p shift_0/a2 Vdd! shift_0/shift_one_2/inv_2/out 2 7 279 1437
+n shift_0/shift_one_2/inv_3/in GND! shift_0/o2 2 7 324 1438
+p shift_0/shift_one_2/inv_3/in Vdd! shift_0/o2 2 7 344 1438
+p os_u shift_0/shift_one_4/inv_1/out shift_0/shift_one_4/2mux_nr_1/in1 2 7 272 1122
+p shift_0/shift_one_4/2mux_nr_0/a_n17_n11# shift_0/shift_one_4/2mux_nr_1/in1 shift_0/shift_one_4/inv_0/out 2 7 272 1135
+p os_u shift_0/shift_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 1156
+n shift_0/shift_one_4/2mux_nr_0/a_n17_n11# shift_0/shift_one_4/inv_1/out shift_0/shift_one_4/2mux_nr_1/in1 2 7 293 1122
+n os_u shift_0/shift_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 293 1156
+n os_u shift_0/shift_one_4/2mux_nr_1/in1 shift_0/shift_one_4/inv_0/out 2 7 293 1135
+p os_s shift_0/shift_one_4/inv_2/out shift_0/shift_one_4/inv_3/in 2 7 334 1122
+p shift_0/shift_one_4/2mux_nr_1/a_n17_n11# shift_0/shift_one_4/inv_3/in shift_0/shift_one_4/2mux_nr_1/in1 2 7 334 1135
+p os_s shift_0/shift_one_4/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 1156
+n shift_0/shift_one_4/2mux_nr_1/a_n17_n11# shift_0/shift_one_4/inv_2/out shift_0/shift_one_4/inv_3/in 2 7 355 1122
+n os_s shift_0/shift_one_4/2mux_nr_1/a_n17_n11# GND! 2 7 355 1156
+n os_s shift_0/shift_one_4/inv_3/in shift_0/shift_one_4/2mux_nr_1/in1 2 7 355 1135
+n shift_0/a4 GND! shift_0/shift_one_4/inv_0/out 2 7 239 1156
+p shift_0/a4 Vdd! shift_0/shift_one_4/inv_0/out 2 7 219 1156
+n shift_0/a6 GND! shift_0/shift_one_4/inv_1/out 2 7 239 1118
+p shift_0/a6 Vdd! shift_0/shift_one_4/inv_1/out 2 7 219 1118
+n shift_0/a4 GND! shift_0/shift_one_4/inv_2/out 2 7 299 1085
+p shift_0/a4 Vdd! shift_0/shift_one_4/inv_2/out 2 7 279 1085
+n shift_0/shift_one_4/inv_3/in GND! shift_0/o4 2 7 324 1086
+p shift_0/shift_one_4/inv_3/in Vdd! shift_0/o4 2 7 344 1086
+p os_u shift_0/shift_one_3/inv_1/out shift_0/shift_one_3/2mux_nr_1/in1 2 7 272 1298
+p shift_0/shift_one_3/2mux_nr_0/a_n17_n11# shift_0/shift_one_3/2mux_nr_1/in1 shift_0/shift_one_3/inv_0/out 2 7 272 1311
+p os_u shift_0/shift_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 1332
+n shift_0/shift_one_3/2mux_nr_0/a_n17_n11# shift_0/shift_one_3/inv_1/out shift_0/shift_one_3/2mux_nr_1/in1 2 7 293 1298
+n os_u shift_0/shift_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 293 1332
+n os_u shift_0/shift_one_3/2mux_nr_1/in1 shift_0/shift_one_3/inv_0/out 2 7 293 1311
+p os_s shift_0/shift_one_3/inv_2/out shift_0/shift_one_3/inv_3/in 2 7 334 1298
+p shift_0/shift_one_3/2mux_nr_1/a_n17_n11# shift_0/shift_one_3/inv_3/in shift_0/shift_one_3/2mux_nr_1/in1 2 7 334 1311
+p os_s shift_0/shift_one_3/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 1332
+n shift_0/shift_one_3/2mux_nr_1/a_n17_n11# shift_0/shift_one_3/inv_2/out shift_0/shift_one_3/inv_3/in 2 7 355 1298
+n os_s shift_0/shift_one_3/2mux_nr_1/a_n17_n11# GND! 2 7 355 1332
+n os_s shift_0/shift_one_3/inv_3/in shift_0/shift_one_3/2mux_nr_1/in1 2 7 355 1311
+n shift_0/a2 GND! shift_0/shift_one_3/inv_0/out 2 7 239 1332
+p shift_0/a2 Vdd! shift_0/shift_one_3/inv_0/out 2 7 219 1332
+n shift_0/a4 GND! shift_0/shift_one_3/inv_1/out 2 7 239 1294
+p shift_0/a4 Vdd! shift_0/shift_one_3/inv_1/out 2 7 219 1294
+n shift_0/a4 GND! shift_0/shift_one_3/inv_2/out 2 7 299 1261
+p shift_0/a4 Vdd! shift_0/shift_one_3/inv_2/out 2 7 279 1261
+n shift_0/shift_one_3/inv_3/in GND! shift_0/o3 2 7 324 1262
+p shift_0/shift_one_3/inv_3/in Vdd! shift_0/o3 2 7 344 1262
+p os_u shift_0/shift_one_5/inv_1/out shift_0/shift_one_5/2mux_nr_1/in1 2 7 272 946
+p shift_0/shift_one_5/2mux_nr_0/a_n17_n11# shift_0/shift_one_5/2mux_nr_1/in1 shift_0/shift_one_5/inv_0/out 2 7 272 959
+p os_u shift_0/shift_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 273 980
+n shift_0/shift_one_5/2mux_nr_0/a_n17_n11# shift_0/shift_one_5/inv_1/out shift_0/shift_one_5/2mux_nr_1/in1 2 7 293 946
+n os_u shift_0/shift_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 293 980
+n os_u shift_0/shift_one_5/2mux_nr_1/in1 shift_0/shift_one_5/inv_0/out 2 7 293 959
+p os_s shift_0/shift_one_5/inv_2/out shift_0/shift_one_5/inv_3/in 2 7 334 946
+p shift_0/shift_one_5/2mux_nr_1/a_n17_n11# shift_0/shift_one_5/inv_3/in shift_0/shift_one_5/2mux_nr_1/in1 2 7 334 959
+p os_s shift_0/shift_one_5/2mux_nr_1/a_n17_n11# Vdd! 2 7 335 980
+n shift_0/shift_one_5/2mux_nr_1/a_n17_n11# shift_0/shift_one_5/inv_2/out shift_0/shift_one_5/inv_3/in 2 7 355 946
+n os_s shift_0/shift_one_5/2mux_nr_1/a_n17_n11# GND! 2 7 355 980
+n os_s shift_0/shift_one_5/inv_3/in shift_0/shift_one_5/2mux_nr_1/in1 2 7 355 959
+n shift_0/a4 GND! shift_0/shift_one_5/inv_0/out 2 7 239 980
+p shift_0/a4 Vdd! shift_0/shift_one_5/inv_0/out 2 7 219 980
+n shift_0/a6 GND! shift_0/shift_one_5/inv_1/out 2 7 239 942
+p shift_0/a6 Vdd! shift_0/shift_one_5/inv_1/out 2 7 219 942
+n shift_0/a6 GND! shift_0/shift_one_5/inv_2/out 2 7 299 909
+p shift_0/a6 Vdd! shift_0/shift_one_5/inv_2/out 2 7 279 909
+n shift_0/shift_one_5/inv_3/in GND! shift_0/o5 2 7 324 910
+p shift_0/shift_one_5/inv_3/in Vdd! shift_0/o5 2 7 344 910
+p reg_0/reg_one_4/tmp reg_0/reg_one_4/a_39_5# Vdd! 2 10 973 1272
+p reg_0/reg_one_4/a_4_n13# reg_0/reg_one_4/a_54_5# shift_0/a4 2 10 988 1272
+n reg_0/reg_one_4/tmp GND! reg_0/reg_one_4/a_33_32# 2 5 990 1325
+n reg_0/r1 fblock_0/b3 reg_0/reg_one_4/a_39_n13# 2 5 967 1255
+n reg_0/reg_one_4/a_16_27# reg_0/reg_one_4/tmp reg_0/reg_one_4/a_28_58# 2 5 956 1325
+p reg_0/reg_one_4/tmp Vdd! reg_0/reg_one_4/a_54_5# 2 10 982 1272
+p reg_0/r1 Vdd! reg_0/reg_one_4/a_21_n13# 2 10 949 1272
+n reg_0/r1 GND! reg_0/reg_one_4/a_21_n13# 2 5 949 1255
+p reg_0/reg_one_4/tmp Vdd! reg_0/reg_one_4/a_33_32# 2 10 990 1302
+n reg_0/r0 reg_0/reg_one_4/a_54_n13# shift_0/a4 2 5 988 1255
+n reg_3/in3 GND! reg_0/reg_one_4/a_12_58# 2 5 940 1325
+n reg_0/reg_one_4/a_33_32# reg_0/reg_one_4/a_28_58# GND! 2 5 963 1325
+p reg_0/w reg_0/reg_one_4/tmp reg_0/reg_one_4/a_28_35# 2 10 956 1302
+n reg_0/w reg_0/reg_one_4/a_12_58# reg_0/reg_one_4/tmp 2 5 946 1325
+n reg_0/w reg_0/reg_one_4/a_16_27# GND! 2 5 981 1325
+p reg_0/r0 reg_0/reg_one_4/a_4_n13# Vdd! 2 10 940 1272
+n reg_0/r0 reg_0/reg_one_4/a_4_n13# GND! 2 5 940 1255
+p reg_3/in3 Vdd! reg_0/reg_one_4/a_12_35# 2 10 940 1302
+p reg_0/reg_one_4/a_33_32# reg_0/reg_one_4/a_28_35# Vdd! 2 10 963 1302
+p reg_0/reg_one_4/a_16_27# reg_0/reg_one_4/a_12_35# reg_0/reg_one_4/tmp 2 10 946 1302
+p reg_0/reg_one_4/a_21_n13# fblock_0/b3 reg_0/reg_one_4/a_39_5# 2 10 967 1272
+p reg_0/w reg_0/reg_one_4/a_16_27# Vdd! 2 10 981 1302
+n reg_0/reg_one_4/tmp GND! reg_0/reg_one_4/a_54_n13# 2 5 982 1255
+n reg_0/reg_one_4/tmp reg_0/reg_one_4/a_39_n13# GND! 2 5 973 1255
+p reg_0/reg_one_5/tmp reg_0/reg_one_5/a_39_5# Vdd! 2 10 973 1448
+p reg_0/reg_one_5/a_4_n13# reg_0/reg_one_5/a_54_5# shift_0/a2 2 10 988 1448
+n reg_0/reg_one_5/tmp GND! reg_0/reg_one_5/a_33_32# 2 5 990 1501
+n reg_0/r1 fblock_0/b2 reg_0/reg_one_5/a_39_n13# 2 5 967 1431
+n reg_0/reg_one_5/a_16_27# reg_0/reg_one_5/tmp reg_0/reg_one_5/a_28_58# 2 5 956 1501
+p reg_0/reg_one_5/tmp Vdd! reg_0/reg_one_5/a_54_5# 2 10 982 1448
+p reg_0/r1 Vdd! reg_0/reg_one_5/a_21_n13# 2 10 949 1448
+n reg_0/r1 GND! reg_0/reg_one_5/a_21_n13# 2 5 949 1431
+p reg_0/reg_one_5/tmp Vdd! reg_0/reg_one_5/a_33_32# 2 10 990 1478
+n reg_0/r0 reg_0/reg_one_5/a_54_n13# shift_0/a2 2 5 988 1431
+n reg_3/in2 GND! reg_0/reg_one_5/a_12_58# 2 5 940 1501
+n reg_0/reg_one_5/a_33_32# reg_0/reg_one_5/a_28_58# GND! 2 5 963 1501
+p reg_0/w reg_0/reg_one_5/tmp reg_0/reg_one_5/a_28_35# 2 10 956 1478
+n reg_0/w reg_0/reg_one_5/a_12_58# reg_0/reg_one_5/tmp 2 5 946 1501
+n reg_0/w reg_0/reg_one_5/a_16_27# GND! 2 5 981 1501
+p reg_0/r0 reg_0/reg_one_5/a_4_n13# Vdd! 2 10 940 1448
+n reg_0/r0 reg_0/reg_one_5/a_4_n13# GND! 2 5 940 1431
+p reg_3/in2 Vdd! reg_0/reg_one_5/a_12_35# 2 10 940 1478
+p reg_0/reg_one_5/a_33_32# reg_0/reg_one_5/a_28_35# Vdd! 2 10 963 1478
+p reg_0/reg_one_5/a_16_27# reg_0/reg_one_5/a_12_35# reg_0/reg_one_5/tmp 2 10 946 1478
+p reg_0/reg_one_5/a_21_n13# fblock_0/b2 reg_0/reg_one_5/a_39_5# 2 10 967 1448
+p reg_0/w reg_0/reg_one_5/a_16_27# Vdd! 2 10 981 1478
+n reg_0/reg_one_5/tmp GND! reg_0/reg_one_5/a_54_n13# 2 5 982 1431
+n reg_0/reg_one_5/tmp reg_0/reg_one_5/a_39_n13# GND! 2 5 973 1431
+p reg_0/reg_one_6/tmp reg_0/reg_one_6/a_39_5# Vdd! 2 10 973 1624
+p reg_0/reg_one_6/a_4_n13# reg_0/reg_one_6/a_54_5# shift_0/a2 2 10 988 1624
+n reg_0/reg_one_6/tmp GND! reg_0/reg_one_6/a_33_32# 2 5 990 1677
+n reg_0/r1 fblock_0/b1 reg_0/reg_one_6/a_39_n13# 2 5 967 1607
+n reg_0/reg_one_6/a_16_27# reg_0/reg_one_6/tmp reg_0/reg_one_6/a_28_58# 2 5 956 1677
+p reg_0/reg_one_6/tmp Vdd! reg_0/reg_one_6/a_54_5# 2 10 982 1624
+p reg_0/r1 Vdd! reg_0/reg_one_6/a_21_n13# 2 10 949 1624
+n reg_0/r1 GND! reg_0/reg_one_6/a_21_n13# 2 5 949 1607
+p reg_0/reg_one_6/tmp Vdd! reg_0/reg_one_6/a_33_32# 2 10 990 1654
+n reg_0/r0 reg_0/reg_one_6/a_54_n13# shift_0/a2 2 5 988 1607
+n reg_3/in1 GND! reg_0/reg_one_6/a_12_58# 2 5 940 1677
+n reg_0/reg_one_6/a_33_32# reg_0/reg_one_6/a_28_58# GND! 2 5 963 1677
+p reg_0/w reg_0/reg_one_6/tmp reg_0/reg_one_6/a_28_35# 2 10 956 1654
+n reg_0/w reg_0/reg_one_6/a_12_58# reg_0/reg_one_6/tmp 2 5 946 1677
+n reg_0/w reg_0/reg_one_6/a_16_27# GND! 2 5 981 1677
+p reg_0/r0 reg_0/reg_one_6/a_4_n13# Vdd! 2 10 940 1624
+n reg_0/r0 reg_0/reg_one_6/a_4_n13# GND! 2 5 940 1607
+p reg_3/in1 Vdd! reg_0/reg_one_6/a_12_35# 2 10 940 1654
+p reg_0/reg_one_6/a_33_32# reg_0/reg_one_6/a_28_35# Vdd! 2 10 963 1654
+p reg_0/reg_one_6/a_16_27# reg_0/reg_one_6/a_12_35# reg_0/reg_one_6/tmp 2 10 946 1654
+p reg_0/reg_one_6/a_21_n13# fblock_0/b1 reg_0/reg_one_6/a_39_5# 2 10 967 1624
+p reg_0/w reg_0/reg_one_6/a_16_27# Vdd! 2 10 981 1654
+n reg_0/reg_one_6/tmp GND! reg_0/reg_one_6/a_54_n13# 2 5 982 1607
+n reg_0/reg_one_6/tmp reg_0/reg_one_6/a_39_n13# GND! 2 5 973 1607
+p reg_0/reg_one_7/tmp reg_0/reg_one_7/a_39_5# Vdd! 2 10 973 1800
+p reg_0/reg_one_7/a_4_n13# reg_0/reg_one_7/a_54_5# shift_0/a0 2 10 988 1800
+n reg_0/reg_one_7/tmp GND! reg_0/reg_one_7/a_33_32# 2 5 990 1853
+n reg_0/r1 fblock_0/b0 reg_0/reg_one_7/a_39_n13# 2 5 967 1783
+n reg_0/reg_one_7/a_16_27# reg_0/reg_one_7/tmp reg_0/reg_one_7/a_28_58# 2 5 956 1853
+p reg_0/reg_one_7/tmp Vdd! reg_0/reg_one_7/a_54_5# 2 10 982 1800
+p reg_0/r1 Vdd! reg_0/reg_one_7/a_21_n13# 2 10 949 1800
+n reg_0/r1 GND! reg_0/reg_one_7/a_21_n13# 2 5 949 1783
+p reg_0/reg_one_7/tmp Vdd! reg_0/reg_one_7/a_33_32# 2 10 990 1830
+n reg_0/r0 reg_0/reg_one_7/a_54_n13# shift_0/a0 2 5 988 1783
+n reg_3/in0 GND! reg_0/reg_one_7/a_12_58# 2 5 940 1853
+n reg_0/reg_one_7/a_33_32# reg_0/reg_one_7/a_28_58# GND! 2 5 963 1853
+p reg_0/w reg_0/reg_one_7/tmp reg_0/reg_one_7/a_28_35# 2 10 956 1830
+n reg_0/w reg_0/reg_one_7/a_12_58# reg_0/reg_one_7/tmp 2 5 946 1853
+n reg_0/w reg_0/reg_one_7/a_16_27# GND! 2 5 981 1853
+p reg_0/r0 reg_0/reg_one_7/a_4_n13# Vdd! 2 10 940 1800
+n reg_0/r0 reg_0/reg_one_7/a_4_n13# GND! 2 5 940 1783
+p reg_3/in0 Vdd! reg_0/reg_one_7/a_12_35# 2 10 940 1830
+p reg_0/reg_one_7/a_33_32# reg_0/reg_one_7/a_28_35# Vdd! 2 10 963 1830
+p reg_0/reg_one_7/a_16_27# reg_0/reg_one_7/a_12_35# reg_0/reg_one_7/tmp 2 10 946 1830
+p reg_0/reg_one_7/a_21_n13# fblock_0/b0 reg_0/reg_one_7/a_39_5# 2 10 967 1800
+p reg_0/w reg_0/reg_one_7/a_16_27# Vdd! 2 10 981 1830
+n reg_0/reg_one_7/tmp GND! reg_0/reg_one_7/a_54_n13# 2 5 982 1783
+n reg_0/reg_one_7/tmp reg_0/reg_one_7/a_39_n13# GND! 2 5 973 1783
+p reg_0/reg_one_0/tmp reg_0/reg_one_0/a_39_5# Vdd! 2 10 973 568
+p reg_0/reg_one_0/a_4_n13# reg_0/reg_one_0/a_54_5# shift_0/a7 2 10 988 568
+n reg_0/reg_one_0/tmp GND! reg_0/reg_one_0/a_33_32# 2 5 990 621
+n reg_0/r1 fblock_0/b7 reg_0/reg_one_0/a_39_n13# 2 5 967 551
+n reg_0/reg_one_0/a_16_27# reg_0/reg_one_0/tmp reg_0/reg_one_0/a_28_58# 2 5 956 621
+p reg_0/reg_one_0/tmp Vdd! reg_0/reg_one_0/a_54_5# 2 10 982 568
+p reg_0/r1 Vdd! reg_0/reg_one_0/a_21_n13# 2 10 949 568
+n reg_0/r1 GND! reg_0/reg_one_0/a_21_n13# 2 5 949 551
+p reg_0/reg_one_0/tmp Vdd! reg_0/reg_one_0/a_33_32# 2 10 990 598
+n reg_0/r0 reg_0/reg_one_0/a_54_n13# shift_0/a7 2 5 988 551
+n reg_0/in7 GND! reg_0/reg_one_0/a_12_58# 2 5 940 621
+n reg_0/reg_one_0/a_33_32# reg_0/reg_one_0/a_28_58# GND! 2 5 963 621
+p reg_0/w reg_0/reg_one_0/tmp reg_0/reg_one_0/a_28_35# 2 10 956 598
+n reg_0/w reg_0/reg_one_0/a_12_58# reg_0/reg_one_0/tmp 2 5 946 621
+n reg_0/w reg_0/reg_one_0/a_16_27# GND! 2 5 981 621
+p reg_0/r0 reg_0/reg_one_0/a_4_n13# Vdd! 2 10 940 568
+n reg_0/r0 reg_0/reg_one_0/a_4_n13# GND! 2 5 940 551
+p reg_0/in7 Vdd! reg_0/reg_one_0/a_12_35# 2 10 940 598
+p reg_0/reg_one_0/a_33_32# reg_0/reg_one_0/a_28_35# Vdd! 2 10 963 598
+p reg_0/reg_one_0/a_16_27# reg_0/reg_one_0/a_12_35# reg_0/reg_one_0/tmp 2 10 946 598
+p reg_0/reg_one_0/a_21_n13# fblock_0/b7 reg_0/reg_one_0/a_39_5# 2 10 967 568
+p reg_0/w reg_0/reg_one_0/a_16_27# Vdd! 2 10 981 598
+n reg_0/reg_one_0/tmp GND! reg_0/reg_one_0/a_54_n13# 2 5 982 551
+n reg_0/reg_one_0/tmp reg_0/reg_one_0/a_39_n13# GND! 2 5 973 551
+p reg_0/reg_one_1/tmp reg_0/reg_one_1/a_39_5# Vdd! 2 10 973 744
+p reg_0/reg_one_1/a_4_n13# reg_0/reg_one_1/a_54_5# shift_0/a6 2 10 988 744
+n reg_0/reg_one_1/tmp GND! reg_0/reg_one_1/a_33_32# 2 5 990 797
+n reg_0/r1 fblock_0/b6 reg_0/reg_one_1/a_39_n13# 2 5 967 727
+n reg_0/reg_one_1/a_16_27# reg_0/reg_one_1/tmp reg_0/reg_one_1/a_28_58# 2 5 956 797
+p reg_0/reg_one_1/tmp Vdd! reg_0/reg_one_1/a_54_5# 2 10 982 744
+p reg_0/r1 Vdd! reg_0/reg_one_1/a_21_n13# 2 10 949 744
+n reg_0/r1 GND! reg_0/reg_one_1/a_21_n13# 2 5 949 727
+p reg_0/reg_one_1/tmp Vdd! reg_0/reg_one_1/a_33_32# 2 10 990 774
+n reg_0/r0 reg_0/reg_one_1/a_54_n13# shift_0/a6 2 5 988 727
+n reg_0/in6 GND! reg_0/reg_one_1/a_12_58# 2 5 940 797
+n reg_0/reg_one_1/a_33_32# reg_0/reg_one_1/a_28_58# GND! 2 5 963 797
+p reg_0/w reg_0/reg_one_1/tmp reg_0/reg_one_1/a_28_35# 2 10 956 774
+n reg_0/w reg_0/reg_one_1/a_12_58# reg_0/reg_one_1/tmp 2 5 946 797
+n reg_0/w reg_0/reg_one_1/a_16_27# GND! 2 5 981 797
+p reg_0/r0 reg_0/reg_one_1/a_4_n13# Vdd! 2 10 940 744
+n reg_0/r0 reg_0/reg_one_1/a_4_n13# GND! 2 5 940 727
+p reg_0/in6 Vdd! reg_0/reg_one_1/a_12_35# 2 10 940 774
+p reg_0/reg_one_1/a_33_32# reg_0/reg_one_1/a_28_35# Vdd! 2 10 963 774
+p reg_0/reg_one_1/a_16_27# reg_0/reg_one_1/a_12_35# reg_0/reg_one_1/tmp 2 10 946 774
+p reg_0/reg_one_1/a_21_n13# fblock_0/b6 reg_0/reg_one_1/a_39_5# 2 10 967 744
+p reg_0/w reg_0/reg_one_1/a_16_27# Vdd! 2 10 981 774
+n reg_0/reg_one_1/tmp GND! reg_0/reg_one_1/a_54_n13# 2 5 982 727
+n reg_0/reg_one_1/tmp reg_0/reg_one_1/a_39_n13# GND! 2 5 973 727
+p reg_0/reg_one_2/tmp reg_0/reg_one_2/a_39_5# Vdd! 2 10 973 920
+p reg_0/reg_one_2/a_4_n13# reg_0/reg_one_2/a_54_5# shift_0/a6 2 10 988 920
+n reg_0/reg_one_2/tmp GND! reg_0/reg_one_2/a_33_32# 2 5 990 973
+n reg_0/r1 fblock_0/b5 reg_0/reg_one_2/a_39_n13# 2 5 967 903
+n reg_0/reg_one_2/a_16_27# reg_0/reg_one_2/tmp reg_0/reg_one_2/a_28_58# 2 5 956 973
+p reg_0/reg_one_2/tmp Vdd! reg_0/reg_one_2/a_54_5# 2 10 982 920
+p reg_0/r1 Vdd! reg_0/reg_one_2/a_21_n13# 2 10 949 920
+n reg_0/r1 GND! reg_0/reg_one_2/a_21_n13# 2 5 949 903
+p reg_0/reg_one_2/tmp Vdd! reg_0/reg_one_2/a_33_32# 2 10 990 950
+n reg_0/r0 reg_0/reg_one_2/a_54_n13# shift_0/a6 2 5 988 903
+n reg_3/in5 GND! reg_0/reg_one_2/a_12_58# 2 5 940 973
+n reg_0/reg_one_2/a_33_32# reg_0/reg_one_2/a_28_58# GND! 2 5 963 973
+p reg_0/w reg_0/reg_one_2/tmp reg_0/reg_one_2/a_28_35# 2 10 956 950
+n reg_0/w reg_0/reg_one_2/a_12_58# reg_0/reg_one_2/tmp 2 5 946 973
+n reg_0/w reg_0/reg_one_2/a_16_27# GND! 2 5 981 973
+p reg_0/r0 reg_0/reg_one_2/a_4_n13# Vdd! 2 10 940 920
+n reg_0/r0 reg_0/reg_one_2/a_4_n13# GND! 2 5 940 903
+p reg_3/in5 Vdd! reg_0/reg_one_2/a_12_35# 2 10 940 950
+p reg_0/reg_one_2/a_33_32# reg_0/reg_one_2/a_28_35# Vdd! 2 10 963 950
+p reg_0/reg_one_2/a_16_27# reg_0/reg_one_2/a_12_35# reg_0/reg_one_2/tmp 2 10 946 950
+p reg_0/reg_one_2/a_21_n13# fblock_0/b5 reg_0/reg_one_2/a_39_5# 2 10 967 920
+p reg_0/w reg_0/reg_one_2/a_16_27# Vdd! 2 10 981 950
+n reg_0/reg_one_2/tmp GND! reg_0/reg_one_2/a_54_n13# 2 5 982 903
+n reg_0/reg_one_2/tmp reg_0/reg_one_2/a_39_n13# GND! 2 5 973 903
+p reg_0/reg_one_3/tmp reg_0/reg_one_3/a_39_5# Vdd! 2 10 973 1096
+p reg_0/reg_one_3/a_4_n13# reg_0/reg_one_3/a_54_5# shift_0/a4 2 10 988 1096
+n reg_0/reg_one_3/tmp GND! reg_0/reg_one_3/a_33_32# 2 5 990 1149
+n reg_0/r1 fblock_0/b4 reg_0/reg_one_3/a_39_n13# 2 5 967 1079
+n reg_0/reg_one_3/a_16_27# reg_0/reg_one_3/tmp reg_0/reg_one_3/a_28_58# 2 5 956 1149
+p reg_0/reg_one_3/tmp Vdd! reg_0/reg_one_3/a_54_5# 2 10 982 1096
+p reg_0/r1 Vdd! reg_0/reg_one_3/a_21_n13# 2 10 949 1096
+n reg_0/r1 GND! reg_0/reg_one_3/a_21_n13# 2 5 949 1079
+p reg_0/reg_one_3/tmp Vdd! reg_0/reg_one_3/a_33_32# 2 10 990 1126
+n reg_0/r0 reg_0/reg_one_3/a_54_n13# shift_0/a4 2 5 988 1079
+n reg_3/in4 GND! reg_0/reg_one_3/a_12_58# 2 5 940 1149
+n reg_0/reg_one_3/a_33_32# reg_0/reg_one_3/a_28_58# GND! 2 5 963 1149
+p reg_0/w reg_0/reg_one_3/tmp reg_0/reg_one_3/a_28_35# 2 10 956 1126
+n reg_0/w reg_0/reg_one_3/a_12_58# reg_0/reg_one_3/tmp 2 5 946 1149
+n reg_0/w reg_0/reg_one_3/a_16_27# GND! 2 5 981 1149
+p reg_0/r0 reg_0/reg_one_3/a_4_n13# Vdd! 2 10 940 1096
+n reg_0/r0 reg_0/reg_one_3/a_4_n13# GND! 2 5 940 1079
+p reg_3/in4 Vdd! reg_0/reg_one_3/a_12_35# 2 10 940 1126
+p reg_0/reg_one_3/a_33_32# reg_0/reg_one_3/a_28_35# Vdd! 2 10 963 1126
+p reg_0/reg_one_3/a_16_27# reg_0/reg_one_3/a_12_35# reg_0/reg_one_3/tmp 2 10 946 1126
+p reg_0/reg_one_3/a_21_n13# fblock_0/b4 reg_0/reg_one_3/a_39_5# 2 10 967 1096
+p reg_0/w reg_0/reg_one_3/a_16_27# Vdd! 2 10 981 1126
+n reg_0/reg_one_3/tmp GND! reg_0/reg_one_3/a_54_n13# 2 5 982 1079
+n reg_0/reg_one_3/tmp reg_0/reg_one_3/a_39_n13# GND! 2 5 973 1079
+p reg_1/reg_one_4/tmp reg_1/reg_one_4/a_39_5# Vdd! 2 10 1080 1272
+p reg_1/reg_one_4/a_4_n13# reg_1/reg_one_4/a_54_5# shift_0/a4 2 10 1095 1272
+n reg_1/reg_one_4/tmp GND! reg_1/reg_one_4/a_33_32# 2 5 1097 1325
+n reg0_r1 fblock_0/b3 reg_1/reg_one_4/a_39_n13# 2 5 1074 1255
+n reg_1/reg_one_4/a_16_27# reg_1/reg_one_4/tmp reg_1/reg_one_4/a_28_58# 2 5 1063 1325
+p reg_1/reg_one_4/tmp Vdd! reg_1/reg_one_4/a_54_5# 2 10 1089 1272
+p reg0_r1 Vdd! reg_1/reg_one_4/a_21_n13# 2 10 1056 1272
+n reg0_r1 GND! reg_1/reg_one_4/a_21_n13# 2 5 1056 1255
+p reg_1/reg_one_4/tmp Vdd! reg_1/reg_one_4/a_33_32# 2 10 1097 1302
+n reg0_r0 reg_1/reg_one_4/a_54_n13# shift_0/a4 2 5 1095 1255
+n reg_3/in3 GND! reg_1/reg_one_4/a_12_58# 2 5 1047 1325
+n reg_1/reg_one_4/a_33_32# reg_1/reg_one_4/a_28_58# GND! 2 5 1070 1325
+p reg0_w reg_1/reg_one_4/tmp reg_1/reg_one_4/a_28_35# 2 10 1063 1302
+n reg0_w reg_1/reg_one_4/a_12_58# reg_1/reg_one_4/tmp 2 5 1053 1325
+n reg0_w reg_1/reg_one_4/a_16_27# GND! 2 5 1088 1325
+p reg0_r0 reg_1/reg_one_4/a_4_n13# Vdd! 2 10 1047 1272
+n reg0_r0 reg_1/reg_one_4/a_4_n13# GND! 2 5 1047 1255
+p reg_3/in3 Vdd! reg_1/reg_one_4/a_12_35# 2 10 1047 1302
+p reg_1/reg_one_4/a_33_32# reg_1/reg_one_4/a_28_35# Vdd! 2 10 1070 1302
+p reg_1/reg_one_4/a_16_27# reg_1/reg_one_4/a_12_35# reg_1/reg_one_4/tmp 2 10 1053 1302
+p reg_1/reg_one_4/a_21_n13# fblock_0/b3 reg_1/reg_one_4/a_39_5# 2 10 1074 1272
+p reg0_w reg_1/reg_one_4/a_16_27# Vdd! 2 10 1088 1302
+n reg_1/reg_one_4/tmp GND! reg_1/reg_one_4/a_54_n13# 2 5 1089 1255
+n reg_1/reg_one_4/tmp reg_1/reg_one_4/a_39_n13# GND! 2 5 1080 1255
+p reg_1/reg_one_5/tmp reg_1/reg_one_5/a_39_5# Vdd! 2 10 1080 1448
+p reg_1/reg_one_5/a_4_n13# reg_1/reg_one_5/a_54_5# shift_0/a2 2 10 1095 1448
+n reg_1/reg_one_5/tmp GND! reg_1/reg_one_5/a_33_32# 2 5 1097 1501
+n reg0_r1 fblock_0/b2 reg_1/reg_one_5/a_39_n13# 2 5 1074 1431
+n reg_1/reg_one_5/a_16_27# reg_1/reg_one_5/tmp reg_1/reg_one_5/a_28_58# 2 5 1063 1501
+p reg_1/reg_one_5/tmp Vdd! reg_1/reg_one_5/a_54_5# 2 10 1089 1448
+p reg0_r1 Vdd! reg_1/reg_one_5/a_21_n13# 2 10 1056 1448
+n reg0_r1 GND! reg_1/reg_one_5/a_21_n13# 2 5 1056 1431
+p reg_1/reg_one_5/tmp Vdd! reg_1/reg_one_5/a_33_32# 2 10 1097 1478
+n reg0_r0 reg_1/reg_one_5/a_54_n13# shift_0/a2 2 5 1095 1431
+n reg_3/in2 GND! reg_1/reg_one_5/a_12_58# 2 5 1047 1501
+n reg_1/reg_one_5/a_33_32# reg_1/reg_one_5/a_28_58# GND! 2 5 1070 1501
+p reg0_w reg_1/reg_one_5/tmp reg_1/reg_one_5/a_28_35# 2 10 1063 1478
+n reg0_w reg_1/reg_one_5/a_12_58# reg_1/reg_one_5/tmp 2 5 1053 1501
+n reg0_w reg_1/reg_one_5/a_16_27# GND! 2 5 1088 1501
+p reg0_r0 reg_1/reg_one_5/a_4_n13# Vdd! 2 10 1047 1448
+n reg0_r0 reg_1/reg_one_5/a_4_n13# GND! 2 5 1047 1431
+p reg_3/in2 Vdd! reg_1/reg_one_5/a_12_35# 2 10 1047 1478
+p reg_1/reg_one_5/a_33_32# reg_1/reg_one_5/a_28_35# Vdd! 2 10 1070 1478
+p reg_1/reg_one_5/a_16_27# reg_1/reg_one_5/a_12_35# reg_1/reg_one_5/tmp 2 10 1053 1478
+p reg_1/reg_one_5/a_21_n13# fblock_0/b2 reg_1/reg_one_5/a_39_5# 2 10 1074 1448
+p reg0_w reg_1/reg_one_5/a_16_27# Vdd! 2 10 1088 1478
+n reg_1/reg_one_5/tmp GND! reg_1/reg_one_5/a_54_n13# 2 5 1089 1431
+n reg_1/reg_one_5/tmp reg_1/reg_one_5/a_39_n13# GND! 2 5 1080 1431
+p reg_1/reg_one_6/tmp reg_1/reg_one_6/a_39_5# Vdd! 2 10 1080 1624
+p reg_1/reg_one_6/a_4_n13# reg_1/reg_one_6/a_54_5# shift_0/a2 2 10 1095 1624
+n reg_1/reg_one_6/tmp GND! reg_1/reg_one_6/a_33_32# 2 5 1097 1677
+n reg0_r1 fblock_0/b1 reg_1/reg_one_6/a_39_n13# 2 5 1074 1607
+n reg_1/reg_one_6/a_16_27# reg_1/reg_one_6/tmp reg_1/reg_one_6/a_28_58# 2 5 1063 1677
+p reg_1/reg_one_6/tmp Vdd! reg_1/reg_one_6/a_54_5# 2 10 1089 1624
+p reg0_r1 Vdd! reg_1/reg_one_6/a_21_n13# 2 10 1056 1624
+n reg0_r1 GND! reg_1/reg_one_6/a_21_n13# 2 5 1056 1607
+p reg_1/reg_one_6/tmp Vdd! reg_1/reg_one_6/a_33_32# 2 10 1097 1654
+n reg0_r0 reg_1/reg_one_6/a_54_n13# shift_0/a2 2 5 1095 1607
+n reg_3/in1 GND! reg_1/reg_one_6/a_12_58# 2 5 1047 1677
+n reg_1/reg_one_6/a_33_32# reg_1/reg_one_6/a_28_58# GND! 2 5 1070 1677
+p reg0_w reg_1/reg_one_6/tmp reg_1/reg_one_6/a_28_35# 2 10 1063 1654
+n reg0_w reg_1/reg_one_6/a_12_58# reg_1/reg_one_6/tmp 2 5 1053 1677
+n reg0_w reg_1/reg_one_6/a_16_27# GND! 2 5 1088 1677
+p reg0_r0 reg_1/reg_one_6/a_4_n13# Vdd! 2 10 1047 1624
+n reg0_r0 reg_1/reg_one_6/a_4_n13# GND! 2 5 1047 1607
+p reg_3/in1 Vdd! reg_1/reg_one_6/a_12_35# 2 10 1047 1654
+p reg_1/reg_one_6/a_33_32# reg_1/reg_one_6/a_28_35# Vdd! 2 10 1070 1654
+p reg_1/reg_one_6/a_16_27# reg_1/reg_one_6/a_12_35# reg_1/reg_one_6/tmp 2 10 1053 1654
+p reg_1/reg_one_6/a_21_n13# fblock_0/b1 reg_1/reg_one_6/a_39_5# 2 10 1074 1624
+p reg0_w reg_1/reg_one_6/a_16_27# Vdd! 2 10 1088 1654
+n reg_1/reg_one_6/tmp GND! reg_1/reg_one_6/a_54_n13# 2 5 1089 1607
+n reg_1/reg_one_6/tmp reg_1/reg_one_6/a_39_n13# GND! 2 5 1080 1607
+p reg_1/reg_one_7/tmp reg_1/reg_one_7/a_39_5# Vdd! 2 10 1080 1800
+p reg_1/reg_one_7/a_4_n13# reg_1/reg_one_7/a_54_5# shift_0/a0 2 10 1095 1800
+n reg_1/reg_one_7/tmp GND! reg_1/reg_one_7/a_33_32# 2 5 1097 1853
+n reg0_r1 fblock_0/b0 reg_1/reg_one_7/a_39_n13# 2 5 1074 1783
+n reg_1/reg_one_7/a_16_27# reg_1/reg_one_7/tmp reg_1/reg_one_7/a_28_58# 2 5 1063 1853
+p reg_1/reg_one_7/tmp Vdd! reg_1/reg_one_7/a_54_5# 2 10 1089 1800
+p reg0_r1 Vdd! reg_1/reg_one_7/a_21_n13# 2 10 1056 1800
+n reg0_r1 GND! reg_1/reg_one_7/a_21_n13# 2 5 1056 1783
+p reg_1/reg_one_7/tmp Vdd! reg_1/reg_one_7/a_33_32# 2 10 1097 1830
+n reg0_r0 reg_1/reg_one_7/a_54_n13# shift_0/a0 2 5 1095 1783
+n reg_3/in0 GND! reg_1/reg_one_7/a_12_58# 2 5 1047 1853
+n reg_1/reg_one_7/a_33_32# reg_1/reg_one_7/a_28_58# GND! 2 5 1070 1853
+p reg0_w reg_1/reg_one_7/tmp reg_1/reg_one_7/a_28_35# 2 10 1063 1830
+n reg0_w reg_1/reg_one_7/a_12_58# reg_1/reg_one_7/tmp 2 5 1053 1853
+n reg0_w reg_1/reg_one_7/a_16_27# GND! 2 5 1088 1853
+p reg0_r0 reg_1/reg_one_7/a_4_n13# Vdd! 2 10 1047 1800
+n reg0_r0 reg_1/reg_one_7/a_4_n13# GND! 2 5 1047 1783
+p reg_3/in0 Vdd! reg_1/reg_one_7/a_12_35# 2 10 1047 1830
+p reg_1/reg_one_7/a_33_32# reg_1/reg_one_7/a_28_35# Vdd! 2 10 1070 1830
+p reg_1/reg_one_7/a_16_27# reg_1/reg_one_7/a_12_35# reg_1/reg_one_7/tmp 2 10 1053 1830
+p reg_1/reg_one_7/a_21_n13# fblock_0/b0 reg_1/reg_one_7/a_39_5# 2 10 1074 1800
+p reg0_w reg_1/reg_one_7/a_16_27# Vdd! 2 10 1088 1830
+n reg_1/reg_one_7/tmp GND! reg_1/reg_one_7/a_54_n13# 2 5 1089 1783
+n reg_1/reg_one_7/tmp reg_1/reg_one_7/a_39_n13# GND! 2 5 1080 1783
+p reg_1/reg_one_0/tmp reg_1/reg_one_0/a_39_5# Vdd! 2 10 1080 568
+p reg_1/reg_one_0/a_4_n13# reg_1/reg_one_0/a_54_5# shift_0/a7 2 10 1095 568
+n reg_1/reg_one_0/tmp GND! reg_1/reg_one_0/a_33_32# 2 5 1097 621
+n reg0_r1 fblock_0/b7 reg_1/reg_one_0/a_39_n13# 2 5 1074 551
+n reg_1/reg_one_0/a_16_27# reg_1/reg_one_0/tmp reg_1/reg_one_0/a_28_58# 2 5 1063 621
+p reg_1/reg_one_0/tmp Vdd! reg_1/reg_one_0/a_54_5# 2 10 1089 568
+p reg0_r1 Vdd! reg_1/reg_one_0/a_21_n13# 2 10 1056 568
+n reg0_r1 GND! reg_1/reg_one_0/a_21_n13# 2 5 1056 551
+p reg_1/reg_one_0/tmp Vdd! reg_1/reg_one_0/a_33_32# 2 10 1097 598
+n reg0_r0 reg_1/reg_one_0/a_54_n13# shift_0/a7 2 5 1095 551
+n reg_3/in7 GND! reg_1/reg_one_0/a_12_58# 2 5 1047 621
+n reg_1/reg_one_0/a_33_32# reg_1/reg_one_0/a_28_58# GND! 2 5 1070 621
+p reg0_w reg_1/reg_one_0/tmp reg_1/reg_one_0/a_28_35# 2 10 1063 598
+n reg0_w reg_1/reg_one_0/a_12_58# reg_1/reg_one_0/tmp 2 5 1053 621
+n reg0_w reg_1/reg_one_0/a_16_27# GND! 2 5 1088 621
+p reg0_r0 reg_1/reg_one_0/a_4_n13# Vdd! 2 10 1047 568
+n reg0_r0 reg_1/reg_one_0/a_4_n13# GND! 2 5 1047 551
+p reg_3/in7 Vdd! reg_1/reg_one_0/a_12_35# 2 10 1047 598
+p reg_1/reg_one_0/a_33_32# reg_1/reg_one_0/a_28_35# Vdd! 2 10 1070 598
+p reg_1/reg_one_0/a_16_27# reg_1/reg_one_0/a_12_35# reg_1/reg_one_0/tmp 2 10 1053 598
+p reg_1/reg_one_0/a_21_n13# fblock_0/b7 reg_1/reg_one_0/a_39_5# 2 10 1074 568
+p reg0_w reg_1/reg_one_0/a_16_27# Vdd! 2 10 1088 598
+n reg_1/reg_one_0/tmp GND! reg_1/reg_one_0/a_54_n13# 2 5 1089 551
+n reg_1/reg_one_0/tmp reg_1/reg_one_0/a_39_n13# GND! 2 5 1080 551
+p reg_1/reg_one_1/tmp reg_1/reg_one_1/a_39_5# Vdd! 2 10 1080 744
+p reg_1/reg_one_1/a_4_n13# reg_1/reg_one_1/a_54_5# shift_0/a6 2 10 1095 744
+n reg_1/reg_one_1/tmp GND! reg_1/reg_one_1/a_33_32# 2 5 1097 797
+n reg0_r1 fblock_0/b6 reg_1/reg_one_1/a_39_n13# 2 5 1074 727
+n reg_1/reg_one_1/a_16_27# reg_1/reg_one_1/tmp reg_1/reg_one_1/a_28_58# 2 5 1063 797
+p reg_1/reg_one_1/tmp Vdd! reg_1/reg_one_1/a_54_5# 2 10 1089 744
+p reg0_r1 Vdd! reg_1/reg_one_1/a_21_n13# 2 10 1056 744
+n reg0_r1 GND! reg_1/reg_one_1/a_21_n13# 2 5 1056 727
+p reg_1/reg_one_1/tmp Vdd! reg_1/reg_one_1/a_33_32# 2 10 1097 774
+n reg0_r0 reg_1/reg_one_1/a_54_n13# shift_0/a6 2 5 1095 727
+n reg_3/in6 GND! reg_1/reg_one_1/a_12_58# 2 5 1047 797
+n reg_1/reg_one_1/a_33_32# reg_1/reg_one_1/a_28_58# GND! 2 5 1070 797
+p reg0_w reg_1/reg_one_1/tmp reg_1/reg_one_1/a_28_35# 2 10 1063 774
+n reg0_w reg_1/reg_one_1/a_12_58# reg_1/reg_one_1/tmp 2 5 1053 797
+n reg0_w reg_1/reg_one_1/a_16_27# GND! 2 5 1088 797
+p reg0_r0 reg_1/reg_one_1/a_4_n13# Vdd! 2 10 1047 744
+n reg0_r0 reg_1/reg_one_1/a_4_n13# GND! 2 5 1047 727
+p reg_3/in6 Vdd! reg_1/reg_one_1/a_12_35# 2 10 1047 774
+p reg_1/reg_one_1/a_33_32# reg_1/reg_one_1/a_28_35# Vdd! 2 10 1070 774
+p reg_1/reg_one_1/a_16_27# reg_1/reg_one_1/a_12_35# reg_1/reg_one_1/tmp 2 10 1053 774
+p reg_1/reg_one_1/a_21_n13# fblock_0/b6 reg_1/reg_one_1/a_39_5# 2 10 1074 744
+p reg0_w reg_1/reg_one_1/a_16_27# Vdd! 2 10 1088 774
+n reg_1/reg_one_1/tmp GND! reg_1/reg_one_1/a_54_n13# 2 5 1089 727
+n reg_1/reg_one_1/tmp reg_1/reg_one_1/a_39_n13# GND! 2 5 1080 727
+p reg_1/reg_one_2/tmp reg_1/reg_one_2/a_39_5# Vdd! 2 10 1080 920
+p reg_1/reg_one_2/a_4_n13# reg_1/reg_one_2/a_54_5# shift_0/a6 2 10 1095 920
+n reg_1/reg_one_2/tmp GND! reg_1/reg_one_2/a_33_32# 2 5 1097 973
+n reg0_r1 fblock_0/b5 reg_1/reg_one_2/a_39_n13# 2 5 1074 903
+n reg_1/reg_one_2/a_16_27# reg_1/reg_one_2/tmp reg_1/reg_one_2/a_28_58# 2 5 1063 973
+p reg_1/reg_one_2/tmp Vdd! reg_1/reg_one_2/a_54_5# 2 10 1089 920
+p reg0_r1 Vdd! reg_1/reg_one_2/a_21_n13# 2 10 1056 920
+n reg0_r1 GND! reg_1/reg_one_2/a_21_n13# 2 5 1056 903
+p reg_1/reg_one_2/tmp Vdd! reg_1/reg_one_2/a_33_32# 2 10 1097 950
+n reg0_r0 reg_1/reg_one_2/a_54_n13# shift_0/a6 2 5 1095 903
+n reg_3/in5 GND! reg_1/reg_one_2/a_12_58# 2 5 1047 973
+n reg_1/reg_one_2/a_33_32# reg_1/reg_one_2/a_28_58# GND! 2 5 1070 973
+p reg0_w reg_1/reg_one_2/tmp reg_1/reg_one_2/a_28_35# 2 10 1063 950
+n reg0_w reg_1/reg_one_2/a_12_58# reg_1/reg_one_2/tmp 2 5 1053 973
+n reg0_w reg_1/reg_one_2/a_16_27# GND! 2 5 1088 973
+p reg0_r0 reg_1/reg_one_2/a_4_n13# Vdd! 2 10 1047 920
+n reg0_r0 reg_1/reg_one_2/a_4_n13# GND! 2 5 1047 903
+p reg_3/in5 Vdd! reg_1/reg_one_2/a_12_35# 2 10 1047 950
+p reg_1/reg_one_2/a_33_32# reg_1/reg_one_2/a_28_35# Vdd! 2 10 1070 950
+p reg_1/reg_one_2/a_16_27# reg_1/reg_one_2/a_12_35# reg_1/reg_one_2/tmp 2 10 1053 950
+p reg_1/reg_one_2/a_21_n13# fblock_0/b5 reg_1/reg_one_2/a_39_5# 2 10 1074 920
+p reg0_w reg_1/reg_one_2/a_16_27# Vdd! 2 10 1088 950
+n reg_1/reg_one_2/tmp GND! reg_1/reg_one_2/a_54_n13# 2 5 1089 903
+n reg_1/reg_one_2/tmp reg_1/reg_one_2/a_39_n13# GND! 2 5 1080 903
+p reg_1/reg_one_3/tmp reg_1/reg_one_3/a_39_5# Vdd! 2 10 1080 1096
+p reg_1/reg_one_3/a_4_n13# reg_1/reg_one_3/a_54_5# shift_0/a4 2 10 1095 1096
+n reg_1/reg_one_3/tmp GND! reg_1/reg_one_3/a_33_32# 2 5 1097 1149
+n reg0_r1 fblock_0/b4 reg_1/reg_one_3/a_39_n13# 2 5 1074 1079
+n reg_1/reg_one_3/a_16_27# reg_1/reg_one_3/tmp reg_1/reg_one_3/a_28_58# 2 5 1063 1149
+p reg_1/reg_one_3/tmp Vdd! reg_1/reg_one_3/a_54_5# 2 10 1089 1096
+p reg0_r1 Vdd! reg_1/reg_one_3/a_21_n13# 2 10 1056 1096
+n reg0_r1 GND! reg_1/reg_one_3/a_21_n13# 2 5 1056 1079
+p reg_1/reg_one_3/tmp Vdd! reg_1/reg_one_3/a_33_32# 2 10 1097 1126
+n reg0_r0 reg_1/reg_one_3/a_54_n13# shift_0/a4 2 5 1095 1079
+n reg_3/in4 GND! reg_1/reg_one_3/a_12_58# 2 5 1047 1149
+n reg_1/reg_one_3/a_33_32# reg_1/reg_one_3/a_28_58# GND! 2 5 1070 1149
+p reg0_w reg_1/reg_one_3/tmp reg_1/reg_one_3/a_28_35# 2 10 1063 1126
+n reg0_w reg_1/reg_one_3/a_12_58# reg_1/reg_one_3/tmp 2 5 1053 1149
+n reg0_w reg_1/reg_one_3/a_16_27# GND! 2 5 1088 1149
+p reg0_r0 reg_1/reg_one_3/a_4_n13# Vdd! 2 10 1047 1096
+n reg0_r0 reg_1/reg_one_3/a_4_n13# GND! 2 5 1047 1079
+p reg_3/in4 Vdd! reg_1/reg_one_3/a_12_35# 2 10 1047 1126
+p reg_1/reg_one_3/a_33_32# reg_1/reg_one_3/a_28_35# Vdd! 2 10 1070 1126
+p reg_1/reg_one_3/a_16_27# reg_1/reg_one_3/a_12_35# reg_1/reg_one_3/tmp 2 10 1053 1126
+p reg_1/reg_one_3/a_21_n13# fblock_0/b4 reg_1/reg_one_3/a_39_5# 2 10 1074 1096
+p reg0_w reg_1/reg_one_3/a_16_27# Vdd! 2 10 1088 1126
+n reg_1/reg_one_3/tmp GND! reg_1/reg_one_3/a_54_n13# 2 5 1089 1079
+n reg_1/reg_one_3/tmp reg_1/reg_one_3/a_39_n13# GND! 2 5 1080 1079
+n 4nor2_0/out GND! staticizer_0/staticizer_one_0/a_77_n45# 2 5 133 1787
+p staticizer_0/staticizer_one_0/a_77_n45# staticizer_0/staticizer_one_0/a_95_n27# reg_3/in0 2 10 157 1805
+n reg_3/in0 staticizer_0/staticizer_one_0/a_60_n45# GND! 2 5 124 1787
+n 4nor2_0/out staticizer_0/staticizer_one_0/a_95_n45# reg_3/in0 2 5 157 1787
+p staticizer_0/staticizer_one_0/a_60_n45# Vdd! staticizer_0/staticizer_one_0/a_95_n27# 2 10 151 1805
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_0/a_77_n45# 2 10 133 1805
+p reg_3/in0 staticizer_0/staticizer_one_0/a_60_n45# Vdd! 2 10 124 1805
+n staticizer_0/staticizer_one_0/a_60_n45# GND! staticizer_0/staticizer_one_0/a_95_n45# 2 5 151 1787
+n 4nor2_0/out GND! staticizer_0/staticizer_one_1/a_77_n45# 2 5 133 1611
+p staticizer_0/staticizer_one_1/a_77_n45# staticizer_0/staticizer_one_1/a_95_n27# reg_3/in1 2 10 157 1629
+n reg_3/in1 staticizer_0/staticizer_one_1/a_60_n45# GND! 2 5 124 1611
+n 4nor2_0/out staticizer_0/staticizer_one_1/a_95_n45# reg_3/in1 2 5 157 1611
+p staticizer_0/staticizer_one_1/a_60_n45# Vdd! staticizer_0/staticizer_one_1/a_95_n27# 2 10 151 1629
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_1/a_77_n45# 2 10 133 1629
+p reg_3/in1 staticizer_0/staticizer_one_1/a_60_n45# Vdd! 2 10 124 1629
+n staticizer_0/staticizer_one_1/a_60_n45# GND! staticizer_0/staticizer_one_1/a_95_n45# 2 5 151 1611
+n 4nor2_0/out GND! staticizer_0/staticizer_one_2/a_77_n45# 2 5 133 1435
+p staticizer_0/staticizer_one_2/a_77_n45# staticizer_0/staticizer_one_2/a_95_n27# reg_3/in2 2 10 157 1453
+n reg_3/in2 staticizer_0/staticizer_one_2/a_60_n45# GND! 2 5 124 1435
+n 4nor2_0/out staticizer_0/staticizer_one_2/a_95_n45# reg_3/in2 2 5 157 1435
+p staticizer_0/staticizer_one_2/a_60_n45# Vdd! staticizer_0/staticizer_one_2/a_95_n27# 2 10 151 1453
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_2/a_77_n45# 2 10 133 1453
+p reg_3/in2 staticizer_0/staticizer_one_2/a_60_n45# Vdd! 2 10 124 1453
+n staticizer_0/staticizer_one_2/a_60_n45# GND! staticizer_0/staticizer_one_2/a_95_n45# 2 5 151 1435
+n 4nor2_0/out GND! staticizer_0/staticizer_one_3/a_77_n45# 2 5 133 1259
+p staticizer_0/staticizer_one_3/a_77_n45# staticizer_0/staticizer_one_3/a_95_n27# reg_3/in3 2 10 157 1277
+n reg_3/in3 staticizer_0/staticizer_one_3/a_60_n45# GND! 2 5 124 1259
+n 4nor2_0/out staticizer_0/staticizer_one_3/a_95_n45# reg_3/in3 2 5 157 1259
+p staticizer_0/staticizer_one_3/a_60_n45# Vdd! staticizer_0/staticizer_one_3/a_95_n27# 2 10 151 1277
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_3/a_77_n45# 2 10 133 1277
+p reg_3/in3 staticizer_0/staticizer_one_3/a_60_n45# Vdd! 2 10 124 1277
+n staticizer_0/staticizer_one_3/a_60_n45# GND! staticizer_0/staticizer_one_3/a_95_n45# 2 5 151 1259
+n 4nor2_0/out GND! staticizer_0/staticizer_one_4/a_77_n45# 2 5 133 1083
+p staticizer_0/staticizer_one_4/a_77_n45# staticizer_0/staticizer_one_4/a_95_n27# reg_3/in4 2 10 157 1101
+n reg_3/in4 staticizer_0/staticizer_one_4/a_60_n45# GND! 2 5 124 1083
+n 4nor2_0/out staticizer_0/staticizer_one_4/a_95_n45# reg_3/in4 2 5 157 1083
+p staticizer_0/staticizer_one_4/a_60_n45# Vdd! staticizer_0/staticizer_one_4/a_95_n27# 2 10 151 1101
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_4/a_77_n45# 2 10 133 1101
+p reg_3/in4 staticizer_0/staticizer_one_4/a_60_n45# Vdd! 2 10 124 1101
+n staticizer_0/staticizer_one_4/a_60_n45# GND! staticizer_0/staticizer_one_4/a_95_n45# 2 5 151 1083
+n 4nor2_0/out GND! staticizer_0/staticizer_one_5/a_77_n45# 2 5 133 907
+p staticizer_0/staticizer_one_5/a_77_n45# staticizer_0/staticizer_one_5/a_95_n27# reg_3/in5 2 10 157 925
+n reg_3/in5 staticizer_0/staticizer_one_5/a_60_n45# GND! 2 5 124 907
+n 4nor2_0/out staticizer_0/staticizer_one_5/a_95_n45# reg_3/in5 2 5 157 907
+p staticizer_0/staticizer_one_5/a_60_n45# Vdd! staticizer_0/staticizer_one_5/a_95_n27# 2 10 151 925
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_5/a_77_n45# 2 10 133 925
+p reg_3/in5 staticizer_0/staticizer_one_5/a_60_n45# Vdd! 2 10 124 925
+n staticizer_0/staticizer_one_5/a_60_n45# GND! staticizer_0/staticizer_one_5/a_95_n45# 2 5 151 907
+n 4nor2_0/out GND! staticizer_0/staticizer_one_6/a_77_n45# 2 5 133 731
+p staticizer_0/staticizer_one_6/a_77_n45# staticizer_0/staticizer_one_6/a_95_n27# reg_3/in6 2 10 157 749
+n reg_3/in6 staticizer_0/staticizer_one_6/a_60_n45# GND! 2 5 124 731
+n 4nor2_0/out staticizer_0/staticizer_one_6/a_95_n45# reg_3/in6 2 5 157 731
+p staticizer_0/staticizer_one_6/a_60_n45# Vdd! staticizer_0/staticizer_one_6/a_95_n27# 2 10 151 749
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_6/a_77_n45# 2 10 133 749
+p reg_3/in6 staticizer_0/staticizer_one_6/a_60_n45# Vdd! 2 10 124 749
+n staticizer_0/staticizer_one_6/a_60_n45# GND! staticizer_0/staticizer_one_6/a_95_n45# 2 5 151 731
+n 4nor2_0/out GND! staticizer_0/staticizer_one_7/a_77_n45# 2 5 133 555
+p staticizer_0/staticizer_one_7/a_77_n45# staticizer_0/staticizer_one_7/a_95_n27# reg_3/in7 2 10 157 573
+n reg_3/in7 staticizer_0/staticizer_one_7/a_60_n45# GND! 2 5 124 555
+n 4nor2_0/out staticizer_0/staticizer_one_7/a_95_n45# reg_3/in7 2 5 157 555
+p staticizer_0/staticizer_one_7/a_60_n45# Vdd! staticizer_0/staticizer_one_7/a_95_n27# 2 10 151 573
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_7/a_77_n45# 2 10 133 573
+p reg_3/in7 staticizer_0/staticizer_one_7/a_60_n45# Vdd! 2 10 124 573
+n staticizer_0/staticizer_one_7/a_60_n45# GND! staticizer_0/staticizer_one_7/a_95_n45# 2 5 151 555
+C rfb GND! 4.51
+C Vdd! fb_g2 2.46
+C os_u GND! 4.46
+C Vdd! fblock_0/b4 2.07
+C Vdd! reg_0/w 3.19
+C inv2_0/out GND! 5.14
+C Vdd! os_s 5.15
+C GND! fb_g1 2.74
+C GND! ros 4.81
+C Vdd! reg_3/in7 2.44
+C Vdd! rd 15.35
+C reg1_w Vdd! 3.19
+C Vdd! as_cin 2.51
+C Vdd! reg0_r1 22.12
+C reg_0/r1 reg_0/r0 2.42
+C shift_0/a6 GND! 8.40
+C Vdd! reg_3/in2 2.84
+C fblock_0/b1 Vdd! 2.07
+C fblock_0/b3 GND! 5.46
+C reg0_r0 GND! 6.30
+C Vdd! reg_3/in6 2.61
+C reg_3/r1 Vdd! 22.12
+C shift_0/a0 GND! 4.14
+C Vdd! reg0_w 3.19
+C Vdd! reg_3/in5 2.73
+C Vdd! reg1_r1 22.12
+C reg_3/r0 GND! 6.30
+C Vdd! reg_3/in3 2.73
+C reg_3/w GND! 8.66
+C reg1_r0 GND! 6.30
+C rfb ras 11.68
+C reg_3/in1 Vdd! 2.73
+C fb_g3 Vdd! 2.42
+C shift_0/a2 GND! 8.48
+C 4nor2_0/out GND! 5.72
+C Vdd! os_u 5.72
+C GND! ld 4.68
+C Vdd! fb_g1 2.87
+C GND! shift_0/a7 3.80
+C addsub_0/addsub_one_4/cin GND! 2.25
+C Vdd! shift_0/a6 11.66
+C reg0_r1 reg0_r0 2.42
+C fblock_0/b5 GND! 5.46
+C shift_0/a4 GND! 8.28
+C Vdd! fblock_0/b3 2.07
+C fblock_0/b6 GND! 5.46
+C Vdd! shift_0/a0 5.17
+C reg_0/r1 GND! 2.45
+C GND! addsub_0/addsub_one_5/cin 2.24
+C fblock_0/b0 GND! 5.30
+C Vdd! reg_3/in0 2.74
+C fblock_0/b7 GND! 5.33
+C fblock_0/b2 GND! 5.46
+C reg_3/r1 reg_3/r0 2.42
+C rfb ros 5.73
+C reg_3/w Vdd! 3.02
+C GND! fb_g2 2.48
+C GND! addsub_0/addsub_one_3/cin 2.24
+C GND! fblock_0/b4 5.46
+C reg_0/w GND! 8.83
+C os_s GND! 4.32
+C Vdd! shift_0/a2 11.53
+C rd GND! 4.77
+C reg1_w GND! 8.83
+C addsub_0/addsub_one_6/cin GND! 2.25
+C Vdd! reg_3/in4 2.95
+C GND! as_cin 17.43
+C ras GND! 4.64
+C reg0_r1 GND! 2.45
+C addsub_0/addsub_one_2/cin GND! 2.25
+C GND! reg_3/in2 2.14
+C reg1_r1 reg1_r0 2.42
+C Vdd! ld 15.05
+C Vdd! shift_0/a7 4.55
+C fblock_0/b1 GND! 5.46
+C Vdd! GND! 107.96
+C Vdd! fb_g0 2.78
+C reg_3/r1 GND! 2.45
+C Vdd! fblock_0/b5 2.07
+C Vdd! shift_0/a4 11.35
+C Vdd! fblock_0/b6 2.07
+C reg0_w GND! 8.83
+C reg1_r1 GND! 2.45
+C Vdd! reg_0/r1 22.12
+C Vdd! fblock_0/b0 2.01
+C GND! addsub_0/addsub_one_1/cin 2.26
+C fb_g3 GND! 2.74
+C addsub_0/c7 GND! 2.22
+C reg_0/r0 GND! 6.29
+C Vdd! fblock_0/b2 2.07
+R staticizer_0/staticizer_one_7/a_95_n27# 20
+R staticizer_0/staticizer_one_7/a_60_n45# 153
+R 4nor2_0/out 2583
+R staticizer_0/staticizer_one_7/a_77_n45# 100
+R staticizer_0/staticizer_one_6/a_95_n27# 20
+R staticizer_0/staticizer_one_6/a_60_n45# 153
+R staticizer_0/staticizer_one_6/a_77_n45# 100
+R staticizer_0/staticizer_one_5/a_95_n27# 20
+R staticizer_0/staticizer_one_5/a_60_n45# 153
+R staticizer_0/staticizer_one_5/a_77_n45# 100
+R staticizer_0/staticizer_one_4/a_95_n27# 20
+R staticizer_0/staticizer_one_4/a_60_n45# 153
+R staticizer_0/staticizer_one_4/a_77_n45# 100
+R staticizer_0/staticizer_one_3/a_95_n27# 20
+R staticizer_0/staticizer_one_3/a_60_n45# 153
+R staticizer_0/staticizer_one_3/a_77_n45# 100
+R staticizer_0/staticizer_one_2/a_95_n27# 20
+R staticizer_0/staticizer_one_2/a_60_n45# 153
+R staticizer_0/staticizer_one_2/a_77_n45# 100
+R staticizer_0/staticizer_one_1/a_95_n27# 20
+R staticizer_0/staticizer_one_1/a_60_n45# 153
+R staticizer_0/staticizer_one_1/a_77_n45# 100
+R staticizer_0/staticizer_one_0/a_95_n27# 20
+R staticizer_0/staticizer_one_0/a_60_n45# 153
+R staticizer_0/staticizer_one_0/a_77_n45# 100
+R reg_1/reg_one_3/a_54_5# 20
+R reg_1/reg_one_3/a_39_5# 20
+R reg_1/reg_one_3/a_4_n13# 101
+R reg_1/reg_one_3/a_21_n13# 100
+R reg_1/reg_one_3/a_28_35# 16
+R reg_1/reg_one_3/a_12_35# 20
+R reg_1/reg_one_3/tmp 560
+R reg_1/reg_one_3/a_33_32# 153
+R reg_1/reg_one_3/a_16_27# 212
+R reg_1/reg_one_2/a_54_5# 20
+R reg_1/reg_one_2/a_39_5# 20
+R reg_1/reg_one_2/a_4_n13# 101
+R reg_1/reg_one_2/a_21_n13# 100
+R reg_1/reg_one_2/a_28_35# 16
+R reg_1/reg_one_2/a_12_35# 20
+R reg_1/reg_one_2/tmp 560
+R reg_1/reg_one_2/a_33_32# 153
+R reg_1/reg_one_2/a_16_27# 212
+R reg_1/reg_one_1/a_54_5# 20
+R reg_1/reg_one_1/a_39_5# 20
+R reg_1/reg_one_1/a_4_n13# 101
+R reg_1/reg_one_1/a_21_n13# 100
+R reg_1/reg_one_1/a_28_35# 16
+R reg_1/reg_one_1/a_12_35# 20
+R reg_1/reg_one_1/tmp 560
+R reg_1/reg_one_1/a_33_32# 153
+R reg_1/reg_one_1/a_16_27# 212
+R reg_1/reg_one_0/a_54_5# 20
+R reg_1/reg_one_0/a_39_5# 20
+R reg_1/reg_one_0/a_4_n13# 101
+R reg_1/reg_one_0/a_21_n13# 100
+R reg0_r0 3987
+R reg0_r1 2935
+R reg_1/reg_one_0/a_28_35# 16
+R reg_1/reg_one_0/a_12_35# 20
+R reg_1/reg_one_0/tmp 560
+R reg_1/reg_one_0/a_33_32# 153
+R reg_1/reg_one_0/a_16_27# 212
+R reg0_w 5531
+R reg_1/reg_one_7/a_54_5# 20
+R reg_1/reg_one_7/a_39_5# 20
+R reg_1/reg_one_7/a_4_n13# 101
+R reg_1/reg_one_7/a_21_n13# 100
+R reg_1/reg_one_7/a_28_35# 16
+R reg_1/reg_one_7/a_12_35# 20
+R reg_1/reg_one_7/tmp 560
+R reg_1/reg_one_7/a_33_32# 153
+R reg_1/reg_one_7/a_16_27# 212
+R reg_1/reg_one_6/a_54_5# 20
+R reg_1/reg_one_6/a_39_5# 20
+R reg_1/reg_one_6/a_4_n13# 101
+R reg_1/reg_one_6/a_21_n13# 100
+R reg_1/reg_one_6/a_28_35# 16
+R reg_1/reg_one_6/a_12_35# 20
+R reg_1/reg_one_6/tmp 560
+R reg_1/reg_one_6/a_33_32# 153
+R reg_1/reg_one_6/a_16_27# 212
+R reg_1/reg_one_5/a_54_5# 20
+R reg_1/reg_one_5/a_39_5# 20
+R reg_1/reg_one_5/a_4_n13# 101
+R reg_1/reg_one_5/a_21_n13# 100
+R reg_1/reg_one_5/a_28_35# 16
+R reg_1/reg_one_5/a_12_35# 20
+R reg_1/reg_one_5/tmp 560
+R reg_1/reg_one_5/a_33_32# 153
+R reg_1/reg_one_5/a_16_27# 212
+R reg_1/reg_one_4/a_54_5# 20
+R reg_1/reg_one_4/a_39_5# 20
+R reg_1/reg_one_4/a_4_n13# 101
+R reg_1/reg_one_4/a_21_n13# 100
+R reg_1/reg_one_4/a_28_35# 16
+R reg_1/reg_one_4/a_12_35# 20
+R reg_1/reg_one_4/tmp 560
+R reg_1/reg_one_4/a_33_32# 153
+R reg_1/reg_one_4/a_16_27# 212
+R reg_0/reg_one_3/a_54_5# 20
+R reg_0/reg_one_3/a_39_5# 20
+R reg_0/reg_one_3/a_4_n13# 101
+R reg_0/reg_one_3/a_21_n13# 100
+R reg_0/reg_one_3/a_28_35# 16
+R reg_0/reg_one_3/a_12_35# 20
+R reg_0/reg_one_3/tmp 560
+R reg_0/reg_one_3/a_33_32# 153
+R reg_0/reg_one_3/a_16_27# 212
+R reg_0/reg_one_2/a_54_5# 20
+R reg_0/reg_one_2/a_39_5# 20
+R reg_0/reg_one_2/a_4_n13# 101
+R reg_0/reg_one_2/a_21_n13# 100
+R reg_0/reg_one_2/a_28_35# 16
+R reg_0/reg_one_2/a_12_35# 20
+R reg_0/reg_one_2/tmp 560
+R reg_0/reg_one_2/a_33_32# 153
+R reg_0/reg_one_2/a_16_27# 212
+R reg_0/reg_one_1/a_54_5# 20
+R reg_0/reg_one_1/a_39_5# 20
+R fblock_0/b6 1566
+R reg_0/reg_one_1/a_4_n13# 101
+R reg_0/reg_one_1/a_21_n13# 100
+R reg_0/reg_one_1/a_28_35# 16
+R reg_0/reg_one_1/a_12_35# 20
+R reg_0/reg_one_1/tmp 560
+R reg_0/reg_one_1/a_33_32# 153
+R reg_0/reg_one_1/a_16_27# 212
+R reg_0/in6 129
+R reg_0/reg_one_0/a_54_5# 20
+R reg_0/reg_one_0/a_39_5# 20
+R reg_0/reg_one_0/a_4_n13# 101
+R reg_0/reg_one_0/a_21_n13# 100
+R reg_0/r0 3987
+R reg_0/r1 2935
+R reg_0/reg_one_0/a_28_35# 16
+R reg_0/reg_one_0/a_12_35# 20
+R reg_0/reg_one_0/tmp 560
+R reg_0/reg_one_0/a_33_32# 153
+R reg_0/reg_one_0/a_16_27# 212
+R reg_0/in7 129
+R reg_0/w 5531
+R reg_0/reg_one_7/a_54_5# 20
+R reg_0/reg_one_7/a_39_5# 20
+R reg_0/reg_one_7/a_4_n13# 101
+R reg_0/reg_one_7/a_21_n13# 100
+R reg_0/reg_one_7/a_28_35# 16
+R reg_0/reg_one_7/a_12_35# 20
+R reg_0/reg_one_7/tmp 560
+R reg_0/reg_one_7/a_33_32# 153
+R reg_0/reg_one_7/a_16_27# 212
+R reg_0/reg_one_6/a_54_5# 20
+R reg_0/reg_one_6/a_39_5# 20
+R reg_0/reg_one_6/a_4_n13# 101
+R reg_0/reg_one_6/a_21_n13# 100
+R reg_0/reg_one_6/a_28_35# 16
+R reg_0/reg_one_6/a_12_35# 20
+R reg_0/reg_one_6/tmp 560
+R reg_0/reg_one_6/a_33_32# 153
+R reg_0/reg_one_6/a_16_27# 212
+R reg_0/reg_one_5/a_54_5# 20
+R reg_0/reg_one_5/a_39_5# 20
+R fblock_0/b2 1566
+R reg_0/reg_one_5/a_4_n13# 101
+R reg_0/reg_one_5/a_21_n13# 100
+R reg_0/reg_one_5/a_28_35# 16
+R reg_0/reg_one_5/a_12_35# 20
+R reg_0/reg_one_5/tmp 560
+R reg_0/reg_one_5/a_33_32# 153
+R reg_0/reg_one_5/a_16_27# 212
+R reg_0/reg_one_4/a_54_5# 20
+R reg_0/reg_one_4/a_39_5# 20
+R fblock_0/b3 1560
+R reg_0/reg_one_4/a_4_n13# 101
+R reg_0/reg_one_4/a_21_n13# 100
+R reg_0/reg_one_4/a_28_35# 16
+R reg_0/reg_one_4/a_12_35# 20
+R reg_0/reg_one_4/tmp 560
+R reg_0/reg_one_4/a_33_32# 153
+R reg_0/reg_one_4/a_16_27# 212
+R shift_0/o5 217
+R shift_0/shift_one_5/inv_2/out 88
+R shift_0/shift_one_5/inv_3/in 151
+R shift_0/shift_one_5/2mux_nr_1/in1 90
+R shift_0/shift_one_5/2mux_nr_1/a_n17_n11# 192
+R shift_0/shift_one_5/inv_1/out 89
+R shift_0/shift_one_5/inv_0/out 89
+R shift_0/shift_one_5/2mux_nr_0/a_n17_n11# 192
+R shift_0/o3 217
+R shift_0/shift_one_3/inv_2/out 88
+R shift_0/shift_one_3/inv_3/in 151
+R shift_0/shift_one_3/2mux_nr_1/in1 90
+R shift_0/shift_one_3/2mux_nr_1/a_n17_n11# 192
+R shift_0/shift_one_3/inv_1/out 89
+R shift_0/shift_one_3/inv_0/out 89
+R shift_0/shift_one_3/2mux_nr_0/a_n17_n11# 192
+R shift_0/o4 217
+R shift_0/shift_one_4/inv_2/out 88
+C shift_0/a4 GND 2.09
+R shift_0/a4 6048
+R shift_0/shift_one_4/inv_3/in 151
+R shift_0/shift_one_4/2mux_nr_1/in1 90
+R shift_0/shift_one_4/2mux_nr_1/a_n17_n11# 192
+R shift_0/shift_one_4/inv_1/out 89
+R shift_0/shift_one_4/inv_0/out 89
+R shift_0/shift_one_4/2mux_nr_0/a_n17_n11# 192
+R shift_0/o2 192
+R shift_0/shift_one_2/inv_2/out 88
+R shift_0/a2 6085
+R shift_0/shift_one_2/inv_3/in 151
+R shift_0/shift_one_2/2mux_nr_1/in1 90
+R shift_0/shift_one_2/2mux_nr_1/a_n17_n11# 192
+R shift_0/shift_one_2/inv_1/out 89
+R shift_0/shift_one_2/inv_0/out 89
+R shift_0/shift_one_2/2mux_nr_0/a_n17_n11# 192
+R shift_0/o1 217
+R shift_0/shift_one_1/inv_2/out 88
+R shift_0/a0 2836
+R shift_0/shift_one_1/inv_3/in 151
+R shift_0/shift_one_1/2mux_nr_1/in1 90
+R shift_0/shift_one_1/2mux_nr_1/a_n17_n11# 192
+R shift_0/shift_one_1/inv_1/out 89
+R shift_0/shift_one_1/inv_0/out 89
+R shift_0/shift_one_1/2mux_nr_0/a_n17_n11# 192
+R shift_0/o0 217
+R shift_0/shift_one_0/inv_2/out 88
+R shift_0/shift_one_0/inv_3/in 151
+R shift_0/shift_one_0/2mux_nr_1/in1 90
+R shift_0/shift_one_0/2mux_nr_1/a_n17_n11# 192
+R shift_0/shift_one_0/inv_1/out 89
+R shift_0/shift_one_0/inv_0/out 89
+R shift_0/shift_one_0/2mux_nr_0/a_n17_n11# 192
+R shift_0/o7 217
+R shift_0/shift_one_7/inv_2/out 88
+R shift_0/a7 2840
+R GND! 23565
+R shift_0/shift_one_7/inv_3/in 151
+R shift_0/shift_one_7/2mux_nr_1/in1 90
+R shift_0/shift_one_7/2mux_nr_1/a_n17_n11# 192
+R os_s 4117
+R shift_0/shift_one_7/inv_1/out 89
+R shift_0/shift_one_7/inv_0/out 89
+R shift_0/shift_one_7/2mux_nr_0/a_n17_n11# 192
+R os_u 4114
+R shift_0/o6 189
+R shift_0/shift_one_6/inv_2/out 88
+C shift_0/a6 GND 2.30
+R shift_0/a6 5999
+R shift_0/shift_one_6/inv_3/in 151
+R shift_0/shift_one_6/2mux_nr_1/in1 90
+R shift_0/shift_one_6/2mux_nr_1/a_n17_n11# 192
+R shift_0/shift_one_6/inv_1/out 89
+R shift_0/shift_one_6/inv_0/out 89
+R shift_0/shift_one_6/2mux_nr_0/a_n17_n11# 192
+R addsub_0/addsub_one_7/a_89_n41# 45
+R addsub_0/addsub_one_7/a_11_n41# 45
+R addsub_0/cout 22
+R latch_2/in7 221
+R addsub_0/addsub_one_7/a_89_9# 47
+R addsub_0/addsub_one_7/a_72_9# 20
+R addsub_0/addsub_one_7/a_66_9# 20
+R addsub_0/addsub_one_7/a_29_9# 20
+R addsub_0/addsub_one_7/a_11_9# 48
+R addsub_0/addsub_one_7/a_78_n41# 280
+R addsub_0/addsub_one_7/a_35_n41# 554
+R addsub_0/c7 1469
+R addsub_0/xor_7/out 1246
+R addsub_0/addsub_one_6/a_89_n41# 45
+R addsub_0/addsub_one_6/a_11_n41# 45
+R latch_2/in6 203
+R addsub_0/addsub_one_6/a_89_9# 47
+R addsub_0/addsub_one_6/a_72_9# 20
+R addsub_0/addsub_one_6/a_66_9# 20
+R addsub_0/addsub_one_6/a_29_9# 20
+R addsub_0/addsub_one_6/a_11_9# 48
+R addsub_0/addsub_one_6/a_78_n41# 280
+R addsub_0/addsub_one_6/a_35_n41# 554
+R addsub_0/addsub_one_6/cin 1473
+R addsub_0/xor_6/out 1246
+R addsub_0/addsub_one_5/a_89_n41# 45
+R addsub_0/addsub_one_5/a_11_n41# 45
+R latch_2/in5 221
+R addsub_0/addsub_one_5/a_89_9# 47
+R addsub_0/addsub_one_5/a_72_9# 20
+R addsub_0/addsub_one_5/a_66_9# 20
+R addsub_0/addsub_one_5/a_29_9# 20
+R addsub_0/addsub_one_5/a_11_9# 48
+R addsub_0/addsub_one_5/a_78_n41# 280
+R addsub_0/addsub_one_5/a_35_n41# 554
+R addsub_0/addsub_one_5/cin 1469
+R addsub_0/xor_7/a_69_n42# 11
+R addsub_0/xor_7/a_61_n1# 113
+R addsub_0/xor_7/a_61_n31# 219
+R addsub_0/xor_7/a_89_n31# 221
+R as_cin 4609
+R addsub_0/addsub_one_4/a_89_n41# 45
+R addsub_0/addsub_one_4/a_11_n41# 45
+R latch_2/in4 221
+R addsub_0/addsub_one_4/a_89_9# 47
+R addsub_0/addsub_one_4/a_72_9# 20
+R addsub_0/addsub_one_4/a_66_9# 20
+R addsub_0/addsub_one_4/a_29_9# 20
+R addsub_0/addsub_one_4/a_11_9# 48
+R addsub_0/addsub_one_4/a_78_n41# 280
+R addsub_0/addsub_one_4/a_35_n41# 554
+R addsub_0/addsub_one_4/cin 1473
+R addsub_0/xor_6/a_69_n42# 11
+R addsub_0/xor_6/a_61_n1# 113
+R addsub_0/xor_6/a_61_n31# 219
+R addsub_0/xor_6/a_89_n31# 221
+R addsub_0/addsub_one_3/a_89_n41# 45
+R addsub_0/addsub_one_3/a_11_n41# 45
+R latch_2/in3 221
+R addsub_0/addsub_one_3/a_89_9# 47
+R addsub_0/addsub_one_3/a_72_9# 20
+R addsub_0/addsub_one_3/a_66_9# 20
+R addsub_0/addsub_one_3/a_29_9# 20
+R addsub_0/addsub_one_3/a_11_9# 48
+R addsub_0/addsub_one_3/a_78_n41# 280
+R addsub_0/addsub_one_3/a_35_n41# 554
+R addsub_0/addsub_one_3/cin 1478
+R addsub_0/xor_3/out 1246
+R addsub_0/addsub_one_2/a_89_n41# 45
+R addsub_0/addsub_one_2/a_11_n41# 45
+R latch_2/in2 221
+R addsub_0/addsub_one_2/a_89_9# 47
+R addsub_0/addsub_one_2/a_72_9# 20
+R addsub_0/addsub_one_2/a_66_9# 20
+R addsub_0/addsub_one_2/a_29_9# 20
+R addsub_0/addsub_one_2/a_11_9# 48
+R addsub_0/addsub_one_2/a_78_n41# 280
+R addsub_0/addsub_one_2/a_35_n41# 554
+R addsub_0/addsub_one_2/cin 1473
+R addsub_0/xor_2/out 1246
+R addsub_0/xor_5/a_69_n42# 11
+R addsub_0/xor_5/out 1246
+R addsub_0/xor_5/a_61_n1# 113
+R addsub_0/xor_5/a_61_n31# 219
+R addsub_0/xor_5/a_89_n31# 221
+R fblock_0/b5 1563
+R addsub_0/addsub_one_1/a_89_n41# 45
+R addsub_0/addsub_one_1/a_11_n41# 45
+R latch_2/in1 221
+R addsub_0/addsub_one_1/a_89_9# 47
+R addsub_0/addsub_one_1/a_72_9# 20
+R addsub_0/addsub_one_1/a_66_9# 20
+R addsub_0/addsub_one_1/a_29_9# 20
+R addsub_0/addsub_one_1/a_11_9# 48
+R addsub_0/addsub_one_1/a_78_n41# 280
+R addsub_0/addsub_one_1/a_35_n41# 554
+R addsub_0/addsub_one_1/cin 1469
+R addsub_0/xor_1/out 1246
+R addsub_0/xor_4/a_69_n42# 11
+R addsub_0/xor_4/out 1246
+R addsub_0/xor_4/a_61_n1# 113
+R addsub_0/xor_4/a_61_n31# 219
+R addsub_0/xor_4/a_89_n31# 221
+R fblock_0/b4 1561
+R addsub_0/addsub_one_0/a_89_n41# 45
+R addsub_0/addsub_one_0/a_11_n41# 45
+R latch_2/in0 221
+R addsub_0/addsub_one_0/a_89_9# 47
+R addsub_0/addsub_one_0/a_72_9# 20
+R addsub_0/addsub_one_0/a_66_9# 20
+R addsub_0/addsub_one_0/a_29_9# 20
+R addsub_0/addsub_one_0/a_11_9# 48
+R addsub_0/addsub_one_0/a_78_n41# 280
+R addsub_0/addsub_one_0/a_35_n41# 554
+R addsub_0/xor_0/out 1246
+R addsub_0/xor_3/a_69_n42# 11
+R addsub_0/xor_3/a_61_n1# 113
+R addsub_0/xor_3/a_61_n31# 219
+R addsub_0/xor_3/a_89_n31# 221
+R addsub_0/xor_2/a_69_n42# 11
+R addsub_0/xor_2/a_61_n1# 113
+R addsub_0/xor_2/a_61_n31# 219
+R addsub_0/xor_2/a_89_n31# 221
+R addsub_0/xor_1/a_69_n42# 11
+R addsub_0/xor_1/a_61_n1# 113
+R addsub_0/xor_1/a_61_n31# 219
+R addsub_0/xor_1/a_89_n31# 221
+R fblock_0/b1 1602
+R addsub_0/xor_0/a_69_n42# 11
+R addsub_0/xor_0/a_61_n1# 113
+R addsub_0/xor_0/a_61_n31# 219
+R addsub_0/xor_0/a_89_n31# 221
+R fblock_0/b0 1561
+R data_out7 505
+R latch_4/latch_one_7/a_30_n35# 20
+R latch_4/latch_one_7/a_n5_n54# 157
+R rd 2745
+R latch_4/latch_one_7/a_12_n54# 100
+R data_out6 483
+R latch_4/latch_one_6/a_30_n35# 20
+R latch_4/latch_one_6/a_n5_n54# 157
+R latch_4/latch_one_6/a_12_n54# 100
+R data_out5 504
+R latch_4/latch_one_5/a_30_n35# 20
+R latch_4/latch_one_5/a_n5_n54# 157
+R latch_4/latch_one_5/a_12_n54# 100
+R data_out4 505
+R latch_4/latch_one_4/a_30_n35# 20
+R latch_4/latch_one_4/a_n5_n54# 157
+R latch_4/latch_one_4/a_12_n54# 100
+R data_out3 505
+R latch_4/latch_one_3/a_30_n35# 20
+R latch_4/latch_one_3/a_n5_n54# 157
+R latch_4/latch_one_3/a_12_n54# 100
+R data_out2 504
+R latch_4/latch_one_2/a_30_n35# 20
+R latch_4/latch_one_2/a_n5_n54# 157
+R latch_4/latch_one_2/a_12_n54# 100
+R latch_4/latch_one_1/a_30_n35# 20
+R latch_4/latch_one_1/a_n5_n54# 157
+R latch_4/latch_one_1/a_12_n54# 100
+R data_out0 504
+R latch_4/latch_one_0/a_30_n35# 20
+R latch_4/latch_one_0/a_n5_n54# 157
+R latch_4/latch_one_0/a_12_n54# 100
+R latch_3/latch_one_7/a_30_n35# 20
+R latch_3/latch_one_7/a_n5_n54# 157
+R ros 2996
+R latch_3/latch_one_7/a_12_n54# 100
+R reg_3/in6 1135
+R latch_3/latch_one_6/a_30_n35# 20
+R latch_3/latch_one_6/a_n5_n54# 157
+R latch_3/latch_one_6/a_12_n54# 100
+R latch_3/latch_one_5/a_30_n35# 20
+R latch_3/latch_one_5/a_n5_n54# 157
+R latch_3/latch_one_5/a_12_n54# 100
+R latch_3/latch_one_4/a_30_n35# 20
+R latch_3/latch_one_4/a_n5_n54# 157
+R latch_3/latch_one_4/a_12_n54# 100
+R latch_3/latch_one_3/a_30_n35# 20
+R latch_3/latch_one_3/a_n5_n54# 157
+R latch_3/latch_one_3/a_12_n54# 100
+R reg_3/in2 1299
+R latch_3/latch_one_2/a_30_n35# 20
+R latch_3/latch_one_2/a_n5_n54# 157
+R latch_3/latch_one_2/a_12_n54# 100
+R reg_3/in1 1276
+R latch_3/latch_one_1/a_30_n35# 20
+R latch_3/latch_one_1/a_n5_n54# 157
+R latch_3/latch_one_1/a_12_n54# 100
+R latch_3/latch_one_0/a_30_n35# 20
+R latch_3/latch_one_0/a_n5_n54# 157
+R latch_3/latch_one_0/a_12_n54# 100
+R fblock_0/b7 1563
+C Vdd! GND 297.29
+R Vdd! 783682
+R fb_g0 1141
+R fb_g1 1146
+R fb_g2 1146
+R fb_g3 1146
+R latch_1/in7 220
+R fblock_0/fblock_one_7/2mux_nr_2/in0 91
+R fblock_0/fblock_one_7/inv_0/in 151
+R fblock_0/fblock_one_7/2mux_nr_2/in1 90
+R fblock_0/fblock_one_7/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_7/inv_4/out 88
+R fblock_0/fblock_one_7/inv_3/out 88
+R fblock_0/fblock_one_7/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_7/inv_2/out 88
+R fblock_0/fblock_one_7/inv_1/out 88
+R fblock_0/fblock_one_7/2mux_nr_0/a_n17_n11# 192
+R latch_1/in6 211
+R fblock_0/fblock_one_6/2mux_nr_2/in0 91
+R fblock_0/fblock_one_6/inv_0/in 151
+R fblock_0/fblock_one_6/2mux_nr_2/in1 90
+R fblock_0/fblock_one_6/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_6/inv_4/out 88
+R fblock_0/fblock_one_6/inv_3/out 88
+R fblock_0/fblock_one_6/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_6/inv_2/out 88
+R fblock_0/fblock_one_6/inv_1/out 88
+R fblock_0/fblock_one_6/2mux_nr_0/a_n17_n11# 192
+R latch_1/in5 220
+R fblock_0/fblock_one_5/2mux_nr_2/in0 91
+R fblock_0/fblock_one_5/inv_0/in 151
+R fblock_0/fblock_one_5/2mux_nr_2/in1 90
+R fblock_0/fblock_one_5/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_5/inv_4/out 88
+R fblock_0/fblock_one_5/inv_3/out 88
+R fblock_0/fblock_one_5/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_5/inv_2/out 88
+R fblock_0/fblock_one_5/inv_1/out 88
+R fblock_0/fblock_one_5/2mux_nr_0/a_n17_n11# 192
+R latch_1/in3 220
+R fblock_0/fblock_one_3/2mux_nr_2/in0 91
+R fblock_0/fblock_one_3/inv_0/in 151
+R fblock_0/fblock_one_3/2mux_nr_2/in1 90
+R fblock_0/fblock_one_3/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_3/inv_4/out 88
+R fblock_0/fblock_one_3/inv_3/out 88
+R fblock_0/fblock_one_3/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_3/inv_2/out 88
+R fblock_0/fblock_one_3/inv_1/out 88
+R fblock_0/fblock_one_3/2mux_nr_0/a_n17_n11# 192
+R latch_1/in4 220
+R fblock_0/fblock_one_4/2mux_nr_2/in0 91
+R fblock_0/fblock_one_4/inv_0/in 151
+R fblock_0/fblock_one_4/2mux_nr_2/in1 90
+R fblock_0/fblock_one_4/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_4/inv_4/out 88
+R fblock_0/fblock_one_4/inv_3/out 88
+R fblock_0/fblock_one_4/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_4/inv_2/out 88
+R fblock_0/fblock_one_4/inv_1/out 88
+R fblock_0/fblock_one_4/2mux_nr_0/a_n17_n11# 192
+R latch_1/in2 195
+R fblock_0/fblock_one_2/2mux_nr_2/in0 91
+R fblock_0/fblock_one_2/inv_0/in 151
+R fblock_0/fblock_one_2/2mux_nr_2/in1 90
+R fblock_0/fblock_one_2/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_2/inv_4/out 88
+R fblock_0/fblock_one_2/inv_3/out 88
+R fblock_0/fblock_one_2/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_2/inv_2/out 88
+R fblock_0/fblock_one_2/inv_1/out 88
+R fblock_0/fblock_one_2/2mux_nr_0/a_n17_n11# 192
+R latch_1/in1 220
+R fblock_0/fblock_one_1/2mux_nr_2/in0 91
+R fblock_0/fblock_one_1/inv_0/in 151
+R fblock_0/fblock_one_1/2mux_nr_2/in1 90
+R fblock_0/fblock_one_1/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_1/inv_4/out 88
+R fblock_0/fblock_one_1/inv_3/out 88
+R fblock_0/fblock_one_1/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_1/inv_2/out 88
+R fblock_0/fblock_one_1/inv_1/out 88
+R fblock_0/fblock_one_1/2mux_nr_0/a_n17_n11# 192
+R latch_1/in0 220
+R fblock_0/fblock_one_0/2mux_nr_2/in0 91
+R fblock_0/fblock_one_0/inv_0/in 151
+R fblock_0/fblock_one_0/2mux_nr_2/in1 90
+R fblock_0/fblock_one_0/2mux_nr_2/a_n17_n11# 192
+R fblock_0/fblock_one_0/inv_4/out 88
+R fblock_0/fblock_one_0/inv_3/out 88
+R fblock_0/fblock_one_0/2mux_nr_1/a_n17_n11# 192
+R fblock_0/fblock_one_0/inv_2/out 88
+R fblock_0/fblock_one_0/inv_1/out 88
+R fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11# 192
+R latch_2/latch_one_7/a_30_n35# 20
+R latch_2/latch_one_7/a_n5_n54# 157
+R ras 2995
+R latch_2/latch_one_7/a_12_n54# 100
+R latch_2/latch_one_6/a_30_n35# 20
+R latch_2/latch_one_6/a_n5_n54# 157
+R latch_2/latch_one_6/a_12_n54# 100
+R latch_2/latch_one_5/a_30_n35# 20
+R latch_2/latch_one_5/a_n5_n54# 157
+R latch_2/latch_one_5/a_12_n54# 100
+R latch_2/latch_one_4/a_30_n35# 20
+R latch_2/latch_one_4/a_n5_n54# 157
+R latch_2/latch_one_4/a_12_n54# 100
+R latch_2/latch_one_3/a_30_n35# 20
+R latch_2/latch_one_3/a_n5_n54# 157
+R latch_2/latch_one_3/a_12_n54# 100
+R latch_2/latch_one_2/a_30_n35# 20
+R latch_2/latch_one_2/a_n5_n54# 157
+R latch_2/latch_one_2/a_12_n54# 100
+R latch_2/latch_one_1/a_30_n35# 20
+R latch_2/latch_one_1/a_n5_n54# 157
+R latch_2/latch_one_1/a_12_n54# 100
+R latch_2/latch_one_0/a_30_n35# 20
+R latch_2/latch_one_0/a_n5_n54# 157
+R latch_2/latch_one_0/a_12_n54# 100
+R latch_1/latch_one_7/a_30_n35# 20
+R latch_1/latch_one_7/a_n5_n54# 157
+R rfb 2996
+R latch_1/latch_one_7/a_12_n54# 100
+R latch_1/latch_one_6/a_30_n35# 20
+R latch_1/latch_one_6/a_n5_n54# 157
+R latch_1/latch_one_6/a_12_n54# 100
+R latch_1/latch_one_5/a_30_n35# 20
+R latch_1/latch_one_5/a_n5_n54# 157
+R latch_1/latch_one_5/a_12_n54# 100
+R latch_1/latch_one_4/a_30_n35# 20
+R latch_1/latch_one_4/a_n5_n54# 157
+R latch_1/latch_one_4/a_12_n54# 100
+R latch_1/latch_one_3/a_30_n35# 20
+R latch_1/latch_one_3/a_n5_n54# 157
+R latch_1/latch_one_3/a_12_n54# 100
+R latch_1/latch_one_2/a_30_n35# 20
+R latch_1/latch_one_2/a_n5_n54# 157
+R latch_1/latch_one_2/a_12_n54# 100
+R latch_1/latch_one_1/a_30_n35# 20
+R latch_1/latch_one_1/a_n5_n54# 157
+R latch_1/latch_one_1/a_12_n54# 100
+R latch_1/latch_one_0/a_30_n35# 20
+R latch_1/latch_one_0/a_n5_n54# 157
+R latch_1/latch_one_0/a_12_n54# 100
+R 4nor2_0/a_107_24# 35
+R 4nor2_0/a_97_24# 39
+R 4nor2_0/a_87_24# 39
+R reg_3/in7 1154
+R latch_0/latch_one_7/a_30_n35# 20
+R latch_0/latch_one_7/a_n5_n54# 157
+R ld 3039
+R data_in7 207
+R latch_0/latch_one_7/a_12_n54# 100
+R latch_0/latch_one_6/a_30_n35# 20
+R latch_0/latch_one_6/a_n5_n54# 157
+R data_in6 211
+R latch_0/latch_one_6/a_12_n54# 100
+R reg_3/in5 1297
+R latch_0/latch_one_5/a_30_n35# 20
+R latch_0/latch_one_5/a_n5_n54# 157
+R data_in5 153
+R latch_0/latch_one_5/a_12_n54# 100
+R reg_3/in4 1299
+R latch_0/latch_one_4/a_30_n35# 20
+R latch_0/latch_one_4/a_n5_n54# 157
+R data_in4 207
+R latch_0/latch_one_4/a_12_n54# 100
+R reg_3/in3 1299
+R latch_0/latch_one_3/a_30_n35# 20
+R latch_0/latch_one_3/a_n5_n54# 157
+R data_in3 207
+R latch_0/latch_one_3/a_12_n54# 100
+R latch_0/latch_one_2/a_30_n35# 20
+R latch_0/latch_one_2/a_n5_n54# 157
+R data_in2 207
+R latch_0/latch_one_2/a_12_n54# 100
+R latch_0/latch_one_1/a_30_n35# 20
+R latch_0/latch_one_1/a_n5_n54# 157
+R data_in1 218
+R latch_0/latch_one_1/a_12_n54# 100
+R reg_3/in0 1296
+R latch_0/latch_one_0/a_30_n35# 20
+R latch_0/latch_one_0/a_n5_n54# 157
+R data_in0 207
+R latch_0/latch_one_0/a_12_n54# 100
+R reg_3/reg_one_3/a_54_5# 20
+R reg_3/reg_one_3/a_39_5# 20
+R reg_3/reg_one_3/a_4_n13# 101
+R reg_3/reg_one_3/a_21_n13# 100
+R reg_3/reg_one_3/a_28_35# 16
+R reg_3/reg_one_3/a_12_35# 20
+R reg_3/reg_one_3/tmp 560
+R reg_3/reg_one_3/a_33_32# 153
+R reg_3/reg_one_3/a_16_27# 212
+R reg_3/reg_one_2/a_54_5# 20
+R reg_3/reg_one_2/a_39_5# 20
+R reg_3/reg_one_2/a_4_n13# 101
+R reg_3/reg_one_2/a_21_n13# 100
+R reg_3/reg_one_2/a_28_35# 16
+R reg_3/reg_one_2/a_12_35# 20
+R reg_3/reg_one_2/tmp 560
+R reg_3/reg_one_2/a_33_32# 153
+R reg_3/reg_one_2/a_16_27# 212
+R reg_3/reg_one_1/a_54_5# 20
+R reg_3/reg_one_1/a_39_5# 20
+R reg_3/reg_one_1/a_4_n13# 101
+R reg_3/reg_one_1/a_21_n13# 100
+R reg_3/reg_one_1/a_28_35# 16
+R reg_3/reg_one_1/a_12_35# 20
+R reg_3/reg_one_1/tmp 560
+R reg_3/reg_one_1/a_33_32# 153
+R reg_3/reg_one_1/a_16_27# 212
+R reg_3/reg_one_0/a_54_5# 20
+R reg_3/reg_one_0/a_39_5# 20
+R reg_3/reg_one_0/a_4_n13# 101
+R reg_3/reg_one_0/a_21_n13# 100
+R reg_3/r0 3987
+R reg_3/r1 2935
+R reg_3/reg_one_0/a_28_35# 16
+R reg_3/reg_one_0/a_12_35# 20
+R reg_3/reg_one_0/tmp 560
+R reg_3/reg_one_0/a_33_32# 153
+R reg_3/reg_one_0/a_16_27# 212
+R reg_3/w 5531
+R reg_3/reg_one_7/a_54_5# 20
+R reg_3/reg_one_7/a_39_5# 20
+R reg_3/reg_one_7/a_4_n13# 101
+R reg_3/reg_one_7/a_21_n13# 100
+R reg_3/reg_one_7/a_28_35# 16
+R reg_3/reg_one_7/a_12_35# 20
+R reg_3/reg_one_7/tmp 560
+R reg_3/reg_one_7/a_33_32# 153
+R reg_3/reg_one_7/a_16_27# 212
+R reg_3/reg_one_6/a_54_5# 20
+R reg_3/reg_one_6/a_39_5# 20
+R reg_3/reg_one_6/a_4_n13# 101
+R reg_3/reg_one_6/a_21_n13# 100
+R reg_3/reg_one_6/a_28_35# 16
+R reg_3/reg_one_6/a_12_35# 20
+R reg_3/reg_one_6/tmp 560
+R reg_3/reg_one_6/a_33_32# 153
+R reg_3/reg_one_6/a_16_27# 212
+R reg_3/reg_one_5/a_54_5# 20
+R reg_3/reg_one_5/a_39_5# 20
+R reg_3/reg_one_5/a_4_n13# 101
+R reg_3/reg_one_5/a_21_n13# 100
+R reg_3/reg_one_5/a_28_35# 16
+R reg_3/reg_one_5/a_12_35# 20
+R reg_3/reg_one_5/tmp 560
+R reg_3/reg_one_5/a_33_32# 153
+R reg_3/reg_one_5/a_16_27# 212
+R reg_3/reg_one_4/a_54_5# 20
+R reg_3/reg_one_4/a_39_5# 20
+R reg_3/reg_one_4/a_4_n13# 101
+R reg_3/reg_one_4/a_21_n13# 100
+R reg_3/reg_one_4/a_28_35# 16
+R reg_3/reg_one_4/a_12_35# 20
+R reg_3/reg_one_4/tmp 560
+R reg_3/reg_one_4/a_33_32# 153
+R reg_3/reg_one_4/a_16_27# 212
+R reg_2/reg_one_3/a_54_5# 20
+R reg_2/reg_one_3/a_39_5# 20
+R reg_2/reg_one_3/a_4_n13# 101
+R reg_2/reg_one_3/a_21_n13# 100
+R reg_2/reg_one_3/a_28_35# 16
+R reg_2/reg_one_3/a_12_35# 20
+R reg_2/reg_one_3/tmp 560
+R reg_2/reg_one_3/a_33_32# 153
+R reg_2/reg_one_3/a_16_27# 212
+R reg_2/reg_one_2/a_54_5# 20
+R reg_2/reg_one_2/a_39_5# 20
+R reg_2/reg_one_2/a_4_n13# 101
+R reg_2/reg_one_2/a_21_n13# 100
+R reg_2/reg_one_2/a_28_35# 16
+R reg_2/reg_one_2/a_12_35# 20
+R reg_2/reg_one_2/tmp 560
+R reg_2/reg_one_2/a_33_32# 153
+R reg_2/reg_one_2/a_16_27# 212
+R reg_2/reg_one_1/a_54_5# 20
+R reg_2/reg_one_1/a_39_5# 20
+R reg_2/reg_one_1/a_4_n13# 101
+R reg_2/reg_one_1/a_21_n13# 100
+R reg_2/reg_one_1/a_28_35# 16
+R reg_2/reg_one_1/a_12_35# 20
+R reg_2/reg_one_1/tmp 560
+R reg_2/reg_one_1/a_33_32# 153
+R reg_2/reg_one_1/a_16_27# 212
+R reg_2/reg_one_0/a_54_5# 20
+R reg_2/reg_one_0/a_39_5# 20
+R reg_2/reg_one_0/a_4_n13# 101
+R reg_2/reg_one_0/a_21_n13# 100
+R reg1_r0 3987
+R reg1_r1 2935
+R reg_2/reg_one_0/a_28_35# 16
+R reg_2/reg_one_0/a_12_35# 20
+R reg_2/reg_one_0/tmp 560
+R reg_2/reg_one_0/a_33_32# 153
+R reg_2/reg_one_0/a_16_27# 212
+R reg1_w 5531
+R reg_2/reg_one_7/a_54_5# 20
+R reg_2/reg_one_7/a_39_5# 20
+R reg_2/reg_one_7/a_4_n13# 101
+R reg_2/reg_one_7/a_21_n13# 100
+R reg_2/reg_one_7/a_28_35# 16
+R reg_2/reg_one_7/a_12_35# 20
+R reg_2/reg_one_7/tmp 560
+R reg_2/reg_one_7/a_33_32# 153
+R reg_2/reg_one_7/a_16_27# 212
+R reg_2/reg_one_6/a_54_5# 20
+R reg_2/reg_one_6/a_39_5# 20
+R reg_2/reg_one_6/a_4_n13# 101
+R reg_2/reg_one_6/a_21_n13# 100
+R reg_2/reg_one_6/a_28_35# 16
+R reg_2/reg_one_6/a_12_35# 20
+R reg_2/reg_one_6/tmp 560
+R reg_2/reg_one_6/a_33_32# 153
+R reg_2/reg_one_6/a_16_27# 212
+R reg_2/reg_one_5/a_54_5# 20
+R reg_2/reg_one_5/a_39_5# 20
+R reg_2/reg_one_5/a_4_n13# 101
+R reg_2/reg_one_5/a_21_n13# 100
+R reg_2/reg_one_5/a_28_35# 16
+R reg_2/reg_one_5/a_12_35# 20
+R reg_2/reg_one_5/tmp 560
+R reg_2/reg_one_5/a_33_32# 153
+R reg_2/reg_one_5/a_16_27# 212
+R reg_2/reg_one_4/a_54_5# 20
+R reg_2/reg_one_4/a_39_5# 20
+R reg_2/reg_one_4/a_4_n13# 101
+R reg_2/reg_one_4/a_21_n13# 100
+R reg_2/reg_one_4/a_28_35# 16
+R reg_2/reg_one_4/a_12_35# 20
+R reg_2/reg_one_4/tmp 560
+R reg_2/reg_one_4/a_33_32# 153
+R reg_2/reg_one_4/a_16_27# 212
+R staticizer_1/staticizer_one_7/a_95_n27# 20
+R staticizer_1/staticizer_one_7/a_60_n45# 153
+R inv2_0/out 2523
+R staticizer_1/staticizer_one_7/a_77_n45# 100
+R staticizer_1/staticizer_one_6/a_95_n27# 20
+R staticizer_1/staticizer_one_6/a_60_n45# 153
+R staticizer_1/staticizer_one_6/a_77_n45# 100
+R staticizer_1/staticizer_one_5/a_95_n27# 20
+R staticizer_1/staticizer_one_5/a_60_n45# 153
+R staticizer_1/staticizer_one_5/a_77_n45# 100
+R staticizer_1/staticizer_one_4/a_95_n27# 20
+R staticizer_1/staticizer_one_4/a_60_n45# 153
+R staticizer_1/staticizer_one_4/a_77_n45# 100
+R staticizer_1/staticizer_one_3/a_95_n27# 20
+R staticizer_1/staticizer_one_3/a_60_n45# 153
+R staticizer_1/staticizer_one_3/a_77_n45# 100
+R staticizer_1/staticizer_one_2/a_95_n27# 20
+R staticizer_1/staticizer_one_2/a_60_n45# 153
+R staticizer_1/staticizer_one_2/a_77_n45# 100
+R staticizer_1/staticizer_one_1/a_95_n27# 20
+R staticizer_1/staticizer_one_1/a_60_n45# 153
+R staticizer_1/staticizer_one_1/a_77_n45# 100
+R data_out1 505
+R staticizer_1/staticizer_one_0/a_95_n27# 20
+R staticizer_1/staticizer_one_0/a_60_n45# 153
+R staticizer_1/staticizer_one_0/a_77_n45# 100
