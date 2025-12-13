@@ -1,0 +1,101 @@
+magic
+tech scmos
+timestamp 1765664893
+<< nwell >>
+rect 125 -2 276 32
+<< pwell >>
+rect 125 -29 276 -2
+<< ntransistor >>
+rect 142 -14 144 -9
+rect 192 -14 194 -9
+rect 232 -14 234 -9
+rect 247 -14 249 -9
+<< ptransistor >>
+rect 142 6 144 16
+rect 192 6 194 16
+rect 232 6 234 16
+rect 247 6 249 16
+<< ndiffusion >>
+rect 136 -14 142 -9
+rect 144 -14 151 -9
+rect 186 -14 192 -9
+rect 194 -14 201 -9
+rect 226 -14 232 -9
+rect 234 -14 247 -9
+rect 249 -14 256 -9
+<< pdiffusion >>
+rect 136 6 142 16
+rect 144 6 151 16
+rect 186 6 192 16
+rect 194 6 201 16
+rect 226 6 232 16
+rect 234 6 238 16
+rect 243 6 247 16
+rect 249 6 256 16
+<< ndcontact >>
+rect 131 -14 136 -9
+rect 151 -14 156 -9
+rect 181 -14 186 -9
+rect 201 -14 206 -9
+rect 221 -14 226 -9
+rect 256 -14 261 -9
+<< pdcontact >>
+rect 131 6 136 16
+rect 151 6 156 16
+rect 181 6 186 16
+rect 201 6 206 16
+rect 221 6 226 16
+rect 238 6 243 16
+rect 256 6 261 16
+<< psubstratepcontact >>
+rect 131 -24 136 -19
+rect 181 -24 186 -19
+rect 221 -24 226 -19
+<< nsubstratencontact >>
+rect 131 21 136 26
+rect 181 21 186 26
+rect 221 21 226 26
+<< polysilicon >>
+rect 142 16 144 32
+rect 142 -9 144 6
+rect 142 -29 144 -14
+rect 162 -29 164 32
+rect 172 -29 174 32
+rect 192 16 194 32
+rect 192 -9 194 6
+rect 192 -29 194 -14
+rect 212 -29 214 32
+rect 232 16 234 32
+rect 247 16 249 32
+rect 232 -9 234 6
+rect 247 -9 249 6
+rect 232 -29 234 -14
+rect 247 -29 249 -14
+rect 267 -29 269 32
+<< metal1 >>
+rect 125 21 131 26
+rect 136 21 181 26
+rect 186 21 221 26
+rect 226 21 276 26
+rect 131 16 136 21
+rect 201 16 206 21
+rect 156 11 181 16
+rect 221 16 226 21
+rect 256 16 261 21
+rect 181 1 186 6
+rect 238 1 243 6
+rect 181 -4 276 1
+rect 271 -9 276 -4
+rect 156 -14 181 -9
+rect 206 -14 221 -9
+rect 261 -14 276 -9
+rect 131 -19 136 -14
+rect 125 -24 131 -19
+rect 136 -24 181 -19
+rect 186 -24 221 -19
+rect 226 -24 276 -19
+use decoder_nor2  decoder_nor2_0
+timestamp 1765664792
+transform 1 0 208 0 1 -53
+box 68 24 147 85
+<< end >>

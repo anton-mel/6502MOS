@@ -1,0 +1,10 @@
+Xsession: X session started for user at Sat Dec 13 20:04:54 UTC 2025
+dbus-update-activation-environment: error: unable to connect to D-Bus: /usr/bin/dbus-launch terminated abnormally without any error message
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+localuser:user being added to access control list
+dbus-update-activation-environment: error: unable to connect to D-Bus: /usr/bin/dbus-launch terminated abnormally without any error message
+/etc/X11/blackbox/blackbox-menu: No such file or directory
