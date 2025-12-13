@@ -1,34 +1,211 @@
 magic
 tech scmos
-timestamp 1765599080
+timestamp 1765603407
+<< metal1 >>
+rect 38 -736 44 -730
+rect 120 -736 126 -732
+rect 202 -736 208 -732
+rect 284 -736 290 -732
+rect 366 -736 372 -732
+rect 448 -736 454 -732
+rect 530 -736 536 -732
+<< metal2 >>
+rect 7 -785 12 -753
+rect 16 -758 21 -726
+rect 25 -785 30 -753
+rect 34 -758 39 -726
+rect 43 -785 48 -753
+rect 52 -758 57 -726
+rect 61 -785 66 -753
+rect 70 -758 75 -726
+rect 89 -785 94 -753
+rect 98 -758 103 -726
+rect 107 -785 112 -753
+rect 116 -758 121 -726
+rect 125 -785 130 -753
+rect 134 -758 139 -726
+rect 143 -785 148 -753
+rect 152 -758 157 -726
+rect 171 -785 176 -753
+rect 180 -758 185 -726
+rect 189 -785 194 -753
+rect 198 -758 203 -726
+rect 207 -785 212 -753
+rect 216 -758 221 -726
+rect 225 -785 230 -753
+rect 234 -758 239 -732
+rect 253 -785 258 -753
+rect 262 -758 267 -726
+rect 271 -785 276 -753
+rect 280 -758 285 -726
+rect 289 -785 294 -753
+rect 298 -758 303 -726
+rect 307 -785 312 -753
+rect 316 -758 321 -732
+rect 335 -785 340 -753
+rect 344 -758 349 -726
+rect 353 -785 358 -753
+rect 362 -758 367 -726
+rect 371 -785 376 -753
+rect 380 -758 385 -726
+rect 389 -785 394 -753
+rect 398 -758 403 -732
+rect 417 -785 422 -753
+rect 426 -758 431 -726
+rect 435 -785 440 -753
+rect 444 -758 449 -726
+rect 453 -785 458 -753
+rect 462 -758 467 -726
+rect 471 -785 476 -753
+rect 480 -758 485 -732
+rect 499 -785 504 -753
+rect 508 -758 513 -726
+rect 517 -785 522 -753
+rect 526 -758 531 -726
+rect 535 -785 540 -753
+rect 544 -758 549 -726
+rect 553 -785 558 -753
+rect 562 -758 567 -732
 use rom_one  rom_one_47
 timestamp 1765597224
 transform 1 0 -35 0 1 -642
 box 35 -90 117 32
+use rom_inv  rom_inv_1
+timestamp 1765602097
+transform 1 0 29 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_3
+timestamp 1765602097
+transform 1 0 47 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_0
+timestamp 1765602097
+transform 1 0 11 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_6
+timestamp 1765602097
+transform 1 0 93 0 1 -772
+box -11 -13 17 40
 use rom_one  rom_one_48
 timestamp 1765597224
 transform 1 0 47 0 1 -642
 box 35 -90 117 32
+use rom_inv  rom_inv_2
+timestamp 1765602097
+transform 1 0 65 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_7
+timestamp 1765602097
+transform 1 0 147 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_5
+timestamp 1765602097
+transform 1 0 129 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_4
+timestamp 1765602097
+transform 1 0 111 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_10
+timestamp 1765602097
+transform 1 0 175 0 1 -772
+box -11 -13 17 40
 use rom_one  rom_one_45
 timestamp 1765597224
 transform 1 0 129 0 1 -642
 box 35 -90 117 32
+use rom_inv  rom_inv_15
+timestamp 1765602097
+transform 1 0 229 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_9
+timestamp 1765602097
+transform 1 0 211 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_8
+timestamp 1765602097
+transform 1 0 193 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_12
+timestamp 1765602097
+transform 1 0 257 0 1 -772
+box -11 -13 17 40
 use rom_one  rom_one_44
 timestamp 1765597224
 transform 1 0 211 0 1 -642
 box 35 -90 117 32
+use rom_inv  rom_inv_14
+timestamp 1765602097
+transform 1 0 275 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_13
+timestamp 1765602097
+transform 1 0 293 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_11
+timestamp 1765602097
+transform 1 0 311 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_16
+timestamp 1765602097
+transform 1 0 339 0 1 -772
+box -11 -13 17 40
 use rom_one  rom_one_46
 timestamp 1765597224
 transform 1 0 293 0 1 -642
 box 35 -90 117 32
+use rom_inv  rom_inv_19
+timestamp 1765602097
+transform 1 0 375 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_18
+timestamp 1765602097
+transform 1 0 393 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_17
+timestamp 1765602097
+transform 1 0 357 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_20
+timestamp 1765602097
+transform 1 0 421 0 1 -772
+box -11 -13 17 40
 use rom_one  rom_one_42
 timestamp 1765597224
 transform 1 0 375 0 1 -642
 box 35 -90 117 32
+use rom_inv  rom_inv_23
+timestamp 1765602097
+transform 1 0 457 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_22
+timestamp 1765602097
+transform 1 0 475 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_21
+timestamp 1765602097
+transform 1 0 439 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_24
+timestamp 1765602097
+transform 1 0 503 0 1 -772
+box -11 -13 17 40
 use rom_one  rom_one_43
 timestamp 1765597224
 transform 1 0 457 0 1 -642
 box 35 -90 117 32
+use rom_inv  rom_inv_26
+timestamp 1765602097
+transform 1 0 539 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_27
+timestamp 1765602097
+transform 1 0 557 0 1 -772
+box -11 -13 17 40
+use rom_inv  rom_inv_25
+timestamp 1765602097
+transform 1 0 521 0 1 -772
+box -11 -13 17 40
 use rom_one  rom_one_32
 timestamp 1765597224
 transform 1 0 -35 0 1 -520
@@ -197,13 +374,13 @@ use rom_one  rom_one_5
 timestamp 1765597224
 transform 1 0 457 0 1 90
 box 35 -90 117 32
-use rom_pullup  rom_pullup_0
-timestamp 1765597332
-transform 1 0 -35 0 1 90
-box 35 32 117 72
 use rom_pullup  rom_pullup_1
 timestamp 1765597332
 transform 1 0 47 0 1 90
+box 35 32 117 72
+use rom_pullup  rom_pullup_0
+timestamp 1765597332
+transform 1 0 -35 0 1 90
 box 35 32 117 72
 use rom_pullup  rom_pullup_2
 timestamp 1765597332
@@ -225,4 +402,64 @@ use rom_pullup  rom_pullup_6
 timestamp 1765597332
 transform 1 0 457 0 1 90
 box 35 32 117 72
+<< labels >>
+rlabel space 0 156 6 162 4 Vdd!
+rlabel space 0 -782 5 -777 3 Vdd!
+rlabel space 0 -740 5 -735 3 GND!
+rlabel space 0 100 2 102 3 wl0
+rlabel space 0 80 2 82 3 wl1
+rlabel space 0 40 2 42 3 wl2
+rlabel space 0 20 2 22 3 wl3
+rlabel space 0 -22 2 -20 3 wl4
+rlabel space 0 -42 2 -40 3 wl5
+rlabel space 0 -82 2 -80 3 wl6
+rlabel space 0 -102 2 -100 3 wl7
+rlabel space 0 -144 2 -142 3 wl8
+rlabel space 0 -164 2 -162 3 wl9
+rlabel space 0 -204 2 -202 3 wl10
+rlabel space 0 -224 2 -222 3 wl11
+rlabel space 0 -266 2 -264 3 wl12
+rlabel space 0 -286 2 -284 3 wl13
+rlabel space 0 -326 2 -324 3 wl14
+rlabel space 0 -346 2 -344 3 wl15
+rlabel space 0 -388 2 -386 3 wl16
+rlabel space 0 -408 2 -406 3 wl17
+rlabel space 0 -448 2 -446 3 wl18
+rlabel space 0 -468 2 -466 3 wl19
+rlabel space 0 -510 2 -508 3 wl20
+rlabel space 0 -530 2 -528 3 wl21
+rlabel space 0 -570 2 -568 3 wl22
+rlabel space 0 -590 2 -588 3 wl23
+rlabel space 0 -632 2 -630 3 wl24
+rlabel space 0 -652 2 -650 3 wl25
+rlabel space 0 -692 2 -690 3 wl26
+rlabel space 0 -712 2 -710 3 wl27
+rlabel metal2 7 -785 12 -782 1 bl0
+rlabel metal2 25 -785 30 -782 1 bl1
+rlabel metal2 43 -785 48 -782 1 bl2
+rlabel metal2 61 -785 66 -782 1 bl3
+rlabel metal2 89 -785 94 -782 1 bl4
+rlabel metal2 107 -785 112 -782 1 bl5
+rlabel metal2 125 -785 130 -782 1 bl6
+rlabel metal2 143 -785 148 -782 1 bl7
+rlabel metal2 171 -785 176 -782 1 bl8
+rlabel metal2 189 -785 194 -782 1 bl9
+rlabel metal2 207 -785 212 -782 1 bl10
+rlabel metal2 225 -785 230 -782 1 bl11
+rlabel metal2 253 -785 258 -782 1 bl12
+rlabel metal2 271 -785 276 -782 1 bl13
+rlabel metal2 289 -785 294 -782 1 bl14
+rlabel metal2 307 -785 312 -782 1 bl15
+rlabel metal2 335 -785 340 -782 1 bl16
+rlabel metal2 353 -785 358 -782 1 bl17
+rlabel metal2 371 -785 376 -782 1 bl18
+rlabel metal2 389 -785 394 -782 1 bl19
+rlabel metal2 417 -785 422 -782 1 bl20
+rlabel metal2 435 -785 440 -782 1 bl21
+rlabel metal2 453 -785 458 -782 1 bl22
+rlabel metal2 471 -785 476 -782 1 bl23
+rlabel metal2 499 -785 504 -782 1 bl24
+rlabel metal2 517 -785 522 -782 1 bl25
+rlabel metal2 535 -785 540 -782 1 bl26
+rlabel metal2 553 -785 558 -782 1 bl27
 << end >>
