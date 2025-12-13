@@ -21,11 +21,11 @@ node "GND!" 2 175.087 -41 64 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 390 166 0 0 0 
 node "sel" 0 24.562 7 69 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0 0 0 0 0 0 0 0 0
 node "w_n25_n10#" 2391 68.211 -25 -10 nw 0 0 0 0 117 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "w_n22_13#" 1135 17.49 -22 13 nw 0 0 0 0 30 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_n26_n13#" "w_n25_n10#" 24.695
-cap "m1_n24_39#" "Vdd!" 46.174
 cap "m1_n26_n13#" "Vdd!" 321.85
-cap "GND!" "sel" 12.68
 cap "m1_n26_n13#" "w_n22_13#" 13.685
+cap "Vdd!" "m1_n24_39#" 46.174
+cap "GND!" "sel" 12.68
+cap "w_n25_n10#" "m1_n26_n13#" 24.695
 subcap "m1_n41_n31#" -145.215
 subcap "out" -8.898
 subcap "in0" -12.478
@@ -37,20 +37,20 @@ subcap "in1" -12.478
 subcap "GND!" -140.282
 subcap "sel" -24.562
 cap "inv2_0/Vdd!" "inv2_0/out" 82.343
-cap "inv2_0/GND!" "2mux_nr_0/s" 22.254
-cap "2mux_nr_0/a_n17_n11#" "inv2_1/in" 68.1795
-cap "inv2_0/GND!" "inv2_2/out" 0.814
 cap "inv2_0/Vdd!" "inv2_1/in" 27.778
-cap "inv2_0/GND!" "2mux_nr_0/a_n17_n11#" 2.704
-cap "inv2_0/Vdd!" "2mux_nr_0/s" 31.648
-cap "inv2_0/GND!" "inv2_0/Vdd!" 68.849
 cap "inv2_0/Vdd!" "inv2_2/out" 118.504
+cap "inv2_0/Vdd!" "2mux_nr_0/s" 31.648
+cap "inv2_2/out" "inv2_0/GND!" 0.814
 cap "inv2_0/GND!" "inv2_1/in" 50.048
-cap "inv2_1/in" "inv2_2/out" 86.4068
+cap "2mux_nr_0/a_n17_n11#" "inv2_0/GND!" 2.704
+cap "inv2_0/Vdd!" "inv2_0/GND!" 68.849
+cap "inv2_2/out" "inv2_1/in" 86.4068
+cap "2mux_nr_0/a_n17_n11#" "inv2_1/in" 68.1795
+cap "2mux_nr_0/s" "inv2_0/GND!" 22.254
 subcap "GND!" -223.834
 subcap "sel" -181.008
-cap "2mux_nr_0/s" "inv2_0/GND!" 7.883
-cap "2mux_nr_0/Vdd!" "inv2_0/GND!" 54.482
+cap "inv2_0/GND!" "2mux_nr_0/s" 7.883
+cap "inv2_0/GND!" "2mux_nr_0/Vdd!" 54.482
 merge "2mux_nr_0/Vdd!" "inv2_2/Vdd!" -307.469 0 0 0 0 -79 -304 0 0 0 0 0 0 0 0 -90 -76 0 0 0 0 0 0 0 0 0 0
 merge "inv2_2/Vdd!" "inv2_1/Vdd!"
 merge "inv2_1/Vdd!" "w_n25_n10#"

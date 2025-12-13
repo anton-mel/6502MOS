@@ -31,108 +31,108 @@ node "in3" 8 22.312 -392 815 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "in2" 8 22.312 -392 991 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "in1" 8 22.312 -392 1167 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "in0" 8 22.312 -392 1343 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "c" "out3" 5.7
-cap "c" "out7" 5.7
-cap "c" "out2" 5.7
+cap "out7" "c" 5.7
+cap "c" "out6" 5.7
+cap "c" "out0" 5.7
+cap "out4" "c" 5.7
+cap "Vdd!" "GND!" 9840.94
+cap "out2" "c" 5.7
 cap "c" "out1" 5.7
 cap "out5" "c" 5.7
-cap "c" "out0" 5.7
-cap "c" "out6" 5.7
-cap "Vdd!" "GND!" 9840.94
-cap "c" "out4" 5.7
+cap "c" "out3" 5.7
 subcap "c" -1100.15
 subcap "GND!" -1105.85
 subcap "Vdd!" -122.492
 subcap "out7" -18.752
 subcap "in7" -15.364
-cap "latch_one_7/GND!" "latch_one_7/c" 9.1
+cap "latch_one_7/a_n5_n54#" "latch_one_7/GND!" 36.385
 cap "latch_one_7/Vdd!" "latch_one_7/a_n5_n54#" 52.438
-cap "latch_one_7/out" "latch_one_7/c" 29.328
-cap "latch_one_7/Vdd!" "latch_one_7/in" 6.632
+cap "latch_one_7/c" "latch_one_7/out" 29.328
 cap "latch_one_7/Vdd!" "latch_one_7/GND!" 96.888
-cap "latch_one_7/GND!" "latch_one_7/a_n5_n54#" 36.385
-cap "latch_one_7/Vdd!" "latch_one_7/c" 19.036
+cap "latch_one_7/Vdd!" "latch_one_7/in" 6.632
+cap "latch_one_7/c" "latch_one_7/Vdd!" 19.036
+cap "latch_one_7/c" "latch_one_7/GND!" 9.1
 subcap "out6" -47.28
 subcap "in6" -97.992
-cap "latch_one_6/c" "latch_one_6/GND!" 8.742
-cap "latch_one_6/GND!" "latch_one_6/a_n5_n54#" 17.421
-cap "latch_one_6/GND!" "Vdd!" 23.02
+cap "latch_one_6/GND!" "latch_one_6/c" 8.742
+cap "Vdd!" "latch_one_6/GND!" 23.02
+cap "latch_one_6/out" "latch_one_6/c" 13.188
+cap "latch_one_6/a_n5_n54#" "latch_one_6/GND!" 17.421
 cap "latch_one_6/a_n5_n54#" "Vdd!" 20.79
-cap "latch_one_6/c" "latch_one_6/out" 13.188
 subcap "out6" -40.816
 subcap "in6" -19.996
 cap "c" "latch_one_6/out" 18.66
-cap "latch_one_6/Vdd!" "latch_one_6/a_n5_n54#" 36.72
-cap "latch_one_6/Vdd!" "latch_one_6/in" 6.632
+cap "c" "latch_one_6/Vdd!" 19.036
+cap "GND!" "latch_one_6/Vdd!" 73.434
 cap "latch_one_6/Vdd!" "latch_one_6/GND!" 0.948
-cap "latch_one_6/Vdd!" "GND!" 73.434
-cap "latch_one_6/Vdd!" "c" 19.036
+cap "latch_one_6/Vdd!" "latch_one_6/a_n5_n54#" 36.72
+cap "latch_one_6/in" "latch_one_6/Vdd!" 6.632
 cap "GND!" "latch_one_6/a_n5_n54#" 31.644
 subcap "out5" -18.752
 subcap "in5" -15.364
-cap "latch_one_5/GND!" "latch_one_5/a_n5_n54#" 36.385
-cap "latch_one_5/Vdd!" "latch_one_5/in" 6.632
-cap "latch_one_5/Vdd!" "latch_one_5/c" 12.932
-cap "latch_one_5/c" "latch_one_5/out" 29.328
-cap "latch_one_5/Vdd!" "latch_one_5/GND!" 88.786
-cap "latch_one_5/GND!" "latch_one_5/c" 8.742
+cap "latch_one_5/GND!" "latch_one_5/Vdd!" 88.786
 cap "latch_one_5/Vdd!" "latch_one_5/a_n5_n54#" 52.438
-cap "GND!" "latch_one_5/Vdd!" 10.716
-cap "c" "latch_one_5/Vdd!" 6.104
+cap "latch_one_5/c" "latch_one_5/Vdd!" 12.932
+cap "latch_one_5/Vdd!" "latch_one_5/in" 6.632
+cap "latch_one_5/c" "latch_one_5/out" 29.328
+cap "latch_one_5/GND!" "latch_one_5/a_n5_n54#" 36.385
+cap "latch_one_5/GND!" "latch_one_5/c" 8.742
+cap "latch_one_5/Vdd!" "c" 6.104
+cap "latch_one_5/Vdd!" "GND!" 10.716
 subcap "out4" -18.752
 subcap "in4" -15.364
-cap "latch_one_4/c" "latch_one_4/GND!" 8.742
-cap "latch_one_4/a_n5_n54#" "latch_one_4/Vdd!" 52.438
-cap "latch_one_4/Vdd!" "latch_one_4/GND!" 97.402
-cap "latch_one_4/a_n5_n54#" "latch_one_4/GND!" 36.385
+cap "latch_one_4/in" "latch_one_4/Vdd!" 6.632
 cap "latch_one_4/c" "latch_one_4/Vdd!" 19.036
-cap "latch_one_4/c" "latch_one_4/out" 29.328
-cap "latch_one_4/Vdd!" "latch_one_4/in" 6.632
+cap "latch_one_4/c" "latch_one_4/GND!" 8.742
+cap "latch_one_4/GND!" "latch_one_4/Vdd!" 97.402
+cap "latch_one_4/a_n5_n54#" "latch_one_4/Vdd!" 52.438
+cap "latch_one_4/out" "latch_one_4/c" 29.328
+cap "latch_one_4/GND!" "latch_one_4/a_n5_n54#" 36.385
 subcap "out3" -18.752
 subcap "in3" -15.364
-cap "latch_one_3/c" "latch_one_3/out" 29.328
-cap "latch_one_3/c" "latch_one_3/Vdd!" 19.036
-cap "latch_one_3/in" "latch_one_3/Vdd!" 6.632
 cap "latch_one_3/c" "latch_one_3/GND!" 8.742
-cap "latch_one_3/a_n5_n54#" "latch_one_3/Vdd!" 52.438
-cap "latch_one_3/Vdd!" "latch_one_3/GND!" 97.402
+cap "latch_one_3/Vdd!" "latch_one_3/c" 19.036
 cap "latch_one_3/a_n5_n54#" "latch_one_3/GND!" 36.385
+cap "latch_one_3/Vdd!" "latch_one_3/in" 6.632
+cap "latch_one_3/Vdd!" "latch_one_3/a_n5_n54#" 52.438
+cap "latch_one_3/out" "latch_one_3/c" 29.328
+cap "latch_one_3/Vdd!" "latch_one_3/GND!" 97.402
 subcap "out2" -53.616
-cap "Vdd!" "latch_one_2/a_n5_n54#" 8.568
-cap "latch_one_2/c" "latch_one_2/GND!" 7.092
 cap "latch_one_2/out" "latch_one_2/c" 7.224
+cap "latch_one_2/a_n5_n54#" "Vdd!" 8.568
 cap "Vdd!" "latch_one_2/GND!" 21.124
+cap "latch_one_2/GND!" "latch_one_2/c" 7.092
 subcap "out2" -22.732
 subcap "in2" -33.24
-cap "c" "latch_one_2/Vdd!" 19.036
-cap "latch_one_2/a_n5_n54#" "GND!" 36.385
-cap "latch_one_2/GND!" "c" 1.65
-cap "latch_one_2/GND!" "latch_one_2/Vdd!" 2.844
-cap "latch_one_2/out" "c" 22.104
 cap "latch_one_2/a_n5_n54#" "latch_one_2/Vdd!" 43.87
-cap "latch_one_2/in" "latch_one_2/Vdd!" 6.632
+cap "latch_one_2/out" "c" 22.104
+cap "GND!" "latch_one_2/GND!" 2.616
+cap "latch_one_2/GND!" "latch_one_2/Vdd!" 2.844
+cap "latch_one_2/Vdd!" "c" 19.036
 cap "GND!" "latch_one_2/Vdd!" 73.434
-cap "latch_one_2/GND!" "GND!" 2.616
+cap "latch_one_2/Vdd!" "latch_one_2/in" 6.632
+cap "latch_one_2/GND!" "c" 1.65
+cap "GND!" "latch_one_2/a_n5_n54#" 36.385
 subcap "out1" -18.752
 subcap "in1" -19.996
-cap "latch_one_1/c" "latch_one_1/out" 29.328
-cap "latch_one_1/Vdd!" "latch_one_1/in" 6.632
-cap "latch_one_1/a_n5_n54#" "latch_one_1/GND!" 36.385
-cap "latch_one_1/a_n5_n54#" "latch_one_1/Vdd!" 52.438
+cap "latch_one_1/in" "latch_one_1/Vdd!" 6.632
+cap "latch_one_1/out" "latch_one_1/c" 29.328
 cap "latch_one_1/Vdd!" "latch_one_1/GND!" 81.73
+cap "latch_one_1/a_n5_n54#" "latch_one_1/GND!" 36.385
+cap "latch_one_1/Vdd!" "latch_one_1/c" 9.444
 cap "latch_one_1/c" "latch_one_1/GND!" 8.742
-cap "latch_one_1/c" "latch_one_1/Vdd!" 9.444
-cap "c" "latch_one_1/Vdd!" 9.592
+cap "latch_one_1/Vdd!" "latch_one_1/a_n5_n54#" 52.438
 cap "GND!" "latch_one_1/Vdd!" 15.672
+cap "latch_one_1/Vdd!" "c" 9.592
 subcap "out0" -18.752
 subcap "in0" -15.364
-cap "latch_one_0/a_n5_n54#" "latch_one_0/Vdd!" 52.438
 cap "latch_one_0/a_n5_n54#" "latch_one_0/GND!" 36.385
-cap "latch_one_0/Vdd!" "latch_one_0/c" 19.394
-cap "latch_one_0/c" "latch_one_0/GND!" 8.742
+cap "latch_one_0/a_n5_n54#" "latch_one_0/Vdd!" 52.438
 cap "latch_one_0/c" "latch_one_0/out" 29.328
-cap "latch_one_0/Vdd!" "latch_one_0/in" 6.632
-cap "latch_one_0/Vdd!" "latch_one_0/GND!" 97.76
+cap "latch_one_0/GND!" "latch_one_0/c" 8.742
+cap "latch_one_0/in" "latch_one_0/Vdd!" 6.632
+cap "latch_one_0/c" "latch_one_0/Vdd!" 19.394
+cap "latch_one_0/GND!" "latch_one_0/Vdd!" 97.76
 merge "latch_one_0/Vdd!" "latch_one_1/Vdd!" -502.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1075 -494 0 0 0 0 0 0
 merge "latch_one_1/Vdd!" "latch_one_2/Vdd!"
 merge "latch_one_2/Vdd!" "latch_one_3/Vdd!"

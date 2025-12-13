@@ -1,0 +1,699 @@
+timestamp 1765416915
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use fblock_one fblock_one_0 1 0 -75 0 1 -1133
+use fblock_one fblock_one_1 1 0 -75 0 1 -1309
+use fblock_one fblock_one_2 1 0 -75 0 1 -1485
+use fblock_one fblock_one_3 1 0 -75 0 1 -1661
+use fblock_one fblock_one_4 1 0 -75 0 1 -1837
+use fblock_one fblock_one_5 1 0 -75 0 1 -2013
+use fblock_one fblock_one_6 1 0 -75 0 1 -2189
+use fblock_one fblock_one_7 1 0 -75 0 1 -2365
+node "GND!" 22 1156.44 -30 -2391 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 160 6185 2484 0 0 0 0 0 0
+node "f7" 0 54.76 18 -2430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a7" 0 15.934 -80 -2430 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b7" 0 15.934 -80 -2369 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "f6" 0 54.76 18 -2254 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a6" 0 15.934 -80 -2254 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b6" 0 15.934 -80 -2193 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "f5" 0 54.76 18 -2078 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a5" 0 15.934 -80 -2078 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b5" 0 15.934 -80 -2017 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "f4" 0 54.76 18 -1902 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a4" 0 15.934 -80 -1902 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b4" 0 15.934 -80 -1841 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "f3" 0 54.76 18 -1726 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a3" 0 15.934 -80 -1726 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b3" 0 15.934 -80 -1665 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "f2" 0 54.76 18 -1550 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a2" 0 15.934 -80 -1550 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b2" 0 15.934 -80 -1489 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "f1" 0 54.76 18 -1374 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a1" 0 15.934 -80 -1374 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b1" 0 15.934 -80 -1313 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "f0" 0 54.76 18 -1198 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 30 0 0 0 0 0 0 0 0 0 0
+node "a0" 0 15.934 -80 -1198 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "b0" 0 15.934 -80 -1137 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
+node "g0" 25 1366.04 20 -2308 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 160 200 160 6185 2484 0 0 0 0 0 0
+node "g1" 25 1396.56 -13 -2308 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 160 200 160 6185 2484 0 0 0 0 0 0
+node "g2" 25 1396.56 -47 -2308 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 160 200 160 6185 2484 0 0 0 0 0 0
+node "g3" 25 1379.34 -79 -2308 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 160 200 160 6185 2484 0 0 0 0 0 0
+node "Vdd!" 25 1396.56 42 -2288 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 160 200 160 6185 2484 0 0 0 0 0 0
+cap "g3" "b6" 4.2
+cap "g0" "f1" 11.7
+cap "g3" "a5" 4.2
+cap "g3" "b1" 4.2
+cap "f2" "g0" 11.7
+cap "g3" "a0" 4.2
+cap "g3" "b0" 4.2
+cap "g0" "f5" 11.7
+cap "g3" "b4" 4.2
+cap "g3" "b5" 4.2
+cap "g3" "a6" 4.2
+cap "g3" "a2" 4.2
+cap "g3" "b3" 4.2
+cap "g3" "b2" 4.2
+cap "a4" "g3" 4.2
+cap "g3" "a1" 4.2
+cap "g0" "f0" 11.7
+cap "f3" "g0" 11.7
+cap "f6" "g0" 11.7
+cap "f4" "g0" 11.7
+cap "g3" "a3" 4.2
+subcap "GND!" -1158.85
+subcap "f7" -34.782
+subcap "a7" -10.124
+subcap "b7" -159.266
+cap "fblock_one_7/b" "fblock_one_7/2mux_nr_0/GND!" 36.385
+cap "fblock_one_7/2mux_nr_0/s" "fblock_one_7/2mux_nr_0/GND!" 3.654
+cap "fblock_one_7/2mux_nr_0/GND!" "fblock_one_7/2mux_nr_0/Vdd!" 3.434
+cap "fblock_one_7/2mux_nr_0/in0" "fblock_one_7/2mux_nr_0/GND!" 21.435
+cap "fblock_one_7/2mux_nr_0/GND!" "fblock_one_7/2mux_nr_0/a_n17_n11#" 6.172
+subcap "f7" -71.75
+subcap "f6" -71.874
+subcap "a6" -38.384
+subcap "g0" -1355.11
+subcap "g1" -1379.85
+subcap "g2" -1379.85
+subcap "g3" -1359.01
+cap "fblock_one_7/Vdd!" "fblock_one_7/g3" 36.421
+cap "fblock_one_6/2mux_nr_2/GND!" "fblock_one_7/g3" 64.875
+cap "GND!" "fblock_one_7/2mux_nr_0/s" 4.222
+cap "fblock_one_6/2mux_nr_2/in1" "fblock_one_7/g2" 10.605
+cap "fblock_one_7/GND!" "GND!" 10.672
+cap "fblock_one_7/Vdd!" "GND!" 21.064
+cap "fblock_one_6/2mux_nr_2/out" "GND!" 5.1
+cap "fblock_one_6/2mux_nr_2/GND!" "GND!" 42.207
+cap "fblock_one_6/a" "fblock_one_7/g2" 8.488
+cap "fblock_one_7/Vdd!" "fblock_one_6/2mux_nr_2/out" 44.2883
+cap "GND!" "fblock_one_6/2mux_nr_2/in0" 12.345
+cap "fblock_one_6/2mux_nr_2/a_n17_n11#" "GND!" 7.63
+cap "fblock_one_6/2mux_nr_2/GND!" "fblock_one_7/Vdd!" 174.802
+cap "fblock_one_7/g1" "fblock_one_7/GND!" 4.571
+cap "fblock_one_7/GND!" "fblock_one_7/g2" 4.571
+cap "fblock_one_7/g1" "fblock_one_7/Vdd!" 31.609
+cap "fblock_one_6/2mux_nr_2/out" "fblock_one_7/g2" 1.722
+cap "fblock_one_6/2mux_nr_2/GND!" "fblock_one_7/g1" 49.291
+cap "fblock_one_7/g1" "fblock_one_6/2mux_nr_2/out" 15.552
+cap "fblock_one_7/Vdd!" "fblock_one_7/g2" 31.609
+cap "fblock_one_7/2mux_nr_0/Vdd!" "GND!" 43.025
+cap "fblock_one_6/2mux_nr_2/GND!" "fblock_one_7/g2" 47.459
+cap "fblock_one_7/2mux_nr_0/in0" "GND!" 192.658
+cap "fblock_one_7/GND!" "fblock_one_7/g3" 3.265
+subcap "f6" -70.68
+subcap "g0" -1328.4
+subcap "Vdd!" -911.07
+cap "fblock_one_7/g0" "fblock_one_7/inv_4/Vdd!" 31.609
+cap "fblock_one_7/inv_4/GND!" "fblock_one_7/g0" 4.571
+subcap "f6" -46.562
+subcap "a6" -14.756
+subcap "b6" -7.906
+cap "g1" "fblock_one_6/b" 71.853
+cap "g1" "fblock_one_6/2mux_nr_0/Vdd!" 94.85
+cap "fblock_one_6/2mux_nr_2/GND!" "fblock_one_6/GND!" 1.556
+cap "fblock_one_6/2mux_nr_2/a_n17_n11#" "fblock_one_6/GND!" 1.382
+cap "fblock_one_6/2mux_nr_0/a_n17_n11#" "g2" 53.153
+cap "fblock_one_6/2mux_nr_0/in0" "fblock_one_6/GND!" 74.277
+cap "fblock_one_6/2mux_nr_0/in1" "g2" 52.587
+cap "fblock_one_6/f" "g1" 55.767
+cap "g0" "fblock_one_6/b" -0.738
+cap "fblock_one_6/2mux_nr_0/a_n17_n11#" "fblock_one_6/GND!" 6.172
+cap "fblock_one_6/2mux_nr_2/GND!" "g1" 0.55
+cap "g1" "fblock_one_6/GND!" 62.607
+cap "g0" "fblock_one_6/GND!" -0.84
+cap "fblock_one_6/2mux_nr_2/in0" "fblock_one_6/GND!" 41.955
+cap "g3" "fblock_one_6/2mux_nr_0/Vdd!" 42.094
+cap "g3" "fblock_one_6/b" 43.44
+cap "fblock_one_6/2mux_nr_2/out" "g2" 0.492
+cap "fblock_one_6/a" "g3" 7.5
+cap "g2" "fblock_one_6/2mux_nr_0/Vdd!" 47.577
+cap "fblock_one_6/inv_0/in" "g1" 12.252
+cap "g2" "fblock_one_6/b" 46.595
+cap "fblock_one_6/f" "g3" 42.094
+cap "fblock_one_6/a" "g2" 3.712
+cap "fblock_one_6/GND!" "fblock_one_6/2mux_nr_0/Vdd!" 46.459
+cap "g1" "fblock_one_6/2mux_nr_2/in0" 36.385
+cap "g3" "fblock_one_6/GND!" 63.115
+cap "fblock_one_6/GND!" "fblock_one_6/b" 44.261
+cap "fblock_one_6/2mux_nr_2/GND!" "g3" 0.872
+cap "fblock_one_6/f" "g2" 44.921
+cap "fblock_one_6/a" "fblock_one_6/GND!" 7.876
+cap "fblock_one_6/2mux_nr_2/in1" "g2" 32.04
+cap "g2" "fblock_one_6/GND!" 48.711
+cap "fblock_one_6/2mux_nr_2/GND!" "g2" 0.626
+cap "fblock_one_6/f" "fblock_one_6/GND!" 48.753
+cap "fblock_one_6/2mux_nr_2/a_n17_n11#" "g2" 53.153
+subcap "f6" -43.094
+cap "Vdd!" "fblock_one_6/2mux_nr_1/in0" 100.303
+cap "fblock_one_6/2mux_nr_1/in1" "g0" 3.51
+cap "Vdd!" "fblock_one_6/2mux_nr_1/Vdd!" 13.272
+cap "fblock_one_6/2mux_nr_1/a_n17_n11#" "g0" 59.099
+cap "Vdd!" "fblock_one_6/inv_4/GND!" 0.474
+cap "g0" "fblock_one_6/2mux_nr_1/s" 4.204
+cap "fblock_one_6/2mux_nr_1/GND!" "g0" 19.198
+cap "fblock_one_6/2mux_nr_1/out" "g0" 40.945
+cap "fblock_one_6/2mux_nr_1/s" "g0" 10.644
+cap "fblock_one_6/f" "g0" 77.87
+cap "Vdd!" "fblock_one_6/2mux_nr_1/GND!" 18.844
+cap "fblock_one_6/2mux_nr_1/Vdd!" "g0" 15.902
+cap "fblock_one_6/inv_4/GND!" "g0" 0.872
+subcap "f5" -40.592
+subcap "a5" -35.666
+cap "fblock_one_6/g2" "fblock_one_5/2mux_nr_2/out" 2.214
+cap "GND!" "fblock_one_5/2mux_nr_2/GND!" 43.763
+cap "fblock_one_5/2mux_nr_2/a_n17_n11#" "GND!" 9.012
+cap "GND!" "fblock_one_5/2mux_nr_2/out" 5.1
+cap "fblock_one_6/GND!" "fblock_one_6/g2" 27.899
+cap "fblock_one_6/GND!" "GND!" 10.274
+cap "fblock_one_6/Vdd!" "fblock_one_5/2mux_nr_2/GND!" 174.802
+cap "fblock_one_5/2mux_nr_2/in0" "GND!" 36.404
+cap "fblock_one_6/2mux_nr_0/in0" "GND!" 139.816
+cap "fblock_one_5/2mux_nr_2/out" "fblock_one_6/Vdd!" 44.2883
+cap "fblock_one_6/g1" "fblock_one_5/f" 48.339
+cap "fblock_one_6/Vdd!" "fblock_one_6/g1" 31.609
+cap "fblock_one_6/g1" "fblock_one_5/2mux_nr_2/GND!" 49.841
+cap "fblock_one_6/g3" "fblock_one_5/a" 7.5
+cap "fblock_one_6/g2" "fblock_one_6/2mux_nr_0/in1" 20.288
+cap "fblock_one_5/2mux_nr_2/out" "fblock_one_6/g1" 27.804
+cap "fblock_one_6/g2" "fblock_one_5/2mux_nr_2/in1" 22.995
+cap "fblock_one_6/GND!" "fblock_one_6/g1" 49.479
+cap "fblock_one_5/2mux_nr_2/in0" "fblock_one_6/g1" 17.421
+cap "fblock_one_6/g3" "fblock_one_6/Vdd!" 36.421
+cap "fblock_one_6/g3" "fblock_one_5/f" 23.418
+cap "fblock_one_6/g3" "fblock_one_5/2mux_nr_2/GND!" 65.747
+cap "fblock_one_6/g2" "fblock_one_5/a" 8.488
+cap "GND!" "fblock_one_5/a" 5.926
+cap "fblock_one_6/GND!" "fblock_one_6/g3" 35.549
+cap "fblock_one_6/g2" "fblock_one_5/f" 41.165
+cap "fblock_one_6/g2" "fblock_one_6/Vdd!" 31.609
+cap "GND!" "fblock_one_5/f" 40.959
+cap "GND!" "fblock_one_6/Vdd!" 21.064
+cap "fblock_one_6/g2" "fblock_one_5/2mux_nr_2/GND!" 48.085
+cap "fblock_one_5/2mux_nr_2/a_n17_n11#" "fblock_one_6/g2" 53.153
+subcap "f5" -84.486
+cap "fblock_one_6/g0" "fblock_one_5/f" 43.585
+cap "fblock_one_6/g0" "fblock_one_6/inv_4/GND!" 30.737
+cap "fblock_one_6/2mux_nr_1/in0" "fblock_one_6/inv_4/Vdd!" 129.968
+cap "fblock_one_6/inv_4/GND!" "fblock_one_6/inv_4/Vdd!" 10.754
+cap "fblock_one_6/g0" "fblock_one_6/inv_4/Vdd!" 31.609
+cap "fblock_one_6/g0" "fblock_one_5/m1_49_n43#" 17.421
+subcap "b5" -7.906
+cap "fblock_one_5/g0" "fblock_one_5/GND!" -0.84
+cap "fblock_one_5/GND!" "fblock_one_5/g3" 98.664
+cap "fblock_one_5/g2" "fblock_one_5/2mux_nr_0/Vdd!" 47.577
+cap "fblock_one_5/g0" "fblock_one_5/b" -0.738
+cap "fblock_one_5/b" "fblock_one_5/g3" 43.44
+cap "fblock_one_5/GND!" "fblock_one_5/2mux_nr_0/Vdd!" 46.459
+cap "fblock_one_5/2mux_nr_0/Vdd!" "fblock_one_5/g3" 42.094
+cap "fblock_one_5/GND!" "fblock_one_5/2mux_nr_0/in0" 178.929
+cap "fblock_one_5/2mux_nr_2/in0" "fblock_one_5/g1" 31.644
+cap "fblock_one_5/g1" "fblock_one_5/f" 8.268
+cap "fblock_one_5/GND!" "fblock_one_5/g1" 111.433
+cap "fblock_one_5/b" "fblock_one_5/g1" 71.853
+cap "fblock_one_5/g2" "fblock_one_5/2mux_nr_0/in1" 72.875
+cap "fblock_one_5/g2" "fblock_one_5/2mux_nr_2/in1" 19.65
+cap "fblock_one_5/2mux_nr_0/Vdd!" "fblock_one_5/g1" 94.85
+cap "fblock_one_5/g2" "fblock_one_5/2mux_nr_2/s" 3.712
+cap "fblock_one_5/GND!" "fblock_one_5/2mux_nr_2/s" 1.95
+cap "fblock_one_5/g2" "fblock_one_5/2mux_nr_0/a_n17_n11#" 53.153
+cap "fblock_one_5/g2" "fblock_one_5/f" 3.756
+cap "fblock_one_5/GND!" "fblock_one_5/2mux_nr_0/a_n17_n11#" 6.172
+cap "fblock_one_5/GND!" "fblock_one_5/g2" 75.957
+cap "fblock_one_5/GND!" "fblock_one_5/f" 7.794
+cap "fblock_one_5/2mux_nr_2/in0" "fblock_one_5/GND!" 20.432
+cap "fblock_one_5/g2" "fblock_one_5/b" 46.595
+cap "fblock_one_5/f" "fblock_one_5/g3" 18.676
+cap "fblock_one_5/GND!" "fblock_one_5/b" 44.261
+cap "fblock_one_5/2mux_nr_1/s" "fblock_one_5/g0" 10.644
+cap "fblock_one_5/2mux_nr_1/Vdd!" "Vdd!" 13.272
+cap "fblock_one_5/inv_4/GND!" "fblock_one_5/g0" 30.956
+cap "fblock_one_5/2mux_nr_1/in0" "Vdd!" 200.351
+cap "fblock_one_5/2mux_nr_1/GND!" "Vdd!" 18.844
+cap "fblock_one_5/2mux_nr_1/s" "fblock_one_5/g0" 4.204
+cap "fblock_one_5/2mux_nr_1/Vdd!" "fblock_one_5/g0" 15.902
+cap "fblock_one_5/2mux_nr_1/a_n17_n11#" "fblock_one_5/g0" 59.099
+cap "fblock_one_5/2mux_nr_1/GND!" "fblock_one_5/g0" 19.198
+cap "fblock_one_5/g0" "fblock_one_5/2mux_nr_1/out" 36.204
+cap "fblock_one_5/inv_4/GND!" "Vdd!" 11.228
+cap "fblock_one_5/g0" "fblock_one_5/2mux_nr_1/in1" 3.51
+cap "fblock_one_5/g0" "fblock_one_5/f" 36.385
+subcap "f4" -40.592
+subcap "a4" -10.124
+cap "fblock_one_5/inv_2/GND!" "fblock_one_4/2mux_nr_2/GND!" 0.398
+cap "fblock_one_5/g3" "fblock_one_4/a" 7.5
+cap "fblock_one_4/2mux_nr_2/in0" "fblock_one_4/2mux_nr_2/GND!" 54.3
+cap "fblock_one_4/a" "fblock_one_5/g2" 12.2
+cap "fblock_one_5/g0" "fblock_one_4/2mux_nr_2/GND!" -0.84
+cap "fblock_one_5/g3" "fblock_one_5/Vdd!" 36.421
+cap "fblock_one_5/Vdd!" "fblock_one_5/g2" 31.609
+cap "fblock_one_5/g2" "fblock_one_4/2mux_nr_2/out" 2.214
+cap "fblock_one_4/a" "fblock_one_4/2mux_nr_2/GND!" 7.876
+cap "fblock_one_5/Vdd!" "fblock_one_4/2mux_nr_2/GND!" 195.866
+cap "fblock_one_4/2mux_nr_2/out" "fblock_one_4/2mux_nr_2/GND!" 5.1
+cap "fblock_one_4/2mux_nr_2/in1" "fblock_one_5/g2" 41.415
+cap "fblock_one_5/inv_2/out" "fblock_one_4/2mux_nr_2/GND!" 38.968
+cap "fblock_one_5/g1" "fblock_one_4/2mux_nr_2/GND!" 97.188
+cap "fblock_one_4/f" "fblock_one_5/g1" 55.767
+cap "fblock_one_5/g2" "fblock_one_4/2mux_nr_0/s" 2.594
+cap "fblock_one_5/g2" "fblock_one_4/2mux_nr_2/a_n17_n11#" 53.153
+cap "fblock_one_5/g0" "fblock_one_4/2mux_nr_1/s" -0.738
+cap "fblock_one_5/inv_2/GND!" "fblock_one_5/g1" 2.688
+cap "fblock_one_4/2mux_nr_2/in0" "fblock_one_5/g1" 36.385
+cap "fblock_one_5/g3" "fblock_one_4/2mux_nr_2/GND!" 113.346
+cap "fblock_one_5/g2" "fblock_one_4/2mux_nr_2/GND!" 92.436
+cap "fblock_one_4/2mux_nr_2/a_n17_n11#" "fblock_one_4/2mux_nr_2/GND!" 9.012
+cap "fblock_one_5/Vdd!" "fblock_one_4/2mux_nr_2/out" 44.2883
+cap "fblock_one_5/g3" "fblock_one_4/f" 42.094
+cap "fblock_one_4/f" "fblock_one_5/g2" 44.921
+cap "fblock_one_5/g3" "fblock_one_5/inv_2/GND!" 2.035
+cap "fblock_one_5/g2" "fblock_one_5/inv_2/GND!" 2.688
+cap "fblock_one_4/2mux_nr_2/out" "fblock_one_5/g1" 27.804
+cap "fblock_one_5/Vdd!" "fblock_one_5/g1" 31.609
+cap "fblock_one_4/f" "fblock_one_4/2mux_nr_2/GND!" 48.753
+subcap "f4" -84.486
+cap "fblock_one_4/2mux_nr_1/GND!" "fblock_one_5/inv_4/Vdd!" 9.592
+cap "fblock_one_4/2mux_nr_1/GND!" "fblock_one_5/g0" 14.328
+cap "fblock_one_4/2mux_nr_1/s" "fblock_one_5/g0" 1.704
+cap "fblock_one_4/2mux_nr_1/out" "fblock_one_5/g0" 36.385
+cap "fblock_one_4/f" "fblock_one_5/g0" 41.485
+cap "fblock_one_5/inv_4/Vdd!" "fblock_one_5/g0" 31.609
+cap "fblock_one_5/inv_4/out" "fblock_one_5/inv_4/Vdd!" 34.976
+cap "fblock_one_5/inv_4/GND!" "fblock_one_5/g0" 2.688
+subcap "b4" -112.126
+cap "fblock_one_4/g1" "fblock_one_4/b" 71.853
+cap "fblock_one_4/g3" "fblock_one_4/GND!" 51.065
+cap "fblock_one_4/g2" "fblock_one_4/2mux_nr_0/Vdd!" 47.577
+cap "fblock_one_4/g2" "fblock_one_4/Vdd!" 27.493
+cap "fblock_one_4/g1" "fblock_one_4/2mux_nr_0/Vdd!" 94.85
+cap "fblock_one_4/g2" "fblock_one_4/2mux_nr_0/a_n17_n11#" 53.153
+cap "fblock_one_4/g1" "fblock_one_4/Vdd!" 27.493
+cap "fblock_one_4/Vdd!" "fblock_one_3/2mux_nr_2/out" 28.8588
+cap "fblock_one_4/b" "fblock_one_4/GND!" 44.261
+cap "fblock_one_4/g2" "fblock_one_4/GND!" 32.259
+cap "fblock_one_4/2mux_nr_0/Vdd!" "fblock_one_4/GND!" 46.459
+cap "fblock_one_4/Vdd!" "fblock_one_4/GND!" 16.948
+cap "fblock_one_4/g1" "fblock_one_4/GND!" 64.739
+cap "fblock_one_4/2mux_nr_0/a_n17_n11#" "fblock_one_4/GND!" 6.172
+cap "fblock_one_4/b" "fblock_one_4/g0" -0.738
+cap "fblock_one_4/g2" "fblock_one_4/2mux_nr_0/out" 1.23
+cap "fblock_one_4/2mux_nr_0/in0" "fblock_one_4/GND!" 214.093
+cap "fblock_one_4/b" "fblock_one_4/g3" 43.44
+cap "fblock_one_3/2mux_nr_2/GND!" "fblock_one_4/Vdd!" 39.5777
+cap "fblock_one_4/2mux_nr_0/Vdd!" "fblock_one_4/g3" 42.094
+cap "fblock_one_4/2mux_nr_0/in1" "fblock_one_4/g2" 72.875
+cap "fblock_one_4/g3" "fblock_one_4/Vdd!" 32.171
+cap "fblock_one_4/b" "fblock_one_4/g2" 45.969
+cap "fblock_one_4/g0" "fblock_one_4/2mux_nr_1/a_n17_n11#" 59.099
+cap "fblock_one_4/2mux_nr_1/GND!" "fblock_one_4/g0" 4.87
+cap "fblock_one_4/g0" "fblock_one_4/inv_4/GND!" 31.609
+cap "fblock_one_4/2mux_nr_1/GND!" "fblock_one_4/inv_4/Vdd!" 9.252
+cap "fblock_one_4/g0" "fblock_one_4/2mux_nr_1/out" 4.56
+cap "fblock_one_4/g0" "fblock_one_4/2mux_nr_1/in1" 3.51
+cap "fblock_one_4/2mux_nr_1/Vdd!" "fblock_one_4/g0" 15.902
+cap "fblock_one_4/inv_4/Vdd!" "fblock_one_4/inv_4/GND!" 11.228
+cap "fblock_one_4/g0" "fblock_one_4/2mux_nr_1/s" 4.204
+cap "fblock_one_4/g0" "fblock_one_4/inv_4/Vdd!" 63.878
+cap "fblock_one_4/inv_4/Vdd!" "fblock_one_4/2mux_nr_1/in0" 230.271
+cap "fblock_one_4/2mux_nr_1/Vdd!" "fblock_one_4/inv_4/Vdd!" 13.272
+cap "fblock_one_4/g0" "fblock_one_4/2mux_nr_1/s" 9.924
+subcap "f3" -40.592
+subcap "a3" -10.124
+subcap "b3" -34.394
+cap "fblock_one_3/f" "fblock_one_3/2mux_nr_2/GND!" 48.753
+cap "fblock_one_3/2mux_nr_2/out" "g2" 2.214
+cap "g1" "fblock_one_3/f" 55.767
+cap "fblock_one_3/2mux_nr_0/s" "fblock_one_3/2mux_nr_2/GND!" 1.382
+cap "fblock_one_3/b" "fblock_one_3/2mux_nr_2/GND!" 36.385
+cap "fblock_one_3/2mux_nr_0/a_n17_n11#" "g2" 50.273
+cap "g1" "fblock_one_3/b" 71.853
+cap "fblock_one_3/b" "g0" -0.738
+cap "fblock_one_3/2mux_nr_2/GND!" "fblock_one_3/a" 7.876
+cap "fblock_one_3/2mux_nr_2/in0" "fblock_one_3/2mux_nr_2/GND!" 54.3
+cap "g3" "fblock_one_3/2mux_nr_2/GND!" 127.99
+cap "fblock_one_3/2mux_nr_2/in0" "g1" 36.385
+cap "g2" "fblock_one_3/2mux_nr_2/GND!" 96.17
+cap "g3" "fblock_one_4/Vdd!" 6.77
+cap "fblock_one_3/2mux_nr_0/in0" "fblock_one_3/2mux_nr_2/GND!" 16.602
+cap "g3" "fblock_one_3/2mux_nr_0/Vdd!" 4.36
+cap "g2" "fblock_one_4/Vdd!" 8.316
+cap "fblock_one_3/2mux_nr_2/a_n17_n11#" "g2" 53.153
+cap "fblock_one_3/2mux_nr_2/out" "fblock_one_3/2mux_nr_2/GND!" 5.1
+cap "g2" "fblock_one_3/2mux_nr_0/Vdd!" 1.632
+cap "fblock_one_3/2mux_nr_2/out" "fblock_one_4/Vdd!" 44.2883
+cap "fblock_one_3/2mux_nr_2/out" "g1" 27.804
+cap "g3" "fblock_one_3/f" 42.094
+cap "g2" "fblock_one_3/2mux_nr_2/in1" 41.907
+cap "fblock_one_3/2mux_nr_0/a_n17_n11#" "fblock_one_3/2mux_nr_2/GND!" 6.172
+cap "fblock_one_3/f" "g2" 44.921
+cap "g3" "fblock_one_3/b" 43.44
+cap "fblock_one_3/b" "g2" 42.883
+cap "g3" "fblock_one_3/a" 7.5
+cap "fblock_one_3/2mux_nr_0/in1" "g2" 9.87
+cap "fblock_one_3/2mux_nr_2/GND!" "fblock_one_4/Vdd!" 183.118
+cap "g1" "fblock_one_3/2mux_nr_2/GND!" 111.576
+cap "g2" "fblock_one_3/a" 12.2
+cap "g0" "fblock_one_3/2mux_nr_2/GND!" -0.84
+cap "fblock_one_3/2mux_nr_2/a_n17_n11#" "fblock_one_3/2mux_nr_2/GND!" 9.012
+cap "fblock_one_3/2mux_nr_0/Vdd!" "fblock_one_3/2mux_nr_2/GND!" 3.206
+cap "g1" "fblock_one_4/Vdd!" 8.316
+cap "g1" "fblock_one_3/2mux_nr_0/Vdd!" 4.36
+subcap "f3" -84.486
+cap "fblock_one_3/2mux_nr_1/Vdd!" "fblock_one_4/inv_4/Vdd!" 3.318
+cap "fblock_one_3/2mux_nr_1/s" "g0" 10.644
+cap "fblock_one_3/2mux_nr_1/in0" "fblock_one_4/inv_4/Vdd!" 24.024
+cap "g0" "fblock_one_4/inv_4/Vdd!" 8.316
+cap "fblock_one_3/2mux_nr_1/out" "g0" 39.577
+cap "fblock_one_3/2mux_nr_1/GND!" "g0" 19.198
+cap "g0" "fblock_one_3/f" 41.485
+cap "fblock_one_3/2mux_nr_1/in1" "g0" 2.457
+cap "fblock_one_3/2mux_nr_1/Vdd!" "g0" 2.406
+cap "fblock_one_3/2mux_nr_1/a_n17_n11#" "g0" 54.743
+cap "fblock_one_3/2mux_nr_1/GND!" "fblock_one_4/inv_4/Vdd!" 18.844
+subcap "f2" -82.62
+subcap "a2" -75.208
+cap "fblock_one_3/g2" "fblock_one_3/GND!" 28.525
+cap "fblock_one_3/g2" "fblock_one_3/2mux_nr_0/a_n17_n11#" 2.88
+cap "fblock_one_3/Vdd!" "GND!" 21.064
+cap "fblock_one_3/g2" "fblock_one_2/a" 6.404
+cap "GND!" "fblock_one_2/2mux_nr_2/a_n17_n11#" 5.358
+cap "fblock_one_3/g2" "fblock_one_3/b" 3.712
+cap "fblock_one_3/2mux_nr_0/Vdd!" "fblock_one_3/g1" 90.49
+cap "GND!" "fblock_one_3/GND!" 10.672
+cap "fblock_one_3/g2" "fblock_one_3/2mux_nr_0/Vdd!" 45.945
+cap "fblock_one_3/Vdd!" "fblock_one_2/2mux_nr_2/GND!" 174.802
+cap "fblock_one_3/g1" "fblock_one_2/2mux_nr_2/GND!" 47.091
+cap "fblock_one_2/2mux_nr_2/in0" "GND!" 8.142
+cap "fblock_one_3/Vdd!" "fblock_one_3/g3" 36.421
+cap "fblock_one_3/g2" "fblock_one_2/2mux_nr_2/GND!" 46.037
+cap "GND!" "fblock_one_3/b" 6.74
+cap "GND!" "fblock_one_3/2mux_nr_0/Vdd!" 43.253
+cap "fblock_one_3/Vdd!" "fblock_one_2/2mux_nr_2/out" 44.2883
+cap "GND!" "fblock_one_3/2mux_nr_0/in0" 197.491
+cap "fblock_one_3/g1" "fblock_one_2/2mux_nr_2/out" 11.664
+cap "fblock_one_3/g3" "fblock_one_3/GND!" 36.421
+cap "fblock_one_3/g2" "fblock_one_2/2mux_nr_2/out" 1.476
+cap "GND!" "fblock_one_2/2mux_nr_2/GND!" 41.523
+cap "fblock_one_3/g2" "fblock_one_3/2mux_nr_0/out" 0.738
+cap "fblock_one_3/Vdd!" "fblock_one_3/g1" 31.609
+cap "fblock_one_3/g3" "fblock_one_3/2mux_nr_0/Vdd!" 37.734
+cap "fblock_one_3/g2" "fblock_one_3/2mux_nr_0/in1" 63.005
+cap "GND!" "fblock_one_2/2mux_nr_2/out" 5.1
+cap "fblock_one_3/Vdd!" "fblock_one_3/g2" 31.609
+cap "fblock_one_3/g2" "fblock_one_2/2mux_nr_2/in1" 6.93
+cap "fblock_one_3/g3" "fblock_one_2/2mux_nr_2/GND!" 60.793
+cap "fblock_one_3/GND!" "fblock_one_3/g1" 50.351
+subcap "f2" -86.6
+cap "fblock_one_3/inv_4/Vdd!" "fblock_one_3/inv_4/GND!" 11.228
+cap "fblock_one_3/inv_4/Vdd!" "fblock_one_3/2mux_nr_1/in0" 206.247
+cap "fblock_one_3/2mux_nr_1/Vdd!" "fblock_one_3/inv_4/Vdd!" 9.954
+cap "fblock_one_3/2mux_nr_1/a_n17_n11#" "fblock_one_3/g0" 4.356
+cap "fblock_one_3/g0" "fblock_one_3/inv_4/GND!" 31.609
+cap "fblock_one_3/g0" "fblock_one_3/2mux_nr_1/out" 1.368
+cap "fblock_one_3/2mux_nr_1/Vdd!" "fblock_one_3/g0" 13.496
+cap "fblock_one_3/g0" "fblock_one_3/inv_4/Vdd!" 67.994
+cap "fblock_one_3/2mux_nr_1/in1" "fblock_one_3/g0" 1.053
+cap "fblock_one_3/2mux_nr_1/s" "fblock_one_3/g0" 4.204
+subcap "f2" -46.402
+subcap "a2" -214.46
+subcap "b2" -7.906
+cap "fblock_one_2/a" "fblock_one_2/GND!" 7.876
+cap "g2" "fblock_one_2/2mux_nr_0/in1" 42.443
+cap "fblock_one_2/2mux_nr_0/Vdd!" "g2" 46.325
+cap "g1" "fblock_one_2/inv_0/in" 16.14
+cap "g1" "fblock_one_2/GND!" 61.735
+cap "g3" "fblock_one_2/2mux_nr_0/Vdd!" 40.35
+cap "fblock_one_2/GND!" "fblock_one_2/2mux_nr_0/in0" 58.841
+cap "g2" "fblock_one_2/f" 44.921
+cap "g3" "fblock_one_2/f" 42.094
+cap "fblock_one_2/2mux_nr_0/a_n17_n11#" "g2" 53.153
+cap "fblock_one_2/2mux_nr_2/GND!" "fblock_one_2/GND!" 2.24
+cap "g1" "fblock_one_2/2mux_nr_2/GND!" 2.75
+cap "fblock_one_2/2mux_nr_2/a_n17_n11#" "fblock_one_2/GND!" 3.654
+cap "fblock_one_2/b" "g1" 71.853
+cap "fblock_one_2/b" "fblock_one_2/GND!" 44.261
+cap "fblock_one_2/2mux_nr_2/out" "g2" 0.738
+cap "fblock_one_2/a" "g3" 7.5
+cap "fblock_one_2/a" "g2" 5.796
+cap "g0" "fblock_one_2/GND!" -0.84
+cap "g2" "fblock_one_2/GND!" 48.085
+cap "g3" "fblock_one_2/GND!" 62.243
+cap "fblock_one_2/2mux_nr_0/Vdd!" "fblock_one_2/GND!" 45.663
+cap "g1" "fblock_one_2/2mux_nr_0/Vdd!" 93.106
+cap "g1" "fblock_one_2/2mux_nr_2/in0" 36.385
+cap "fblock_one_2/2mux_nr_2/in0" "fblock_one_2/GND!" 46.578
+cap "g3" "fblock_one_2/2mux_nr_2/GND!" 0.84
+cap "fblock_one_2/GND!" "fblock_one_2/f" 48.753
+cap "g1" "fblock_one_2/f" 55.767
+cap "fblock_one_2/2mux_nr_0/a_n17_n11#" "fblock_one_2/GND!" 6.172
+cap "g2" "fblock_one_2/2mux_nr_2/in1" 35.715
+cap "fblock_one_2/2mux_nr_2/GND!" "g2" 2.048
+cap "fblock_one_2/2mux_nr_2/GND!" "g3" 4.114
+cap "fblock_one_2/2mux_nr_2/a_n17_n11#" "g2" 53.153
+cap "fblock_one_2/b" "g3" 43.44
+cap "fblock_one_2/b" "g0" -0.738
+cap "fblock_one_2/b" "g2" 46.595
+subcap "f2" -65.382
+cap "fblock_one_2/2mux_nr_1/in0" "Vdd!" 86.631
+cap "fblock_one_2/2mux_nr_1/GND!" "Vdd!" 18.844
+cap "g0" "fblock_one_2/2mux_nr_1/s" 4.204
+cap "fblock_one_2/2mux_nr_1/GND!" "g0" 19.198
+cap "g0" "fblock_one_2/2mux_nr_1/a_n17_n11#" 59.099
+cap "fblock_one_2/2mux_nr_1/in1" "g0" 3.51
+cap "fblock_one_2/f" "g0" 77.87
+cap "g0" "fblock_one_2/2mux_nr_1/out" 40.945
+cap "Vdd!" "fblock_one_2/2mux_nr_1/Vdd!" 12.324
+cap "g0" "fblock_one_2/2mux_nr_1/Vdd!" 14.158
+cap "fblock_one_2/2mux_nr_1/s" "g0" 10.644
+subcap "f1" -40.592
+subcap "a1" -118.458
+cap "fblock_one_2/g2" "fblock_one_2/Vdd!" 31.609
+cap "fblock_one_1/2mux_nr_2/GND!" "fblock_one_2/g1" 49.841
+cap "fblock_one_2/g1" "fblock_one_1/2mux_nr_2/out" 27.804
+cap "fblock_one_2/g2" "fblock_one_1/f" 38.965
+cap "fblock_one_2/g2" "fblock_one_1/2mux_nr_2/a_n17_n11#" 52.357
+cap "fblock_one_2/g2" "fblock_one_2/2mux_nr_0/Vdd!" 1.252
+cap "fblock_one_2/g3" "fblock_one_2/GND!" 36.421
+cap "fblock_one_2/Vdd!" "fblock_one_2/g1" 31.609
+cap "fblock_one_1/f" "fblock_one_2/g1" 44.233
+cap "fblock_one_2/g2" "fblock_one_1/2mux_nr_2/in1" 19.635
+cap "fblock_one_2/g1" "fblock_one_2/2mux_nr_0/Vdd!" 1.744
+cap "fblock_one_2/GND!" "GND!" 10.672
+cap "fblock_one_2/g3" "fblock_one_1/2mux_nr_2/GND!" 65.747
+cap "fblock_one_1/2mux_nr_2/in0" "GND!" 27.555
+cap "fblock_one_2/g2" "fblock_one_2/GND!" 28.525
+cap "fblock_one_2/g2" "fblock_one_2/2mux_nr_0/in1" 30.432
+cap "fblock_one_2/g3" "fblock_one_1/a" 7.5
+cap "fblock_one_1/2mux_nr_2/GND!" "GND!" 43.763
+cap "GND!" "fblock_one_1/2mux_nr_2/out" 5.1
+cap "fblock_one_2/g3" "fblock_one_2/Vdd!" 36.421
+cap "fblock_one_2/g3" "fblock_one_1/f" 17.554
+cap "fblock_one_2/GND!" "fblock_one_2/g1" 50.351
+cap "fblock_one_2/g3" "fblock_one_2/2mux_nr_0/Vdd!" 1.744
+cap "fblock_one_1/a" "GND!" 3.654
+cap "fblock_one_2/g2" "fblock_one_1/2mux_nr_2/out" 2.214
+cap "fblock_one_2/Vdd!" "GND!" 21.064
+cap "fblock_one_2/g2" "fblock_one_1/2mux_nr_2/GND!" 48.085
+cap "fblock_one_1/f" "GND!" 40.047
+cap "fblock_one_2/2mux_nr_0/in0" "GND!" 157.788
+cap "fblock_one_2/Vdd!" "fblock_one_1/2mux_nr_2/out" 44.2883
+cap "fblock_one_2/Vdd!" "fblock_one_1/2mux_nr_2/GND!" 174.802
+cap "fblock_one_1/2mux_nr_2/a_n17_n11#" "GND!" 9.012
+cap "fblock_one_2/g2" "fblock_one_1/a" 8.488
+cap "GND!" "fblock_one_2/2mux_nr_0/Vdd!" 0.796
+subcap "f1" -84.486
+cap "fblock_one_2/g0" "fblock_one_1/f" 36.385
+cap "fblock_one_2/g0" "fblock_one_2/2mux_nr_1/Vdd!" 1.744
+cap "fblock_one_2/2mux_nr_1/in0" "fblock_one_2/inv_4/Vdd!" 143.64
+cap "fblock_one_2/2mux_nr_1/Vdd!" "fblock_one_2/inv_4/Vdd!" 0.948
+cap "fblock_one_2/g0" "fblock_one_2/inv_4/Vdd!" 31.609
+cap "fblock_one_2/g0" "fblock_one_2/inv_4/GND!" 31.609
+cap "fblock_one_2/inv_4/GND!" "fblock_one_2/inv_4/Vdd!" 11.228
+subcap "b1" -7.906
+cap "fblock_one_1/2mux_nr_0/a_n17_n11#" "fblock_one_1/g2" 53.153
+cap "fblock_one_1/GND!" "fblock_one_1/2mux_nr_0/in0" 158.009
+cap "fblock_one_1/GND!" "fblock_one_1/b" 44.261
+cap "fblock_one_1/GND!" "fblock_one_1/2mux_nr_0/Vdd!" 46.459
+cap "fblock_one_1/GND!" "fblock_one_1/f" 8.706
+cap "fblock_one_1/GND!" "fblock_one_1/2mux_nr_2/in0" 26.745
+cap "fblock_one_1/g1" "fblock_one_1/b" 71.853
+cap "fblock_one_1/GND!" "fblock_one_1/2mux_nr_2/s" 4.222
+cap "fblock_one_1/b" "fblock_one_1/g2" 46.595
+cap "fblock_one_1/g1" "fblock_one_1/GND!" 106.129
+cap "fblock_one_1/GND!" "fblock_one_1/g2" 70.653
+cap "fblock_one_1/g2" "fblock_one_1/2mux_nr_2/a_n17_n11#" 1.288
+cap "fblock_one_1/2mux_nr_2/in1" "fblock_one_1/g2" 23.01
+cap "fblock_one_1/2mux_nr_0/Vdd!" "fblock_one_1/g2" 47.577
+cap "fblock_one_1/b" "fblock_one_1/g3" 43.44
+cap "fblock_one_1/g1" "fblock_one_1/2mux_nr_0/Vdd!" 94.85
+cap "fblock_one_1/GND!" "fblock_one_1/g3" 94.013
+cap "fblock_one_1/g2" "fblock_one_1/f" 5.956
+cap "fblock_one_1/g1" "fblock_one_1/f" 11.534
+cap "fblock_one_1/g2" "fblock_one_1/2mux_nr_0/in1" 72.875
+cap "fblock_one_1/GND!" "fblock_one_1/2mux_nr_0/a_n17_n11#" 6.172
+cap "fblock_one_1/g1" "fblock_one_1/2mux_nr_2/in0" 36.385
+cap "fblock_one_1/g2" "fblock_one_1/2mux_nr_2/s" 3.712
+cap "fblock_one_1/2mux_nr_0/Vdd!" "fblock_one_1/g3" 42.094
+cap "fblock_one_1/b" "fblock_one_1/g0" -0.738
+cap "fblock_one_1/f" "fblock_one_1/g3" 24.54
+cap "fblock_one_1/GND!" "fblock_one_1/g0" -0.84
+cap "fblock_one_1/2mux_nr_1/in0" "Vdd!" 178.335
+cap "fblock_one_1/inv_4/GND!" "Vdd!" 11
+cap "fblock_one_1/g0" "fblock_one_1/f" 41.485
+cap "fblock_one_1/g0" "fblock_one_1/2mux_nr_1/Vdd!" 15.902
+cap "fblock_one_1/g0" "fblock_one_1/2mux_nr_1/out" 40.945
+cap "fblock_one_1/2mux_nr_1/GND!" "Vdd!" 18.844
+cap "fblock_one_1/g0" "fblock_one_1/2mux_nr_1/s" 4.204
+cap "fblock_one_1/2mux_nr_1/Vdd!" "Vdd!" 13.272
+cap "fblock_one_1/g0" "fblock_one_1/inv_4/GND!" 25.652
+cap "fblock_one_1/g0" "fblock_one_1/2mux_nr_1/a_n17_n11#" 59.099
+cap "fblock_one_1/g0" "fblock_one_1/2mux_nr_1/in1" 3.51
+cap "fblock_one_1/g0" "fblock_one_1/2mux_nr_1/s" 10.644
+cap "fblock_one_1/2mux_nr_1/GND!" "fblock_one_1/g0" 19.198
+subcap "f0" -40.592
+subcap "a0" -10.124
+cap "fblock_one_1/g2" "fblock_one_0/f" 44.921
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_1/g3" 104.207
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_1/Vdd!" 195.866
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_0/2mux_nr_2/in0" 54.3
+cap "fblock_one_0/2mux_nr_2/out" "fblock_one_1/Vdd!" 44.2883
+cap "fblock_one_1/g1" "fblock_one_1/inv_2/GND!" 5.957
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_0/2mux_nr_2/a_n17_n11#" 9.012
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_1/g0" -0.84
+cap "fblock_one_1/g1" "fblock_one_1/Vdd!" 31.609
+cap "fblock_one_1/g1" "fblock_one_0/2mux_nr_2/in0" 36.385
+cap "fblock_one_0/f" "fblock_one_1/g3" 42.094
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_0/2mux_nr_2/out" 5.1
+cap "fblock_one_1/g1" "fblock_one_0/2mux_nr_2/GND!" 82.817
+cap "fblock_one_0/a" "fblock_one_1/g2" 12.2
+cap "fblock_one_1/inv_2/GND!" "fblock_one_1/g2" 5.957
+cap "fblock_one_1/g1" "fblock_one_0/2mux_nr_2/out" 27.804
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_0/f" 48.753
+cap "fblock_one_1/g2" "fblock_one_1/Vdd!" 31.609
+cap "fblock_one_0/2mux_nr_2/in1" "fblock_one_1/g2" 41.415
+cap "fblock_one_0/2mux_nr_2/a_n17_n11#" "fblock_one_1/g2" 53.153
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_1/g2" 85.705
+cap "fblock_one_1/g1" "fblock_one_0/f" 55.767
+cap "fblock_one_0/a" "fblock_one_1/g3" 7.5
+cap "fblock_one_1/g2" "fblock_one_0/2mux_nr_2/out" 2.214
+cap "fblock_one_1/inv_2/GND!" "fblock_one_1/g3" 4.651
+cap "fblock_one_1/Vdd!" "fblock_one_1/g3" 36.421
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_1/inv_2/out" 56.084
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_1/inv_2/GND!" 1.99
+cap "fblock_one_0/2mux_nr_2/GND!" "fblock_one_0/a" 7.876
+subcap "f0" -84.486
+cap "fblock_one_1/g0" "fblock_one_0/2mux_nr_1/GND!" 10.608
+cap "fblock_one_1/inv_4/GND!" "fblock_one_1/inv_4/Vdd!" 0.228
+cap "fblock_one_1/inv_4/Vdd!" "fblock_one_1/g0" 31.609
+cap "fblock_one_1/inv_4/Vdd!" "fblock_one_0/2mux_nr_1/GND!" 6.104
+cap "fblock_one_1/inv_4/Vdd!" "fblock_one_1/inv_4/out" 51.936
+cap "fblock_one_0/2mux_nr_1/out" "fblock_one_1/g0" 36.385
+cap "fblock_one_1/inv_4/GND!" "fblock_one_1/g0" 5.957
+cap "fblock_one_0/f" "fblock_one_1/g0" 41.485
+subcap "b0" -7.906
+cap "fblock_one_0/GND!" "fblock_one_0/g2" 55.03
+cap "fblock_one_0/2mux_nr_0/in1" "fblock_one_0/g2" 72.875
+cap "fblock_one_0/g2" "fblock_one_0/inv_2/Vdd!" 4.571
+cap "fblock_one_0/g2" "fblock_one_0/2mux_nr_0/Vdd!" 47.577
+cap "fblock_one_0/GND!" "fblock_one_0/g1" 90.506
+cap "fblock_one_0/2mux_nr_0/out" "fblock_one_0/g2" 1.23
+cap "fblock_one_0/GND!" "fblock_one_0/g0" -0.84
+cap "fblock_one_0/g1" "fblock_one_0/inv_2/Vdd!" 4.571
+cap "fblock_one_0/g1" "fblock_one_0/2mux_nr_0/Vdd!" 94.85
+cap "fblock_one_0/b" "fblock_one_0/g2" 46.595
+cap "fblock_one_0/GND!" "fblock_one_0/g3" 77.084
+cap "fblock_one_0/g3" "fblock_one_0/inv_2/Vdd!" 3.265
+cap "fblock_one_0/b" "fblock_one_0/g1" 71.853
+cap "fblock_one_0/g3" "fblock_one_0/2mux_nr_0/Vdd!" 42.094
+cap "fblock_one_0/2mux_nr_0/a_n17_n11#" "fblock_one_0/g2" 53.153
+cap "fblock_one_0/b" "fblock_one_0/g0" -0.738
+cap "fblock_one_0/b" "fblock_one_0/g3" 43.44
+cap "fblock_one_0/g0" "fblock_one_0/2mux_nr_1/Vdd!" 15.902
+cap "fblock_one_0/inv_4/Vdd!" "fblock_one_0/g0" 40.956
+cap "fblock_one_0/2mux_nr_1/s" "fblock_one_0/g0" 4.204
+cap "fblock_one_0/inv_4/GND!" "fblock_one_0/inv_4/Vdd!" 11.228
+cap "fblock_one_0/2mux_nr_1/in0" "fblock_one_0/inv_4/Vdd!" 230.271
+cap "fblock_one_0/2mux_nr_1/GND!" "fblock_one_0/g0" 10.27
+cap "fblock_one_0/inv_4/Vdd!" "fblock_one_0/2mux_nr_1/Vdd!" 13.272
+cap "fblock_one_0/2mux_nr_1/a_n17_n11#" "fblock_one_0/g0" 59.099
+cap "fblock_one_0/2mux_nr_1/in1" "fblock_one_0/g0" 3.51
+cap "fblock_one_0/2mux_nr_1/s" "fblock_one_0/g0" 10.644
+cap "fblock_one_0/2mux_nr_1/GND!" "fblock_one_0/inv_4/Vdd!" 12.74
+cap "fblock_one_0/inv_4/GND!" "fblock_one_0/g0" 31.609
+cap "fblock_one_0/2mux_nr_1/out" "fblock_one_0/g0" 4.56
+merge "fblock_one_0/GND!" "fblock_one_0/2mux_nr_2/GND!" -1164.38 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -185 -160 -2000 -800 0 0 0 0 0 0
+merge "fblock_one_0/2mux_nr_2/GND!" "fblock_one_1/GND!"
+merge "fblock_one_1/GND!" "fblock_one_2/GND!"
+merge "fblock_one_2/GND!" "fblock_one_3/2mux_nr_2/GND!"
+merge "fblock_one_3/2mux_nr_2/GND!" "fblock_one_4/GND!"
+merge "fblock_one_4/GND!" "fblock_one_4/2mux_nr_2/GND!"
+merge "fblock_one_4/2mux_nr_2/GND!" "fblock_one_5/GND!"
+merge "fblock_one_5/GND!" "fblock_one_6/GND!"
+merge "fblock_one_6/GND!" "fblock_one_7/2mux_nr_0/GND!"
+merge "fblock_one_7/2mux_nr_0/GND!" "GND!"
+merge "fblock_one_2/inv_0/out" "f2" -11.62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_6/a" "a6" -15.536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_0/inv_4/Vdd!" "fblock_one_1/inv_4/Vdd!" -1125.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 -165 -200 -165 -2000 -800 0 0 0 0 0 0
+merge "fblock_one_1/inv_4/Vdd!" "fblock_one_2/inv_4/Vdd!"
+merge "fblock_one_2/inv_4/Vdd!" "fblock_one_3/inv_4/Vdd!"
+merge "fblock_one_3/inv_4/Vdd!" "fblock_one_4/inv_4/Vdd!"
+merge "fblock_one_4/inv_4/Vdd!" "fblock_one_5/inv_4/Vdd!"
+merge "fblock_one_5/inv_4/Vdd!" "fblock_one_6/inv_4/Vdd!"
+merge "fblock_one_6/inv_4/Vdd!" "fblock_one_7/inv_4/Vdd!"
+merge "fblock_one_7/inv_4/Vdd!" "Vdd!"
+merge "fblock_one_6/inv_0/out" "f6" -8.436 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_6/b" "b6" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_0/g0" "fblock_one_1/g0" -1353.72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -370 -200 0 0 -1500 -900 0 0 0 0 0 0
+merge "fblock_one_1/g0" "fblock_one_2/g0"
+merge "fblock_one_2/g0" "fblock_one_3/g0"
+merge "fblock_one_3/g0" "fblock_one_4/g0"
+merge "fblock_one_4/g0" "fblock_one_5/g0"
+merge "fblock_one_5/g0" "fblock_one_6/g0"
+merge "fblock_one_6/g0" "fblock_one_7/g0"
+merge "fblock_one_7/g0" "g0"
+merge "fblock_one_0/g1" "fblock_one_1/g1" -1389.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -185 -160 0 0 -1500 -600 0 0 0 0 0 0
+merge "fblock_one_1/g1" "fblock_one_2/g1"
+merge "fblock_one_2/g1" "fblock_one_3/g1"
+merge "fblock_one_3/g1" "fblock_one_4/g1"
+merge "fblock_one_4/g1" "fblock_one_5/g1"
+merge "fblock_one_5/g1" "fblock_one_6/g1"
+merge "fblock_one_6/g1" "fblock_one_7/g1"
+merge "fblock_one_7/g1" "g1"
+merge "fblock_one_4/a" "a4" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_0/g2" "fblock_one_1/g2" -1383.65 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -185 -160 0 0 -1500 -600 0 0 0 0 0 0
+merge "fblock_one_1/g2" "fblock_one_2/g2"
+merge "fblock_one_2/g2" "fblock_one_3/g2"
+merge "fblock_one_3/g2" "fblock_one_4/g2"
+merge "fblock_one_4/g2" "fblock_one_5/g2"
+merge "fblock_one_5/g2" "fblock_one_6/g2"
+merge "fblock_one_6/g2" "fblock_one_7/g2"
+merge "fblock_one_7/g2" "g2"
+merge "fblock_one_4/b" "b4" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_0/g3" "fblock_one_1/g3" -1377.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -185 -160 0 0 -1500 -600 0 0 0 0 0 0
+merge "fblock_one_1/g3" "fblock_one_2/g3"
+merge "fblock_one_2/g3" "fblock_one_3/g3"
+merge "fblock_one_3/g3" "fblock_one_4/g3"
+merge "fblock_one_4/g3" "fblock_one_5/g3"
+merge "fblock_one_5/g3" "fblock_one_6/g3"
+merge "fblock_one_6/g3" "fblock_one_7/g3"
+merge "fblock_one_7/g3" "g3"
+merge "fblock_one_2/a" "a2" -13.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_2/b" "b2" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_1/inv_0/out" "f1" -7.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_5/inv_0/out" "f5" -7.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_0/a" "a0" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_0/b" "b0" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_0/inv_0/out" "f0" -7.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_7/a" "a7" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_7/b" "b7" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_4/inv_0/out" "f4" -7.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_3/inv_0/out" "f3" -7.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_5/a" "a5" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_1/b" "b1" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_5/b" "b5" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_1/a" "a1" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_7/inv_0/out" "f7" -7.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -10 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_3/b" "b3" -13.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0
+merge "fblock_one_3/a" "a3" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0

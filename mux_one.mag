@@ -41,22 +41,22 @@ rect 7 7 12 22
 rect 25 6 30 35
 rect 25 -26 30 -22
 rect -36 -31 30 -26
-use 2mux_nr  2mux_nr_0
-timestamp 1765248526
-transform 1 0 8 0 1 45
-box -32 -38 29 27
-use inv2  inv2_2
+use inv2  inv2_0
 timestamp 1765338958
-transform 1 0 -44 0 1 -21
+transform 1 0 -44 0 -1 59
 box -10 -13 20 40
 use inv2  inv2_1
 timestamp 1765338958
 transform 0 -1 20 -1 0 -3
 box -10 -13 20 40
-use inv2  inv2_0
+use inv2  inv2_2
 timestamp 1765338958
-transform 1 0 -44 0 -1 59
+transform 1 0 -44 0 1 -21
 box -10 -13 20 40
+use 2mux_nr  2mux_nr_0
+timestamp 1765248526
+transform 1 0 8 0 1 45
+box -32 -38 29 27
 << labels >>
 rlabel metal1 7 -25 12 -21 1 out
 rlabel metal1 -54 46 -49 51 3 in1

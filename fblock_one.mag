@@ -1,7 +1,99 @@
 magic
 tech scmos
 timestamp 1765416915
-use 2mux_nr  2mux_nr_2 /home/user
+<< nwell >>
+rect -5 60 125 86
+rect 60 14 65 19
+rect 60 -37 93 -29
+rect 60 -62 63 -37
+<< pwell >>
+rect -5 33 125 59
+rect 60 -82 63 -63
+rect 60 -90 93 -82
+<< metal1 >>
+rect 20 78 34 83
+rect 53 78 67 83
+rect 87 78 101 83
+rect -5 57 6 62
+rect 28 57 39 62
+rect 62 57 73 62
+rect 96 57 107 62
+rect 114 57 120 62
+rect 20 36 33 41
+rect 53 36 65 41
+rect 87 36 101 41
+rect -5 -4 0 1
+rect 23 -34 41 -29
+rect 23 -44 28 -34
+rect 88 -45 110 -40
+rect -5 -65 0 -60
+rect 58 -80 63 -60
+rect 36 -85 63 -80
+<< m2contact >>
+rect 117 77 122 82
+rect 14 57 19 62
+rect 47 57 52 62
+rect 81 57 86 62
+rect 120 57 125 62
+rect 65 36 70 41
+rect 14 19 19 24
+rect 23 22 28 27
+rect 49 22 54 27
+rect 60 19 65 24
+rect 79 19 84 24
+rect 88 22 93 27
+rect 114 22 119 27
+rect 1 -4 6 1
+rect 60 -4 65 1
+rect -5 -26 0 -21
+rect 27 -26 32 -21
+rect 60 -26 65 -21
+rect 101 -29 106 -24
+rect 14 -45 19 -40
+rect 49 -43 54 -38
+rect 110 -45 115 -40
+rect -5 -87 0 -82
+rect 27 -87 32 -82
+rect 66 -87 71 -82
+<< metal2 >>
+rect 111 77 117 82
+rect 14 42 19 57
+rect 14 37 28 42
+rect 23 27 28 37
+rect 47 34 52 57
+rect 81 42 86 57
+rect 111 43 116 77
+rect 70 36 74 41
+rect 81 37 93 42
+rect 47 29 54 34
+rect 49 27 54 29
+rect 14 15 19 19
+rect 60 15 65 19
+rect 14 10 65 15
+rect 1 -9 6 -4
+rect 60 -9 65 -4
+rect 1 -14 65 -9
+rect 69 -21 74 36
+rect 88 27 93 37
+rect 105 38 116 43
+rect 79 15 84 19
+rect 105 15 110 38
+rect 120 27 125 57
+rect 119 22 125 27
+rect 79 10 115 15
+rect 0 -26 9 -21
+rect 32 -26 60 -21
+rect 65 -26 74 -21
+rect 4 -82 9 -26
+rect 101 -38 106 -29
+rect 54 -43 106 -38
+rect 110 -40 115 10
+rect 14 -47 19 -45
+rect 110 -47 115 -45
+rect 14 -52 115 -47
+rect 0 -87 9 -82
+rect 32 -87 66 -82
+use 2mux_nr  2mux_nr_2
 timestamp 1765248526
 transform 0 -1 22 -1 0 -61
 box -32 -38 29 27
@@ -13,7 +105,7 @@ use 2mux_nr  2mux_nr_1
 timestamp 1765248526
 transform 0 -1 87 -1 0 0
 box -32 -38 29 27
-use inv  inv_0 /home/user
+use inv  inv_0
 timestamp 1765001281
 transform 1 0 73 0 1 -76
 box -10 -13 20 40
