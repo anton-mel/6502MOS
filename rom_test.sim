@@ -1,0 +1,31 @@
+| units: 9 tech: scmos format: MIT
+n wl1 a_81_n22# GND! 2 10 81 -9
+n wl1 bl0 GND! 2 10 41 -9
+n wl0 GND! a_61_12# 2 10 61 10
+n wl3 a_101_n84# GND! 2 10 101 -69
+n wl2 GND! a_81_n48# 2 10 81 -49
+n wl3 a_61_n84# GND! 2 10 61 -69
+p GND! bl2 Vdd! 4 6 83 50
+p GND! bl0 Vdd! 4 6 43 50
+n wl1 bl3 GND! 2 10 101 -9
+n wl2 GND! a_41_n48# 2 10 41 -49
+n wl0 GND! a_81_12# 2 10 81 10
+n wl1 a_61_n22# GND! 2 10 61 -9
+n wl0 GND! a_41_12# 2 10 41 10
+n wl3 a_81_n84# GND! 2 10 81 -69
+p GND! bl3 Vdd! 4 6 103 50
+n wl2 GND! bl3 2 10 101 -49
+n wl2 GND! bl1 2 10 61 -49
+n wl3 a_41_n84# GND! 2 10 41 -69
+p GND! bl1 Vdd! 4 6 63 50
+n wl0 GND! a_101_12# 2 10 101 10
+R wl3 328
+R wl2 328
+R wl1 328
+R wl0 328
+R bl3 58
+R bl2 17
+R bl1 25
+R bl0 25
+R GND! 402
+R Vdd! 2072

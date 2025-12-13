@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765515100
+timestamp 1765597224
 << pwell >>
 rect 35 -90 117 32
 << ntransistor >>
@@ -86,6 +86,7 @@ rect 71 -70 81 -68
 rect 91 -70 101 -68
 rect 111 -70 117 -68
 << metal1 >>
+rect 73 6 79 32
 rect 35 -4 41 6
 rect 51 -4 61 6
 rect 71 -26 81 6
@@ -98,6 +99,7 @@ rect 51 -64 61 -54
 rect 71 -64 81 -32
 rect 91 -64 101 -54
 rect 111 -64 117 -54
+rect 73 -90 79 -64
 << metal2 >>
 rect 41 -90 51 32
 rect 61 -90 71 32

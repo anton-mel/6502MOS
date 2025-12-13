@@ -1,0 +1,30 @@
+h Vdd!
+l GND!
+
+vector in wl0 wl1 wl2 wl3
+vector out bl0 bl1 bl2 bl3
+ana out in
+
+setvector in 0x0
+s
+path out
+
+setvector in 0x1
+s
+path out
+
+setvector in 0x2
+s
+path out
+
+setvector in 0x4
+s
+path out
+
+setvector in 0x8
+s
+path out
+
+setvector in 0x0
+s
+path out
