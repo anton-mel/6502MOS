@@ -1,0 +1,103 @@
+h Vdd!
+l GND!
+
+vector s s3 s2 s1 s0
+vector i i7 i6 i4 i3 i2 i1 i0
+
+setvector s 0000
+setvector i 0000000
+
+ana s s3' s2' s1' s0'
+
+s
+
+setvector s 0001
+setvector i 0000001
+
+s
+
+setvector s 0001
+setvector i 0000010
+
+s
+
+setvector s 0001
+setvector i 0000000
+
+s
+
+setvector s 0010
+setvector i 0001000
+
+s
+
+setvector s 0010
+setvector i 1000000
+
+s
+
+setvector s 0010
+setvector i 0000000
+
+s
+
+setvector s 0011
+setvector i 0000100
+
+s
+
+setvector s 0011
+setvector i 0000000
+
+s
+
+setvector s 0100
+
+s
+
+setvector s 0101
+
+s
+
+setvector s 0110
+
+s
+
+setvector s 0111
+setvector i 0010000
+
+s
+
+setvector s 0111
+setvector i 0100000
+
+s
+
+setvector s 0111
+setvector i 0000000
+
+s
+
+setvector s 1000
+
+s
+
+setvector s 1001
+
+s
+
+setvector s 1010
+
+s
+
+setvector s 1011
+
+s
+
+setvector s 1100
+
+s
+
+setvector s 1101
+
+s
