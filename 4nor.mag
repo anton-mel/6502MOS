@@ -1,44 +1,44 @@
 magic
 tech scmos
-timestamp 1762397579
+timestamp 1765673320
 << nwell >>
-rect 72 18 131 47
+rect 72 18 132 47
 << pwell >>
-rect 72 -6 131 17
+rect 72 -6 132 17
 << ntransistor >>
 rect 85 6 87 11
 rect 95 6 97 11
-rect 105 6 107 11
-rect 116 6 118 11
+rect 106 6 108 11
+rect 117 6 119 11
 << ptransistor >>
 rect 85 24 87 34
 rect 95 24 97 34
-rect 105 24 107 34
-rect 116 24 118 34
+rect 106 24 108 34
+rect 117 24 119 34
 << ndiffusion >>
 rect 83 6 85 11
 rect 87 6 89 11
 rect 94 6 95 11
 rect 97 6 99 11
-rect 104 6 105 11
-rect 107 6 109 11
-rect 114 6 116 11
-rect 118 6 120 11
+rect 104 6 106 11
+rect 108 6 110 11
+rect 115 6 117 11
+rect 119 6 121 11
 << pdiffusion >>
 rect 83 24 85 34
 rect 87 24 95 34
-rect 97 24 105 34
-rect 107 24 116 34
-rect 118 24 120 34
+rect 97 24 106 34
+rect 108 24 117 34
+rect 119 24 121 34
 << ndcontact >>
 rect 78 6 83 11
 rect 89 6 94 11
 rect 99 6 104 11
-rect 109 6 114 11
-rect 120 6 125 11
+rect 110 6 115 11
+rect 121 6 126 11
 << pdcontact >>
 rect 78 24 83 34
-rect 120 24 125 34
+rect 121 24 126 34
 << psubstratepcontact >>
 rect 99 -3 104 2
 << nsubstratencontact >>
@@ -46,35 +46,35 @@ rect 99 39 104 44
 << polysilicon >>
 rect 85 34 87 37
 rect 95 34 97 37
-rect 105 34 107 37
-rect 116 34 118 37
+rect 106 34 108 37
+rect 117 34 119 37
 rect 85 11 87 24
 rect 95 11 97 24
-rect 105 11 107 24
-rect 116 11 118 24
+rect 106 11 108 24
+rect 117 11 119 24
 rect 85 3 87 6
 rect 95 3 97 6
-rect 105 3 107 6
-rect 116 3 118 6
+rect 106 3 108 6
+rect 117 3 119 6
 << metal1 >>
 rect 78 39 99 44
-rect 104 39 131 44
+rect 104 39 132 44
 rect 78 34 83 39
-rect 120 20 125 24
-rect 89 15 131 20
+rect 121 20 126 24
+rect 89 15 132 20
 rect 89 11 94 15
-rect 109 11 114 15
+rect 110 11 115 15
 rect 78 2 83 6
 rect 99 2 104 6
-rect 120 2 125 6
+rect 121 2 126 6
 rect 78 -3 99 2
-rect 104 -3 131 2
+rect 104 -3 132 2
 << labels >>
 rlabel polysilicon 85 35 87 37 1 a
 rlabel polysilicon 95 35 97 37 1 b
-rlabel polysilicon 105 35 107 37 1 c
-rlabel polysilicon 116 35 118 37 1 d
-rlabel metal1 126 39 131 44 7 Vdd!
-rlabel metal1 126 15 131 20 7 out
-rlabel metal1 126 -3 131 2 7 GND!
+rlabel polysilicon 106 35 108 37 1 c
+rlabel polysilicon 117 35 119 37 1 d
+rlabel metal1 127 39 132 44 7 Vdd!
+rlabel metal1 127 15 132 20 7 out
+rlabel metal1 127 -3 132 2 7 GND!
 << end >>
