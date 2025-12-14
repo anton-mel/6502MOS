@@ -23,37 +23,37 @@ rect -336 105 -333 110
 rect -389 84 -384 1368
 rect -377 84 -372 1368
 rect -340 84 -335 1368
-use latch_one  latch_one_6
+use latch_one  latch_one_7
 timestamp 1765002978
-transform 1 0 -381 0 1 325
-box -11 -67 48 -12
-use latch_one  latch_one_4
-timestamp 1765002978
-transform 1 0 -381 0 1 677
-box -11 -67 48 -12
-use latch_one  latch_one_1
-timestamp 1765002978
-transform 1 0 -381 0 1 1205
-box -11 -67 48 -12
-use latch_one  latch_one_0
-timestamp 1765002978
-transform 1 0 -381 0 1 1381
-box -11 -67 48 -12
-use latch_one  latch_one_2
-timestamp 1765002978
-transform 1 0 -381 0 1 1029
-box -11 -67 48 -12
-use latch_one  latch_one_3
-timestamp 1765002978
-transform 1 0 -381 0 1 853
+transform 1 0 -381 0 1 149
 box -11 -67 48 -12
 use latch_one  latch_one_5
 timestamp 1765002978
 transform 1 0 -381 0 1 501
 box -11 -67 48 -12
-use latch_one  latch_one_7
+use latch_one  latch_one_3
 timestamp 1765002978
-transform 1 0 -381 0 1 149
+transform 1 0 -381 0 1 853
+box -11 -67 48 -12
+use latch_one  latch_one_2
+timestamp 1765002978
+transform 1 0 -381 0 1 1029
+box -11 -67 48 -12
+use latch_one  latch_one_0
+timestamp 1765002978
+transform 1 0 -381 0 1 1381
+box -11 -67 48 -12
+use latch_one  latch_one_1
+timestamp 1765002978
+transform 1 0 -381 0 1 1205
+box -11 -67 48 -12
+use latch_one  latch_one_4
+timestamp 1765002978
+transform 1 0 -381 0 1 677
+box -11 -67 48 -12
+use latch_one  latch_one_6
+timestamp 1765002978
+transform 1 0 -381 0 1 325
 box -11 -67 48 -12
 << labels >>
 rlabel polysilicon -392 111 -390 113 3 in7

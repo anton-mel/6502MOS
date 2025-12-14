@@ -20,6 +20,7 @@ vector wz_addrL   wz_addrL7 wz_addrL6 wz_addrL5 wz_addrL4 wz_addrL3 wz_addrL2 wz
 
 vector PCL_w_muxout  PCL_w_muxout7 PCL_w_muxout6 PCL_w_muxout5 PCL_w_muxout4 PCL_w_muxout3 PCL_w_muxout2 PCL_w_muxout1 PCL_w_muxout0
 vector PCL        PCL7 PCL6 PCL5 PCL4 PCL3 PCL2 PCL1 PCL0
+vector PCLplus1   PCLplus1_7 PCLplus1_6 PCLplus1_5 PCLplus1_4 PCLplus1_3 PCLplus1_2 PCLplus1_1 PCLplus1_0
 
 # arithmetic block control
 vector fb_ctrl    fb_g3 fb_g2 fb_g1 fb_g0
@@ -45,7 +46,7 @@ ana data_in wz_latch_ctrl fb_ctrl os_ctrl as_ctrl A_ctrl DB_ctrl X_ctrl Y_ctrl
 ana wzaddr_latch_ctrl PCL_ctrl PCH_ctrl ABL_ctrl ABH_ctrl out_latch_ctrl
 ana addr_out data_out
 ana wz rx ry wz_addrL wz_addrH rx_PCL rx_addrH ry_addrH as_cout 
-ana PCL_w_muxout PCL
+ana PCL_w_muxout PCL PCLplus1 addsub1_a0
 
 # initialize all
 setvector data_in 00000000
@@ -74,24 +75,32 @@ setvector wz_latch_ctrl 0000
 # all regs <- 0b10101010
 h A_w DB_w X_w Y_w PCL_w PCH_w ABL_w ABH_w PCL_w_sel PCH_w_sel ABH_w_sel
 s
-l A_w DB_w X_w Y_w PCL_w PCH_w ABL_w ABH_w
+l A_w DB_w X_w Y_w PCL_w PCH_w ABL_w ABH_w PCL_w_sel PCH_w_sel ABH_w_sel
 s
 
-# h A_r1 A_r0
-# s
-# l A_r1 A_r0
-# 
-# h DB_r1 DB_r0
-# s
-# l DB_r1 DB_r0
-# 
-# h X_r1 X_r0
-# s
-# l X_r1 X_r0
-# 
-# h Y_r1 Y_r0
-# s
-# l Y_r1 Y_r0
+setvector data_in 01111111
+setvector wz_latch_ctrl 1000
+s
+setvector wz_latch_ctrl 0000
+h PCH_w PCH_w_sel
+s
+l PCH_w PCH_w_sel
+
+h A_r1 A_r0
+s
+l A_r1 A_r0
+
+h DB_r1 DB_r0
+s
+l DB_r1 DB_r0
+
+h X_r1 X_r0
+s
+l X_r1 X_r0
+
+h Y_r1 Y_r0
+s
+l Y_r1 Y_r0
 
 h PCL_r0 PCL_r1 
 s
@@ -109,28 +118,106 @@ h ABH_r0 ABH_r1
 s
 l ABH_r0 ABH_r1
 
-# setvector wzaddr_latch_ctrl 11
-# s
-# setvector wzaddr_latch_ctrl 00
+setvector PCL_ctrl 0000
+setvector PCH_ctrl 0000
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
 
-# setvector PCL_ctrl 1000
-# setvector PCH_ctrl 1000
-# s
-# setvector PCL_ctrl 0000
-# setvector PCH_ctrl 0000
-# 
-# setvector PCL_ctrl 0100
-# setvector PCH_ctrl 0100
-# setvector wzaddr_latch_ctrl 11
-# s
-# setvector wzaddr_latch_ctrl 00
-# 
-# setvector PCL_ctrl 1000
-# setvector PCH_ctrl 1000
-# s
-# setvector PCL_ctrl 0000
-# setvector PCH_ctrl 0000
-# 
-# setvector PCL_ctrl 0100
-# setvector PCH_ctrl 0100
-# s
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wzaddr_latch_ctrl 00
+l PCH_r0 PCL_r0
+
+h PCH_w PCL_w
+s
+l PCH_w PCL_w
+
+
+
+
+
