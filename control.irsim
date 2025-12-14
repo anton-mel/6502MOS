@@ -1,13 +1,23 @@
 h Vdd!
 l GND!
 
+l rst
+
 vector s s3 s2 s1 s0
 vector i i7 i6 i4 i3 i2 i1 i0
+vector s' s3' s2' s1' s0'
 
-setvector s 0000
+setvector s 1111
 setvector i 0000000
+h rst
 
-ana s s3' s2' s1' s0'
+ana rst s s' i
+
+s
+
+setvector s 00001
+setvector i 0000001
+l rst
 
 s
 
