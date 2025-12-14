@@ -1,0 +1,74 @@
+logfile datapath_test2.txt
+
+h Vdd!
+l GND!
+
+# data/addr I/O
+vector data_in    data_in7 data_in6 data_in5 data_in4 data_in3 data_in2 data_in1 data_in0
+vector data_out   data_out7 data_out6 data_out5 data_out4 data_out3 data_out2 data_out1 data_out0
+vector addr_out   addr_out15 addr_out14 addr_out13 addr_out12 addr_out11 addr_out10 addr_out9 addr_out8 addr_out7 addr_out6 addr_out5 addr_out4 addr_out3 addr_out2 addr_out1 addr_out0
+
+# internal busses
+vector wz         wz7 wz6 wz5 wz4 wz3 wz2 wz1 wz0
+vector rx         rx7 rx6 rx5 rx4 rx3 rx2 rx1 rx0
+vector ry         ry7 ry6 ry5 ry4 ry3 ry2 ry1 ry0
+vector rx_PCL     rx_PCL7 rx_PCL6 rx_PCL5 rx_PCL4 rx_PCL3 rx_PCL2 rx_PCL1 rx_PCL0
+vector rx_addrH   rx_addrH7 rx_addrH6 rx_addrH5 rx_addrH4 rx_addrH3 rx_addrH2 rx_addrH1 rx_addrH0
+vector ry_addrH   ry_addrH7 ry_addrH6 ry_addrH5 ry_addrH4 ry_addrH3 ry_addrH2 ry_addrH1 ry_addrH0
+vector wz_addrH   wz_addrH7 wz_addrH6 wz_addrH5 wz_addrH4 wz_addrH3 wz_addrH2 wz_addrH1 wz_addrH0
+vector wz_addrL   wz_addrL7 wz_addrL6 wz_addrL5 wz_addrL4 wz_addrL3 wz_addrL2 wz_addrL1 wz_addrL0
+
+vector PCL_w_muxout  PCL_w_muxout7 PCL_w_muxout6 PCL_w_muxout5 PCL_w_muxout4 PCL_w_muxout3 PCL_w_muxout2 PCL_w_muxout1 PCL_w_muxout0
+vector PCL        PCL7 PCL6 PCL5 PCL4 PCL3 PCL2 PCL1 PCL0
+vector PCLplus1   PCLplus1_7 PCLplus1_6 PCLplus1_5 PCLplus1_4 PCLplus1_3 PCLplus1_2 PCLplus1_1 PCLplus1_0
+
+# arithmetic block control
+vector fb_ctrl    fb_g3 fb_g2 fb_g1 fb_g0
+vector os_ctrl    os_s os_u
+vector as_ctrl    as_sub as_cin
+
+# latch controls
+vector wz_latch_ctrl      ld_datain rfb ros ras
+vector wzaddr_latch_ctrl  rPCplus1L rPCplus1H
+vector out_latch_ctrl     rd_dataout rd_addrH rd_addrL
+
+# reg controls
+vector A_ctrl     A_w A_r0 A_r1
+vector DB_ctrl    DB_w DB_r0 DB_r1
+vector X_ctrl     X_w X_r0 X_r1
+vector Y_ctrl     Y_w Y_r0 Y_r1
+vector PCL_ctrl   PCL_w PCL_r0 PCL_r1 PCL_w_sel
+vector PCH_ctrl   PCH_w PCH_r0 PCH_r1 PCH_w_sel
+vector ABL_ctrl   ABL_w ABL_r0 ABL_r1
+vector ABH_ctrl   ABH_w ABH_r0 ABH_r1 ABH_w_sel
+
+vector ROM_output Cflag_w rd_dataout ld_datain fb_g3 fb_g2 fb_g1 rfb as_sub as_cin ras A_r0 A_w DB_r1 DB_w X_w Y_w PCL_w_sel PCL_r0 PCL_r1 PCL_w rPCplus1L PCH_w_sel PCH_r0 PCH_r1 PCH_w ABL_r1 ABL_w ABH_w_sel ABH_r1 ABH_w rPCplus1H rd_addrL rd_addrH
+l os_s os_u ros fb_g0 A_r1 DB_r0 X_r0 X_r1 Y_r0 Y_r1 ABL_r0 ABH_r0
+
+ana data_in wz_latch_ctrl fb_ctrl os_ctrl as_ctrl A_ctrl DB_ctrl X_ctrl Y_ctrl Cflag_w
+ana wzaddr_latch_ctrl PCL_ctrl PCH_ctrl ABL_ctrl ABH_ctrl out_latch_ctrl
+ana addr_out data_out
+ana wz rx ry wz_addrL wz_addrH wzCflag rx_PCL rx_addrH ry_addrH as_cout Cflag
+ana PCL
+
+setvector ROM_output 000000000000000000000000000000000
+s
+
+# S0 phi1: 000000100010100000000000000000000  (reset)
+# S0 phi0: 100000000001011110110101101101011  (reset)
+# S1 phi1
+
+setvector rx 10011101
+setvector ry 11110000
+setvector ROM_output 000000100010100000000000000000000
+s
+setvector ROM_output 000000000000000000000000000000000
+setvector rx xxxxxxxx
+setvector ry xxxxxxxx
+s
+
+setvector ROM_output 100000000001011110110101101101011
+s
+setvector ROM_output 000000000000000000000000000000000
+s
+

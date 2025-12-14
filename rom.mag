@@ -1,9 +1,11 @@
 magic
 tech scmos
-timestamp 1765748080
+timestamp 1765753920
 << nwell >>
 rect -8 156 2 162
 rect -79 122 0 132
+<< ndcontact >>
+rect 8 45 14 51
 << polysilicon >>
 rect -80 145 -78 147
 rect -27 146 -25 148
@@ -95,6 +97,7 @@ rect 366 -858 372 -854
 rect 448 -858 454 -854
 rect 530 -858 536 -854
 rect 579 -899 584 156
+rect 0 -904 5 -899
 rect 574 -904 584 -899
 << m2contact >>
 rect -103 132 -98 137
@@ -186,11 +189,11 @@ rect -255 -228 -250 -189
 rect -176 -270 -171 -231
 rect -260 -275 -171 -270
 use decoder24  decoder24_2
-timestamp 1765747547
+timestamp 1765748272
 transform 1 0 -280 0 1 -405
 box 74 -205 282 40
 use decoder24  decoder24_3
-timestamp 1765747547
+timestamp 1765748272
 transform 1 0 -280 0 1 -649
 box 74 -205 282 40
 use decoder24_control  decoder24_control_0
@@ -225,58 +228,58 @@ use rom_one  rom_one_49
 timestamp 1765685875
 transform 1 0 -35 0 1 -764
 box 35 -90 117 32
-use rom_inv  rom_inv_5
+use rom_one  rom_one_50
+timestamp 1765685875
+transform 1 0 47 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_6
 timestamp 1765602097
-transform 1 0 129 0 1 -894
-box -11 -13 17 40
-use rom_inv  rom_inv_4
-timestamp 1765602097
-transform 1 0 111 0 1 -894
+transform 1 0 93 0 1 -894
 box -11 -13 17 40
 use rom_inv  rom_inv_7
 timestamp 1765602097
 transform 1 0 147 0 1 -894
 box -11 -13 17 40
-use rom_inv  rom_inv_6
+use rom_inv  rom_inv_4
 timestamp 1765602097
-transform 1 0 93 0 1 -894
+transform 1 0 111 0 1 -894
 box -11 -13 17 40
-use rom_one  rom_one_50
-timestamp 1765685875
-transform 1 0 47 0 1 -764
-box 35 -90 117 32
-use rom_inv  rom_inv_15
+use rom_inv  rom_inv_5
 timestamp 1765602097
-transform 1 0 229 0 1 -894
-box -11 -13 17 40
-use rom_inv  rom_inv_9
-timestamp 1765602097
-transform 1 0 211 0 1 -894
-box -11 -13 17 40
-use rom_inv  rom_inv_8
-timestamp 1765602097
-transform 1 0 193 0 1 -894
-box -11 -13 17 40
-use rom_inv  rom_inv_10
-timestamp 1765602097
-transform 1 0 175 0 1 -894
+transform 1 0 129 0 1 -894
 box -11 -13 17 40
 use rom_one  rom_one_51
 timestamp 1765685875
 transform 1 0 129 0 1 -764
 box 35 -90 117 32
-use rom_inv  rom_inv_12
+use rom_inv  rom_inv_10
 timestamp 1765602097
-transform 1 0 257 0 1 -894
+transform 1 0 175 0 1 -894
 box -11 -13 17 40
-use rom_inv  rom_inv_14
+use rom_inv  rom_inv_8
 timestamp 1765602097
-transform 1 0 275 0 1 -894
+transform 1 0 193 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_9
+timestamp 1765602097
+transform 1 0 211 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_15
+timestamp 1765602097
+transform 1 0 229 0 1 -894
 box -11 -13 17 40
 use rom_one  rom_one_52
 timestamp 1765685875
 transform 1 0 211 0 1 -764
 box 35 -90 117 32
+use rom_inv  rom_inv_14
+timestamp 1765602097
+transform 1 0 275 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_12
+timestamp 1765602097
+transform 1 0 257 0 1 -894
+box -11 -13 17 40
 use rom_one  rom_one_48
 timestamp 1765685875
 transform 1 0 47 0 1 -642
@@ -301,53 +304,53 @@ use rom_one  rom_one_36
 timestamp 1765685875
 transform 1 0 211 0 1 -520
 box 35 -90 117 32
-use rom_inv  rom_inv_13
+use rom_one  rom_one_53
+timestamp 1765685875
+transform 1 0 293 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_17
 timestamp 1765602097
-transform 1 0 293 0 1 -894
-box -11 -13 17 40
-use rom_inv  rom_inv_16
-timestamp 1765602097
-transform 1 0 339 0 1 -894
+transform 1 0 357 0 1 -894
 box -11 -13 17 40
 use rom_inv  rom_inv_11
 timestamp 1765602097
 transform 1 0 311 0 1 -894
 box -11 -13 17 40
-use rom_inv  rom_inv_17
+use rom_inv  rom_inv_16
 timestamp 1765602097
-transform 1 0 357 0 1 -894
+transform 1 0 339 0 1 -894
 box -11 -13 17 40
-use rom_one  rom_one_53
-timestamp 1765685875
-transform 1 0 293 0 1 -764
-box 35 -90 117 32
-use rom_inv  rom_inv_19
+use rom_inv  rom_inv_13
 timestamp 1765602097
-transform 1 0 375 0 1 -894
+transform 1 0 293 0 1 -894
 box -11 -13 17 40
-use rom_inv  rom_inv_20
+use rom_inv  rom_inv_21
 timestamp 1765602097
-transform 1 0 421 0 1 -894
-box -11 -13 17 40
-use rom_inv  rom_inv_18
-timestamp 1765602097
-transform 1 0 393 0 1 -894
+transform 1 0 439 0 1 -894
 box -11 -13 17 40
 use rom_one  rom_one_54
 timestamp 1765685875
 transform 1 0 375 0 1 -764
 box 35 -90 117 32
-use rom_inv  rom_inv_21
+use rom_inv  rom_inv_18
 timestamp 1765602097
-transform 1 0 439 0 1 -894
+transform 1 0 393 0 1 -894
 box -11 -13 17 40
-use rom_inv  rom_inv_23
+use rom_inv  rom_inv_20
 timestamp 1765602097
-transform 1 0 457 0 1 -894
+transform 1 0 421 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_19
+timestamp 1765602097
+transform 1 0 375 0 1 -894
 box -11 -13 17 40
 use rom_inv  rom_inv_22
 timestamp 1765602097
 transform 1 0 475 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_23
+timestamp 1765602097
+transform 1 0 457 0 1 -894
 box -11 -13 17 40
 use rom_one  rom_one_46
 timestamp 1765685875
@@ -394,7 +397,7 @@ timestamp 1765602097
 transform 1 0 503 0 1 -894
 box -11 -13 17 40
 use decoder24  decoder24_1
-timestamp 1765747547
+timestamp 1765748272
 transform 1 0 -280 0 1 -161
 box 74 -205 282 40
 use rom_one  rom_one_14
@@ -482,7 +485,7 @@ timestamp 1765685875
 transform 1 0 457 0 1 -398
 box 35 -90 117 32
 use decoder24  decoder24_0
-timestamp 1765747547
+timestamp 1765748272
 transform 1 0 -280 0 1 83
 box 74 -205 282 40
 use inv2  inv2_1
@@ -610,35 +613,8 @@ rlabel polysilicon 0 -754 2 -752 1 wl28
 rlabel polysilicon 0 -774 2 -772 1 wl29
 rlabel polysilicon 0 -814 2 -812 1 wl30
 rlabel polysilicon 0 -834 2 -832 1 wl31
-rlabel space 0 -904 5 -899 3 Vdd!
+rlabel metal1 0 -904 5 -899 3 Vdd!
 rlabel metal1 0 -862 5 -857 3 GND!
-rlabel metal2 7 -907 12 -904 1 bl0
-rlabel metal2 25 -907 30 -904 1 bl1
-rlabel metal2 43 -907 48 -904 1 bl2
-rlabel metal2 61 -907 66 -904 1 bl3
-rlabel metal2 89 -907 94 -904 1 bl4
-rlabel metal2 107 -907 112 -904 1 bl5
-rlabel metal2 125 -907 130 -904 1 bl6
-rlabel metal2 143 -907 148 -904 1 bl7
-rlabel metal2 171 -907 176 -904 1 bl8
-rlabel metal2 189 -907 194 -904 1 bl9
-rlabel metal2 207 -907 212 -904 1 bl10
-rlabel metal2 225 -907 230 -904 1 bl11
-rlabel metal2 253 -907 258 -904 1 bl12
-rlabel metal2 271 -907 276 -904 1 bl13
-rlabel metal2 289 -907 294 -904 1 bl14
-rlabel metal2 307 -907 312 -904 1 bl15
-rlabel metal2 335 -907 340 -904 1 bl16
-rlabel metal2 353 -907 358 -904 1 bl17
-rlabel metal2 371 -907 376 -904 1 bl18
-rlabel metal2 389 -907 394 -904 1 bl19
-rlabel metal2 417 -907 422 -904 1 bl20
-rlabel metal2 435 -907 440 -904 1 bl21
-rlabel metal2 453 -907 458 -904 1 bl22
-rlabel metal2 471 -907 476 -904 1 bl23
-rlabel metal2 499 -907 504 -904 1 bl24
-rlabel metal2 517 -907 522 -904 1 bl25
-rlabel metal2 535 -907 540 -904 1 bl26
 rlabel metal2 553 -907 558 -904 1 bl27
 rlabel metal1 -94 25 -89 30 1 out2
 rlabel metal1 -94 -36 -89 -31 1 out3
@@ -662,4 +638,31 @@ rlabel m2contact -216 5 -211 10 1 a1
 rlabel m2contact -206 -42 -201 -37 1 a0
 rlabel metal1 -316 -583 -311 -578 1 a3
 rlabel metal1 -296 -534 -291 -529 1 a2
+rlabel metal2 7 -907 12 -904 1 IR_w
+rlabel metal2 25 -907 30 -904 1 rd_dataout
+rlabel metal2 43 -907 48 -904 1 ld_datain
+rlabel metal2 61 -907 66 -904 1 fb_g3
+rlabel metal2 89 -907 94 -904 1 fb_g2
+rlabel metal2 107 -907 112 -904 1 fb_g1
+rlabel metal2 125 -907 130 -904 1 rfb
+rlabel metal2 535 -907 540 -904 1 r_-w
+rlabel metal2 517 -907 522 -904 1 rd_addrL-rd_addrH
+rlabel metal2 499 -907 504 -904 1 ABH_w
+rlabel metal2 471 -907 476 -904 1 ABH_r1
+rlabel metal2 453 -907 458 -904 1 ABL_w
+rlabel metal2 435 -907 440 -904 1 ABL_r1
+rlabel metal2 417 -907 422 -904 1 PCH_w
+rlabel metal2 389 -907 394 -904 1 PCH_w_sel
+rlabel metal2 371 -907 376 -904 1 rPCplus1L-rPCplus1H
+rlabel metal2 353 -907 358 -904 1 PCL_w
+rlabel metal2 335 -907 340 -904 1 PCL_r1-PCH_r1
+rlabel metal2 307 -907 312 -904 1 PCL_w_sel
+rlabel metal2 289 -907 294 -904 1 X_w-Y_w
+rlabel metal2 271 -907 276 -904 1 DB_w
+rlabel metal2 253 -907 258 -904 1 DB_r1
+rlabel metal2 225 -907 230 -904 1 Cflag_w
+rlabel metal2 207 -907 212 -904 1 A_w
+rlabel metal2 189 -907 194 -904 1 A_r0
+rlabel metal2 171 -907 176 -904 1 as_cin-ras
+rlabel metal2 143 -907 148 -904 1 as_sub
 << end >>

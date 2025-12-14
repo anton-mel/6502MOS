@@ -1,4 +1,4 @@
-timestamp 1765746704
+timestamp 1765749671
 version 8.3
 tech scmos
 style TSMC0.18um(tsmc18)from:t24i
@@ -14,19 +14,19 @@ node "b" 324 1.42109e-14 95 -14 p 0 0 0 0 0 0 0 0 0 0 162 166 0 0 0 0 0 0 0 0 0 
 node "a" 324 1.42109e-14 85 -14 p 0 0 0 0 0 0 0 0 0 0 162 166 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "GND!" 89 5.81 68 -24 pw 600 180 25 20 0 0 0 0 2613 212 0 0 0 0 680 282 0 0 0 0 0 0 0 0 0 0
 node "Vdd!" 1012 2544.77 68 15 nw 25 20 440 102 4355 264 0 0 0 0 0 0 0 0 530 222 0 0 0 0 0 0 0 0 0 0
-cap "Vdd!" "b" 92.184
-cap "Vdd!" "out" 229.032
-cap "d" "out" 20.324
+cap "c" "Vdd!" 92.184
+cap "out" "Vdd!" 229.032
+cap "d" "Vdd!" 92.184
+cap "c" "GND!" 72.612
+cap "out" "GND!" 660.79
+cap "d" "GND!" 72.612
 cap "a" "Vdd!" 92.184
-cap "Vdd!" "d" 92.184
-cap "GND!" "b" 72.612
-cap "c" "out" 20.324
-cap "Vdd!" "c" 92.184
-cap "GND!" "out" 660.79
-cap "GND!" "a" 72.612
-cap "GND!" "d" 72.612
-cap "b" "out" 20.324
-cap "GND!" "c" 72.612
+cap "out" "b" 20.324
+cap "a" "GND!" 72.612
+cap "b" "Vdd!" 92.184
+cap "out" "c" 20.324
+cap "b" "GND!" 72.612
+cap "out" "d" 20.324
 fet nfet 116 -11 117 -10 40 44 "GND!" "d" 4 0 "out" 20 0 "GND!" 20 0
 fet nfet 105 -11 106 -10 40 44 "GND!" "c" 4 0 "GND!" 20 0 "out" 20 0
 fet nfet 95 -11 96 -10 40 44 "GND!" "b" 4 0 "out" 20 0 "GND!" 20 0

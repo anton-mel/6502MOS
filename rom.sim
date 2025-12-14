@@ -51,18 +51,18 @@ p a3 Vdd! decoder24_control_0/2and_1/a 2 10 -322 -560
 n a3 GND! decoder24_control_0/2and_1/a 2 5 -303 -560
 p a2 Vdd! decoder24_control_0/a_184_n99# 2 10 -302 -513
 n a2 GND! decoder24_control_0/a_184_n99# 2 5 -283 -513
-p decoder24_control_0/2and_0/a_87_60# Vdd! decoder24_0/e 2 10 -252 -247
-n decoder24_control_0/2and_0/a_87_60# GND! decoder24_0/e 2 5 -252 -265
-n decoder24_control_0/2and_1/a GND! decoder24_control_0/2and_0/a_87_41# 2 5 -289 -266
-p decoder24_control_0/a_184_n99# decoder24_control_0/2and_0/a_87_60# Vdd! 2 10 -278 -247
-p decoder24_control_0/2and_1/a Vdd! decoder24_control_0/2and_0/a_87_60# 2 10 -289 -247
-n decoder24_control_0/a_184_n99# decoder24_control_0/2and_0/a_87_41# decoder24_control_0/2and_0/a_87_60# 2 5 -278 -266
 p decoder24_control_0/2and_1/a_87_60# Vdd! decoder24_1/e 2 10 -252 -317
 n decoder24_control_0/2and_1/a_87_60# GND! decoder24_1/e 2 5 -252 -335
 n decoder24_control_0/2and_1/a GND! decoder24_control_0/2and_1/a_87_41# 2 5 -289 -336
 p a2 decoder24_control_0/2and_1/a_87_60# Vdd! 2 10 -278 -317
 p decoder24_control_0/2and_1/a Vdd! decoder24_control_0/2and_1/a_87_60# 2 10 -289 -317
 n a2 decoder24_control_0/2and_1/a_87_41# decoder24_control_0/2and_1/a_87_60# 2 5 -278 -336
+p decoder24_control_0/2and_0/a_87_60# Vdd! decoder24_0/e 2 10 -252 -247
+n decoder24_control_0/2and_0/a_87_60# GND! decoder24_0/e 2 5 -252 -265
+n decoder24_control_0/2and_1/a GND! decoder24_control_0/2and_0/a_87_41# 2 5 -289 -266
+p decoder24_control_0/a_184_n99# decoder24_control_0/2and_0/a_87_60# Vdd! 2 10 -278 -247
+p decoder24_control_0/2and_1/a Vdd! decoder24_control_0/2and_0/a_87_60# 2 10 -289 -247
+n decoder24_control_0/a_184_n99# decoder24_control_0/2and_0/a_87_41# decoder24_control_0/2and_0/a_87_60# 2 5 -278 -266
 p decoder24_control_0/2and_2/a_87_60# Vdd! decoder24_2/e 2 10 -252 -387
 n decoder24_control_0/2and_2/a_87_60# GND! decoder24_2/e 2 5 -252 -405
 n a3 GND! decoder24_control_0/2and_2/a_87_41# 2 5 -289 -406
@@ -75,8 +75,8 @@ n a3 GND! decoder24_control_0/2and_3/a_87_41# 2 5 -289 -476
 p a2 decoder24_control_0/2and_3/a_87_60# Vdd! 2 10 -278 -457
 p a3 Vdd! decoder24_control_0/2and_3/a_87_60# 2 10 -289 -457
 n a2 decoder24_control_0/2and_3/a_87_41# decoder24_control_0/2and_3/a_87_60# 2 5 -278 -476
-p m2_16_n880# bl0 Vdd! 2 10 13 -894
-n m2_16_n880# bl0 GND! 2 5 13 -871
+p m2_16_n880# IR_w Vdd! 2 10 13 -894
+n m2_16_n880# IR_w GND! 2 5 13 -871
 n wl29 rom_one_52/a_81_n22# GND! 2 10 292 -773
 n wl29 rom_one_52/a_41_n22# GND! 2 10 252 -773
 n wl28 GND! rom_one_52/a_61_12# 2 10 272 -754
@@ -125,8 +125,8 @@ n wl18 GND! rom_one_30/a_101_n48# 2 10 230 -447
 n wl18 GND! rom_one_30/a_61_n48# 2 10 190 -447
 n wl19 rom_one_30/a_41_n84# GND! 2 10 170 -467
 n wl16 GND! rom_one_30/a_101_12# 2 10 230 -388
-p m2_34_n880# bl1 Vdd! 2 10 31 -894
-n m2_34_n880# bl1 GND! 2 5 31 -871
+p m2_34_n880# rd_dataout Vdd! 2 10 31 -894
+n m2_34_n880# rd_dataout GND! 2 5 31 -871
 n wl21 rom_one_31/a_81_n22# GND! 2 10 210 -529
 n wl21 rom_one_31/a_41_n22# GND! 2 10 170 -529
 n wl20 GND! rom_one_31/a_61_12# 2 10 190 -510
@@ -191,8 +191,8 @@ n wl10 GND! rom_one_20/a_101_n48# 2 10 312 -203
 n wl10 GND! rom_one_20/a_61_n48# 2 10 272 -203
 n wl11 rom_one_20/a_41_n84# GND! 2 10 252 -223
 n wl8 GND! rom_one_20/a_101_12# 2 10 312 -144
-p m2_70_n880# bl3 Vdd! 2 10 67 -894
-n m2_70_n880# bl3 GND! 2 5 67 -871
+p m2_70_n880# fb_g3 Vdd! 2 10 67 -894
+n m2_70_n880# fb_g3 GND! 2 5 67 -871
 n wl21 rom_one_32/a_81_n22# GND! 2 10 46 -529
 n wl21 rom_one_32/a_41_n22# GND! 2 10 6 -529
 n wl20 GND! rom_one_32/a_61_12# 2 10 26 -510
@@ -273,8 +273,8 @@ n wl6 GND! rom_one_10/a_101_n48# 2 10 230 -81
 n wl6 GND! rom_one_10/a_61_n48# 2 10 190 -81
 n wl7 rom_one_10/a_41_n84# GND! 2 10 170 -101
 n wl4 GND! rom_one_10/a_101_12# 2 10 230 -22
-p m2_52_n880# bl2 Vdd! 2 10 49 -894
-n m2_52_n880# bl2 GND! 2 5 49 -871
+p m2_52_n880# ld_datain Vdd! 2 10 49 -894
+n m2_52_n880# ld_datain GND! 2 5 49 -871
 n wl25 rom_one_44/a_81_n22# GND! 2 10 292 -651
 n wl25 rom_one_44/a_41_n22# GND! 2 10 252 -651
 n wl24 GND! rom_one_44/a_61_12# 2 10 272 -632
@@ -355,8 +355,8 @@ n wl6 GND! rom_one_11/a_101_n48# 2 10 312 -81
 n wl6 GND! rom_one_11/a_61_n48# 2 10 272 -81
 n wl7 rom_one_11/a_41_n84# GND! 2 10 252 -101
 n wl4 GND! rom_one_11/a_101_12# 2 10 312 -22
-p m2_116_n880# bl5 Vdd! 2 10 113 -894
-n m2_116_n880# bl5 GND! 2 5 113 -871
+p m2_116_n880# fb_g1 Vdd! 2 10 113 -894
+n m2_116_n880# fb_g1 GND! 2 5 113 -871
 n wl25 rom_one_45/a_81_n22# GND! 2 10 210 -651
 n wl25 rom_one_45/a_41_n22# GND! 2 10 170 -651
 n wl24 GND! rom_one_45/a_61_12# 2 10 190 -632
@@ -421,8 +421,8 @@ n wl6 GND! rom_one_12/a_101_n48# 2 10 148 -81
 n wl6 GND! rom_one_12/a_61_n48# 2 10 108 -81
 n wl7 rom_one_12/a_41_n84# GND! 2 10 88 -101
 n wl4 GND! rom_one_12/a_101_12# 2 10 148 -22
-p m2_134_n880# bl6 Vdd! 2 10 131 -894
-n m2_134_n880# bl6 GND! 2 5 131 -871
+p m2_134_n880# rfb Vdd! 2 10 131 -894
+n m2_134_n880# rfb GND! 2 5 131 -871
 n wl25 rom_one_46/a_81_n22# GND! 2 10 374 -651
 n wl25 rom_one_46/a_41_n22# GND! 2 10 334 -651
 n wl24 GND! rom_one_46/a_61_12# 2 10 354 -632
@@ -487,8 +487,8 @@ n wl6 GND! rom_one_13/a_101_n48# 2 10 66 -81
 n wl6 GND! rom_one_13/a_61_n48# 2 10 26 -81
 n wl7 rom_one_13/a_41_n84# GND! 2 10 6 -101
 n wl4 GND! rom_one_13/a_101_12# 2 10 66 -22
-p m2_98_n880# bl4 Vdd! 2 10 95 -894
-n m2_98_n880# bl4 GND! 2 5 95 -871
+p m2_98_n880# fb_g2 Vdd! 2 10 95 -894
+n m2_98_n880# fb_g2 GND! 2 5 95 -871
 n wl25 rom_one_47/a_81_n22# GND! 2 10 46 -651
 n wl25 rom_one_47/a_41_n22# GND! 2 10 6 -651
 n wl24 GND! rom_one_47/a_61_12# 2 10 26 -632
@@ -553,8 +553,8 @@ n wl14 GND! rom_one_25/a_101_n48# 2 10 476 -325
 n wl14 GND! rom_one_25/a_61_n48# 2 10 436 -325
 n wl15 rom_one_25/a_41_n84# GND! 2 10 416 -345
 n wl12 GND! rom_one_25/a_101_12# 2 10 476 -266
-p m2_152_n880# bl7 Vdd! 2 10 149 -894
-n m2_152_n880# bl7 GND! 2 5 149 -871
+p m2_152_n880# as_sub Vdd! 2 10 149 -894
+n m2_152_n880# as_sub GND! 2 5 149 -871
 n wl25 rom_one_48/a_81_n22# GND! 2 10 128 -651
 n wl25 rom_one_48/a_41_n22# GND! 2 10 88 -651
 n wl24 GND! rom_one_48/a_61_12# 2 10 108 -632
@@ -619,8 +619,8 @@ n wl10 GND! rom_one_26/a_101_n48# 2 10 558 -203
 n wl10 GND! rom_one_26/a_61_n48# 2 10 518 -203
 n wl11 rom_one_26/a_41_n84# GND! 2 10 498 -223
 n wl8 GND! rom_one_26/a_101_12# 2 10 558 -144
-p m2_198_n880# bl9 Vdd! 2 10 195 -894
-n m2_198_n880# bl9 GND! 2 5 195 -871
+p m2_198_n880# A_r0 Vdd! 2 10 195 -894
+n m2_198_n880# A_r0 GND! 2 5 195 -871
 n wl29 rom_one_49/a_81_n22# GND! 2 10 46 -773
 n wl29 rom_one_49/a_41_n22# GND! 2 10 6 -773
 n wl28 GND! rom_one_49/a_61_12# 2 10 26 -754
@@ -685,8 +685,8 @@ n wl14 GND! rom_one_27/a_101_n48# 2 10 558 -325
 n wl14 GND! rom_one_27/a_61_n48# 2 10 518 -325
 n wl15 rom_one_27/a_41_n84# GND! 2 10 498 -345
 n wl12 GND! rom_one_27/a_101_12# 2 10 558 -266
-p m2_216_n880# bl10 Vdd! 2 10 213 -894
-n m2_216_n880# bl10 GND! 2 5 213 -871
+p m2_216_n880# A_w Vdd! 2 10 213 -894
+n m2_216_n880# A_w GND! 2 5 213 -871
 n wl17 rom_one_28/a_81_n22# GND! 2 10 46 -407
 n wl17 rom_one_28/a_41_n22# GND! 2 10 6 -407
 n wl16 GND! rom_one_28/a_61_12# 2 10 26 -388
@@ -794,7 +794,7 @@ n wl3 rom_one_0/a_101_n84# GND! 2 10 66 21
 n wl2 GND! rom_one_0/a_81_n48# 2 10 46 41
 n wl3 rom_one_0/a_61_n84# GND! 2 10 26 21
 n wl1 rom_one_0/a_101_n22# GND! 2 10 66 81
-n wl2 GND! rom_one_0/a_41_n48# 2 10 6 41
+n wl2 GND! a_8_45# 2 10 6 41
 n wl0 GND! rom_one_0/a_81_12# 2 10 46 100
 n wl1 rom_one_0/a_61_n22# GND! 2 10 26 81
 n wl0 GND! rom_one_0/a_41_12# 2 10 6 100
@@ -891,34 +891,22 @@ n wl2 GND! rom_one_5/a_101_n48# 2 10 558 41
 n wl2 GND! rom_one_5/a_61_n48# 2 10 518 41
 n wl3 rom_one_5/a_41_n84# GND! 2 10 498 21
 n wl0 GND! rom_one_5/a_101_12# 2 10 558 100
-p decoder24_0/3nand_2/b out1 Vdd! 2 10 -98 96
-p decoder24_0/e Vdd! out1 2 10 -109 96
-n decoder24_0/3nand_1/c decoder24_0/3nand_0/a_98_42# out1 2 5 -87 77
-n decoder24_0/3nand_2/b decoder24_0/3nand_0/a_87_42# decoder24_0/3nand_0/a_98_42# 2 5 -98 77
-n decoder24_0/e GND! decoder24_0/3nand_0/a_87_42# 2 5 -109 77
-p decoder24_0/3nand_1/c Vdd! out1 2 10 -87 96
-p a0 out2 Vdd! 2 10 -98 35
-p decoder24_0/e Vdd! out2 2 10 -109 35
-n decoder24_0/3nand_1/c decoder24_0/3nand_1/a_98_42# out2 2 5 -87 16
-n a0 decoder24_0/3nand_1/a_87_42# decoder24_0/3nand_1/a_98_42# 2 5 -98 16
-n decoder24_0/e GND! decoder24_0/3nand_1/a_87_42# 2 5 -109 16
-p decoder24_0/3nand_1/c Vdd! out2 2 10 -87 35
-p decoder24_0/3nand_2/b out3 Vdd! 2 10 -98 -26
-p decoder24_0/e Vdd! out3 2 10 -109 -26
-n a1 decoder24_0/3nand_2/a_98_42# out3 2 5 -87 -45
-n decoder24_0/3nand_2/b decoder24_0/3nand_2/a_87_42# decoder24_0/3nand_2/a_98_42# 2 5 -98 -45
-n decoder24_0/e GND! decoder24_0/3nand_2/a_87_42# 2 5 -109 -45
-p a1 Vdd! out3 2 10 -87 -26
-p a0 out4 Vdd! 2 10 -98 -87
-p decoder24_0/e Vdd! out4 2 10 -109 -87
-n a1 decoder24_0/3nand_3/a_98_42# out4 2 5 -87 -106
-n a0 decoder24_0/3nand_3/a_87_42# decoder24_0/3nand_3/a_98_42# 2 5 -98 -106
-n decoder24_0/e GND! decoder24_0/3nand_3/a_87_42# 2 5 -109 -106
-p a1 Vdd! out4 2 10 -87 -87
-p a1 Vdd! decoder24_0/3nand_1/c 2 10 -187 41
-n a1 GND! decoder24_0/3nand_1/c 2 5 -187 23
-p a0 Vdd! decoder24_0/3nand_2/b 2 10 -187 -32
-n a0 GND! decoder24_0/3nand_2/b 2 5 -187 -50
+p decoder24_0/e Vdd! out3 2 10 -109 -25
+n decoder24_0/e GND! decoder24_0/3nand2_2/a_6_n59# 2 5 -109 -44
+p decoder24_0/3nand2_2/b out3 Vdd! 2 10 -98 -25
+n decoder24_0/3nand2_2/b decoder24_0/3nand2_2/a_6_n59# decoder24_0/3nand2_2/a_17_n59# 2 5 -98 -44
+p a1 Vdd! out3 2 10 -87 -25
+n a1 decoder24_0/3nand2_2/a_17_n59# out3 2 5 -87 -44
+p decoder24_0/e Vdd! out4 2 10 -109 -86
+n decoder24_0/e GND! decoder24_0/3nand2_3/a_6_n59# 2 5 -109 -105
+p a0 out4 Vdd! 2 10 -98 -86
+n a0 decoder24_0/3nand2_3/a_6_n59# decoder24_0/3nand2_3/a_17_n59# 2 5 -98 -105
+p a1 Vdd! out4 2 10 -87 -86
+n a1 decoder24_0/3nand2_3/a_17_n59# out4 2 5 -87 -105
+p a1 Vdd! decoder24_0/3nand2_1/c 2 10 -187 41
+n a1 GND! decoder24_0/3nand2_1/c 2 5 -187 23
+p a0 Vdd! decoder24_0/3nand2_2/b 2 10 -187 -32
+n a0 GND! decoder24_0/3nand2_2/b 2 5 -187 -50
 p decoder24_3/decoder_nor2_3/phi1 decoder24_0/decoder_nor2_0/a_117_59# wl0 2 10 -21 96
 p out1 Vdd! decoder24_0/decoder_nor2_0/a_117_59# 2 10 -32 96
 n out1 wl1 GND! 2 5 -51 77
@@ -951,6 +939,18 @@ n decoder24_3/decoder_nor2_3/phi1 wl4 GND! 2 5 -21 -45
 n out3 GND! wl4 2 5 -32 -45
 p out3 decoder24_0/decoder_nor2_3/a_87_59# wl5 2 10 -51 -26
 p decoder24_3/decoder_nor2_3/phi0 Vdd! decoder24_0/decoder_nor2_3/a_87_59# 2 10 -62 -26
+p decoder24_0/e Vdd! out1 2 10 -109 97
+n decoder24_0/e GND! decoder24_0/3nand2_0/a_6_n59# 2 5 -109 78
+p decoder24_0/3nand2_2/b out1 Vdd! 2 10 -98 97
+n decoder24_0/3nand2_2/b decoder24_0/3nand2_0/a_6_n59# decoder24_0/3nand2_0/a_17_n59# 2 5 -98 78
+p decoder24_0/3nand2_1/c Vdd! out1 2 10 -87 97
+n decoder24_0/3nand2_1/c decoder24_0/3nand2_0/a_17_n59# out1 2 5 -87 78
+p decoder24_0/e Vdd! out2 2 10 -109 36
+n decoder24_0/e GND! decoder24_0/3nand2_1/a_6_n59# 2 5 -109 17
+p a0 out2 Vdd! 2 10 -98 36
+n a0 decoder24_0/3nand2_1/a_6_n59# decoder24_0/3nand2_1/a_17_n59# 2 5 -98 17
+p decoder24_0/3nand2_1/c Vdd! out2 2 10 -87 36
+n decoder24_0/3nand2_1/c decoder24_0/3nand2_1/a_17_n59# out2 2 5 -87 17
 p GND! m2_216_n880# Vdd! 4 6 212 140
 p GND! m2_180_n880# Vdd! 4 6 172 140
 p GND! m2_234_n880# Vdd! 4 6 232 140
@@ -975,34 +975,22 @@ p GND! m2_298_n880# Vdd! 4 6 294 140
 p GND! m2_262_n880# Vdd! 4 6 254 140
 p GND! m2_316_n880# Vdd! 4 6 314 140
 p GND! m2_280_n880# Vdd! 4 6 274 140
-p decoder24_1/3nand_2/b out5 Vdd! 2 10 -98 -148
-p decoder24_1/e Vdd! out5 2 10 -109 -148
-n decoder24_1/3nand_1/c decoder24_1/3nand_0/a_98_42# out5 2 5 -87 -167
-n decoder24_1/3nand_2/b decoder24_1/3nand_0/a_87_42# decoder24_1/3nand_0/a_98_42# 2 5 -98 -167
-n decoder24_1/e GND! decoder24_1/3nand_0/a_87_42# 2 5 -109 -167
-p decoder24_1/3nand_1/c Vdd! out5 2 10 -87 -148
-p a0 out6 Vdd! 2 10 -98 -209
-p decoder24_1/e Vdd! out6 2 10 -109 -209
-n decoder24_1/3nand_1/c decoder24_1/3nand_1/a_98_42# out6 2 5 -87 -228
-n a0 decoder24_1/3nand_1/a_87_42# decoder24_1/3nand_1/a_98_42# 2 5 -98 -228
-n decoder24_1/e GND! decoder24_1/3nand_1/a_87_42# 2 5 -109 -228
-p decoder24_1/3nand_1/c Vdd! out6 2 10 -87 -209
-p decoder24_1/3nand_2/b out7 Vdd! 2 10 -98 -270
-p decoder24_1/e Vdd! out7 2 10 -109 -270
-n a1 decoder24_1/3nand_2/a_98_42# out7 2 5 -87 -289
-n decoder24_1/3nand_2/b decoder24_1/3nand_2/a_87_42# decoder24_1/3nand_2/a_98_42# 2 5 -98 -289
-n decoder24_1/e GND! decoder24_1/3nand_2/a_87_42# 2 5 -109 -289
-p a1 Vdd! out7 2 10 -87 -270
-p a0 out8 Vdd! 2 10 -98 -331
-p decoder24_1/e Vdd! out8 2 10 -109 -331
-n a1 decoder24_1/3nand_3/a_98_42# out8 2 5 -87 -350
-n a0 decoder24_1/3nand_3/a_87_42# decoder24_1/3nand_3/a_98_42# 2 5 -98 -350
-n decoder24_1/e GND! decoder24_1/3nand_3/a_87_42# 2 5 -109 -350
-p a1 Vdd! out8 2 10 -87 -331
-p a1 Vdd! decoder24_1/3nand_1/c 2 10 -187 -203
-n a1 GND! decoder24_1/3nand_1/c 2 5 -187 -221
-p a0 Vdd! decoder24_1/3nand_2/b 2 10 -187 -276
-n a0 GND! decoder24_1/3nand_2/b 2 5 -187 -294
+p decoder24_1/e Vdd! out7 2 10 -109 -269
+n decoder24_1/e GND! decoder24_1/3nand2_2/a_6_n59# 2 5 -109 -288
+p decoder24_1/3nand2_2/b out7 Vdd! 2 10 -98 -269
+n decoder24_1/3nand2_2/b decoder24_1/3nand2_2/a_6_n59# decoder24_1/3nand2_2/a_17_n59# 2 5 -98 -288
+p a1 Vdd! out7 2 10 -87 -269
+n a1 decoder24_1/3nand2_2/a_17_n59# out7 2 5 -87 -288
+p decoder24_1/e Vdd! out8 2 10 -109 -330
+n decoder24_1/e GND! decoder24_1/3nand2_3/a_6_n59# 2 5 -109 -349
+p a0 out8 Vdd! 2 10 -98 -330
+n a0 decoder24_1/3nand2_3/a_6_n59# decoder24_1/3nand2_3/a_17_n59# 2 5 -98 -349
+p a1 Vdd! out8 2 10 -87 -330
+n a1 decoder24_1/3nand2_3/a_17_n59# out8 2 5 -87 -349
+p a1 Vdd! decoder24_1/3nand2_1/c 2 10 -187 -203
+n a1 GND! decoder24_1/3nand2_1/c 2 5 -187 -221
+p a0 Vdd! decoder24_1/3nand2_2/b 2 10 -187 -276
+n a0 GND! decoder24_1/3nand2_2/b 2 5 -187 -294
 p decoder24_3/decoder_nor2_3/phi1 decoder24_1/decoder_nor2_0/a_117_59# wl8 2 10 -21 -148
 p out5 Vdd! decoder24_1/decoder_nor2_0/a_117_59# 2 10 -32 -148
 n out5 wl9 GND! 2 5 -51 -167
@@ -1035,6 +1023,18 @@ n decoder24_3/decoder_nor2_3/phi1 wl12 GND! 2 5 -21 -289
 n out7 GND! wl12 2 5 -32 -289
 p out7 decoder24_1/decoder_nor2_3/a_87_59# wl13 2 10 -51 -270
 p decoder24_3/decoder_nor2_3/phi0 Vdd! decoder24_1/decoder_nor2_3/a_87_59# 2 10 -62 -270
+p decoder24_1/e Vdd! out5 2 10 -109 -147
+n decoder24_1/e GND! decoder24_1/3nand2_0/a_6_n59# 2 5 -109 -166
+p decoder24_1/3nand2_2/b out5 Vdd! 2 10 -98 -147
+n decoder24_1/3nand2_2/b decoder24_1/3nand2_0/a_6_n59# decoder24_1/3nand2_0/a_17_n59# 2 5 -98 -166
+p decoder24_1/3nand2_1/c Vdd! out5 2 10 -87 -147
+n decoder24_1/3nand2_1/c decoder24_1/3nand2_0/a_17_n59# out5 2 5 -87 -166
+p decoder24_1/e Vdd! out6 2 10 -109 -208
+n decoder24_1/e GND! decoder24_1/3nand2_1/a_6_n59# 2 5 -109 -227
+p a0 out6 Vdd! 2 10 -98 -208
+n a0 decoder24_1/3nand2_1/a_6_n59# decoder24_1/3nand2_1/a_17_n59# 2 5 -98 -227
+p decoder24_1/3nand2_1/c Vdd! out6 2 10 -87 -208
+n decoder24_1/3nand2_1/c decoder24_1/3nand2_1/a_17_n59# out6 2 5 -87 -227
 n wl5 rom_one_7/a_81_n22# GND! 2 10 374 -41
 n wl5 rom_one_7/a_41_n22# GND! 2 10 334 -41
 n wl4 GND! rom_one_7/a_61_12# 2 10 354 -22
@@ -1051,34 +1051,22 @@ n wl6 GND! rom_one_7/a_101_n48# 2 10 394 -81
 n wl6 GND! rom_one_7/a_61_n48# 2 10 354 -81
 n wl7 rom_one_7/a_41_n84# GND! 2 10 334 -101
 n wl4 GND! rom_one_7/a_101_12# 2 10 394 -22
-p decoder24_2/3nand_2/b out9 Vdd! 2 10 -98 -392
-p decoder24_2/e Vdd! out9 2 10 -109 -392
-n decoder24_2/3nand_1/c decoder24_2/3nand_0/a_98_42# out9 2 5 -87 -411
-n decoder24_2/3nand_2/b decoder24_2/3nand_0/a_87_42# decoder24_2/3nand_0/a_98_42# 2 5 -98 -411
-n decoder24_2/e GND! decoder24_2/3nand_0/a_87_42# 2 5 -109 -411
-p decoder24_2/3nand_1/c Vdd! out9 2 10 -87 -392
-p a0 out10 Vdd! 2 10 -98 -453
-p decoder24_2/e Vdd! out10 2 10 -109 -453
-n decoder24_2/3nand_1/c decoder24_2/3nand_1/a_98_42# out10 2 5 -87 -472
-n a0 decoder24_2/3nand_1/a_87_42# decoder24_2/3nand_1/a_98_42# 2 5 -98 -472
-n decoder24_2/e GND! decoder24_2/3nand_1/a_87_42# 2 5 -109 -472
-p decoder24_2/3nand_1/c Vdd! out10 2 10 -87 -453
-p decoder24_2/3nand_2/b out11 Vdd! 2 10 -98 -514
-p decoder24_2/e Vdd! out11 2 10 -109 -514
-n a1 decoder24_2/3nand_2/a_98_42# out11 2 5 -87 -533
-n decoder24_2/3nand_2/b decoder24_2/3nand_2/a_87_42# decoder24_2/3nand_2/a_98_42# 2 5 -98 -533
-n decoder24_2/e GND! decoder24_2/3nand_2/a_87_42# 2 5 -109 -533
-p a1 Vdd! out11 2 10 -87 -514
-p a0 out12 Vdd! 2 10 -98 -575
-p decoder24_2/e Vdd! out12 2 10 -109 -575
-n a1 decoder24_2/3nand_3/a_98_42# out12 2 5 -87 -594
-n a0 decoder24_2/3nand_3/a_87_42# decoder24_2/3nand_3/a_98_42# 2 5 -98 -594
-n decoder24_2/e GND! decoder24_2/3nand_3/a_87_42# 2 5 -109 -594
-p a1 Vdd! out12 2 10 -87 -575
-p a1 Vdd! decoder24_2/3nand_1/c 2 10 -187 -447
-n a1 GND! decoder24_2/3nand_1/c 2 5 -187 -465
-p a0 Vdd! decoder24_2/3nand_2/b 2 10 -187 -520
-n a0 GND! decoder24_2/3nand_2/b 2 5 -187 -538
+p decoder24_2/e Vdd! out11 2 10 -109 -513
+n decoder24_2/e GND! decoder24_2/3nand2_2/a_6_n59# 2 5 -109 -532
+p decoder24_2/3nand2_2/b out11 Vdd! 2 10 -98 -513
+n decoder24_2/3nand2_2/b decoder24_2/3nand2_2/a_6_n59# decoder24_2/3nand2_2/a_17_n59# 2 5 -98 -532
+p a1 Vdd! out11 2 10 -87 -513
+n a1 decoder24_2/3nand2_2/a_17_n59# out11 2 5 -87 -532
+p decoder24_2/e Vdd! out12 2 10 -109 -574
+n decoder24_2/e GND! decoder24_2/3nand2_3/a_6_n59# 2 5 -109 -593
+p a0 out12 Vdd! 2 10 -98 -574
+n a0 decoder24_2/3nand2_3/a_6_n59# decoder24_2/3nand2_3/a_17_n59# 2 5 -98 -593
+p a1 Vdd! out12 2 10 -87 -574
+n a1 decoder24_2/3nand2_3/a_17_n59# out12 2 5 -87 -593
+p a1 Vdd! decoder24_2/3nand2_1/c 2 10 -187 -447
+n a1 GND! decoder24_2/3nand2_1/c 2 5 -187 -465
+p a0 Vdd! decoder24_2/3nand2_2/b 2 10 -187 -520
+n a0 GND! decoder24_2/3nand2_2/b 2 5 -187 -538
 p decoder24_3/decoder_nor2_3/phi1 decoder24_2/decoder_nor2_0/a_117_59# wl16 2 10 -21 -392
 p out9 Vdd! decoder24_2/decoder_nor2_0/a_117_59# 2 10 -32 -392
 n out9 wl17 GND! 2 5 -51 -411
@@ -1111,6 +1099,18 @@ n decoder24_3/decoder_nor2_3/phi1 wl20 GND! 2 5 -21 -533
 n out11 GND! wl20 2 5 -32 -533
 p out11 decoder24_2/decoder_nor2_3/a_87_59# wl21 2 10 -51 -514
 p decoder24_3/decoder_nor2_3/phi0 Vdd! decoder24_2/decoder_nor2_3/a_87_59# 2 10 -62 -514
+p decoder24_2/e Vdd! out9 2 10 -109 -391
+n decoder24_2/e GND! decoder24_2/3nand2_0/a_6_n59# 2 5 -109 -410
+p decoder24_2/3nand2_2/b out9 Vdd! 2 10 -98 -391
+n decoder24_2/3nand2_2/b decoder24_2/3nand2_0/a_6_n59# decoder24_2/3nand2_0/a_17_n59# 2 5 -98 -410
+p decoder24_2/3nand2_1/c Vdd! out9 2 10 -87 -391
+n decoder24_2/3nand2_1/c decoder24_2/3nand2_0/a_17_n59# out9 2 5 -87 -410
+p decoder24_2/e Vdd! out10 2 10 -109 -452
+n decoder24_2/e GND! decoder24_2/3nand2_1/a_6_n59# 2 5 -109 -471
+p a0 out10 Vdd! 2 10 -98 -452
+n a0 decoder24_2/3nand2_1/a_6_n59# decoder24_2/3nand2_1/a_17_n59# 2 5 -98 -471
+p decoder24_2/3nand2_1/c Vdd! out10 2 10 -87 -452
+n decoder24_2/3nand2_1/c decoder24_2/3nand2_1/a_17_n59# out10 2 5 -87 -471
 p GND! m2_380_n880# Vdd! 4 6 376 140
 p GND! m2_344_n880# Vdd! 4 6 336 140
 p GND! m2_398_n880# Vdd! 4 6 396 140
@@ -1135,34 +1135,22 @@ p GND! m2_462_n880# Vdd! 4 6 458 140
 p GND! m2_426_n880# Vdd! 4 6 418 140
 p GND! m2_480_n880# Vdd! 4 6 478 140
 p GND! m2_444_n880# Vdd! 4 6 438 140
-p decoder24_3/3nand_2/b out13 Vdd! 2 10 -98 -636
-p decoder24_3/e Vdd! out13 2 10 -109 -636
-n decoder24_3/3nand_1/c decoder24_3/3nand_0/a_98_42# out13 2 5 -87 -655
-n decoder24_3/3nand_2/b decoder24_3/3nand_0/a_87_42# decoder24_3/3nand_0/a_98_42# 2 5 -98 -655
-n decoder24_3/e GND! decoder24_3/3nand_0/a_87_42# 2 5 -109 -655
-p decoder24_3/3nand_1/c Vdd! out13 2 10 -87 -636
-p a0 out14 Vdd! 2 10 -98 -697
-p decoder24_3/e Vdd! out14 2 10 -109 -697
-n decoder24_3/3nand_1/c decoder24_3/3nand_1/a_98_42# out14 2 5 -87 -716
-n a0 decoder24_3/3nand_1/a_87_42# decoder24_3/3nand_1/a_98_42# 2 5 -98 -716
-n decoder24_3/e GND! decoder24_3/3nand_1/a_87_42# 2 5 -109 -716
-p decoder24_3/3nand_1/c Vdd! out14 2 10 -87 -697
-p decoder24_3/3nand_2/b out15 Vdd! 2 10 -98 -758
-p decoder24_3/e Vdd! out15 2 10 -109 -758
-n a1 decoder24_3/3nand_2/a_98_42# out15 2 5 -87 -777
-n decoder24_3/3nand_2/b decoder24_3/3nand_2/a_87_42# decoder24_3/3nand_2/a_98_42# 2 5 -98 -777
-n decoder24_3/e GND! decoder24_3/3nand_2/a_87_42# 2 5 -109 -777
-p a1 Vdd! out15 2 10 -87 -758
-p a0 out16 Vdd! 2 10 -98 -819
-p decoder24_3/e Vdd! out16 2 10 -109 -819
-n a1 decoder24_3/3nand_3/a_98_42# out16 2 5 -87 -838
-n a0 decoder24_3/3nand_3/a_87_42# decoder24_3/3nand_3/a_98_42# 2 5 -98 -838
-n decoder24_3/e GND! decoder24_3/3nand_3/a_87_42# 2 5 -109 -838
-p a1 Vdd! out16 2 10 -87 -819
-p a1 Vdd! decoder24_3/3nand_1/c 2 10 -187 -691
-n a1 GND! decoder24_3/3nand_1/c 2 5 -187 -709
-p a0 Vdd! decoder24_3/3nand_2/b 2 10 -187 -764
-n a0 GND! decoder24_3/3nand_2/b 2 5 -187 -782
+p decoder24_3/e Vdd! out15 2 10 -109 -757
+n decoder24_3/e GND! decoder24_3/3nand2_2/a_6_n59# 2 5 -109 -776
+p decoder24_3/3nand2_2/b out15 Vdd! 2 10 -98 -757
+n decoder24_3/3nand2_2/b decoder24_3/3nand2_2/a_6_n59# decoder24_3/3nand2_2/a_17_n59# 2 5 -98 -776
+p a1 Vdd! out15 2 10 -87 -757
+n a1 decoder24_3/3nand2_2/a_17_n59# out15 2 5 -87 -776
+p decoder24_3/e Vdd! out16 2 10 -109 -818
+n decoder24_3/e GND! decoder24_3/3nand2_3/a_6_n59# 2 5 -109 -837
+p a0 out16 Vdd! 2 10 -98 -818
+n a0 decoder24_3/3nand2_3/a_6_n59# decoder24_3/3nand2_3/a_17_n59# 2 5 -98 -837
+p a1 Vdd! out16 2 10 -87 -818
+n a1 decoder24_3/3nand2_3/a_17_n59# out16 2 5 -87 -837
+p a1 Vdd! decoder24_3/3nand2_1/c 2 10 -187 -691
+n a1 GND! decoder24_3/3nand2_1/c 2 5 -187 -709
+p a0 Vdd! decoder24_3/3nand2_2/b 2 10 -187 -764
+n a0 GND! decoder24_3/3nand2_2/b 2 5 -187 -782
 p decoder24_3/decoder_nor2_3/phi1 decoder24_3/decoder_nor2_0/a_117_59# wl24 2 10 -21 -636
 p out13 Vdd! decoder24_3/decoder_nor2_0/a_117_59# 2 10 -32 -636
 n out13 wl25 GND! 2 5 -51 -655
@@ -1195,8 +1183,20 @@ n decoder24_3/decoder_nor2_3/phi1 wl28 GND! 2 5 -21 -777
 n out15 GND! wl28 2 5 -32 -777
 p out15 decoder24_3/decoder_nor2_3/a_87_59# wl29 2 10 -51 -758
 p decoder24_3/decoder_nor2_3/phi0 Vdd! decoder24_3/decoder_nor2_3/a_87_59# 2 10 -62 -758
-p m2_426_n880# bl20 Vdd! 2 10 423 -894
-n m2_426_n880# bl20 GND! 2 5 423 -871
+p decoder24_3/e Vdd! out13 2 10 -109 -635
+n decoder24_3/e GND! decoder24_3/3nand2_0/a_6_n59# 2 5 -109 -654
+p decoder24_3/3nand2_2/b out13 Vdd! 2 10 -98 -635
+n decoder24_3/3nand2_2/b decoder24_3/3nand2_0/a_6_n59# decoder24_3/3nand2_0/a_17_n59# 2 5 -98 -654
+p decoder24_3/3nand2_1/c Vdd! out13 2 10 -87 -635
+n decoder24_3/3nand2_1/c decoder24_3/3nand2_0/a_17_n59# out13 2 5 -87 -654
+p decoder24_3/e Vdd! out14 2 10 -109 -696
+n decoder24_3/e GND! decoder24_3/3nand2_1/a_6_n59# 2 5 -109 -715
+p a0 out14 Vdd! 2 10 -98 -696
+n a0 decoder24_3/3nand2_1/a_6_n59# decoder24_3/3nand2_1/a_17_n59# 2 5 -98 -715
+p decoder24_3/3nand2_1/c Vdd! out14 2 10 -87 -696
+n decoder24_3/3nand2_1/c decoder24_3/3nand2_1/a_17_n59# out14 2 5 -87 -715
+p m2_426_n880# PCH_w Vdd! 2 10 423 -894
+n m2_426_n880# PCH_w GND! 2 5 423 -871
 n wl5 rom_one_9/a_81_n22# GND! 2 10 456 -41
 n wl5 rom_one_9/a_41_n22# GND! 2 10 416 -41
 n wl4 GND! rom_one_9/a_61_12# 2 10 436 -22
@@ -1217,136 +1217,142 @@ p GND! m2_544_n880# Vdd! 4 6 540 140
 p GND! m2_508_n880# Vdd! 4 6 500 140
 p GND! m2_562_n880# Vdd! 4 6 560 140
 p GND! m2_526_n880# Vdd! 4 6 520 140
-p m2_180_n880# bl8 Vdd! 2 10 177 -894
-n m2_180_n880# bl8 GND! 2 5 177 -871
-p m2_444_n880# bl21 Vdd! 2 10 441 -894
-n m2_444_n880# bl21 GND! 2 5 441 -871
-p m2_316_n880# bl15 Vdd! 2 10 313 -894
-n m2_316_n880# bl15 GND! 2 5 313 -871
-p m2_480_n880# bl23 Vdd! 2 10 477 -894
-n m2_480_n880# bl23 GND! 2 5 477 -871
-p m2_262_n880# bl12 Vdd! 2 10 259 -894
-n m2_262_n880# bl12 GND! 2 5 259 -871
-p m2_462_n880# bl22 Vdd! 2 10 459 -894
-n m2_462_n880# bl22 GND! 2 5 459 -871
-p m2_298_n880# bl14 Vdd! 2 10 295 -894
-n m2_298_n880# bl14 GND! 2 5 295 -871
-p m2_508_n880# bl24 Vdd! 2 10 505 -894
-n m2_508_n880# bl24 GND! 2 5 505 -871
-p m2_280_n880# bl13 Vdd! 2 10 277 -894
-n m2_280_n880# bl13 GND! 2 5 277 -871
-p m2_526_n880# bl25 Vdd! 2 10 523 -894
-n m2_526_n880# bl25 GND! 2 5 523 -871
-p m2_234_n880# bl11 Vdd! 2 10 231 -894
-n m2_234_n880# bl11 GND! 2 5 231 -871
-p m2_544_n880# bl26 Vdd! 2 10 541 -894
-n m2_544_n880# bl26 GND! 2 5 541 -871
-p m2_344_n880# bl16 Vdd! 2 10 341 -894
-n m2_344_n880# bl16 GND! 2 5 341 -871
+p m2_180_n880# as_cin-ras Vdd! 2 10 177 -894
+n m2_180_n880# as_cin-ras GND! 2 5 177 -871
+p m2_444_n880# ABL_r1 Vdd! 2 10 441 -894
+n m2_444_n880# ABL_r1 GND! 2 5 441 -871
+p m2_316_n880# PCL_w_sel Vdd! 2 10 313 -894
+n m2_316_n880# PCL_w_sel GND! 2 5 313 -871
+p m2_480_n880# ABH_r1 Vdd! 2 10 477 -894
+n m2_480_n880# ABH_r1 GND! 2 5 477 -871
+p m2_262_n880# DB_r1 Vdd! 2 10 259 -894
+n m2_262_n880# DB_r1 GND! 2 5 259 -871
+p m2_462_n880# ABL_w Vdd! 2 10 459 -894
+n m2_462_n880# ABL_w GND! 2 5 459 -871
+p m2_298_n880# X_w-Y_w Vdd! 2 10 295 -894
+n m2_298_n880# X_w-Y_w GND! 2 5 295 -871
+p m2_508_n880# ABH_w Vdd! 2 10 505 -894
+n m2_508_n880# ABH_w GND! 2 5 505 -871
+p m2_280_n880# DB_w Vdd! 2 10 277 -894
+n m2_280_n880# DB_w GND! 2 5 277 -871
+p m2_526_n880# rd_addrL-rd_addrH Vdd! 2 10 523 -894
+n m2_526_n880# rd_addrL-rd_addrH GND! 2 5 523 -871
+p m2_234_n880# Cflag_w Vdd! 2 10 231 -894
+n m2_234_n880# Cflag_w GND! 2 5 231 -871
+p m2_544_n880# r_-w Vdd! 2 10 541 -894
+n m2_544_n880# r_-w GND! 2 5 541 -871
+p m2_344_n880# PCL_r1-PCH_r1 Vdd! 2 10 341 -894
+n m2_344_n880# PCL_r1-PCH_r1 GND! 2 5 341 -871
 p m2_562_n880# bl27 Vdd! 2 10 559 -894
 n m2_562_n880# bl27 GND! 2 5 559 -871
-p m2_362_n880# bl17 Vdd! 2 10 359 -894
-n m2_362_n880# bl17 GND! 2 5 359 -871
-p m2_398_n880# bl19 Vdd! 2 10 395 -894
-n m2_398_n880# bl19 GND! 2 5 395 -871
-p m2_380_n880# bl18 Vdd! 2 10 377 -894
-n m2_380_n880# bl18 GND! 2 5 377 -871
-C m2_462_n880# GND! 3.76
-C a0 a1 15.54
-C GND! wl8 2.59
-C decoder24_1/3nand_1/c a0 2.18
-C decoder24_3/decoder_nor2_3/phi0 Vdd! 3.32
-C wl21 GND! 2.82
-C m2_180_n880# GND! 2.81
-C GND! wl5 2.82
-C wl23 GND! 2.74
-C GND! wl28 2.59
-C wl2 GND! 2.68
-C m2_544_n880# GND! 3.76
-C m2_380_n880# GND! 3.76
-C m2_280_n880# GND! 3.79
-C GND! wl15 2.74
-C GND! wl30 2.68
-C m2_134_n880# GND! 3.76
-C Vdd! a0 5.92
-C GND! wl26 2.68
-C m2_426_n880# GND! 2.81
-C GND! a1 8.00
-C m2_70_n880# GND! 2.80
-C GND! wl24 2.59
-C wl1 GND! 2.82
-C GND! wl29 2.82
-C m2_508_n880# GND! 2.81
-C GND! wl18 2.68
-C GND! wl31 2.74
-C Vdd! GND! 22.86
-C m2_98_n880# GND! 2.81
-C m2_362_n880# GND! 3.79
-C GND! wl27 2.74
-C m2_34_n880# GND! 3.79
-C a2 decoder24_control_0/2and_1/a 3.77
-C GND! wl25 2.82
-C m2_234_n880# GND! 2.80
-C a2 decoder24_control_0/a_184_n99# 2.78
-C GND! wl12 2.59
-C GND! wl7 2.74
-C GND! wl17 2.83
-C GND! wl11 2.74
-C m2_480_n880# GND! 2.80
-C m2_198_n880# GND! 3.79
-C decoder24_3/decoder_nor2_3/phi1 GND! 2.76
-C decoder24_2/3nand_1/c a0 2.18
-C wl3 GND! 2.74
-C m2_562_n880# GND! 2.80
-C m2_298_n880# GND! 3.76
-C decoder24_control_0/2and_1/a a3 3.23
-C Vdd! a1 6.28
-C m2_152_n880# GND! 2.83
-C m2_444_n880# GND! 3.79
-C decoder24_3/decoder_nor2_3/phi0 GND! 2.81
-C GND! wl4 2.59
-C GND! wl10 2.68
-C m2_526_n880# GND! 3.79
-C m2_262_n880# GND! 2.81
-C GND! wl14 2.68
-C GND! wl19 2.74
-C a0 decoder24_3/3nand_1/c 2.18
-C GND! wl9 2.82
-C m2_116_n880# GND! 3.79
-C m2_344_n880# GND! 2.81
-C GND! a0 3.49
-C m2_52_n880# GND! 3.71
-C wl0 GND! 2.59
-C m2_398_n880# GND! 2.80
-C decoder24_0/3nand_1/c a0 2.18
-C m2_16_n880# GND! 2.81
-C decoder24_3/decoder_nor2_3/phi1 Vdd! 2.91
-C GND! wl13 2.82
+p m2_362_n880# PCL_w Vdd! 2 10 359 -894
+n m2_362_n880# PCL_w GND! 2 5 359 -871
+p m2_398_n880# PCH_w_sel Vdd! 2 10 395 -894
+n m2_398_n880# PCH_w_sel GND! 2 5 395 -871
+p m2_380_n880# rPCplus1L-rPCplus1H Vdd! 2 10 377 -894
+n m2_380_n880# rPCplus1L-rPCplus1H GND! 2 5 377 -871
 C wl20 GND! 2.60
-C m2_216_n880# GND! 3.76
-C GND! wl6 2.68
+C wl5 GND! 2.82
+C GND! m2_316_n880# 2.80
+C decoder24_0/3nand2_1/c a0 2.18
+C wl23 GND! 2.74
+C GND! wl30 2.68
+C decoder24_2/3nand2_1/c a0 2.18
+C wl25 GND! 2.82
+C wl24 GND! 2.59
+C GND! wl15 2.74
+C wl17 GND! 2.83
+C GND! wl29 2.82
+C a2 decoder24_control_0/a_184_n99# 2.78
+C wl16 GND! 2.59
+C Vdd! a0 5.92
+C a1 a0 15.54
+C m2_34_n880# GND! 3.79
+C wl14 GND! 2.68
+C wl6 GND! 2.68
+C wl28 GND! 2.59
+C m2_480_n880# GND! 2.80
+C m2_16_n880# GND! 2.81
+C Vdd! decoder24_3/decoder_nor2_3/phi0 3.32
+C GND! wl8 2.59
+C GND! m2_562_n880# 2.80
+C GND! m2_362_n880# 3.79
+C GND! m2_508_n880# 2.81
+C GND! m2_544_n880# 3.76
+C Vdd! GND! 22.91
+C GND! a1 8.00
+C GND! wl13 2.82
+C wl11 GND! 2.74
+C GND! m2_298_n880# 3.76
+C decoder24_3/3nand2_1/c a0 2.18
+C GND! wl9 2.82
+C m2_462_n880# GND! 3.76
+C GND! m2_198_n880# 3.79
+C m2_262_n880# GND! 2.81
+C GND! decoder24_3/decoder_nor2_3/phi1 2.76
+C wl31 GND! 2.74
+C m2_70_n880# GND! 2.80
+C wl18 GND! 2.68
+C wl27 GND! 2.74
+C m2_152_n880# GND! 2.83
+C GND! m2_280_n880# 3.79
+C GND! m2_216_n880# 3.76
 C wl22 GND! 2.68
-C GND! wl16 2.59
-C m2_316_n880# GND! 2.80
-R bl18 22
-R bl19 22
-R bl17 22
+C wl7 GND! 2.74
+C m2_234_n880# GND! 2.80
+C wl4 GND! 2.59
+C GND! wl19 2.74
+C GND! m2_380_n880# 3.76
+C wl3 GND! 2.74
+C GND! m2_444_n880# 3.79
+C GND! m2_344_n880# 2.81
+C GND! wl0 2.59
+C GND! wl10 2.68
+C wl1 GND! 2.82
+C Vdd! a1 6.28
+C GND! m2_398_n880# 2.80
+C GND! m2_98_n880# 2.81
+C GND! a0 3.49
+C a2 decoder24_control_0/2and_1/a 3.77
+C wl21 GND! 2.82
+C wl2 GND! 2.68
+C m2_134_n880# GND! 3.76
+C wl26 GND! 2.68
+C a3 decoder24_control_0/2and_1/a 3.23
+C GND! m2_426_n880# 2.81
+C wl12 GND! 2.59
+C m2_52_n880# GND! 3.71
+C m2_180_n880# GND! 2.81
+C GND! decoder24_3/decoder_nor2_3/phi0 2.81
+C m2_116_n880# GND! 3.79
+C Vdd! decoder24_3/decoder_nor2_3/phi1 2.91
+C decoder24_1/3nand2_1/c a0 2.18
+C GND! m2_526_n880# 3.79
+R rPCplus1L-rPCplus1H 22
+R PCH_w_sel 22
+R PCL_w 22
 R bl27 22
-R bl16 22
-R bl26 22
-R bl11 22
-R bl25 22
-R bl13 22
-R bl24 22
-R bl14 22
-R bl22 22
-R bl12 22
-R bl23 22
-R bl15 22
-R bl21 22
-R bl8 22
-R bl20 22
+R PCL_r1-PCH_r1 22
+R r_-w 22
+R Cflag_w 22
+R rd_addrL-rd_addrH 22
+R DB_w 22
+R ABH_w 22
+R X_w-Y_w 22
+R ABL_w 22
+R DB_r1 22
+R ABH_r1 22
+R PCL_w_sel 22
+R ABL_r1 22
+R as_cin-ras 22
+R PCH_w 22
 R decoder24_3/e 957
+R decoder24_3/3nand2_1/a_17_n59# 12
+R decoder24_3/3nand2_1/a_6_n59# 12
+R out14 363
+R decoder24_3/3nand2_0/a_17_n59# 12
+R decoder24_3/3nand2_0/a_6_n59# 12
+R out13 363
 R wl28 2312
 R wl29 2318
 R wl30 2312
@@ -1355,80 +1361,74 @@ R wl26 2312
 R wl27 2364
 R wl24 2312
 R wl25 2318
-R decoder24_3/3nand_2/b 427
-R decoder24_3/3nand_1/c 427
-R decoder24_3/3nand_3/a_98_42# 12
-R decoder24_3/3nand_3/a_87_42# 12
-R out16 364
+R decoder24_3/3nand2_2/b 427
+R decoder24_3/3nand2_1/c 427
+R decoder24_3/3nand2_3/a_17_n59# 12
+R decoder24_3/3nand2_3/a_6_n59# 12
+R out16 363
 R a1 2284
 R a0 2282
-R GND! 23289
-R decoder24_3/3nand_2/a_98_42# 12
-R decoder24_3/3nand_2/a_87_42# 12
-R out15 364
-R decoder24_3/3nand_1/a_98_42# 12
-R decoder24_3/3nand_1/a_87_42# 12
-R out14 364
-R decoder24_3/3nand_0/a_98_42# 12
-R decoder24_3/3nand_0/a_87_42# 12
-R out13 364
+R decoder24_3/3nand2_2/a_17_n59# 12
+R decoder24_3/3nand2_2/a_6_n59# 12
+R out15 363
 R decoder24_2/e 954
+R decoder24_2/3nand2_1/a_17_n59# 12
+R decoder24_2/3nand2_1/a_6_n59# 12
+R out10 363
+R decoder24_2/3nand2_0/a_17_n59# 12
+R decoder24_2/3nand2_0/a_6_n59# 12
+R out9 363
 R wl20 2312
 R wl21 2318
 R wl22 2312
 R wl23 2322
-R decoder24_2/3nand_2/b 427
-R decoder24_2/3nand_1/c 427
-R decoder24_2/3nand_3/a_98_42# 12
-R decoder24_2/3nand_3/a_87_42# 12
-R out12 364
-C Vdd! GND 83.49
-R Vdd! 283786
-R decoder24_2/3nand_2/a_98_42# 12
-R decoder24_2/3nand_2/a_87_42# 12
-R out11 364
-R decoder24_2/3nand_1/a_98_42# 12
-R decoder24_2/3nand_1/a_87_42# 12
-R out10 364
-R decoder24_2/3nand_0/a_98_42# 12
-R decoder24_2/3nand_0/a_87_42# 12
-R out9 363
+R decoder24_2/3nand2_2/b 427
+R decoder24_2/3nand2_1/c 427
+R decoder24_2/3nand2_3/a_17_n59# 12
+R decoder24_2/3nand2_3/a_6_n59# 12
+R out12 363
+C Vdd! GND 83.23
+R Vdd! 283699
+R decoder24_2/3nand2_2/a_17_n59# 12
+R decoder24_2/3nand2_2/a_6_n59# 12
+R out11 363
 R decoder24_1/e 952
-R decoder24_1/3nand_2/b 427
-R decoder24_1/3nand_1/c 427
-R decoder24_1/3nand_3/a_98_42# 12
-R decoder24_1/3nand_3/a_87_42# 12
-R out8 364
-R decoder24_1/3nand_2/a_98_42# 12
-R decoder24_1/3nand_2/a_87_42# 12
-R out7 364
-R decoder24_1/3nand_1/a_98_42# 12
-R decoder24_1/3nand_1/a_87_42# 12
-R out6 364
-R decoder24_1/3nand_0/a_98_42# 12
-R decoder24_1/3nand_0/a_87_42# 12
-R out5 364
+R decoder24_1/3nand2_1/a_17_n59# 12
+R decoder24_1/3nand2_1/a_6_n59# 12
+R out6 363
+R decoder24_1/3nand2_0/a_17_n59# 12
+R decoder24_1/3nand2_0/a_6_n59# 12
+R out5 363
+R decoder24_1/3nand2_2/b 427
+R decoder24_1/3nand2_1/c 427
+R decoder24_1/3nand2_3/a_17_n59# 12
+R decoder24_1/3nand2_3/a_6_n59# 12
+R out8 363
+R GND! 23289
+R decoder24_1/3nand2_2/a_17_n59# 12
+R decoder24_1/3nand2_2/a_6_n59# 12
+R out7 363
 R m2_398_n880# 157
 R m2_380_n880# 157
 R m2_362_n880# 157
 R m2_344_n880# 157
 R decoder24_0/e 953
+R decoder24_0/3nand2_1/a_17_n59# 12
+R decoder24_0/3nand2_1/a_6_n59# 12
+R out2 363
+R decoder24_0/3nand2_0/a_17_n59# 12
+R decoder24_0/3nand2_0/a_6_n59# 12
+R out1 363
 R decoder24_3/decoder_nor2_3/phi1 4031
 R decoder24_3/decoder_nor2_3/phi0 4079
-R decoder24_0/3nand_2/b 427
-R decoder24_0/3nand_1/c 427
-R decoder24_0/3nand_3/a_98_42# 12
-R decoder24_0/3nand_3/a_87_42# 12
-R out4 364
-R decoder24_0/3nand_2/a_98_42# 12
-R decoder24_0/3nand_2/a_87_42# 12
-R out3 364
-R decoder24_0/3nand_1/a_98_42# 12
-R decoder24_0/3nand_1/a_87_42# 12
-R out2 364
-R decoder24_0/3nand_0/a_98_42# 12
-R decoder24_0/3nand_0/a_87_42# 12
-R out1 364
+R decoder24_0/3nand2_2/b 427
+R decoder24_0/3nand2_1/c 427
+R decoder24_0/3nand2_3/a_17_n59# 12
+R decoder24_0/3nand2_3/a_6_n59# 12
+R out4 363
+R decoder24_0/3nand2_2/a_17_n59# 12
+R decoder24_0/3nand2_2/a_6_n59# 12
+R out3 363
 R m2_562_n880# 157
 R m2_544_n880# 157
 R m2_526_n880# 157
@@ -1457,42 +1457,43 @@ R m2_70_n880# 157
 R m2_52_n880# 157
 R m2_34_n880# 157
 R m2_16_n880# 157
+R a_8_45# 11
 R phi1 136
 R phi0 140
-R bl10 22
-R bl9 22
-R bl7 22
-R bl4 22
-R bl6 22
+R A_w 22
+R A_r0 22
+R as_sub 22
+R fb_g2 22
+R rfb 22
 R wl19 2446
 R wl18 2441
 R wl17 2382
 R wl16 2441
-R bl5 22
+R fb_g1 22
 R wl7 2322
 R wl6 2441
 R wl5 2446
 R wl4 2441
-R bl2 22
+R ld_datain 22
 R wl15 2446
 R wl14 2441
 R wl13 2446
 R wl12 2441
-R bl3 22
+R fb_g3 22
 R wl11 2446
 R wl10 2312
 R wl9 2446
 R wl8 2441
-R bl1 22
-R bl0 22
+R rd_dataout 22
+R IR_w 22
 R decoder24_control_0/2and_3/a_87_41# 12
 R decoder24_control_0/2and_3/a_87_60# 159
 R decoder24_control_0/2and_2/a_87_41# 12
 R decoder24_control_0/2and_2/a_87_60# 159
-R decoder24_control_0/2and_1/a_87_41# 12
-R decoder24_control_0/2and_1/a_87_60# 159
 R decoder24_control_0/2and_0/a_87_41# 12
 R decoder24_control_0/2and_0/a_87_60# 159
+R decoder24_control_0/2and_1/a_87_41# 12
+R decoder24_control_0/2and_1/a_87_60# 159
 R decoder24_control_0/a_184_n99# 426
 R a2 502
 R decoder24_control_0/2and_1/a 373

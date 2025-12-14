@@ -1,15 +1,15 @@
-timestamp 1765697223
+timestamp 1765747547
 version 8.3
 tech scmos
 style TSMC0.18um(tsmc18)from:t24i
 scale 1000 1 9
 resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use 2and 2and_0 1 0 90 0 1 -41
+use 2and 2and_3 1 0 90 0 1 -251
+use 2and 2and_2 1 0 90 0 1 -181
+use 2and 2and_1 1 0 90 0 1 -111
 use inv2 inv2_1 0 -1 181 1 0 -251
 use inv2 inv2_0 0 -1 161 1 0 -298
-use 2and 2and_1 1 0 90 0 1 -111
-use 2and 2and_2 1 0 90 0 1 -181
-use 2and 2and_3 1 0 90 0 1 -251
-use 2and 2and_0 1 0 90 0 1 -41
 node "m1_166_n284#" 1 223.006 166 -284 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 245 108 0 0 0 0 0 0 0 0 0 0
 node "m1_186_n234#" 0 97.9 186 -234 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 50 0 0 0 0 0 0 0 0 0 0
 node "m1_199_n219#" 5 435.665 199 -219 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 80 1075 440 0 0 0 0 0 0 0 0
@@ -18,69 +18,69 @@ node "a_114_n99#" 159 2274.47 114 -99 pm12c 0 0 0 0 0 0 0 0 0 0 111 96 0 0 2105 
 node "a_184_n169#" 126 2108.47 184 -169 pc 0 0 0 0 0 0 0 0 0 0 86 76 0 0 1985 824 550 240 0 0 0 0 0 0 0 0
 node "a_184_n99#" 124 2017.5 184 -99 pc 0 0 0 0 0 0 0 0 0 0 86 76 0 0 2055 832 0 0 0 0 0 0 0 0 0 0
 node "a_174_n29#" 126 1979.95 174 -29 pm12c 0 0 0 0 0 0 0 0 0 0 86 76 0 0 1850 770 550 240 0 0 0 0 0 0 0 0
-cap "a_184_n99#" "a_114_n99#" 190.546
-cap "m1_166_n284#" "a_184_n169#" 53.8697
-cap "m1_124_n295#" "a_174_n29#" 102.535
-cap "a_114_n99#" "a_174_n29#" 3157.19
-cap "a_184_n99#" "a_184_n169#" 2704.69
-cap "a_184_n169#" "a_174_n29#" 3770.46
-cap "m1_124_n295#" "a_114_n99#" 46.174
-cap "a_184_n99#" "a_174_n29#" 190.546
+cap "a_184_n169#" "a_114_n99#" 602.922
+cap "a_174_n29#" "a_114_n99#" 3157.19
+cap "a_184_n169#" "m1_124_n295#" 82.559
+cap "a_174_n29#" "m1_124_n295#" 102.535
+cap "a_184_n169#" "m1_166_n284#" 53.8697
+cap "a_184_n169#" "a_184_n99#" 2704.69
+cap "a_174_n29#" "a_184_n99#" 190.546
 cap "m1_199_n219#" "m1_124_n295#" 2190.85
-cap "m1_124_n295#" "a_184_n169#" 82.559
-cap "a_114_n99#" "a_184_n169#" 602.922
+cap "a_114_n99#" "m1_124_n295#" 46.174
+cap "a_114_n99#" "a_184_n99#" 190.546
+cap "a_174_n29#" "a_184_n169#" 3770.46
 subcap "m1_166_n284#" -125.021
 subcap "m1_199_n219#" -337.68
-cap "inv2_1/Vdd!" "inv2_1/a_1_8#" 239.012
-cap "inv2_1/GND!" "inv2_1/a_6_n1#" 83.1132
-cap "inv2_1/GND!" "inv2_1/a_1_8#" 4.9738e-14
-cap "inv2_1/Vdd!" "inv2_0/a_6_n1#" 104.845
-cap "inv2_1/Vdd!" "inv2_0/a_1_8#" 162.269
-cap "inv2_1/GND!" "inv2_1/Vdd!" 81.222
+cap "inv2_0/a_1_8#" "inv2_1/Vdd!" 162.269
+cap "2and_3/inv2_0/GND!" "inv2_1/a_1_8#" 4.9738e-14
 cap "inv2_1/Vdd!" "inv2_1/a_6_n1#" 57.139
+cap "2and_3/inv2_0/GND!" "inv2_1/Vdd!" 81.222
+cap "2and_3/inv2_0/GND!" "inv2_1/a_6_n1#" 83.1132
+cap "inv2_1/Vdd!" "inv2_0/a_6_n1#" 104.845
+cap "inv2_1/Vdd!" "inv2_1/a_1_8#" 239.012
 subcap "m1_199_n219#" -504.361
 subcap "a_184_n169#" -1487.52
-cap "2and_3/Vdd!" "2and_2/inv2_0/Vdd!" 12.088
-cap "2and_2/a_87_60#" "2and_2/inv2_0/GND!" 59.209
-cap "2and_2/inv2_0/GND!" "2and_3/a_96_38#" 46.174
-cap "2and_3/Vdd!" "2and_3/a_87_60#" 54.045
-cap "2and_3/Vdd!" "2and_2/inv2_0/a_6_n1#" 3.663
-cap "2and_2/inv2_0/GND!" "2and_2/Vdd!" 9.785
-cap "2and_3/Vdd!" "2and_3/a" 169.532
+cap "2and_3/inv2_0/a_6_n1#" "2and_3/Vdd!" 6.105
+cap "2and_3/inv2_0/GND!" "2and_2/Vdd!" 9.785
+cap "2and_2/Vdd!" "2and_3/inv2_0/GND!" 10.144
+cap "2and_3/a" "2and_3/Vdd!" 169.532
 cap "2and_2/a_87_60#" "2and_3/Vdd!" 47.253
-cap "2and_2/Vdd!" "2and_2/inv2_0/GND!" 10.144
-cap "2and_2/inv2_0/GND!" "2and_2/inv2_0/Vdd!" 10.144
-cap "2and_3/Vdd!" "2and_3/a_96_38#" 161.799
-cap "2and_3/Vdd!" "2and_2/Vdd!" 6.789
-cap "2and_3/Vdd!" "2and_2/inv2_0/GND!" 264.018
-cap "2and_3/Vdd!" "2and_3/inv2_0/a_6_n1#" 6.105
-cap "2and_2/inv2_0/GND!" "2and_3/a_87_60#" 59.209
-cap "2and_2/inv2_0/GND!" "a_184_n99#" 29.6833
+cap "2and_3/a_96_38#" "2and_3/inv2_0/GND!" 46.174
+cap "2and_2/inv2_0/a_6_n1#" "2and_3/Vdd!" 3.663
+cap "2and_3/a_87_60#" "2and_3/inv2_0/GND!" 59.209
+cap "2and_3/inv2_0/GND!" "2and_3/Vdd!" 264.018
+cap "2and_2/Vdd!" "2and_3/Vdd!" 6.789
+cap "2and_2/inv2_0/Vdd!" "2and_3/inv2_0/GND!" 10.144
+cap "2and_3/a_96_38#" "2and_3/Vdd!" 161.799
+cap "2and_3/a_87_60#" "2and_3/Vdd!" 54.045
+cap "2and_2/inv2_0/Vdd!" "2and_3/Vdd!" 12.088
+cap "2and_2/a_87_60#" "2and_3/inv2_0/GND!" 59.209
+cap "a_184_n99#" "2and_3/inv2_0/GND!" 29.6833
 subcap "a_184_n99#" -1755.12
 subcap "a_174_n29#" -1861.78
-cap "2and_1/Vdd!" "2and_2/inv2_0/a_1_8#" 6.792
-cap "2and_2/a" "2and_1/Vdd!" 169.532
-cap "2and_1/Vdd!" "2and_1/a_87_60#" 54.045
-cap "2and_1/Vdd!" "2and_1/a" 169.532
-cap "2and_1/Vdd!" "2and_2/a_96_38#" 161.799
-cap "2and_1/inv2_0/GND!" "2and_1/a_87_60#" 59.209
-cap "2and_1/Vdd!" "2and_1/a_96_38#" 161.799
-cap "2and_1/Vdd!" "2and_2/inv2_0/a_6_n1#" 2.442
-cap "2and_1/inv2_0/GND!" "2and_2/a_96_38#" 207.783
-cap "2and_1/inv2_0/a_6_n1#" "2and_1/Vdd!" 6.105
-cap "2and_1/inv2_0/GND!" "2and_1/Vdd!" 300.663
-cap "2and_0/a" "2and_0/Vdd!" 169.532
-cap "2and_0/a_87_60#" "2and_0/Vdd!" 54.045
-cap "2and_0/inv2_0/a_6_n1#" "2and_0/Vdd!" 6.105
+cap "2and_2/Vdd!" "2and_1/a_96_38#" 161.799
+cap "2and_1/a_87_60#" "2and_2/Vdd!" 54.045
+cap "2and_2/Vdd!" "2and_1/inv2_0/a_6_n1#" 6.105
+cap "2and_2/Vdd!" "2and_1/a" 169.532
+cap "2and_2/a_96_38#" "2and_1/inv2_0/GND!" 207.783
+cap "2and_2/inv2_0/a_6_n1#" "2and_2/Vdd!" 2.442
+cap "2and_2/a_96_38#" "2and_2/Vdd!" 161.799
+cap "2and_2/inv2_0/a_1_8#" "2and_2/Vdd!" 6.792
+cap "2and_1/inv2_0/GND!" "2and_2/Vdd!" 300.663
+cap "2and_2/a" "2and_2/Vdd!" 169.532
+cap "2and_1/a_87_60#" "2and_1/inv2_0/GND!" 59.209
 cap "2and_0/inv2_0/GND!" "a_184_n169#" 46.174
+cap "2and_0/a_87_60#" "2and_0/Vdd!" 54.045
+cap "2and_0/a" "2and_0/Vdd!" 169.532
 cap "2and_0/inv2_0/GND!" "2and_0/Vdd!" 74.986
+cap "2and_0/Vdd!" "2and_0/inv2_0/a_6_n1#" 6.105
 cap "2and_0/a_96_38#" "2and_0/Vdd!" 161.799
 merge "2and_0/inv2_0/Vdd!" "2and_0/Vdd!" -618.255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -150 -140 0 -14 0 0 0 0 0 0 0 0
-merge "2and_0/Vdd!" "2and_2/inv2_0/Vdd!"
-merge "2and_2/inv2_0/Vdd!" "2and_1/inv2_0/Vdd!"
-merge "2and_1/inv2_0/Vdd!" "2and_2/Vdd!"
-merge "2and_2/Vdd!" "2and_1/Vdd!"
-merge "2and_1/Vdd!" "2and_3/inv2_0/Vdd!"
+merge "2and_0/Vdd!" "2and_1/inv2_0/Vdd!"
+merge "2and_1/inv2_0/Vdd!" "2and_2/inv2_0/Vdd!"
+merge "2and_2/inv2_0/Vdd!" "2and_1/Vdd!"
+merge "2and_1/Vdd!" "2and_2/Vdd!"
+merge "2and_2/Vdd!" "2and_3/inv2_0/Vdd!"
 merge "2and_3/inv2_0/Vdd!" "2and_3/Vdd!"
 merge "2and_3/Vdd!" "inv2_0/Vdd!"
 merge "inv2_0/Vdd!" "inv2_1/Vdd!"
@@ -88,14 +88,14 @@ merge "inv2_1/Vdd!" "m1_124_n295#"
 merge "2and_1/a_96_38#" "2and_3/a_96_38#" -189.171 0 0 0 0 0 0 0 0 0 0 35 -8 0 0 -5 -35 -120 -46 0 0 0 0 0 0 0 0
 merge "2and_3/a_96_38#" "inv2_1/a_1_8#"
 merge "inv2_1/a_1_8#" "a_184_n169#"
-merge "2and_0/inv2_0/GND!" "2and_1/inv2_0/GND!" -472.031 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -125 -142 0 0 0 0 0 0 0 0 0 0
-merge "2and_1/inv2_0/GND!" "2and_2/inv2_0/GND!"
-merge "2and_2/inv2_0/GND!" "2and_3/inv2_0/GND!"
-merge "2and_3/inv2_0/GND!" "m1_199_n219#"
-merge "m1_199_n219#" "inv2_0/GND!"
+merge "2and_1/inv2_0/GND!" "2and_0/inv2_0/GND!" -472.031 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -125 -142 0 0 0 0 0 0 0 0 0 0
+merge "2and_0/inv2_0/GND!" "2and_2/inv2_0/GND!"
+merge "2and_2/inv2_0/GND!" "inv2_0/GND!"
 merge "inv2_0/GND!" "inv2_1/GND!"
 merge "inv2_1/GND!" "m1_166_n284#"
-merge "m1_166_n284#" "m1_186_n234#"
+merge "m1_166_n284#" "2and_3/inv2_0/GND!"
+merge "2and_3/inv2_0/GND!" "m1_199_n219#"
+merge "m1_199_n219#" "m1_186_n234#"
 merge "2and_0/a_96_38#" "2and_2/a_96_38#" -509.79 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 -297 -210 0 0 0 0 0 0 0 0 0 0
 merge "2and_2/a_96_38#" "inv2_1/a_6_n1#"
 merge "inv2_1/a_6_n1#" "a_184_n99#"
