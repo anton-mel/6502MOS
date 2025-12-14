@@ -42,10 +42,10 @@ vector PCH_ctrl   PCH_w PCH_r0 PCH_r1 PCH_w_sel
 vector ABL_ctrl   ABL_w ABL_r0 ABL_r1
 vector ABH_ctrl   ABH_w ABH_r0 ABH_r1 ABH_w_sel
 
-ana data_in wz_latch_ctrl fb_ctrl os_ctrl as_ctrl A_ctrl DB_ctrl X_ctrl Y_ctrl 
+ana data_in wz_latch_ctrl fb_ctrl os_ctrl as_ctrl A_ctrl DB_ctrl X_ctrl Y_ctrl Cflag_ctrl
 ana wzaddr_latch_ctrl PCL_ctrl PCH_ctrl ABL_ctrl ABH_ctrl out_latch_ctrl
 ana addr_out data_out
-ana wz rx ry wz_addrL wz_addrH rx_PCL rx_addrH ry_addrH as_cout 
+ana wz rx ry wz_addrL wz_addrH rx_PCL rx_addrH ry_addrH as_cout Cflag
 ana PCL_w_muxout PCL PCLplus1 addsub1_a0
 
 # initialize all
