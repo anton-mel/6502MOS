@@ -1,0 +1,33 @@
+h Vdd!
+l GND!
+
+ana in phi0 phi1 out1 out2
+
+l in
+l phi0
+l phi1
+s
+path out1 out2
+
+h phi0
+s
+path out1 out2
+
+l phi0
+h phi1
+s
+path out1 out2
+
+h in
+l phi1
+s
+path out1 out2
+
+h phi0
+s
+path out1 out2
+
+l phi0
+h phi1
+s
+path out1 out2

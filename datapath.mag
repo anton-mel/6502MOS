@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765744270
+timestamp 1765745113
 << polysilicon >>
 rect 924 2012 946 2014
 rect 921 1939 923 1989
@@ -473,7 +473,6 @@ rect 2209 542 2236 547
 << m2contact >>
 rect 927 2013 932 2018
 rect 924 1954 929 1959
-rect 852 1939 857 1944
 rect 1623 1916 1628 1921
 rect 452 1856 457 1861
 rect 1343 1850 1348 1855
@@ -1919,7 +1918,7 @@ rect 2140 541 2635 546
 rect 2033 532 2328 537
 rect 2333 532 2759 537
 use staticizer  staticizer_1
-timestamp 1765740925
+timestamp 1765745113
 transform -1 0 39 0 1 1753
 box 61 -1215 120 78
 use latch  latch_4
@@ -1930,8 +1929,16 @@ use latch  latch_0
 timestamp 1765416915
 transform 1 0 445 0 1 463
 box -392 82 -333 1369
+use 4nor2  4nor2_0
+timestamp 1761285742
+transform 0 1 81 -1 0 1980
+box 68 -24 135 80
+use inv2  inv2_0
+timestamp 1765338958
+transform -1 0 -22 0 1 1852
+box -10 -13 20 40
 use staticizer  staticizer_0
-timestamp 1765740925
+timestamp 1765745113
 transform 1 0 51 0 1 1753
 box 61 -1215 120 78
 use shift  shift_0
@@ -1954,6 +1961,10 @@ use addsub  addsub_0
 timestamp 1765338694
 transform 1 0 675 0 1 712
 box -14 -174 166 1225
+use staticizer_one  staticizer_one_0
+timestamp 1765328088
+transform 1 0 867 0 1 1967
+box 54 -61 113 -1
 use latch  latch_2
 timestamp 1765416915
 transform 1 0 1236 0 1 459
@@ -1966,90 +1977,6 @@ use reg  reg_1
 timestamp 1765316199
 transform 1 0 1035 0 1 936
 box -14 -398 76 940
-use reg  reg_2
-timestamp 1765316199
-transform 1 0 1142 0 1 936
-box -14 -398 76 940
-use mux_8bit  mux_8bit_0
-timestamp 1765349323
-transform 1 0 1342 0 1 1766
-box 1 -1228 92 116
-use reg  reg_3
-timestamp 1765316199
-transform 1 0 1249 0 1 936
-box -14 -398 76 940
-use addsub  addsub_1
-timestamp 1765338694
-transform 1 0 1550 0 1 712
-box -14 -174 166 1225
-use reg  reg_4
-timestamp 1765316199
-transform 1 0 1449 0 1 936
-box -14 -398 76 940
-use staticizer  staticizer_2
-timestamp 1765740925
-transform 1 0 1717 0 1 1756
-box 61 -1215 120 78
-use latch  latch_5
-timestamp 1765416915
-transform 1 0 2111 0 1 459
-box -392 82 -333 1369
-use reg  reg_5
-timestamp 1765316199
-transform 1 0 1949 0 1 936
-box -14 -398 76 940
-use mux_8bit  mux_8bit_1
-timestamp 1765349323
-transform 1 0 1842 0 1 1766
-box 1 -1228 92 116
-use reg  reg_6
-timestamp 1765316199
-transform 1 0 2056 0 1 936
-box -14 -398 76 940
-use mux_8bit  mux_8bit_2
-timestamp 1765349323
-transform 1 0 2142 0 1 1766
-box 1 -1228 92 116
-use reg  reg_7
-timestamp 1765316199
-transform 1 0 2249 0 1 936
-box -14 -398 76 940
-use staticizer  staticizer_3
-timestamp 1765740925
-transform 1 0 2517 0 1 1756
-box 61 -1215 120 78
-use addsub  addsub_2
-timestamp 1765338694
-transform 1 0 2350 0 1 712
-box -14 -174 166 1225
-use latch  latch_7
-timestamp 1765416915
-transform 1 0 3035 0 1 459
-box -392 82 -333 1369
-use latch  latch_6
-timestamp 1765416915
-transform 1 0 2911 0 1 459
-box -392 82 -333 1369
-use staticizer  staticizer_5
-timestamp 1765740925
-transform 1 0 2765 0 1 1756
-box 61 -1215 120 78
-use staticizer  staticizer_4
-timestamp 1765740925
-transform 1 0 2641 0 1 1756
-box 61 -1215 120 78
-use latch  latch_8
-timestamp 1765416915
-transform 1 0 3159 0 1 459
-box -392 82 -333 1369
-use 4nor2  4nor2_0
-timestamp 1761285742
-transform 0 1 81 -1 0 1980
-box 68 -24 135 80
-use inv2  inv2_0
-timestamp 1765338958
-transform -1 0 -22 0 1 1852
-box -10 -13 20 40
 use 2nor  2nor_0
 timestamp 1762488699
 transform -1 0 1042 0 1 1940
@@ -2066,10 +1993,18 @@ use latch_one  latch_one_0
 timestamp 1765002978
 transform 1 0 873 0 1 1978
 box -11 -67 48 -12
-use staticizer_one  staticizer_one_0
-timestamp 1765740925
-transform 1 0 867 0 1 1967
-box 54 -61 113 -1
+use reg  reg_2
+timestamp 1765316199
+transform 1 0 1142 0 1 936
+box -14 -398 76 940
+use mux_8bit  mux_8bit_0
+timestamp 1765349323
+transform 1 0 1342 0 1 1766
+box 1 -1228 92 116
+use reg  reg_3
+timestamp 1765316199
+transform 1 0 1249 0 1 936
+box -14 -398 76 940
 use inv2  inv2_6
 timestamp 1765338958
 transform 0 -1 1417 -1 0 1926
@@ -2086,10 +2021,34 @@ use inv2  inv2_7
 timestamp 1765338958
 transform 0 -1 1417 -1 0 1956
 box -10 -13 20 40
+use addsub  addsub_1
+timestamp 1765338694
+transform 1 0 1550 0 1 712
+box -14 -174 166 1225
+use reg  reg_4
+timestamp 1765316199
+transform 1 0 1449 0 1 936
+box -14 -398 76 940
+use latch  latch_5
+timestamp 1765416915
+transform 1 0 2111 0 1 459
+box -392 82 -333 1369
 use inv2  inv2_4
 timestamp 1765338958
 transform 1 0 1776 0 -1 1880
 box -10 -13 20 40
+use staticizer  staticizer_2
+timestamp 1765745113
+transform 1 0 1717 0 1 1756
+box 61 -1215 120 78
+use reg  reg_5
+timestamp 1765316199
+transform 1 0 1949 0 1 936
+box -14 -398 76 940
+use mux_8bit  mux_8bit_1
+timestamp 1765349323
+transform 1 0 1842 0 1 1766
+box 1 -1228 92 116
 use inv2  inv2_12
 timestamp 1765338958
 transform 0 -1 1917 -1 0 1926
@@ -2106,6 +2065,18 @@ use inv2  inv2_9
 timestamp 1765338958
 transform 0 -1 1917 -1 0 1986
 box -10 -13 20 40
+use reg  reg_6
+timestamp 1765316199
+transform 1 0 2056 0 1 936
+box -14 -398 76 940
+use mux_8bit  mux_8bit_2
+timestamp 1765349323
+transform 1 0 2142 0 1 1766
+box 1 -1228 92 116
+use reg  reg_7
+timestamp 1765316199
+transform 1 0 2249 0 1 936
+box -14 -398 76 940
 use inv2  inv2_16
 timestamp 1765338958
 transform 0 -1 2217 -1 0 1926
@@ -2122,6 +2093,22 @@ use inv2  inv2_13
 timestamp 1765338958
 transform 0 -1 2217 -1 0 1956
 box -10 -13 20 40
+use addsub  addsub_2
+timestamp 1765338694
+transform 1 0 2350 0 1 712
+box -14 -174 166 1225
+use staticizer  staticizer_3
+timestamp 1765745113
+transform 1 0 2517 0 1 1756
+box 61 -1215 120 78
+use latch  latch_7
+timestamp 1765416915
+transform 1 0 3035 0 1 459
+box -392 82 -333 1369
+use latch  latch_6
+timestamp 1765416915
+transform 1 0 2911 0 1 459
+box -392 82 -333 1369
 use inv2  inv2_5
 timestamp 1765338958
 transform 1 0 2576 0 -1 1880
@@ -2130,6 +2117,18 @@ use inv2  inv2_1
 timestamp 1765338958
 transform 1 0 2700 0 -1 1880
 box -10 -13 20 40
+use staticizer  staticizer_5
+timestamp 1765745113
+transform 1 0 2765 0 1 1756
+box 61 -1215 120 78
+use staticizer  staticizer_4
+timestamp 1765745113
+transform 1 0 2641 0 1 1756
+box 61 -1215 120 78
+use latch  latch_8
+timestamp 1765416915
+transform 1 0 3159 0 1 459
+box -392 82 -333 1369
 use inv2  inv2_2
 timestamp 1765338958
 transform 1 0 2824 0 -1 1880

@@ -1,0 +1,24 @@
+h Vdd!
+h e
+l GND!
+
+vector a in1 in2
+vector y out1 out2 out3 out4
+
+ana a y
+
+setvector a 0b00
+s
+path y
+
+setvector a 0b01
+s
+path y
+
+setvector a 0b10
+s
+path y
+
+setvector a 0b11
+s
+path y

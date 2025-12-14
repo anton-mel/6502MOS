@@ -1,0 +1,1923 @@
+timestamp 1765745497
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use decoder24 decoder24_2 1 0 -280 0 1 -405
+use decoder24 decoder24_3 1 0 -280 0 1 -649
+use decoder24_control decoder24_control_0 1 0 -464 0 1 -266
+use rom_one rom_one_32 1 0 -35 0 1 -520
+use rom_inv rom_inv_3 1 0 47 0 1 -894
+use rom_inv rom_inv_1 1 0 29 0 1 -894
+use rom_inv rom_inv_2 1 0 65 0 1 -894
+use rom_inv rom_inv_0 1 0 11 0 1 -894
+use rom_one rom_one_47 1 0 -35 0 1 -642
+use rom_one rom_one_49 1 0 -35 0 1 -764
+use rom_inv rom_inv_5 1 0 129 0 1 -894
+use rom_inv rom_inv_4 1 0 111 0 1 -894
+use rom_inv rom_inv_7 1 0 147 0 1 -894
+use rom_inv rom_inv_6 1 0 93 0 1 -894
+use rom_one rom_one_50 1 0 47 0 1 -764
+use rom_inv rom_inv_15 1 0 229 0 1 -894
+use rom_inv rom_inv_9 1 0 211 0 1 -894
+use rom_inv rom_inv_8 1 0 193 0 1 -894
+use rom_inv rom_inv_10 1 0 175 0 1 -894
+use rom_one rom_one_51 1 0 129 0 1 -764
+use rom_inv rom_inv_12 1 0 257 0 1 -894
+use rom_inv rom_inv_14 1 0 275 0 1 -894
+use rom_one rom_one_52 1 0 211 0 1 -764
+use rom_one rom_one_48 1 0 47 0 1 -642
+use rom_one rom_one_45 1 0 129 0 1 -642
+use rom_one rom_one_44 1 0 211 0 1 -642
+use rom_one rom_one_33 1 0 47 0 1 -520
+use rom_one rom_one_31 1 0 129 0 1 -520
+use rom_one rom_one_36 1 0 211 0 1 -520
+use rom_inv rom_inv_13 1 0 293 0 1 -894
+use rom_inv rom_inv_16 1 0 339 0 1 -894
+use rom_inv rom_inv_11 1 0 311 0 1 -894
+use rom_inv rom_inv_17 1 0 357 0 1 -894
+use rom_one rom_one_53 1 0 293 0 1 -764
+use rom_inv rom_inv_19 1 0 375 0 1 -894
+use rom_inv rom_inv_20 1 0 421 0 1 -894
+use rom_inv rom_inv_18 1 0 393 0 1 -894
+use rom_one rom_one_54 1 0 375 0 1 -764
+use rom_inv rom_inv_21 1 0 439 0 1 -894
+use rom_inv rom_inv_23 1 0 457 0 1 -894
+use rom_inv rom_inv_22 1 0 475 0 1 -894
+use rom_one rom_one_46 1 0 293 0 1 -642
+use rom_one rom_one_42 1 0 375 0 1 -642
+use rom_one rom_one_37 1 0 293 0 1 -520
+use rom_one rom_one_40 1 0 375 0 1 -520
+use rom_inv rom_inv_27 1 0 557 0 1 -894
+use rom_inv rom_inv_25 1 0 521 0 1 -894
+use rom_inv rom_inv_26 1 0 539 0 1 -894
+use rom_one rom_one_41 1 0 457 0 1 -520
+use rom_one rom_one_43 1 0 457 0 1 -642
+use rom_one rom_one_55 1 0 457 0 1 -764
+use rom_inv rom_inv_24 1 0 503 0 1 -894
+use decoder24 decoder24_1 1 0 -280 0 1 -161
+use rom_one rom_one_14 1 0 -35 0 1 -154
+use rom_one rom_one_16 1 0 -35 0 1 -276
+use rom_one rom_one_28 1 0 -35 0 1 -398
+use rom_one rom_one_20 1 0 211 0 1 -154
+use rom_one rom_one_21 1 0 211 0 1 -276
+use rom_one rom_one_18 1 0 129 0 1 -154
+use rom_one rom_one_15 1 0 47 0 1 -154
+use rom_one rom_one_19 1 0 129 0 1 -276
+use rom_one rom_one_17 1 0 47 0 1 -276
+use rom_one rom_one_34 1 0 211 0 1 -398
+use rom_one rom_one_30 1 0 129 0 1 -398
+use rom_one rom_one_29 1 0 47 0 1 -398
+use rom_one rom_one_24 1 0 375 0 1 -154
+use rom_one rom_one_22 1 0 293 0 1 -154
+use rom_one rom_one_25 1 0 375 0 1 -276
+use rom_one rom_one_23 1 0 293 0 1 -276
+use rom_one rom_one_38 1 0 375 0 1 -398
+use rom_one rom_one_35 1 0 293 0 1 -398
+use rom_one rom_one_26 1 0 457 0 1 -154
+use rom_one rom_one_27 1 0 457 0 1 -276
+use rom_one rom_one_39 1 0 457 0 1 -398
+use decoder24 decoder24_0 1 0 -280 0 1 83
+use inv2 inv2_1 0 1 -40 -1 0 152
+use inv2 inv2_0 0 1 -93 -1 0 152
+use rom_pullup rom_pullup_0 1 0 -35 0 1 90
+use rom_one rom_one_0 1 0 -35 0 1 90
+use rom_one rom_one_13 1 0 -35 0 1 -32
+use rom_pullup rom_pullup_3 1 0 211 0 1 90
+use rom_pullup rom_pullup_2 1 0 129 0 1 90
+use rom_pullup rom_pullup_1 1 0 47 0 1 90
+use rom_one rom_one_2 1 0 211 0 1 90
+use rom_one rom_one_11 1 0 211 0 1 -32
+use rom_one rom_one_3 1 0 129 0 1 90
+use rom_one rom_one_1 1 0 47 0 1 90
+use rom_one rom_one_10 1 0 129 0 1 -32
+use rom_one rom_one_12 1 0 47 0 1 -32
+use rom_pullup rom_pullup_5 1 0 375 0 1 90
+use rom_pullup rom_pullup_4 1 0 293 0 1 90
+use rom_one rom_one_4 1 0 375 0 1 90
+use rom_one rom_one_6 1 0 293 0 1 90
+use rom_one rom_one_9 1 0 375 0 1 -32
+use rom_one rom_one_7 1 0 293 0 1 -32
+use rom_pullup rom_pullup_6 1 0 457 0 1 90
+use rom_one rom_one_5 1 0 457 0 1 90
+use rom_one rom_one_8 1 0 457 0 1 -32
+node "m2_562_n880#" 0 41.744 562 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 62 0 0 0 0 0 0 0 0
+node "bl27" 1 50.438 553 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_544_n880#" 1 50.438 544 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl26" 1 50.438 535 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_526_n880#" 1 48.302 526 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl25" 1 50.438 517 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_508_n880#" 1 50.438 508 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl24" 1 50.438 499 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_480_n880#" 0 41.744 480 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 62 0 0 0 0 0 0 0 0
+node "bl23" 1 50.438 471 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_462_n880#" 1 50.438 462 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl22" 1 50.438 453 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_444_n880#" 1 48.302 444 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl21" 1 50.438 435 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_426_n880#" 1 50.438 426 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl20" 1 50.438 417 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_398_n880#" 0 41.744 398 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 62 0 0 0 0 0 0 0 0
+node "bl19" 1 50.438 389 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_380_n880#" 1 50.438 380 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl18" 1 50.438 371 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_362_n880#" 1 48.302 362 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl17" 1 50.438 353 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_344_n880#" 1 50.438 344 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl16" 1 50.438 335 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_316_n880#" 0 41.744 316 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 62 0 0 0 0 0 0 0 0
+node "bl15" 1 50.438 307 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_298_n880#" 1 50.438 298 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl14" 1 50.438 289 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_280_n880#" 1 48.302 280 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl13" 1 50.438 271 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_262_n880#" 1 50.438 262 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl12" 1 50.438 253 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_234_n880#" 0 41.744 234 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 62 0 0 0 0 0 0 0 0
+node "bl11" 1 50.438 225 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_216_n880#" 1 50.438 216 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl10" 1 50.438 207 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_198_n880#" 1 48.302 198 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl9" 1 50.438 189 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_180_n880#" 1 50.438 180 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl8" 1 50.438 171 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_152_n880#" 1 50.438 152 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl7" 1 50.438 143 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_134_n880#" 1 50.438 134 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl6" 1 50.438 125 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_116_n880#" 1 48.302 116 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl5" 1 50.438 107 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_98_n880#" 1 50.438 98 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl4" 1 50.438 89 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_70_n880#" 1 50.438 70 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl3" 1 50.438 61 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_52_n880#" 1 50.438 52 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl2" 1 50.438 43 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_34_n880#" 1 47.234 34 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl1" 1 50.438 25 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m2_16_n880#" 1 50.438 16 -880 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "bl0" 1 50.438 7 -907 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0 0 0
+node "m1_n5_n904#" 2 219.557 -5 -904 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 640 266 0 0 0 0 0 0 0 0
+node "m1_530_n858#" 0 32.792 530 -858 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_448_n858#" 0 32.792 448 -858 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_366_n858#" 0 32.792 366 -858 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_284_n858#" 0 32.792 284 -858 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_202_n858#" 0 32.792 202 -858 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_120_n858#" 0 32.792 120 -858 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_38_n858#" 0 42.216 38 -858 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 24 0 0 0 0 0 0 0 0 0 0
+node "GND!" 0 145.354 -13 -862 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 155 72 0 0 0 0 0 0 0 0 0 0
+node "out16" 0 33.19 -94 -829 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out15" 0 33.19 -94 -768 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out14" 0 33.19 -94 -707 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out13" 0 33.19 -94 -646 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out12" 0 33.19 -94 -585 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out11" 0 33.19 -94 -524 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out10" 0 33.19 -94 -463 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out9" 0 33.19 -94 -402 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n236_n829#" 8 2056.46 -236 -829 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2370 958 0 0 0 0 0 0 0 0 0 0
+node "a3" 0 33.19 -316 -583 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "a2" 0 33.19 -296 -534 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n236_n397#" 5 1310.13 -236 -397 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1505 612 0 0 0 0 0 0 0 0 0 0
+node "out8" 0 33.19 -94 -341 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n236_n327#" 2 568.126 -236 -327 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 645 268 0 0 0 0 0 0 0 0 0 0
+node "out7" 0 33.19 -94 -280 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n265_n275#" 3 192.936 -265 -275 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 690 286 0 0 0 0 0 0
+node "out6" 0 33.19 -94 -219 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out5" 0 33.19 -94 -158 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n255_n233#" 3 178.984 -255 -233 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 640 266 0 0 0 0 0 0
+node "out4" 0 33.19 -94 -97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n236_n257#" 4 1257.34 -236 -257 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1530 558 0 0 0 0 0 0 0 0 0 0
+node "a0" 13 1164.2 -206 -774 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 80 3685 1484 0 0 0 0 0 0 0 0
+node "out3" 0 33.19 -94 -36 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "a1" 13 1248.45 -216 -727 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 120 3685 1484 0 0 0 0 0 0 0 0
+node "out2" 0 33.19 -94 25 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out1" 0 33.19 -94 86 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n33_110#" 1 184.18 -33 110 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 110 0 0 0 0 0 0 0 0 0 0
+node "m1_n61_115#" 0 51.64 -61 115 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 50 0 0 0 0 0 0 0 0 0 0
+node "m1_n103_132#" 2 123.521 -103 132 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 350 150 0 0 0 0 0 0 0 0
+node "m1_574_n904#" 17 4655.47 574 -904 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5385 2162 0 0 0 0 0 0 0 0 0 0
+node "m1_n8_156#" 0 37.184 -8 156 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 32 0 0 0 0 0 0 0 0 0 0
+node "wl31" 8 22.312 0 -834 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl30" 8 22.312 0 -814 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl29" 8 22.312 0 -774 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl28" 8 22.312 0 -754 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl27" 8 22.312 0 -712 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl26" 8 22.312 0 -692 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl25" 8 22.312 0 -652 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl24" 8 22.312 0 -632 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl23" 8 22.312 0 -590 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl22" 8 22.312 0 -570 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl21" 8 22.312 0 -530 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl20" 8 22.312 0 -510 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl19" 8 22.312 0 -468 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl18" 8 22.312 0 -448 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl17" 8 22.312 0 -408 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl16" 8 22.312 0 -388 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl15" 8 22.312 0 -346 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl14" 8 22.312 0 -326 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl13" 8 22.312 0 -286 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl12" 8 22.312 0 -266 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl11" 8 22.312 0 -224 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl10" 8 22.312 0 -204 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl9" 8 22.312 0 -164 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl8" 8 22.312 0 -144 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl7" 8 22.312 0 -102 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl6" 8 22.312 0 -82 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl5" 8 22.312 0 -42 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl4" 8 22.312 0 -22 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl3" 8 22.312 0 20 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl2" 8 22.312 0 40 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl1" 8 22.312 0 80 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "wl0" 8 22.312 0 100 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n32_132#" 86 111.792 -32 132 pc 0 0 0 0 0 0 0 0 0 0 61 56 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "a_n85_132#" 134 181.994 -85 132 pc 0 0 0 0 0 0 0 0 0 0 85 80 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "phi1" 8 22.312 -27 146 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "phi0" 8 22.312 -80 145 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n79_122#" 7473 460.57 -79 122 nw 0 0 0 0 790 178 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_n8_156#" 1577 34.98 -8 156 nw 0 0 0 0 60 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m2_262_n880#" "bl13" 63.6875
+cap "m1_366_n858#" "m2_362_n880#" 14.444
+cap "m2_52_n880#" "bl3" 63.6875
+cap "w_n79_122#" "m1_n33_110#" 43.14
+cap "m2_480_n880#" "bl23" 63.6875
+cap "m2_134_n880#" "bl7" 63.6875
+cap "m2_98_n880#" "bl4" 63.6875
+cap "bl21" "m2_426_n880#" 63.6875
+cap "m2_16_n880#" "bl0" 63.6875
+cap "bl3" "m2_70_n880#" 63.6875
+cap "a1" "m1_n265_n275#" 36.385
+cap "m1_120_n858#" "m2_116_n880#" 14.444
+cap "m2_34_n880#" "bl1" 63.6875
+cap "m2_52_n880#" "bl2" 63.6875
+cap "m2_526_n880#" "m1_530_n858#" 14.444
+cap "m2_562_n880#" "bl27" 63.6875
+cap "m1_38_n858#" "m2_34_n880#" 20.398
+cap "m1_n236_n829#" "m1_n236_n397#" 1135.88
+cap "a_n32_132#" "w_n79_122#" 96.526
+cap "w_n8_156#" "m1_n8_156#" 23.88
+cap "m1_n103_132#" "m1_n61_115#" 49.99
+cap "bl10" "m2_198_n880#" 63.6875
+cap "bl18" "m2_380_n880#" 63.6875
+cap "m2_234_n880#" "bl11" 63.6875
+cap "m2_134_n880#" "bl6" 63.6875
+cap "bl17" "m2_362_n880#" 63.6875
+cap "m2_544_n880#" "bl27" 63.6875
+cap "bl17" "m2_344_n880#" 63.6875
+cap "m2_444_n880#" "m1_448_n858#" 14.444
+cap "m2_152_n880#" "bl7" 63.6875
+cap "m2_34_n880#" "bl2" 63.6875
+cap "m2_444_n880#" "bl21" 63.6875
+cap "a0" "m1_n265_n275#" 36.385
+cap "a_n85_132#" "m1_n61_115#" 35.116
+cap "bl15" "m2_298_n880#" 63.6875
+cap "m2_462_n880#" "bl22" 63.6875
+cap "m1_n236_n397#" "a1" 82.559
+cap "bl5" "m2_98_n880#" 63.6875
+cap "bl10" "m2_216_n880#" 63.6875
+cap "a_n85_132#" "m1_n103_132#" 42.033
+cap "bl0" "m1_n5_n904#" 36.3929
+cap "m2_280_n880#" "bl14" 63.6875
+cap "a1" "m1_n255_n233#" 36.385
+cap "m1_n236_n327#" "a1" 36.385
+cap "bl25" "m2_508_n880#" 63.6875
+cap "m1_n236_n257#" "m1_n255_n233#" 13.2
+cap "w_n79_122#" "m1_n61_115#" 27.54
+cap "bl24" "m2_508_n880#" 63.6875
+cap "m2_362_n880#" "bl18" 63.6875
+cap "m2_298_n880#" "bl14" 63.6875
+cap "m1_n236_n257#" "a1" 82.559
+cap "bl19" "m2_380_n880#" 63.6875
+cap "w_n79_122#" "m1_n103_132#" 29.661
+cap "bl26" "m2_544_n880#" 63.6875
+cap "bl12" "m2_262_n880#" 63.6875
+cap "m2_526_n880#" "bl26" 63.6875
+cap "bl15" "m2_316_n880#" 63.6875
+cap "m2_398_n880#" "bl19" 63.6875
+cap "bl9" "m2_180_n880#" 63.6875
+cap "bl6" "m2_116_n880#" 63.6875
+cap "m2_444_n880#" "bl22" 63.6875
+cap "a0" "m1_n236_n397#" 36.385
+cap "m2_198_n880#" "m1_202_n858#" 14.444
+cap "m2_280_n880#" "bl13" 63.6875
+cap "w_n79_122#" "a_n85_132#" 104.612
+cap "bl16" "m2_344_n880#" 63.6875
+cap "bl5" "m2_116_n880#" 63.6875
+cap "a0" "m1_n255_n233#" 36.385
+cap "m1_n236_n327#" "a0" 36.385
+cap "m2_526_n880#" "bl25" 63.6875
+cap "m1_284_n858#" "m2_280_n880#" 14.444
+cap "m2_16_n880#" "bl1" 63.6875
+cap "m2_180_n880#" "bl8" 63.6875
+cap "m2_198_n880#" "bl9" 63.6875
+cap "a0" "a1" 7069.14
+cap "m2_462_n880#" "bl23" 63.6875
+cap "m2_216_n880#" "bl11" 63.6875
+cap "a0" "m1_n236_n257#" 36.385
+cap "m2_426_n880#" "bl20" 63.6875
+subcap "out16" -5.842
+subcap "m2_52_n880#" -43.31
+subcap "bl2" -48.403
+subcap "m2_34_n880#" -49.774
+subcap "bl1" -48.403
+subcap "m2_16_n880#" -52.978
+subcap "bl0" -48.403
+subcap "GND!" -100.42
+subcap "wl31" -31.629
+subcap "wl30" -27.854
+cap "rom_inv_3/a_2_n4#" "decoder24_3/decoder_nor2_2/GND!" -6.512
+cap "decoder24_3/decoder_nor2_2/Vdd!" "decoder24_3/decoder_nor2_2/GND!" 3.486
+cap "rom_inv_1/a_2_n4#" "decoder24_3/decoder_nor2_2/GND!" 79.609
+cap "rom_inv_1/a_2_n4#" "rom_inv_3/a_2_n4#" 43.6714
+cap "decoder24_3/decoder_nor2_2/out2" "rom_inv_0/a_2_n4#" 63.6875
+cap "rom_inv_0/a_2_n4#" "decoder24_3/decoder_nor2_2/GND!" 81.579
+cap "decoder24_3/decoder_nor2_2/out1" "decoder24_3/decoder_nor2_2/GND!" 43.845
+cap "decoder24_3/decoder_nor2_2/GND!" "rom_inv_3/a_n4_n1#" 57.7175
+cap "decoder24_3/decoder_nor2_2/Vdd!" "decoder24_3/decoder_nor2_2/out1" 1.42109e-14
+cap "rom_inv_1/a_2_n4#" "rom_inv_0/a_2_n4#" 61.14
+cap "decoder24_3/decoder_nor2_2/GND!" "rom_inv_1/a_n4_n1#" 57.7175
+cap "rom_inv_3/a_2_n4#" "rom_inv_3/a_n4_n1#" -31.8438
+cap "rom_inv_3/a_n4_n1#" "rom_inv_3/w_n11_n13#" 170.103
+cap "rom_inv_1/a_n4_n1#" "rom_inv_3/w_n11_n13#" 170.103
+cap "rom_inv_1/a_2_n4#" "rom_inv_3/a_n4_n1#" 57.7175
+cap "rom_inv_0/a_n4_n1#" "rom_inv_3/w_n11_n13#" 54.668
+cap "rom_inv_1/a_2_n4#" "rom_inv_1/a_n4_n1#" -63.6875
+cap "rom_inv_0/a_2_n4#" "rom_inv_1/a_n4_n1#" 57.7175
+cap "rom_inv_0/a_2_n4#" "rom_inv_0/a_n4_n1#" -63.6875
+cap "decoder24_3/decoder_nor2_2/out2" "decoder24_3/decoder_nor2_2/GND!" 43.9533
+subcap "m2_152_n880#" -48.194
+subcap "bl7" -48.403
+subcap "m2_134_n880#" -52.978
+subcap "bl6" -48.403
+subcap "m2_116_n880#" -50.842
+subcap "bl5" -48.403
+subcap "m2_98_n880#" -52.978
+subcap "bl4" -48.403
+subcap "m2_70_n880#" -52.978
+subcap "bl3" -48.403
+subcap "m2_52_n880#" -22.802
+subcap "bl2" -81.65
+subcap "m1_120_n858#" -160.952
+cap "rom_inv_6/a_2_n4#" "rom_inv_4/a_2_n4#" 61.14
+cap "rom_inv_1/w_n11_n13#" "rom_inv_2/a_n4_n1#" 170.103
+cap "rom_inv_4/a_n4_n1#" "rom_inv_1/w_n11_16#" 57.7175
+cap "rom_one_49/a_35_n50#" "rom_inv_1/w_n11_16#" 1.42109e-13
+cap "rom_inv_7/a_2_n4#" "rom_inv_7/a_n4_n1#" -31.8438
+cap "rom_inv_4/a_n4_n1#" "rom_inv_4/a_2_n4#" -63.6875
+cap "rom_inv_2/a_n4_n1#" "rom_inv_3/a_2_n4#" 57.7175
+cap "rom_inv_4/a_n4_n1#" "rom_inv_6/a_2_n4#" 57.7175
+cap "rom_inv_1/w_n11_n13#" "rom_inv_7/a_n4_n1#" 170.103
+cap "rom_inv_1/w_n11_16#" "rom_one_49/a_35_n70#" -7.10543e-14
+cap "rom_inv_2/a_2_n4#" "rom_inv_1/w_n11_16#" 73.699
+cap "rom_inv_5/a_2_n4#" "rom_inv_7/a_n4_n1#" 57.7175
+cap "rom_inv_7/a_2_n4#" "rom_inv_1/w_n11_16#" 0.814
+cap "rom_inv_1/w_n11_n13#" "rom_inv_6/a_n4_n1#" 54.668
+cap "rom_inv_2/a_n4_n1#" "rom_inv_1/w_n11_16#" 57.7175
+cap "rom_inv_1/w_n11_n13#" "rom_inv_5/a_n4_n1#" 170.103
+cap "rom_inv_3/a_2_n4#" "rom_inv_1/w_n11_16#" 72.019
+cap "rom_inv_7/a_n4_n1#" "rom_inv_1/w_n11_16#" 57.7175
+cap "rom_inv_5/a_2_n4#" "rom_inv_5/a_n4_n1#" -63.6875
+cap "rom_inv_5/a_2_n4#" "rom_inv_1/w_n11_16#" 75.275
+cap "rom_inv_3/a_2_n4#" "rom_inv_3/a_n4_n1#" -31.8438
+cap "rom_inv_5/a_2_n4#" "rom_inv_4/a_2_n4#" 43.6714
+cap "rom_inv_4/a_n4_n1#" "rom_inv_1/w_n11_n13#" 170.103
+cap "rom_inv_5/a_n4_n1#" "rom_inv_1/w_n11_16#" 57.7175
+cap "rom_inv_4/a_2_n4#" "rom_inv_5/a_n4_n1#" 57.7175
+cap "rom_inv_2/a_2_n4#" "rom_inv_2/a_n4_n1#" -63.6875
+cap "rom_inv_4/a_2_n4#" "rom_inv_1/w_n11_16#" 85.563
+cap "rom_inv_6/a_2_n4#" "rom_inv_6/a_n4_n1#" -63.6875
+cap "rom_inv_6/a_2_n4#" "rom_inv_1/w_n11_16#" 81.579
+subcap "bl12" -97.256
+subcap "m2_234_n880#" -44.284
+subcap "bl11" -48.403
+subcap "m2_216_n880#" -52.978
+subcap "bl10" -48.403
+subcap "m2_198_n880#" -50.842
+subcap "bl9" -48.403
+subcap "m2_180_n880#" -52.978
+subcap "bl8" -48.403
+subcap "m2_152_n880#" -31.756
+subcap "bl7" -81.65
+subcap "m1_202_n858#" -27.366
+cap "rom_inv_15/a_n4_n1#" "rom_inv_9/a_2_n4#" 57.7175
+cap "rom_inv_9/a_n4_n1#" "rom_inv_9/a_2_n4#" -63.6875
+cap "rom_inv_8/a_n4_n1#" "rom_inv_5/w_n11_16#" 57.7175
+cap "rom_inv_10/a_n4_n1#" "rom_inv_10/a_2_n4#" -63.6875
+cap "rom_inv_8/a_n4_n1#" "rom_inv_10/a_2_n4#" 57.7175
+cap "rom_inv_7/a_2_n4#" "rom_inv_7/a_n4_n1#" -31.8438
+cap "rom_inv_5/w_n11_16#" "rom_inv_15/a_2_n4#" 73.699
+cap "rom_inv_5/w_n11_16#" "rom_one_50/a_35_n70#" -9.9476e-14
+cap "rom_inv_15/a_n4_n1#" "rom_inv_15/a_2_n4#" -63.6875
+cap "rom_one_50/a_35_n50#" "rom_inv_5/w_n11_16#" -9.9476e-14
+cap "rom_inv_5/w_n11_16#" "rom_inv_8/a_2_n4#" 85.563
+cap "rom_inv_8/a_2_n4#" "rom_inv_9/a_2_n4#" 43.6714
+cap "rom_inv_10/a_2_n4#" "rom_inv_8/a_2_n4#" 61.14
+cap "rom_inv_7/a_2_n4#" "rom_inv_5/w_n11_16#" 72.885
+cap "rom_inv_9/a_n4_n1#" "rom_inv_8/a_2_n4#" 57.7175
+cap "rom_inv_5/w_n11_16#" "rom_inv_9/a_2_n4#" 75.275
+cap "rom_inv_5/w_n11_n13#" "rom_inv_15/a_n4_n1#" 170.103
+cap "rom_inv_9/a_n4_n1#" "rom_inv_5/w_n11_n13#" 170.103
+cap "rom_inv_10/a_2_n4#" "rom_inv_5/w_n11_16#" 81.579
+cap "rom_inv_8/a_n4_n1#" "rom_inv_8/a_2_n4#" -63.6875
+cap "rom_inv_10/a_n4_n1#" "rom_inv_5/w_n11_n13#" 54.668
+cap "rom_inv_8/a_n4_n1#" "rom_inv_5/w_n11_n13#" 170.103
+cap "rom_inv_5/w_n11_16#" "rom_inv_15/a_n4_n1#" 57.7175
+cap "rom_inv_9/a_n4_n1#" "rom_inv_5/w_n11_16#" 57.7175
+subcap "bl17" -97.256
+subcap "m2_344_n880#" -52.978
+subcap "bl16" -48.403
+subcap "m2_316_n880#" -44.284
+subcap "bl15" -48.403
+subcap "m2_298_n880#" -52.978
+subcap "bl14" -48.403
+subcap "m2_280_n880#" -50.842
+subcap "bl13" -48.403
+subcap "m2_262_n880#" -52.978
+subcap "bl12" -48.403
+subcap "m1_284_n858#" -27.796
+cap "rom_inv_15/w_n11_16#" "rom_one_52/m2_81_n90#" 75.275
+cap "rom_inv_12/a_n4_n1#" "rom_inv_15/w_n11_n13#" 54.668
+cap "rom_inv_15/w_n11_16#" "rom_one_51/a_35_n50#" -11.58
+cap "rom_inv_15/w_n11_n13#" "rom_inv_14/a_n4_n1#" 170.103
+cap "rom_inv_16/a_2_n4#" "rom_one_53/m2_61_n90#" 30.57
+cap "rom_inv_16/a_2_n4#" "rom_inv_16/a_n4_n1#" -63.6875
+cap "rom_inv_15/w_n11_16#" "rom_one_52/m2_101_n90#" 73.699
+cap "rom_inv_15/w_n11_n13#" "rom_inv_17/a_n4_n1#" 57.7175
+cap "rom_inv_12/a_n4_n1#" "rom_inv_12/a_2_n4#" -63.6875
+cap "rom_inv_11/a_n4_n1#" "rom_one_52/m2_81_n90#" 57.7175
+cap "rom_inv_15/w_n11_16#" "rom_inv_12/a_2_n4#" 81.579
+cap "rom_inv_13/a_n4_n1#" "rom_inv_14/a_2_n4#" 57.7175
+cap "rom_inv_14/a_n4_n1#" "rom_inv_12/a_2_n4#" 57.7175
+cap "rom_inv_15/w_n11_16#" "rom_inv_14/a_n4_n1#" 57.7175
+cap "rom_inv_13/a_n4_n1#" "rom_one_52/m2_81_n90#" -63.6875
+cap "rom_inv_11/a_n4_n1#" "rom_inv_15/w_n11_n13#" 170.103
+cap "rom_inv_14/a_2_n4#" "rom_one_52/m2_81_n90#" 43.6714
+cap "rom_inv_15/w_n11_16#" "rom_inv_17/a_n4_n1#" 28.8588
+cap "rom_inv_16/a_2_n4#" "rom_inv_15/w_n11_16#" 81.579
+cap "rom_inv_13/a_n4_n1#" "rom_inv_15/w_n11_n13#" 170.103
+cap "rom_inv_11/a_n4_n1#" "rom_one_52/m2_101_n90#" -63.6875
+cap "rom_inv_15/w_n11_16#" "rom_one_51/a_35_n70#" -11.58
+cap "rom_inv_16/a_2_n4#" "rom_inv_17/a_n4_n1#" 28.8588
+cap "rom_inv_16/a_n4_n1#" "rom_inv_15/w_n11_n13#" 54.668
+cap "rom_inv_11/a_n4_n1#" "rom_inv_15/w_n11_16#" 57.7175
+cap "rom_inv_15/w_n11_16#" "rom_inv_13/a_n4_n1#" 57.7175
+cap "rom_inv_14/a_2_n4#" "rom_inv_12/a_2_n4#" 61.14
+cap "rom_inv_15/w_n11_16#" "rom_inv_14/a_2_n4#" 85.563
+cap "rom_inv_14/a_2_n4#" "rom_inv_14/a_n4_n1#" -63.6875
+subcap "bl22" -97.256
+subcap "m2_444_n880#" -50.842
+subcap "bl21" -48.403
+subcap "m2_426_n880#" -52.978
+subcap "bl20" -48.403
+subcap "m2_398_n880#" -44.284
+subcap "bl19" -48.403
+subcap "m2_380_n880#" -52.978
+subcap "bl18" -48.403
+subcap "m2_362_n880#" -50.842
+subcap "bl17" -48.403
+subcap "m2_344_n880#" -220.174
+subcap "m1_448_n858#" -56.9
+subcap "m1_366_n858#" -56.9
+cap "rom_one_54/m2_81_n90#" "rom_one_54/m2_61_n90#" 21.8357
+cap "rom_inv_20/a_2_n4#" "rom_one_54/m2_61_n90#" 61.14
+cap "rom_inv_21/a_n4_n1#" "rom_one_54/m2_61_n90#" -63.6875
+cap "rom_inv_17/w_n11_16#" "rom_one_53/m2_101_n90#" 73.699
+cap "rom_one_53/a_35_n50#" "rom_inv_17/w_n11_16#" -4.9738e-14
+cap "rom_one_53/m2_81_n90#" "rom_inv_18/a_n4_n1#" 57.7175
+cap "rom_inv_20/a_2_n4#" "rom_inv_20/a_n4_n1#" -63.6875
+cap "rom_inv_17/w_n11_16#" "rom_one_53/a_35_n70#" -7.10543e-14
+cap "rom_inv_23/a_n4_n1#" "rom_inv_17/w_n11_n13#" 57.7175
+cap "rom_inv_16/a_2_n4#" "rom_inv_17/a_n4_n1#" 28.8588
+cap "rom_inv_20/a_2_n4#" "rom_inv_21/a_n4_n1#" 57.7175
+cap "rom_one_53/m2_101_n90#" "rom_inv_18/a_n4_n1#" -63.6875
+cap "rom_inv_17/w_n11_16#" "rom_inv_23/a_n4_n1#" 28.8588
+cap "rom_inv_17/w_n11_n13#" "rom_inv_19/a_n4_n1#" 170.103
+cap "rom_inv_17/w_n11_16#" "rom_inv_17/a_2_n4#" 85.563
+cap "rom_inv_23/a_n4_n1#" "rom_one_54/m2_61_n90#" 28.8588
+cap "rom_inv_17/w_n11_16#" "rom_inv_19/a_n4_n1#" 57.7175
+cap "rom_inv_17/w_n11_16#" "rom_one_54/m2_61_n90#" 85.563
+cap "rom_inv_17/a_2_n4#" "rom_inv_19/a_n4_n1#" 57.7175
+cap "rom_inv_17/w_n11_n13#" "rom_inv_20/a_n4_n1#" 54.668
+cap "rom_inv_17/w_n11_n13#" "rom_inv_18/a_n4_n1#" 170.103
+cap "rom_inv_17/w_n11_n13#" "rom_inv_17/a_n4_n1#" 112.385
+cap "rom_inv_17/w_n11_16#" "rom_inv_18/a_n4_n1#" 57.7175
+cap "rom_inv_17/w_n11_n13#" "rom_inv_21/a_n4_n1#" 170.103
+cap "rom_inv_17/w_n11_16#" "rom_inv_17/a_n4_n1#" 28.8587
+cap "rom_inv_17/w_n11_16#" "rom_one_53/m2_81_n90#" 75.275
+cap "rom_inv_17/w_n11_16#" "rom_inv_21/a_n4_n1#" 57.7175
+cap "rom_inv_17/a_2_n4#" "rom_inv_17/a_n4_n1#" -63.6875
+cap "rom_inv_20/a_2_n4#" "rom_inv_17/w_n11_16#" 81.579
+cap "rom_inv_17/a_2_n4#" "rom_one_53/m2_81_n90#" 43.6714
+cap "rom_inv_19/a_n4_n1#" "rom_one_53/m2_81_n90#" -63.6875
+cap "rom_inv_16/a_2_n4#" "rom_inv_17/a_2_n4#" 30.57
+subcap "bl27" -97.256
+subcap "m2_544_n880#" -52.978
+subcap "bl26" -48.403
+subcap "m2_526_n880#" -50.842
+subcap "bl25" -48.403
+subcap "m2_508_n880#" -52.978
+subcap "bl24" -48.403
+subcap "m2_480_n880#" -44.284
+subcap "bl23" -48.403
+subcap "m2_462_n880#" -52.978
+subcap "bl22" -48.403
+subcap "m2_444_n880#" -207.624
+subcap "m1_530_n858#" -80.14
+subcap "m1_448_n858#" -80.14
+cap "rom_inv_23/w_n11_n13#" "rom_inv_26/a_n4_n1#" 170.103
+cap "rom_inv_24/a_n4_n1#" "rom_inv_23/w_n11_n13#" 54.668
+cap "rom_inv_24/a_n4_n1#" "rom_one_55/m2_41_n90#" -63.6875
+cap "rom_one_54/w_35_n90#" "rom_inv_26/a_2_n4#" 75.275
+cap "rom_inv_25/a_2_n4#" "rom_inv_25/a_n4_n1#" -63.6875
+cap "rom_one_54/w_35_n90#" "rom_one_54/a_35_n70#" -8.52651e-14
+cap "rom_inv_25/a_2_n4#" "rom_one_54/w_35_n90#" 85.563
+cap "rom_inv_26/a_2_n4#" "rom_inv_26/a_n4_n1#" -63.6875
+cap "rom_inv_22/a_n4_n1#" "rom_one_54/m2_101_n90#" -63.6875
+cap "rom_one_54/w_35_n90#" "rom_inv_25/a_n4_n1#" 57.7175
+cap "rom_inv_23/a_n4_n1#" "rom_one_54/m2_81_n90#" -63.6875
+cap "rom_inv_25/a_2_n4#" "rom_inv_26/a_n4_n1#" 57.7175
+cap "rom_inv_22/a_n4_n1#" "rom_one_54/m2_81_n90#" 57.7175
+cap "rom_one_54/w_35_n90#" "rom_inv_26/a_n4_n1#" 57.7175
+cap "rom_inv_27/a_n4_n1#" "rom_inv_23/w_n11_n13#" 57.7175
+cap "rom_one_54/w_35_n90#" "rom_one_54/m2_101_n90#" 73.699
+cap "rom_inv_21/a_2_n4#" "rom_one_54/m2_81_n90#" 21.8357
+cap "rom_inv_27/a_n4_n1#" "rom_inv_26/a_2_n4#" 28.8588
+cap "rom_inv_23/a_n4_n1#" "rom_inv_23/w_n11_n13#" 112.385
+cap "rom_one_54/w_35_n90#" "rom_one_54/m2_81_n90#" 75.275
+cap "rom_one_54/w_35_n90#" "rom_one_54/a_35_n50#" 8.52651e-14
+cap "rom_inv_22/a_n4_n1#" "rom_inv_23/w_n11_n13#" 170.103
+cap "rom_one_54/w_35_n90#" "rom_inv_27/a_n4_n1#" 28.8588
+cap "rom_inv_25/a_2_n4#" "rom_one_55/m2_41_n90#" 61.14
+cap "rom_inv_23/a_n4_n1#" "rom_inv_21/a_2_n4#" 28.8588
+cap "rom_inv_25/a_n4_n1#" "rom_inv_23/w_n11_n13#" 170.103
+cap "rom_one_54/w_35_n90#" "rom_inv_23/a_n4_n1#" 28.8587
+cap "rom_inv_25/a_n4_n1#" "rom_one_55/m2_41_n90#" 57.7175
+cap "rom_inv_25/a_2_n4#" "rom_inv_26/a_2_n4#" 43.6714
+cap "rom_one_54/w_35_n90#" "rom_one_55/m2_41_n90#" 81.579
+cap "rom_one_54/w_35_n90#" "rom_inv_22/a_n4_n1#" 57.7175
+subcap "m2_562_n880#" -44.284
+subcap "bl27" -48.403
+subcap "m2_544_n880#" -199.346
+subcap "m1_574_n904#" -3864.97
+cap "rom_inv_27/w_n11_n13#" "rom_one_55/w_35_n90#" 73.8784
+cap "rom_inv_27/w_n11_16#" "rom_inv_27/w_n11_n13#" 46.174
+cap "rom_inv_27/a_2_n4#" "rom_inv_27/a_n4_n1#" -63.6875
+cap "rom_inv_26/a_2_n4#" "rom_inv_27/a_n4_n1#" 28.8588
+cap "rom_inv_27/w_n11_n13#" "rom_inv_27/a_n4_n1#" 112.385
+cap "rom_inv_27/a_2_n4#" "rom_inv_27/w_n11_16#" 73.699
+cap "rom_inv_27/w_n11_16#" "rom_inv_27/a_n4_n1#" 28.8587
+subcap "a0" -627.608
+cap "decoder24_3/inv2_0/GND!" "decoder24_3/in2" 6.105
+cap "decoder24_3/inv2_1/Vdd!" "decoder24_3/in2" 8.954
+cap "decoder24_3/in1" "decoder24_3/in2" 50.44
+subcap "out14" -13.088
+subcap "wl30" -134.378
+subcap "wl29" -31.629
+subcap "wl28" -22.044
+subcap "wl27" -31.629
+cap "decoder24_3/decoder_nor2_1/GND!" "decoder24_3/decoder_nor2_3/out1" 39.2276
+cap "decoder24_3/decoder_nor2_1/GND!" "rom_one_47/m2_61_n90#" -8.88178e-16
+cap "decoder24_3/decoder_nor2_1/GND!" "rom_one_47/m2_81_n90#" -4.884
+cap "decoder24_3/decoder_nor2_3/Vdd!" "decoder24_3/decoder_nor2_1/GND!" 2.324
+cap "decoder24_3/decoder_nor2_1/GND!" "decoder24_3/decoder_nor2_1/out2" 36.2577
+cap "decoder24_3/decoder_nor2_1/GND!" "decoder24_3/decoder_nor2_3/out2" 42.0766
+cap "rom_one_47/m2_41_n90#" "decoder24_3/decoder_nor2_1/out2" 63.6875
+cap "decoder24_3/decoder_nor2_3/out2" "rom_one_47/m2_41_n90#" 63.6875
+cap "rom_one_48/m2_41_n90#" "rom_one_48/w_35_n90#" 5.68434e-14
+cap "rom_one_47/a_35_n70#" "rom_one_48/w_35_n90#" -8.52651e-14
+cap "rom_one_49/a_35_n10#" "rom_one_48/w_35_n90#" 1.98952e-13
+cap "rom_one_49/a_35_10#" "rom_one_48/w_35_n90#" -8.52651e-14
+cap "rom_one_48/m2_81_n90#" "rom_one_48/w_35_n90#" 5.68434e-14
+cap "rom_one_47/m2_81_n90#" "rom_one_48/w_35_n90#" 1.628
+cap "rom_one_48/m2_101_n90#" "rom_one_48/w_35_n90#" 3.256
+cap "rom_one_47/m2_101_n90#" "rom_one_48/w_35_n90#" 5.68434e-14
+cap "rom_one_50/a_35_10#" "rom_one_50/w_35_n90#" -1.56319e-13
+cap "rom_one_45/m2_41_n90#" "rom_one_50/w_35_n90#" 5.68434e-14
+cap "rom_one_50/w_35_n90#" "rom_one_50/a_35_n10#" -1.56319e-13
+cap "rom_one_45/m2_81_n90#" "rom_one_50/w_35_n90#" 5.68434e-14
+cap "rom_one_48/a_35_n70#" "rom_one_50/w_35_n90#" -8.52651e-14
+cap "rom_one_50/w_35_n90#" "rom_one_48/m2_101_n90#" 0.814
+cap "rom_one_50/w_35_n90#" "rom_one_45/m2_101_n90#" 5.68434e-14
+cap "rom_one_51/w_35_n90#" "rom_one_51/a_35_n10#" -11.58
+cap "rom_one_51/w_35_n90#" "rom_one_44/m2_41_n90#" 5.68434e-14
+cap "rom_one_51/w_35_n90#" "rom_one_46/m2_41_n90#" 4.26326e-14
+cap "rom_one_51/a_35_10#" "rom_one_51/w_35_n90#" -11.58
+cap "rom_one_44/m2_101_n90#" "rom_one_51/w_35_n90#" 5.68434e-14
+cap "rom_one_51/w_35_n90#" "rom_one_44/m2_81_n90#" 5.68434e-14
+cap "rom_one_51/w_35_n90#" "rom_one_45/a_35_n70#" -11.58
+cap "rom_one_46/a_35_n70#" "rom_one_46/w_35_n90#" -9.9476e-14
+cap "rom_one_46/w_35_n90#" "rom_one_46/m2_101_n90#" 5.68434e-14
+cap "rom_one_46/w_35_n90#" "rom_one_53/a_35_n10#" 2.84217e-14
+cap "rom_one_46/w_35_n90#" "rom_one_53/a_35_10#" -5.68434e-14
+cap "rom_one_46/m2_81_n90#" "rom_one_46/w_35_n90#" 5.68434e-14
+cap "rom_one_46/w_35_n90#" "rom_one_42/m2_41_n90#" 5.68434e-14
+cap "rom_one_42/m2_101_n90#" "rom_one_42/w_35_n90#" 5.68434e-14
+cap "rom_one_54/a_35_10#" "rom_one_42/w_35_n90#" -5.68434e-14
+cap "rom_one_42/w_35_n90#" "rom_one_43/m2_41_n90#" 5.59552e-14
+cap "rom_one_42/a_35_n70#" "rom_one_42/w_35_n90#" -6.39488e-14
+cap "rom_one_42/w_35_n90#" "rom_one_43/m2_61_n90#" -8.88178e-16
+cap "rom_one_54/a_35_n10#" "rom_one_42/w_35_n90#" 1.13687e-13
+cap "rom_one_42/w_35_n90#" "rom_one_43/m2_81_n90#" 5.59552e-14
+cap "rom_one_42/w_35_n90#" "rom_one_42/m2_81_n90#" 5.68434e-14
+cap "m1_574_n904#" "rom_one_55/w_35_n90#" 73.8784
+cap "a0" "decoder24_3/inv2_0/GND!" 2.442
+cap "decoder24_3/in1" "a0" 36.935
+cap "decoder24_3/inv2_0/Vdd!" "a0" 10.989
+subcap "out14" -71.324
+subcap "out13" -56.416
+cap "decoder24_2/3nand_3/GND!" "decoder24_3/3nand_0/b" 84.6523
+cap "decoder24_2/3nand_3/GND!" "decoder24_3/decoder_nor2_1/phi0" 3.01981e-14
+cap "decoder24_3/Vdd!" "decoder24_2/3nand_3/GND!" 7.10543e-14
+cap "decoder24_3/3nand_1/c" "decoder24_2/3nand_3/GND!" 19.2392
+cap "decoder24_3/3nand_1/c" "decoder24_3/Vdd!" 8.49167
+subcap "wl27" -141.204
+subcap "wl26" -41.624
+subcap "wl25" -41.539
+subcap "wl24" -33.664
+cap "decoder24_2/decoder_nor2_2/GND!" "decoder24_3/decoder_nor2_0/out2" 42.0766
+cap "rom_one_32/m2_41_n90#" "decoder24_3/decoder_nor2_0/out2" 63.6875
+cap "decoder24_3/decoder_nor2_1/phi1" "decoder24_2/decoder_nor2_2/GND!" 3.01981e-14
+cap "decoder24_2/decoder_nor2_2/GND!" "rom_one_32/m2_81_n90#" -7.326
+cap "decoder24_2/decoder_nor2_2/GND!" "decoder24_3/decoder_nor2_1/out2" 7.69567
+cap "decoder24_3/decoder_nor2_0/out1" "decoder24_2/decoder_nor2_2/GND!" 39.2276
+cap "rom_one_32/m2_41_n90#" "decoder24_2/decoder_nor2_2/GND!" 9.76996e-15
+cap "decoder24_2/decoder_nor2_2/GND!" "decoder24_3/decoder_nor2_1/Vdd!" 3.486
+cap "rom_one_32/m2_61_n90#" "decoder24_2/decoder_nor2_2/GND!" 6.66134e-14
+cap "decoder24_2/decoder_nor2_2/GND!" "decoder24_3/decoder_nor2_0/Vdd!" 2.324
+cap "decoder24_3/decoder_nor2_0/out1" "decoder24_3/decoder_nor2_0/Vdd!" 2.84217e-14
+cap "decoder24_2/decoder_nor2_2/GND!" "decoder24_3/decoder_nor2_1/out1" 43.845
+cap "rom_one_33/w_35_n90#" "rom_one_47/a_35_n50#" 1.98952e-13
+cap "rom_one_33/m2_101_n90#" "rom_one_33/w_35_n90#" 3.256
+cap "rom_one_33/w_35_n90#" "rom_one_32/m2_81_n90#" 1.628
+cap "rom_one_47/a_35_n10#" "rom_one_33/w_35_n90#" 1.98952e-13
+cap "rom_one_47/a_35_10#" "rom_one_33/w_35_n90#" -8.52651e-14
+cap "rom_one_33/w_35_n90#" "rom_one_32/m2_101_n90#" 9.76996e-15
+cap "rom_one_48/a_35_n50#" "rom_one_48/w_35_n90#" -1.56319e-13
+cap "rom_one_48/a_35_10#" "rom_one_48/w_35_n90#" -1.56319e-13
+cap "rom_one_48/a_35_n10#" "rom_one_48/w_35_n90#" -1.56319e-13
+cap "rom_one_48/w_35_n90#" "rom_one_33/m2_101_n90#" 0.814
+cap "rom_one_45/a_35_10#" "rom_one_45/w_35_n90#" -11.58
+cap "rom_one_45/a_35_n50#" "rom_one_45/w_35_n90#" -11.58
+cap "rom_one_45/a_35_n10#" "rom_one_45/w_35_n90#" -11.58
+cap "rom_one_46/a_35_n10#" "rom_one_37/w_35_n90#" 2.84217e-14
+cap "rom_one_37/w_35_n90#" "rom_one_46/a_35_n50#" 2.84217e-14
+cap "rom_one_46/a_35_10#" "rom_one_37/w_35_n90#" -5.68434e-14
+cap "rom_one_40/w_35_n90#" "rom_one_42/a_35_n50#" 1.13687e-13
+cap "rom_one_40/w_35_n90#" "rom_one_41/m2_41_n90#" 9.76996e-15
+cap "rom_one_40/w_35_n90#" "rom_one_42/a_35_10#" -5.68434e-14
+cap "rom_one_41/m2_61_n90#" "rom_one_40/w_35_n90#" 9.76996e-15
+cap "rom_one_42/a_35_n10#" "rom_one_40/w_35_n90#" 1.13687e-13
+cap "rom_one_41/m2_81_n90#" "rom_one_40/w_35_n90#" 9.76996e-15
+cap "m1_574_n904#" "rom_one_43/w_35_n90#" 73.8784
+cap "rom_one_41/m2_101_n90#" "rom_one_43/w_35_n90#" 9.76996e-15
+cap "m1_574_n904#" "rom_one_43/w_35_n90#" 73.8784
+cap "decoder24_2/inv2_1/Vdd!" "decoder24_2/in2" 5.291
+cap "decoder24_2/inv2_1/GND!" "decoder24_2/in2" 8.547
+subcap "out12" -56.416
+subcap "out11" -47.112
+cap "decoder24_3/a_191_n26#" "decoder24_2/3nand_3/GND!" 19.2392
+cap "decoder24_3/a_181_n87#" "decoder24_2/3nand_3/GND!" 84.6523
+subcap "wl23" -41.539
+subcap "wl22" -33.664
+subcap "wl21" -49.384
+subcap "wl20" -62.674
+cap "decoder24_2/decoder_nor2_3/out2" "rom_one_32/m2_41_n90#" 63.6875
+cap "decoder24_2/decoder_nor2_2/out2" "decoder24_2/decoder_nor2_3/GND!" 43.9533
+cap "decoder24_2/decoder_nor2_2/out2" "rom_one_32/m2_41_n90#" 63.6875
+cap "decoder24_2/decoder_nor2_2/phi1" "decoder24_2/decoder_nor2_3/GND!" -8.52651e-14
+cap "decoder24_2/decoder_nor2_3/GND!" "rom_one_32/m2_61_n90#" 1.13687e-13
+cap "decoder24_2/decoder_nor2_3/GND!" "decoder24_2/decoder_nor2_2/Vdd!" 3.486
+cap "decoder24_2/decoder_nor2_3/Vdd!" "decoder24_2/decoder_nor2_3/out1" 2.84217e-14
+cap "decoder24_2/decoder_nor2_2/out1" "decoder24_2/decoder_nor2_3/GND!" 43.845
+cap "decoder24_2/decoder_nor2_3/GND!" "rom_one_32/m2_81_n90#" -7.326
+cap "decoder24_2/decoder_nor2_3/Vdd!" "decoder24_2/decoder_nor2_3/GND!" 2.324
+cap "decoder24_2/decoder_nor2_3/out1" "decoder24_2/decoder_nor2_3/GND!" 28.4876
+cap "decoder24_2/decoder_nor2_3/out2" "decoder24_2/decoder_nor2_3/GND!" 42.0766
+cap "rom_one_32/a_35_n50#" "rom_one_33/w_35_n90#" 1.98952e-13
+cap "rom_one_33/w_35_n90#" "rom_one_32/a_35_n70#" -8.52651e-14
+cap "rom_one_32/a_35_n10#" "rom_one_33/w_35_n90#" 1.98952e-13
+cap "rom_one_32/a_35_10#" "rom_one_33/w_35_n90#" -8.52651e-14
+cap "rom_one_33/w_35_n90#" "rom_one_33/a_35_n10#" -1.56319e-13
+cap "rom_one_33/w_35_n90#" "rom_one_33/a_35_n70#" -1.56319e-13
+cap "rom_one_33/a_35_10#" "rom_one_33/w_35_n90#" -1.56319e-13
+cap "rom_one_33/w_35_n90#" "rom_one_33/m2_101_n90#" 4.26326e-14
+cap "rom_one_33/w_35_n90#" "rom_one_33/a_35_n50#" -1.56319e-13
+cap "rom_one_31/w_35_n90#" "rom_one_31/a_35_n10#" -11.58
+cap "rom_one_31/a_35_n70#" "rom_one_31/w_35_n90#" -11.58
+cap "rom_one_31/w_35_n90#" "rom_one_37/m2_41_n90#" -2.84217e-14
+cap "rom_one_31/a_35_10#" "rom_one_31/w_35_n90#" -11.58
+cap "rom_one_31/a_35_n50#" "rom_one_31/w_35_n90#" -11.58
+cap "rom_one_37/a_35_10#" "rom_one_40/w_35_n90#" -5.68434e-14
+cap "rom_one_37/a_35_n50#" "rom_one_40/w_35_n90#" 2.84217e-14
+cap "rom_one_37/a_35_n10#" "rom_one_40/w_35_n90#" 2.84217e-14
+cap "rom_one_37/a_35_n70#" "rom_one_40/w_35_n90#" -5.68434e-14
+cap "rom_one_40/a_35_10#" "rom_one_41/w_35_n90#" -5.68434e-14
+cap "rom_one_40/a_35_n10#" "rom_one_41/w_35_n90#" 1.13687e-13
+cap "rom_one_40/a_35_n70#" "rom_one_41/w_35_n90#" -5.68434e-14
+cap "rom_one_41/w_35_n90#" "rom_one_40/a_35_n50#" 1.13687e-13
+cap "m1_574_n904#" "rom_one_41/w_35_n90#" 73.8784
+cap "m1_574_n904#" "rom_one_41/w_35_n90#" 73.8784
+cap "decoder24_control_0/2and_3/inv2_0/GND!" "decoder24_control_0/2and_3/inv2_0/a_6_n1#" 101.359
+cap "decoder24_2/inv2_0/Vdd!" "decoder24_2/in2" 10.989
+cap "decoder24_2/inv2_0/GND!" "decoder24_2/in2" 8.547
+cap "decoder24_2/in1" "decoder24_2/in2" 87.375
+cap "decoder24_2/in2" "decoder24_2/inv2_1/Vdd!" 3.663
+subcap "out9" -75.506
+subcap "wl20" -60.216
+subcap "wl19" -31.629
+subcap "wl18" -22.044
+subcap "wl17" -103.811
+cap "decoder24_2/decoder_nor2_1/out2" "rom_one_28/m2_41_n90#" 63.6875
+cap "decoder24_2/decoder_nor2_1/out1" "decoder24_2/decoder_nor2_0/GND!" 43.845
+cap "rom_one_28/m2_81_n90#" "decoder24_2/decoder_nor2_0/GND!" -4.884
+cap "decoder24_2/decoder_nor2_0/GND!" "decoder24_2/decoder_nor2_3/out1" 24.652
+cap "decoder24_2/decoder_nor2_1/out1" "decoder24_2/decoder_nor2_1/Vdd!" -1.42109e-14
+cap "decoder24_2/decoder_nor2_0/out2" "decoder24_2/decoder_nor2_0/GND!" 31.3027
+cap "decoder24_2/decoder_nor2_0/GND!" "decoder24_2/decoder_nor2_1/Vdd!" 3.486
+cap "rom_one_28/m2_41_n90#" "decoder24_2/decoder_nor2_0/GND!" 1.42109e-14
+cap "decoder24_2/decoder_nor2_1/out2" "decoder24_2/decoder_nor2_0/GND!" 43.9533
+cap "rom_one_28/m2_61_n90#" "decoder24_2/decoder_nor2_0/GND!" -4.26326e-14
+cap "decoder24_2/decoder_nor2_0/out2" "rom_one_28/m2_41_n90#" 50.95
+cap "rom_one_29/w_35_n90#" "rom_one_29/m2_101_n90#" 3.256
+cap "rom_one_29/w_35_n90#" "rom_one_29/m2_61_n90#" 1.42109e-14
+cap "rom_one_29/w_35_n90#" "rom_one_28/a_35_n70#" -8.52651e-14
+cap "rom_one_29/w_35_n90#" "rom_one_28/a_35_n50#" 1.98952e-13
+cap "rom_one_29/w_35_n90#" "rom_one_28/m2_101_n90#" 1.42109e-14
+cap "rom_one_29/w_35_n90#" "rom_one_29/m2_81_n90#" 1.42109e-14
+cap "rom_one_29/w_35_n90#" "rom_one_28/a_35_n10#" -5.68434e-14
+cap "rom_one_29/w_35_n90#" "rom_one_29/m2_41_n90#" 1.42109e-14
+cap "rom_one_29/w_35_n90#" "rom_one_28/m2_81_n90#" 1.628
+cap "rom_one_34/a_35_n70#" "rom_one_34/w_35_n90#" -1.7053e-13
+cap "rom_one_30/m2_101_n90#" "rom_one_34/w_35_n90#" 1.42109e-14
+cap "rom_one_30/m2_81_n90#" "rom_one_34/w_35_n90#" 1.42109e-14
+cap "rom_one_30/m2_41_n90#" "rom_one_34/w_35_n90#" 1.42109e-14
+cap "rom_one_34/a_35_n10#" "rom_one_34/w_35_n90#" -1.06581e-13
+cap "rom_one_29/m2_101_n90#" "rom_one_34/w_35_n90#" 0.814
+cap "rom_one_30/m2_61_n90#" "rom_one_34/w_35_n90#" 1.42109e-14
+cap "rom_one_34/a_35_n50#" "rom_one_34/w_35_n90#" -1.7053e-13
+cap "rom_one_36/w_35_n90#" "rom_one_34/m2_41_n90#" 1.42109e-14
+cap "rom_one_36/w_35_n90#" "rom_one_34/a_35_n70#" -11.58
+cap "rom_one_36/w_35_n90#" "rom_one_34/a_35_n10#" -11.58
+cap "rom_one_36/w_35_n90#" "rom_one_34/m2_61_n90#" 1.42109e-14
+cap "rom_one_35/m2_41_n90#" "rom_one_36/w_35_n90#" -1.42109e-14
+cap "rom_one_36/w_35_n90#" "rom_one_34/m2_81_n90#" 1.42109e-14
+cap "rom_one_36/w_35_n90#" "rom_one_34/a_35_n50#" -11.58
+cap "rom_one_36/w_35_n90#" "rom_one_34/m2_101_n90#" 1.42109e-14
+cap "rom_one_40/w_35_n90#" "rom_one_35/m2_61_n90#" 1.42109e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/a_35_n10#" -8.52651e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/a_35_n50#" 2.84217e-14
+cap "rom_one_40/w_35_n90#" "rom_one_35/m2_81_n90#" 1.42109e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/m2_41_n90#" 1.42109e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/a_35_n70#" -5.68434e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/m2_61_n90#" 1.42109e-14
+cap "rom_one_40/w_35_n90#" "rom_one_35/m2_101_n90#" 1.42109e-14
+cap "rom_one_39/m2_61_n90#" "rom_one_40/w_35_n90#" 1.42109e-14
+cap "rom_one_39/m2_81_n90#" "rom_one_40/w_35_n90#" 1.42109e-14
+cap "rom_one_38/m2_81_n90#" "rom_one_40/w_35_n90#" 1.42109e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/m2_101_n90#" 1.42109e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/a_35_n70#" -5.68434e-14
+cap "rom_one_40/w_35_n90#" "rom_one_38/a_35_n50#" 1.13687e-13
+cap "rom_one_39/m2_41_n90#" "rom_one_40/w_35_n90#" 1.42109e-14
+cap "m1_574_n904#" "rom_one_39/w_35_n90#" 73.8784
+subcap "m1_n236_n397#" -1165
+subcap "m1_n236_n327#" -99.446
+cap "decoder24_control_0/2and_1/inv2_0/GND!" "decoder24_control_0/2and_1/inv2_0/a_6_n1#" 9.2348
+subcap "out9" -58.732
+subcap "out8" -47.112
+cap "decoder24_2/Vdd!" "decoder24_2/3nand_0/c" 8.49167
+cap "decoder24_2/Vdd!" "decoder24_2/GND!" 3.41061e-13
+cap "decoder24_2/3nand_0/c" "decoder24_2/GND!" 38.4783
+cap "decoder24_2/3nand_0/b" "decoder24_2/GND!" 169.305
+subcap "wl17" -123.701
+subcap "wl16" -39.474
+subcap "wl15" -41.539
+subcap "wl14" -33.664
+cap "decoder24_2/decoder_nor2_0/out1" "decoder24_1/decoder_nor2_2/GND!" 39.2276
+cap "decoder24_1/decoder_nor2_2/GND!" "rom_one_16/m2_61_n90#" -2.84217e-14
+cap "decoder24_2/decoder_nor2_0/out1" "decoder24_2/decoder_nor2_0/Vdd!" 2.84217e-14
+cap "decoder24_1/decoder_nor2_2/GND!" "decoder24_1/decoder_nor2_2/out1" 43.845
+cap "rom_one_16/m2_41_n90#" "decoder24_2/decoder_nor2_0/out2" 12.7375
+cap "decoder24_2/decoder_nor2_0/phi1" "decoder24_1/decoder_nor2_2/GND!" 1.42109e-14
+cap "decoder24_2/decoder_nor2_0/out2" "decoder24_1/decoder_nor2_2/GND!" 24.7456
+cap "decoder24_1/decoder_nor2_2/GND!" "decoder24_1/decoder_nor2_2/Vdd!" 3.486
+cap "decoder24_1/decoder_nor2_2/GND!" "decoder24_2/decoder_nor2_0/Vdd!" 2.324
+cap "decoder24_1/decoder_nor2_2/out2" "rom_one_16/m2_41_n90#" 63.6875
+cap "rom_one_16/m2_81_n90#" "decoder24_1/decoder_nor2_2/GND!" -4.884
+cap "decoder24_1/decoder_nor2_2/out2" "decoder24_1/decoder_nor2_2/GND!" 43.9533
+cap "rom_one_17/m2_61_n90#" "rom_one_17/w_35_n90#" 2.84217e-14
+cap "rom_one_17/m2_81_n90#" "rom_one_17/w_35_n90#" 2.84217e-14
+cap "rom_one_16/m2_81_n90#" "rom_one_17/w_35_n90#" 1.628
+cap "rom_one_28/a_35_n10#" "rom_one_17/w_35_n90#" -5.68434e-14
+cap "rom_one_16/a_35_n70#" "rom_one_17/w_35_n90#" -8.52651e-14
+cap "rom_one_16/a_35_n50#" "rom_one_17/w_35_n90#" 1.98952e-13
+cap "rom_one_28/a_35_10#" "rom_one_17/w_35_n90#" -8.52651e-14
+cap "rom_one_16/m2_101_n90#" "rom_one_17/w_35_n90#" -2.84217e-14
+cap "rom_one_17/m2_101_n90#" "rom_one_17/w_35_n90#" 3.256
+cap "rom_one_21/w_35_n90#" "rom_one_19/m2_101_n90#" -2.84217e-14
+cap "rom_one_21/w_35_n90#" "rom_one_34/a_35_10#" -9.9476e-14
+cap "rom_one_21/w_35_n90#" "rom_one_21/a_35_n50#" -1.7053e-13
+cap "rom_one_21/w_35_n90#" "rom_one_21/a_35_n70#" -1.7053e-13
+cap "rom_one_21/w_35_n90#" "rom_one_17/m2_101_n90#" 0.814
+cap "rom_one_21/w_35_n90#" "rom_one_19/m2_61_n90#" 2.84217e-14
+cap "rom_one_21/w_35_n90#" "rom_one_34/a_35_n10#" -1.20792e-13
+cap "rom_one_21/w_35_n90#" "rom_one_19/m2_81_n90#" 2.84217e-14
+cap "rom_one_21/w_35_n90#" "rom_one_19/m2_41_n90#" -2.84217e-14
+cap "rom_one_21/a_35_n50#" "rom_one_21/w_35_n90#" -11.58
+cap "rom_one_21/m2_61_n90#" "rom_one_21/w_35_n90#" 2.84217e-14
+cap "rom_one_23/m2_41_n90#" "rom_one_21/w_35_n90#" -2.84217e-14
+cap "rom_one_34/a_35_10#" "rom_one_21/w_35_n90#" -11.58
+cap "rom_one_21/m2_81_n90#" "rom_one_21/w_35_n90#" 2.84217e-14
+cap "rom_one_21/a_35_n70#" "rom_one_21/w_35_n90#" -11.58
+cap "rom_one_34/a_35_n10#" "rom_one_21/w_35_n90#" -11.58
+cap "rom_one_23/m2_81_n90#" "rom_one_25/w_35_n90#" 2.84217e-14
+cap "rom_one_23/m2_61_n90#" "rom_one_25/w_35_n90#" 2.84217e-14
+cap "rom_one_25/a_35_n70#" "rom_one_25/w_35_n90#" -5.68434e-14
+cap "rom_one_25/w_35_n90#" "rom_one_25/m2_61_n90#" 2.84217e-14
+cap "rom_one_38/a_35_10#" "rom_one_25/w_35_n90#" -8.52651e-14
+cap "rom_one_25/a_35_n50#" "rom_one_25/w_35_n90#" 2.84217e-14
+cap "rom_one_23/m2_101_n90#" "rom_one_25/w_35_n90#" -2.84217e-14
+cap "rom_one_38/a_35_n10#" "rom_one_25/w_35_n90#" -8.52651e-14
+cap "rom_one_38/w_35_n90#" "rom_one_25/a_35_n70#" -5.68434e-14
+cap "rom_one_38/w_35_n90#" "rom_one_38/a_35_n10#" 5.32907e-15
+cap "rom_one_38/w_35_n90#" "rom_one_27/m2_61_n90#" 2.84217e-14
+cap "rom_one_38/w_35_n90#" "rom_one_25/m2_101_n90#" -2.84217e-14
+cap "rom_one_38/w_35_n90#" "rom_one_27/m2_41_n90#" -2.84217e-14
+cap "rom_one_38/w_35_n90#" "rom_one_27/m2_81_n90#" 2.84217e-14
+cap "rom_one_38/w_35_n90#" "rom_one_25/m2_81_n90#" 2.84217e-14
+cap "rom_one_38/w_35_n90#" "rom_one_25/a_35_n50#" 1.13687e-13
+cap "rom_one_38/w_35_n90#" "rom_one_38/a_35_10#" -6.39488e-14
+cap "rom_one_39/w_35_n90#" "m1_574_n904#" 73.8784
+cap "rom_one_27/m2_101_n90#" "rom_one_39/w_35_n90#" 7.10543e-15
+cap "rom_one_27/w_35_n90#" "m1_574_n904#" 73.8784
+subcap "m1_n265_n275#" -186.283
+cap "decoder24_control_0/2and_1/Vdd!" "decoder24_control_0/2and_0/inv2_0/GND!" 36.385
+subcap "m1_n236_n257#" -976.208
+cap "decoder24_control_0/2and_0/inv2_0/GND!" "decoder24_control_0/2and_0/inv2_0/a_6_n1#" -1.42109e-14
+cap "decoder24_1/in2" "decoder24_1/inv2_0/GND!" 140.363
+cap "decoder24_1/in2" "decoder24_1/inv2_1/Vdd!" 8.954
+cap "decoder24_control_0/2and_0/inv2_0/Vdd!" "decoder24_1/inv2_0/GND!" -11.412
+cap "decoder24_1/inv2_1/Vdd!" "decoder24_1/inv2_0/GND!" 58.303
+cap "decoder24_1/inv2_0/GND!" "decoder24_1/inv2_1/a_6_n1#" 4.653
+cap "decoder24_1/in2" "decoder24_1/inv2_1/GND!" 8.547
+cap "decoder24_1/in2" "decoder24_1/in1" 87.375
+cap "decoder24_1/in2" "decoder24_1/inv2_0/Vdd!" 0.407
+cap "decoder24_1/inv2_0/GND!" "decoder24_1/in1" 6.36
+cap "decoder24_1/inv2_0/GND!" "decoder24_control_0/2and_0/inv2_0/GND!" 11.394
+subcap "wl13" -31.629
+subcap "wl12" -22.044
+subcap "wl11" -31.629
+subcap "wl10" -89.654
+cap "decoder24_1/decoder_nor2_1/GND!" "decoder24_1/decoder_nor2_1/out2" 43.9533
+cap "decoder24_1/decoder_nor2_1/GND!" "decoder24_1/decoder_nor2_3/out2" 42.0766
+cap "decoder24_1/decoder_nor2_1/GND!" "decoder24_1/decoder_nor2_3/out1" 39.2276
+cap "decoder24_1/decoder_nor2_1/out2" "rom_one_14/m2_41_n90#" 63.6875
+cap "decoder24_1/decoder_nor2_1/GND!" "decoder24_1/decoder_nor2_1/Vdd!" 3.486
+cap "rom_one_14/m2_41_n90#" "decoder24_1/decoder_nor2_3/out2" 63.6875
+cap "decoder24_1/decoder_nor2_1/GND!" "rom_one_14/m2_81_n90#" -7.326
+cap "decoder24_1/decoder_nor2_1/GND!" "rom_one_14/m2_41_n90#" -1.42109e-14
+cap "decoder24_1/decoder_nor2_1/GND!" "decoder24_1/decoder_nor2_1/out1" 11.5435
+cap "decoder24_1/decoder_nor2_1/GND!" "rom_one_14/m2_61_n90#" -7.10543e-14
+cap "decoder24_1/decoder_nor2_1/GND!" "decoder24_1/decoder_nor2_3/Vdd!" 2.324
+cap "rom_one_15/m2_61_n90#" "rom_one_15/w_35_n90#" -7.10543e-14
+cap "rom_one_15/w_35_n90#" "rom_one_14/m2_101_n90#" -1.42109e-14
+cap "rom_one_15/m2_101_n90#" "rom_one_15/w_35_n90#" 3.256
+cap "rom_one_15/w_35_n90#" "rom_one_14/a_35_n70#" -7.10543e-14
+cap "rom_one_15/w_35_n90#" "rom_one_15/m2_81_n90#" -1.42109e-14
+cap "rom_one_15/w_35_n90#" "rom_one_15/m2_41_n90#" -1.42109e-14
+cap "rom_one_16/a_35_10#" "rom_one_15/w_35_n90#" -8.52651e-14
+cap "rom_one_15/w_35_n90#" "rom_one_16/a_35_n10#" 1.98952e-13
+cap "rom_one_15/w_35_n90#" "rom_one_14/m2_81_n90#" 1.628
+cap "rom_one_20/w_35_n90#" "rom_one_15/m2_101_n90#" 0.814
+cap "rom_one_18/m2_101_n90#" "rom_one_20/w_35_n90#" -1.42109e-14
+cap "rom_one_20/a_35_n70#" "rom_one_20/w_35_n90#" -9.9476e-14
+cap "rom_one_18/m2_81_n90#" "rom_one_20/w_35_n90#" -1.42109e-14
+cap "rom_one_18/m2_61_n90#" "rom_one_20/w_35_n90#" -7.10543e-14
+cap "rom_one_21/a_35_10#" "rom_one_20/w_35_n90#" -1.7053e-13
+cap "rom_one_18/m2_41_n90#" "rom_one_20/w_35_n90#" -1.42109e-14
+cap "rom_one_21/a_35_n10#" "rom_one_20/w_35_n90#" -1.7053e-13
+cap "rom_one_20/w_35_n90#" "rom_one_20/m2_61_n90#" -7.10543e-14
+cap "rom_one_20/w_35_n90#" "rom_one_20/m2_101_n90#" -1.42109e-14
+cap "rom_one_20/w_35_n90#" "rom_one_20/m2_41_n90#" -1.42109e-14
+cap "rom_one_20/a_35_n70#" "rom_one_20/w_35_n90#" -11.58
+cap "rom_one_20/w_35_n90#" "rom_one_20/m2_81_n90#" -1.42109e-14
+cap "rom_one_20/w_35_n90#" "rom_one_21/a_35_10#" -11.58
+cap "rom_one_20/w_35_n90#" "rom_one_22/m2_41_n90#" -1.42109e-14
+cap "rom_one_21/a_35_n10#" "rom_one_20/w_35_n90#" -11.58
+cap "rom_one_24/w_35_n90#" "rom_one_22/m2_101_n90#" -1.42109e-14
+cap "rom_one_25/a_35_10#" "rom_one_24/w_35_n90#" -5.68434e-14
+cap "rom_one_24/w_35_n90#" "rom_one_24/m2_61_n90#" -7.10543e-14
+cap "rom_one_24/w_35_n90#" "rom_one_24/m2_41_n90#" -1.42109e-14
+cap "rom_one_22/m2_81_n90#" "rom_one_24/w_35_n90#" -1.42109e-14
+cap "rom_one_24/a_35_n70#" "rom_one_24/w_35_n90#" -8.52651e-14
+cap "rom_one_25/a_35_n10#" "rom_one_24/w_35_n90#" 2.84217e-14
+cap "rom_one_24/w_35_n90#" "rom_one_22/m2_61_n90#" -7.10543e-14
+cap "rom_one_24/m2_81_n90#" "rom_one_24/w_35_n90#" -1.42109e-14
+cap "rom_one_24/a_35_n70#" "rom_one_24/w_35_n90#" -5.68434e-14
+cap "rom_one_26/m2_81_n90#" "rom_one_24/w_35_n90#" -1.42109e-14
+cap "rom_one_25/a_35_10#" "rom_one_24/w_35_n90#" -5.68434e-14
+cap "rom_one_26/m2_41_n90#" "rom_one_24/w_35_n90#" -1.42109e-14
+cap "rom_one_24/m2_101_n90#" "rom_one_24/w_35_n90#" -1.42109e-14
+cap "rom_one_25/a_35_n10#" "rom_one_24/w_35_n90#" 1.13687e-13
+cap "rom_one_26/m2_61_n90#" "rom_one_24/w_35_n90#" -7.10543e-14
+cap "rom_one_27/w_35_n90#" "rom_one_26/m2_101_n90#" -7.10543e-15
+cap "m1_574_n904#" "rom_one_26/w_35_n90#" 73.8784
+cap "rom_one_27/w_35_n90#" "m1_574_n904#" 73.8784
+cap "a0" "decoder24_1/inv2_0/Vdd!" 10.582
+subcap "out5" -56.416
+cap "decoder24_1/3nand_1/c" "decoder24_1/GND!" 38.4783
+cap "decoder24_1/Vdd!" "decoder24_1/3nand_1/c" 8.49167
+cap "decoder24_1/Vdd!" "decoder24_1/GND!" -6.82121e-13
+cap "decoder24_1/3nand_0/b" "decoder24_1/GND!" 169.305
+cap "decoder24_1/decoder_nor2_1/phi0" "decoder24_1/GND!" 5.68434e-14
+subcap "wl10" -55.074
+subcap "wl9" -41.539
+subcap "wl8" -33.664
+subcap "wl7" -157.067
+cap "decoder24_1/decoder_nor2_0/GND!" "decoder24_1/decoder_nor2_1/phi1" 5.68434e-14
+cap "decoder24_1/decoder_nor2_0/GND!" "decoder24_1/decoder_nor2_0/out2" 42.0766
+cap "decoder24_1/decoder_nor2_0/GND!" "decoder24_1/decoder_nor2_0/Vdd!" 2.324
+cap "decoder24_1/decoder_nor2_1/phi1" "decoder24_1/decoder_nor2_1/Vdd!" -1.42109e-14
+cap "decoder24_1/decoder_nor2_0/out1" "decoder24_1/decoder_nor2_0/Vdd!" 2.84217e-14
+cap "decoder24_1/decoder_nor2_0/GND!" "decoder24_1/decoder_nor2_1/out1" 32.3015
+cap "decoder24_1/decoder_nor2_0/GND!" "decoder24_1/decoder_nor2_0/out1" 39.2276
+cap "decoder24_1/decoder_nor2_0/out2" "rom_one_13/m2_41_n90#" 63.6875
+cap "decoder24_1/decoder_nor2_0/GND!" "rom_one_13/m2_81_n90#" -4.884
+cap "decoder24_1/decoder_nor2_0/GND!" "rom_one_13/m2_61_n90#" 5.68434e-14
+cap "decoder24_1/decoder_nor2_0/GND!" "rom_one_13/m2_41_n90#" 5.68434e-14
+cap "rom_one_12/w_35_n90#" "rom_one_12/m2_41_n90#" 5.68434e-14
+cap "rom_one_12/m2_101_n90#" "rom_one_12/w_35_n90#" 3.256
+cap "rom_one_12/w_35_n90#" "rom_one_13/m2_81_n90#" 1.628
+cap "rom_one_12/w_35_n90#" "rom_one_14/a_35_n10#" 1.98952e-13
+cap "rom_one_12/m2_61_n90#" "rom_one_12/w_35_n90#" 5.68434e-14
+cap "rom_one_14/a_35_10#" "rom_one_12/w_35_n90#" -8.52651e-14
+cap "rom_one_12/w_35_n90#" "rom_one_14/a_35_n50#" 1.98952e-13
+cap "rom_one_12/m2_81_n90#" "rom_one_12/w_35_n90#" 5.68434e-14
+cap "rom_one_13/m2_101_n90#" "rom_one_12/w_35_n90#" 5.68434e-14
+cap "rom_one_20/w_35_n90#" "rom_one_12/m2_101_n90#" 0.814
+cap "rom_one_20/w_35_n90#" "rom_one_10/m2_41_n90#" 5.68434e-14
+cap "rom_one_20/w_35_n90#" "rom_one_10/m2_81_n90#" 5.68434e-14
+cap "rom_one_20/w_35_n90#" "rom_one_20/a_35_10#" -1.7053e-13
+cap "rom_one_10/m2_101_n90#" "rom_one_20/w_35_n90#" 5.68434e-14
+cap "rom_one_20/w_35_n90#" "rom_one_20/a_35_n10#" -1.7053e-13
+cap "rom_one_20/w_35_n90#" "rom_one_20/a_35_n50#" -1.7053e-13
+cap "rom_one_10/m2_61_n90#" "rom_one_20/w_35_n90#" 5.68434e-14
+cap "rom_one_7/m2_41_n90#" "rom_one_18/w_35_n90#" 4.26326e-14
+cap "rom_one_11/m2_101_n90#" "rom_one_18/w_35_n90#" 5.68434e-14
+cap "rom_one_11/m2_41_n90#" "rom_one_18/w_35_n90#" 5.68434e-14
+cap "rom_one_18/w_35_n90#" "rom_one_20/a_35_n10#" -11.58
+cap "rom_one_11/m2_61_n90#" "rom_one_18/w_35_n90#" 5.68434e-14
+cap "rom_one_18/w_35_n90#" "rom_one_20/a_35_10#" -11.58
+cap "rom_one_18/w_35_n90#" "rom_one_20/a_35_n50#" -11.58
+cap "rom_one_18/w_35_n90#" "rom_one_11/m2_81_n90#" 5.68434e-14
+cap "rom_one_24/a_35_n10#" "rom_one_9/w_35_n90#" 2.84217e-14
+cap "rom_one_9/w_35_n90#" "rom_one_24/a_35_n50#" 2.84217e-14
+cap "rom_one_9/m2_41_n90#" "rom_one_9/w_35_n90#" 5.68434e-14
+cap "rom_one_7/m2_81_n90#" "rom_one_9/w_35_n90#" 5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_9/m2_61_n90#" 5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_24/a_35_10#" -5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_7/m2_101_n90#" 5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_7/m2_61_n90#" 5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_24/a_35_n10#" 1.13687e-13
+cap "rom_one_24/a_35_10#" "rom_one_9/w_35_n90#" -5.68434e-14
+cap "rom_one_9/m2_81_n90#" "rom_one_9/w_35_n90#" 5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_8/m2_61_n90#" 5.68434e-14
+cap "rom_one_9/m2_101_n90#" "rom_one_9/w_35_n90#" 5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_8/m2_41_n90#" 5.68434e-14
+cap "rom_one_8/m2_81_n90#" "rom_one_9/w_35_n90#" 5.68434e-14
+cap "rom_one_9/w_35_n90#" "rom_one_24/a_35_n50#" 1.13687e-13
+cap "m1_574_n904#" "rom_one_26/w_35_n90#" 73.8784
+cap "decoder24_0/in2" "decoder24_0/inv2_1/GND!" 8.547
+cap "decoder24_0/in2" "a1" 50.95
+subcap "out4" -58.732
+subcap "out3" -47.112
+subcap "wl7" -41.539
+subcap "wl6" -33.664
+subcap "wl5" -41.539
+subcap "wl4" -33.664
+cap "rom_one_0/w_35_n90#" "rom_one_0/m2_81_n90#" -7.326
+cap "decoder24_0/decoder_nor2_3/out2" "rom_one_0/m2_41_n90#" 63.6875
+cap "decoder24_0/decoder_nor2_2/out2" "rom_one_0/m2_41_n90#" 63.6875
+cap "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_2/out1" 43.845
+cap "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_3/Vdd!" 2.324
+cap "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_2/Vdd!" 3.486
+cap "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_2/phi1" 5.68434e-14
+cap "decoder24_0/decoder_nor2_3/Vdd!" "decoder24_0/decoder_nor2_3/out1" 2.84217e-14
+cap "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_3/out1" 39.2276
+cap "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_3/out2" 42.0766
+cap "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_2/out2" 43.9533
+cap "rom_one_1/w_35_n90#" "rom_one_13/a_35_n70#" -8.52651e-14
+cap "rom_one_1/w_35_n90#" "rom_one_13/a_35_10#" -8.52651e-14
+cap "rom_one_13/a_35_n50#" "rom_one_1/w_35_n90#" 1.98952e-13
+cap "rom_one_1/w_35_n90#" "rom_one_13/a_35_n10#" 1.98952e-13
+cap "rom_one_11/a_35_n50#" "rom_one_2/w_35_n90#" -1.7053e-13
+cap "rom_one_11/a_35_n70#" "rom_one_2/w_35_n90#" -1.7053e-13
+cap "rom_one_11/a_35_10#" "rom_one_2/w_35_n90#" -1.7053e-13
+cap "rom_one_11/a_35_n10#" "rom_one_2/w_35_n90#" -1.7053e-13
+cap "rom_one_1/m2_101_n90#" "rom_one_2/w_35_n90#" 5.68434e-14
+cap "rom_one_2/w_35_n90#" "rom_one_11/a_35_n70#" -11.58
+cap "rom_one_2/w_35_n90#" "rom_one_11/a_35_10#" -11.58
+cap "rom_one_2/w_35_n90#" "rom_one_11/a_35_n50#" -11.58
+cap "rom_one_2/w_35_n90#" "rom_one_11/a_35_n10#" -11.58
+cap "rom_one_2/w_35_n90#" "rom_one_6/m2_41_n90#" -4.26326e-14
+cap "rom_one_4/w_35_n90#" "rom_one_9/a_35_n70#" -5.68434e-14
+cap "rom_one_9/a_35_10#" "rom_one_4/w_35_n90#" -5.68434e-14
+cap "rom_one_9/a_35_n10#" "rom_one_4/w_35_n90#" 2.84217e-14
+cap "rom_one_9/a_35_n50#" "rom_one_4/w_35_n90#" 2.84217e-14
+cap "rom_one_9/a_35_10#" "rom_one_4/w_35_n90#" -5.68434e-14
+cap "rom_one_9/a_35_n50#" "rom_one_4/w_35_n90#" 1.13687e-13
+cap "rom_one_9/a_35_n10#" "rom_one_4/w_35_n90#" 1.13687e-13
+cap "rom_one_9/a_35_n70#" "rom_one_4/w_35_n90#" -5.68434e-14
+cap "m1_574_n904#" "rom_one_8/w_35_n90#" 73.8784
+cap "m1_574_n904#" "rom_one_8/w_35_n90#" 73.8784
+subcap "out2" -31.64
+subcap "out1" -64.424
+subcap "wl3" -31.629
+subcap "wl2" -33.664
+subcap "wl1" -31.629
+subcap "wl0" -226.358
+cap "rom_one_0/m2_41_n90#" "decoder24_0/decoder_nor2_0/out2" 63.6875
+cap "decoder24_0/decoder_nor2_0/GND!" "rom_one_0/m2_81_n90#" -7.326
+cap "decoder24_0/decoder_nor2_0/GND!" "decoder24_0/decoder_nor2_1/out1" 43.845
+cap "rom_one_0/m2_41_n90#" "decoder24_0/decoder_nor2_1/out2" 63.6875
+cap "decoder24_0/decoder_nor2_0/GND!" "decoder24_0/decoder_nor2_1/Vdd!" 3.486
+cap "decoder24_0/decoder_nor2_0/GND!" "decoder24_0/decoder_nor2_0/out2" 42.0766
+cap "decoder24_0/decoder_nor2_0/GND!" "rom_one_0/m2_41_n90#" -1.13687e-13
+cap "decoder24_0/decoder_nor2_0/GND!" "decoder24_0/decoder_nor2_1/out2" 43.9533
+cap "decoder24_0/decoder_nor2_0/GND!" "decoder24_0/decoder_nor2_3/phi1" -1.13687e-13
+cap "rom_one_0/m2_81_n90#" "rom_one_1/w_35_n90#" 1.628
+cap "rom_one_1/w_35_n90#" "rom_one_0/a_35_n70#" -8.52651e-14
+cap "rom_one_1/w_35_n90#" "rom_one_0/m2_101_n90#" -5.68434e-14
+cap "rom_one_1/w_35_n90#" "rom_one_0/a_35_n50#" 1.98952e-13
+cap "rom_one_1/w_35_n90#" "rom_one_1/m2_41_n90#" -5.68434e-14
+cap "rom_one_1/w_35_n90#" "rom_one_0/a_35_n10#" 1.98952e-13
+cap "rom_one_1/m2_101_n90#" "rom_one_1/w_35_n90#" 3.256
+cap "rom_one_1/w_35_n90#" "rom_one_1/m2_61_n90#" 5.68434e-14
+cap "rom_one_3/m2_101_n90#" "rom_one_2/w_35_n90#" -5.68434e-14
+cap "rom_one_1/m2_101_n90#" "rom_one_2/w_35_n90#" 0.814
+cap "rom_one_3/m2_61_n90#" "rom_one_2/w_35_n90#" 5.68434e-14
+cap "rom_one_2/a_35_n70#" "rom_one_2/w_35_n90#" -1.7053e-13
+cap "rom_one_2/a_35_n50#" "rom_one_2/w_35_n90#" -1.7053e-13
+cap "rom_one_2/a_35_n10#" "rom_one_2/w_35_n90#" -1.7053e-13
+cap "rom_one_3/m2_41_n90#" "rom_one_2/w_35_n90#" -5.68434e-14
+cap "rom_one_2/m2_101_n90#" "rom_one_2/w_35_n90#" -5.68434e-14
+cap "rom_one_2/a_35_n70#" "rom_one_2/w_35_n90#" -11.58
+cap "rom_one_2/m2_41_n90#" "rom_one_2/w_35_n90#" -5.68434e-14
+cap "rom_one_6/m2_41_n90#" "rom_one_2/w_35_n90#" -1.42109e-14
+cap "rom_one_2/w_35_n90#" "rom_one_2/a_35_n50#" -11.58
+cap "rom_one_2/m2_61_n90#" "rom_one_2/w_35_n90#" 5.68434e-14
+cap "rom_one_2/a_35_n10#" "rom_one_2/w_35_n90#" -11.58
+cap "rom_one_4/m2_41_n90#" "rom_one_4/w_35_n90#" -5.68434e-14
+cap "rom_one_4/w_35_n90#" "rom_one_4/a_35_n50#" 2.84217e-14
+cap "rom_one_4/w_35_n90#" "rom_one_6/m2_101_n90#" -5.68434e-14
+cap "rom_one_4/a_35_n10#" "rom_one_4/w_35_n90#" 2.84217e-14
+cap "rom_one_4/m2_61_n90#" "rom_one_4/w_35_n90#" 5.68434e-14
+cap "rom_one_4/a_35_n70#" "rom_one_4/w_35_n90#" -5.68434e-14
+cap "rom_one_4/w_35_n90#" "rom_one_6/m2_61_n90#" 5.68434e-14
+cap "rom_one_5/m2_61_n90#" "rom_one_5/w_35_n90#" 5.68434e-14
+cap "rom_one_4/m2_101_n90#" "rom_one_5/w_35_n90#" -5.68434e-14
+cap "rom_one_5/w_35_n90#" "rom_one_4/a_35_n70#" -5.68434e-14
+cap "rom_one_5/w_35_n90#" "rom_one_5/m2_41_n90#" -5.68434e-14
+cap "rom_one_4/a_35_n50#" "rom_one_5/w_35_n90#" 1.13687e-13
+cap "rom_one_4/a_35_n10#" "rom_one_5/w_35_n90#" 1.13687e-13
+cap "rom_one_8/w_35_n90#" "rom_one_5/m2_101_n90#" -1.42109e-14
+cap "m1_574_n904#" "rom_one_5/w_35_n90#" 55.4088
+cap "m1_574_n904#" "rom_one_5/w_35_n90#" 73.8784
+subcap "out1" -75.966
+subcap "m1_n103_132#" -86.519
+subcap "a_n85_132#" -151.692
+subcap "phi0" -1.6
+cap "decoder24_0/GND!" "decoder24_0/Vdd!" 81.4497
+cap "decoder24_0/decoder_nor2_0/phi0" "decoder24_0/Vdd!" 120.32
+cap "inv2_0/a_1_8#" "decoder24_0/Vdd!" 6.524
+cap "decoder24_0/GND!" "decoder24_0/decoder_nor2_0/phi0" 28.032
+subcap "wl0" -33.664
+subcap "a_n32_132#" -101.196
+subcap "phi1" -1.6
+cap "decoder24_0/decoder_nor2_0/Vdd!" "rom_pullup_0/a_35_50#" 11.588
+cap "decoder24_0/decoder_nor2_0/Vdd!" "rom_pullup_0/a_83_38#" -6.276
+cap "decoder24_0/decoder_nor2_0/Vdd!" "inv2_1/GND!" 53.8697
+cap "decoder24_0/decoder_nor2_0/phi1" "inv2_1/GND!" 21.692
+cap "decoder24_0/decoder_nor2_0/Vdd!" "rom_pullup_0/a_43_38#" 7.10543e-15
+cap "rom_pullup_0/a_35_50#" "rom_pullup_0/a_63_38#" 2.84217e-14
+cap "rom_pullup_0/a_35_50#" "decoder24_0/decoder_nor2_0/out1" 18.4696
+cap "decoder24_0/decoder_nor2_0/phi1" "decoder24_0/decoder_nor2_0/Vdd!" 73.356
+cap "decoder24_0/decoder_nor2_0/GND!" "decoder24_0/decoder_nor2_0/out1" 20.758
+cap "decoder24_0/decoder_nor2_0/Vdd!" "rom_pullup_0/a_63_38#" 7.10543e-15
+cap "decoder24_0/decoder_nor2_0/GND!" "rom_pullup_0/a_35_50#" -46.48
+cap "decoder24_0/decoder_nor2_0/Vdd!" "decoder24_0/decoder_nor2_0/out1" 103.891
+cap "rom_pullup_0/a_35_50#" "rom_pullup_0/a_83_38#" -3.55271e-15
+cap "rom_pullup_0/a_35_50#" "rom_one_1/w_35_n90#" -4.26326e-14
+cap "rom_pullup_1/w_35_32#" "rom_pullup_0/a_35_50#" -3.97904e-13
+cap "rom_one_1/w_35_n90#" "rom_one_0/a_35_10#" -2.84217e-14
+cap "rom_pullup_0/a_35_50#" "rom_pullup_1/a_63_38#" 2.84217e-14
+cap "rom_pullup_1/a_83_38#" "rom_pullup_0/a_35_50#" 2.84217e-14
+cap "rom_pullup_3/a_35_50#" "rom_one_1/w_35_n90#" 1.77636e-14
+cap "rom_pullup_3/a_35_50#" "rom_pullup_2/a_63_38#" 2.84217e-14
+cap "rom_pullup_2/a_83_38#" "rom_pullup_3/a_35_50#" 2.84217e-14
+cap "rom_pullup_3/w_35_32#" "rom_pullup_3/a_35_50#" -1.38556e-13
+cap "rom_one_2/a_35_10#" "rom_one_1/w_35_n90#" -1.7053e-13
+cap "rom_pullup_3/a_35_50#" "rom_one_6/w_35_n90#" -5.81
+cap "rom_pullup_3/a_83_38#" "rom_pullup_3/a_35_50#" 2.84217e-14
+cap "rom_pullup_3/a_35_50#" "rom_pullup_3/a_63_38#" 2.84217e-14
+cap "rom_one_6/w_35_n90#" "rom_one_2/a_35_10#" -11.58
+cap "rom_pullup_3/w_35_32#" "rom_pullup_3/a_35_50#" -11.58
+cap "rom_one_4/a_35_10#" "rom_one_6/w_35_n90#" -5.68434e-14
+cap "rom_pullup_4/a_83_38#" "rom_pullup_5/a_35_50#" 2.84217e-14
+cap "rom_pullup_5/a_35_50#" "rom_pullup_5/a_63_38#" 2.84217e-14
+cap "rom_one_4/a_35_10#" "rom_pullup_5/a_35_50#" -5.32907e-15
+cap "rom_pullup_5/a_35_50#" "rom_pullup_4/a_63_38#" 2.84217e-14
+cap "rom_pullup_5/w_35_32#" "rom_pullup_5/a_35_50#" -3.97904e-13
+cap "rom_one_6/w_35_n90#" "rom_pullup_5/a_35_50#" -1.27898e-13
+cap "rom_pullup_6/a_63_38#" "rom_pullup_5/a_35_50#" 2.84217e-14
+cap "rom_pullup_5/a_35_50#" "rom_pullup_6/a_83_38#" 2.84217e-14
+cap "rom_pullup_5/a_83_38#" "rom_pullup_5/a_35_50#" 2.84217e-14
+cap "rom_one_4/a_35_10#" "rom_pullup_5/a_35_50#" -7.10543e-15
+cap "rom_one_5/w_35_n90#" "rom_pullup_5/a_35_50#" -1.42109e-13
+cap "rom_pullup_6/w_35_32#" "rom_pullup_5/a_35_50#" -2.27374e-13
+cap "rom_one_5/w_35_n90#" "rom_pullup_6/w_35_32#" 18.4696
+merge "rom_one_27/a_35_10#" "rom_one_23/a_35_10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_23/a_35_10#" "rom_one_17/a_35_10#"
+merge "rom_one_17/a_35_10#" "rom_one_16/a_35_10#"
+merge "rom_one_16/a_35_10#" "decoder24_1/decoder_nor2_3/out1"
+merge "decoder24_1/decoder_nor2_3/out1" "wl12"
+merge "wl12" "rom_one_19/a_35_10#"
+merge "rom_one_19/a_35_10#" "rom_one_21/a_35_10#"
+merge "rom_one_21/a_35_10#" "rom_one_25/a_35_10#"
+merge "rom_pullup_6/a_35_50#" "rom_pullup_4/a_35_50#" -88.184 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 -44 0 0 0 0 0 0 0 0 0 0
+merge "rom_pullup_4/a_35_50#" "rom_pullup_1/a_35_50#"
+merge "rom_pullup_1/a_35_50#" "rom_one_5/w_35_n90#"
+merge "rom_one_5/w_35_n90#" "rom_one_6/w_35_n90#"
+merge "rom_one_6/w_35_n90#" "rom_one_3/w_35_n90#"
+merge "rom_one_3/w_35_n90#" "rom_one_1/w_35_n90#"
+merge "rom_one_1/w_35_n90#" "rom_one_8/w_35_n90#"
+merge "rom_one_8/w_35_n90#" "rom_one_9/w_35_n90#"
+merge "rom_one_9/w_35_n90#" "rom_one_7/w_35_n90#"
+merge "rom_one_7/w_35_n90#" "rom_one_10/w_35_n90#"
+merge "rom_one_10/w_35_n90#" "rom_one_11/w_35_n90#"
+merge "rom_one_11/w_35_n90#" "rom_one_12/w_35_n90#"
+merge "rom_one_12/w_35_n90#" "rom_one_13/w_35_n90#"
+merge "rom_one_13/w_35_n90#" "decoder24_0/decoder_nor2_2/GND!"
+merge "decoder24_0/decoder_nor2_2/GND!" "rom_one_26/w_35_n90#"
+merge "rom_one_26/w_35_n90#" "rom_one_22/w_35_n90#"
+merge "rom_one_22/w_35_n90#" "rom_one_18/w_35_n90#"
+merge "rom_one_18/w_35_n90#" "rom_one_15/w_35_n90#"
+merge "rom_one_15/w_35_n90#" "rom_one_27/w_35_n90#"
+merge "rom_one_27/w_35_n90#" "rom_one_23/w_35_n90#"
+merge "rom_one_23/w_35_n90#" "rom_one_17/w_35_n90#"
+merge "rom_one_17/w_35_n90#" "rom_one_39/w_35_n90#"
+merge "rom_one_39/w_35_n90#" "rom_one_38/w_35_n90#"
+merge "rom_one_38/w_35_n90#" "rom_one_35/w_35_n90#"
+merge "rom_one_35/w_35_n90#" "rom_one_30/w_35_n90#"
+merge "rom_one_30/w_35_n90#" "rom_one_34/w_35_n90#"
+merge "rom_one_34/w_35_n90#" "rom_one_29/w_35_n90#"
+merge "rom_one_29/w_35_n90#" "rom_one_28/w_35_n90#"
+merge "rom_one_28/w_35_n90#" "decoder24_2/decoder_nor2_0/GND!"
+merge "decoder24_2/decoder_nor2_0/GND!" "decoder24_2/decoder_nor2_1/GND!"
+merge "decoder24_2/decoder_nor2_1/GND!" "rom_one_41/w_35_n90#"
+merge "rom_one_41/w_35_n90#" "rom_one_40/w_35_n90#"
+merge "rom_one_40/w_35_n90#" "rom_one_37/w_35_n90#"
+merge "rom_one_37/w_35_n90#" "rom_one_36/w_35_n90#"
+merge "rom_one_36/w_35_n90#" "rom_one_31/w_35_n90#"
+merge "rom_one_31/w_35_n90#" "rom_one_33/w_35_n90#"
+merge "rom_one_33/w_35_n90#" "rom_one_43/w_35_n90#"
+merge "rom_one_43/w_35_n90#" "rom_one_42/w_35_n90#"
+merge "rom_one_42/w_35_n90#" "rom_one_46/w_35_n90#"
+merge "rom_one_46/w_35_n90#" "rom_one_44/w_35_n90#"
+merge "rom_one_44/w_35_n90#" "rom_one_45/w_35_n90#"
+merge "rom_one_45/w_35_n90#" "rom_one_48/w_35_n90#"
+merge "rom_one_48/w_35_n90#" "rom_inv_24/w_n11_16#"
+merge "rom_inv_24/w_n11_16#" "rom_one_55/w_35_n90#"
+merge "rom_one_55/w_35_n90#" "rom_inv_22/w_n11_16#"
+merge "rom_inv_22/w_n11_16#" "rom_inv_23/w_n11_16#"
+merge "rom_inv_23/w_n11_16#" "rom_inv_21/w_n11_16#"
+merge "rom_inv_21/w_n11_16#" "rom_one_54/w_35_n90#"
+merge "rom_one_54/w_35_n90#" "rom_inv_18/w_n11_16#"
+merge "rom_inv_18/w_n11_16#" "rom_inv_19/w_n11_16#"
+merge "rom_inv_19/w_n11_16#" "rom_one_53/w_35_n90#"
+merge "rom_one_53/w_35_n90#" "rom_inv_17/w_n11_16#"
+merge "rom_inv_17/w_n11_16#" "rom_inv_11/w_n11_16#"
+merge "rom_inv_11/w_n11_16#" "rom_inv_13/w_n11_16#"
+merge "rom_inv_13/w_n11_16#" "rom_inv_14/w_n11_16#"
+merge "rom_inv_14/w_n11_16#" "rom_one_52/w_35_n90#"
+merge "rom_one_52/w_35_n90#" "rom_inv_12/w_n11_16#"
+merge "rom_inv_12/w_n11_16#" "rom_one_51/w_35_n90#"
+merge "rom_one_51/w_35_n90#" "rom_inv_10/w_n11_16#"
+merge "rom_inv_10/w_n11_16#" "rom_one_50/w_35_n90#"
+merge "rom_one_50/w_35_n90#" "rom_inv_6/w_n11_16#"
+merge "rom_inv_6/w_n11_16#" "rom_one_49/w_35_n90#"
+merge "rom_one_49/w_35_n90#" "rom_inv_0/w_n11_16#"
+merge "rom_inv_0/w_n11_16#" "rom_inv_2/w_n11_16#"
+merge "rom_inv_2/w_n11_16#" "rom_inv_1/w_n11_16#"
+merge "rom_inv_1/w_n11_16#" "rom_inv_3/w_n11_16#"
+merge "rom_inv_3/w_n11_16#" "m1_38_n858#"
+merge "m1_38_n858#" "decoder24_3/decoder_nor2_2/GND!"
+merge "decoder24_3/decoder_nor2_2/GND!" "GND!"
+merge "GND!" "rom_inv_7/w_n11_16#"
+merge "rom_inv_7/w_n11_16#" "rom_inv_4/w_n11_16#"
+merge "rom_inv_4/w_n11_16#" "rom_inv_5/w_n11_16#"
+merge "rom_inv_5/w_n11_16#" "m1_120_n858#"
+merge "m1_120_n858#" "rom_inv_8/w_n11_16#"
+merge "rom_inv_8/w_n11_16#" "rom_inv_9/w_n11_16#"
+merge "rom_inv_9/w_n11_16#" "rom_inv_15/w_n11_16#"
+merge "rom_inv_15/w_n11_16#" "m1_202_n858#"
+merge "m1_202_n858#" "m1_284_n858#"
+merge "m1_284_n858#" "rom_inv_16/w_n11_16#"
+merge "rom_inv_16/w_n11_16#" "m1_366_n858#"
+merge "m1_366_n858#" "rom_inv_20/w_n11_16#"
+merge "rom_inv_20/w_n11_16#" "m1_448_n858#"
+merge "m1_448_n858#" "rom_inv_26/w_n11_16#"
+merge "rom_inv_26/w_n11_16#" "rom_inv_25/w_n11_16#"
+merge "rom_inv_25/w_n11_16#" "m1_530_n858#"
+merge "m1_530_n858#" "rom_inv_27/w_n11_16#"
+merge "rom_inv_27/w_n11_16#" "rom_one_47/w_35_n90#"
+merge "rom_one_47/w_35_n90#" "decoder24_3/decoder_nor2_1/GND!"
+merge "decoder24_3/decoder_nor2_1/GND!" "decoder24_3/decoder_nor2_3/GND!"
+merge "decoder24_3/decoder_nor2_3/GND!" "rom_one_32/w_35_n90#"
+merge "rom_one_32/w_35_n90#" "decoder24_2/decoder_nor2_2/GND!"
+merge "decoder24_2/decoder_nor2_2/GND!" "decoder24_3/decoder_nor2_0/GND!"
+merge "decoder24_3/decoder_nor2_0/GND!" "decoder24_2/decoder_nor2_3/GND!"
+merge "decoder24_2/decoder_nor2_3/GND!" "rom_one_16/w_35_n90#"
+merge "rom_one_16/w_35_n90#" "decoder24_1/decoder_nor2_3/GND!"
+merge "decoder24_1/decoder_nor2_3/GND!" "decoder24_1/decoder_nor2_2/GND!"
+merge "decoder24_1/decoder_nor2_2/GND!" "rom_one_19/w_35_n90#"
+merge "rom_one_19/w_35_n90#" "rom_one_21/w_35_n90#"
+merge "rom_one_21/w_35_n90#" "rom_one_25/w_35_n90#"
+merge "rom_one_25/w_35_n90#" "rom_one_14/w_35_n90#"
+merge "rom_one_14/w_35_n90#" "decoder24_1/decoder_nor2_1/GND!"
+merge "decoder24_1/decoder_nor2_1/GND!" "rom_one_20/w_35_n90#"
+merge "rom_one_20/w_35_n90#" "rom_one_24/w_35_n90#"
+merge "rom_one_24/w_35_n90#" "decoder24_1/decoder_nor2_0/GND!"
+merge "decoder24_1/decoder_nor2_0/GND!" "rom_one_0/w_35_n90#"
+merge "rom_one_0/w_35_n90#" "decoder24_0/decoder_nor2_1/GND!"
+merge "decoder24_0/decoder_nor2_1/GND!" "decoder24_0/decoder_nor2_3/GND!"
+merge "decoder24_0/decoder_nor2_3/GND!" "rom_one_2/w_35_n90#"
+merge "rom_one_2/w_35_n90#" "rom_one_4/w_35_n90#"
+merge "rom_one_4/w_35_n90#" "decoder24_0/decoder_nor2_0/GND!"
+merge "decoder24_0/decoder_nor2_0/GND!" "rom_pullup_0/a_35_50#"
+merge "rom_pullup_0/a_35_50#" "rom_pullup_2/a_35_50#"
+merge "rom_pullup_2/a_35_50#" "rom_pullup_3/a_35_50#"
+merge "rom_pullup_3/a_35_50#" "rom_pullup_5/a_35_50#"
+merge "decoder24_1/decoder_nor2_2/phi0" "decoder24_2/decoder_nor2_0/phi0" -9.264 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_12/m2_101_n90#" "rom_one_29/m2_101_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_29/m2_101_n90#" "rom_one_33/m2_101_n90#"
+merge "rom_one_33/m2_101_n90#" "rom_one_48/m2_101_n90#"
+merge "rom_one_48/m2_101_n90#" "rom_one_50/m2_101_n90#"
+merge "rom_one_50/m2_101_n90#" "rom_inv_7/a_2_n4#"
+merge "rom_inv_7/a_2_n4#" "m2_152_n880#"
+merge "m2_152_n880#" "rom_one_17/m2_101_n90#"
+merge "rom_one_17/m2_101_n90#" "rom_one_15/m2_101_n90#"
+merge "rom_one_15/m2_101_n90#" "rom_one_1/m2_101_n90#"
+merge "rom_one_1/m2_101_n90#" "rom_pullup_1/a_103_38#"
+merge "decoder24_0/e" "decoder24_control_0/2and_0/inv2_0/a_6_n1#" -789.288 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -935 -359 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_control_0/2and_0/inv2_0/a_6_n1#" "m1_n236_n257#"
+merge "decoder24_3/decoder_nor2_0/phi1" "decoder24_3/decoder_nor2_1/phi1" -3.588 0 0 0 0 0 0 0 0 0 0 6 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_3/decoder_nor2_1/phi1" "decoder24_2/decoder_nor2_2/phi1"
+merge "rom_one_43/a_35_n70#" "rom_one_42/a_35_n70#" -128.617 0 0 0 0 0 0 0 0 0 0 -20 -38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_42/a_35_n70#" "rom_one_46/a_35_n70#"
+merge "rom_one_46/a_35_n70#" "rom_one_44/a_35_n70#"
+merge "rom_one_44/a_35_n70#" "rom_one_45/a_35_n70#"
+merge "rom_one_45/a_35_n70#" "rom_one_48/a_35_n70#"
+merge "rom_one_48/a_35_n70#" "rom_one_47/a_35_n70#"
+merge "rom_one_47/a_35_n70#" "decoder24_3/decoder_nor2_1/out2"
+merge "decoder24_3/decoder_nor2_1/out2" "wl27"
+merge "rom_one_12/m2_41_n90#" "rom_one_29/m2_41_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_29/m2_41_n90#" "rom_one_33/m2_41_n90#"
+merge "rom_one_33/m2_41_n90#" "rom_one_48/m2_41_n90#"
+merge "rom_one_48/m2_41_n90#" "rom_one_50/m2_41_n90#"
+merge "rom_one_50/m2_41_n90#" "rom_inv_6/a_2_n4#"
+merge "rom_inv_6/a_2_n4#" "m2_98_n880#"
+merge "m2_98_n880#" "rom_one_17/m2_41_n90#"
+merge "rom_one_17/m2_41_n90#" "rom_one_15/m2_41_n90#"
+merge "rom_one_15/m2_41_n90#" "rom_one_1/m2_41_n90#"
+merge "rom_one_1/m2_41_n90#" "rom_pullup_1/a_43_38#"
+merge "rom_one_7/m2_41_n90#" "rom_one_35/m2_41_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_35/m2_41_n90#" "rom_one_37/m2_41_n90#"
+merge "rom_one_37/m2_41_n90#" "rom_one_46/m2_41_n90#"
+merge "rom_one_46/m2_41_n90#" "rom_one_53/m2_41_n90#"
+merge "rom_one_53/m2_41_n90#" "rom_inv_16/a_2_n4#"
+merge "rom_inv_16/a_2_n4#" "m2_344_n880#"
+merge "m2_344_n880#" "rom_one_23/m2_41_n90#"
+merge "rom_one_23/m2_41_n90#" "rom_one_22/m2_41_n90#"
+merge "rom_one_22/m2_41_n90#" "rom_one_6/m2_41_n90#"
+merge "rom_one_6/m2_41_n90#" "rom_pullup_4/a_43_38#"
+merge "rom_one_10/m2_101_n90#" "rom_one_30/m2_101_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_30/m2_101_n90#" "rom_one_31/m2_101_n90#"
+merge "rom_one_31/m2_101_n90#" "rom_one_45/m2_101_n90#"
+merge "rom_one_45/m2_101_n90#" "rom_one_51/m2_101_n90#"
+merge "rom_one_51/m2_101_n90#" "rom_inv_15/a_2_n4#"
+merge "rom_inv_15/a_2_n4#" "m2_234_n880#"
+merge "m2_234_n880#" "rom_one_19/m2_101_n90#"
+merge "rom_one_19/m2_101_n90#" "rom_one_18/m2_101_n90#"
+merge "rom_one_18/m2_101_n90#" "rom_one_3/m2_101_n90#"
+merge "rom_one_3/m2_101_n90#" "rom_pullup_2/a_103_38#"
+merge "rom_inv_0/a_n4_n1#" "bl0" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_8/m2_101_n90#" "rom_one_39/m2_101_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_39/m2_101_n90#" "rom_one_55/m2_101_n90#"
+merge "rom_one_55/m2_101_n90#" "rom_inv_27/a_2_n4#"
+merge "rom_inv_27/a_2_n4#" "m2_562_n880#"
+merge "m2_562_n880#" "rom_one_43/m2_101_n90#"
+merge "rom_one_43/m2_101_n90#" "rom_one_41/m2_101_n90#"
+merge "rom_one_41/m2_101_n90#" "rom_one_27/m2_101_n90#"
+merge "rom_one_27/m2_101_n90#" "rom_one_26/m2_101_n90#"
+merge "rom_one_26/m2_101_n90#" "rom_one_5/m2_101_n90#"
+merge "rom_one_5/m2_101_n90#" "rom_pullup_6/a_103_38#"
+merge "decoder24_control_0/a_114_n99#" "a3" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_11/m2_81_n90#" "rom_one_34/m2_81_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_34/m2_81_n90#" "rom_one_36/m2_81_n90#"
+merge "rom_one_36/m2_81_n90#" "rom_one_44/m2_81_n90#"
+merge "rom_one_44/m2_81_n90#" "rom_inv_13/a_2_n4#"
+merge "rom_inv_13/a_2_n4#" "rom_one_52/m2_81_n90#"
+merge "rom_one_52/m2_81_n90#" "m2_298_n880#"
+merge "m2_298_n880#" "rom_one_21/m2_81_n90#"
+merge "rom_one_21/m2_81_n90#" "rom_one_20/m2_81_n90#"
+merge "rom_one_20/m2_81_n90#" "rom_one_2/m2_81_n90#"
+merge "rom_one_2/m2_81_n90#" "rom_pullup_3/a_83_38#"
+merge "rom_pullup_6/w_35_32#" "rom_pullup_4/w_35_32#" -326.3 0 0 0 0 0 -160 0 0 0 0 0 0 0 0 -306 -176 0 0 0 0 0 0 0 0 0 0
+merge "rom_pullup_4/w_35_32#" "rom_pullup_1/w_35_32#"
+merge "rom_pullup_1/w_35_32#" "rom_pullup_0/w_35_32#"
+merge "rom_pullup_0/w_35_32#" "inv2_1/Vdd!"
+merge "inv2_1/Vdd!" "w_n8_156#"
+merge "w_n8_156#" "decoder24_0/decoder_nor2_0/Vdd!"
+merge "decoder24_0/decoder_nor2_0/Vdd!" "inv2_0/Vdd!"
+merge "inv2_0/Vdd!" "decoder24_0/Vdd!"
+merge "decoder24_0/Vdd!" "decoder24_1/Vdd!"
+merge "decoder24_1/Vdd!" "rom_inv_24/w_n11_n13#"
+merge "rom_inv_24/w_n11_n13#" "rom_inv_22/w_n11_n13#"
+merge "rom_inv_22/w_n11_n13#" "rom_inv_23/w_n11_n13#"
+merge "rom_inv_23/w_n11_n13#" "rom_inv_21/w_n11_n13#"
+merge "rom_inv_21/w_n11_n13#" "rom_inv_18/w_n11_n13#"
+merge "rom_inv_18/w_n11_n13#" "rom_inv_19/w_n11_n13#"
+merge "rom_inv_19/w_n11_n13#" "rom_inv_17/w_n11_n13#"
+merge "rom_inv_17/w_n11_n13#" "rom_inv_11/w_n11_n13#"
+merge "rom_inv_11/w_n11_n13#" "rom_inv_13/w_n11_n13#"
+merge "rom_inv_13/w_n11_n13#" "rom_inv_14/w_n11_n13#"
+merge "rom_inv_14/w_n11_n13#" "rom_inv_12/w_n11_n13#"
+merge "rom_inv_12/w_n11_n13#" "rom_inv_10/w_n11_n13#"
+merge "rom_inv_10/w_n11_n13#" "rom_inv_6/w_n11_n13#"
+merge "rom_inv_6/w_n11_n13#" "rom_inv_0/w_n11_n13#"
+merge "rom_inv_0/w_n11_n13#" "rom_inv_2/w_n11_n13#"
+merge "rom_inv_2/w_n11_n13#" "rom_inv_1/w_n11_n13#"
+merge "rom_inv_1/w_n11_n13#" "rom_inv_3/w_n11_n13#"
+merge "rom_inv_3/w_n11_n13#" "decoder24_3/Vdd!"
+merge "decoder24_3/Vdd!" "m1_n5_n904#"
+merge "m1_n5_n904#" "rom_inv_7/w_n11_n13#"
+merge "rom_inv_7/w_n11_n13#" "rom_inv_4/w_n11_n13#"
+merge "rom_inv_4/w_n11_n13#" "rom_inv_5/w_n11_n13#"
+merge "rom_inv_5/w_n11_n13#" "rom_inv_8/w_n11_n13#"
+merge "rom_inv_8/w_n11_n13#" "rom_inv_9/w_n11_n13#"
+merge "rom_inv_9/w_n11_n13#" "rom_inv_15/w_n11_n13#"
+merge "rom_inv_15/w_n11_n13#" "rom_inv_16/w_n11_n13#"
+merge "rom_inv_16/w_n11_n13#" "rom_inv_20/w_n11_n13#"
+merge "rom_inv_20/w_n11_n13#" "rom_inv_26/w_n11_n13#"
+merge "rom_inv_26/w_n11_n13#" "rom_inv_25/w_n11_n13#"
+merge "rom_inv_25/w_n11_n13#" "rom_inv_27/w_n11_n13#"
+merge "rom_inv_27/w_n11_n13#" "m1_574_n904#"
+merge "m1_574_n904#" "decoder24_2/Vdd!"
+merge "decoder24_2/Vdd!" "decoder24_2/3nand_3/Vdd!"
+merge "decoder24_2/3nand_3/Vdd!" "w_n79_122#"
+merge "w_n79_122#" "m1_n61_115#"
+merge "m1_n61_115#" "m1_n33_110#"
+merge "m1_n33_110#" "m1_n8_156#"
+merge "m1_n8_156#" "rom_pullup_2/w_35_32#"
+merge "rom_pullup_2/w_35_32#" "rom_pullup_3/w_35_32#"
+merge "rom_pullup_3/w_35_32#" "rom_pullup_5/w_35_32#"
+merge "rom_one_12/m2_81_n90#" "rom_one_29/m2_81_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_29/m2_81_n90#" "rom_one_33/m2_81_n90#"
+merge "rom_one_33/m2_81_n90#" "rom_one_48/m2_81_n90#"
+merge "rom_one_48/m2_81_n90#" "rom_one_50/m2_81_n90#"
+merge "rom_one_50/m2_81_n90#" "rom_inv_5/a_2_n4#"
+merge "rom_inv_5/a_2_n4#" "m2_134_n880#"
+merge "m2_134_n880#" "rom_one_17/m2_81_n90#"
+merge "rom_one_17/m2_81_n90#" "rom_one_15/m2_81_n90#"
+merge "rom_one_15/m2_81_n90#" "rom_one_1/m2_81_n90#"
+merge "rom_one_1/m2_81_n90#" "rom_pullup_1/a_83_38#"
+merge "decoder24_control_0/a_184_n169#" "a2" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_41/a_35_n10#" "rom_one_40/a_35_n10#" -107.805 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_40/a_35_n10#" "rom_one_37/a_35_n10#"
+merge "rom_one_37/a_35_n10#" "rom_one_36/a_35_n10#"
+merge "rom_one_36/a_35_n10#" "rom_one_31/a_35_n10#"
+merge "rom_one_31/a_35_n10#" "rom_one_33/a_35_n10#"
+merge "rom_one_33/a_35_n10#" "rom_one_32/a_35_n10#"
+merge "rom_one_32/a_35_n10#" "decoder24_2/decoder_nor2_3/out2"
+merge "decoder24_2/decoder_nor2_3/out2" "wl21"
+merge "rom_one_5/a_35_10#" "rom_one_6/a_35_10#" -104.142 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_6/a_35_10#" "rom_one_1/a_35_10#"
+merge "rom_one_1/a_35_10#" "rom_one_0/a_35_10#"
+merge "rom_one_0/a_35_10#" "decoder24_0/decoder_nor2_0/out1"
+merge "decoder24_0/decoder_nor2_0/out1" "wl0"
+merge "wl0" "rom_one_3/a_35_10#"
+merge "rom_one_3/a_35_10#" "rom_one_2/a_35_10#"
+merge "rom_one_2/a_35_10#" "rom_one_4/a_35_10#"
+merge "rom_one_8/m2_41_n90#" "rom_one_39/m2_41_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_39/m2_41_n90#" "rom_inv_24/a_2_n4#"
+merge "rom_inv_24/a_2_n4#" "rom_one_55/m2_41_n90#"
+merge "rom_one_55/m2_41_n90#" "m2_508_n880#"
+merge "m2_508_n880#" "rom_one_43/m2_41_n90#"
+merge "rom_one_43/m2_41_n90#" "rom_one_41/m2_41_n90#"
+merge "rom_one_41/m2_41_n90#" "rom_one_27/m2_41_n90#"
+merge "rom_one_27/m2_41_n90#" "rom_one_26/m2_41_n90#"
+merge "rom_one_26/m2_41_n90#" "rom_one_5/m2_41_n90#"
+merge "rom_one_5/m2_41_n90#" "rom_pullup_6/a_43_38#"
+merge "rom_one_9/m2_81_n90#" "rom_one_38/m2_81_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_38/m2_81_n90#" "rom_one_40/m2_81_n90#"
+merge "rom_one_40/m2_81_n90#" "rom_one_42/m2_81_n90#"
+merge "rom_one_42/m2_81_n90#" "rom_inv_23/a_2_n4#"
+merge "rom_inv_23/a_2_n4#" "rom_one_54/m2_81_n90#"
+merge "rom_one_54/m2_81_n90#" "m2_462_n880#"
+merge "m2_462_n880#" "rom_one_25/m2_81_n90#"
+merge "rom_one_25/m2_81_n90#" "rom_one_24/m2_81_n90#"
+merge "rom_one_24/m2_81_n90#" "rom_one_4/m2_81_n90#"
+merge "rom_one_4/m2_81_n90#" "rom_pullup_5/a_83_38#"
+merge "rom_one_43/a_35_n50#" "rom_one_42/a_35_n50#" -104.142 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_42/a_35_n50#" "rom_one_46/a_35_n50#"
+merge "rom_one_46/a_35_n50#" "rom_one_44/a_35_n50#"
+merge "rom_one_44/a_35_n50#" "rom_one_45/a_35_n50#"
+merge "rom_one_45/a_35_n50#" "rom_one_48/a_35_n50#"
+merge "rom_one_48/a_35_n50#" "rom_one_47/a_35_n50#"
+merge "rom_one_47/a_35_n50#" "decoder24_3/decoder_nor2_1/out1"
+merge "decoder24_3/decoder_nor2_1/out1" "wl26"
+merge "rom_one_8/a_35_n50#" "rom_one_7/a_35_n50#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_7/a_35_n50#" "rom_one_12/a_35_n50#"
+merge "rom_one_12/a_35_n50#" "rom_one_13/a_35_n50#"
+merge "rom_one_13/a_35_n50#" "decoder24_0/decoder_nor2_2/out1"
+merge "decoder24_0/decoder_nor2_2/out1" "wl6"
+merge "wl6" "rom_one_10/a_35_n50#"
+merge "rom_one_10/a_35_n50#" "rom_one_11/a_35_n50#"
+merge "rom_one_11/a_35_n50#" "rom_one_9/a_35_n50#"
+merge "rom_one_39/a_35_n70#" "rom_one_35/a_35_n70#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_35/a_35_n70#" "rom_one_29/a_35_n70#"
+merge "rom_one_29/a_35_n70#" "rom_one_28/a_35_n70#"
+merge "rom_one_28/a_35_n70#" "decoder24_2/decoder_nor2_1/out2"
+merge "decoder24_2/decoder_nor2_1/out2" "wl19"
+merge "wl19" "rom_one_30/a_35_n70#"
+merge "rom_one_30/a_35_n70#" "rom_one_34/a_35_n70#"
+merge "rom_one_34/a_35_n70#" "rom_one_38/a_35_n70#"
+merge "rom_one_13/m2_61_n90#" "rom_one_28/m2_61_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_28/m2_61_n90#" "rom_one_49/m2_61_n90#"
+merge "rom_one_49/m2_61_n90#" "rom_inv_1/a_2_n4#"
+merge "rom_inv_1/a_2_n4#" "m2_34_n880#"
+merge "m2_34_n880#" "rom_one_47/m2_61_n90#"
+merge "rom_one_47/m2_61_n90#" "rom_one_32/m2_61_n90#"
+merge "rom_one_32/m2_61_n90#" "rom_one_16/m2_61_n90#"
+merge "rom_one_16/m2_61_n90#" "rom_one_14/m2_61_n90#"
+merge "rom_one_14/m2_61_n90#" "rom_one_0/m2_61_n90#"
+merge "rom_one_0/m2_61_n90#" "rom_pullup_0/a_63_38#"
+merge "rom_one_26/a_35_10#" "rom_one_22/a_35_10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_22/a_35_10#" "rom_one_15/a_35_10#"
+merge "rom_one_15/a_35_10#" "rom_one_14/a_35_10#"
+merge "rom_one_14/a_35_10#" "decoder24_1/decoder_nor2_0/out1"
+merge "decoder24_1/decoder_nor2_0/out1" "wl8"
+merge "wl8" "rom_one_18/a_35_10#"
+merge "rom_one_18/a_35_10#" "rom_one_20/a_35_10#"
+merge "rom_one_20/a_35_10#" "rom_one_24/a_35_10#"
+merge "decoder24_1/inv2_0/Vdd!" "decoder24_control_0/2and_0/inv2_0/Vdd!" -124.871 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -45 -50 -45 0 0 0 0 0 0 0 0
+merge "decoder24_control_0/2and_0/inv2_0/Vdd!" "decoder24_control_0/2and_1/Vdd!"
+merge "decoder24_control_0/2and_1/Vdd!" "m1_n255_n233#"
+merge "rom_one_27/a_35_n10#" "rom_one_23/a_35_n10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_23/a_35_n10#" "rom_one_17/a_35_n10#"
+merge "rom_one_17/a_35_n10#" "rom_one_16/a_35_n10#"
+merge "rom_one_16/a_35_n10#" "decoder24_1/decoder_nor2_3/out2"
+merge "decoder24_1/decoder_nor2_3/out2" "wl13"
+merge "wl13" "rom_one_19/a_35_n10#"
+merge "rom_one_19/a_35_n10#" "rom_one_21/a_35_n10#"
+merge "rom_one_21/a_35_n10#" "rom_one_25/a_35_n10#"
+merge "decoder24_1/decoder_nor2_2/phi1" "decoder24_2/decoder_nor2_0/phi1" -9.264 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_9/m2_101_n90#" "rom_one_38/m2_101_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_38/m2_101_n90#" "rom_one_40/m2_101_n90#"
+merge "rom_one_40/m2_101_n90#" "rom_one_42/m2_101_n90#"
+merge "rom_one_42/m2_101_n90#" "rom_inv_22/a_2_n4#"
+merge "rom_inv_22/a_2_n4#" "rom_one_54/m2_101_n90#"
+merge "rom_one_54/m2_101_n90#" "m2_480_n880#"
+merge "m2_480_n880#" "rom_one_25/m2_101_n90#"
+merge "rom_one_25/m2_101_n90#" "rom_one_24/m2_101_n90#"
+merge "rom_one_24/m2_101_n90#" "rom_one_4/m2_101_n90#"
+merge "rom_one_4/m2_101_n90#" "rom_pullup_5/a_103_38#"
+merge "rom_inv_9/a_n4_n1#" "bl10" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_inv_1/a_n4_n1#" "bl1" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_10/m2_81_n90#" "rom_one_30/m2_81_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_30/m2_81_n90#" "rom_one_31/m2_81_n90#"
+merge "rom_one_31/m2_81_n90#" "rom_one_45/m2_81_n90#"
+merge "rom_one_45/m2_81_n90#" "rom_one_51/m2_81_n90#"
+merge "rom_one_51/m2_81_n90#" "rom_inv_9/a_2_n4#"
+merge "rom_inv_9/a_2_n4#" "m2_216_n880#"
+merge "m2_216_n880#" "rom_one_19/m2_81_n90#"
+merge "rom_one_19/m2_81_n90#" "rom_one_18/m2_81_n90#"
+merge "rom_one_18/m2_81_n90#" "rom_one_3/m2_81_n90#"
+merge "rom_one_3/m2_81_n90#" "rom_pullup_2/a_83_38#"
+merge "rom_one_41/a_35_10#" "rom_one_40/a_35_10#" -118.054 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_40/a_35_10#" "rom_one_37/a_35_10#"
+merge "rom_one_37/a_35_10#" "rom_one_36/a_35_10#"
+merge "rom_one_36/a_35_10#" "rom_one_31/a_35_10#"
+merge "rom_one_31/a_35_10#" "rom_one_33/a_35_10#"
+merge "rom_one_33/a_35_10#" "rom_one_32/a_35_10#"
+merge "rom_one_32/a_35_10#" "decoder24_2/decoder_nor2_3/out1"
+merge "decoder24_2/decoder_nor2_3/out1" "wl20"
+merge "rom_one_7/m2_81_n90#" "rom_one_35/m2_81_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_35/m2_81_n90#" "rom_one_37/m2_81_n90#"
+merge "rom_one_37/m2_81_n90#" "rom_one_46/m2_81_n90#"
+merge "rom_one_46/m2_81_n90#" "rom_inv_19/a_2_n4#"
+merge "rom_inv_19/a_2_n4#" "rom_one_53/m2_81_n90#"
+merge "rom_one_53/m2_81_n90#" "m2_380_n880#"
+merge "m2_380_n880#" "rom_one_23/m2_81_n90#"
+merge "rom_one_23/m2_81_n90#" "rom_one_22/m2_81_n90#"
+merge "rom_one_22/m2_81_n90#" "rom_one_6/m2_81_n90#"
+merge "rom_one_6/m2_81_n90#" "rom_pullup_4/a_83_38#"
+merge "rom_one_13/m2_81_n90#" "rom_one_28/m2_81_n90#" -1.864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_28/m2_81_n90#" "rom_one_49/m2_81_n90#"
+merge "rom_one_49/m2_81_n90#" "rom_inv_3/a_2_n4#"
+merge "rom_inv_3/a_2_n4#" "m2_52_n880#"
+merge "m2_52_n880#" "rom_one_47/m2_81_n90#"
+merge "rom_one_47/m2_81_n90#" "rom_one_32/m2_81_n90#"
+merge "rom_one_32/m2_81_n90#" "rom_one_16/m2_81_n90#"
+merge "rom_one_16/m2_81_n90#" "rom_one_14/m2_81_n90#"
+merge "rom_one_14/m2_81_n90#" "rom_one_0/m2_81_n90#"
+merge "rom_one_0/m2_81_n90#" "rom_pullup_0/a_83_38#"
+merge "rom_one_9/m2_41_n90#" "rom_one_38/m2_41_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_38/m2_41_n90#" "rom_one_40/m2_41_n90#"
+merge "rom_one_40/m2_41_n90#" "rom_one_42/m2_41_n90#"
+merge "rom_one_42/m2_41_n90#" "rom_one_54/m2_41_n90#"
+merge "rom_one_54/m2_41_n90#" "rom_inv_20/a_2_n4#"
+merge "rom_inv_20/a_2_n4#" "m2_426_n880#"
+merge "m2_426_n880#" "rom_one_25/m2_41_n90#"
+merge "rom_one_25/m2_41_n90#" "rom_one_24/m2_41_n90#"
+merge "rom_one_24/m2_41_n90#" "rom_one_4/m2_41_n90#"
+merge "rom_one_4/m2_41_n90#" "rom_pullup_5/a_43_38#"
+merge "rom_inv_25/a_n4_n1#" "bl25" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_39/a_35_n10#" "rom_one_35/a_35_n10#" -51.849 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_35/a_35_n10#" "rom_one_29/a_35_n10#"
+merge "rom_one_29/a_35_n10#" "rom_one_28/a_35_n10#"
+merge "rom_one_28/a_35_n10#" "decoder24_2/decoder_nor2_0/out2"
+merge "decoder24_2/decoder_nor2_0/out2" "wl17"
+merge "wl17" "rom_one_30/a_35_n10#"
+merge "rom_one_30/a_35_n10#" "rom_one_34/a_35_n10#"
+merge "rom_one_34/a_35_n10#" "rom_one_38/a_35_n10#"
+merge "decoder24_control_0/2and_3/inv2_0/a_6_n1#" "decoder24_3/e" -642.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -725 -305 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_3/e" "m1_n236_n829#"
+merge "inv2_1/a_1_8#" "phi1" -22.312 0 0 0 0 0 0 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_26/a_35_n50#" "rom_one_22/a_35_n50#" -104.142 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_22/a_35_n50#" "rom_one_15/a_35_n50#"
+merge "rom_one_15/a_35_n50#" "rom_one_14/a_35_n50#"
+merge "rom_one_14/a_35_n50#" "decoder24_1/decoder_nor2_1/out1"
+merge "decoder24_1/decoder_nor2_1/out1" "wl10"
+merge "wl10" "rom_one_18/a_35_n50#"
+merge "rom_one_18/a_35_n50#" "rom_one_20/a_35_n50#"
+merge "rom_one_20/a_35_n50#" "rom_one_24/a_35_n50#"
+merge "rom_one_13/m2_101_n90#" "rom_one_28/m2_101_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_28/m2_101_n90#" "rom_one_49/m2_101_n90#"
+merge "rom_one_49/m2_101_n90#" "rom_inv_2/a_2_n4#"
+merge "rom_inv_2/a_2_n4#" "m2_70_n880#"
+merge "m2_70_n880#" "rom_one_47/m2_101_n90#"
+merge "rom_one_47/m2_101_n90#" "rom_one_32/m2_101_n90#"
+merge "rom_one_32/m2_101_n90#" "rom_one_16/m2_101_n90#"
+merge "rom_one_16/m2_101_n90#" "rom_one_14/m2_101_n90#"
+merge "rom_one_14/m2_101_n90#" "rom_one_0/m2_101_n90#"
+merge "rom_one_0/m2_101_n90#" "rom_pullup_0/a_103_38#"
+merge "rom_one_8/m2_61_n90#" "rom_one_39/m2_61_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_39/m2_61_n90#" "rom_one_55/m2_61_n90#"
+merge "rom_one_55/m2_61_n90#" "rom_inv_25/a_2_n4#"
+merge "rom_inv_25/a_2_n4#" "m2_526_n880#"
+merge "m2_526_n880#" "rom_one_43/m2_61_n90#"
+merge "rom_one_43/m2_61_n90#" "rom_one_41/m2_61_n90#"
+merge "rom_one_41/m2_61_n90#" "rom_one_27/m2_61_n90#"
+merge "rom_one_27/m2_61_n90#" "rom_one_26/m2_61_n90#"
+merge "rom_one_26/m2_61_n90#" "rom_one_5/m2_61_n90#"
+merge "rom_one_5/m2_61_n90#" "rom_pullup_6/a_63_38#"
+merge "rom_inv_3/a_n4_n1#" "bl2" -47.133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -20 0 0 0 0 0 0 0 0
+merge "rom_one_8/a_35_10#" "rom_one_7/a_35_10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_7/a_35_10#" "rom_one_12/a_35_10#"
+merge "rom_one_12/a_35_10#" "rom_one_13/a_35_10#"
+merge "rom_one_13/a_35_10#" "decoder24_0/decoder_nor2_3/out1"
+merge "decoder24_0/decoder_nor2_3/out1" "wl4"
+merge "wl4" "rom_one_10/a_35_10#"
+merge "rom_one_10/a_35_10#" "rom_one_11/a_35_10#"
+merge "rom_one_11/a_35_10#" "rom_one_9/a_35_10#"
+merge "inv2_0/GND!" "inv2_1/GND!" -112.302 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -30 -10 -14 0 0 0 0 0 0 0 0
+merge "inv2_1/GND!" "decoder24_0/GND!"
+merge "decoder24_0/GND!" "m1_n103_132#"
+merge "rom_one_11/m2_101_n90#" "rom_one_34/m2_101_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_34/m2_101_n90#" "rom_one_36/m2_101_n90#"
+merge "rom_one_36/m2_101_n90#" "rom_one_44/m2_101_n90#"
+merge "rom_one_44/m2_101_n90#" "rom_inv_11/a_2_n4#"
+merge "rom_inv_11/a_2_n4#" "rom_one_52/m2_101_n90#"
+merge "rom_one_52/m2_101_n90#" "m2_316_n880#"
+merge "m2_316_n880#" "rom_one_21/m2_101_n90#"
+merge "rom_one_21/m2_101_n90#" "rom_one_20/m2_101_n90#"
+merge "rom_one_20/m2_101_n90#" "rom_one_2/m2_101_n90#"
+merge "rom_one_2/m2_101_n90#" "rom_pullup_3/a_103_38#"
+merge "rom_one_55/a_35_n10#" "rom_one_54/a_35_n10#" -107.805 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_54/a_35_n10#" "rom_one_53/a_35_n10#"
+merge "rom_one_53/a_35_n10#" "rom_one_52/a_35_n10#"
+merge "rom_one_52/a_35_n10#" "rom_one_51/a_35_n10#"
+merge "rom_one_51/a_35_n10#" "rom_one_50/a_35_n10#"
+merge "rom_one_50/a_35_n10#" "rom_one_49/a_35_n10#"
+merge "rom_one_49/a_35_n10#" "decoder24_3/decoder_nor2_3/out2"
+merge "decoder24_3/decoder_nor2_3/out2" "wl29"
+merge "rom_one_27/a_35_n50#" "rom_one_23/a_35_n50#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_23/a_35_n50#" "rom_one_17/a_35_n50#"
+merge "rom_one_17/a_35_n50#" "rom_one_16/a_35_n50#"
+merge "rom_one_16/a_35_n50#" "decoder24_1/decoder_nor2_2/out1"
+merge "decoder24_1/decoder_nor2_2/out1" "wl14"
+merge "wl14" "rom_one_19/a_35_n50#"
+merge "rom_one_19/a_35_n50#" "rom_one_21/a_35_n50#"
+merge "rom_one_21/a_35_n50#" "rom_one_25/a_35_n50#"
+merge "decoder24_0/out1" "out1" -29.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_39/a_35_n50#" "rom_one_35/a_35_n50#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_35/a_35_n50#" "rom_one_29/a_35_n50#"
+merge "rom_one_29/a_35_n50#" "rom_one_28/a_35_n50#"
+merge "rom_one_28/a_35_n50#" "decoder24_2/decoder_nor2_1/out1"
+merge "decoder24_2/decoder_nor2_1/out1" "wl18"
+merge "wl18" "rom_one_30/a_35_n50#"
+merge "rom_one_30/a_35_n50#" "rom_one_34/a_35_n50#"
+merge "rom_one_34/a_35_n50#" "rom_one_38/a_35_n50#"
+merge "rom_one_55/a_35_n70#" "rom_one_54/a_35_n70#" -107.805 0 0 0 0 0 0 0 0 0 0 2 -38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_54/a_35_n70#" "rom_one_53/a_35_n70#"
+merge "rom_one_53/a_35_n70#" "rom_one_52/a_35_n70#"
+merge "rom_one_52/a_35_n70#" "rom_one_51/a_35_n70#"
+merge "rom_one_51/a_35_n70#" "rom_one_50/a_35_n70#"
+merge "rom_one_50/a_35_n70#" "rom_one_49/a_35_n70#"
+merge "rom_one_49/a_35_n70#" "decoder24_3/decoder_nor2_2/out2"
+merge "decoder24_3/decoder_nor2_2/out2" "wl31"
+merge "rom_one_26/a_35_n70#" "rom_one_22/a_35_n70#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_22/a_35_n70#" "rom_one_15/a_35_n70#"
+merge "rom_one_15/a_35_n70#" "rom_one_14/a_35_n70#"
+merge "rom_one_14/a_35_n70#" "decoder24_1/decoder_nor2_1/out2"
+merge "decoder24_1/decoder_nor2_1/out2" "wl11"
+merge "wl11" "rom_one_18/a_35_n70#"
+merge "rom_one_18/a_35_n70#" "rom_one_20/a_35_n70#"
+merge "rom_one_20/a_35_n70#" "rom_one_24/a_35_n70#"
+merge "rom_one_39/a_35_10#" "rom_one_35/a_35_10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_35/a_35_10#" "rom_one_29/a_35_10#"
+merge "rom_one_29/a_35_10#" "rom_one_28/a_35_10#"
+merge "rom_one_28/a_35_10#" "decoder24_2/decoder_nor2_0/out1"
+merge "decoder24_2/decoder_nor2_0/out1" "wl16"
+merge "wl16" "rom_one_30/a_35_10#"
+merge "rom_one_30/a_35_10#" "rom_one_34/a_35_10#"
+merge "rom_one_34/a_35_10#" "rom_one_38/a_35_10#"
+merge "rom_one_12/m2_61_n90#" "rom_one_29/m2_61_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_29/m2_61_n90#" "rom_one_33/m2_61_n90#"
+merge "rom_one_33/m2_61_n90#" "rom_one_48/m2_61_n90#"
+merge "rom_one_48/m2_61_n90#" "rom_one_50/m2_61_n90#"
+merge "rom_one_50/m2_61_n90#" "rom_inv_4/a_2_n4#"
+merge "rom_inv_4/a_2_n4#" "m2_116_n880#"
+merge "m2_116_n880#" "rom_one_17/m2_61_n90#"
+merge "rom_one_17/m2_61_n90#" "rom_one_15/m2_61_n90#"
+merge "rom_one_15/m2_61_n90#" "rom_one_1/m2_61_n90#"
+merge "rom_one_1/m2_61_n90#" "rom_pullup_1/a_63_38#"
+merge "rom_inv_19/a_n4_n1#" "bl18" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_inv_2/a_n4_n1#" "bl3" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_13/m2_41_n90#" "rom_one_28/m2_41_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_28/m2_41_n90#" "rom_one_49/m2_41_n90#"
+merge "rom_one_49/m2_41_n90#" "rom_inv_0/a_2_n4#"
+merge "rom_inv_0/a_2_n4#" "m2_16_n880#"
+merge "m2_16_n880#" "rom_one_47/m2_41_n90#"
+merge "rom_one_47/m2_41_n90#" "rom_one_32/m2_41_n90#"
+merge "rom_one_32/m2_41_n90#" "rom_one_16/m2_41_n90#"
+merge "rom_one_16/m2_41_n90#" "rom_one_14/m2_41_n90#"
+merge "rom_one_14/m2_41_n90#" "rom_one_0/m2_41_n90#"
+merge "rom_one_0/m2_41_n90#" "rom_pullup_0/a_43_38#"
+merge "rom_one_55/a_35_10#" "rom_one_54/a_35_10#" -104.142 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_54/a_35_10#" "rom_one_53/a_35_10#"
+merge "rom_one_53/a_35_10#" "rom_one_52/a_35_10#"
+merge "rom_one_52/a_35_10#" "rom_one_51/a_35_10#"
+merge "rom_one_51/a_35_10#" "rom_one_50/a_35_10#"
+merge "rom_one_50/a_35_10#" "rom_one_49/a_35_10#"
+merge "rom_one_49/a_35_10#" "decoder24_3/decoder_nor2_3/out1"
+merge "decoder24_3/decoder_nor2_3/out1" "wl28"
+merge "rom_one_5/a_35_n70#" "rom_one_6/a_35_n70#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_6/a_35_n70#" "rom_one_1/a_35_n70#"
+merge "rom_one_1/a_35_n70#" "rom_one_0/a_35_n70#"
+merge "rom_one_0/a_35_n70#" "decoder24_0/decoder_nor2_1/out2"
+merge "decoder24_0/decoder_nor2_1/out2" "wl3"
+merge "wl3" "rom_one_3/a_35_n70#"
+merge "rom_one_3/a_35_n70#" "rom_one_2/a_35_n70#"
+merge "rom_one_2/a_35_n70#" "rom_one_4/a_35_n70#"
+merge "rom_one_10/m2_61_n90#" "rom_one_30/m2_61_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_30/m2_61_n90#" "rom_one_31/m2_61_n90#"
+merge "rom_one_31/m2_61_n90#" "rom_one_45/m2_61_n90#"
+merge "rom_one_45/m2_61_n90#" "rom_one_51/m2_61_n90#"
+merge "rom_one_51/m2_61_n90#" "rom_inv_8/a_2_n4#"
+merge "rom_inv_8/a_2_n4#" "m2_198_n880#"
+merge "m2_198_n880#" "rom_one_19/m2_61_n90#"
+merge "rom_one_19/m2_61_n90#" "rom_one_18/m2_61_n90#"
+merge "rom_one_18/m2_61_n90#" "rom_one_3/m2_61_n90#"
+merge "rom_one_3/m2_61_n90#" "rom_pullup_2/a_63_38#"
+merge "decoder24_0/out2" "out2" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "inv2_1/a_6_n1#" "decoder24_0/decoder_nor2_0/phi1" -117.178 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_0/decoder_nor2_0/phi1" "a_n32_132#"
+merge "rom_one_11/m2_61_n90#" "rom_one_34/m2_61_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_34/m2_61_n90#" "rom_one_36/m2_61_n90#"
+merge "rom_one_36/m2_61_n90#" "rom_one_44/m2_61_n90#"
+merge "rom_one_44/m2_61_n90#" "rom_one_52/m2_61_n90#"
+merge "rom_one_52/m2_61_n90#" "rom_inv_14/a_2_n4#"
+merge "rom_inv_14/a_2_n4#" "m2_280_n880#"
+merge "m2_280_n880#" "rom_one_21/m2_61_n90#"
+merge "rom_one_21/m2_61_n90#" "rom_one_20/m2_61_n90#"
+merge "rom_one_20/m2_61_n90#" "rom_one_2/m2_61_n90#"
+merge "rom_one_2/m2_61_n90#" "rom_pullup_3/a_63_38#"
+merge "rom_inv_6/a_n4_n1#" "bl4" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_5/a_35_n10#" "rom_one_6/a_35_n10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_6/a_35_n10#" "rom_one_1/a_35_n10#"
+merge "rom_one_1/a_35_n10#" "rom_one_0/a_35_n10#"
+merge "rom_one_0/a_35_n10#" "decoder24_0/decoder_nor2_0/out2"
+merge "decoder24_0/decoder_nor2_0/out2" "wl1"
+merge "wl1" "rom_one_3/a_35_n10#"
+merge "rom_one_3/a_35_n10#" "rom_one_2/a_35_n10#"
+merge "rom_one_2/a_35_n10#" "rom_one_4/a_35_n10#"
+merge "decoder24_0/out3" "out3" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_43/a_35_10#" "rom_one_42/a_35_10#" -104.142 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_42/a_35_10#" "rom_one_46/a_35_10#"
+merge "rom_one_46/a_35_10#" "rom_one_44/a_35_10#"
+merge "rom_one_44/a_35_10#" "rom_one_45/a_35_10#"
+merge "rom_one_45/a_35_10#" "rom_one_48/a_35_10#"
+merge "rom_one_48/a_35_10#" "rom_one_47/a_35_10#"
+merge "rom_one_47/a_35_10#" "decoder24_3/decoder_nor2_0/out1"
+merge "decoder24_3/decoder_nor2_0/out1" "wl24"
+merge "decoder24_0/in1" "decoder24_1/in1" -865.279 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -140 -106 -2385 -1039 0 0 0 0 0 0 0 0
+merge "decoder24_1/in1" "decoder24_2/in1"
+merge "decoder24_2/in1" "decoder24_3/in1"
+merge "decoder24_3/in1" "a1"
+merge "rom_inv_4/a_n4_n1#" "bl5" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_10/m2_41_n90#" "rom_one_30/m2_41_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_30/m2_41_n90#" "rom_one_31/m2_41_n90#"
+merge "rom_one_31/m2_41_n90#" "rom_one_45/m2_41_n90#"
+merge "rom_one_45/m2_41_n90#" "rom_one_51/m2_41_n90#"
+merge "rom_one_51/m2_41_n90#" "rom_inv_10/a_2_n4#"
+merge "rom_inv_10/a_2_n4#" "m2_180_n880#"
+merge "m2_180_n880#" "rom_one_19/m2_41_n90#"
+merge "rom_one_19/m2_41_n90#" "rom_one_18/m2_41_n90#"
+merge "rom_one_18/m2_41_n90#" "rom_one_3/m2_41_n90#"
+merge "rom_one_3/m2_41_n90#" "rom_pullup_2/a_43_38#"
+merge "rom_one_9/m2_61_n90#" "rom_one_38/m2_61_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_38/m2_61_n90#" "rom_one_40/m2_61_n90#"
+merge "rom_one_40/m2_61_n90#" "rom_one_42/m2_61_n90#"
+merge "rom_one_42/m2_61_n90#" "rom_inv_21/a_2_n4#"
+merge "rom_inv_21/a_2_n4#" "rom_one_54/m2_61_n90#"
+merge "rom_one_54/m2_61_n90#" "m2_444_n880#"
+merge "m2_444_n880#" "rom_one_25/m2_61_n90#"
+merge "rom_one_25/m2_61_n90#" "rom_one_24/m2_61_n90#"
+merge "rom_one_24/m2_61_n90#" "rom_one_4/m2_61_n90#"
+merge "rom_one_4/m2_61_n90#" "rom_pullup_5/a_63_38#"
+merge "rom_one_8/a_35_n70#" "rom_one_7/a_35_n70#" -107.805 0 0 0 0 0 0 0 0 0 0 2 -38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_7/a_35_n70#" "rom_one_12/a_35_n70#"
+merge "rom_one_12/a_35_n70#" "rom_one_13/a_35_n70#"
+merge "rom_one_13/a_35_n70#" "decoder24_0/decoder_nor2_2/out2"
+merge "decoder24_0/decoder_nor2_2/out2" "wl7"
+merge "wl7" "rom_one_10/a_35_n70#"
+merge "rom_one_10/a_35_n70#" "rom_one_11/a_35_n70#"
+merge "rom_one_11/a_35_n70#" "rom_one_9/a_35_n70#"
+merge "decoder24_3/out1" "out13" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_0/out4" "out4" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_control_0/2and_2/inv2_0/a_6_n1#" "decoder24_2/e" -560.994 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -630 -267 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_2/e" "m1_n236_n397#"
+merge "decoder24_0/in2" "decoder24_1/in2" -757.098 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -100 -80 -1575 -660 0 0 0 0 0 0 0 0
+merge "decoder24_1/in2" "decoder24_2/in2"
+merge "decoder24_2/in2" "decoder24_3/in2"
+merge "decoder24_3/in2" "a0"
+merge "rom_one_55/a_35_n50#" "rom_one_54/a_35_n50#" -104.142 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_54/a_35_n50#" "rom_one_53/a_35_n50#"
+merge "rom_one_53/a_35_n50#" "rom_one_52/a_35_n50#"
+merge "rom_one_52/a_35_n50#" "rom_one_51/a_35_n50#"
+merge "rom_one_51/a_35_n50#" "rom_one_50/a_35_n50#"
+merge "rom_one_50/a_35_n50#" "rom_one_49/a_35_n50#"
+merge "rom_one_49/a_35_n50#" "decoder24_3/decoder_nor2_2/out1"
+merge "decoder24_3/decoder_nor2_2/out1" "wl30"
+merge "rom_inv_5/a_n4_n1#" "bl6" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "decoder24_3/decoder_nor2_0/phi0" "decoder24_3/decoder_nor2_1/phi0" -3.588 0 0 0 0 0 0 0 0 0 0 6 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_3/decoder_nor2_1/phi0" "decoder24_2/decoder_nor2_2/phi0"
+merge "rom_inv_12/a_n4_n1#" "bl12" -46.498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 0 0 0 0 0 0 0 0
+merge "decoder24_3/out2" "out14" -39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -25 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_5/a_35_n50#" "rom_one_6/a_35_n50#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_6/a_35_n50#" "rom_one_1/a_35_n50#"
+merge "rom_one_1/a_35_n50#" "rom_one_0/a_35_n50#"
+merge "rom_one_0/a_35_n50#" "decoder24_0/decoder_nor2_1/out1"
+merge "decoder24_0/decoder_nor2_1/out1" "wl2"
+merge "wl2" "rom_one_3/a_35_n50#"
+merge "rom_one_3/a_35_n50#" "rom_one_2/a_35_n50#"
+merge "rom_one_2/a_35_n50#" "rom_one_4/a_35_n50#"
+merge "rom_one_43/a_35_n10#" "rom_one_42/a_35_n10#" -107.805 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_42/a_35_n10#" "rom_one_46/a_35_n10#"
+merge "rom_one_46/a_35_n10#" "rom_one_44/a_35_n10#"
+merge "rom_one_44/a_35_n10#" "rom_one_45/a_35_n10#"
+merge "rom_one_45/a_35_n10#" "rom_one_48/a_35_n10#"
+merge "rom_one_48/a_35_n10#" "rom_one_47/a_35_n10#"
+merge "rom_one_47/a_35_n10#" "decoder24_3/decoder_nor2_0/out2"
+merge "decoder24_3/decoder_nor2_0/out2" "wl25"
+merge "rom_one_8/a_35_n10#" "rom_one_7/a_35_n10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_7/a_35_n10#" "rom_one_12/a_35_n10#"
+merge "rom_one_12/a_35_n10#" "rom_one_13/a_35_n10#"
+merge "rom_one_13/a_35_n10#" "decoder24_0/decoder_nor2_3/out2"
+merge "decoder24_0/decoder_nor2_3/out2" "wl5"
+merge "wl5" "rom_one_10/a_35_n10#"
+merge "rom_one_10/a_35_n10#" "rom_one_11/a_35_n10#"
+merge "rom_one_11/a_35_n10#" "rom_one_9/a_35_n10#"
+merge "rom_one_8/m2_81_n90#" "rom_one_39/m2_81_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_39/m2_81_n90#" "rom_one_55/m2_81_n90#"
+merge "rom_one_55/m2_81_n90#" "rom_inv_26/a_2_n4#"
+merge "rom_inv_26/a_2_n4#" "m2_544_n880#"
+merge "m2_544_n880#" "rom_one_43/m2_81_n90#"
+merge "rom_one_43/m2_81_n90#" "rom_one_41/m2_81_n90#"
+merge "rom_one_41/m2_81_n90#" "rom_one_27/m2_81_n90#"
+merge "rom_one_27/m2_81_n90#" "rom_one_26/m2_81_n90#"
+merge "rom_one_26/m2_81_n90#" "rom_one_5/m2_81_n90#"
+merge "rom_one_5/m2_81_n90#" "rom_pullup_6/a_83_38#"
+merge "rom_inv_7/a_n4_n1#" "bl7" -47.133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15 -20 0 0 0 0 0 0 0 0
+merge "decoder24_3/out3" "out15" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_26/a_35_n10#" "rom_one_22/a_35_n10#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_22/a_35_n10#" "rom_one_15/a_35_n10#"
+merge "rom_one_15/a_35_n10#" "rom_one_14/a_35_n10#"
+merge "rom_one_14/a_35_n10#" "decoder24_1/decoder_nor2_0/out2"
+merge "decoder24_1/decoder_nor2_0/out2" "wl9"
+merge "wl9" "rom_one_18/a_35_n10#"
+merge "rom_one_18/a_35_n10#" "rom_one_20/a_35_n10#"
+merge "rom_one_20/a_35_n10#" "rom_one_24/a_35_n10#"
+merge "rom_inv_10/a_n4_n1#" "bl8" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_inv_21/a_n4_n1#" "bl21" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "decoder24_3/out4" "out16" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_7/m2_61_n90#" "rom_one_35/m2_61_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_35/m2_61_n90#" "rom_one_37/m2_61_n90#"
+merge "rom_one_37/m2_61_n90#" "rom_one_46/m2_61_n90#"
+merge "rom_one_46/m2_61_n90#" "rom_one_53/m2_61_n90#"
+merge "rom_one_53/m2_61_n90#" "rom_inv_17/a_2_n4#"
+merge "rom_inv_17/a_2_n4#" "m2_362_n880#"
+merge "m2_362_n880#" "rom_one_23/m2_61_n90#"
+merge "rom_one_23/m2_61_n90#" "rom_one_22/m2_61_n90#"
+merge "rom_one_22/m2_61_n90#" "rom_one_6/m2_61_n90#"
+merge "rom_one_6/m2_61_n90#" "rom_pullup_4/a_63_38#"
+merge "rom_inv_8/a_n4_n1#" "bl9" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_41/a_35_n70#" "rom_one_40/a_35_n70#" -107.805 0 0 0 0 0 0 0 0 0 0 2 -38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_40/a_35_n70#" "rom_one_37/a_35_n70#"
+merge "rom_one_37/a_35_n70#" "rom_one_36/a_35_n70#"
+merge "rom_one_36/a_35_n70#" "rom_one_31/a_35_n70#"
+merge "rom_one_31/a_35_n70#" "rom_one_33/a_35_n70#"
+merge "rom_one_33/a_35_n70#" "rom_one_32/a_35_n70#"
+merge "rom_one_32/a_35_n70#" "decoder24_2/decoder_nor2_2/out2"
+merge "decoder24_2/decoder_nor2_2/out2" "wl23"
+merge "inv2_0/a_6_n1#" "decoder24_0/decoder_nor2_0/phi0" -167.674 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_0/decoder_nor2_0/phi0" "a_n85_132#"
+merge "decoder24_1/out1" "out5" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_inv_15/a_n4_n1#" "bl11" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_7/m2_101_n90#" "rom_one_35/m2_101_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_35/m2_101_n90#" "rom_one_37/m2_101_n90#"
+merge "rom_one_37/m2_101_n90#" "rom_one_46/m2_101_n90#"
+merge "rom_one_46/m2_101_n90#" "rom_inv_18/a_2_n4#"
+merge "rom_inv_18/a_2_n4#" "rom_one_53/m2_101_n90#"
+merge "rom_one_53/m2_101_n90#" "m2_398_n880#"
+merge "m2_398_n880#" "rom_one_23/m2_101_n90#"
+merge "rom_one_23/m2_101_n90#" "rom_one_22/m2_101_n90#"
+merge "rom_one_22/m2_101_n90#" "rom_one_6/m2_101_n90#"
+merge "rom_one_6/m2_101_n90#" "rom_pullup_4/a_103_38#"
+merge "decoder24_0/3nand_3/GND!" "decoder24_1/GND!" -4.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "decoder24_1/out2" "out6" -19.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_0/decoder_nor2_2/phi0" "decoder24_1/decoder_nor2_1/phi0" -9.264 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_1/out3" "out7" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_0/decoder_nor2_2/phi1" "decoder24_1/decoder_nor2_1/phi1" -9.264 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_27/a_35_n70#" "rom_one_23/a_35_n70#" -18.528 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_23/a_35_n70#" "rom_one_17/a_35_n70#"
+merge "rom_one_17/a_35_n70#" "rom_one_16/a_35_n70#"
+merge "rom_one_16/a_35_n70#" "decoder24_1/decoder_nor2_2/out2"
+merge "decoder24_1/decoder_nor2_2/out2" "wl15"
+merge "wl15" "rom_one_19/a_35_n70#"
+merge "rom_one_19/a_35_n70#" "rom_one_21/a_35_n70#"
+merge "rom_one_21/a_35_n70#" "rom_one_25/a_35_n70#"
+merge "rom_inv_24/a_n4_n1#" "bl24" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_41/a_35_n50#" "rom_one_40/a_35_n50#" -104.142 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_one_40/a_35_n50#" "rom_one_37/a_35_n50#"
+merge "rom_one_37/a_35_n50#" "rom_one_36/a_35_n50#"
+merge "rom_one_36/a_35_n50#" "rom_one_31/a_35_n50#"
+merge "rom_one_31/a_35_n50#" "rom_one_33/a_35_n50#"
+merge "rom_one_33/a_35_n50#" "rom_one_32/a_35_n50#"
+merge "rom_one_32/a_35_n50#" "decoder24_2/decoder_nor2_2/out1"
+merge "decoder24_2/decoder_nor2_2/out1" "wl22"
+merge "decoder24_1/out4" "out8" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_1/e" "decoder24_control_0/2and_1/inv2_0/a_6_n1#" -461.772 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -515 -221 0 0 0 0 0 0 0 0 0 0
+merge "decoder24_control_0/2and_1/inv2_0/a_6_n1#" "m1_n236_n327#"
+merge "decoder24_2/out1" "out9" -23.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_inv_18/a_n4_n1#" "bl19" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_one_11/m2_41_n90#" "rom_one_34/m2_41_n90#" -8.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "rom_one_34/m2_41_n90#" "rom_one_36/m2_41_n90#"
+merge "rom_one_36/m2_41_n90#" "rom_one_44/m2_41_n90#"
+merge "rom_one_44/m2_41_n90#" "rom_one_52/m2_41_n90#"
+merge "rom_one_52/m2_41_n90#" "rom_inv_12/a_2_n4#"
+merge "rom_inv_12/a_2_n4#" "m2_262_n880#"
+merge "m2_262_n880#" "rom_one_21/m2_41_n90#"
+merge "rom_one_21/m2_41_n90#" "rom_one_20/m2_41_n90#"
+merge "rom_one_20/m2_41_n90#" "rom_one_2/m2_41_n90#"
+merge "rom_one_2/m2_41_n90#" "rom_pullup_3/a_43_38#"
+merge "rom_inv_27/a_n4_n1#" "bl27" -46.498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 0 0 0 0 0 0 0 0
+merge "rom_inv_20/a_n4_n1#" "bl20" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "decoder24_1/inv2_0/GND!" "decoder24_control_0/2and_0/inv2_0/GND!" -151.546 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -40 -50 -40 0 0 0 0 0 0 0 0
+merge "decoder24_control_0/2and_0/inv2_0/GND!" "m1_n265_n275#"
+merge "rom_inv_11/a_n4_n1#" "bl15" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "decoder24_2/out2" "out10" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_inv_23/a_n4_n1#" "bl22" -46.498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 0 0 0 0 0 0 0 0
+merge "decoder24_2/out3" "out11" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_inv_22/a_n4_n1#" "bl23" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "decoder24_2/out4" "out12" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_inv_14/a_n4_n1#" "bl13" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_inv_13/a_n4_n1#" "bl14" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_inv_26/a_n4_n1#" "bl26" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "rom_inv_16/a_n4_n1#" "bl16" -48.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0
+merge "decoder24_1/3nand_3/GND!" "decoder24_2/GND!" -4.07 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "rom_inv_17/a_n4_n1#" "bl17" -46.498 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 0 0 0 0 0 0 0 0
+merge "decoder24_3/GND!" "decoder24_2/3nand_3/GND!" -2.165 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -10 0 0 0 0 0 0 0 0
+merge "inv2_0/a_1_8#" "phi0" -22.312 0 0 0 0 0 0 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0 0 0

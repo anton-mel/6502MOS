@@ -50,6 +50,4 @@ rect 14 -10 17 -5
 << labels >>
 rlabel metal1 -5 -7 -5 -7 3 GND!
 rlabel metal1 -5 34 -5 34 3 Vdd!
-rlabel metal1 -10 8 -10 13 3 in
-rlabel metal1 20 8 20 13 7 out
 << end >>

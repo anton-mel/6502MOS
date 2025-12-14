@@ -1,0 +1,665 @@
+magic
+tech scmos
+timestamp 1765745497
+<< nwell >>
+rect -8 156 2 162
+rect -79 122 0 132
+<< polysilicon >>
+rect -80 145 -78 147
+rect -27 146 -25 148
+rect -80 132 -60 134
+rect -27 132 -19 134
+rect -62 122 -60 132
+rect -21 122 -19 132
+rect 0 100 2 102
+rect 0 80 2 82
+rect 0 40 2 42
+rect 0 20 2 22
+rect 0 -22 2 -20
+rect 0 -42 2 -40
+rect 0 -82 2 -80
+rect 0 -102 2 -100
+rect 0 -144 2 -142
+rect 0 -164 2 -162
+rect 0 -204 2 -202
+rect 0 -224 2 -222
+rect 0 -266 2 -264
+rect 0 -286 2 -284
+rect 0 -326 2 -324
+rect 0 -346 2 -344
+rect 0 -388 2 -386
+rect 0 -408 2 -406
+rect 0 -448 2 -446
+rect 0 -468 2 -466
+rect 0 -510 2 -508
+rect 0 -530 2 -528
+rect 0 -570 2 -568
+rect 0 -590 2 -588
+rect 0 -632 2 -630
+rect 0 -652 2 -650
+rect 0 -692 2 -690
+rect 0 -712 2 -710
+rect 0 -754 2 -752
+rect 0 -774 2 -772
+rect 0 -814 2 -812
+rect 0 -834 2 -832
+<< polycontact >>
+rect -85 132 -80 137
+rect -32 132 -27 137
+<< metal1 >>
+rect -8 156 2 162
+rect 574 156 584 162
+rect -61 115 -56 135
+rect -8 115 -3 135
+rect -33 110 -3 115
+rect -94 86 -89 91
+rect -94 25 -89 30
+rect -211 5 -206 10
+rect -94 -36 -89 -31
+rect -227 -97 -122 -92
+rect -94 -97 -89 -92
+rect -227 -252 -221 -97
+rect -94 -158 -89 -153
+rect -94 -219 -89 -214
+rect -211 -239 -206 -234
+rect -236 -257 -221 -252
+rect -94 -280 -89 -275
+rect -236 -327 -229 -322
+rect -234 -336 -229 -327
+rect -234 -341 -121 -336
+rect -94 -341 -89 -336
+rect -236 -397 -221 -392
+rect -296 -534 -291 -529
+rect -316 -583 -311 -578
+rect -236 -824 -231 -462
+rect -226 -580 -221 -397
+rect -94 -402 -89 -397
+rect -94 -463 -89 -458
+rect -211 -483 -206 -478
+rect -94 -524 -89 -519
+rect -226 -585 -123 -580
+rect -94 -585 -89 -580
+rect -94 -646 -89 -641
+rect -94 -707 -89 -702
+rect -211 -727 -206 -722
+rect -94 -768 -89 -763
+rect -236 -829 -124 -824
+rect -94 -829 -89 -824
+rect -13 -857 -8 -845
+rect -13 -862 6 -857
+rect 38 -858 44 -852
+rect 120 -858 126 -854
+rect 202 -858 208 -854
+rect 284 -858 290 -854
+rect 366 -858 372 -854
+rect 448 -858 454 -854
+rect 530 -858 536 -854
+rect 579 -899 584 156
+rect 574 -904 584 -899
+<< m2contact >>
+rect -103 132 -98 137
+rect -50 132 -45 137
+rect -216 5 -211 10
+rect -206 -42 -201 -37
+rect -216 -239 -211 -234
+rect -206 -286 -201 -281
+rect -216 -483 -211 -478
+rect -206 -530 -201 -525
+rect -216 -727 -211 -722
+rect -206 -774 -201 -769
+rect -5 -904 0 -899
+<< metal2 >>
+rect -98 132 -50 137
+rect -68 120 -63 132
+rect -216 -234 -211 5
+rect -216 -478 -211 -239
+rect -216 -722 -211 -483
+rect -206 -281 -201 -42
+rect -206 -525 -201 -286
+rect -206 -769 -201 -530
+rect -78 -899 -73 -849
+rect -78 -904 -5 -899
+rect 7 -907 12 -875
+rect 16 -880 21 -848
+rect 25 -907 30 -875
+rect 34 -880 39 -848
+rect 43 -907 48 -875
+rect 52 -880 57 -848
+rect 61 -907 66 -875
+rect 70 -880 75 -848
+rect 89 -907 94 -875
+rect 98 -880 103 -848
+rect 107 -907 112 -875
+rect 116 -880 121 -848
+rect 125 -907 130 -875
+rect 134 -880 139 -848
+rect 143 -907 148 -875
+rect 152 -880 157 -848
+rect 171 -907 176 -875
+rect 180 -880 185 -848
+rect 189 -907 194 -875
+rect 198 -880 203 -848
+rect 207 -907 212 -875
+rect 216 -880 221 -848
+rect 225 -907 230 -875
+rect 234 -880 239 -854
+rect 253 -907 258 -875
+rect 262 -880 267 -848
+rect 271 -907 276 -875
+rect 280 -880 285 -848
+rect 289 -907 294 -875
+rect 298 -880 303 -848
+rect 307 -907 312 -875
+rect 316 -880 321 -854
+rect 335 -907 340 -875
+rect 344 -880 349 -848
+rect 353 -907 358 -875
+rect 362 -880 367 -848
+rect 371 -907 376 -875
+rect 380 -880 385 -848
+rect 389 -907 394 -875
+rect 398 -880 403 -854
+rect 417 -907 422 -875
+rect 426 -880 431 -848
+rect 435 -907 440 -875
+rect 444 -880 449 -848
+rect 453 -907 458 -875
+rect 462 -880 467 -848
+rect 471 -907 476 -875
+rect 480 -880 485 -854
+rect 499 -907 504 -875
+rect 508 -880 513 -848
+rect 517 -907 522 -875
+rect 526 -880 531 -848
+rect 535 -907 540 -875
+rect 544 -880 549 -848
+rect 553 -907 558 -875
+rect 562 -880 567 -854
+<< m123contact >>
+rect -255 -233 -250 -228
+rect -265 -275 -260 -270
+rect -176 -189 -171 -184
+rect -176 -231 -171 -226
+<< metal3 >>
+rect -255 -189 -176 -184
+rect -255 -228 -250 -189
+rect -176 -270 -171 -231
+rect -260 -275 -171 -270
+use decoder24  decoder24_2
+timestamp 1765741251
+transform 1 0 -280 0 1 -405
+box 74 -205 282 40
+use decoder24  decoder24_3
+timestamp 1765741251
+transform 1 0 -280 0 1 -649
+box 74 -205 282 40
+use decoder24_control  decoder24_control_0
+timestamp 1765697223
+transform 1 0 -464 0 1 -266
+box 114 -317 228 56
+use rom_one  rom_one_32
+timestamp 1765685875
+transform 1 0 -35 0 1 -520
+box 35 -90 117 32
+use rom_inv  rom_inv_3
+timestamp 1765602097
+transform 1 0 47 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_1
+timestamp 1765602097
+transform 1 0 29 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_2
+timestamp 1765602097
+transform 1 0 65 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_0
+timestamp 1765602097
+transform 1 0 11 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_47
+timestamp 1765685875
+transform 1 0 -35 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_49
+timestamp 1765685875
+transform 1 0 -35 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_5
+timestamp 1765602097
+transform 1 0 129 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_4
+timestamp 1765602097
+transform 1 0 111 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_7
+timestamp 1765602097
+transform 1 0 147 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_6
+timestamp 1765602097
+transform 1 0 93 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_50
+timestamp 1765685875
+transform 1 0 47 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_15
+timestamp 1765602097
+transform 1 0 229 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_9
+timestamp 1765602097
+transform 1 0 211 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_8
+timestamp 1765602097
+transform 1 0 193 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_10
+timestamp 1765602097
+transform 1 0 175 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_51
+timestamp 1765685875
+transform 1 0 129 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_12
+timestamp 1765602097
+transform 1 0 257 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_14
+timestamp 1765602097
+transform 1 0 275 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_52
+timestamp 1765685875
+transform 1 0 211 0 1 -764
+box 35 -90 117 32
+use rom_one  rom_one_48
+timestamp 1765685875
+transform 1 0 47 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_45
+timestamp 1765685875
+transform 1 0 129 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_44
+timestamp 1765685875
+transform 1 0 211 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_33
+timestamp 1765685875
+transform 1 0 47 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_31
+timestamp 1765685875
+transform 1 0 129 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_36
+timestamp 1765685875
+transform 1 0 211 0 1 -520
+box 35 -90 117 32
+use rom_inv  rom_inv_13
+timestamp 1765602097
+transform 1 0 293 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_16
+timestamp 1765602097
+transform 1 0 339 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_11
+timestamp 1765602097
+transform 1 0 311 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_17
+timestamp 1765602097
+transform 1 0 357 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_53
+timestamp 1765685875
+transform 1 0 293 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_19
+timestamp 1765602097
+transform 1 0 375 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_20
+timestamp 1765602097
+transform 1 0 421 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_18
+timestamp 1765602097
+transform 1 0 393 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_54
+timestamp 1765685875
+transform 1 0 375 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_21
+timestamp 1765602097
+transform 1 0 439 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_23
+timestamp 1765602097
+transform 1 0 457 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_22
+timestamp 1765602097
+transform 1 0 475 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_46
+timestamp 1765685875
+transform 1 0 293 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_42
+timestamp 1765685875
+transform 1 0 375 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_37
+timestamp 1765685875
+transform 1 0 293 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_40
+timestamp 1765685875
+transform 1 0 375 0 1 -520
+box 35 -90 117 32
+use rom_inv  rom_inv_27
+timestamp 1765602097
+transform 1 0 557 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_25
+timestamp 1765602097
+transform 1 0 521 0 1 -894
+box -11 -13 17 40
+use rom_inv  rom_inv_26
+timestamp 1765602097
+transform 1 0 539 0 1 -894
+box -11 -13 17 40
+use rom_one  rom_one_41
+timestamp 1765685875
+transform 1 0 457 0 1 -520
+box 35 -90 117 32
+use rom_one  rom_one_43
+timestamp 1765685875
+transform 1 0 457 0 1 -642
+box 35 -90 117 32
+use rom_one  rom_one_55
+timestamp 1765685875
+transform 1 0 457 0 1 -764
+box 35 -90 117 32
+use rom_inv  rom_inv_24
+timestamp 1765602097
+transform 1 0 503 0 1 -894
+box -11 -13 17 40
+use decoder24  decoder24_1
+timestamp 1765741251
+transform 1 0 -280 0 1 -161
+box 74 -205 282 40
+use rom_one  rom_one_14
+timestamp 1765685875
+transform 1 0 -35 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_16
+timestamp 1765685875
+transform 1 0 -35 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_28
+timestamp 1765685875
+transform 1 0 -35 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_20
+timestamp 1765685875
+transform 1 0 211 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_21
+timestamp 1765685875
+transform 1 0 211 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_18
+timestamp 1765685875
+transform 1 0 129 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_15
+timestamp 1765685875
+transform 1 0 47 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_19
+timestamp 1765685875
+transform 1 0 129 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_17
+timestamp 1765685875
+transform 1 0 47 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_34
+timestamp 1765685875
+transform 1 0 211 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_30
+timestamp 1765685875
+transform 1 0 129 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_29
+timestamp 1765685875
+transform 1 0 47 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_24
+timestamp 1765685875
+transform 1 0 375 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_22
+timestamp 1765685875
+transform 1 0 293 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_25
+timestamp 1765685875
+transform 1 0 375 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_23
+timestamp 1765685875
+transform 1 0 293 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_38
+timestamp 1765685875
+transform 1 0 375 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_35
+timestamp 1765685875
+transform 1 0 293 0 1 -398
+box 35 -90 117 32
+use rom_one  rom_one_26
+timestamp 1765685875
+transform 1 0 457 0 1 -154
+box 35 -90 117 32
+use rom_one  rom_one_27
+timestamp 1765685875
+transform 1 0 457 0 1 -276
+box 35 -90 117 32
+use rom_one  rom_one_39
+timestamp 1765685875
+transform 1 0 457 0 1 -398
+box 35 -90 117 32
+use decoder24  decoder24_0
+timestamp 1765741251
+transform 1 0 -280 0 1 83
+box 74 -205 282 40
+use inv2  inv2_1
+timestamp 1765338958
+transform 0 1 -40 -1 0 152
+box -10 -13 20 40
+use inv2  inv2_0
+timestamp 1765338958
+transform 0 1 -93 -1 0 152
+box -10 -13 20 40
+use rom_pullup  rom_pullup_0
+timestamp 1765597332
+transform 1 0 -35 0 1 90
+box 35 32 117 72
+use rom_one  rom_one_0
+timestamp 1765685875
+transform 1 0 -35 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_13
+timestamp 1765685875
+transform 1 0 -35 0 1 -32
+box 35 -90 117 32
+use rom_pullup  rom_pullup_3
+timestamp 1765597332
+transform 1 0 211 0 1 90
+box 35 32 117 72
+use rom_pullup  rom_pullup_2
+timestamp 1765597332
+transform 1 0 129 0 1 90
+box 35 32 117 72
+use rom_pullup  rom_pullup_1
+timestamp 1765597332
+transform 1 0 47 0 1 90
+box 35 32 117 72
+use rom_one  rom_one_2
+timestamp 1765685875
+transform 1 0 211 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_11
+timestamp 1765685875
+transform 1 0 211 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_3
+timestamp 1765685875
+transform 1 0 129 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_1
+timestamp 1765685875
+transform 1 0 47 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_10
+timestamp 1765685875
+transform 1 0 129 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_12
+timestamp 1765685875
+transform 1 0 47 0 1 -32
+box 35 -90 117 32
+use rom_pullup  rom_pullup_5
+timestamp 1765597332
+transform 1 0 375 0 1 90
+box 35 32 117 72
+use rom_pullup  rom_pullup_4
+timestamp 1765597332
+transform 1 0 293 0 1 90
+box 35 32 117 72
+use rom_one  rom_one_4
+timestamp 1765685875
+transform 1 0 375 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_6
+timestamp 1765685875
+transform 1 0 293 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_9
+timestamp 1765685875
+transform 1 0 375 0 1 -32
+box 35 -90 117 32
+use rom_one  rom_one_7
+timestamp 1765685875
+transform 1 0 293 0 1 -32
+box 35 -90 117 32
+use rom_pullup  rom_pullup_6
+timestamp 1765597332
+transform 1 0 457 0 1 90
+box 35 32 117 72
+use rom_one  rom_one_5
+timestamp 1765685875
+transform 1 0 457 0 1 90
+box 35 -90 117 32
+use rom_one  rom_one_8
+timestamp 1765685875
+transform 1 0 457 0 1 -32
+box 35 -90 117 32
+<< labels >>
+rlabel polysilicon 0 100 2 102 3 wl0
+rlabel polysilicon 0 80 2 82 3 wl1
+rlabel polysilicon 0 40 2 42 3 wl2
+rlabel polysilicon 0 20 2 22 3 wl3
+rlabel polysilicon 0 -22 2 -20 3 wl4
+rlabel polysilicon 0 -42 2 -40 3 wl5
+rlabel polysilicon 0 -82 2 -80 3 wl6
+rlabel polysilicon 0 -102 2 -100 3 wl7
+rlabel polysilicon 0 -144 2 -142 3 wl8
+rlabel polysilicon 0 -164 2 -162 3 wl9
+rlabel polysilicon 0 -204 2 -202 3 wl10
+rlabel polysilicon 0 -224 2 -222 3 wl11
+rlabel polysilicon 0 -266 2 -264 3 wl12
+rlabel polysilicon 0 -286 2 -284 3 wl13
+rlabel polysilicon 0 -326 2 -324 3 wl14
+rlabel polysilicon 0 -346 2 -344 3 wl15
+rlabel polysilicon 0 -388 2 -386 3 wl16
+rlabel polysilicon 0 -408 2 -406 3 wl17
+rlabel polysilicon 0 -448 2 -446 3 wl18
+rlabel polysilicon 0 -468 2 -466 3 wl19
+rlabel polysilicon 0 -510 2 -508 3 wl20
+rlabel polysilicon 0 -530 2 -528 3 wl21
+rlabel polysilicon 0 -570 2 -568 3 wl22
+rlabel polysilicon 0 -590 2 -588 3 wl23
+rlabel polysilicon 0 -652 2 -650 3 wl25
+rlabel polysilicon 0 -632 2 -630 3 wl24
+rlabel polysilicon 0 -712 2 -710 3 wl27
+rlabel polysilicon 0 -692 2 -690 3 wl26
+rlabel polysilicon 0 -754 2 -752 1 wl28
+rlabel polysilicon 0 -774 2 -772 1 wl29
+rlabel polysilicon 0 -814 2 -812 1 wl30
+rlabel polysilicon 0 -834 2 -832 1 wl31
+rlabel space 0 -904 5 -899 3 Vdd!
+rlabel metal1 0 -862 5 -857 3 GND!
+rlabel metal2 7 -907 12 -904 1 bl0
+rlabel metal2 25 -907 30 -904 1 bl1
+rlabel metal2 43 -907 48 -904 1 bl2
+rlabel metal2 61 -907 66 -904 1 bl3
+rlabel metal2 89 -907 94 -904 1 bl4
+rlabel metal2 107 -907 112 -904 1 bl5
+rlabel metal2 125 -907 130 -904 1 bl6
+rlabel metal2 143 -907 148 -904 1 bl7
+rlabel metal2 171 -907 176 -904 1 bl8
+rlabel metal2 189 -907 194 -904 1 bl9
+rlabel metal2 207 -907 212 -904 1 bl10
+rlabel metal2 225 -907 230 -904 1 bl11
+rlabel metal2 253 -907 258 -904 1 bl12
+rlabel metal2 271 -907 276 -904 1 bl13
+rlabel metal2 289 -907 294 -904 1 bl14
+rlabel metal2 307 -907 312 -904 1 bl15
+rlabel metal2 335 -907 340 -904 1 bl16
+rlabel metal2 353 -907 358 -904 1 bl17
+rlabel metal2 371 -907 376 -904 1 bl18
+rlabel metal2 389 -907 394 -904 1 bl19
+rlabel metal2 417 -907 422 -904 1 bl20
+rlabel metal2 435 -907 440 -904 1 bl21
+rlabel metal2 453 -907 458 -904 1 bl22
+rlabel metal2 471 -907 476 -904 1 bl23
+rlabel metal2 499 -907 504 -904 1 bl24
+rlabel metal2 517 -907 522 -904 1 bl25
+rlabel metal2 535 -907 540 -904 1 bl26
+rlabel metal2 553 -907 558 -904 1 bl27
+rlabel metal1 -94 25 -89 30 1 out2
+rlabel metal1 -94 -36 -89 -31 1 out3
+rlabel metal1 -94 -97 -89 -92 1 out4
+rlabel metal1 -94 -158 -89 -153 1 out5
+rlabel metal1 -94 -219 -89 -214 1 out6
+rlabel metal1 -94 -280 -89 -275 1 out7
+rlabel metal1 -94 -341 -89 -336 1 out8
+rlabel metal1 -94 -402 -89 -397 1 out9
+rlabel metal1 -94 -463 -89 -458 1 out10
+rlabel metal1 -94 -524 -89 -519 1 out11
+rlabel metal1 -94 -585 -89 -580 1 out12
+rlabel metal1 -94 -646 -89 -641 1 out13
+rlabel metal1 -94 -707 -89 -702 1 out14
+rlabel metal1 -94 -768 -89 -763 1 out15
+rlabel metal1 -94 -829 -89 -824 1 out16
+rlabel metal1 -94 86 -89 91 1 out1
+rlabel polysilicon -80 145 -78 147 1 phi0
+rlabel polysilicon -27 146 -25 148 1 phi1
+rlabel m2contact -216 5 -211 10 1 a1
+rlabel m2contact -206 -42 -201 -37 1 a0
+rlabel metal1 -316 -583 -311 -578 1 a3
+rlabel metal1 -296 -534 -291 -529 1 a2
+<< end >>
