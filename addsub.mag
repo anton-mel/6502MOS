@@ -1,0 +1,280 @@
+magic
+tech scmos
+timestamp 1765338694
+<< pwell >>
+rect -7 1117 -5 1119
+rect 1 1107 3 1109
+rect -7 941 -5 943
+rect -7 765 -5 767
+rect -7 589 -5 591
+rect -7 413 -5 415
+rect -7 237 -5 239
+rect -7 61 -5 63
+rect 124 -161 158 1220
+rect 124 -169 126 -161
+<< polysilicon >>
+rect 155 1181 160 1183
+rect 59 1155 61 1165
+rect 59 1153 67 1155
+rect -9 1117 3 1119
+rect 1 1092 3 1109
+rect 127 1064 159 1066
+rect 157 1007 159 1064
+rect 155 1005 159 1007
+rect 59 979 61 989
+rect 59 977 67 979
+rect -9 941 3 943
+rect 1 916 3 933
+rect 126 888 159 890
+rect 157 831 159 888
+rect 155 829 159 831
+rect 59 803 61 813
+rect 59 801 67 803
+rect -9 765 3 767
+rect 1 740 3 757
+rect 127 712 159 714
+rect 157 655 159 712
+rect 155 653 159 655
+rect 59 627 61 637
+rect 59 625 67 627
+rect -9 589 3 591
+rect 1 564 3 581
+rect 126 536 159 538
+rect 157 479 159 536
+rect 155 477 159 479
+rect 59 451 61 461
+rect 59 449 67 451
+rect -9 413 3 415
+rect 1 388 3 405
+rect 127 360 159 362
+rect 157 303 159 360
+rect 155 301 159 303
+rect 59 275 61 285
+rect 59 273 67 275
+rect -9 237 3 239
+rect 1 212 3 229
+rect 126 184 159 186
+rect 157 127 159 184
+rect 155 125 159 127
+rect 59 99 61 109
+rect 59 97 67 99
+rect -9 61 3 63
+rect 1 36 3 53
+rect 127 8 159 10
+rect 157 -49 159 8
+rect 155 -51 159 -49
+rect 59 -77 61 -67
+rect 59 -79 67 -77
+rect -8 -115 3 -113
+rect 1 -140 3 -123
+<< polycontact >>
+rect -14 1117 -9 1122
+rect 127 1066 132 1071
+rect -14 941 -9 946
+rect 126 890 131 895
+rect -14 765 -9 770
+rect 127 714 132 719
+rect -14 589 -9 594
+rect 126 538 131 543
+rect -14 413 -9 418
+rect 127 362 132 367
+rect -14 237 -9 242
+rect 126 186 131 191
+rect -14 61 -9 66
+rect 127 10 132 15
+rect -14 -115 -8 -109
+<< metal1 >>
+rect -4 1220 163 1225
+rect -4 1155 1 1220
+rect 59 1199 72 1204
+rect -14 946 -9 1117
+rect 64 1116 69 1199
+rect 158 1194 163 1220
+rect 155 1189 163 1194
+rect 61 1111 69 1116
+rect -4 979 1 1106
+rect 64 1028 69 1111
+rect 64 1023 72 1028
+rect -14 770 -9 941
+rect 64 940 69 1023
+rect 158 1018 163 1189
+rect 155 1013 163 1018
+rect 61 935 69 940
+rect -4 803 1 930
+rect 64 852 69 935
+rect 64 847 72 852
+rect -14 594 -9 765
+rect 64 764 69 847
+rect 158 842 163 1013
+rect 155 837 163 842
+rect 61 759 69 764
+rect -4 627 1 754
+rect 64 676 69 759
+rect 64 671 72 676
+rect -14 418 -9 589
+rect 64 588 69 671
+rect 158 666 163 837
+rect 155 661 163 666
+rect 61 583 69 588
+rect -4 451 1 578
+rect 64 500 69 583
+rect 64 495 72 500
+rect -14 242 -9 413
+rect 64 412 69 495
+rect 158 490 163 661
+rect 155 485 163 490
+rect 61 407 69 412
+rect -4 275 1 402
+rect 64 324 69 407
+rect 64 319 72 324
+rect -14 66 -9 237
+rect 64 236 69 319
+rect 158 314 163 485
+rect 155 309 163 314
+rect 61 231 69 236
+rect -4 99 1 226
+rect 64 148 69 231
+rect 64 143 72 148
+rect -14 -109 -9 61
+rect 64 60 69 143
+rect 158 138 163 309
+rect 155 133 163 138
+rect 61 55 69 60
+rect -4 -77 1 50
+rect 64 -28 69 55
+rect 64 -33 72 -28
+rect 64 -116 69 -33
+rect 158 -38 163 133
+rect 155 -43 166 -38
+rect 61 -121 69 -116
+rect 137 -174 142 -163
+<< m2contact >>
+rect 36 1141 41 1146
+rect 127 1089 132 1094
+rect 36 965 41 970
+rect 127 913 132 918
+rect 36 789 41 794
+rect 127 737 132 742
+rect 36 613 41 618
+rect 127 561 132 566
+rect 36 437 41 442
+rect 127 385 132 390
+rect 36 261 41 266
+rect 127 209 132 214
+rect 36 85 41 90
+rect 127 33 132 38
+rect 36 -91 41 -86
+rect 127 -143 132 -138
+<< metal2 >>
+rect 41 1141 67 1146
+rect 132 1089 166 1094
+rect 41 965 68 970
+rect 132 913 166 918
+rect 41 789 67 794
+rect 132 737 166 742
+rect 41 613 67 618
+rect 132 561 166 566
+rect 41 437 67 442
+rect 132 385 166 390
+rect 41 261 67 266
+rect 132 209 166 214
+rect 41 85 67 90
+rect 132 33 166 38
+rect 41 -91 67 -86
+rect 132 -143 161 -138
+use addsub_one  addsub_one_7
+timestamp 1765000963
+transform 0 -1 101 -1 0 -7
+box 5 -57 162 37
+use xor  xor_7
+timestamp 1765338007
+transform 0 1 47 1 0 -192
+box 55 -55 122 17
+use addsub_one  addsub_one_6
+timestamp 1765000963
+transform 0 -1 101 -1 0 169
+box 5 -57 162 37
+use xor  xor_6
+timestamp 1765338007
+transform 0 1 47 1 0 -16
+box 55 -55 122 17
+use xor  xor_5
+timestamp 1765338007
+transform 0 1 47 1 0 160
+box 55 -55 122 17
+use addsub_one  addsub_one_5
+timestamp 1765000963
+transform 0 -1 101 -1 0 345
+box 5 -57 162 37
+use xor  xor_4
+timestamp 1765338007
+transform 0 1 47 1 0 336
+box 55 -55 122 17
+use addsub_one  addsub_one_4
+timestamp 1765000963
+transform 0 -1 101 -1 0 521
+box 5 -57 162 37
+use addsub_one  addsub_one_3
+timestamp 1765000963
+transform 0 -1 101 -1 0 697
+box 5 -57 162 37
+use xor  xor_3
+timestamp 1765338007
+transform 0 1 47 1 0 512
+box 55 -55 122 17
+use addsub_one  addsub_one_2
+timestamp 1765000963
+transform 0 -1 101 -1 0 873
+box 5 -57 162 37
+use xor  xor_2
+timestamp 1765338007
+transform 0 1 47 1 0 688
+box 55 -55 122 17
+use addsub_one  addsub_one_1
+timestamp 1765000963
+transform 0 -1 101 -1 0 1049
+box 5 -57 162 37
+use xor  xor_1
+timestamp 1765338007
+transform 0 1 47 1 0 864
+box 55 -55 122 17
+use addsub_one  addsub_one_0
+timestamp 1765000963
+transform 0 -1 101 -1 0 1225
+box 5 -57 162 37
+use xor  xor_0
+timestamp 1765338007
+transform 0 1 47 1 0 1040
+box 55 -55 122 17
+<< labels >>
+rlabel metal2 163 561 166 566 7 s3
+rlabel polysilicon 59 634 61 637 7 a3
+rlabel polysilicon 1 564 3 567 7 b3
+rlabel metal2 163 385 166 390 7 s4
+rlabel polysilicon 59 458 61 461 7 a4
+rlabel polysilicon 1 388 3 391 7 b4
+rlabel metal2 163 209 166 214 7 s5
+rlabel polysilicon 59 282 61 285 7 a5
+rlabel polysilicon 1 212 3 215 7 b5
+rlabel metal2 163 1089 166 1094 7 s0
+rlabel metal1 59 1199 64 1204 3 Vdd!
+rlabel polysilicon 59 1162 61 1165 7 a0
+rlabel polysilicon 1 1092 3 1095 7 b0
+rlabel metal2 163 913 166 918 7 s1
+rlabel polysilicon 59 986 61 989 7 a1
+rlabel polysilicon 1 916 3 919 7 b1
+rlabel metal2 163 737 166 742 7 s2
+rlabel polysilicon 59 810 61 813 7 a2
+rlabel polysilicon 1 740 3 743 7 b2
+rlabel metal2 163 33 166 38 7 s6
+rlabel polysilicon 59 106 61 109 7 a6
+rlabel polysilicon 1 36 3 39 7 b6
+rlabel metal1 137 -174 142 -169 1 cout
+rlabel metal2 158 -143 161 -138 7 s7
+rlabel metal1 163 -43 166 -38 7 GND!
+rlabel polysilicon 59 -70 61 -67 7 a7
+rlabel polysilicon 1 -140 3 -137 7 b7
+rlabel polysilicon 155 1181 158 1183 1 cin
+rlabel polycontact -14 1117 -9 1122 3 sub
+rlabel polysilicon 150 8 152 10 1 c7
+<< end >>
