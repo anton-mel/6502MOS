@@ -1,0 +1,16 @@
+magic
+tech scmos
+timestamp 1765747547
+use rom  rom_0
+timestamp 1765747547
+transform 1 0 2276 0 1 2929
+box -350 -907 584 162
+use datapath  datapath_0
+timestamp 1765747547
+transform 1 0 431 0 1 -264
+box -81 532 2885 2021
+use ring  ring_0
+timestamp 1765052771
+transform 1 0 178 0 1 3594
+box -207 -3603 3499 111
+<< end >>

@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765741251
+timestamp 1765748272
 << polysilicon >>
 rect 182 26 184 35
 rect 193 26 195 35
@@ -105,16 +105,16 @@ rect 212 -71 217 -15
 rect 212 -132 217 -76
 rect 212 -193 217 -137
 rect 212 -205 217 -198
-use 3nand  3nand_3
-timestamp 1765694390
-transform 1 0 86 0 1 -231
-box 72 30 122 83
-use 3nand  3nand_2
-timestamp 1765694390
-transform 1 0 86 0 1 -170
-box 72 30 122 83
+use 3nand2  3nand2_3
+timestamp 1765748214
+transform 1 0 167 0 1 -130
+box -9 -71 40 -18
+use 3nand2  3nand2_2
+timestamp 1765748214
+transform 1 0 167 0 1 -69
+box -9 -71 40 -18
 use inv2  inv2_1
-timestamp 1765338958
+timestamp 1765746878
 transform 1 0 89 0 1 -133
 box -10 -13 20 40
 use decoder_nor2  decoder_nor2_2
@@ -125,22 +125,22 @@ use decoder_nor2  decoder_nor2_3
 timestamp 1765740216
 transform 1 0 133 0 1 -168
 box 68 24 149 85
-use 3nand  3nand_1
-timestamp 1765694390
-transform 1 0 86 0 1 -109
-box 72 30 122 83
+use 3nand2  3nand2_1
+timestamp 1765748214
+transform 1 0 167 0 1 -8
+box -9 -71 40 -18
 use inv2  inv2_0
-timestamp 1765338958
+timestamp 1765746878
 transform 1 0 89 0 1 -60
 box -10 -13 20 40
 use decoder_nor2  decoder_nor2_1
 timestamp 1765740216
 transform 1 0 133 0 1 -107
 box 68 24 149 85
-use 3nand  3nand_0
-timestamp 1765694390
-transform 1 0 86 0 1 -48
-box 72 30 122 83
+use 3nand2  3nand2_0
+timestamp 1765748214
+transform 1 0 167 0 1 53
+box -9 -71 40 -18
 use decoder_nor2  decoder_nor2_0
 timestamp 1765740216
 transform 1 0 133 0 1 -46

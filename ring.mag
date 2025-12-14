@@ -101,25 +101,25 @@ rect -140 -3536 3432 -3515
 rect 3444 -3548 3484 48
 rect -192 -3588 3150 -3548
 rect 3292 -3588 3484 -3548
-use pad  pad_7
+use pad  pad_4
 array 0 8 350 0 0 102
 timestamp 1763591700
-transform -1 0 3027 0 -1 -3525
-box 85 -25 227 77
-use pad  pad_6
-array 0 8 350 0 0 102
-timestamp 1763591700
-transform 0 1 3421 -1 0 -369
+transform 0 -1 -129 1 0 -3131
 box 85 -25 227 77
 use pad  pad_5
 array 0 8 350 0 0 102
 timestamp 1763591700
 transform 1 0 265 0 1 25
 box 85 -25 227 77
-use pad  pad_4
+use pad  pad_6
 array 0 8 350 0 0 102
 timestamp 1763591700
-transform 0 -1 -129 1 0 -3131
+transform 0 1 3421 -1 0 -369
+box 85 -25 227 77
+use pad  pad_7
+array 0 8 350 0 0 102
+timestamp 1763591700
+transform -1 0 3027 0 -1 -3525
 box 85 -25 227 77
 << labels >>
 rlabel metal1 -1 0 141 102 1 Vdd

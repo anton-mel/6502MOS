@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765746640
+timestamp 1765747547
 << error_s >>
 rect 150 1876 155 1877
 << polysilicon >>
@@ -1964,7 +1964,7 @@ timestamp 1765746500
 transform 1 0 928 0 1 936
 box -14 -400 76 940
 use mux_8bit  mux_8bit_0
-timestamp 1765349323
+timestamp 1765747547
 transform 1 0 1342 0 1 1766
 box 1 -1228 92 116
 use reg  reg_1
@@ -1996,11 +1996,11 @@ timestamp 1765746500
 transform 1 0 1449 0 1 936
 box -14 -400 76 940
 use mux_8bit  mux_8bit_1
-timestamp 1765349323
+timestamp 1765747547
 transform 1 0 1842 0 1 1766
 box 1 -1228 92 116
 use mux_8bit  mux_8bit_2
-timestamp 1765349323
+timestamp 1765747547
 transform 1 0 2142 0 1 1766
 box 1 -1228 92 116
 use reg  reg_5
@@ -2043,14 +2043,14 @@ use latch  latch_8
 timestamp 1765416915
 transform 1 0 3159 0 1 459
 box -392 82 -333 1369
-use 4nor2  4nor2_0
-timestamp 1761285742
-transform 0 1 81 -1 0 1980
-box 68 -24 135 80
 use inv2  inv2_0
-timestamp 1765338958
+timestamp 1765746878
 transform -1 0 -22 0 1 1852
 box -10 -13 20 40
+use 4nor2  4nor2_0
+timestamp 1765746704
+transform 0 1 81 -1 0 1980
+box 68 -24 135 80
 use staticizer_one  staticizer_one_0
 timestamp 1765746506
 transform 1 0 867 0 1 1967
@@ -2072,67 +2072,67 @@ timestamp 1765002978
 transform 1 0 873 0 1 1978
 box -11 -67 48 -12
 use inv2  inv2_6
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1417 -1 0 1926
 box -10 -13 20 40
 use inv2  inv2_3
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1417 -1 0 1896
 box -10 -13 20 40
 use inv2  inv2_8
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1417 -1 0 1986
 box -10 -13 20 40
 use inv2  inv2_7
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1417 -1 0 1956
 box -10 -13 20 40
 use inv2  inv2_4
-timestamp 1765338958
+timestamp 1765746878
 transform 1 0 1776 0 -1 1880
 box -10 -13 20 40
 use inv2  inv2_12
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1917 -1 0 1926
 box -10 -13 20 40
 use inv2  inv2_11
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1917 -1 0 1896
 box -10 -13 20 40
 use inv2  inv2_10
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1917 -1 0 1956
 box -10 -13 20 40
 use inv2  inv2_9
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 1917 -1 0 1986
 box -10 -13 20 40
 use inv2  inv2_16
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 2217 -1 0 1926
 box -10 -13 20 40
 use inv2  inv2_15
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 2217 -1 0 1896
 box -10 -13 20 40
 use inv2  inv2_14
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 2217 -1 0 1986
 box -10 -13 20 40
 use inv2  inv2_13
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 2217 -1 0 1956
 box -10 -13 20 40
 use inv2  inv2_5
-timestamp 1765338958
+timestamp 1765746878
 transform 1 0 2576 0 -1 1880
 box -10 -13 20 40
 use inv2  inv2_1
-timestamp 1765338958
+timestamp 1765746878
 transform 1 0 2700 0 -1 1880
 box -10 -13 20 40
 use inv2  inv2_2
-timestamp 1765338958
+timestamp 1765746878
 transform 1 0 2824 0 -1 1880
 box -10 -13 20 40
 << labels >>

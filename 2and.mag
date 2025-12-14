@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765690562
+timestamp 1765747547
 << nwell >>
 rect 68 53 115 82
 << pwell >>
@@ -50,7 +50,7 @@ rect 74 37 79 41
 rect 74 32 89 37
 rect 94 32 115 37
 use inv2  inv2_0
-timestamp 1765338958
+timestamp 1765746878
 transform 1 0 118 0 1 42
 box -10 -13 20 40
 << labels >>

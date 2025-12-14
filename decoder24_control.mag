@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765697223
+timestamp 1765747547
 << polysilicon >>
 rect 175 32 177 41
 rect 186 32 188 41
@@ -86,28 +86,28 @@ rect 209 -243 214 -177
 rect 124 -248 144 -243
 rect 149 -248 214 -243
 rect 124 -290 129 -248
-use 2and  2and_0
-timestamp 1765690562
-transform 1 0 90 0 1 -41
-box 68 29 138 82
-use 2and  2and_3
-timestamp 1765690562
-transform 1 0 90 0 1 -251
-box 68 29 138 82
-use 2and  2and_2
-timestamp 1765690562
-transform 1 0 90 0 1 -181
-box 68 29 138 82
-use 2and  2and_1
-timestamp 1765690562
-transform 1 0 90 0 1 -111
-box 68 29 138 82
 use inv2  inv2_0
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 161 1 0 -298
 box -10 -13 20 40
 use inv2  inv2_1
-timestamp 1765338958
+timestamp 1765746878
 transform 0 -1 181 1 0 -251
 box -10 -13 20 40
+use 2and  2and_1
+timestamp 1765747547
+transform 1 0 90 0 1 -111
+box 68 29 138 82
+use 2and  2and_2
+timestamp 1765747547
+transform 1 0 90 0 1 -181
+box 68 29 138 82
+use 2and  2and_3
+timestamp 1765747547
+transform 1 0 90 0 1 -251
+box 68 29 138 82
+use 2and  2and_0
+timestamp 1765747547
+transform 1 0 90 0 1 -41
+box 68 29 138 82
 << end >>
