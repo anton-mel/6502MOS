@@ -218,6 +218,69 @@ s
 l PCH_w PCL_w
 
 
+h PCH_r1 PCL_r1 A_r0
+setvector out_latch_ctrl 111
+s
+l PCH_r1 PCL_r1 A_r0
+setvector out_latch_ctrl 000
+s
+s
 
+# jump instruction
+# phi1:   wz <- data_in,  wz1 <- PC+1
+setvector data_in 11110000
+setvector wz_latch_ctrl 1000
+h PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 11
+s
+setvector wz_latch_ctrl 0000
+l PCH_r0 PCL_r0
+setvector wzaddr_latch_ctrl 00
+s
 
+# phi0:   AB_L <- wz, PC <- wz1, addr pins <- PC (r)
+setvector ABL_ctrl 100
+setvector PCH_ctrl 1010
+setvector PCL_ctrl 1010
+setvector out_latch_ctrl 011
+s
+setvector ABL_ctrl 000
+setvector PCH_ctrl 0000
+setvector PCL_ctrl 0000
+setvector out_latch_ctrl 000
+s
 
+# phi1:   wz <- data_in
+setvector data_in 00010111
+setvector wz_latch_ctrl 1000
+s
+setvector wz_latch_ctrl 0000
+s
+
+# phi0:   PC_H <- wz
+setvector PCH_ctrl 1001
+s
+setvector PCH_ctrl 0000
+s
+
+# phi1:   wz <- AB_L
+setvector ABL_ctrl 001
+setvector A_ctrl 010
+setvector fb_ctrl 1010
+setvector wz_latch_ctrl 0100
+s
+setvector ABL_ctrl 000
+setvector A_ctrl 000
+setvector fb_ctrl 0000
+setvector wz_latch_ctrl 0000
+s
+
+# phi0:   PC_L <- wz, addr pins <- PC (r)
+setvector PCL_ctrl 1011
+setvector PCH_ctrl 0010
+setvector out_latch_ctrl 011
+s
+setvector PCL_ctrl 0000
+setvector PCH_ctrl 0000
+setvector out_latch_ctrl 000
+s
