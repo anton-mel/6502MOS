@@ -1,17 +1,17 @@
-timestamp 1765316199
+timestamp 1765746500
 version 8.3
 tech scmos
 style TSMC0.18um(tsmc18)from:t24i
 scale 1000 1 9
 resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
-use reg_one reg_one_0 1 0 2 0 1 -373
-use reg_one reg_one_2 1 0 2 0 1 -21
-use reg_one reg_one_1 1 0 2 0 1 -197
-use reg_one reg_one_3 1 0 2 0 1 155
-use reg_one reg_one_5 1 0 2 0 1 507
-use reg_one reg_one_7 1 0 2 0 1 859
-use reg_one reg_one_6 1 0 2 0 1 683
 use reg_one reg_one_4 1 0 2 0 1 331
+use reg_one reg_one_6 1 0 2 0 1 683
+use reg_one reg_one_7 1 0 2 0 1 859
+use reg_one reg_one_5 1 0 2 0 1 507
+use reg_one reg_one_3 1 0 2 0 1 155
+use reg_one reg_one_1 1 0 2 0 1 -197
+use reg_one reg_one_2 1 0 2 0 1 -21
+use reg_one reg_one_0 1 0 2 0 1 -373
 node "w" 21 1149.52 70 -398 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6690 2686 0 0 0 0 0 0
 node "GND!" 21 1169.2 24 -398 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6690 2686 0 0 0 0 0 0
 node "Vdd!" 21 1169.2 6 -398 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6690 2686 0 0 0 0 0 0
@@ -41,314 +41,329 @@ node "in1" 0 76.33 -14 732 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75 40 0 0 0 0 0 0 0 0 
 node "port01" 0 15.934 75 837 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
 node "port00" 0 15.934 75 846 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 12 0 0 0 0 0 0 0 0 0 0
 node "in0" 0 76.33 -14 908 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75 40 0 0 0 0 0 0 0 0 0 0
-cap "port40" "w" 4.2
-cap "port71" "w" 4.2
-cap "port71" "port70" 11.5435
-cap "port11" "w" 4.2
-cap "r0" "in7" 30.045
-cap "port21" "port20" 11.5435
-cap "port10" "w" 4.2
-cap "port01" "port00" 11.5435
-cap "port50" "port51" 11.5435
-cap "r1" "in3" 10.2
-cap "in1" "r1" 10.2
-cap "port31" "port30" 11.5435
-cap "r1" "in0" 10.2
+cap "w" "port30" 4.2
 cap "port41" "w" 4.2
-cap "port50" "w" 4.2
-cap "port21" "w" 4.2
-cap "r1" "in4" 10.2
-cap "r1" "in6" 10.2
-cap "r1" "in5" 10.2
-cap "port60" "w" 4.2
-cap "port11" "port10" 11.5435
-cap "port00" "w" 4.2
-cap "port01" "w" 4.2
-cap "port31" "w" 4.2
-cap "port61" "port60" 11.5435
-cap "w" "port20" 4.2
-cap "r0" "in3" 30.045
-cap "in1" "r0" 30.045
-cap "port40" "port41" 11.5435
+cap "w" "port60" 4.2
+cap "w" "port11" 4.2
+cap "port00" "port01" 11.5435
+cap "in5" "r1" 10.2
 cap "r0" "in0" 30.045
-cap "port51" "w" 4.2
-cap "port30" "w" 4.2
-cap "in2" "r1" 10.2
+cap "port50" "port51" 11.5435
+cap "port71" "port70" 11.5435
+cap "r0" "in7" 30.045
+cap "r1" "in2" 10.2
+cap "w" "port21" 4.2
+cap "r1" "in3" 10.2
+cap "port20" "w" 4.2
 cap "r0" "in4" 30.045
-cap "r0" "in6" 30.045
-cap "r0" "in5" 30.045
-cap "r1" "Vdd!" 17945.9
+cap "port51" "w" 4.2
+cap "r1" "in6" 10.2
+cap "w" "port00" 4.2
 cap "w" "port70" 4.2
-cap "r0" "in2" 30.045
+cap "port41" "port40" 11.5435
+cap "port20" "port21" 11.5435
+cap "r0" "in1" 30.045
+cap "w" "port40" 4.2
+cap "w" "port61" 4.2
+cap "port31" "port30" 11.5435
+cap "port60" "port61" 11.5435
+cap "r1" "in0" 10.2
+cap "w" "port31" 4.2
 cap "r1" "in7" 10.2
-cap "port61" "w" 4.2
-subcap "w" -1119.23
-subcap "GND!" -1165.2
-subcap "r1" -1138.57
-subcap "r0" -1767.96
+cap "w" "port10" 4.2
+cap "in5" "r0" 30.045
+cap "port10" "port11" 11.5435
+cap "r1" "in4" 10.2
+cap "r0" "in2" 30.045
+cap "w" "port01" 4.2
+cap "r0" "in3" 30.045
+cap "r1" "Vdd!" 17945.9
+cap "port71" "w" 4.2
+cap "port50" "w" 4.2
+cap "r0" "in6" 30.045
+cap "r1" "in1" 10.2
+subcap "w" -1183.4
+subcap "GND!" -1166.31
+subcap "r1" -1139.8
+subcap "r0" -1770.04
+subcap "port71" -5.81
 subcap "in7" -31.328
-cap "reg_one_0/w" "reg_one_0/port0" 3.42
-cap "reg_one_0/r0" "reg_one_0/Vdd!" 24.554
-cap "reg_one_0/port1" "reg_one_0/w" 34.404
-cap "reg_one_0/GND!" "reg_one_0/w" 354.658
-cap "reg_one_0/GND!" "reg_one_0/a_16_27#" 15.506
-cap "reg_one_0/GND!" "reg_one_0/Vdd!" 204.851
-cap "reg_one_0/GND!" "reg_one_0/a_4_n13#" 36.385
-cap "reg_one_0/r1" "reg_one_0/Vdd!" 35.014
-cap "reg_one_0/GND!" "reg_one_0/r0" 13.838
-cap "reg_one_0/in" "reg_one_0/Vdd!" 13.668
-cap "reg_one_0/GND!" "reg_one_0/tmp" 31.476
+cap "reg_one_0/w_n11_n27#" "reg_one_0/a_21_n13#" 16.86
+cap "reg_one_0/Vdd!" "reg_one_0/r0" 23.324
+cap "reg_one_0/w" "reg_one_0/port0" 3.78
+cap "reg_one_0/Vdd!" "reg_one_0/in" 13.668
+cap "reg_one_0/w_n11_n27#" "reg_one_0/a_16_27#" 14.574
+cap "reg_one_0/w_n11_n27#" "reg_one_0/r1" 37.854
+cap "reg_one_0/w_n11_n27#" "reg_one_0/w" 211.786
 cap "reg_one_0/r1" "reg_one_0/r0" 46.6623
-cap "reg_one_0/GND!" "reg_one_0/a_21_n13#" 16.86
+cap "reg_one_0/w" "reg_one_0/a_33_32#" 9.66
+cap "reg_one_0/in" "reg_one_0/r1" 1.5
+cap "reg_one_0/w_n11_n27#" "reg_one_0/a_4_n13#" 36.385
+cap "reg_one_0/w_n11_n27#" "reg_one_0/r0" 14.254
+cap "reg_one_0/Vdd!" "reg_one_0/r1" 35.014
+cap "reg_one_0/Vdd!" "reg_one_0/w" 21.648
+cap "reg_one_0/w" "reg_one_0/port1" 34.404
 cap "reg_one_0/port1" "reg_one_0/port0" -11.5435
-cap "reg_one_0/GND!" "reg_one_0/r1" 40.828
-cap "reg_one_0/w" "reg_one_0/Vdd!" 16.744
-cap "reg_one_0/r1" "reg_one_0/in" 1.5
-cap "reg_one_0/a_4_n13#" "reg_one_0/Vdd!" 53.115
-subcap "port61" -5.54
-subcap "port60" -11.94
-cap "reg_one_1/GND!" "reg_one_0/GND!" 5.232
-cap "Vdd!" "reg_one_1/r0" 4.204
-cap "r1" "reg_one_0/GND!" 5.232
-cap "r1" "reg_one_1/GND!" 18.312
-cap "reg_one_1/port0" "reg_one_1/port1" -11.5435
-cap "reg_one_1/GND!" "reg_one_1/r1" 4.204
-cap "reg_one_0/GND!" "reg_one_0/w" 1.654
-cap "reg_one_1/GND!" "reg_one_0/w" 63.098
-cap "Vdd!" "reg_one_0/GND!" 5.232
-cap "reg_one_1/GND!" "Vdd!" 19.75
-cap "reg_one_1/a_4_n13#" "reg_one_1/GND!" 26.903
-cap "reg_one_0/GND!" "reg_one_1/r0" 2.442
-cap "reg_one_1/port0" "reg_one_0/w" 3.42
-cap "reg_one_1/GND!" "reg_one_1/r0" 5.291
-cap "reg_one_1/a_4_n13#" "Vdd!" 32.369
-cap "r1" "reg_one_1/r0" 4.204
-cap "reg_one_1/GND!" "reg_one_1/a_21_n13#" 4.74
-cap "reg_one_0/w" "reg_one_1/port1" 34.404
+cap "reg_one_0/w_n11_n27#" "reg_one_0/Vdd!" 206.523
+cap "reg_one_0/Vdd!" "reg_one_0/a_4_n13#" 53.115
+cap "reg_one_0/w_n11_n27#" "reg_one_0/tmp" 31.476
+subcap "port61" -26.044
+subcap "port60" -20.234
+cap "reg_one_1/w_n11_n27#" "reg_one_1/r0" 6.928
+cap "reg_one_1/r0" "Vdd!" 2.974
+cap "reg_one_1/w_n11_n27#" "reg_one_0/w_n11_n27#" 6.976
+cap "reg_one_1/w_n11_n27#" "reg_one_0/w" 42.578
+cap "reg_one_0/w_n11_n27#" "Vdd!" 6.976
+cap "reg_one_1/port1" "reg_one_0/w" 34.404
+cap "reg_one_1/w_n11_n27#" "reg_one_1/a_21_n13#" 4.74
+cap "reg_one_1/w_n11_n27#" "r1" 19.184
+cap "reg_one_1/port1" "reg_one_1/port0" -11.5435
+cap "reg_one_0/w_n11_n27#" "reg_one_1/r0" 3.256
+cap "reg_one_1/w_n11_n27#" "reg_one_1/a_4_n13#" 17.421
+cap "reg_one_0/w_n11_n27#" "reg_one_0/w" 1.654
+cap "reg_one_1/a_4_n13#" "Vdd!" 25.423
+cap "reg_one_1/r0" "r1" 4.204
+cap "reg_one_0/w_n11_n27#" "r1" 6.976
+cap "reg_one_1/w_n11_n27#" "Vdd!" 22.884
+cap "reg_one_1/port0" "reg_one_0/w" 3.78
+cap "reg_one_1/w_n11_n27#" "reg_one_1/r1" 1.744
 subcap "in6" -31.328
-cap "reg_one_1/in" "reg_one_1/r1" 1.5
-cap "reg_one_1/a_4_n13#" "reg_one_1/Vdd!" 33.426
-cap "reg_one_1/Vdd!" "reg_one_1/r1" 35.014
-cap "reg_one_1/w" "GND!" 5.13
-cap "reg_one_1/GND!" "reg_one_1/r1" 23.544
-cap "GND!" "reg_one_1/Vdd!" 131.414
-cap "r0" "reg_one_1/Vdd!" 20.35
-cap "reg_one_1/w" "reg_one_1/Vdd!" 16.744
-cap "reg_one_1/a_16_27#" "GND!" 15.506
-cap "reg_one_1/GND!" "r0" 10.989
-cap "reg_one_1/w" "reg_one_1/GND!" 290.544
-cap "reg_one_1/GND!" "GND!" 46.603
-cap "r0" "reg_one_1/r1" 42.4583
-cap "GND!" "reg_one_1/a_4_n13#" 22.162
-cap "reg_one_1/Vdd!" "reg_one_1/in" 13.668
+cap "reg_one_1/Vdd!" "reg_one_1/w_n11_n27#" 0.246
+cap "reg_one_1/r1" "reg_one_1/w_n11_n27#" 0.872
+cap "reg_one_1/w" "reg_one_1/w_n11_n27#" 0.492
 cap "reg_one_1/tmp" "GND!" 31.476
-cap "reg_one_1/GND!" "reg_one_1/Vdd!" 58.919
+cap "reg_one_1/w_n11_n27#" "reg_one_1/Vdd!" 58.919
+cap "reg_one_1/w" "reg_one_1/a_33_32#" 9.66
+cap "reg_one_1/in" "reg_one_1/Vdd!" 13.668
 cap "reg_one_1/a_21_n13#" "GND!" 12.12
-cap "reg_one_2/port1" "reg_one_2/port0" -11.5435
-cap "reg_one_2/port0" "w" 3.42
-cap "reg_one_2/r0" "reg_one_2/r1" 46.6623
-cap "reg_one_2/r1" "reg_one_2/GND!" 22.516
-cap "reg_one_2/a_4_n13#" "reg_one_2/Vdd!" 53.115
-cap "w" "reg_one_2/GND!" 166.298
-cap "reg_one_2/a_21_n13#" "reg_one_2/GND!" 16.86
-cap "reg_one_2/r0" "reg_one_2/Vdd!" 13.972
-cap "reg_one_2/Vdd!" "reg_one_2/GND!" 84.514
+cap "reg_one_1/r1" "reg_one_1/w_n11_n27#" 23.544
+cap "reg_one_1/in" "reg_one_1/r1" 1.5
+cap "reg_one_1/Vdd!" "GND!" 131.964
+cap "reg_one_1/w_n11_n27#" "r0" 0.407
+cap "reg_one_1/a_16_27#" "GND!" 14.574
+cap "reg_one_1/w" "reg_one_1/w_n11_n27#" 167.646
+cap "reg_one_1/w_n11_n27#" "r0" 10.989
+cap "reg_one_1/w" "GND!" 5.698
+cap "reg_one_1/a_4_n13#" "GND!" 31.644
+cap "reg_one_1/r1" "reg_one_1/Vdd!" 35.014
+cap "reg_one_1/w" "reg_one_1/Vdd!" 21.648
+cap "reg_one_1/w_n11_n27#" "GND!" 46.281
+cap "reg_one_1/Vdd!" "r0" 20.35
+cap "reg_one_1/r1" "r0" 42.4583
+cap "reg_one_1/a_4_n13#" "reg_one_1/Vdd!" 40.372
+subcap "port51" -5.81
+cap "reg_one_2/w_n11_n27#" "w" 95.99
+cap "reg_one_2/w_n11_n27#" "reg_one_2/a_21_n13#" 14.7
+cap "reg_one_2/Vdd!" "reg_one_2/a_4_n13#" 53.115
+cap "reg_one_2/Vdd!" "reg_one_2/w_n11_n27#" 87.402
+cap "reg_one_2/w_n11_n27#" "reg_one_2/r1" 21.8
+cap "reg_one_2/Vdd!" "reg_one_2/r0" 11.928
+cap "reg_one_2/r1" "reg_one_2/r0" 46.6623
 cap "reg_one_2/port1" "w" 34.404
-cap "reg_one_2/r1" "reg_one_2/Vdd!" 12.342
-cap "reg_one_2/Vdd!" "w" 7.728
-cap "reg_one_2/a_4_n13#" "reg_one_2/GND!" 36.385
-cap "reg_one_2/r0" "reg_one_2/GND!" 5.291
+cap "reg_one_2/w_n11_n27#" "reg_one_2/a_4_n13#" 36.385
+cap "reg_one_2/port1" "reg_one_2/port0" -11.5435
+cap "reg_one_2/Vdd!" "w" 10.824
+cap "reg_one_2/w_n11_n27#" "reg_one_2/r0" 7.335
+cap "reg_one_2/port0" "w" 3.78
+cap "reg_one_2/Vdd!" "reg_one_2/r1" 11.698
 subcap "in5" -31.328
-cap "reg_one_2/r1" "reg_one_2/in" 1.5
-cap "reg_one_2/GND!" "r0" 10.989
-cap "reg_one_2/w" "reg_one_2/Vdd!" 9.016
-cap "GND!" "reg_one_2/Vdd!" 66.65
-cap "reg_one_2/GND!" "reg_one_2/Vdd!" 58.919
-cap "GND!" "reg_one_2/w" 5.13
-cap "reg_one_2/GND!" "reg_one_2/w" 187.344
-cap "GND!" "reg_one_2/GND!" 46.603
-cap "reg_one_2/r1" "reg_one_2/Vdd!" 22.672
-cap "reg_one_2/r1" "reg_one_2/GND!" 23.544
-cap "GND!" "reg_one_2/tmp" 31.476
-cap "reg_one_2/in" "reg_one_2/Vdd!" 13.668
-cap "r0" "reg_one_2/Vdd!" 10.582
-cap "GND!" "reg_one_2/a_16_27#" 15.506
-subcap "in4" -106.486
-cap "reg_one_3/GND!" "reg_one_3/a_16_27#" 11.7
-cap "reg_one_3/GND!" "reg_one_3/a_4_n13#" 36.385
-cap "reg_one_3/GND!" "reg_one_3/r1" 22.516
-cap "reg_one_3/GND!" "w" 269.498
-cap "reg_one_3/Vdd!" "reg_one_3/r0" 23.74
-cap "reg_one_3/port1" "w" 34.404
-cap "reg_one_3/w" "reg_one_3/GND!" 3.332
-cap "reg_one_3/Vdd!" "reg_one_3/GND!" 149.894
-cap "reg_one_3/port0" "reg_one_3/port1" -11.5435
-cap "reg_one_3/port0" "w" 3.42
+cap "reg_one_2/a_16_27#" "GND!" 14.574
+cap "reg_one_2/w" "GND!" 5.698
+cap "reg_one_2/Vdd!" "reg_one_2/w" 10.824
+cap "reg_one_2/Vdd!" "r0" 11.396
+cap "reg_one_2/w_n11_n27#" "reg_one_2/w" 114.726
+cap "reg_one_2/w_n11_n27#" "r0" 10.989
+cap "GND!" "reg_one_2/a_21_n13#" 4.26
+cap "reg_one_2/in" "reg_one_2/r1" 1.5
+cap "reg_one_2/Vdd!" "reg_one_2/r1" 23.316
+cap "reg_one_2/Vdd!" "reg_one_2/in" 13.668
+cap "reg_one_2/Vdd!" "GND!" 67.692
+cap "reg_one_2/w_n11_n27#" "reg_one_2/r1" 23.544
+cap "reg_one_2/w_n11_n27#" "GND!" 46.281
+cap "reg_one_2/w_n11_n27#" "reg_one_2/Vdd!" 58.919
+cap "reg_one_2/tmp" "GND!" 31.476
+cap "reg_one_2/w" "reg_one_2/a_33_32#" 9.66
+subcap "port41" -5.81
+subcap "in4" -132.01
+cap "reg_one_3/w_n11_n27#" "reg_one_3/a_21_n13#" 16.86
 cap "reg_one_3/Vdd!" "reg_one_3/a_4_n13#" 53.115
-cap "reg_one_3/Vdd!" "reg_one_3/r1" 33.27
-cap "reg_one_3/tmp" "reg_one_3/GND!" 3.732
-cap "reg_one_3/GND!" "reg_one_3/r0" 5.291
-cap "reg_one_3/Vdd!" "w" 15.456
-cap "reg_one_3/GND!" "reg_one_3/a_21_n13#" 16.86
-cap "reg_one_3/r0" "reg_one_3/r1" 46.6623
-subcap "in4" -35.96
-subcap "port31" -101.055
-cap "reg_one_3/w" "reg_one_4/GND!" 1.23
-cap "reg_one_3/w" "reg_one_3/Vdd!" 1.288
-cap "reg_one_3/GND!" "Vdd!" 58.919
-cap "reg_one_4/GND!" "reg_one_3/Vdd!" 1.27
-cap "reg_one_3/in" "Vdd!" 13.668
-cap "reg_one_3/w" "reg_one_3/GND!" 84.144
-cap "reg_one_4/GND!" "reg_one_3/tmp" 27.744
-cap "reg_one_4/r0" "reg_one_3/Vdd!" 0.814
-cap "reg_one_4/GND!" "reg_one_3/GND!" 46.603
-cap "r1" "reg_one_3/Vdd!" 1.744
-cap "reg_one_3/GND!" "reg_one_4/r0" 10.989
-cap "reg_one_4/GND!" "reg_one_3/w" 0.814
-cap "reg_one_3/GND!" "r1" 23.544
-cap "reg_one_3/in" "r1" 1.5
-cap "Vdd!" "reg_one_3/Vdd!" 1.744
-cap "reg_one_3/a_16_27#" "reg_one_4/GND!" 4.052
+cap "reg_one_3/Vdd!" "reg_one_3/r0" 21.696
+cap "reg_one_3/r1" "reg_one_3/Vdd!" 31.526
+cap "reg_one_3/port1" "w" 34.404
+cap "reg_one_3/Vdd!" "w" 20.172
+cap "reg_one_3/a_33_32#" "w" 4.2
+cap "reg_one_3/w" "reg_one_3/w_n11_n27#" 2.518
+cap "reg_one_3/w_n11_n27#" "reg_one_3/a_4_n13#" 36.385
+cap "reg_one_3/a_16_27#" "reg_one_3/w_n11_n27#" 10.2
+cap "reg_one_3/w_n11_n27#" "reg_one_3/r0" 7.335
+cap "reg_one_3/port0" "w" 3.78
+cap "reg_one_3/r1" "reg_one_3/w_n11_n27#" 21.8
+cap "reg_one_3/tmp" "reg_one_3/w_n11_n27#" 1.26
+cap "reg_one_3/w_n11_n27#" "w" 148.91
+cap "reg_one_3/port1" "reg_one_3/port0" -11.5435
+cap "reg_one_3/r1" "reg_one_3/r0" 46.6623
+cap "reg_one_3/Vdd!" "reg_one_3/w_n11_n27#" 153.672
+subcap "in4" -31.328
+cap "reg_one_3/a_33_32#" "reg_one_3/w" 5.46
+cap "reg_one_3/w_n11_n27#" "r1" 23.544
+cap "r1" "reg_one_3/in" 1.5
+cap "reg_one_3/Vdd!" "reg_one_4/r0" 1.628
+cap "reg_one_3/Vdd!" "reg_one_3/w" 1.476
+cap "reg_one_3/Vdd!" "GND!" 1.422
+cap "GND!" "reg_one_3/a_16_27#" 4.374
+cap "reg_one_3/Vdd!" "r1" 3.488
+cap "reg_one_3/tmp" "GND!" 30.216
+cap "reg_one_3/w_n11_n27#" "Vdd!" 58.919
+cap "Vdd!" "reg_one_3/in" 13.668
+cap "GND!" "reg_one_3/w" 1.23
+cap "GND!" "reg_one_3/w" 1.95
+cap "reg_one_3/w_n11_n27#" "reg_one_4/r0" 10.989
+cap "reg_one_3/w_n11_n27#" "reg_one_3/w" 61.806
+cap "reg_one_3/Vdd!" "Vdd!" 3.488
+cap "reg_one_3/w_n11_n27#" "GND!" 46.281
+subcap "port31" -5.81
 subcap "in3" -31.328
-cap "reg_one_4/tmp" "reg_one_4/GND!" 31.476
-cap "reg_one_4/Vdd!" "reg_one_4/GND!" 200.735
-cap "reg_one_4/Vdd!" "reg_one_4/in" 13.668
-cap "reg_one_4/a_4_n13#" "reg_one_4/Vdd!" 53.115
-cap "reg_one_4/Vdd!" "reg_one_4/r0" 24.554
-cap "reg_one_4/w" "reg_one_4/GND!" 355.888
-cap "reg_one_4/r1" "reg_one_4/GND!" 37.34
+cap "reg_one_4/port1" "reg_one_4/port0" -11.5435
+cap "reg_one_4/a_33_32#" "reg_one_4/w" 9.66
+cap "reg_one_4/w_n11_n27#" "reg_one_4/r1" 34.88
+cap "reg_one_4/Vdd!" "reg_one_4/w" 21.648
+cap "reg_one_4/w_n11_n27#" "reg_one_4/Vdd!" 201.665
+cap "reg_one_4/w_n11_n27#" "reg_one_4/a_4_n13#" 36.385
 cap "reg_one_4/in" "reg_one_4/r1" 1.5
-cap "reg_one_4/port0" "reg_one_4/port1" -11.5435
+cap "reg_one_4/w_n11_n27#" "reg_one_4/r0" 13.44
+cap "reg_one_4/Vdd!" "reg_one_4/r1" 35.014
+cap "reg_one_4/tmp" "reg_one_4/w_n11_n27#" 28.476
 cap "reg_one_4/w" "reg_one_4/port1" 34.404
 cap "reg_one_4/r1" "reg_one_4/r0" 46.6623
-cap "reg_one_4/a_21_n13#" "reg_one_4/GND!" 16.86
-cap "reg_one_4/a_4_n13#" "reg_one_4/GND!" 36.385
-cap "reg_one_4/GND!" "reg_one_4/r0" 12.21
-cap "reg_one_4/w" "reg_one_4/Vdd!" 16.744
-cap "reg_one_4/a_16_27#" "reg_one_4/GND!" 15.506
-cap "reg_one_4/Vdd!" "reg_one_4/r1" 35.014
-cap "reg_one_4/port0" "reg_one_4/w" 3.42
-subcap "port20" -19.914
+cap "reg_one_4/in" "reg_one_4/Vdd!" 13.668
+cap "reg_one_4/a_16_27#" "reg_one_4/w_n11_n27#" 14.574
+cap "reg_one_4/w_n11_n27#" "reg_one_4/w" 211.808
+cap "reg_one_4/Vdd!" "reg_one_4/a_4_n13#" 53.115
+cap "reg_one_4/w_n11_n27#" "reg_one_4/a_21_n13#" 16.86
+cap "reg_one_4/Vdd!" "reg_one_4/r0" 23.324
+cap "reg_one_4/w" "reg_one_4/port0" 3.78
+subcap "port21" -10.124
+subcap "port20" -26.218
+cap "reg_one_5/a_21_n13#" "reg_one_5/w_n11_n27#" 2.76
+cap "reg_one_5/r0" "Vdd!" 2.974
+cap "reg_one_4/w_n11_n27#" "reg_one_5/r0" 4.884
+cap "reg_one_5/w_n11_n27#" "Vdd!" 21.162
+cap "reg_one_5/port1" "reg_one_4/w" 34.404
+cap "reg_one_5/w_n11_n27#" "reg_one_4/w_n11_n27#" 8.72
+cap "reg_one_5/w_n11_n27#" "reg_one_4/tmp" 5.94
 cap "reg_one_5/r0" "r1" 4.204
-cap "reg_one_4/w" "reg_one_5/GND!" 45.576
+cap "reg_one_5/w_n11_n27#" "r1" 15.696
+cap "reg_one_5/w_n11_n27#" "reg_one_4/w" 34.988
+cap "reg_one_4/w_n11_n27#" "Vdd!" 14.448
+cap "reg_one_5/w_n11_n27#" "reg_one_5/r0" 5.3
+cap "reg_one_5/r1" "reg_one_5/w_n11_n27#" 1.744
 cap "reg_one_5/port1" "reg_one_5/port0" -11.5435
-cap "reg_one_5/GND!" "r1" 15.696
-cap "reg_one_5/r1" "reg_one_5/GND!" 4.204
-cap "reg_one_5/GND!" "reg_one_5/r0" 4.07
-cap "reg_one_5/a_4_n13#" "Vdd!" 8.61
-cap "reg_one_4/GND!" "r1" 8.72
-cap "Vdd!" "reg_one_5/r0" 4.204
-cap "reg_one_4/w" "reg_one_4/GND!" 2.884
-cap "reg_one_4/GND!" "reg_one_5/r0" 4.07
-cap "Vdd!" "reg_one_5/GND!" 18.766
-cap "reg_one_4/w" "reg_one_5/port0" 3.996
-cap "reg_one_4/GND!" "reg_one_5/GND!" 8.72
-cap "Vdd!" "reg_one_4/GND!" 11.448
-cap "reg_one_4/w" "reg_one_5/port1" 34.404
-cap "reg_one_5/GND!" "reg_one_5/a_21_n13#" 4.08
-subcap "port20" -24.722
+cap "reg_one_5/port0" "reg_one_4/w" 2.52
+cap "reg_one_4/w_n11_n27#" "r1" 10.464
+cap "reg_one_4/w_n11_n27#" "reg_one_4/w" 3.376
+cap "reg_one_5/a_4_n13#" "Vdd!" 7.29
+subcap "port20" -14.438
 subcap "in2" -31.328
-cap "r0" "reg_one_5/Vdd!" 20.35
-cap "reg_one_5/w" "reg_one_5/Vdd!" 16.744
-cap "reg_one_5/r1" "reg_one_5/Vdd!" 35.014
-cap "reg_one_5/a_4_n13#" "GND!" 36.385
-cap "reg_one_5/a_16_27#" "GND!" 15.506
-cap "reg_one_5/a_21_n13#" "GND!" 12.78
-cap "reg_one_5/GND!" "reg_one_5/Vdd!" 58.919
-cap "GND!" "reg_one_5/GND!" 0.492
-cap "reg_one_5/r1" "reg_one_5/in" 1.5
-cap "r0" "reg_one_5/GND!" 1.221
-cap "reg_one_5/w" "GND!" 5.13
-cap "reg_one_5/w" "reg_one_5/GND!" 0.322
-cap "reg_one_5/r1" "reg_one_5/GND!" 2.616
-cap "reg_one_5/GND!" "GND!" 46.603
-cap "reg_one_5/r1" "r0" 42.4583
-cap "reg_one_5/w" "reg_one_5/port0" 1.944
-cap "reg_one_5/in" "reg_one_5/Vdd!" 13.668
-cap "reg_one_5/a_4_n13#" "reg_one_5/Vdd!" 44.505
-cap "reg_one_5/GND!" "r0" 10.989
-cap "reg_one_5/GND!" "reg_one_5/w" 307.744
-cap "reg_one_5/GND!" "reg_one_5/Vdd!" 0.984
-cap "reg_one_5/r1" "reg_one_5/GND!" 23.544
-cap "GND!" "reg_one_5/Vdd!" 131.414
+cap "reg_one_5/w_n11_n27#" "GND!" 46.281
+cap "reg_one_5/Vdd!" "r0" 20.35
 cap "reg_one_5/tmp" "GND!" 31.476
-cap "reg_one_6/Vdd!" "w" 6.44
-cap "reg_one_6/port0" "reg_one_6/port1" -11.5435
-cap "reg_one_6/r1" "reg_one_6/r0" 46.6623
-cap "reg_one_6/GND!" "w" 149.098
-cap "reg_one_6/Vdd!" "reg_one_6/r0" 12.344
-cap "reg_one_6/port0" "w" 3.42
-cap "reg_one_6/Vdd!" "reg_one_6/r1" 11.054
-cap "reg_one_6/GND!" "reg_one_6/r0" 5.291
-cap "reg_one_6/GND!" "reg_one_6/r1" 22.516
+cap "reg_one_5/r1" "r0" 42.4583
+cap "reg_one_5/w_n11_n27#" "reg_one_5/w" 0.492
+cap "reg_one_5/Vdd!" "reg_one_5/in" 13.668
+cap "reg_one_5/a_16_27#" "GND!" 14.574
+cap "reg_one_5/Vdd!" "reg_one_5/a_4_n13#" 45.825
+cap "reg_one_5/Vdd!" "reg_one_5/w_n11_n27#" 1.968
+cap "reg_one_5/in" "reg_one_5/r1" 1.5
+cap "reg_one_5/w_n11_n27#" "reg_one_5/w" 176.466
+cap "reg_one_5/w" "GND!" 5.698
+cap "reg_one_5/w_n11_n27#" "reg_one_5/r1" 4.36
+cap "reg_one_5/a_21_n13#" "GND!" 14.1
+cap "reg_one_5/w_n11_n27#" "reg_one_5/Vdd!" 58.919
+cap "reg_one_5/Vdd!" "GND!" 131.964
+cap "reg_one_5/w_n11_n27#" "r0" 2.035
+cap "reg_one_5/w_n11_n27#" "reg_one_5/r1" 23.544
+cap "reg_one_5/w_n11_n27#" "r0" 10.989
+cap "reg_one_5/Vdd!" "reg_one_5/w" 21.648
+cap "reg_one_5/a_4_n13#" "GND!" 36.385
+cap "reg_one_5/w_n11_n27#" "GND!" 1.476
+cap "reg_one_5/w" "reg_one_5/port0" 3.78
+cap "reg_one_5/Vdd!" "reg_one_5/r1" 35.014
+cap "reg_one_5/w" "reg_one_5/a_33_32#" 9.66
+subcap "port11" -5.81
+cap "reg_one_6/w_n11_n27#" "reg_one_6/Vdd!" 86.172
+cap "reg_one_6/port1" "reg_one_6/port0" -11.5435
+cap "reg_one_6/w_n11_n27#" "reg_one_6/a_4_n13#" 36.385
+cap "reg_one_6/a_21_n13#" "reg_one_6/w_n11_n27#" 8.7
+cap "reg_one_6/r0" "reg_one_6/r1" 38.1707
+cap "w" "reg_one_6/w_n11_n27#" 87.17
+cap "w" "reg_one_6/port1" 34.404
+cap "reg_one_6/w_n11_n27#" "reg_one_6/r1" 21.8
 cap "reg_one_6/Vdd!" "reg_one_6/a_4_n13#" 53.115
-cap "reg_one_6/GND!" "reg_one_6/Vdd!" 83.53
-cap "reg_one_6/GND!" "reg_one_6/a_21_n13#" 12.54
-cap "reg_one_6/GND!" "reg_one_6/a_4_n13#" 36.385
-cap "reg_one_6/port1" "w" 34.404
+cap "reg_one_6/r1" "reg_one_6/Vdd!" 9.748
+cap "w" "reg_one_6/Vdd!" 8.856
+cap "w" "reg_one_6/port0" 3.78
+cap "reg_one_6/r0" "reg_one_6/w_n11_n27#" 7.335
+cap "reg_one_6/r0" "reg_one_6/Vdd!" 10.3
 subcap "in1" -31.328
-cap "reg_one_6/Vdd!" "GND!" 67.634
-cap "r0" "reg_one_6/Vdd!" 12.21
-cap "reg_one_6/Vdd!" "reg_one_6/r1" 23.96
-cap "GND!" "reg_one_6/a_16_27#" 15.506
-cap "reg_one_6/GND!" "reg_one_6/w" 204.544
-cap "reg_one_6/in" "reg_one_6/r1" 1.5
-cap "reg_one_6/Vdd!" "reg_one_6/w" 10.304
-cap "reg_one_6/GND!" "reg_one_6/Vdd!" 58.919
-cap "reg_one_6/w" "GND!" 5.13
-cap "reg_one_6/a_21_n13#" "GND!" 6.42
-cap "reg_one_6/in" "reg_one_6/Vdd!" 13.668
-cap "reg_one_6/GND!" "GND!" 46.603
-cap "r0" "reg_one_6/GND!" 10.989
-cap "reg_one_6/GND!" "reg_one_6/r1" 23.544
+cap "reg_one_6/Vdd!" "reg_one_6/r1" 22.806
+cap "reg_one_6/Vdd!" "reg_one_6/w" 12.792
+cap "reg_one_6/w_n11_n27#" "reg_one_6/Vdd!" 58.919
+cap "reg_one_6/w" "GND!" 5.698
+cap "reg_one_6/w_n11_n27#" "GND!" 46.281
+cap "reg_one_6/Vdd!" "r0" 13.024
+cap "reg_one_6/w" "reg_one_6/a_33_32#" 9.66
 cap "GND!" "reg_one_6/tmp" 31.476
-subcap "in0" -170.582
-cap "reg_one_7/GND!" "reg_one_7/a_4_n13#" 36.385
-cap "reg_one_7/GND!" "reg_one_7/a_21_n13#" 16.86
-cap "reg_one_7/r0" "reg_one_7/GND!" 5.291
-cap "reg_one_7/r1" "reg_one_7/GND!" 22.516
-cap "reg_one_7/GND!" "reg_one_7/Vdd!" 140.26
-cap "reg_one_7/GND!" "reg_one_7/tmp" 1.26
-cap "reg_one_7/GND!" "reg_one_7/a_16_27#" 11.7
-cap "w" "reg_one_7/Vdd!" 14.168
+cap "reg_one_6/Vdd!" "reg_one_6/in" 13.668
+cap "reg_one_6/w_n11_n27#" "reg_one_6/r1" 23.544
+cap "GND!" "reg_one_6/a_16_27#" 14.574
+cap "reg_one_6/w_n11_n27#" "reg_one_6/w" 123.546
+cap "reg_one_6/a_21_n13#" "GND!" 8.16
+cap "reg_one_6/r1" "r0" 8.49167
+cap "reg_one_6/Vdd!" "GND!" 68.922
+cap "reg_one_6/w_n11_n27#" "r0" 10.989
+cap "reg_one_6/in" "reg_one_6/r1" 1.5
+subcap "port01" -5.81
+subcap "in0" -204.522
+cap "reg_one_7/w_n11_n27#" "w" 140.09
+cap "reg_one_7/w_n11_n27#" "reg_one_7/tmp" 1.26
+cap "reg_one_7/w_n11_n27#" "reg_one_7/a_16_27#" 10.2
 cap "reg_one_7/port0" "reg_one_7/port1" -11.5435
-cap "reg_one_7/GND!" "reg_one_7/w" 1.95
-cap "reg_one_7/r1" "reg_one_7/r0" 46.6623
+cap "reg_one_7/Vdd!" "reg_one_7/w_n11_n27#" 134.708
+cap "reg_one_7/w_n11_n27#" "reg_one_7/a_21_n13#" 16.86
+cap "reg_one_7/Vdd!" "reg_one_7/a_4_n13#" 53.115
+cap "reg_one_7/w_n11_n27#" "reg_one_7/r0" 7.335
 cap "w" "reg_one_7/port1" 34.404
-cap "reg_one_7/a_4_n13#" "reg_one_7/Vdd!" 53.115
-cap "reg_one_7/r0" "reg_one_7/Vdd!" 22.112
-cap "reg_one_7/port0" "w" 3.42
-cap "reg_one_7/GND!" "w" 252.298
-cap "reg_one_7/r1" "reg_one_7/Vdd!" 29.782
-subcap "in0" -46.464
-cap "reg_one_7/Vdd!" "r1" 5.232
-cap "GND!" "reg_one_7/Vdd!" 22.162
-cap "reg_one_7/in" "r1" 1.5
-cap "reg_one_7/GND!" "r0" 10.989
-cap "GND!" "reg_one_7/GND!" 46.603
-cap "reg_one_7/Vdd!" "Vdd!" 21.726
-cap "GND!" "reg_one_7/w" 1.23
-cap "reg_one_7/Vdd!" "r0" 2.442
-cap "reg_one_7/Vdd!" "GND!" 1.422
-cap "Vdd!" "reg_one_7/GND!" 58.919
-cap "reg_one_7/w" "reg_one_7/GND!" 101.344
-cap "GND!" "reg_one_7/tmp" 31.476
-cap "reg_one_7/Vdd!" "Vdd!" 3.98
-cap "reg_one_7/Vdd!" "reg_one_7/w" 2.576
-cap "GND!" "reg_one_7/a_16_27#" 3.806
+cap "reg_one_7/Vdd!" "reg_one_7/r1" 28.038
+cap "reg_one_7/r1" "reg_one_7/r0" 46.6623
+cap "reg_one_7/Vdd!" "w" 19.188
+cap "reg_one_7/w_n11_n27#" "reg_one_7/a_4_n13#" 36.385
+cap "w" "reg_one_7/a_33_32#" 2.52
+cap "reg_one_7/w_n11_n27#" "reg_one_7/r1" 21.8
+cap "reg_one_7/Vdd!" "reg_one_7/r0" 20.068
+cap "reg_one_7/port0" "w" 3.78
+cap "reg_one_7/w_n11_n27#" "reg_one_7/w" 2.518
+subcap "in0" -42.68
+cap "GND!" "reg_one_7/Vdd!" 1.422
+cap "reg_one_7/a_16_27#" "GND!" 4.374
+cap "r0" "reg_one_7/w_n11_n27#" 10.989
+cap "reg_one_7/w_n11_n27#" "Vdd!" 58.919
+cap "reg_one_7/tmp" "GND!" 31.476
+cap "reg_one_7/Vdd!" "reg_one_7/w" 2.46
 cap "reg_one_7/in" "Vdd!" 13.668
-cap "GND!" "reg_one_7/w" 1.95
-cap "r1" "reg_one_7/GND!" 23.544
-merge "reg_one_7/GND!" "reg_one_6/GND!" -973.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4435 -1834 0 0 0 0 0 0
-merge "reg_one_6/GND!" "reg_one_5/GND!"
-merge "reg_one_5/GND!" "reg_one_4/GND!"
-merge "reg_one_4/GND!" "reg_one_3/GND!"
-merge "reg_one_3/GND!" "reg_one_2/GND!"
-merge "reg_one_2/GND!" "reg_one_1/GND!"
-merge "reg_one_1/GND!" "reg_one_0/GND!"
-merge "reg_one_0/GND!" "GND!"
+cap "reg_one_7/Vdd!" "GND!" 31.644
+cap "GND!" "reg_one_7/w" 1.23
+cap "r1" "reg_one_7/w_n11_n27#" 23.544
+cap "reg_one_7/w_n11_n27#" "GND!" 46.281
+cap "r0" "reg_one_7/Vdd!" 3.256
+cap "Vdd!" "reg_one_7/Vdd!" 4.472
+cap "reg_one_7/in" "r1" 1.5
+cap "reg_one_7/w_n11_n27#" "reg_one_7/w" 70.626
+cap "reg_one_7/a_33_32#" "reg_one_7/w" 7.14
+cap "reg_one_7/Vdd!" "Vdd!" 28.672
+cap "reg_one_7/w" "GND!" 1.95
+cap "r1" "reg_one_7/Vdd!" 6.976
 merge "reg_one_2/in" "in5" -54.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -30 0 0 0 0 0 0 0 0 0 0
-merge "reg_one_7/w" "reg_one_6/w" -794.548 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1825 -810 0 0 0 0 0 0
+merge "reg_one_7/w" "reg_one_6/w" -843.71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2050 -886 0 0 0 0 0 0
 merge "reg_one_6/w" "reg_one_5/w"
 merge "reg_one_5/w" "reg_one_4/w"
 merge "reg_one_4/w" "reg_one_3/w"
@@ -356,8 +371,16 @@ merge "reg_one_3/w" "reg_one_2/w"
 merge "reg_one_2/w" "reg_one_1/w"
 merge "reg_one_1/w" "reg_one_0/w"
 merge "reg_one_0/w" "w"
+merge "reg_one_7/w_n11_n27#" "reg_one_6/w_n11_n27#" -845.448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2560 -1129 0 0 0 0 0 0
+merge "reg_one_6/w_n11_n27#" "reg_one_5/w_n11_n27#"
+merge "reg_one_5/w_n11_n27#" "reg_one_4/w_n11_n27#"
+merge "reg_one_4/w_n11_n27#" "reg_one_3/w_n11_n27#"
+merge "reg_one_3/w_n11_n27#" "reg_one_2/w_n11_n27#"
+merge "reg_one_2/w_n11_n27#" "reg_one_1/w_n11_n27#"
+merge "reg_one_1/w_n11_n27#" "reg_one_0/w_n11_n27#"
+merge "reg_one_0/w_n11_n27#" "GND!"
 merge "reg_one_5/in" "in2" -54.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -30 0 0 0 0 0 0 0 0 0 0
-merge "reg_one_7/r0" "reg_one_6/r0" -856.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2310 -1029 0 0 0 0 0 0 0 0
+merge "reg_one_7/r0" "reg_one_6/r0" -872.041 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2360 -1049 0 0 0 0 0 0 0 0
 merge "reg_one_6/r0" "reg_one_5/r0"
 merge "reg_one_5/r0" "reg_one_4/r0"
 merge "reg_one_4/r0" "reg_one_3/r0"
@@ -365,8 +388,8 @@ merge "reg_one_3/r0" "reg_one_2/r0"
 merge "reg_one_2/r0" "reg_one_1/r0"
 merge "reg_one_1/r0" "reg_one_0/r0"
 merge "reg_one_0/r0" "r0"
-merge "reg_one_7/in" "in0" -30.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -30 0 0 0 0 0 0 0 0 0 0
-merge "reg_one_7/r1" "reg_one_6/r1" -894.494 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1920 -841 0 0 0 0 0 0
+merge "reg_one_7/in" "in0" -7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 -30 0 0 0 0 0 0 0 0 0 0
+merge "reg_one_7/r1" "reg_one_6/r1" -902.028 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1965 -845 0 0 0 0 0 0
 merge "reg_one_6/r1" "reg_one_5/r1"
 merge "reg_one_5/r1" "reg_one_4/r1"
 merge "reg_one_4/r1" "reg_one_3/r1"
@@ -374,7 +397,7 @@ merge "reg_one_3/r1" "reg_one_2/r1"
 merge "reg_one_2/r1" "reg_one_1/r1"
 merge "reg_one_1/r1" "reg_one_0/r1"
 merge "reg_one_0/r1" "r1"
-merge "reg_one_7/Vdd!" "reg_one_6/Vdd!" -958.786 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1940 -846 0 0 0 0 0 0
+merge "reg_one_7/Vdd!" "reg_one_6/Vdd!" -1000.99 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2425 -1045 0 0 0 0 0 0
 merge "reg_one_6/Vdd!" "reg_one_5/Vdd!"
 merge "reg_one_5/Vdd!" "reg_one_4/Vdd!"
 merge "reg_one_4/Vdd!" "reg_one_3/Vdd!"
@@ -384,20 +407,20 @@ merge "reg_one_1/Vdd!" "reg_one_0/Vdd!"
 merge "reg_one_0/Vdd!" "Vdd!"
 merge "reg_one_6/in" "in1" -54.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -30 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_4/in" "in3" -54.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -30 0 0 0 0 0 0 0 0 0 0
-merge "reg_one_3/in" "in4" -46.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -30 0 0 0 0 0 0 0 0 0 0
+merge "reg_one_3/in" "in4" -38.84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -30 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_1/in" "in6" -54.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -30 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_0/in" "in7" -54.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -30 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_7/port0" "port00" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_7/port1" "port01" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_6/port0" "port10" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_6/port1" "port11" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
-merge "reg_one_5/port0" "port20" -14.74 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 -12 0 0 0 0 0 0 0 0 0 0
+merge "reg_one_5/port0" "port20" -15.536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_5/port1" "port21" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
+merge "reg_one_4/port1" "port31" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_4/port0" "port30" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
-merge "reg_one_4/port1" "port31" -13.148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_0/port0" "port70" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_3/port0" "port40" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
-merge "reg_one_1/port0" "port60" -13.148 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 -12 0 0 0 0 0 0 0 0 0 0
+merge "reg_one_1/port0" "port60" -13.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_0/port1" "port71" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_3/port1" "port41" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0
 merge "reg_one_2/port0" "port50" -15.934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0 0 0

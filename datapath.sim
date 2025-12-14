@@ -191,132 +191,132 @@ p reg_2/reg_one_3/a_21_n13# ry4 reg_2/reg_one_3/a_39_5# 2 10 1181 1096
 p X_w reg_2/reg_one_3/a_16_27# Vdd! 2 10 1195 1126
 n reg_2/reg_one_3/tmp GND! reg_2/reg_one_3/a_54_n13# 2 5 1196 1079
 n reg_2/reg_one_3/tmp reg_2/reg_one_3/a_39_n13# GND! 2 5 1187 1079
-n inv2_0/out GND! staticizer_1/staticizer_one_0/a_77_n45# 2 5 -44 1787
-p staticizer_1/staticizer_one_0/a_77_n45# staticizer_1/staticizer_one_0/a_95_n27# data_out0 2 10 -68 1805
-n data_out0 staticizer_1/staticizer_one_0/a_60_n45# GND! 2 5 -35 1787
-n inv2_0/out staticizer_1/staticizer_one_0/a_95_n45# data_out0 2 5 -68 1787
-p staticizer_1/staticizer_one_0/a_60_n45# Vdd! staticizer_1/staticizer_one_0/a_95_n27# 2 10 -62 1805
-p inv2_0/out Vdd! staticizer_1/staticizer_one_0/a_77_n45# 2 10 -44 1805
-p data_out0 staticizer_1/staticizer_one_0/a_60_n45# Vdd! 2 10 -35 1805
-n staticizer_1/staticizer_one_0/a_60_n45# GND! staticizer_1/staticizer_one_0/a_95_n45# 2 5 -62 1787
-n inv2_0/out GND! staticizer_1/staticizer_one_1/a_77_n45# 2 5 -44 1611
+n staticizer_1/c GND! staticizer_1/staticizer_one_1/a_77_n45# 2 5 -44 1611
 p staticizer_1/staticizer_one_1/a_77_n45# staticizer_1/staticizer_one_1/a_95_n27# data_out1 2 10 -68 1629
 n data_out1 staticizer_1/staticizer_one_1/a_60_n45# GND! 2 5 -35 1611
-n inv2_0/out staticizer_1/staticizer_one_1/a_95_n45# data_out1 2 5 -68 1611
+n staticizer_1/c staticizer_1/staticizer_one_1/a_95_n45# data_out1 2 5 -68 1611
 p staticizer_1/staticizer_one_1/a_60_n45# Vdd! staticizer_1/staticizer_one_1/a_95_n27# 2 10 -62 1629
-p inv2_0/out Vdd! staticizer_1/staticizer_one_1/a_77_n45# 2 10 -44 1629
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_1/a_77_n45# 2 10 -44 1629
 p data_out1 staticizer_1/staticizer_one_1/a_60_n45# Vdd! 2 10 -35 1629
 n staticizer_1/staticizer_one_1/a_60_n45# GND! staticizer_1/staticizer_one_1/a_95_n45# 2 5 -62 1611
-n inv2_0/out GND! staticizer_1/staticizer_one_2/a_77_n45# 2 5 -44 1435
+n staticizer_1/c GND! staticizer_1/staticizer_one_0/a_77_n45# 2 5 -44 1787
+p staticizer_1/staticizer_one_0/a_77_n45# staticizer_1/staticizer_one_0/a_95_n27# data_out0 2 10 -68 1805
+n data_out0 staticizer_1/staticizer_one_0/a_60_n45# GND! 2 5 -35 1787
+n staticizer_1/c staticizer_1/staticizer_one_0/a_95_n45# data_out0 2 5 -68 1787
+p staticizer_1/staticizer_one_0/a_60_n45# Vdd! staticizer_1/staticizer_one_0/a_95_n27# 2 10 -62 1805
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_0/a_77_n45# 2 10 -44 1805
+p data_out0 staticizer_1/staticizer_one_0/a_60_n45# Vdd! 2 10 -35 1805
+n staticizer_1/staticizer_one_0/a_60_n45# GND! staticizer_1/staticizer_one_0/a_95_n45# 2 5 -62 1787
+n staticizer_1/c GND! staticizer_1/staticizer_one_2/a_77_n45# 2 5 -44 1435
 p staticizer_1/staticizer_one_2/a_77_n45# staticizer_1/staticizer_one_2/a_95_n27# data_out2 2 10 -68 1453
 n data_out2 staticizer_1/staticizer_one_2/a_60_n45# GND! 2 5 -35 1435
-n inv2_0/out staticizer_1/staticizer_one_2/a_95_n45# data_out2 2 5 -68 1435
+n staticizer_1/c staticizer_1/staticizer_one_2/a_95_n45# data_out2 2 5 -68 1435
 p staticizer_1/staticizer_one_2/a_60_n45# Vdd! staticizer_1/staticizer_one_2/a_95_n27# 2 10 -62 1453
-p inv2_0/out Vdd! staticizer_1/staticizer_one_2/a_77_n45# 2 10 -44 1453
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_2/a_77_n45# 2 10 -44 1453
 p data_out2 staticizer_1/staticizer_one_2/a_60_n45# Vdd! 2 10 -35 1453
 n staticizer_1/staticizer_one_2/a_60_n45# GND! staticizer_1/staticizer_one_2/a_95_n45# 2 5 -62 1435
-n inv2_0/out GND! staticizer_1/staticizer_one_3/a_77_n45# 2 5 -44 1259
+n staticizer_1/c GND! staticizer_1/staticizer_one_3/a_77_n45# 2 5 -44 1259
 p staticizer_1/staticizer_one_3/a_77_n45# staticizer_1/staticizer_one_3/a_95_n27# data_out3 2 10 -68 1277
 n data_out3 staticizer_1/staticizer_one_3/a_60_n45# GND! 2 5 -35 1259
-n inv2_0/out staticizer_1/staticizer_one_3/a_95_n45# data_out3 2 5 -68 1259
+n staticizer_1/c staticizer_1/staticizer_one_3/a_95_n45# data_out3 2 5 -68 1259
 p staticizer_1/staticizer_one_3/a_60_n45# Vdd! staticizer_1/staticizer_one_3/a_95_n27# 2 10 -62 1277
-p inv2_0/out Vdd! staticizer_1/staticizer_one_3/a_77_n45# 2 10 -44 1277
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_3/a_77_n45# 2 10 -44 1277
 p data_out3 staticizer_1/staticizer_one_3/a_60_n45# Vdd! 2 10 -35 1277
 n staticizer_1/staticizer_one_3/a_60_n45# GND! staticizer_1/staticizer_one_3/a_95_n45# 2 5 -62 1259
-n inv2_0/out GND! staticizer_1/staticizer_one_4/a_77_n45# 2 5 -44 1083
+n staticizer_1/c GND! staticizer_1/staticizer_one_4/a_77_n45# 2 5 -44 1083
 p staticizer_1/staticizer_one_4/a_77_n45# staticizer_1/staticizer_one_4/a_95_n27# data_out4 2 10 -68 1101
 n data_out4 staticizer_1/staticizer_one_4/a_60_n45# GND! 2 5 -35 1083
-n inv2_0/out staticizer_1/staticizer_one_4/a_95_n45# data_out4 2 5 -68 1083
+n staticizer_1/c staticizer_1/staticizer_one_4/a_95_n45# data_out4 2 5 -68 1083
 p staticizer_1/staticizer_one_4/a_60_n45# Vdd! staticizer_1/staticizer_one_4/a_95_n27# 2 10 -62 1101
-p inv2_0/out Vdd! staticizer_1/staticizer_one_4/a_77_n45# 2 10 -44 1101
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_4/a_77_n45# 2 10 -44 1101
 p data_out4 staticizer_1/staticizer_one_4/a_60_n45# Vdd! 2 10 -35 1101
 n staticizer_1/staticizer_one_4/a_60_n45# GND! staticizer_1/staticizer_one_4/a_95_n45# 2 5 -62 1083
-n inv2_0/out GND! staticizer_1/staticizer_one_5/a_77_n45# 2 5 -44 907
+n staticizer_1/c GND! staticizer_1/staticizer_one_5/a_77_n45# 2 5 -44 907
 p staticizer_1/staticizer_one_5/a_77_n45# staticizer_1/staticizer_one_5/a_95_n27# data_out5 2 10 -68 925
 n data_out5 staticizer_1/staticizer_one_5/a_60_n45# GND! 2 5 -35 907
-n inv2_0/out staticizer_1/staticizer_one_5/a_95_n45# data_out5 2 5 -68 907
+n staticizer_1/c staticizer_1/staticizer_one_5/a_95_n45# data_out5 2 5 -68 907
 p staticizer_1/staticizer_one_5/a_60_n45# Vdd! staticizer_1/staticizer_one_5/a_95_n27# 2 10 -62 925
-p inv2_0/out Vdd! staticizer_1/staticizer_one_5/a_77_n45# 2 10 -44 925
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_5/a_77_n45# 2 10 -44 925
 p data_out5 staticizer_1/staticizer_one_5/a_60_n45# Vdd! 2 10 -35 925
 n staticizer_1/staticizer_one_5/a_60_n45# GND! staticizer_1/staticizer_one_5/a_95_n45# 2 5 -62 907
-n inv2_0/out GND! staticizer_1/staticizer_one_6/a_77_n45# 2 5 -44 731
+n staticizer_1/c GND! staticizer_1/staticizer_one_6/a_77_n45# 2 5 -44 731
 p staticizer_1/staticizer_one_6/a_77_n45# staticizer_1/staticizer_one_6/a_95_n27# data_out6 2 10 -68 749
 n data_out6 staticizer_1/staticizer_one_6/a_60_n45# GND! 2 5 -35 731
-n inv2_0/out staticizer_1/staticizer_one_6/a_95_n45# data_out6 2 5 -68 731
+n staticizer_1/c staticizer_1/staticizer_one_6/a_95_n45# data_out6 2 5 -68 731
 p staticizer_1/staticizer_one_6/a_60_n45# Vdd! staticizer_1/staticizer_one_6/a_95_n27# 2 10 -62 749
-p inv2_0/out Vdd! staticizer_1/staticizer_one_6/a_77_n45# 2 10 -44 749
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_6/a_77_n45# 2 10 -44 749
 p data_out6 staticizer_1/staticizer_one_6/a_60_n45# Vdd! 2 10 -35 749
 n staticizer_1/staticizer_one_6/a_60_n45# GND! staticizer_1/staticizer_one_6/a_95_n45# 2 5 -62 731
-n inv2_0/out GND! staticizer_1/staticizer_one_7/a_77_n45# 2 5 -44 555
+n staticizer_1/c GND! staticizer_1/staticizer_one_7/a_77_n45# 2 5 -44 555
 p staticizer_1/staticizer_one_7/a_77_n45# staticizer_1/staticizer_one_7/a_95_n27# data_out7 2 10 -68 573
 n data_out7 staticizer_1/staticizer_one_7/a_60_n45# GND! 2 5 -35 555
-n inv2_0/out staticizer_1/staticizer_one_7/a_95_n45# data_out7 2 5 -68 555
+n staticizer_1/c staticizer_1/staticizer_one_7/a_95_n45# data_out7 2 5 -68 555
 p staticizer_1/staticizer_one_7/a_60_n45# Vdd! staticizer_1/staticizer_one_7/a_95_n27# 2 10 -62 573
-p inv2_0/out Vdd! staticizer_1/staticizer_one_7/a_77_n45# 2 10 -44 573
+p staticizer_1/c Vdd! staticizer_1/staticizer_one_7/a_77_n45# 2 10 -44 573
 p data_out7 staticizer_1/staticizer_one_7/a_60_n45# Vdd! 2 10 -35 573
 n staticizer_1/staticizer_one_7/a_60_n45# GND! staticizer_1/staticizer_one_7/a_95_n45# 2 5 -62 555
-n inv2_4/out GND! staticizer_2/staticizer_one_0/a_77_n45# 2 5 1799 1790
-p staticizer_2/staticizer_one_0/a_77_n45# staticizer_2/staticizer_one_0/a_95_n27# wz_addrL0 2 10 1823 1808
-n wz_addrL0 staticizer_2/staticizer_one_0/a_60_n45# GND! 2 5 1790 1790
-n inv2_4/out staticizer_2/staticizer_one_0/a_95_n45# wz_addrL0 2 5 1823 1790
-p staticizer_2/staticizer_one_0/a_60_n45# Vdd! staticizer_2/staticizer_one_0/a_95_n27# 2 10 1817 1808
-p inv2_4/out Vdd! staticizer_2/staticizer_one_0/a_77_n45# 2 10 1799 1808
-p wz_addrL0 staticizer_2/staticizer_one_0/a_60_n45# Vdd! 2 10 1790 1808
-n staticizer_2/staticizer_one_0/a_60_n45# GND! staticizer_2/staticizer_one_0/a_95_n45# 2 5 1817 1790
-n inv2_4/out GND! staticizer_2/staticizer_one_1/a_77_n45# 2 5 1799 1614
+n staticizer_2/c GND! staticizer_2/staticizer_one_1/a_77_n45# 2 5 1799 1614
 p staticizer_2/staticizer_one_1/a_77_n45# staticizer_2/staticizer_one_1/a_95_n27# wz_addrL1 2 10 1823 1632
 n wz_addrL1 staticizer_2/staticizer_one_1/a_60_n45# GND! 2 5 1790 1614
-n inv2_4/out staticizer_2/staticizer_one_1/a_95_n45# wz_addrL1 2 5 1823 1614
+n staticizer_2/c staticizer_2/staticizer_one_1/a_95_n45# wz_addrL1 2 5 1823 1614
 p staticizer_2/staticizer_one_1/a_60_n45# Vdd! staticizer_2/staticizer_one_1/a_95_n27# 2 10 1817 1632
-p inv2_4/out Vdd! staticizer_2/staticizer_one_1/a_77_n45# 2 10 1799 1632
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_1/a_77_n45# 2 10 1799 1632
 p wz_addrL1 staticizer_2/staticizer_one_1/a_60_n45# Vdd! 2 10 1790 1632
 n staticizer_2/staticizer_one_1/a_60_n45# GND! staticizer_2/staticizer_one_1/a_95_n45# 2 5 1817 1614
-n inv2_4/out GND! staticizer_2/staticizer_one_2/a_77_n45# 2 5 1799 1438
+n staticizer_2/c GND! staticizer_2/staticizer_one_0/a_77_n45# 2 5 1799 1790
+p staticizer_2/staticizer_one_0/a_77_n45# staticizer_2/staticizer_one_0/a_95_n27# wz_addrL0 2 10 1823 1808
+n wz_addrL0 staticizer_2/staticizer_one_0/a_60_n45# GND! 2 5 1790 1790
+n staticizer_2/c staticizer_2/staticizer_one_0/a_95_n45# wz_addrL0 2 5 1823 1790
+p staticizer_2/staticizer_one_0/a_60_n45# Vdd! staticizer_2/staticizer_one_0/a_95_n27# 2 10 1817 1808
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_0/a_77_n45# 2 10 1799 1808
+p wz_addrL0 staticizer_2/staticizer_one_0/a_60_n45# Vdd! 2 10 1790 1808
+n staticizer_2/staticizer_one_0/a_60_n45# GND! staticizer_2/staticizer_one_0/a_95_n45# 2 5 1817 1790
+n staticizer_2/c GND! staticizer_2/staticizer_one_2/a_77_n45# 2 5 1799 1438
 p staticizer_2/staticizer_one_2/a_77_n45# staticizer_2/staticizer_one_2/a_95_n27# wz_addrL2 2 10 1823 1456
 n wz_addrL2 staticizer_2/staticizer_one_2/a_60_n45# GND! 2 5 1790 1438
-n inv2_4/out staticizer_2/staticizer_one_2/a_95_n45# wz_addrL2 2 5 1823 1438
+n staticizer_2/c staticizer_2/staticizer_one_2/a_95_n45# wz_addrL2 2 5 1823 1438
 p staticizer_2/staticizer_one_2/a_60_n45# Vdd! staticizer_2/staticizer_one_2/a_95_n27# 2 10 1817 1456
-p inv2_4/out Vdd! staticizer_2/staticizer_one_2/a_77_n45# 2 10 1799 1456
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_2/a_77_n45# 2 10 1799 1456
 p wz_addrL2 staticizer_2/staticizer_one_2/a_60_n45# Vdd! 2 10 1790 1456
 n staticizer_2/staticizer_one_2/a_60_n45# GND! staticizer_2/staticizer_one_2/a_95_n45# 2 5 1817 1438
-n inv2_4/out GND! staticizer_2/staticizer_one_3/a_77_n45# 2 5 1799 1262
+n staticizer_2/c GND! staticizer_2/staticizer_one_3/a_77_n45# 2 5 1799 1262
 p staticizer_2/staticizer_one_3/a_77_n45# staticizer_2/staticizer_one_3/a_95_n27# wz_addrL3 2 10 1823 1280
 n wz_addrL3 staticizer_2/staticizer_one_3/a_60_n45# GND! 2 5 1790 1262
-n inv2_4/out staticizer_2/staticizer_one_3/a_95_n45# wz_addrL3 2 5 1823 1262
+n staticizer_2/c staticizer_2/staticizer_one_3/a_95_n45# wz_addrL3 2 5 1823 1262
 p staticizer_2/staticizer_one_3/a_60_n45# Vdd! staticizer_2/staticizer_one_3/a_95_n27# 2 10 1817 1280
-p inv2_4/out Vdd! staticizer_2/staticizer_one_3/a_77_n45# 2 10 1799 1280
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_3/a_77_n45# 2 10 1799 1280
 p wz_addrL3 staticizer_2/staticizer_one_3/a_60_n45# Vdd! 2 10 1790 1280
 n staticizer_2/staticizer_one_3/a_60_n45# GND! staticizer_2/staticizer_one_3/a_95_n45# 2 5 1817 1262
-n inv2_4/out GND! staticizer_2/staticizer_one_4/a_77_n45# 2 5 1799 1086
+n staticizer_2/c GND! staticizer_2/staticizer_one_4/a_77_n45# 2 5 1799 1086
 p staticizer_2/staticizer_one_4/a_77_n45# staticizer_2/staticizer_one_4/a_95_n27# wz_addrL4 2 10 1823 1104
 n wz_addrL4 staticizer_2/staticizer_one_4/a_60_n45# GND! 2 5 1790 1086
-n inv2_4/out staticizer_2/staticizer_one_4/a_95_n45# wz_addrL4 2 5 1823 1086
+n staticizer_2/c staticizer_2/staticizer_one_4/a_95_n45# wz_addrL4 2 5 1823 1086
 p staticizer_2/staticizer_one_4/a_60_n45# Vdd! staticizer_2/staticizer_one_4/a_95_n27# 2 10 1817 1104
-p inv2_4/out Vdd! staticizer_2/staticizer_one_4/a_77_n45# 2 10 1799 1104
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_4/a_77_n45# 2 10 1799 1104
 p wz_addrL4 staticizer_2/staticizer_one_4/a_60_n45# Vdd! 2 10 1790 1104
 n staticizer_2/staticizer_one_4/a_60_n45# GND! staticizer_2/staticizer_one_4/a_95_n45# 2 5 1817 1086
-n inv2_4/out GND! staticizer_2/staticizer_one_5/a_77_n45# 2 5 1799 910
+n staticizer_2/c GND! staticizer_2/staticizer_one_5/a_77_n45# 2 5 1799 910
 p staticizer_2/staticizer_one_5/a_77_n45# staticizer_2/staticizer_one_5/a_95_n27# wz_addrL5 2 10 1823 928
 n wz_addrL5 staticizer_2/staticizer_one_5/a_60_n45# GND! 2 5 1790 910
-n inv2_4/out staticizer_2/staticizer_one_5/a_95_n45# wz_addrL5 2 5 1823 910
+n staticizer_2/c staticizer_2/staticizer_one_5/a_95_n45# wz_addrL5 2 5 1823 910
 p staticizer_2/staticizer_one_5/a_60_n45# Vdd! staticizer_2/staticizer_one_5/a_95_n27# 2 10 1817 928
-p inv2_4/out Vdd! staticizer_2/staticizer_one_5/a_77_n45# 2 10 1799 928
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_5/a_77_n45# 2 10 1799 928
 p wz_addrL5 staticizer_2/staticizer_one_5/a_60_n45# Vdd! 2 10 1790 928
 n staticizer_2/staticizer_one_5/a_60_n45# GND! staticizer_2/staticizer_one_5/a_95_n45# 2 5 1817 910
-n inv2_4/out GND! staticizer_2/staticizer_one_6/a_77_n45# 2 5 1799 734
+n staticizer_2/c GND! staticizer_2/staticizer_one_6/a_77_n45# 2 5 1799 734
 p staticizer_2/staticizer_one_6/a_77_n45# staticizer_2/staticizer_one_6/a_95_n27# wz_addrL6 2 10 1823 752
 n wz_addrL6 staticizer_2/staticizer_one_6/a_60_n45# GND! 2 5 1790 734
-n inv2_4/out staticizer_2/staticizer_one_6/a_95_n45# wz_addrL6 2 5 1823 734
+n staticizer_2/c staticizer_2/staticizer_one_6/a_95_n45# wz_addrL6 2 5 1823 734
 p staticizer_2/staticizer_one_6/a_60_n45# Vdd! staticizer_2/staticizer_one_6/a_95_n27# 2 10 1817 752
-p inv2_4/out Vdd! staticizer_2/staticizer_one_6/a_77_n45# 2 10 1799 752
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_6/a_77_n45# 2 10 1799 752
 p wz_addrL6 staticizer_2/staticizer_one_6/a_60_n45# Vdd! 2 10 1790 752
 n staticizer_2/staticizer_one_6/a_60_n45# GND! staticizer_2/staticizer_one_6/a_95_n45# 2 5 1817 734
-n inv2_4/out GND! staticizer_2/staticizer_one_7/a_77_n45# 2 5 1799 558
+n staticizer_2/c GND! staticizer_2/staticizer_one_7/a_77_n45# 2 5 1799 558
 p staticizer_2/staticizer_one_7/a_77_n45# staticizer_2/staticizer_one_7/a_95_n27# wz_addrL7 2 10 1823 576
 n wz_addrL7 staticizer_2/staticizer_one_7/a_60_n45# GND! 2 5 1790 558
-n inv2_4/out staticizer_2/staticizer_one_7/a_95_n45# wz_addrL7 2 5 1823 558
+n staticizer_2/c staticizer_2/staticizer_one_7/a_95_n45# wz_addrL7 2 5 1823 558
 p staticizer_2/staticizer_one_7/a_60_n45# Vdd! staticizer_2/staticizer_one_7/a_95_n27# 2 10 1817 576
-p inv2_4/out Vdd! staticizer_2/staticizer_one_7/a_77_n45# 2 10 1799 576
+p staticizer_2/c Vdd! staticizer_2/staticizer_one_7/a_77_n45# 2 10 1799 576
 p wz_addrL7 staticizer_2/staticizer_one_7/a_60_n45# Vdd! 2 10 1790 576
 n staticizer_2/staticizer_one_7/a_60_n45# GND! staticizer_2/staticizer_one_7/a_95_n45# 2 5 1817 558
 p reg_3/reg_one_4/tmp reg_3/reg_one_4/a_39_5# Vdd! 2 10 1294 1272
@@ -511,132 +511,132 @@ p reg_3/reg_one_3/a_21_n13# ry4 reg_3/reg_one_3/a_39_5# 2 10 1288 1096
 p Y_w reg_3/reg_one_3/a_16_27# Vdd! 2 10 1302 1126
 n reg_3/reg_one_3/tmp GND! reg_3/reg_one_3/a_54_n13# 2 5 1303 1079
 n reg_3/reg_one_3/tmp reg_3/reg_one_3/a_39_n13# GND! 2 5 1294 1079
-n inv2_1/out GND! staticizer_4/staticizer_one_0/a_77_n45# 2 5 2723 1790
-p staticizer_4/staticizer_one_0/a_77_n45# staticizer_4/staticizer_one_0/a_95_n27# addr_out0 2 10 2747 1808
-n addr_out0 staticizer_4/staticizer_one_0/a_60_n45# GND! 2 5 2714 1790
-n inv2_1/out staticizer_4/staticizer_one_0/a_95_n45# addr_out0 2 5 2747 1790
-p staticizer_4/staticizer_one_0/a_60_n45# Vdd! staticizer_4/staticizer_one_0/a_95_n27# 2 10 2741 1808
-p inv2_1/out Vdd! staticizer_4/staticizer_one_0/a_77_n45# 2 10 2723 1808
-p addr_out0 staticizer_4/staticizer_one_0/a_60_n45# Vdd! 2 10 2714 1808
-n staticizer_4/staticizer_one_0/a_60_n45# GND! staticizer_4/staticizer_one_0/a_95_n45# 2 5 2741 1790
-n inv2_1/out GND! staticizer_4/staticizer_one_1/a_77_n45# 2 5 2723 1614
+n staticizer_4/c GND! staticizer_4/staticizer_one_1/a_77_n45# 2 5 2723 1614
 p staticizer_4/staticizer_one_1/a_77_n45# staticizer_4/staticizer_one_1/a_95_n27# addr_out1 2 10 2747 1632
 n addr_out1 staticizer_4/staticizer_one_1/a_60_n45# GND! 2 5 2714 1614
-n inv2_1/out staticizer_4/staticizer_one_1/a_95_n45# addr_out1 2 5 2747 1614
+n staticizer_4/c staticizer_4/staticizer_one_1/a_95_n45# addr_out1 2 5 2747 1614
 p staticizer_4/staticizer_one_1/a_60_n45# Vdd! staticizer_4/staticizer_one_1/a_95_n27# 2 10 2741 1632
-p inv2_1/out Vdd! staticizer_4/staticizer_one_1/a_77_n45# 2 10 2723 1632
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_1/a_77_n45# 2 10 2723 1632
 p addr_out1 staticizer_4/staticizer_one_1/a_60_n45# Vdd! 2 10 2714 1632
 n staticizer_4/staticizer_one_1/a_60_n45# GND! staticizer_4/staticizer_one_1/a_95_n45# 2 5 2741 1614
-n inv2_1/out GND! staticizer_4/staticizer_one_2/a_77_n45# 2 5 2723 1438
+n staticizer_4/c GND! staticizer_4/staticizer_one_0/a_77_n45# 2 5 2723 1790
+p staticizer_4/staticizer_one_0/a_77_n45# staticizer_4/staticizer_one_0/a_95_n27# addr_out0 2 10 2747 1808
+n addr_out0 staticizer_4/staticizer_one_0/a_60_n45# GND! 2 5 2714 1790
+n staticizer_4/c staticizer_4/staticizer_one_0/a_95_n45# addr_out0 2 5 2747 1790
+p staticizer_4/staticizer_one_0/a_60_n45# Vdd! staticizer_4/staticizer_one_0/a_95_n27# 2 10 2741 1808
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_0/a_77_n45# 2 10 2723 1808
+p addr_out0 staticizer_4/staticizer_one_0/a_60_n45# Vdd! 2 10 2714 1808
+n staticizer_4/staticizer_one_0/a_60_n45# GND! staticizer_4/staticizer_one_0/a_95_n45# 2 5 2741 1790
+n staticizer_4/c GND! staticizer_4/staticizer_one_2/a_77_n45# 2 5 2723 1438
 p staticizer_4/staticizer_one_2/a_77_n45# staticizer_4/staticizer_one_2/a_95_n27# addr_out2 2 10 2747 1456
 n addr_out2 staticizer_4/staticizer_one_2/a_60_n45# GND! 2 5 2714 1438
-n inv2_1/out staticizer_4/staticizer_one_2/a_95_n45# addr_out2 2 5 2747 1438
+n staticizer_4/c staticizer_4/staticizer_one_2/a_95_n45# addr_out2 2 5 2747 1438
 p staticizer_4/staticizer_one_2/a_60_n45# Vdd! staticizer_4/staticizer_one_2/a_95_n27# 2 10 2741 1456
-p inv2_1/out Vdd! staticizer_4/staticizer_one_2/a_77_n45# 2 10 2723 1456
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_2/a_77_n45# 2 10 2723 1456
 p addr_out2 staticizer_4/staticizer_one_2/a_60_n45# Vdd! 2 10 2714 1456
 n staticizer_4/staticizer_one_2/a_60_n45# GND! staticizer_4/staticizer_one_2/a_95_n45# 2 5 2741 1438
-n inv2_1/out GND! staticizer_4/staticizer_one_3/a_77_n45# 2 5 2723 1262
+n staticizer_4/c GND! staticizer_4/staticizer_one_3/a_77_n45# 2 5 2723 1262
 p staticizer_4/staticizer_one_3/a_77_n45# staticizer_4/staticizer_one_3/a_95_n27# addr_out3 2 10 2747 1280
 n addr_out3 staticizer_4/staticizer_one_3/a_60_n45# GND! 2 5 2714 1262
-n inv2_1/out staticizer_4/staticizer_one_3/a_95_n45# addr_out3 2 5 2747 1262
+n staticizer_4/c staticizer_4/staticizer_one_3/a_95_n45# addr_out3 2 5 2747 1262
 p staticizer_4/staticizer_one_3/a_60_n45# Vdd! staticizer_4/staticizer_one_3/a_95_n27# 2 10 2741 1280
-p inv2_1/out Vdd! staticizer_4/staticizer_one_3/a_77_n45# 2 10 2723 1280
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_3/a_77_n45# 2 10 2723 1280
 p addr_out3 staticizer_4/staticizer_one_3/a_60_n45# Vdd! 2 10 2714 1280
 n staticizer_4/staticizer_one_3/a_60_n45# GND! staticizer_4/staticizer_one_3/a_95_n45# 2 5 2741 1262
-n inv2_1/out GND! staticizer_4/staticizer_one_4/a_77_n45# 2 5 2723 1086
+n staticizer_4/c GND! staticizer_4/staticizer_one_4/a_77_n45# 2 5 2723 1086
 p staticizer_4/staticizer_one_4/a_77_n45# staticizer_4/staticizer_one_4/a_95_n27# addr_out4 2 10 2747 1104
 n addr_out4 staticizer_4/staticizer_one_4/a_60_n45# GND! 2 5 2714 1086
-n inv2_1/out staticizer_4/staticizer_one_4/a_95_n45# addr_out4 2 5 2747 1086
+n staticizer_4/c staticizer_4/staticizer_one_4/a_95_n45# addr_out4 2 5 2747 1086
 p staticizer_4/staticizer_one_4/a_60_n45# Vdd! staticizer_4/staticizer_one_4/a_95_n27# 2 10 2741 1104
-p inv2_1/out Vdd! staticizer_4/staticizer_one_4/a_77_n45# 2 10 2723 1104
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_4/a_77_n45# 2 10 2723 1104
 p addr_out4 staticizer_4/staticizer_one_4/a_60_n45# Vdd! 2 10 2714 1104
 n staticizer_4/staticizer_one_4/a_60_n45# GND! staticizer_4/staticizer_one_4/a_95_n45# 2 5 2741 1086
-n inv2_1/out GND! staticizer_4/staticizer_one_5/a_77_n45# 2 5 2723 910
+n staticizer_4/c GND! staticizer_4/staticizer_one_5/a_77_n45# 2 5 2723 910
 p staticizer_4/staticizer_one_5/a_77_n45# staticizer_4/staticizer_one_5/a_95_n27# addr_out5 2 10 2747 928
 n addr_out5 staticizer_4/staticizer_one_5/a_60_n45# GND! 2 5 2714 910
-n inv2_1/out staticizer_4/staticizer_one_5/a_95_n45# addr_out5 2 5 2747 910
+n staticizer_4/c staticizer_4/staticizer_one_5/a_95_n45# addr_out5 2 5 2747 910
 p staticizer_4/staticizer_one_5/a_60_n45# Vdd! staticizer_4/staticizer_one_5/a_95_n27# 2 10 2741 928
-p inv2_1/out Vdd! staticizer_4/staticizer_one_5/a_77_n45# 2 10 2723 928
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_5/a_77_n45# 2 10 2723 928
 p addr_out5 staticizer_4/staticizer_one_5/a_60_n45# Vdd! 2 10 2714 928
 n staticizer_4/staticizer_one_5/a_60_n45# GND! staticizer_4/staticizer_one_5/a_95_n45# 2 5 2741 910
-n inv2_1/out GND! staticizer_4/staticizer_one_6/a_77_n45# 2 5 2723 734
+n staticizer_4/c GND! staticizer_4/staticizer_one_6/a_77_n45# 2 5 2723 734
 p staticizer_4/staticizer_one_6/a_77_n45# staticizer_4/staticizer_one_6/a_95_n27# addr_out6 2 10 2747 752
 n addr_out6 staticizer_4/staticizer_one_6/a_60_n45# GND! 2 5 2714 734
-n inv2_1/out staticizer_4/staticizer_one_6/a_95_n45# addr_out6 2 5 2747 734
+n staticizer_4/c staticizer_4/staticizer_one_6/a_95_n45# addr_out6 2 5 2747 734
 p staticizer_4/staticizer_one_6/a_60_n45# Vdd! staticizer_4/staticizer_one_6/a_95_n27# 2 10 2741 752
-p inv2_1/out Vdd! staticizer_4/staticizer_one_6/a_77_n45# 2 10 2723 752
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_6/a_77_n45# 2 10 2723 752
 p addr_out6 staticizer_4/staticizer_one_6/a_60_n45# Vdd! 2 10 2714 752
 n staticizer_4/staticizer_one_6/a_60_n45# GND! staticizer_4/staticizer_one_6/a_95_n45# 2 5 2741 734
-n inv2_1/out GND! staticizer_4/staticizer_one_7/a_77_n45# 2 5 2723 558
+n staticizer_4/c GND! staticizer_4/staticizer_one_7/a_77_n45# 2 5 2723 558
 p staticizer_4/staticizer_one_7/a_77_n45# staticizer_4/staticizer_one_7/a_95_n27# addr_out7 2 10 2747 576
 n addr_out7 staticizer_4/staticizer_one_7/a_60_n45# GND! 2 5 2714 558
-n inv2_1/out staticizer_4/staticizer_one_7/a_95_n45# addr_out7 2 5 2747 558
+n staticizer_4/c staticizer_4/staticizer_one_7/a_95_n45# addr_out7 2 5 2747 558
 p staticizer_4/staticizer_one_7/a_60_n45# Vdd! staticizer_4/staticizer_one_7/a_95_n27# 2 10 2741 576
-p inv2_1/out Vdd! staticizer_4/staticizer_one_7/a_77_n45# 2 10 2723 576
+p staticizer_4/c Vdd! staticizer_4/staticizer_one_7/a_77_n45# 2 10 2723 576
 p addr_out7 staticizer_4/staticizer_one_7/a_60_n45# Vdd! 2 10 2714 576
 n staticizer_4/staticizer_one_7/a_60_n45# GND! staticizer_4/staticizer_one_7/a_95_n45# 2 5 2741 558
-n inv2_5/out GND! staticizer_3/staticizer_one_0/a_77_n45# 2 5 2599 1790
-p staticizer_3/staticizer_one_0/a_77_n45# staticizer_3/staticizer_one_0/a_95_n27# wz_addrH0 2 10 2623 1808
-n wz_addrH0 staticizer_3/staticizer_one_0/a_60_n45# GND! 2 5 2590 1790
-n inv2_5/out staticizer_3/staticizer_one_0/a_95_n45# wz_addrH0 2 5 2623 1790
-p staticizer_3/staticizer_one_0/a_60_n45# Vdd! staticizer_3/staticizer_one_0/a_95_n27# 2 10 2617 1808
-p inv2_5/out Vdd! staticizer_3/staticizer_one_0/a_77_n45# 2 10 2599 1808
-p wz_addrH0 staticizer_3/staticizer_one_0/a_60_n45# Vdd! 2 10 2590 1808
-n staticizer_3/staticizer_one_0/a_60_n45# GND! staticizer_3/staticizer_one_0/a_95_n45# 2 5 2617 1790
-n inv2_5/out GND! staticizer_3/staticizer_one_1/a_77_n45# 2 5 2599 1614
+n staticizer_3/c GND! staticizer_3/staticizer_one_1/a_77_n45# 2 5 2599 1614
 p staticizer_3/staticizer_one_1/a_77_n45# staticizer_3/staticizer_one_1/a_95_n27# wz_addrH1 2 10 2623 1632
 n wz_addrH1 staticizer_3/staticizer_one_1/a_60_n45# GND! 2 5 2590 1614
-n inv2_5/out staticizer_3/staticizer_one_1/a_95_n45# wz_addrH1 2 5 2623 1614
+n staticizer_3/c staticizer_3/staticizer_one_1/a_95_n45# wz_addrH1 2 5 2623 1614
 p staticizer_3/staticizer_one_1/a_60_n45# Vdd! staticizer_3/staticizer_one_1/a_95_n27# 2 10 2617 1632
-p inv2_5/out Vdd! staticizer_3/staticizer_one_1/a_77_n45# 2 10 2599 1632
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_1/a_77_n45# 2 10 2599 1632
 p wz_addrH1 staticizer_3/staticizer_one_1/a_60_n45# Vdd! 2 10 2590 1632
 n staticizer_3/staticizer_one_1/a_60_n45# GND! staticizer_3/staticizer_one_1/a_95_n45# 2 5 2617 1614
-n inv2_5/out GND! staticizer_3/staticizer_one_2/a_77_n45# 2 5 2599 1438
+n staticizer_3/c GND! staticizer_3/staticizer_one_0/a_77_n45# 2 5 2599 1790
+p staticizer_3/staticizer_one_0/a_77_n45# staticizer_3/staticizer_one_0/a_95_n27# wz_addrH0 2 10 2623 1808
+n wz_addrH0 staticizer_3/staticizer_one_0/a_60_n45# GND! 2 5 2590 1790
+n staticizer_3/c staticizer_3/staticizer_one_0/a_95_n45# wz_addrH0 2 5 2623 1790
+p staticizer_3/staticizer_one_0/a_60_n45# Vdd! staticizer_3/staticizer_one_0/a_95_n27# 2 10 2617 1808
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_0/a_77_n45# 2 10 2599 1808
+p wz_addrH0 staticizer_3/staticizer_one_0/a_60_n45# Vdd! 2 10 2590 1808
+n staticizer_3/staticizer_one_0/a_60_n45# GND! staticizer_3/staticizer_one_0/a_95_n45# 2 5 2617 1790
+n staticizer_3/c GND! staticizer_3/staticizer_one_2/a_77_n45# 2 5 2599 1438
 p staticizer_3/staticizer_one_2/a_77_n45# staticizer_3/staticizer_one_2/a_95_n27# wz_addrH2 2 10 2623 1456
 n wz_addrH2 staticizer_3/staticizer_one_2/a_60_n45# GND! 2 5 2590 1438
-n inv2_5/out staticizer_3/staticizer_one_2/a_95_n45# wz_addrH2 2 5 2623 1438
+n staticizer_3/c staticizer_3/staticizer_one_2/a_95_n45# wz_addrH2 2 5 2623 1438
 p staticizer_3/staticizer_one_2/a_60_n45# Vdd! staticizer_3/staticizer_one_2/a_95_n27# 2 10 2617 1456
-p inv2_5/out Vdd! staticizer_3/staticizer_one_2/a_77_n45# 2 10 2599 1456
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_2/a_77_n45# 2 10 2599 1456
 p wz_addrH2 staticizer_3/staticizer_one_2/a_60_n45# Vdd! 2 10 2590 1456
 n staticizer_3/staticizer_one_2/a_60_n45# GND! staticizer_3/staticizer_one_2/a_95_n45# 2 5 2617 1438
-n inv2_5/out GND! staticizer_3/staticizer_one_3/a_77_n45# 2 5 2599 1262
+n staticizer_3/c GND! staticizer_3/staticizer_one_3/a_77_n45# 2 5 2599 1262
 p staticizer_3/staticizer_one_3/a_77_n45# staticizer_3/staticizer_one_3/a_95_n27# wz_addrH3 2 10 2623 1280
 n wz_addrH3 staticizer_3/staticizer_one_3/a_60_n45# GND! 2 5 2590 1262
-n inv2_5/out staticizer_3/staticizer_one_3/a_95_n45# wz_addrH3 2 5 2623 1262
+n staticizer_3/c staticizer_3/staticizer_one_3/a_95_n45# wz_addrH3 2 5 2623 1262
 p staticizer_3/staticizer_one_3/a_60_n45# Vdd! staticizer_3/staticizer_one_3/a_95_n27# 2 10 2617 1280
-p inv2_5/out Vdd! staticizer_3/staticizer_one_3/a_77_n45# 2 10 2599 1280
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_3/a_77_n45# 2 10 2599 1280
 p wz_addrH3 staticizer_3/staticizer_one_3/a_60_n45# Vdd! 2 10 2590 1280
 n staticizer_3/staticizer_one_3/a_60_n45# GND! staticizer_3/staticizer_one_3/a_95_n45# 2 5 2617 1262
-n inv2_5/out GND! staticizer_3/staticizer_one_4/a_77_n45# 2 5 2599 1086
+n staticizer_3/c GND! staticizer_3/staticizer_one_4/a_77_n45# 2 5 2599 1086
 p staticizer_3/staticizer_one_4/a_77_n45# staticizer_3/staticizer_one_4/a_95_n27# wz_addrH4 2 10 2623 1104
 n wz_addrH4 staticizer_3/staticizer_one_4/a_60_n45# GND! 2 5 2590 1086
-n inv2_5/out staticizer_3/staticizer_one_4/a_95_n45# wz_addrH4 2 5 2623 1086
+n staticizer_3/c staticizer_3/staticizer_one_4/a_95_n45# wz_addrH4 2 5 2623 1086
 p staticizer_3/staticizer_one_4/a_60_n45# Vdd! staticizer_3/staticizer_one_4/a_95_n27# 2 10 2617 1104
-p inv2_5/out Vdd! staticizer_3/staticizer_one_4/a_77_n45# 2 10 2599 1104
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_4/a_77_n45# 2 10 2599 1104
 p wz_addrH4 staticizer_3/staticizer_one_4/a_60_n45# Vdd! 2 10 2590 1104
 n staticizer_3/staticizer_one_4/a_60_n45# GND! staticizer_3/staticizer_one_4/a_95_n45# 2 5 2617 1086
-n inv2_5/out GND! staticizer_3/staticizer_one_5/a_77_n45# 2 5 2599 910
+n staticizer_3/c GND! staticizer_3/staticizer_one_5/a_77_n45# 2 5 2599 910
 p staticizer_3/staticizer_one_5/a_77_n45# staticizer_3/staticizer_one_5/a_95_n27# wz_addrH5 2 10 2623 928
 n wz_addrH5 staticizer_3/staticizer_one_5/a_60_n45# GND! 2 5 2590 910
-n inv2_5/out staticizer_3/staticizer_one_5/a_95_n45# wz_addrH5 2 5 2623 910
+n staticizer_3/c staticizer_3/staticizer_one_5/a_95_n45# wz_addrH5 2 5 2623 910
 p staticizer_3/staticizer_one_5/a_60_n45# Vdd! staticizer_3/staticizer_one_5/a_95_n27# 2 10 2617 928
-p inv2_5/out Vdd! staticizer_3/staticizer_one_5/a_77_n45# 2 10 2599 928
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_5/a_77_n45# 2 10 2599 928
 p wz_addrH5 staticizer_3/staticizer_one_5/a_60_n45# Vdd! 2 10 2590 928
 n staticizer_3/staticizer_one_5/a_60_n45# GND! staticizer_3/staticizer_one_5/a_95_n45# 2 5 2617 910
-n inv2_5/out GND! staticizer_3/staticizer_one_6/a_77_n45# 2 5 2599 734
+n staticizer_3/c GND! staticizer_3/staticizer_one_6/a_77_n45# 2 5 2599 734
 p staticizer_3/staticizer_one_6/a_77_n45# staticizer_3/staticizer_one_6/a_95_n27# wz_addrH6 2 10 2623 752
 n wz_addrH6 staticizer_3/staticizer_one_6/a_60_n45# GND! 2 5 2590 734
-n inv2_5/out staticizer_3/staticizer_one_6/a_95_n45# wz_addrH6 2 5 2623 734
+n staticizer_3/c staticizer_3/staticizer_one_6/a_95_n45# wz_addrH6 2 5 2623 734
 p staticizer_3/staticizer_one_6/a_60_n45# Vdd! staticizer_3/staticizer_one_6/a_95_n27# 2 10 2617 752
-p inv2_5/out Vdd! staticizer_3/staticizer_one_6/a_77_n45# 2 10 2599 752
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_6/a_77_n45# 2 10 2599 752
 p wz_addrH6 staticizer_3/staticizer_one_6/a_60_n45# Vdd! 2 10 2590 752
 n staticizer_3/staticizer_one_6/a_60_n45# GND! staticizer_3/staticizer_one_6/a_95_n45# 2 5 2617 734
-n inv2_5/out GND! staticizer_3/staticizer_one_7/a_77_n45# 2 5 2599 558
+n staticizer_3/c GND! staticizer_3/staticizer_one_7/a_77_n45# 2 5 2599 558
 p staticizer_3/staticizer_one_7/a_77_n45# staticizer_3/staticizer_one_7/a_95_n27# wz_addrH7 2 10 2623 576
 n wz_addrH7 staticizer_3/staticizer_one_7/a_60_n45# GND! 2 5 2590 558
-n inv2_5/out staticizer_3/staticizer_one_7/a_95_n45# wz_addrH7 2 5 2623 558
+n staticizer_3/c staticizer_3/staticizer_one_7/a_95_n45# wz_addrH7 2 5 2623 558
 p staticizer_3/staticizer_one_7/a_60_n45# Vdd! staticizer_3/staticizer_one_7/a_95_n27# 2 10 2617 576
-p inv2_5/out Vdd! staticizer_3/staticizer_one_7/a_77_n45# 2 10 2599 576
+p staticizer_3/c Vdd! staticizer_3/staticizer_one_7/a_77_n45# 2 10 2599 576
 p wz_addrH7 staticizer_3/staticizer_one_7/a_60_n45# Vdd! 2 10 2590 576
 n staticizer_3/staticizer_one_7/a_60_n45# GND! staticizer_3/staticizer_one_7/a_95_n45# 2 5 2617 558
 p reg_4/reg_one_4/tmp reg_4/reg_one_4/a_39_5# Vdd! 2 10 1494 1272
@@ -831,68 +831,68 @@ p reg_4/reg_one_3/a_21_n13# ry4 reg_4/reg_one_3/a_39_5# 2 10 1488 1096
 p PCL_w reg_4/reg_one_3/a_16_27# Vdd! 2 10 1502 1126
 n reg_4/reg_one_3/tmp GND! reg_4/reg_one_3/a_54_n13# 2 5 1503 1079
 n reg_4/reg_one_3/tmp reg_4/reg_one_3/a_39_n13# GND! 2 5 1494 1079
-n inv2_2/out GND! staticizer_5/staticizer_one_0/a_77_n45# 2 5 2847 1790
-p staticizer_5/staticizer_one_0/a_77_n45# staticizer_5/staticizer_one_0/a_95_n27# addr_out8 2 10 2871 1808
-n addr_out8 staticizer_5/staticizer_one_0/a_60_n45# GND! 2 5 2838 1790
-n inv2_2/out staticizer_5/staticizer_one_0/a_95_n45# addr_out8 2 5 2871 1790
-p staticizer_5/staticizer_one_0/a_60_n45# Vdd! staticizer_5/staticizer_one_0/a_95_n27# 2 10 2865 1808
-p inv2_2/out Vdd! staticizer_5/staticizer_one_0/a_77_n45# 2 10 2847 1808
-p addr_out8 staticizer_5/staticizer_one_0/a_60_n45# Vdd! 2 10 2838 1808
-n staticizer_5/staticizer_one_0/a_60_n45# GND! staticizer_5/staticizer_one_0/a_95_n45# 2 5 2865 1790
-n inv2_2/out GND! staticizer_5/staticizer_one_1/a_77_n45# 2 5 2847 1614
+n staticizer_5/c GND! staticizer_5/staticizer_one_1/a_77_n45# 2 5 2847 1614
 p staticizer_5/staticizer_one_1/a_77_n45# staticizer_5/staticizer_one_1/a_95_n27# addr_out9 2 10 2871 1632
 n addr_out9 staticizer_5/staticizer_one_1/a_60_n45# GND! 2 5 2838 1614
-n inv2_2/out staticizer_5/staticizer_one_1/a_95_n45# addr_out9 2 5 2871 1614
+n staticizer_5/c staticizer_5/staticizer_one_1/a_95_n45# addr_out9 2 5 2871 1614
 p staticizer_5/staticizer_one_1/a_60_n45# Vdd! staticizer_5/staticizer_one_1/a_95_n27# 2 10 2865 1632
-p inv2_2/out Vdd! staticizer_5/staticizer_one_1/a_77_n45# 2 10 2847 1632
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_1/a_77_n45# 2 10 2847 1632
 p addr_out9 staticizer_5/staticizer_one_1/a_60_n45# Vdd! 2 10 2838 1632
 n staticizer_5/staticizer_one_1/a_60_n45# GND! staticizer_5/staticizer_one_1/a_95_n45# 2 5 2865 1614
-n inv2_2/out GND! staticizer_5/staticizer_one_2/a_77_n45# 2 5 2847 1438
+n staticizer_5/c GND! staticizer_5/staticizer_one_0/a_77_n45# 2 5 2847 1790
+p staticizer_5/staticizer_one_0/a_77_n45# staticizer_5/staticizer_one_0/a_95_n27# addr_out8 2 10 2871 1808
+n addr_out8 staticizer_5/staticizer_one_0/a_60_n45# GND! 2 5 2838 1790
+n staticizer_5/c staticizer_5/staticizer_one_0/a_95_n45# addr_out8 2 5 2871 1790
+p staticizer_5/staticizer_one_0/a_60_n45# Vdd! staticizer_5/staticizer_one_0/a_95_n27# 2 10 2865 1808
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_0/a_77_n45# 2 10 2847 1808
+p addr_out8 staticizer_5/staticizer_one_0/a_60_n45# Vdd! 2 10 2838 1808
+n staticizer_5/staticizer_one_0/a_60_n45# GND! staticizer_5/staticizer_one_0/a_95_n45# 2 5 2865 1790
+n staticizer_5/c GND! staticizer_5/staticizer_one_2/a_77_n45# 2 5 2847 1438
 p staticizer_5/staticizer_one_2/a_77_n45# staticizer_5/staticizer_one_2/a_95_n27# addr_out10 2 10 2871 1456
 n addr_out10 staticizer_5/staticizer_one_2/a_60_n45# GND! 2 5 2838 1438
-n inv2_2/out staticizer_5/staticizer_one_2/a_95_n45# addr_out10 2 5 2871 1438
+n staticizer_5/c staticizer_5/staticizer_one_2/a_95_n45# addr_out10 2 5 2871 1438
 p staticizer_5/staticizer_one_2/a_60_n45# Vdd! staticizer_5/staticizer_one_2/a_95_n27# 2 10 2865 1456
-p inv2_2/out Vdd! staticizer_5/staticizer_one_2/a_77_n45# 2 10 2847 1456
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_2/a_77_n45# 2 10 2847 1456
 p addr_out10 staticizer_5/staticizer_one_2/a_60_n45# Vdd! 2 10 2838 1456
 n staticizer_5/staticizer_one_2/a_60_n45# GND! staticizer_5/staticizer_one_2/a_95_n45# 2 5 2865 1438
-n inv2_2/out GND! staticizer_5/staticizer_one_3/a_77_n45# 2 5 2847 1262
+n staticizer_5/c GND! staticizer_5/staticizer_one_3/a_77_n45# 2 5 2847 1262
 p staticizer_5/staticizer_one_3/a_77_n45# staticizer_5/staticizer_one_3/a_95_n27# addr_out11 2 10 2871 1280
 n addr_out11 staticizer_5/staticizer_one_3/a_60_n45# GND! 2 5 2838 1262
-n inv2_2/out staticizer_5/staticizer_one_3/a_95_n45# addr_out11 2 5 2871 1262
+n staticizer_5/c staticizer_5/staticizer_one_3/a_95_n45# addr_out11 2 5 2871 1262
 p staticizer_5/staticizer_one_3/a_60_n45# Vdd! staticizer_5/staticizer_one_3/a_95_n27# 2 10 2865 1280
-p inv2_2/out Vdd! staticizer_5/staticizer_one_3/a_77_n45# 2 10 2847 1280
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_3/a_77_n45# 2 10 2847 1280
 p addr_out11 staticizer_5/staticizer_one_3/a_60_n45# Vdd! 2 10 2838 1280
 n staticizer_5/staticizer_one_3/a_60_n45# GND! staticizer_5/staticizer_one_3/a_95_n45# 2 5 2865 1262
-n inv2_2/out GND! staticizer_5/staticizer_one_4/a_77_n45# 2 5 2847 1086
+n staticizer_5/c GND! staticizer_5/staticizer_one_4/a_77_n45# 2 5 2847 1086
 p staticizer_5/staticizer_one_4/a_77_n45# staticizer_5/staticizer_one_4/a_95_n27# addr_out12 2 10 2871 1104
 n addr_out12 staticizer_5/staticizer_one_4/a_60_n45# GND! 2 5 2838 1086
-n inv2_2/out staticizer_5/staticizer_one_4/a_95_n45# addr_out12 2 5 2871 1086
+n staticizer_5/c staticizer_5/staticizer_one_4/a_95_n45# addr_out12 2 5 2871 1086
 p staticizer_5/staticizer_one_4/a_60_n45# Vdd! staticizer_5/staticizer_one_4/a_95_n27# 2 10 2865 1104
-p inv2_2/out Vdd! staticizer_5/staticizer_one_4/a_77_n45# 2 10 2847 1104
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_4/a_77_n45# 2 10 2847 1104
 p addr_out12 staticizer_5/staticizer_one_4/a_60_n45# Vdd! 2 10 2838 1104
 n staticizer_5/staticizer_one_4/a_60_n45# GND! staticizer_5/staticizer_one_4/a_95_n45# 2 5 2865 1086
-n inv2_2/out GND! staticizer_5/staticizer_one_5/a_77_n45# 2 5 2847 910
+n staticizer_5/c GND! staticizer_5/staticizer_one_5/a_77_n45# 2 5 2847 910
 p staticizer_5/staticizer_one_5/a_77_n45# staticizer_5/staticizer_one_5/a_95_n27# addr_out13 2 10 2871 928
 n addr_out13 staticizer_5/staticizer_one_5/a_60_n45# GND! 2 5 2838 910
-n inv2_2/out staticizer_5/staticizer_one_5/a_95_n45# addr_out13 2 5 2871 910
+n staticizer_5/c staticizer_5/staticizer_one_5/a_95_n45# addr_out13 2 5 2871 910
 p staticizer_5/staticizer_one_5/a_60_n45# Vdd! staticizer_5/staticizer_one_5/a_95_n27# 2 10 2865 928
-p inv2_2/out Vdd! staticizer_5/staticizer_one_5/a_77_n45# 2 10 2847 928
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_5/a_77_n45# 2 10 2847 928
 p addr_out13 staticizer_5/staticizer_one_5/a_60_n45# Vdd! 2 10 2838 928
 n staticizer_5/staticizer_one_5/a_60_n45# GND! staticizer_5/staticizer_one_5/a_95_n45# 2 5 2865 910
-n inv2_2/out GND! staticizer_5/staticizer_one_6/a_77_n45# 2 5 2847 734
+n staticizer_5/c GND! staticizer_5/staticizer_one_6/a_77_n45# 2 5 2847 734
 p staticizer_5/staticizer_one_6/a_77_n45# staticizer_5/staticizer_one_6/a_95_n27# addr_out14 2 10 2871 752
 n addr_out14 staticizer_5/staticizer_one_6/a_60_n45# GND! 2 5 2838 734
-n inv2_2/out staticizer_5/staticizer_one_6/a_95_n45# addr_out14 2 5 2871 734
+n staticizer_5/c staticizer_5/staticizer_one_6/a_95_n45# addr_out14 2 5 2871 734
 p staticizer_5/staticizer_one_6/a_60_n45# Vdd! staticizer_5/staticizer_one_6/a_95_n27# 2 10 2865 752
-p inv2_2/out Vdd! staticizer_5/staticizer_one_6/a_77_n45# 2 10 2847 752
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_6/a_77_n45# 2 10 2847 752
 p addr_out14 staticizer_5/staticizer_one_6/a_60_n45# Vdd! 2 10 2838 752
 n staticizer_5/staticizer_one_6/a_60_n45# GND! staticizer_5/staticizer_one_6/a_95_n45# 2 5 2865 734
-n inv2_2/out GND! staticizer_5/staticizer_one_7/a_77_n45# 2 5 2847 558
+n staticizer_5/c GND! staticizer_5/staticizer_one_7/a_77_n45# 2 5 2847 558
 p staticizer_5/staticizer_one_7/a_77_n45# staticizer_5/staticizer_one_7/a_95_n27# addr_out15 2 10 2871 576
 n addr_out15 staticizer_5/staticizer_one_7/a_60_n45# GND! 2 5 2838 558
-n inv2_2/out staticizer_5/staticizer_one_7/a_95_n45# addr_out15 2 5 2871 558
+n staticizer_5/c staticizer_5/staticizer_one_7/a_95_n45# addr_out15 2 5 2871 558
 p staticizer_5/staticizer_one_7/a_60_n45# Vdd! staticizer_5/staticizer_one_7/a_95_n27# 2 10 2865 576
-p inv2_2/out Vdd! staticizer_5/staticizer_one_7/a_77_n45# 2 10 2847 576
+p staticizer_5/c Vdd! staticizer_5/staticizer_one_7/a_77_n45# 2 10 2847 576
 p addr_out15 staticizer_5/staticizer_one_7/a_60_n45# Vdd! 2 10 2838 576
 n staticizer_5/staticizer_one_7/a_60_n45# GND! staticizer_5/staticizer_one_7/a_95_n45# 2 5 2865 558
 p reg_5/reg_one_4/tmp reg_5/reg_one_4/a_39_5# Vdd! 2 10 1994 1272
@@ -1483,8 +1483,8 @@ p staticizer_one_0/a_60_n45# Vdd! staticizer_one_0/a_95_n27# 2 10 960 1941
 p staticizer_one_0/c Vdd! staticizer_one_0/a_77_n45# 2 10 942 1941
 p reg_one_0/in staticizer_one_0/a_60_n45# Vdd! 2 10 933 1941
 n staticizer_one_0/a_60_n45# GND! staticizer_one_0/a_95_n45# 2 5 960 1923
-p inv2_9/out Vdd! inv2_12/in 2 10 1898 1951
-n inv2_9/out GND! inv2_12/in 2 5 1917 1951
+p inv2_9/a_6_n1# Vdd! inv2_12/a_1_8# 2 10 1898 1951
+n inv2_9/a_6_n1# GND! inv2_12/a_1_8# 2 5 1917 1951
 p rfb 4nor2_0/a_87_24# 4nor2_0/a_97_24# 2 40 105 1884
 n ros GND! 4nor2_0/out 2 20 71 1874
 p ras Vdd! 4nor2_0/a_87_24# 2 40 105 1894
@@ -1493,102 +1493,102 @@ p ld_datain 4nor2_0/a_107_24# 4nor2_0/out 2 40 105 1863
 p ros 4nor2_0/a_97_24# 4nor2_0/a_107_24# 2 40 105 1874
 n ld_datain 4nor2_0/out GND! 2 20 71 1863
 n ras GND! 4nor2_0/out 2 20 71 1894
-p inv2_3/out mux_8bit_0/mux_one_0/inv2_2/out mux_8bit_0/mux_one_0/inv2_1/in 2 7 1392 1826
-p mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_0/inv2_1/in mux_8bit_0/mux_one_0/inv2_0/out 2 7 1392 1839
-p inv2_3/out mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1860
-n mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_0/inv2_2/out mux_8bit_0/mux_one_0/inv2_1/in 2 7 1413 1826
-n inv2_3/out mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1860
-n inv2_3/out mux_8bit_0/mux_one_0/inv2_1/in mux_8bit_0/mux_one_0/inv2_0/out 2 7 1413 1839
-p wz0 Vdd! mux_8bit_0/mux_one_0/inv2_0/out 2 10 1357 1844
-n wz0 GND! mux_8bit_0/mux_one_0/inv2_0/out 2 5 1357 1863
-p mux_8bit_0/mux_one_0/inv2_1/in Vdd! PCL_w_muxout0 2 10 1398 1796
-n mux_8bit_0/mux_one_0/inv2_1/in GND! PCL_w_muxout0 2 5 1417 1796
-p wz_addrL0 Vdd! mux_8bit_0/mux_one_0/inv2_2/out 2 10 1357 1801
-n wz_addrL0 GND! mux_8bit_0/mux_one_0/inv2_2/out 2 5 1357 1783
-p inv2_3/out mux_8bit_0/mux_one_1/inv2_2/out mux_8bit_0/mux_one_1/inv2_1/in 2 7 1392 1650
-p mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_1/inv2_1/in mux_8bit_0/mux_one_1/inv2_0/out 2 7 1392 1663
-p inv2_3/out mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1684
-n mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_1/inv2_2/out mux_8bit_0/mux_one_1/inv2_1/in 2 7 1413 1650
-n inv2_3/out mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1684
-n inv2_3/out mux_8bit_0/mux_one_1/inv2_1/in mux_8bit_0/mux_one_1/inv2_0/out 2 7 1413 1663
-p wz1 Vdd! mux_8bit_0/mux_one_1/inv2_0/out 2 10 1357 1668
-n wz1 GND! mux_8bit_0/mux_one_1/inv2_0/out 2 5 1357 1687
-p mux_8bit_0/mux_one_1/inv2_1/in Vdd! PCL_w_muxout1 2 10 1398 1620
-n mux_8bit_0/mux_one_1/inv2_1/in GND! PCL_w_muxout1 2 5 1417 1620
-p wz_addrL1 Vdd! mux_8bit_0/mux_one_1/inv2_2/out 2 10 1357 1625
-n wz_addrL1 GND! mux_8bit_0/mux_one_1/inv2_2/out 2 5 1357 1607
-p inv2_3/out mux_8bit_0/mux_one_2/inv2_2/out mux_8bit_0/mux_one_2/inv2_1/in 2 7 1392 1474
-p mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_2/inv2_1/in mux_8bit_0/mux_one_2/inv2_0/out 2 7 1392 1487
-p inv2_3/out mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1508
-n mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_2/inv2_2/out mux_8bit_0/mux_one_2/inv2_1/in 2 7 1413 1474
-n inv2_3/out mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1508
-n inv2_3/out mux_8bit_0/mux_one_2/inv2_1/in mux_8bit_0/mux_one_2/inv2_0/out 2 7 1413 1487
-p wz2 Vdd! mux_8bit_0/mux_one_2/inv2_0/out 2 10 1357 1492
-n wz2 GND! mux_8bit_0/mux_one_2/inv2_0/out 2 5 1357 1511
-p mux_8bit_0/mux_one_2/inv2_1/in Vdd! PCL_w_muxout2 2 10 1398 1444
-n mux_8bit_0/mux_one_2/inv2_1/in GND! PCL_w_muxout2 2 5 1417 1444
-p wz_addrL2 Vdd! mux_8bit_0/mux_one_2/inv2_2/out 2 10 1357 1449
-n wz_addrL2 GND! mux_8bit_0/mux_one_2/inv2_2/out 2 5 1357 1431
-p inv2_3/out mux_8bit_0/mux_one_3/inv2_2/out mux_8bit_0/mux_one_3/inv2_1/in 2 7 1392 1298
-p mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_3/inv2_1/in mux_8bit_0/mux_one_3/inv2_0/out 2 7 1392 1311
-p inv2_3/out mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1332
-n mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_3/inv2_2/out mux_8bit_0/mux_one_3/inv2_1/in 2 7 1413 1298
-n inv2_3/out mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1332
-n inv2_3/out mux_8bit_0/mux_one_3/inv2_1/in mux_8bit_0/mux_one_3/inv2_0/out 2 7 1413 1311
-p wz3 Vdd! mux_8bit_0/mux_one_3/inv2_0/out 2 10 1357 1316
-n wz3 GND! mux_8bit_0/mux_one_3/inv2_0/out 2 5 1357 1335
-p mux_8bit_0/mux_one_3/inv2_1/in Vdd! PCL_w_muxout3 2 10 1398 1268
-n mux_8bit_0/mux_one_3/inv2_1/in GND! PCL_w_muxout3 2 5 1417 1268
-p wz_addrL3 Vdd! mux_8bit_0/mux_one_3/inv2_2/out 2 10 1357 1273
-n wz_addrL3 GND! mux_8bit_0/mux_one_3/inv2_2/out 2 5 1357 1255
-p inv2_3/out mux_8bit_0/mux_one_4/inv2_2/out mux_8bit_0/mux_one_4/inv2_1/in 2 7 1392 1122
-p mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_4/inv2_1/in mux_8bit_0/mux_one_4/inv2_0/out 2 7 1392 1135
-p inv2_3/out mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1156
-n mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_4/inv2_2/out mux_8bit_0/mux_one_4/inv2_1/in 2 7 1413 1122
-n inv2_3/out mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1156
-n inv2_3/out mux_8bit_0/mux_one_4/inv2_1/in mux_8bit_0/mux_one_4/inv2_0/out 2 7 1413 1135
-p wz4 Vdd! mux_8bit_0/mux_one_4/inv2_0/out 2 10 1357 1140
-n wz4 GND! mux_8bit_0/mux_one_4/inv2_0/out 2 5 1357 1159
-p mux_8bit_0/mux_one_4/inv2_1/in Vdd! PCL_w_muxout4 2 10 1398 1092
-n mux_8bit_0/mux_one_4/inv2_1/in GND! PCL_w_muxout4 2 5 1417 1092
-p wz_addrL4 Vdd! mux_8bit_0/mux_one_4/inv2_2/out 2 10 1357 1097
-n wz_addrL4 GND! mux_8bit_0/mux_one_4/inv2_2/out 2 5 1357 1079
-p inv2_3/out mux_8bit_0/mux_one_5/inv2_2/out mux_8bit_0/mux_one_5/inv2_1/in 2 7 1392 946
-p mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_5/inv2_1/in mux_8bit_0/mux_one_5/inv2_0/out 2 7 1392 959
-p inv2_3/out mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 980
-n mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_5/inv2_2/out mux_8bit_0/mux_one_5/inv2_1/in 2 7 1413 946
-n inv2_3/out mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 1413 980
-n inv2_3/out mux_8bit_0/mux_one_5/inv2_1/in mux_8bit_0/mux_one_5/inv2_0/out 2 7 1413 959
-p wz5 Vdd! mux_8bit_0/mux_one_5/inv2_0/out 2 10 1357 964
-n wz5 GND! mux_8bit_0/mux_one_5/inv2_0/out 2 5 1357 983
-p mux_8bit_0/mux_one_5/inv2_1/in Vdd! PCL_w_muxout5 2 10 1398 916
-n mux_8bit_0/mux_one_5/inv2_1/in GND! PCL_w_muxout5 2 5 1417 916
-p wz_addrL5 Vdd! mux_8bit_0/mux_one_5/inv2_2/out 2 10 1357 921
-n wz_addrL5 GND! mux_8bit_0/mux_one_5/inv2_2/out 2 5 1357 903
-p inv2_3/out mux_8bit_0/mux_one_6/inv2_2/out mux_8bit_0/mux_one_6/inv2_1/in 2 7 1392 770
-p mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_6/inv2_1/in mux_8bit_0/mux_one_6/inv2_0/out 2 7 1392 783
-p inv2_3/out mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 804
-n mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_6/inv2_2/out mux_8bit_0/mux_one_6/inv2_1/in 2 7 1413 770
-n inv2_3/out mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 1413 804
-n inv2_3/out mux_8bit_0/mux_one_6/inv2_1/in mux_8bit_0/mux_one_6/inv2_0/out 2 7 1413 783
-p wz6 Vdd! mux_8bit_0/mux_one_6/inv2_0/out 2 10 1357 788
-n wz6 GND! mux_8bit_0/mux_one_6/inv2_0/out 2 5 1357 807
-p mux_8bit_0/mux_one_6/inv2_1/in Vdd! PCL_w_muxout6 2 10 1398 740
-n mux_8bit_0/mux_one_6/inv2_1/in GND! PCL_w_muxout6 2 5 1417 740
-p wz_addrL6 Vdd! mux_8bit_0/mux_one_6/inv2_2/out 2 10 1357 745
-n wz_addrL6 GND! mux_8bit_0/mux_one_6/inv2_2/out 2 5 1357 727
-p inv2_3/out mux_8bit_0/mux_one_7/inv2_2/out mux_8bit_0/mux_one_7/inv2_1/in 2 7 1392 594
-p mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_7/inv2_1/in mux_8bit_0/mux_one_7/inv2_0/out 2 7 1392 607
-p inv2_3/out mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 628
-n mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_7/inv2_2/out mux_8bit_0/mux_one_7/inv2_1/in 2 7 1413 594
-n inv2_3/out mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 1413 628
-n inv2_3/out mux_8bit_0/mux_one_7/inv2_1/in mux_8bit_0/mux_one_7/inv2_0/out 2 7 1413 607
-p wz7 Vdd! mux_8bit_0/mux_one_7/inv2_0/out 2 10 1357 612
-n wz7 GND! mux_8bit_0/mux_one_7/inv2_0/out 2 5 1357 631
-p mux_8bit_0/mux_one_7/inv2_1/in Vdd! PCL_w_muxout7 2 10 1398 564
-n mux_8bit_0/mux_one_7/inv2_1/in GND! PCL_w_muxout7 2 5 1417 564
-p wz_addrL7 Vdd! mux_8bit_0/mux_one_7/inv2_2/out 2 10 1357 569
-n wz_addrL7 GND! mux_8bit_0/mux_one_7/inv2_2/out 2 5 1357 551
+p mux_8bit_0/sel mux_8bit_0/mux_one_0/2mux_nr_0/in0 mux_8bit_0/mux_one_0/2mux_nr_0/out 2 7 1392 1826
+p mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_0/2mux_nr_0/out mux_8bit_0/mux_one_0/2mux_nr_0/in1 2 7 1392 1839
+p mux_8bit_0/sel mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1860
+n mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_0/2mux_nr_0/in0 mux_8bit_0/mux_one_0/2mux_nr_0/out 2 7 1413 1826
+n mux_8bit_0/sel mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1860
+n mux_8bit_0/sel mux_8bit_0/mux_one_0/2mux_nr_0/out mux_8bit_0/mux_one_0/2mux_nr_0/in1 2 7 1413 1839
+p wz0 Vdd! mux_8bit_0/mux_one_0/2mux_nr_0/in1 2 10 1357 1844
+n wz0 GND! mux_8bit_0/mux_one_0/2mux_nr_0/in1 2 5 1357 1863
+p mux_8bit_0/mux_one_0/2mux_nr_0/out Vdd! PCL_w_muxout0 2 10 1398 1796
+n mux_8bit_0/mux_one_0/2mux_nr_0/out GND! PCL_w_muxout0 2 5 1417 1796
+p wz_addrL0 Vdd! mux_8bit_0/mux_one_0/2mux_nr_0/in0 2 10 1357 1801
+n wz_addrL0 GND! mux_8bit_0/mux_one_0/2mux_nr_0/in0 2 5 1357 1783
+p mux_8bit_0/sel mux_8bit_0/mux_one_1/2mux_nr_0/in0 mux_8bit_0/mux_one_1/2mux_nr_0/out 2 7 1392 1650
+p mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_1/2mux_nr_0/out mux_8bit_0/mux_one_1/2mux_nr_0/in1 2 7 1392 1663
+p mux_8bit_0/sel mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1684
+n mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_1/2mux_nr_0/in0 mux_8bit_0/mux_one_1/2mux_nr_0/out 2 7 1413 1650
+n mux_8bit_0/sel mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1684
+n mux_8bit_0/sel mux_8bit_0/mux_one_1/2mux_nr_0/out mux_8bit_0/mux_one_1/2mux_nr_0/in1 2 7 1413 1663
+p wz1 Vdd! mux_8bit_0/mux_one_1/2mux_nr_0/in1 2 10 1357 1668
+n wz1 GND! mux_8bit_0/mux_one_1/2mux_nr_0/in1 2 5 1357 1687
+p mux_8bit_0/mux_one_1/2mux_nr_0/out Vdd! PCL_w_muxout1 2 10 1398 1620
+n mux_8bit_0/mux_one_1/2mux_nr_0/out GND! PCL_w_muxout1 2 5 1417 1620
+p wz_addrL1 Vdd! mux_8bit_0/mux_one_1/2mux_nr_0/in0 2 10 1357 1625
+n wz_addrL1 GND! mux_8bit_0/mux_one_1/2mux_nr_0/in0 2 5 1357 1607
+p mux_8bit_0/sel mux_8bit_0/mux_one_2/2mux_nr_0/in0 mux_8bit_0/mux_one_2/2mux_nr_0/out 2 7 1392 1474
+p mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_2/2mux_nr_0/out mux_8bit_0/mux_one_2/2mux_nr_0/in1 2 7 1392 1487
+p mux_8bit_0/sel mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1508
+n mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_2/2mux_nr_0/in0 mux_8bit_0/mux_one_2/2mux_nr_0/out 2 7 1413 1474
+n mux_8bit_0/sel mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1508
+n mux_8bit_0/sel mux_8bit_0/mux_one_2/2mux_nr_0/out mux_8bit_0/mux_one_2/2mux_nr_0/in1 2 7 1413 1487
+p wz2 Vdd! mux_8bit_0/mux_one_2/2mux_nr_0/in1 2 10 1357 1492
+n wz2 GND! mux_8bit_0/mux_one_2/2mux_nr_0/in1 2 5 1357 1511
+p mux_8bit_0/mux_one_2/2mux_nr_0/out Vdd! PCL_w_muxout2 2 10 1398 1444
+n mux_8bit_0/mux_one_2/2mux_nr_0/out GND! PCL_w_muxout2 2 5 1417 1444
+p wz_addrL2 Vdd! mux_8bit_0/mux_one_2/2mux_nr_0/in0 2 10 1357 1449
+n wz_addrL2 GND! mux_8bit_0/mux_one_2/2mux_nr_0/in0 2 5 1357 1431
+p mux_8bit_0/sel mux_8bit_0/mux_one_3/2mux_nr_0/in0 mux_8bit_0/mux_one_3/2mux_nr_0/out 2 7 1392 1298
+p mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_3/2mux_nr_0/out mux_8bit_0/mux_one_3/2mux_nr_0/in1 2 7 1392 1311
+p mux_8bit_0/sel mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1332
+n mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_3/2mux_nr_0/in0 mux_8bit_0/mux_one_3/2mux_nr_0/out 2 7 1413 1298
+n mux_8bit_0/sel mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1332
+n mux_8bit_0/sel mux_8bit_0/mux_one_3/2mux_nr_0/out mux_8bit_0/mux_one_3/2mux_nr_0/in1 2 7 1413 1311
+p wz3 Vdd! mux_8bit_0/mux_one_3/2mux_nr_0/in1 2 10 1357 1316
+n wz3 GND! mux_8bit_0/mux_one_3/2mux_nr_0/in1 2 5 1357 1335
+p mux_8bit_0/mux_one_3/2mux_nr_0/out Vdd! PCL_w_muxout3 2 10 1398 1268
+n mux_8bit_0/mux_one_3/2mux_nr_0/out GND! PCL_w_muxout3 2 5 1417 1268
+p wz_addrL3 Vdd! mux_8bit_0/mux_one_3/2mux_nr_0/in0 2 10 1357 1273
+n wz_addrL3 GND! mux_8bit_0/mux_one_3/2mux_nr_0/in0 2 5 1357 1255
+p mux_8bit_0/sel mux_8bit_0/mux_one_4/2mux_nr_0/in0 mux_8bit_0/mux_one_4/2mux_nr_0/out 2 7 1392 1122
+p mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_4/2mux_nr_0/out mux_8bit_0/mux_one_4/2mux_nr_0/in1 2 7 1392 1135
+p mux_8bit_0/sel mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 1156
+n mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_4/2mux_nr_0/in0 mux_8bit_0/mux_one_4/2mux_nr_0/out 2 7 1413 1122
+n mux_8bit_0/sel mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 1413 1156
+n mux_8bit_0/sel mux_8bit_0/mux_one_4/2mux_nr_0/out mux_8bit_0/mux_one_4/2mux_nr_0/in1 2 7 1413 1135
+p wz4 Vdd! mux_8bit_0/mux_one_4/2mux_nr_0/in1 2 10 1357 1140
+n wz4 GND! mux_8bit_0/mux_one_4/2mux_nr_0/in1 2 5 1357 1159
+p mux_8bit_0/mux_one_4/2mux_nr_0/out Vdd! PCL_w_muxout4 2 10 1398 1092
+n mux_8bit_0/mux_one_4/2mux_nr_0/out GND! PCL_w_muxout4 2 5 1417 1092
+p wz_addrL4 Vdd! mux_8bit_0/mux_one_4/2mux_nr_0/in0 2 10 1357 1097
+n wz_addrL4 GND! mux_8bit_0/mux_one_4/2mux_nr_0/in0 2 5 1357 1079
+p mux_8bit_0/sel mux_8bit_0/mux_one_5/2mux_nr_0/in0 mux_8bit_0/mux_one_5/2mux_nr_0/out 2 7 1392 946
+p mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_5/2mux_nr_0/out mux_8bit_0/mux_one_5/2mux_nr_0/in1 2 7 1392 959
+p mux_8bit_0/sel mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 980
+n mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_5/2mux_nr_0/in0 mux_8bit_0/mux_one_5/2mux_nr_0/out 2 7 1413 946
+n mux_8bit_0/sel mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 1413 980
+n mux_8bit_0/sel mux_8bit_0/mux_one_5/2mux_nr_0/out mux_8bit_0/mux_one_5/2mux_nr_0/in1 2 7 1413 959
+p wz5 Vdd! mux_8bit_0/mux_one_5/2mux_nr_0/in1 2 10 1357 964
+n wz5 GND! mux_8bit_0/mux_one_5/2mux_nr_0/in1 2 5 1357 983
+p mux_8bit_0/mux_one_5/2mux_nr_0/out Vdd! PCL_w_muxout5 2 10 1398 916
+n mux_8bit_0/mux_one_5/2mux_nr_0/out GND! PCL_w_muxout5 2 5 1417 916
+p wz_addrL5 Vdd! mux_8bit_0/mux_one_5/2mux_nr_0/in0 2 10 1357 921
+n wz_addrL5 GND! mux_8bit_0/mux_one_5/2mux_nr_0/in0 2 5 1357 903
+p mux_8bit_0/sel mux_8bit_0/mux_one_7/2mux_nr_0/in0 mux_8bit_0/mux_one_7/2mux_nr_0/out 2 7 1392 594
+p mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_7/2mux_nr_0/out mux_8bit_0/mux_one_7/2mux_nr_0/in1 2 7 1392 607
+p mux_8bit_0/sel mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 628
+n mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_7/2mux_nr_0/in0 mux_8bit_0/mux_one_7/2mux_nr_0/out 2 7 1413 594
+n mux_8bit_0/sel mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 1413 628
+n mux_8bit_0/sel mux_8bit_0/mux_one_7/2mux_nr_0/out mux_8bit_0/mux_one_7/2mux_nr_0/in1 2 7 1413 607
+p wz7 Vdd! mux_8bit_0/mux_one_7/2mux_nr_0/in1 2 10 1357 612
+n wz7 GND! mux_8bit_0/mux_one_7/2mux_nr_0/in1 2 5 1357 631
+p mux_8bit_0/mux_one_7/2mux_nr_0/out Vdd! PCL_w_muxout7 2 10 1398 564
+n mux_8bit_0/mux_one_7/2mux_nr_0/out GND! PCL_w_muxout7 2 5 1417 564
+p wz_addrL7 Vdd! mux_8bit_0/mux_one_7/2mux_nr_0/in0 2 10 1357 569
+n wz_addrL7 GND! mux_8bit_0/mux_one_7/2mux_nr_0/in0 2 5 1357 551
+p mux_8bit_0/sel mux_8bit_0/mux_one_6/2mux_nr_0/in0 mux_8bit_0/mux_one_6/2mux_nr_0/out 2 7 1392 770
+p mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_6/2mux_nr_0/out mux_8bit_0/mux_one_6/2mux_nr_0/in1 2 7 1392 783
+p mux_8bit_0/sel mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 1393 804
+n mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_0/mux_one_6/2mux_nr_0/in0 mux_8bit_0/mux_one_6/2mux_nr_0/out 2 7 1413 770
+n mux_8bit_0/sel mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 1413 804
+n mux_8bit_0/sel mux_8bit_0/mux_one_6/2mux_nr_0/out mux_8bit_0/mux_one_6/2mux_nr_0/in1 2 7 1413 783
+p wz6 Vdd! mux_8bit_0/mux_one_6/2mux_nr_0/in1 2 10 1357 788
+n wz6 GND! mux_8bit_0/mux_one_6/2mux_nr_0/in1 2 5 1357 807
+p mux_8bit_0/mux_one_6/2mux_nr_0/out Vdd! PCL_w_muxout6 2 10 1398 740
+n mux_8bit_0/mux_one_6/2mux_nr_0/out GND! PCL_w_muxout6 2 5 1417 740
+p wz_addrL6 Vdd! mux_8bit_0/mux_one_6/2mux_nr_0/in0 2 10 1357 745
+n wz_addrL6 GND! mux_8bit_0/mux_one_6/2mux_nr_0/in0 2 5 1357 727
 p ld_datain Vdd! latch_0/latch_one_0/a_12_n54# 2 10 74 1810
 n ld_datain GND! latch_0/latch_one_0/a_12_n54# 2 5 74 1791
 p latch_0/latch_one_0/a_12_n54# latch_0/latch_one_0/a_30_n35# wz0 2 10 98 1810
@@ -1653,106 +1653,106 @@ n data_in7 latch_0/latch_one_7/a_n5_n54# GND! 2 5 65 559
 n ld_datain latch_0/latch_one_7/a_30_n54# wz7 2 5 98 559
 p latch_0/latch_one_7/a_n5_n54# Vdd! latch_0/latch_one_7/a_30_n35# 2 10 92 578
 n latch_0/latch_one_7/a_n5_n54# GND! latch_0/latch_one_7/a_30_n54# 2 5 92 559
-p inv2_11/in Vdd! inv2_11/out 2 10 1898 1891
-n inv2_11/in GND! inv2_11/out 2 5 1917 1891
-p rd_dataout Vdd! inv2_0/out 2 10 -27 1870
-n rd_dataout GND! inv2_0/out 2 5 -27 1852
-p inv2_11/out mux_8bit_1/mux_one_0/inv2_2/out mux_8bit_1/mux_one_0/inv2_1/in 2 7 1892 1826
-p mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_0/inv2_1/in mux_8bit_1/mux_one_0/inv2_0/out 2 7 1892 1839
-p inv2_11/out mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1860
-n mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_0/inv2_2/out mux_8bit_1/mux_one_0/inv2_1/in 2 7 1913 1826
-n inv2_11/out mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1860
-n inv2_11/out mux_8bit_1/mux_one_0/inv2_1/in mux_8bit_1/mux_one_0/inv2_0/out 2 7 1913 1839
-p wz0 Vdd! mux_8bit_1/mux_one_0/inv2_0/out 2 10 1857 1844
-n wz0 GND! mux_8bit_1/mux_one_0/inv2_0/out 2 5 1857 1863
-p mux_8bit_1/mux_one_0/inv2_1/in Vdd! reg_5/in0 2 10 1898 1796
-n mux_8bit_1/mux_one_0/inv2_1/in GND! reg_5/in0 2 5 1917 1796
-p wz_addrH0 Vdd! mux_8bit_1/mux_one_0/inv2_2/out 2 10 1857 1801
-n wz_addrH0 GND! mux_8bit_1/mux_one_0/inv2_2/out 2 5 1857 1783
-p inv2_11/out mux_8bit_1/mux_one_1/inv2_2/out mux_8bit_1/mux_one_1/inv2_1/in 2 7 1892 1650
-p mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_1/inv2_1/in mux_8bit_1/mux_one_1/inv2_0/out 2 7 1892 1663
-p inv2_11/out mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1684
-n mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_1/inv2_2/out mux_8bit_1/mux_one_1/inv2_1/in 2 7 1913 1650
-n inv2_11/out mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1684
-n inv2_11/out mux_8bit_1/mux_one_1/inv2_1/in mux_8bit_1/mux_one_1/inv2_0/out 2 7 1913 1663
-p wz1 Vdd! mux_8bit_1/mux_one_1/inv2_0/out 2 10 1857 1668
-n wz1 GND! mux_8bit_1/mux_one_1/inv2_0/out 2 5 1857 1687
-p mux_8bit_1/mux_one_1/inv2_1/in Vdd! reg_5/in1 2 10 1898 1620
-n mux_8bit_1/mux_one_1/inv2_1/in GND! reg_5/in1 2 5 1917 1620
-p wz_addrH1 Vdd! mux_8bit_1/mux_one_1/inv2_2/out 2 10 1857 1625
-n wz_addrH1 GND! mux_8bit_1/mux_one_1/inv2_2/out 2 5 1857 1607
-p inv2_11/out mux_8bit_1/mux_one_2/inv2_2/out mux_8bit_1/mux_one_2/inv2_1/in 2 7 1892 1474
-p mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_2/inv2_1/in mux_8bit_1/mux_one_2/inv2_0/out 2 7 1892 1487
-p inv2_11/out mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1508
-n mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_2/inv2_2/out mux_8bit_1/mux_one_2/inv2_1/in 2 7 1913 1474
-n inv2_11/out mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1508
-n inv2_11/out mux_8bit_1/mux_one_2/inv2_1/in mux_8bit_1/mux_one_2/inv2_0/out 2 7 1913 1487
-p wz2 Vdd! mux_8bit_1/mux_one_2/inv2_0/out 2 10 1857 1492
-n wz2 GND! mux_8bit_1/mux_one_2/inv2_0/out 2 5 1857 1511
-p mux_8bit_1/mux_one_2/inv2_1/in Vdd! reg_5/in2 2 10 1898 1444
-n mux_8bit_1/mux_one_2/inv2_1/in GND! reg_5/in2 2 5 1917 1444
-p wz_addrH2 Vdd! mux_8bit_1/mux_one_2/inv2_2/out 2 10 1857 1449
-n wz_addrH2 GND! mux_8bit_1/mux_one_2/inv2_2/out 2 5 1857 1431
-p inv2_11/out mux_8bit_1/mux_one_3/inv2_2/out mux_8bit_1/mux_one_3/inv2_1/in 2 7 1892 1298
-p mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_3/inv2_1/in mux_8bit_1/mux_one_3/inv2_0/out 2 7 1892 1311
-p inv2_11/out mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1332
-n mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_3/inv2_2/out mux_8bit_1/mux_one_3/inv2_1/in 2 7 1913 1298
-n inv2_11/out mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1332
-n inv2_11/out mux_8bit_1/mux_one_3/inv2_1/in mux_8bit_1/mux_one_3/inv2_0/out 2 7 1913 1311
-p wz3 Vdd! mux_8bit_1/mux_one_3/inv2_0/out 2 10 1857 1316
-n wz3 GND! mux_8bit_1/mux_one_3/inv2_0/out 2 5 1857 1335
-p mux_8bit_1/mux_one_3/inv2_1/in Vdd! reg_5/in3 2 10 1898 1268
-n mux_8bit_1/mux_one_3/inv2_1/in GND! reg_5/in3 2 5 1917 1268
-p wz_addrH3 Vdd! mux_8bit_1/mux_one_3/inv2_2/out 2 10 1857 1273
-n wz_addrH3 GND! mux_8bit_1/mux_one_3/inv2_2/out 2 5 1857 1255
-p inv2_11/out mux_8bit_1/mux_one_4/inv2_2/out mux_8bit_1/mux_one_4/inv2_1/in 2 7 1892 1122
-p mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_4/inv2_1/in mux_8bit_1/mux_one_4/inv2_0/out 2 7 1892 1135
-p inv2_11/out mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1156
-n mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_4/inv2_2/out mux_8bit_1/mux_one_4/inv2_1/in 2 7 1913 1122
-n inv2_11/out mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1156
-n inv2_11/out mux_8bit_1/mux_one_4/inv2_1/in mux_8bit_1/mux_one_4/inv2_0/out 2 7 1913 1135
-p wz4 Vdd! mux_8bit_1/mux_one_4/inv2_0/out 2 10 1857 1140
-n wz4 GND! mux_8bit_1/mux_one_4/inv2_0/out 2 5 1857 1159
-p mux_8bit_1/mux_one_4/inv2_1/in Vdd! reg_5/in4 2 10 1898 1092
-n mux_8bit_1/mux_one_4/inv2_1/in GND! reg_5/in4 2 5 1917 1092
-p wz_addrH4 Vdd! mux_8bit_1/mux_one_4/inv2_2/out 2 10 1857 1097
-n wz_addrH4 GND! mux_8bit_1/mux_one_4/inv2_2/out 2 5 1857 1079
-p inv2_11/out mux_8bit_1/mux_one_5/inv2_2/out mux_8bit_1/mux_one_5/inv2_1/in 2 7 1892 946
-p mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_5/inv2_1/in mux_8bit_1/mux_one_5/inv2_0/out 2 7 1892 959
-p inv2_11/out mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 980
-n mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_5/inv2_2/out mux_8bit_1/mux_one_5/inv2_1/in 2 7 1913 946
-n inv2_11/out mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 1913 980
-n inv2_11/out mux_8bit_1/mux_one_5/inv2_1/in mux_8bit_1/mux_one_5/inv2_0/out 2 7 1913 959
-p wz5 Vdd! mux_8bit_1/mux_one_5/inv2_0/out 2 10 1857 964
-n wz5 GND! mux_8bit_1/mux_one_5/inv2_0/out 2 5 1857 983
-p mux_8bit_1/mux_one_5/inv2_1/in Vdd! reg_5/in5 2 10 1898 916
-n mux_8bit_1/mux_one_5/inv2_1/in GND! reg_5/in5 2 5 1917 916
-p wz_addrH5 Vdd! mux_8bit_1/mux_one_5/inv2_2/out 2 10 1857 921
-n wz_addrH5 GND! mux_8bit_1/mux_one_5/inv2_2/out 2 5 1857 903
-p inv2_11/out mux_8bit_1/mux_one_6/inv2_2/out mux_8bit_1/mux_one_6/inv2_1/in 2 7 1892 770
-p mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_6/inv2_1/in mux_8bit_1/mux_one_6/inv2_0/out 2 7 1892 783
-p inv2_11/out mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 804
-n mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_6/inv2_2/out mux_8bit_1/mux_one_6/inv2_1/in 2 7 1913 770
-n inv2_11/out mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 1913 804
-n inv2_11/out mux_8bit_1/mux_one_6/inv2_1/in mux_8bit_1/mux_one_6/inv2_0/out 2 7 1913 783
-p wz6 Vdd! mux_8bit_1/mux_one_6/inv2_0/out 2 10 1857 788
-n wz6 GND! mux_8bit_1/mux_one_6/inv2_0/out 2 5 1857 807
-p mux_8bit_1/mux_one_6/inv2_1/in Vdd! reg_5/in6 2 10 1898 740
-n mux_8bit_1/mux_one_6/inv2_1/in GND! reg_5/in6 2 5 1917 740
-p wz_addrH6 Vdd! mux_8bit_1/mux_one_6/inv2_2/out 2 10 1857 745
-n wz_addrH6 GND! mux_8bit_1/mux_one_6/inv2_2/out 2 5 1857 727
-p inv2_11/out mux_8bit_1/mux_one_7/inv2_2/out mux_8bit_1/mux_one_7/inv2_1/in 2 7 1892 594
-p mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_7/inv2_1/in mux_8bit_1/mux_one_7/inv2_0/out 2 7 1892 607
-p inv2_11/out mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 628
-n mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_7/inv2_2/out mux_8bit_1/mux_one_7/inv2_1/in 2 7 1913 594
-n inv2_11/out mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 1913 628
-n inv2_11/out mux_8bit_1/mux_one_7/inv2_1/in mux_8bit_1/mux_one_7/inv2_0/out 2 7 1913 607
-p wz7 Vdd! mux_8bit_1/mux_one_7/inv2_0/out 2 10 1857 612
-n wz7 GND! mux_8bit_1/mux_one_7/inv2_0/out 2 5 1857 631
-p mux_8bit_1/mux_one_7/inv2_1/in Vdd! reg_5/in7 2 10 1898 564
-n mux_8bit_1/mux_one_7/inv2_1/in GND! reg_5/in7 2 5 1917 564
-p wz_addrH7 Vdd! mux_8bit_1/mux_one_7/inv2_2/out 2 10 1857 569
-n wz_addrH7 GND! mux_8bit_1/mux_one_7/inv2_2/out 2 5 1857 551
+p inv2_11/a_1_8# Vdd! mux_8bit_1/sel 2 10 1898 1891
+n inv2_11/a_1_8# GND! mux_8bit_1/sel 2 5 1917 1891
+p rd_dataout Vdd! staticizer_1/c 2 10 -27 1870
+n rd_dataout GND! staticizer_1/c 2 5 -27 1852
+p mux_8bit_1/sel mux_8bit_1/mux_one_0/2mux_nr_0/in0 mux_8bit_1/mux_one_0/2mux_nr_0/out 2 7 1892 1826
+p mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_0/2mux_nr_0/out mux_8bit_1/mux_one_0/2mux_nr_0/in1 2 7 1892 1839
+p mux_8bit_1/sel mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1860
+n mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_0/2mux_nr_0/in0 mux_8bit_1/mux_one_0/2mux_nr_0/out 2 7 1913 1826
+n mux_8bit_1/sel mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1860
+n mux_8bit_1/sel mux_8bit_1/mux_one_0/2mux_nr_0/out mux_8bit_1/mux_one_0/2mux_nr_0/in1 2 7 1913 1839
+p wz0 Vdd! mux_8bit_1/mux_one_0/2mux_nr_0/in1 2 10 1857 1844
+n wz0 GND! mux_8bit_1/mux_one_0/2mux_nr_0/in1 2 5 1857 1863
+p mux_8bit_1/mux_one_0/2mux_nr_0/out Vdd! reg_5/in0 2 10 1898 1796
+n mux_8bit_1/mux_one_0/2mux_nr_0/out GND! reg_5/in0 2 5 1917 1796
+p wz_addrH0 Vdd! mux_8bit_1/mux_one_0/2mux_nr_0/in0 2 10 1857 1801
+n wz_addrH0 GND! mux_8bit_1/mux_one_0/2mux_nr_0/in0 2 5 1857 1783
+p mux_8bit_1/sel mux_8bit_1/mux_one_1/2mux_nr_0/in0 mux_8bit_1/mux_one_1/2mux_nr_0/out 2 7 1892 1650
+p mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_1/2mux_nr_0/out mux_8bit_1/mux_one_1/2mux_nr_0/in1 2 7 1892 1663
+p mux_8bit_1/sel mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1684
+n mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_1/2mux_nr_0/in0 mux_8bit_1/mux_one_1/2mux_nr_0/out 2 7 1913 1650
+n mux_8bit_1/sel mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1684
+n mux_8bit_1/sel mux_8bit_1/mux_one_1/2mux_nr_0/out mux_8bit_1/mux_one_1/2mux_nr_0/in1 2 7 1913 1663
+p wz1 Vdd! mux_8bit_1/mux_one_1/2mux_nr_0/in1 2 10 1857 1668
+n wz1 GND! mux_8bit_1/mux_one_1/2mux_nr_0/in1 2 5 1857 1687
+p mux_8bit_1/mux_one_1/2mux_nr_0/out Vdd! reg_5/in1 2 10 1898 1620
+n mux_8bit_1/mux_one_1/2mux_nr_0/out GND! reg_5/in1 2 5 1917 1620
+p wz_addrH1 Vdd! mux_8bit_1/mux_one_1/2mux_nr_0/in0 2 10 1857 1625
+n wz_addrH1 GND! mux_8bit_1/mux_one_1/2mux_nr_0/in0 2 5 1857 1607
+p mux_8bit_1/sel mux_8bit_1/mux_one_2/2mux_nr_0/in0 mux_8bit_1/mux_one_2/2mux_nr_0/out 2 7 1892 1474
+p mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_2/2mux_nr_0/out mux_8bit_1/mux_one_2/2mux_nr_0/in1 2 7 1892 1487
+p mux_8bit_1/sel mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1508
+n mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_2/2mux_nr_0/in0 mux_8bit_1/mux_one_2/2mux_nr_0/out 2 7 1913 1474
+n mux_8bit_1/sel mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1508
+n mux_8bit_1/sel mux_8bit_1/mux_one_2/2mux_nr_0/out mux_8bit_1/mux_one_2/2mux_nr_0/in1 2 7 1913 1487
+p wz2 Vdd! mux_8bit_1/mux_one_2/2mux_nr_0/in1 2 10 1857 1492
+n wz2 GND! mux_8bit_1/mux_one_2/2mux_nr_0/in1 2 5 1857 1511
+p mux_8bit_1/mux_one_2/2mux_nr_0/out Vdd! reg_5/in2 2 10 1898 1444
+n mux_8bit_1/mux_one_2/2mux_nr_0/out GND! reg_5/in2 2 5 1917 1444
+p wz_addrH2 Vdd! mux_8bit_1/mux_one_2/2mux_nr_0/in0 2 10 1857 1449
+n wz_addrH2 GND! mux_8bit_1/mux_one_2/2mux_nr_0/in0 2 5 1857 1431
+p mux_8bit_1/sel mux_8bit_1/mux_one_3/2mux_nr_0/in0 mux_8bit_1/mux_one_3/2mux_nr_0/out 2 7 1892 1298
+p mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_3/2mux_nr_0/out mux_8bit_1/mux_one_3/2mux_nr_0/in1 2 7 1892 1311
+p mux_8bit_1/sel mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1332
+n mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_3/2mux_nr_0/in0 mux_8bit_1/mux_one_3/2mux_nr_0/out 2 7 1913 1298
+n mux_8bit_1/sel mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1332
+n mux_8bit_1/sel mux_8bit_1/mux_one_3/2mux_nr_0/out mux_8bit_1/mux_one_3/2mux_nr_0/in1 2 7 1913 1311
+p wz3 Vdd! mux_8bit_1/mux_one_3/2mux_nr_0/in1 2 10 1857 1316
+n wz3 GND! mux_8bit_1/mux_one_3/2mux_nr_0/in1 2 5 1857 1335
+p mux_8bit_1/mux_one_3/2mux_nr_0/out Vdd! reg_5/in3 2 10 1898 1268
+n mux_8bit_1/mux_one_3/2mux_nr_0/out GND! reg_5/in3 2 5 1917 1268
+p wz_addrH3 Vdd! mux_8bit_1/mux_one_3/2mux_nr_0/in0 2 10 1857 1273
+n wz_addrH3 GND! mux_8bit_1/mux_one_3/2mux_nr_0/in0 2 5 1857 1255
+p mux_8bit_1/sel mux_8bit_1/mux_one_4/2mux_nr_0/in0 mux_8bit_1/mux_one_4/2mux_nr_0/out 2 7 1892 1122
+p mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_4/2mux_nr_0/out mux_8bit_1/mux_one_4/2mux_nr_0/in1 2 7 1892 1135
+p mux_8bit_1/sel mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 1156
+n mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_4/2mux_nr_0/in0 mux_8bit_1/mux_one_4/2mux_nr_0/out 2 7 1913 1122
+n mux_8bit_1/sel mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 1913 1156
+n mux_8bit_1/sel mux_8bit_1/mux_one_4/2mux_nr_0/out mux_8bit_1/mux_one_4/2mux_nr_0/in1 2 7 1913 1135
+p wz4 Vdd! mux_8bit_1/mux_one_4/2mux_nr_0/in1 2 10 1857 1140
+n wz4 GND! mux_8bit_1/mux_one_4/2mux_nr_0/in1 2 5 1857 1159
+p mux_8bit_1/mux_one_4/2mux_nr_0/out Vdd! reg_5/in4 2 10 1898 1092
+n mux_8bit_1/mux_one_4/2mux_nr_0/out GND! reg_5/in4 2 5 1917 1092
+p wz_addrH4 Vdd! mux_8bit_1/mux_one_4/2mux_nr_0/in0 2 10 1857 1097
+n wz_addrH4 GND! mux_8bit_1/mux_one_4/2mux_nr_0/in0 2 5 1857 1079
+p mux_8bit_1/sel mux_8bit_1/mux_one_5/2mux_nr_0/in0 mux_8bit_1/mux_one_5/2mux_nr_0/out 2 7 1892 946
+p mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_5/2mux_nr_0/out mux_8bit_1/mux_one_5/2mux_nr_0/in1 2 7 1892 959
+p mux_8bit_1/sel mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 980
+n mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_5/2mux_nr_0/in0 mux_8bit_1/mux_one_5/2mux_nr_0/out 2 7 1913 946
+n mux_8bit_1/sel mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 1913 980
+n mux_8bit_1/sel mux_8bit_1/mux_one_5/2mux_nr_0/out mux_8bit_1/mux_one_5/2mux_nr_0/in1 2 7 1913 959
+p wz5 Vdd! mux_8bit_1/mux_one_5/2mux_nr_0/in1 2 10 1857 964
+n wz5 GND! mux_8bit_1/mux_one_5/2mux_nr_0/in1 2 5 1857 983
+p mux_8bit_1/mux_one_5/2mux_nr_0/out Vdd! reg_5/in5 2 10 1898 916
+n mux_8bit_1/mux_one_5/2mux_nr_0/out GND! reg_5/in5 2 5 1917 916
+p wz_addrH5 Vdd! mux_8bit_1/mux_one_5/2mux_nr_0/in0 2 10 1857 921
+n wz_addrH5 GND! mux_8bit_1/mux_one_5/2mux_nr_0/in0 2 5 1857 903
+p mux_8bit_1/sel mux_8bit_1/mux_one_7/2mux_nr_0/in0 mux_8bit_1/mux_one_7/2mux_nr_0/out 2 7 1892 594
+p mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_7/2mux_nr_0/out mux_8bit_1/mux_one_7/2mux_nr_0/in1 2 7 1892 607
+p mux_8bit_1/sel mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 628
+n mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_7/2mux_nr_0/in0 mux_8bit_1/mux_one_7/2mux_nr_0/out 2 7 1913 594
+n mux_8bit_1/sel mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 1913 628
+n mux_8bit_1/sel mux_8bit_1/mux_one_7/2mux_nr_0/out mux_8bit_1/mux_one_7/2mux_nr_0/in1 2 7 1913 607
+p wz7 Vdd! mux_8bit_1/mux_one_7/2mux_nr_0/in1 2 10 1857 612
+n wz7 GND! mux_8bit_1/mux_one_7/2mux_nr_0/in1 2 5 1857 631
+p mux_8bit_1/mux_one_7/2mux_nr_0/out Vdd! reg_5/in7 2 10 1898 564
+n mux_8bit_1/mux_one_7/2mux_nr_0/out GND! reg_5/in7 2 5 1917 564
+p wz_addrH7 Vdd! mux_8bit_1/mux_one_7/2mux_nr_0/in0 2 10 1857 569
+n wz_addrH7 GND! mux_8bit_1/mux_one_7/2mux_nr_0/in0 2 5 1857 551
+p mux_8bit_1/sel mux_8bit_1/mux_one_6/2mux_nr_0/in0 mux_8bit_1/mux_one_6/2mux_nr_0/out 2 7 1892 770
+p mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_6/2mux_nr_0/out mux_8bit_1/mux_one_6/2mux_nr_0/in1 2 7 1892 783
+p mux_8bit_1/sel mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 1893 804
+n mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_1/mux_one_6/2mux_nr_0/in0 mux_8bit_1/mux_one_6/2mux_nr_0/out 2 7 1913 770
+n mux_8bit_1/sel mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 1913 804
+n mux_8bit_1/sel mux_8bit_1/mux_one_6/2mux_nr_0/out mux_8bit_1/mux_one_6/2mux_nr_0/in1 2 7 1913 783
+p wz6 Vdd! mux_8bit_1/mux_one_6/2mux_nr_0/in1 2 10 1857 788
+n wz6 GND! mux_8bit_1/mux_one_6/2mux_nr_0/in1 2 5 1857 807
+p mux_8bit_1/mux_one_6/2mux_nr_0/out Vdd! reg_5/in6 2 10 1898 740
+n mux_8bit_1/mux_one_6/2mux_nr_0/out GND! reg_5/in6 2 5 1917 740
+p wz_addrH6 Vdd! mux_8bit_1/mux_one_6/2mux_nr_0/in0 2 10 1857 745
+n wz_addrH6 GND! mux_8bit_1/mux_one_6/2mux_nr_0/in0 2 5 1857 727
 p rfb Vdd! latch_1/latch_one_0/a_12_n54# 2 10 604 1803
 n rfb GND! latch_1/latch_one_0/a_12_n54# 2 5 604 1784
 p latch_1/latch_one_0/a_12_n54# latch_1/latch_one_0/a_30_n35# wz0 2 10 628 1803
@@ -1817,106 +1817,106 @@ n latch_1/in7 latch_1/latch_one_7/a_n5_n54# GND! 2 5 595 552
 n rfb latch_1/latch_one_7/a_30_n54# wz7 2 5 628 552
 p latch_1/latch_one_7/a_n5_n54# Vdd! latch_1/latch_one_7/a_30_n35# 2 10 622 571
 n latch_1/latch_one_7/a_n5_n54# GND! latch_1/latch_one_7/a_30_n54# 2 5 622 552
-p rd_addrL Vdd! inv2_1/out 2 10 2704 1861
-n rd_addrL GND! inv2_1/out 2 5 2704 1880
-p inv2_12/in Vdd! inv2_11/in 2 10 1898 1921
-n inv2_12/in GND! inv2_11/in 2 5 1917 1921
-p inv2_15/out mux_8bit_2/mux_one_0/inv2_2/out mux_8bit_2/mux_one_0/inv2_1/in 2 7 2192 1826
-p mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_0/inv2_1/in mux_8bit_2/mux_one_0/inv2_0/out 2 7 2192 1839
-p inv2_15/out mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1860
-n mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_0/inv2_2/out mux_8bit_2/mux_one_0/inv2_1/in 2 7 2213 1826
-n inv2_15/out mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1860
-n inv2_15/out mux_8bit_2/mux_one_0/inv2_1/in mux_8bit_2/mux_one_0/inv2_0/out 2 7 2213 1839
-p wz0 Vdd! mux_8bit_2/mux_one_0/inv2_0/out 2 10 2157 1844
-n wz0 GND! mux_8bit_2/mux_one_0/inv2_0/out 2 5 2157 1863
-p mux_8bit_2/mux_one_0/inv2_1/in Vdd! reg_7/in0 2 10 2198 1796
-n mux_8bit_2/mux_one_0/inv2_1/in GND! reg_7/in0 2 5 2217 1796
-p wz_addrH0 Vdd! mux_8bit_2/mux_one_0/inv2_2/out 2 10 2157 1801
-n wz_addrH0 GND! mux_8bit_2/mux_one_0/inv2_2/out 2 5 2157 1783
-p inv2_15/out mux_8bit_2/mux_one_1/inv2_2/out mux_8bit_2/mux_one_1/inv2_1/in 2 7 2192 1650
-p mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_1/inv2_1/in mux_8bit_2/mux_one_1/inv2_0/out 2 7 2192 1663
-p inv2_15/out mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1684
-n mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_1/inv2_2/out mux_8bit_2/mux_one_1/inv2_1/in 2 7 2213 1650
-n inv2_15/out mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1684
-n inv2_15/out mux_8bit_2/mux_one_1/inv2_1/in mux_8bit_2/mux_one_1/inv2_0/out 2 7 2213 1663
-p wz1 Vdd! mux_8bit_2/mux_one_1/inv2_0/out 2 10 2157 1668
-n wz1 GND! mux_8bit_2/mux_one_1/inv2_0/out 2 5 2157 1687
-p mux_8bit_2/mux_one_1/inv2_1/in Vdd! reg_7/in1 2 10 2198 1620
-n mux_8bit_2/mux_one_1/inv2_1/in GND! reg_7/in1 2 5 2217 1620
-p wz_addrH1 Vdd! mux_8bit_2/mux_one_1/inv2_2/out 2 10 2157 1625
-n wz_addrH1 GND! mux_8bit_2/mux_one_1/inv2_2/out 2 5 2157 1607
-p inv2_15/out mux_8bit_2/mux_one_2/inv2_2/out mux_8bit_2/mux_one_2/inv2_1/in 2 7 2192 1474
-p mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_2/inv2_1/in mux_8bit_2/mux_one_2/inv2_0/out 2 7 2192 1487
-p inv2_15/out mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1508
-n mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_2/inv2_2/out mux_8bit_2/mux_one_2/inv2_1/in 2 7 2213 1474
-n inv2_15/out mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1508
-n inv2_15/out mux_8bit_2/mux_one_2/inv2_1/in mux_8bit_2/mux_one_2/inv2_0/out 2 7 2213 1487
-p wz2 Vdd! mux_8bit_2/mux_one_2/inv2_0/out 2 10 2157 1492
-n wz2 GND! mux_8bit_2/mux_one_2/inv2_0/out 2 5 2157 1511
-p mux_8bit_2/mux_one_2/inv2_1/in Vdd! reg_7/in2 2 10 2198 1444
-n mux_8bit_2/mux_one_2/inv2_1/in GND! reg_7/in2 2 5 2217 1444
-p wz_addrH2 Vdd! mux_8bit_2/mux_one_2/inv2_2/out 2 10 2157 1449
-n wz_addrH2 GND! mux_8bit_2/mux_one_2/inv2_2/out 2 5 2157 1431
-p inv2_15/out mux_8bit_2/mux_one_3/inv2_2/out mux_8bit_2/mux_one_3/inv2_1/in 2 7 2192 1298
-p mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_3/inv2_1/in mux_8bit_2/mux_one_3/inv2_0/out 2 7 2192 1311
-p inv2_15/out mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1332
-n mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_3/inv2_2/out mux_8bit_2/mux_one_3/inv2_1/in 2 7 2213 1298
-n inv2_15/out mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1332
-n inv2_15/out mux_8bit_2/mux_one_3/inv2_1/in mux_8bit_2/mux_one_3/inv2_0/out 2 7 2213 1311
-p wz3 Vdd! mux_8bit_2/mux_one_3/inv2_0/out 2 10 2157 1316
-n wz3 GND! mux_8bit_2/mux_one_3/inv2_0/out 2 5 2157 1335
-p mux_8bit_2/mux_one_3/inv2_1/in Vdd! reg_7/in3 2 10 2198 1268
-n mux_8bit_2/mux_one_3/inv2_1/in GND! reg_7/in3 2 5 2217 1268
-p wz_addrH3 Vdd! mux_8bit_2/mux_one_3/inv2_2/out 2 10 2157 1273
-n wz_addrH3 GND! mux_8bit_2/mux_one_3/inv2_2/out 2 5 2157 1255
-p inv2_15/out mux_8bit_2/mux_one_4/inv2_2/out mux_8bit_2/mux_one_4/inv2_1/in 2 7 2192 1122
-p mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_4/inv2_1/in mux_8bit_2/mux_one_4/inv2_0/out 2 7 2192 1135
-p inv2_15/out mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1156
-n mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_4/inv2_2/out mux_8bit_2/mux_one_4/inv2_1/in 2 7 2213 1122
-n inv2_15/out mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1156
-n inv2_15/out mux_8bit_2/mux_one_4/inv2_1/in mux_8bit_2/mux_one_4/inv2_0/out 2 7 2213 1135
-p wz4 Vdd! mux_8bit_2/mux_one_4/inv2_0/out 2 10 2157 1140
-n wz4 GND! mux_8bit_2/mux_one_4/inv2_0/out 2 5 2157 1159
-p mux_8bit_2/mux_one_4/inv2_1/in Vdd! reg_7/in4 2 10 2198 1092
-n mux_8bit_2/mux_one_4/inv2_1/in GND! reg_7/in4 2 5 2217 1092
-p wz_addrH4 Vdd! mux_8bit_2/mux_one_4/inv2_2/out 2 10 2157 1097
-n wz_addrH4 GND! mux_8bit_2/mux_one_4/inv2_2/out 2 5 2157 1079
-p inv2_15/out mux_8bit_2/mux_one_5/inv2_2/out mux_8bit_2/mux_one_5/inv2_1/in 2 7 2192 946
-p mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_5/inv2_1/in mux_8bit_2/mux_one_5/inv2_0/out 2 7 2192 959
-p inv2_15/out mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 980
-n mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_5/inv2_2/out mux_8bit_2/mux_one_5/inv2_1/in 2 7 2213 946
-n inv2_15/out mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 2213 980
-n inv2_15/out mux_8bit_2/mux_one_5/inv2_1/in mux_8bit_2/mux_one_5/inv2_0/out 2 7 2213 959
-p wz5 Vdd! mux_8bit_2/mux_one_5/inv2_0/out 2 10 2157 964
-n wz5 GND! mux_8bit_2/mux_one_5/inv2_0/out 2 5 2157 983
-p mux_8bit_2/mux_one_5/inv2_1/in Vdd! reg_7/in5 2 10 2198 916
-n mux_8bit_2/mux_one_5/inv2_1/in GND! reg_7/in5 2 5 2217 916
-p wz_addrH5 Vdd! mux_8bit_2/mux_one_5/inv2_2/out 2 10 2157 921
-n wz_addrH5 GND! mux_8bit_2/mux_one_5/inv2_2/out 2 5 2157 903
-p inv2_15/out mux_8bit_2/mux_one_6/inv2_2/out mux_8bit_2/mux_one_6/inv2_1/in 2 7 2192 770
-p mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_6/inv2_1/in mux_8bit_2/mux_one_6/inv2_0/out 2 7 2192 783
-p inv2_15/out mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 804
-n mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_6/inv2_2/out mux_8bit_2/mux_one_6/inv2_1/in 2 7 2213 770
-n inv2_15/out mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 2213 804
-n inv2_15/out mux_8bit_2/mux_one_6/inv2_1/in mux_8bit_2/mux_one_6/inv2_0/out 2 7 2213 783
-p wz6 Vdd! mux_8bit_2/mux_one_6/inv2_0/out 2 10 2157 788
-n wz6 GND! mux_8bit_2/mux_one_6/inv2_0/out 2 5 2157 807
-p mux_8bit_2/mux_one_6/inv2_1/in Vdd! reg_7/in6 2 10 2198 740
-n mux_8bit_2/mux_one_6/inv2_1/in GND! reg_7/in6 2 5 2217 740
-p wz_addrH6 Vdd! mux_8bit_2/mux_one_6/inv2_2/out 2 10 2157 745
-n wz_addrH6 GND! mux_8bit_2/mux_one_6/inv2_2/out 2 5 2157 727
-p inv2_15/out mux_8bit_2/mux_one_7/inv2_2/out mux_8bit_2/mux_one_7/inv2_1/in 2 7 2192 594
-p mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_7/inv2_1/in mux_8bit_2/mux_one_7/inv2_0/out 2 7 2192 607
-p inv2_15/out mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 628
-n mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_7/inv2_2/out mux_8bit_2/mux_one_7/inv2_1/in 2 7 2213 594
-n inv2_15/out mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 2213 628
-n inv2_15/out mux_8bit_2/mux_one_7/inv2_1/in mux_8bit_2/mux_one_7/inv2_0/out 2 7 2213 607
-p wz7 Vdd! mux_8bit_2/mux_one_7/inv2_0/out 2 10 2157 612
-n wz7 GND! mux_8bit_2/mux_one_7/inv2_0/out 2 5 2157 631
-p mux_8bit_2/mux_one_7/inv2_1/in Vdd! reg_7/in7 2 10 2198 564
-n mux_8bit_2/mux_one_7/inv2_1/in GND! reg_7/in7 2 5 2217 564
-p wz_addrH7 Vdd! mux_8bit_2/mux_one_7/inv2_2/out 2 10 2157 569
-n wz_addrH7 GND! mux_8bit_2/mux_one_7/inv2_2/out 2 5 2157 551
+p rd_addrL Vdd! staticizer_4/c 2 10 2704 1861
+n rd_addrL GND! staticizer_4/c 2 5 2704 1880
+p inv2_12/a_1_8# Vdd! inv2_11/a_1_8# 2 10 1898 1921
+n inv2_12/a_1_8# GND! inv2_11/a_1_8# 2 5 1917 1921
+p mux_8bit_2/sel mux_8bit_2/mux_one_0/2mux_nr_0/in0 mux_8bit_2/mux_one_0/2mux_nr_0/out 2 7 2192 1826
+p mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_0/2mux_nr_0/out mux_8bit_2/mux_one_0/2mux_nr_0/in1 2 7 2192 1839
+p mux_8bit_2/sel mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1860
+n mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_0/2mux_nr_0/in0 mux_8bit_2/mux_one_0/2mux_nr_0/out 2 7 2213 1826
+n mux_8bit_2/sel mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1860
+n mux_8bit_2/sel mux_8bit_2/mux_one_0/2mux_nr_0/out mux_8bit_2/mux_one_0/2mux_nr_0/in1 2 7 2213 1839
+p wz0 Vdd! mux_8bit_2/mux_one_0/2mux_nr_0/in1 2 10 2157 1844
+n wz0 GND! mux_8bit_2/mux_one_0/2mux_nr_0/in1 2 5 2157 1863
+p mux_8bit_2/mux_one_0/2mux_nr_0/out Vdd! reg_7/in0 2 10 2198 1796
+n mux_8bit_2/mux_one_0/2mux_nr_0/out GND! reg_7/in0 2 5 2217 1796
+p wz_addrH0 Vdd! mux_8bit_2/mux_one_0/2mux_nr_0/in0 2 10 2157 1801
+n wz_addrH0 GND! mux_8bit_2/mux_one_0/2mux_nr_0/in0 2 5 2157 1783
+p mux_8bit_2/sel mux_8bit_2/mux_one_1/2mux_nr_0/in0 mux_8bit_2/mux_one_1/2mux_nr_0/out 2 7 2192 1650
+p mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_1/2mux_nr_0/out mux_8bit_2/mux_one_1/2mux_nr_0/in1 2 7 2192 1663
+p mux_8bit_2/sel mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1684
+n mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_1/2mux_nr_0/in0 mux_8bit_2/mux_one_1/2mux_nr_0/out 2 7 2213 1650
+n mux_8bit_2/sel mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1684
+n mux_8bit_2/sel mux_8bit_2/mux_one_1/2mux_nr_0/out mux_8bit_2/mux_one_1/2mux_nr_0/in1 2 7 2213 1663
+p wz1 Vdd! mux_8bit_2/mux_one_1/2mux_nr_0/in1 2 10 2157 1668
+n wz1 GND! mux_8bit_2/mux_one_1/2mux_nr_0/in1 2 5 2157 1687
+p mux_8bit_2/mux_one_1/2mux_nr_0/out Vdd! reg_7/in1 2 10 2198 1620
+n mux_8bit_2/mux_one_1/2mux_nr_0/out GND! reg_7/in1 2 5 2217 1620
+p wz_addrH1 Vdd! mux_8bit_2/mux_one_1/2mux_nr_0/in0 2 10 2157 1625
+n wz_addrH1 GND! mux_8bit_2/mux_one_1/2mux_nr_0/in0 2 5 2157 1607
+p mux_8bit_2/sel mux_8bit_2/mux_one_2/2mux_nr_0/in0 mux_8bit_2/mux_one_2/2mux_nr_0/out 2 7 2192 1474
+p mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_2/2mux_nr_0/out mux_8bit_2/mux_one_2/2mux_nr_0/in1 2 7 2192 1487
+p mux_8bit_2/sel mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1508
+n mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_2/2mux_nr_0/in0 mux_8bit_2/mux_one_2/2mux_nr_0/out 2 7 2213 1474
+n mux_8bit_2/sel mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1508
+n mux_8bit_2/sel mux_8bit_2/mux_one_2/2mux_nr_0/out mux_8bit_2/mux_one_2/2mux_nr_0/in1 2 7 2213 1487
+p wz2 Vdd! mux_8bit_2/mux_one_2/2mux_nr_0/in1 2 10 2157 1492
+n wz2 GND! mux_8bit_2/mux_one_2/2mux_nr_0/in1 2 5 2157 1511
+p mux_8bit_2/mux_one_2/2mux_nr_0/out Vdd! reg_7/in2 2 10 2198 1444
+n mux_8bit_2/mux_one_2/2mux_nr_0/out GND! reg_7/in2 2 5 2217 1444
+p wz_addrH2 Vdd! mux_8bit_2/mux_one_2/2mux_nr_0/in0 2 10 2157 1449
+n wz_addrH2 GND! mux_8bit_2/mux_one_2/2mux_nr_0/in0 2 5 2157 1431
+p mux_8bit_2/sel mux_8bit_2/mux_one_3/2mux_nr_0/in0 mux_8bit_2/mux_one_3/2mux_nr_0/out 2 7 2192 1298
+p mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_3/2mux_nr_0/out mux_8bit_2/mux_one_3/2mux_nr_0/in1 2 7 2192 1311
+p mux_8bit_2/sel mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1332
+n mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_3/2mux_nr_0/in0 mux_8bit_2/mux_one_3/2mux_nr_0/out 2 7 2213 1298
+n mux_8bit_2/sel mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1332
+n mux_8bit_2/sel mux_8bit_2/mux_one_3/2mux_nr_0/out mux_8bit_2/mux_one_3/2mux_nr_0/in1 2 7 2213 1311
+p wz3 Vdd! mux_8bit_2/mux_one_3/2mux_nr_0/in1 2 10 2157 1316
+n wz3 GND! mux_8bit_2/mux_one_3/2mux_nr_0/in1 2 5 2157 1335
+p mux_8bit_2/mux_one_3/2mux_nr_0/out Vdd! reg_7/in3 2 10 2198 1268
+n mux_8bit_2/mux_one_3/2mux_nr_0/out GND! reg_7/in3 2 5 2217 1268
+p wz_addrH3 Vdd! mux_8bit_2/mux_one_3/2mux_nr_0/in0 2 10 2157 1273
+n wz_addrH3 GND! mux_8bit_2/mux_one_3/2mux_nr_0/in0 2 5 2157 1255
+p mux_8bit_2/sel mux_8bit_2/mux_one_4/2mux_nr_0/in0 mux_8bit_2/mux_one_4/2mux_nr_0/out 2 7 2192 1122
+p mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_4/2mux_nr_0/out mux_8bit_2/mux_one_4/2mux_nr_0/in1 2 7 2192 1135
+p mux_8bit_2/sel mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 1156
+n mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_4/2mux_nr_0/in0 mux_8bit_2/mux_one_4/2mux_nr_0/out 2 7 2213 1122
+n mux_8bit_2/sel mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# GND! 2 7 2213 1156
+n mux_8bit_2/sel mux_8bit_2/mux_one_4/2mux_nr_0/out mux_8bit_2/mux_one_4/2mux_nr_0/in1 2 7 2213 1135
+p wz4 Vdd! mux_8bit_2/mux_one_4/2mux_nr_0/in1 2 10 2157 1140
+n wz4 GND! mux_8bit_2/mux_one_4/2mux_nr_0/in1 2 5 2157 1159
+p mux_8bit_2/mux_one_4/2mux_nr_0/out Vdd! reg_7/in4 2 10 2198 1092
+n mux_8bit_2/mux_one_4/2mux_nr_0/out GND! reg_7/in4 2 5 2217 1092
+p wz_addrH4 Vdd! mux_8bit_2/mux_one_4/2mux_nr_0/in0 2 10 2157 1097
+n wz_addrH4 GND! mux_8bit_2/mux_one_4/2mux_nr_0/in0 2 5 2157 1079
+p mux_8bit_2/sel mux_8bit_2/mux_one_5/2mux_nr_0/in0 mux_8bit_2/mux_one_5/2mux_nr_0/out 2 7 2192 946
+p mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_5/2mux_nr_0/out mux_8bit_2/mux_one_5/2mux_nr_0/in1 2 7 2192 959
+p mux_8bit_2/sel mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 980
+n mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_5/2mux_nr_0/in0 mux_8bit_2/mux_one_5/2mux_nr_0/out 2 7 2213 946
+n mux_8bit_2/sel mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# GND! 2 7 2213 980
+n mux_8bit_2/sel mux_8bit_2/mux_one_5/2mux_nr_0/out mux_8bit_2/mux_one_5/2mux_nr_0/in1 2 7 2213 959
+p wz5 Vdd! mux_8bit_2/mux_one_5/2mux_nr_0/in1 2 10 2157 964
+n wz5 GND! mux_8bit_2/mux_one_5/2mux_nr_0/in1 2 5 2157 983
+p mux_8bit_2/mux_one_5/2mux_nr_0/out Vdd! reg_7/in5 2 10 2198 916
+n mux_8bit_2/mux_one_5/2mux_nr_0/out GND! reg_7/in5 2 5 2217 916
+p wz_addrH5 Vdd! mux_8bit_2/mux_one_5/2mux_nr_0/in0 2 10 2157 921
+n wz_addrH5 GND! mux_8bit_2/mux_one_5/2mux_nr_0/in0 2 5 2157 903
+p mux_8bit_2/sel mux_8bit_2/mux_one_7/2mux_nr_0/in0 mux_8bit_2/mux_one_7/2mux_nr_0/out 2 7 2192 594
+p mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_7/2mux_nr_0/out mux_8bit_2/mux_one_7/2mux_nr_0/in1 2 7 2192 607
+p mux_8bit_2/sel mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 628
+n mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_7/2mux_nr_0/in0 mux_8bit_2/mux_one_7/2mux_nr_0/out 2 7 2213 594
+n mux_8bit_2/sel mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# GND! 2 7 2213 628
+n mux_8bit_2/sel mux_8bit_2/mux_one_7/2mux_nr_0/out mux_8bit_2/mux_one_7/2mux_nr_0/in1 2 7 2213 607
+p wz7 Vdd! mux_8bit_2/mux_one_7/2mux_nr_0/in1 2 10 2157 612
+n wz7 GND! mux_8bit_2/mux_one_7/2mux_nr_0/in1 2 5 2157 631
+p mux_8bit_2/mux_one_7/2mux_nr_0/out Vdd! reg_7/in7 2 10 2198 564
+n mux_8bit_2/mux_one_7/2mux_nr_0/out GND! reg_7/in7 2 5 2217 564
+p wz_addrH7 Vdd! mux_8bit_2/mux_one_7/2mux_nr_0/in0 2 10 2157 569
+n wz_addrH7 GND! mux_8bit_2/mux_one_7/2mux_nr_0/in0 2 5 2157 551
+p mux_8bit_2/sel mux_8bit_2/mux_one_6/2mux_nr_0/in0 mux_8bit_2/mux_one_6/2mux_nr_0/out 2 7 2192 770
+p mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_6/2mux_nr_0/out mux_8bit_2/mux_one_6/2mux_nr_0/in1 2 7 2192 783
+p mux_8bit_2/sel mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# Vdd! 2 7 2193 804
+n mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# mux_8bit_2/mux_one_6/2mux_nr_0/in0 mux_8bit_2/mux_one_6/2mux_nr_0/out 2 7 2213 770
+n mux_8bit_2/sel mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# GND! 2 7 2213 804
+n mux_8bit_2/sel mux_8bit_2/mux_one_6/2mux_nr_0/out mux_8bit_2/mux_one_6/2mux_nr_0/in1 2 7 2213 783
+p wz6 Vdd! mux_8bit_2/mux_one_6/2mux_nr_0/in1 2 10 2157 788
+n wz6 GND! mux_8bit_2/mux_one_6/2mux_nr_0/in1 2 5 2157 807
+p mux_8bit_2/mux_one_6/2mux_nr_0/out Vdd! reg_7/in6 2 10 2198 740
+n mux_8bit_2/mux_one_6/2mux_nr_0/out GND! reg_7/in6 2 5 2217 740
+p wz_addrH6 Vdd! mux_8bit_2/mux_one_6/2mux_nr_0/in0 2 10 2157 745
+n wz_addrH6 GND! mux_8bit_2/mux_one_6/2mux_nr_0/in0 2 5 2157 727
 p ras Vdd! latch_2/latch_one_0/a_12_n54# 2 10 865 1806
 n ras GND! latch_2/latch_one_0/a_12_n54# 2 5 865 1787
 p latch_2/latch_one_0/a_12_n54# latch_2/latch_one_0/a_30_n35# wz0 2 10 889 1806
@@ -2269,10 +2269,10 @@ n shift_0/o7 latch_3/latch_one_7/a_n5_n54# GND! 2 5 388 552
 n ros latch_3/latch_one_7/a_30_n54# wz7 2 5 421 552
 p latch_3/latch_one_7/a_n5_n54# Vdd! latch_3/latch_one_7/a_30_n35# 2 10 415 571
 n latch_3/latch_one_7/a_n5_n54# GND! latch_3/latch_one_7/a_30_n54# 2 5 415 552
-p rd_addrH Vdd! inv2_2/out 2 10 2828 1861
-n rd_addrH GND! inv2_2/out 2 5 2828 1880
-p inv2_13/in Vdd! inv2_16/in 2 10 2198 1951
-n inv2_13/in GND! inv2_16/in 2 5 2217 1951
+p rd_addrH Vdd! staticizer_5/c 2 10 2828 1861
+n rd_addrH GND! staticizer_5/c 2 5 2828 1880
+p inv2_13/a_1_8# Vdd! inv2_16/a_1_8# 2 10 2198 1951
+n inv2_13/a_1_8# GND! inv2_16/a_1_8# 2 5 2217 1951
 p rd_dataout Vdd! latch_4/latch_one_0/a_12_n54# 2 10 15 1810
 n rd_dataout GND! latch_4/latch_one_0/a_12_n54# 2 5 15 1791
 p latch_4/latch_one_0/a_12_n54# latch_4/latch_one_0/a_30_n35# data_out0 2 10 -9 1810
@@ -2337,10 +2337,10 @@ n rx7 latch_4/latch_one_7/a_n5_n54# GND! 2 5 24 559
 n rd_dataout latch_4/latch_one_7/a_30_n54# data_out7 2 5 -9 559
 p latch_4/latch_one_7/a_n5_n54# Vdd! latch_4/latch_one_7/a_30_n35# 2 10 -3 578
 n latch_4/latch_one_7/a_n5_n54# GND! latch_4/latch_one_7/a_30_n54# 2 5 -3 559
-p ABH_w_sel Vdd! inv2_13/in 2 10 2198 1981
-n ABH_w_sel GND! inv2_13/in 2 5 2217 1981
-p inv2_3/in Vdd! inv2_3/out 2 10 1398 1891
-n inv2_3/in GND! inv2_3/out 2 5 1417 1891
+p ABH_w_sel Vdd! inv2_13/a_1_8# 2 10 2198 1981
+n ABH_w_sel GND! inv2_13/a_1_8# 2 5 2217 1981
+p inv2_3/a_1_8# Vdd! mux_8bit_0/sel 2 10 1398 1891
+n inv2_3/a_1_8# GND! mux_8bit_0/sel 2 5 1417 1891
 p rPCplus1L Vdd! latch_5/latch_one_0/a_12_n54# 2 10 1740 1806
 n rPCplus1L GND! latch_5/latch_one_0/a_12_n54# 2 5 1740 1787
 p latch_5/latch_one_0/a_12_n54# latch_5/latch_one_0/a_30_n35# wz_addrL0 2 10 1764 1806
@@ -2405,10 +2405,10 @@ n PCLplus1_7 latch_5/latch_one_7/a_n5_n54# GND! 2 5 1731 555
 n rPCplus1L latch_5/latch_one_7/a_30_n54# wz_addrL7 2 5 1764 555
 p latch_5/latch_one_7/a_n5_n54# Vdd! latch_5/latch_one_7/a_30_n35# 2 10 1758 574
 n latch_5/latch_one_7/a_n5_n54# GND! latch_5/latch_one_7/a_30_n54# 2 5 1758 555
-p inv2_15/in Vdd! inv2_15/out 2 10 2198 1891
-n inv2_15/in GND! inv2_15/out 2 5 2217 1891
-p rPCplus1L Vdd! inv2_4/out 2 10 1780 1861
-n rPCplus1L GND! inv2_4/out 2 5 1780 1880
+p inv2_15/a_1_8# Vdd! mux_8bit_2/sel 2 10 2198 1891
+n inv2_15/a_1_8# GND! mux_8bit_2/sel 2 5 2217 1891
+p rPCplus1L Vdd! staticizer_2/c 2 10 1780 1861
+n rPCplus1L GND! staticizer_2/c 2 5 1780 1880
 p rPCplus1H Vdd! latch_6/latch_one_0/a_12_n54# 2 10 2540 1806
 n rPCplus1H GND! latch_6/latch_one_0/a_12_n54# 2 5 2540 1787
 p latch_6/latch_one_0/a_12_n54# latch_6/latch_one_0/a_30_n35# wz_addrH0 2 10 2564 1806
@@ -2473,10 +2473,10 @@ n latch_6/in7 latch_6/latch_one_7/a_n5_n54# GND! 2 5 2531 555
 n rPCplus1H latch_6/latch_one_7/a_30_n54# wz_addrH7 2 5 2564 555
 p latch_6/latch_one_7/a_n5_n54# Vdd! latch_6/latch_one_7/a_30_n35# 2 10 2558 574
 n latch_6/latch_one_7/a_n5_n54# GND! latch_6/latch_one_7/a_30_n54# 2 5 2558 555
-p rPCplus1H Vdd! inv2_5/out 2 10 2580 1861
-n rPCplus1H GND! inv2_5/out 2 5 2580 1880
-p inv2_16/in Vdd! inv2_15/in 2 10 2198 1921
-n inv2_16/in GND! inv2_15/in 2 5 2217 1921
+p rPCplus1H Vdd! staticizer_3/c 2 10 2580 1861
+n rPCplus1H GND! staticizer_3/c 2 5 2580 1880
+p inv2_16/a_1_8# Vdd! inv2_15/a_1_8# 2 10 2198 1921
+n inv2_16/a_1_8# GND! inv2_15/a_1_8# 2 5 2217 1921
 p rd_addrL Vdd! latch_7/latch_one_0/a_12_n54# 2 10 2664 1806
 n rd_addrL GND! latch_7/latch_one_0/a_12_n54# 2 5 2664 1787
 p latch_7/latch_one_0/a_12_n54# latch_7/latch_one_0/a_30_n35# addr_out0 2 10 2688 1806
@@ -2541,8 +2541,8 @@ n ry7 latch_7/latch_one_7/a_n5_n54# GND! 2 5 2655 555
 n rd_addrL latch_7/latch_one_7/a_30_n54# addr_out7 2 5 2688 555
 p latch_7/latch_one_7/a_n5_n54# Vdd! latch_7/latch_one_7/a_30_n35# 2 10 2682 574
 n latch_7/latch_one_7/a_n5_n54# GND! latch_7/latch_one_7/a_30_n54# 2 5 2682 555
-p inv2_6/in Vdd! inv2_3/in 2 10 1398 1921
-n inv2_6/in GND! inv2_3/in 2 5 1417 1921
+p inv2_6/a_1_8# Vdd! inv2_3/a_1_8# 2 10 1398 1921
+n inv2_6/a_1_8# GND! inv2_3/a_1_8# 2 5 1417 1921
 p rd_addrH Vdd! latch_8/latch_one_0/a_12_n54# 2 10 2788 1806
 n rd_addrH GND! latch_8/latch_one_0/a_12_n54# 2 5 2788 1787
 p latch_8/latch_one_0/a_12_n54# latch_8/latch_one_0/a_30_n35# addr_out8 2 10 2812 1806
@@ -2607,12 +2607,12 @@ n ry_addrH7 latch_8/latch_one_7/a_n5_n54# GND! 2 5 2779 555
 n rd_addrH latch_8/latch_one_7/a_30_n54# addr_out15 2 5 2812 555
 p latch_8/latch_one_7/a_n5_n54# Vdd! latch_8/latch_one_7/a_30_n35# 2 10 2806 574
 n latch_8/latch_one_7/a_n5_n54# GND! latch_8/latch_one_7/a_30_n54# 2 5 2806 555
-p inv2_7/in Vdd! inv2_6/in 2 10 1398 1951
-n inv2_7/in GND! inv2_6/in 2 5 1417 1951
-p PCH_w_sel Vdd! inv2_9/out 2 10 1898 1981
-n PCH_w_sel GND! inv2_9/out 2 5 1917 1981
-p PCL_w_sel Vdd! inv2_7/in 2 10 1398 1981
-n PCL_w_sel GND! inv2_7/in 2 5 1417 1981
+p inv2_7/a_1_8# Vdd! inv2_6/a_1_8# 2 10 1398 1951
+n inv2_7/a_1_8# GND! inv2_6/a_1_8# 2 5 1417 1951
+p PCH_w_sel Vdd! inv2_9/a_6_n1# 2 10 1898 1981
+n PCH_w_sel GND! inv2_9/a_6_n1# 2 5 1917 1981
+p PCL_w_sel Vdd! inv2_7/a_1_8# 2 10 1398 1981
+n PCL_w_sel GND! inv2_7/a_1_8# 2 5 1417 1981
 p as_sub Vdd! addsub_0/xor_0/a_61_n1# 2 5 722 1829
 p as_sub Vdd! addsub_0/xor_0/a_89_n31# 2 5 712 1839
 p addsub_0/xor_0/a_61_n31# addsub_0/xor_0/out addsub_0/xor_0/a_61_n1# 2 5 722 1859
@@ -4157,14 +4157,6 @@ p reg_1/reg_one_3/a_21_n13# ry4 reg_1/reg_one_3/a_39_5# 2 10 1074 1096
 p DB_w reg_1/reg_one_3/a_16_27# Vdd! 2 10 1088 1126
 n reg_1/reg_one_3/tmp GND! reg_1/reg_one_3/a_54_n13# 2 5 1089 1079
 n reg_1/reg_one_3/tmp reg_1/reg_one_3/a_39_n13# GND! 2 5 1080 1079
-n 4nor2_0/out GND! staticizer_0/staticizer_one_0/a_77_n45# 2 5 133 1787
-p staticizer_0/staticizer_one_0/a_77_n45# staticizer_0/staticizer_one_0/a_95_n27# wz0 2 10 157 1805
-n wz0 staticizer_0/staticizer_one_0/a_60_n45# GND! 2 5 124 1787
-n 4nor2_0/out staticizer_0/staticizer_one_0/a_95_n45# wz0 2 5 157 1787
-p staticizer_0/staticizer_one_0/a_60_n45# Vdd! staticizer_0/staticizer_one_0/a_95_n27# 2 10 151 1805
-p 4nor2_0/out Vdd! staticizer_0/staticizer_one_0/a_77_n45# 2 10 133 1805
-p wz0 staticizer_0/staticizer_one_0/a_60_n45# Vdd! 2 10 124 1805
-n staticizer_0/staticizer_one_0/a_60_n45# GND! staticizer_0/staticizer_one_0/a_95_n45# 2 5 151 1787
 n 4nor2_0/out GND! staticizer_0/staticizer_one_1/a_77_n45# 2 5 133 1611
 p staticizer_0/staticizer_one_1/a_77_n45# staticizer_0/staticizer_one_1/a_95_n27# wz1 2 10 157 1629
 n wz1 staticizer_0/staticizer_one_1/a_60_n45# GND! 2 5 124 1611
@@ -4173,6 +4165,14 @@ p staticizer_0/staticizer_one_1/a_60_n45# Vdd! staticizer_0/staticizer_one_1/a_9
 p 4nor2_0/out Vdd! staticizer_0/staticizer_one_1/a_77_n45# 2 10 133 1629
 p wz1 staticizer_0/staticizer_one_1/a_60_n45# Vdd! 2 10 124 1629
 n staticizer_0/staticizer_one_1/a_60_n45# GND! staticizer_0/staticizer_one_1/a_95_n45# 2 5 151 1611
+n 4nor2_0/out GND! staticizer_0/staticizer_one_0/a_77_n45# 2 5 133 1787
+p staticizer_0/staticizer_one_0/a_77_n45# staticizer_0/staticizer_one_0/a_95_n27# wz0 2 10 157 1805
+n wz0 staticizer_0/staticizer_one_0/a_60_n45# GND! 2 5 124 1787
+n 4nor2_0/out staticizer_0/staticizer_one_0/a_95_n45# wz0 2 5 157 1787
+p staticizer_0/staticizer_one_0/a_60_n45# Vdd! staticizer_0/staticizer_one_0/a_95_n27# 2 10 151 1805
+p 4nor2_0/out Vdd! staticizer_0/staticizer_one_0/a_77_n45# 2 10 133 1805
+p wz0 staticizer_0/staticizer_one_0/a_60_n45# Vdd! 2 10 124 1805
+n staticizer_0/staticizer_one_0/a_60_n45# GND! staticizer_0/staticizer_one_0/a_95_n45# 2 5 151 1787
 n 4nor2_0/out GND! staticizer_0/staticizer_one_2/a_77_n45# 2 5 133 1435
 p staticizer_0/staticizer_one_2/a_77_n45# staticizer_0/staticizer_one_2/a_95_n27# wz2 2 10 157 1453
 n wz2 staticizer_0/staticizer_one_2/a_60_n45# GND! 2 5 124 1435
@@ -4221,190 +4221,199 @@ p staticizer_0/staticizer_one_7/a_60_n45# Vdd! staticizer_0/staticizer_one_7/a_9
 p 4nor2_0/out Vdd! staticizer_0/staticizer_one_7/a_77_n45# 2 10 133 573
 p wz7 staticizer_0/staticizer_one_7/a_60_n45# Vdd! 2 10 124 573
 n staticizer_0/staticizer_one_7/a_60_n45# GND! staticizer_0/staticizer_one_7/a_95_n45# 2 5 151 555
-C GND! inv2_5/out 5.13
-C Vdd! PCL_w 3.19
-C GND! rx0 4.14
-C GND! ry_addrH0 28.61
-C GND! PCH_r1 2.44
-C wz5 Vdd! 4.02
-C ry_addrH2 ry2 22.31
-C GND! DB_w 8.83
-C Vdd! ry3 3.51
-C ry_addrH6 ry6 22.31
-C rx3 GND! 4.14
-C rfb ras 11.78
-C Vdd! inv2_15/out 4.69
-C GND! A_r1 2.45
-C ry5 GND! 8.27
-C rd_dataout GND! 4.77
-C GND! 4nor2_0/out 5.72
-C GND! Vdd! 222.38
-C Vdd! ABH_r1 22.12
-C GND! inv2_1/out 5.13
-C rPCplus1L GND! 4.69
-C rx7 GND! 3.79
-C addsub_2/addsub_one_4/cin GND! 2.25
-C GND! addsub_1/addsub_one_2/cin 2.25
-C Vdd! rx4 5.81
-C GND! rx_addrH3 2.23
+C GND! rx4 4.27
+C ry_addrH6 GND! 2.07
+C ry3 GND! 8.49
+C PCH_w Vdd! 3.23
+C ld_datain Vdd! 15.05
 C addsub_1/addsub_one_6/cin GND! 2.25
-C GND! ABH_r0 7.62
-C ABH_r1 ABH_r0 2.42
-C fb_g2 GND! 2.48
-C GND! rx_addrH0 2.23
-C addsub_1/addsub_one_4/cin GND! 2.25
-C Vdd! ry2 3.41
-C wz1 GND! 3.50
-C GND! rx5 4.14
-C GND! wz2 3.50
-C addsub_2/addsub_one_6/cin GND! 2.25
-C rd_addrL Vdd! 15.22
-C Y_r1 Vdd! 22.12
-C Y_r0 GND! 6.30
-C GND! ABH_w 8.82
-C GND! inv2_4/out 5.13
-C addsub_2/c7 GND! 2.22
-C GND! A_w 8.83
-C GND! wz0 3.42
-C addsub_2/addsub_one_1/cin GND! 2.25
-C Vdd! rx_PCL0 2.01
-C GND! PCH_w 8.82
-C GND! os_u 4.46
-C rx1 Vdd! 6.02
-C Y_r1 Y_r0 2.42
-C Y_w Vdd! 3.19
-C Vdd! wz4 4.02
-C GND! rx_addrH6 2.44
-C Vdd! ld_datain 15.05
-C Vdd! DB_r1 22.12
-C X_r1 Vdd! 22.12
-C X_w GND! 8.83
-C ry0 ry_addrH0 22.31
-C Vdd! wz3 4.02
-C ry7 GND! 7.87
-C GND! inv2_3/out 4.72
-C GND! PCH_r0 7.62
-C os_s GND! 4.32
-C ry1 GND! 8.27
-C GND! DB_r0 6.30
-C GND! addsub_1/addsub_one_3/cin 2.24
-C GND! rfb 5.26
-C as_sub Vdd! 2.09
-C rd_addrH Vdd! 15.22
-C Vdd! inv2_11/out 4.69
-C wz6 Vdd! 4.02
-C GND! PCL_r1 2.44
-C fb_g1 Vdd! 2.87
-C GND! ABL_w 8.82
-C ry0 Vdd! 3.35
-C addsub_2/cin GND! 3.04
-C ry1 ry_addrH1 22.31
-C Vdd! wz_addrH1 2.02
-C GND! ry4 8.27
-C rx0 Vdd! 5.17
-C Vdd! PCH_r1 22.12
-C GND! ras 5.46
-C addsub_1/addsub_one_5/cin GND! 2.24
-C Vdd! DB_w 3.19
-C GND! rx2 4.14
-C GND! fb_g3 2.74
-C GND! wz7 3.25
-C rx3 Vdd! 5.54
-C Vdd! A_r1 22.12
-C rd_dataout Vdd! 15.35
-C ry5 Vdd! 3.41
-C GND! ry6 8.27
-C GND! ABL_r1 2.44
-C rPCplus1H GND! 4.69
-C rPCplus1L Vdd! 15.22
-C rx7 Vdd! 4.55
-C GND! A_r0 6.29
+C PCH_r0 GND! 7.60
 C fb_g2 Vdd! 2.46
-C rfb ros 5.73
-C GND! inv2_2/out 5.13
-C wz1 Vdd! 4.02
-C X_r0 GND! 6.30
-C Vdd! rx5 5.50
-C GND! rx6 4.14
-C DB_r1 DB_r0 2.42
-C Vdd! wz2 4.02
-C Vdd! fb_g0 2.78
-C PCL_r1 PCL_r0 2.42
-C GND! addsub_2/addsub_one_5/cin 2.24
-C addsub_0/addsub_one_6/cin GND! 2.25
-C Vdd! ABH_w 3.19
-C Vdd! A_w 3.19
-C GND! rx_addrH1 2.25
-C Vdd! wz0 3.93
-C addsub_0/addsub_one_3/cin GND! 2.24
-C GND! PCL_w 8.77
-C wz5 GND! 3.50
-C Vdd! PCH_w 3.19
-C PCH_r0 PCH_r1 2.42
-C ABL_r0 ABL_r1 2.42
-C GND! rx_addrH5 2.23
-C Vdd! os_u 5.72
-C GND! ry3 8.35
-C addsub_2/addsub_one_2/cin GND! 2.25
-C GND! inv2_15/out 4.72
-C GND! ABH_r1 2.44
-C X_w Vdd! 3.19
-C GND! addsub_0/addsub_one_1/cin 2.26
-C GND! rx4 4.14
+C addsub_1/addsub_one_2/cin GND! 2.25
+C rx1 Vdd! 5.98
+C rd_dataout Vdd! 15.35
+C X_w GND! 7.69
+C staticizer_2/c GND! 5.13
+C Y_r1 Vdd! 22.12
+C ry_addrH0 ry0 22.31
+C as_sub Vdd! 2.09
+C ABH_w GND! 7.68
+C wz_addrH1 Vdd! 2.02
+C ry0 GND! 8.26
+C PCL_w Vdd! 3.23
+C ry_addrH3 ry3 22.31
 C ry7 Vdd! 3.08
-C inv2_0/out GND! 5.14
-C Vdd! inv2_3/out 4.69
-C ry4 ry_addrH4 22.31
-C os_s Vdd! 5.15
-C ry1 Vdd! 3.41
-C GND! ry2 8.27
-C X_r0 X_r1 2.42
-C Vdd! PCL_r1 22.12
-C rd_addrL GND! 4.69
-C Vdd! ABL_w 3.19
-C Y_r1 GND! 2.45
-C Vdd! ry4 3.41
-C GND! addsub_0/addsub_one_2/cin 2.25
-C ry3 ry_addrH3 22.31
-C rx2 Vdd! 5.81
-C Vdd! fb_g3 2.42
-C Vdd! wz7 3.93
-C GND! rx_addrH4 2.23
-C Vdd! ry6 3.41
-C Vdd! ABL_r1 22.12
-C rx1 GND! 4.38
-C GND! ros 4.81
-C ry5 ry_addrH5 22.31
-C GND! ABL_r0 6.29
-C A_r1 A_r0 2.42
-C rPCplus1H Vdd! 15.22
-C Y_w GND! 8.82
-C GND! wz4 3.50
-C GND! PCL_r0 7.62
-C ry7 ry_addrH7 22.31
-C GND! ld_datain 4.68
-C GND! addsub_2/addsub_one_3/cin 2.24
-C GND! DB_r1 2.45
-C X_r1 GND! 2.45
-C GND! wz3 3.50
-C rx6 Vdd! 5.82
-C GND! rx_addrH7 2.03
-C GND! addsub_1/addsub_one_1/cin 2.25
-C addsub_0/addsub_one_4/cin GND! 2.25
-C addsub_0/addsub_one_5/cin GND! 2.24
-C GND! rx_addrH2 2.23
-C addsub_0/c7 GND! 2.22
-C as_sub GND! 15.55
-C rd_addrH GND! 4.70
-C GND! inv2_11/out 4.72
-C addsub_1/c7 GND! 2.22
-C wz6 GND! 3.51
+C staticizer_1/c GND! 5.14
+C PCL_r0 GND! 7.60
+C rPCplus1L Vdd! 15.22
+C Vdd! wz0 3.94
 C fb_g1 GND! 2.74
-C ry0 GND! 8.11
+C PCL_r1 PCL_r0 2.45
+C wz1 Vdd! 4.02
+C ry_addrH4 ry4 22.31
+C addsub_2/addsub_one_6/cin GND! 2.25
+C mux_8bit_2/sel GND! 4.72
+C addsub_2/cin GND! 3.04
+C GND! wz4 3.58
+C addsub_0/c7 GND! 2.22
+C addsub_2/addsub_one_2/cin GND! 2.25
+C GND! rx2 4.27
+C os_u Vdd! 5.72
+C rPCplus1H Vdd! 15.22
+C GND! ry2 8.44
+C addsub_0/addsub_one_3/cin GND! 2.24
+C Vdd! ry6 3.41
+C X_r1 Vdd! 22.12
+C Y_w Vdd! 3.23
+C wz5 Vdd! 4.02
+C ABH_r1 Vdd! 22.12
+C Y_r0 GND! 6.28
+C rx_addrH1 GND! 2.33
+C rd_addrL Vdd! 15.22
+C ry_addrH6 ry6 22.31
+C GND! wz3 3.58
+C ry_addrH2 GND! 2.08
+C Vdd! rx4 5.77
+C ry3 Vdd! 3.51
+C rx_PCL0 Vdd! 2.01
+C rx_addrH6 GND! 2.53
+C addsub_1/c7 GND! 2.22
+C ry1 GND! 8.42
+C mux_8bit_1/sel GND! 4.72
+C rx_addrH3 GND! 2.31
+C addsub_1/addsub_one_3/cin GND! 2.24
+C X_w Vdd! 3.23
+C rx6 GND! 4.27
+C rfb ras 11.78
+C X_r0 GND! 6.28
+C GND! DB_r1 2.73
+C ABH_w Vdd! 3.23
+C ry_addrH4 GND! 2.07
+C ry0 Vdd! 3.35
+C rx7 GND! 3.93
+C Y_r1 Y_r0 2.45
+C ABH_r0 GND! 7.60
+C GND! wz2 3.58
+C fb_g1 Vdd! 2.87
+C addsub_0/addsub_one_4/cin GND! 2.25
+C addsub_2/c7 GND! 2.22
+C ras GND! 5.75
+C mux_8bit_2/sel Vdd! 4.69
+C fb_g3 GND! 2.74
+C ABL_r1 GND! 2.71
+C ry4 GND! 8.41
+C Vdd! wz4 4.02
+C addsub_2/addsub_one_3/cin GND! 2.24
+C Vdd! rx2 5.77
+C Vdd! ry2 3.41
+C mux_8bit_0/sel GND! 4.72
+C wz6 GND! 3.59
+C DB_r1 DB_r0 2.45
+C GND! DB_w 7.69
+C ry_addrH7 ry7 22.31
+C GND! A_r1 2.73
+C GND! 4nor2_0/out 5.72
+C addsub_1/addsub_one_4/cin GND! 2.25
+C Vdd! wz3 4.02
+C rx_addrH2 GND! 2.31
+C GND! wz7 3.34
+C ABL_w GND! 7.68
+C ry1 Vdd! 3.41
+C rfb GND! 5.26
+C os_s GND! 4.32
+C GND! rx3 4.27
+C mux_8bit_1/sel Vdd! 4.69
+C PCH_r1 GND! 2.71
+C ry_addrH1 ry1 22.31
+C rx_addrH7 GND! 2.11
+C rx6 Vdd! 5.78
+C rx5 GND! 4.27
+C X_r1 X_r0 2.45
+C Vdd! DB_r1 22.12
+C rfb ros 5.73
+C addsub_0/addsub_one_5/cin GND! 2.24
+C ry_addrH0 GND! 28.73
+C rx0 GND! 4.27
+C ABL_r1 ABL_r0 2.45
+C GND! A_w 7.69
+C rx7 Vdd! 4.52
+C rx_addrH4 GND! 2.31
+C ry5 GND! 8.41
+C addsub_2/addsub_one_4/cin GND! 2.25
+C Vdd! wz2 4.02
+C rd_addrH GND! 4.70
+C ABH_r1 ABH_r0 2.45
+C ry_addrH5 GND! 2.07
+C PCL_r1 GND! 2.71
+C ry_addrH5 ry5 22.31
+C addsub_0/addsub_one_1/cin GND! 2.26
+C fb_g3 Vdd! 2.42
+C ros GND! 4.81
+C ABL_r1 Vdd! 22.12
+C ry4 Vdd! 3.41
+C PCH_w GND! 7.68
+C ld_datain GND! 4.68
+C mux_8bit_0/sel Vdd! 4.69
+C wz6 Vdd! 4.02
+C ry_addrH3 GND! 2.07
+C fb_g2 GND! 2.48
+C Vdd! DB_w 3.23
+C addsub_1/addsub_one_5/cin GND! 2.24
+C rx1 GND! 4.52
+C rd_dataout GND! 4.77
+C GND! DB_r0 6.28
+C Vdd! A_r1 22.12
+C fb_g0 Vdd! 2.78
+C Y_r1 GND! 2.73
+C as_sub GND! 15.55
+C A_r1 A_r0 2.45
+C ry_addrH2 ry2 22.31
+C PCL_w GND! 7.68
+C ry7 GND! 8.01
+C addsub_1/addsub_one_1/cin GND! 2.25
+C rPCplus1L GND! 4.69
+C Vdd! wz7 3.93
+C GND! wz0 3.51
+C ABL_w Vdd! 3.23
+C rfb Vdd! 2.08
+C os_s Vdd! 5.15
+C Vdd! rx3 5.50
+C ABL_r0 GND! 6.28
+C staticizer_5/c GND! 5.13
+C wz1 GND! 3.58
+C PCH_r1 Vdd! 22.12
+C addsub_2/addsub_one_5/cin GND! 2.24
+C rx5 Vdd! 5.46
+C os_u GND! 4.46
+C addsub_0/addsub_one_6/cin GND! 2.25
+C rPCplus1H GND! 4.69
+C rx0 Vdd! 5.13
+C GND! ry6 8.41
+C X_r1 GND! 2.73
+C addsub_0/addsub_one_2/cin GND! 2.25
+C Vdd! A_w 3.23
+C rx_addrH0 GND! 2.31
+C Vdd! GND! 223.01
+C Y_w GND! 7.68
+C ry5 Vdd! 3.41
+C wz5 GND! 3.58
+C GND! A_r0 6.27
+C addsub_2/addsub_one_1/cin GND! 2.25
+C rd_addrH Vdd! 15.22
+C staticizer_3/c GND! 5.13
+C ABH_r1 GND! 2.71
+C ry_addrH1 GND! 2.07
+C PCL_r1 Vdd! 22.12
+C rx_addrH5 GND! 2.31
+C rd_addrL GND! 4.69
+C PCH_r1 PCH_r0 2.45
+C staticizer_4/c GND! 5.13
+R reg_one_0/in 839
 R staticizer_0/staticizer_one_7/a_95_n27# 20
 R staticizer_0/staticizer_one_7/a_60_n45# 153
 R 4nor2_0/out 2583
 R staticizer_0/staticizer_one_7/a_77_n45# 100
+R wz7 1911
 R staticizer_0/staticizer_one_6/a_95_n27# 20
 R staticizer_0/staticizer_one_6/a_60_n45# 153
 R staticizer_0/staticizer_one_6/a_77_n45# 100
@@ -4414,18 +4423,22 @@ R staticizer_0/staticizer_one_5/a_77_n45# 100
 R staticizer_0/staticizer_one_4/a_95_n27# 20
 R staticizer_0/staticizer_one_4/a_60_n45# 153
 R staticizer_0/staticizer_one_4/a_77_n45# 100
+R wz4 1908
 R staticizer_0/staticizer_one_3/a_95_n27# 20
 R staticizer_0/staticizer_one_3/a_60_n45# 153
 R staticizer_0/staticizer_one_3/a_77_n45# 100
+R wz3 1904
 R staticizer_0/staticizer_one_2/a_95_n27# 20
 R staticizer_0/staticizer_one_2/a_60_n45# 153
 R staticizer_0/staticizer_one_2/a_77_n45# 100
-R staticizer_0/staticizer_one_1/a_95_n27# 20
-R staticizer_0/staticizer_one_1/a_60_n45# 153
-R staticizer_0/staticizer_one_1/a_77_n45# 100
+R wz2 1911
 R staticizer_0/staticizer_one_0/a_95_n27# 20
 R staticizer_0/staticizer_one_0/a_60_n45# 153
 R staticizer_0/staticizer_one_0/a_77_n45# 100
+R wz0 1903
+R staticizer_0/staticizer_one_1/a_95_n27# 20
+R staticizer_0/staticizer_one_1/a_60_n45# 153
+R staticizer_0/staticizer_one_1/a_77_n45# 100
 R reg_1/reg_one_3/a_54_5# 20
 R reg_1/reg_one_3/a_39_5# 20
 R reg_1/reg_one_3/a_4_n13# 101
@@ -4434,7 +4447,7 @@ R reg_1/reg_one_3/a_28_35# 16
 R reg_1/reg_one_3/a_12_35# 20
 R reg_1/reg_one_3/tmp 560
 R reg_1/reg_one_3/a_33_32# 153
-R reg_1/reg_one_3/a_16_27# 212
+R reg_1/reg_one_3/a_16_27# 213
 R reg_1/reg_one_2/a_54_5# 20
 R reg_1/reg_one_2/a_39_5# 20
 R reg_1/reg_one_2/a_4_n13# 101
@@ -4443,7 +4456,7 @@ R reg_1/reg_one_2/a_28_35# 16
 R reg_1/reg_one_2/a_12_35# 20
 R reg_1/reg_one_2/tmp 560
 R reg_1/reg_one_2/a_33_32# 153
-R reg_1/reg_one_2/a_16_27# 212
+R reg_1/reg_one_2/a_16_27# 213
 R reg_1/reg_one_1/a_54_5# 20
 R reg_1/reg_one_1/a_39_5# 20
 R reg_1/reg_one_1/a_4_n13# 101
@@ -4452,19 +4465,19 @@ R reg_1/reg_one_1/a_28_35# 16
 R reg_1/reg_one_1/a_12_35# 20
 R reg_1/reg_one_1/tmp 560
 R reg_1/reg_one_1/a_33_32# 153
-R reg_1/reg_one_1/a_16_27# 212
+R reg_1/reg_one_1/a_16_27# 213
 R reg_1/reg_one_0/a_54_5# 20
 R reg_1/reg_one_0/a_39_5# 20
 R reg_1/reg_one_0/a_4_n13# 101
 R reg_1/reg_one_0/a_21_n13# 100
-R DB_r0 3987
-R DB_r1 2935
+R DB_r0 4050
+R DB_r1 2999
 R reg_1/reg_one_0/a_28_35# 16
 R reg_1/reg_one_0/a_12_35# 20
 R reg_1/reg_one_0/tmp 560
 R reg_1/reg_one_0/a_33_32# 153
-R reg_1/reg_one_0/a_16_27# 212
-R DB_w 5531
+R reg_1/reg_one_0/a_16_27# 213
+R DB_w 5530
 R reg_1/reg_one_7/a_54_5# 20
 R reg_1/reg_one_7/a_39_5# 20
 R reg_1/reg_one_7/a_4_n13# 101
@@ -4473,7 +4486,7 @@ R reg_1/reg_one_7/a_28_35# 16
 R reg_1/reg_one_7/a_12_35# 20
 R reg_1/reg_one_7/tmp 560
 R reg_1/reg_one_7/a_33_32# 153
-R reg_1/reg_one_7/a_16_27# 212
+R reg_1/reg_one_7/a_16_27# 213
 R reg_1/reg_one_6/a_54_5# 20
 R reg_1/reg_one_6/a_39_5# 20
 R reg_1/reg_one_6/a_4_n13# 101
@@ -4482,7 +4495,7 @@ R reg_1/reg_one_6/a_28_35# 16
 R reg_1/reg_one_6/a_12_35# 20
 R reg_1/reg_one_6/tmp 560
 R reg_1/reg_one_6/a_33_32# 153
-R reg_1/reg_one_6/a_16_27# 212
+R reg_1/reg_one_6/a_16_27# 213
 R reg_1/reg_one_5/a_54_5# 20
 R reg_1/reg_one_5/a_39_5# 20
 R reg_1/reg_one_5/a_4_n13# 101
@@ -4491,7 +4504,7 @@ R reg_1/reg_one_5/a_28_35# 16
 R reg_1/reg_one_5/a_12_35# 20
 R reg_1/reg_one_5/tmp 560
 R reg_1/reg_one_5/a_33_32# 153
-R reg_1/reg_one_5/a_16_27# 212
+R reg_1/reg_one_5/a_16_27# 213
 R reg_1/reg_one_4/a_54_5# 20
 R reg_1/reg_one_4/a_39_5# 20
 R reg_1/reg_one_4/a_4_n13# 101
@@ -4500,7 +4513,7 @@ R reg_1/reg_one_4/a_28_35# 16
 R reg_1/reg_one_4/a_12_35# 20
 R reg_1/reg_one_4/tmp 560
 R reg_1/reg_one_4/a_33_32# 153
-R reg_1/reg_one_4/a_16_27# 212
+R reg_1/reg_one_4/a_16_27# 213
 R reg_0/reg_one_3/a_54_5# 20
 R reg_0/reg_one_3/a_39_5# 20
 R reg_0/reg_one_3/a_4_n13# 101
@@ -4509,7 +4522,7 @@ R reg_0/reg_one_3/a_28_35# 16
 R reg_0/reg_one_3/a_12_35# 20
 R reg_0/reg_one_3/tmp 560
 R reg_0/reg_one_3/a_33_32# 153
-R reg_0/reg_one_3/a_16_27# 212
+R reg_0/reg_one_3/a_16_27# 213
 R reg_0/reg_one_2/a_54_5# 20
 R reg_0/reg_one_2/a_39_5# 20
 R reg_0/reg_one_2/a_4_n13# 101
@@ -4518,7 +4531,7 @@ R reg_0/reg_one_2/a_28_35# 16
 R reg_0/reg_one_2/a_12_35# 20
 R reg_0/reg_one_2/tmp 560
 R reg_0/reg_one_2/a_33_32# 153
-R reg_0/reg_one_2/a_16_27# 212
+R reg_0/reg_one_2/a_16_27# 213
 R reg_0/reg_one_1/a_54_5# 20
 R reg_0/reg_one_1/a_39_5# 20
 R ry6 1913
@@ -4528,19 +4541,19 @@ R reg_0/reg_one_1/a_28_35# 16
 R reg_0/reg_one_1/a_12_35# 20
 R reg_0/reg_one_1/tmp 560
 R reg_0/reg_one_1/a_33_32# 153
-R reg_0/reg_one_1/a_16_27# 212
+R reg_0/reg_one_1/a_16_27# 213
 R reg_0/reg_one_0/a_54_5# 20
 R reg_0/reg_one_0/a_39_5# 20
 R reg_0/reg_one_0/a_4_n13# 101
 R reg_0/reg_one_0/a_21_n13# 100
-R A_r0 3987
-R A_r1 2935
+R A_r0 4050
+R A_r1 2999
 R reg_0/reg_one_0/a_28_35# 16
 R reg_0/reg_one_0/a_12_35# 20
 R reg_0/reg_one_0/tmp 560
 R reg_0/reg_one_0/a_33_32# 153
-R reg_0/reg_one_0/a_16_27# 212
-R A_w 5531
+R reg_0/reg_one_0/a_16_27# 213
+R A_w 5530
 R reg_0/reg_one_7/a_54_5# 20
 R reg_0/reg_one_7/a_39_5# 20
 R reg_0/reg_one_7/a_4_n13# 101
@@ -4549,7 +4562,7 @@ R reg_0/reg_one_7/a_28_35# 16
 R reg_0/reg_one_7/a_12_35# 20
 R reg_0/reg_one_7/tmp 560
 R reg_0/reg_one_7/a_33_32# 153
-R reg_0/reg_one_7/a_16_27# 212
+R reg_0/reg_one_7/a_16_27# 213
 R reg_0/reg_one_6/a_54_5# 20
 R reg_0/reg_one_6/a_39_5# 20
 R reg_0/reg_one_6/a_4_n13# 101
@@ -4558,7 +4571,7 @@ R reg_0/reg_one_6/a_28_35# 16
 R reg_0/reg_one_6/a_12_35# 20
 R reg_0/reg_one_6/tmp 560
 R reg_0/reg_one_6/a_33_32# 153
-R reg_0/reg_one_6/a_16_27# 212
+R reg_0/reg_one_6/a_16_27# 213
 R reg_0/reg_one_5/a_54_5# 20
 R reg_0/reg_one_5/a_39_5# 20
 R ry2 1899
@@ -4568,7 +4581,7 @@ R reg_0/reg_one_5/a_28_35# 16
 R reg_0/reg_one_5/a_12_35# 20
 R reg_0/reg_one_5/tmp 560
 R reg_0/reg_one_5/a_33_32# 153
-R reg_0/reg_one_5/a_16_27# 212
+R reg_0/reg_one_5/a_16_27# 213
 R reg_0/reg_one_4/a_54_5# 20
 R reg_0/reg_one_4/a_39_5# 20
 R reg_0/reg_one_4/a_4_n13# 101
@@ -4577,7 +4590,7 @@ R reg_0/reg_one_4/a_28_35# 16
 R reg_0/reg_one_4/a_12_35# 20
 R reg_0/reg_one_4/tmp 560
 R reg_0/reg_one_4/a_33_32# 153
-R reg_0/reg_one_4/a_16_27# 212
+R reg_0/reg_one_4/a_16_27# 213
 R reg_one_0/port0 22
 R reg_one_0/a_54_5# 20
 R reg_one_0/a_39_5# 20
@@ -4588,8 +4601,7 @@ R reg_one_0/a_28_35# 16
 R reg_one_0/a_12_35# 20
 R reg_one_0/tmp 560
 R reg_one_0/a_33_32# 153
-R reg_one_0/a_16_27# 212
-R reg_one_0/in 838
+R reg_one_0/a_16_27# 213
 R Cflag_w 675
 R shift_0/o5 217
 R shift_0/shift_one_5/inv_3/in 151
@@ -4605,7 +4617,7 @@ R shift_0/shift_one_4/inv_3/in 151
 R shift_0/shift_one_4/inv_2/out 88
 R shift_0/shift_one_4/inv_1/out 89
 R shift_0/shift_one_4/inv_0/out 89
-R rx3 2982
+R rx3 2981
 R shift_0/shift_one_4/2mux_nr_1/a_n17_n11# 192
 R shift_0/shift_one_4/2mux_nr_1/in1 90
 R shift_0/shift_one_4/2mux_nr_0/a_n17_n11# 192
@@ -4632,7 +4644,7 @@ R shift_0/shift_one_1/inv_3/in 151
 R shift_0/shift_one_1/inv_2/out 88
 R shift_0/shift_one_1/inv_1/out 89
 R shift_0/shift_one_1/inv_0/out 89
-R rx0 2837
+R rx0 2836
 R shift_0/shift_one_1/2mux_nr_1/a_n17_n11# 192
 R shift_0/shift_one_1/2mux_nr_1/in1 90
 R shift_0/shift_one_1/2mux_nr_0/a_n17_n11# 192
@@ -4644,9 +4656,9 @@ R shift_0/shift_one_0/inv_0/out 89
 R shift_0/shift_one_0/2mux_nr_1/a_n17_n11# 192
 R shift_0/shift_one_0/2mux_nr_1/in1 90
 R shift_0/shift_one_0/2mux_nr_0/a_n17_n11# 192
-R GND! 64532
-C Vdd! GND 619.40
-R Vdd! 1414616
+R GND! 63613
+C Vdd! GND 628.23
+R Vdd! 1412737
 R shift_0/o7 217
 R shift_0/shift_one_7/inv_3/in 151
 R shift_0/shift_one_7/inv_2/out 88
@@ -5065,15 +5077,15 @@ R addsub_0/xor_0/a_61_n31# 219
 R addsub_0/xor_0/a_89_n31# 221
 R ry0 1905
 R PCL_w_sel 134
-R inv2_9/out 156
+R inv2_9/a_6_n1# 156
 R PCH_w_sel 134
-R inv2_6/in 156
-R inv2_7/in 156
+R inv2_6/a_1_8# 156
+R inv2_7/a_1_8# 156
 R latch_8/latch_one_7/a_30_n35# 20
 R latch_8/latch_one_7/a_n5_n54# 157
 R rd_addrH 2745
 R latch_8/latch_one_7/a_12_n54# 100
-R addr_out14 432
+R addr_out14 444
 R latch_8/latch_one_6/a_30_n35# 20
 R latch_8/latch_one_6/a_n5_n54# 157
 R latch_8/latch_one_6/a_12_n54# 100
@@ -5095,36 +5107,29 @@ R latch_8/latch_one_1/a_12_n54# 100
 R latch_8/latch_one_0/a_30_n35# 20
 R latch_8/latch_one_0/a_n5_n54# 157
 R latch_8/latch_one_0/a_12_n54# 100
-R addr_out7 501
 R latch_7/latch_one_7/a_30_n35# 20
 R latch_7/latch_one_7/a_n5_n54# 157
 R rd_addrL 2745
 R latch_7/latch_one_7/a_12_n54# 100
-R addr_out6 479
+R addr_out6 492
 R latch_7/latch_one_6/a_30_n35# 20
 R latch_7/latch_one_6/a_n5_n54# 157
 R latch_7/latch_one_6/a_12_n54# 100
-R addr_out5 482
 R latch_7/latch_one_5/a_30_n35# 20
 R latch_7/latch_one_5/a_n5_n54# 157
 R latch_7/latch_one_5/a_12_n54# 100
-R addr_out4 501
 R latch_7/latch_one_4/a_30_n35# 20
 R latch_7/latch_one_4/a_n5_n54# 157
 R latch_7/latch_one_4/a_12_n54# 100
-R addr_out3 501
 R latch_7/latch_one_3/a_30_n35# 20
 R latch_7/latch_one_3/a_n5_n54# 157
 R latch_7/latch_one_3/a_12_n54# 100
-R addr_out2 501
 R latch_7/latch_one_2/a_30_n35# 20
 R latch_7/latch_one_2/a_n5_n54# 157
 R latch_7/latch_one_2/a_12_n54# 100
-R addr_out1 497
 R latch_7/latch_one_1/a_30_n35# 20
 R latch_7/latch_one_1/a_n5_n54# 157
 R latch_7/latch_one_1/a_12_n54# 100
-R addr_out0 501
 R latch_7/latch_one_0/a_30_n35# 20
 R latch_7/latch_one_0/a_n5_n54# 157
 R latch_7/latch_one_0/a_12_n54# 100
@@ -5153,7 +5158,7 @@ R latch_6/latch_one_1/a_12_n54# 100
 R latch_6/latch_one_0/a_30_n35# 20
 R latch_6/latch_one_0/a_n5_n54# 157
 R latch_6/latch_one_0/a_12_n54# 100
-R inv2_15/in 156
+R inv2_15/a_1_8# 156
 R latch_5/latch_one_7/a_30_n35# 20
 R latch_5/latch_one_7/a_n5_n54# 157
 R rPCplus1L 2745
@@ -5179,7 +5184,7 @@ R latch_5/latch_one_1/a_12_n54# 100
 R latch_5/latch_one_0/a_30_n35# 20
 R latch_5/latch_one_0/a_n5_n54# 157
 R latch_5/latch_one_0/a_12_n54# 100
-R inv2_3/in 156
+R inv2_3/a_1_8# 156
 R ABH_w_sel 134
 R latch_4/latch_one_7/a_30_n35# 20
 R latch_4/latch_one_7/a_n5_n54# 157
@@ -5206,17 +5211,17 @@ R latch_4/latch_one_1/a_12_n54# 100
 R latch_4/latch_one_0/a_30_n35# 20
 R latch_4/latch_one_0/a_n5_n54# 157
 R latch_4/latch_one_0/a_12_n54# 100
-R inv2_16/in 156
-R inv2_13/in 156
+R inv2_16/a_1_8# 156
+R inv2_13/a_1_8# 156
 R latch_3/latch_one_7/a_30_n35# 20
 R latch_3/latch_one_7/a_n5_n54# 157
 R ros 2997
 R latch_3/latch_one_7/a_12_n54# 100
-R wz6 1882
+R wz6 1887
 R latch_3/latch_one_6/a_30_n35# 20
 R latch_3/latch_one_6/a_n5_n54# 157
 R latch_3/latch_one_6/a_12_n54# 100
-R wz5 1926
+R wz5 1939
 R latch_3/latch_one_5/a_30_n35# 20
 R latch_3/latch_one_5/a_n5_n54# 157
 R latch_3/latch_one_5/a_12_n54# 100
@@ -5229,7 +5234,7 @@ R latch_3/latch_one_3/a_12_n54# 100
 R latch_3/latch_one_2/a_30_n35# 20
 R latch_3/latch_one_2/a_n5_n54# 157
 R latch_3/latch_one_2/a_12_n54# 100
-R wz1 1926
+R wz1 1939
 R latch_3/latch_one_1/a_30_n35# 20
 R latch_3/latch_one_1/a_n5_n54# 157
 R latch_3/latch_one_1/a_12_n54# 100
@@ -5274,7 +5279,7 @@ R fblock_0/fblock_one_5/2mux_nr_1/a_n17_n11# 192
 R fblock_0/fblock_one_5/inv_2/out 88
 R fblock_0/fblock_one_5/inv_1/out 88
 R fblock_0/fblock_one_5/2mux_nr_0/a_n17_n11# 192
-R ry3 1905
+R ry3 1906
 R latch_1/in3 220
 R fblock_0/fblock_one_3/2mux_nr_2/in0 91
 R fblock_0/fblock_one_3/inv_0/in 151
@@ -5355,46 +5360,46 @@ R latch_2/latch_one_1/a_12_n54# 100
 R latch_2/latch_one_0/a_30_n35# 20
 R latch_2/latch_one_0/a_n5_n54# 157
 R latch_2/latch_one_0/a_12_n54# 100
-R mux_8bit_2/mux_one_7/inv2_2/out 89
-R reg_7/in7 152
-R mux_8bit_2/mux_one_7/inv2_1/in 159
-R mux_8bit_2/mux_one_7/inv2_0/out 88
-R mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# 192
-R inv2_15/out 4137
-R mux_8bit_2/mux_one_6/inv2_2/out 89
+R mux_8bit_2/mux_one_6/2mux_nr_0/in0 89
 R reg_7/in6 152
-R mux_8bit_2/mux_one_6/inv2_1/in 159
-R mux_8bit_2/mux_one_6/inv2_0/out 88
+R mux_8bit_2/mux_one_6/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_6/2mux_nr_0/in1 88
 R mux_8bit_2/mux_one_6/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_2/mux_one_5/inv2_2/out 89
+R mux_8bit_2/mux_one_7/2mux_nr_0/in0 89
+R reg_7/in7 152
+R mux_8bit_2/mux_one_7/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_7/2mux_nr_0/in1 88
+R mux_8bit_2/mux_one_7/2mux_nr_0/a_n17_n11# 192
+R mux_8bit_2/sel 4137
+R mux_8bit_2/mux_one_5/2mux_nr_0/in0 89
 R reg_7/in5 152
-R mux_8bit_2/mux_one_5/inv2_1/in 159
-R mux_8bit_2/mux_one_5/inv2_0/out 88
+R mux_8bit_2/mux_one_5/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_5/2mux_nr_0/in1 88
 R mux_8bit_2/mux_one_5/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_2/mux_one_4/inv2_2/out 89
-R reg_7/in4 152
-R mux_8bit_2/mux_one_4/inv2_1/in 159
-R mux_8bit_2/mux_one_4/inv2_0/out 88
+R mux_8bit_2/mux_one_4/2mux_nr_0/in0 89
+R reg_7/in4 151
+R mux_8bit_2/mux_one_4/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_4/2mux_nr_0/in1 88
 R mux_8bit_2/mux_one_4/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_2/mux_one_3/inv2_2/out 89
+R mux_8bit_2/mux_one_3/2mux_nr_0/in0 89
 R reg_7/in3 152
-R mux_8bit_2/mux_one_3/inv2_1/in 159
-R mux_8bit_2/mux_one_3/inv2_0/out 88
+R mux_8bit_2/mux_one_3/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_3/2mux_nr_0/in1 88
 R mux_8bit_2/mux_one_3/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_2/mux_one_2/inv2_2/out 89
+R mux_8bit_2/mux_one_2/2mux_nr_0/in0 89
 R reg_7/in2 152
-R mux_8bit_2/mux_one_2/inv2_1/in 159
-R mux_8bit_2/mux_one_2/inv2_0/out 88
+R mux_8bit_2/mux_one_2/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_2/2mux_nr_0/in1 88
 R mux_8bit_2/mux_one_2/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_2/mux_one_1/inv2_2/out 89
+R mux_8bit_2/mux_one_1/2mux_nr_0/in0 89
 R reg_7/in1 152
-R mux_8bit_2/mux_one_1/inv2_1/in 159
-R mux_8bit_2/mux_one_1/inv2_0/out 88
+R mux_8bit_2/mux_one_1/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_1/2mux_nr_0/in1 88
 R mux_8bit_2/mux_one_1/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_2/mux_one_0/inv2_2/out 89
+R mux_8bit_2/mux_one_0/2mux_nr_0/in0 89
 R reg_7/in0 151
-R mux_8bit_2/mux_one_0/inv2_1/in 159
-R mux_8bit_2/mux_one_0/inv2_0/out 88
+R mux_8bit_2/mux_one_0/2mux_nr_0/out 159
+R mux_8bit_2/mux_one_0/2mux_nr_0/in1 88
 R mux_8bit_2/mux_one_0/2mux_nr_0/a_n17_n11# 192
 R latch_1/latch_one_7/a_30_n35# 20
 R latch_1/latch_one_7/a_n5_n54# 157
@@ -5421,57 +5426,56 @@ R latch_1/latch_one_1/a_12_n54# 100
 R latch_1/latch_one_0/a_30_n35# 20
 R latch_1/latch_one_0/a_n5_n54# 157
 R latch_1/latch_one_0/a_12_n54# 100
-R mux_8bit_1/mux_one_7/inv2_2/out 89
-R wz_addrH7 807
-R reg_5/in7 152
-R mux_8bit_1/mux_one_7/inv2_1/in 159
-R mux_8bit_1/mux_one_7/inv2_0/out 88
-R mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# 192
-R inv2_11/out 4137
-R mux_8bit_1/mux_one_6/inv2_2/out 89
-R wz_addrH6 785
+R mux_8bit_1/mux_one_6/2mux_nr_0/in0 89
+R wz_addrH6 798
 R reg_5/in6 152
-R mux_8bit_1/mux_one_6/inv2_1/in 159
-R mux_8bit_1/mux_one_6/inv2_0/out 88
+R mux_8bit_1/mux_one_6/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_6/2mux_nr_0/in1 88
 R mux_8bit_1/mux_one_6/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_1/mux_one_5/inv2_2/out 89
-R wz_addrH5 786
+R mux_8bit_1/mux_one_7/2mux_nr_0/in0 89
+R wz_addrH7 820
+R reg_5/in7 152
+R mux_8bit_1/mux_one_7/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_7/2mux_nr_0/in1 88
+R mux_8bit_1/mux_one_7/2mux_nr_0/a_n17_n11# 192
+R mux_8bit_1/sel 4137
+R mux_8bit_1/mux_one_5/2mux_nr_0/in0 89
+R wz_addrH5 1045
 R reg_5/in5 152
-R mux_8bit_1/mux_one_5/inv2_1/in 159
-R mux_8bit_1/mux_one_5/inv2_0/out 88
+R mux_8bit_1/mux_one_5/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_5/2mux_nr_0/in1 88
 R mux_8bit_1/mux_one_5/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_1/mux_one_4/inv2_2/out 89
-R wz_addrH4 807
-R reg_5/in4 152
-R mux_8bit_1/mux_one_4/inv2_1/in 159
-R mux_8bit_1/mux_one_4/inv2_0/out 88
+R mux_8bit_1/mux_one_4/2mux_nr_0/in0 89
+R wz_addrH4 820
+R reg_5/in4 151
+R mux_8bit_1/mux_one_4/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_4/2mux_nr_0/in1 88
 R mux_8bit_1/mux_one_4/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_1/mux_one_3/inv2_2/out 89
-R wz_addrH3 807
+R mux_8bit_1/mux_one_3/2mux_nr_0/in0 89
+R wz_addrH3 820
 R reg_5/in3 152
-R mux_8bit_1/mux_one_3/inv2_1/in 159
-R mux_8bit_1/mux_one_3/inv2_0/out 88
+R mux_8bit_1/mux_one_3/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_3/2mux_nr_0/in1 88
 R mux_8bit_1/mux_one_3/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_1/mux_one_2/inv2_2/out 89
-R wz_addrH2 806
+R mux_8bit_1/mux_one_2/2mux_nr_0/in0 89
+R wz_addrH2 820
 R reg_5/in2 152
-R mux_8bit_1/mux_one_2/inv2_1/in 159
-R mux_8bit_1/mux_one_2/inv2_0/out 88
+R mux_8bit_1/mux_one_2/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_2/2mux_nr_0/in1 88
 R mux_8bit_1/mux_one_2/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_1/mux_one_1/inv2_2/out 89
-R wz_addrH1 801
+R mux_8bit_1/mux_one_1/2mux_nr_0/in0 89
+R wz_addrH1 924
 R reg_5/in1 152
-R mux_8bit_1/mux_one_1/inv2_1/in 159
-R mux_8bit_1/mux_one_1/inv2_0/out 88
+R mux_8bit_1/mux_one_1/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_1/2mux_nr_0/in1 88
 R mux_8bit_1/mux_one_1/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_1/mux_one_0/inv2_2/out 89
-R wz_addrH0 807
+R mux_8bit_1/mux_one_0/2mux_nr_0/in0 89
+R wz_addrH0 820
 R reg_5/in0 151
-R mux_8bit_1/mux_one_0/inv2_1/in 159
-R mux_8bit_1/mux_one_0/inv2_0/out 88
+R mux_8bit_1/mux_one_0/2mux_nr_0/out 159
+R mux_8bit_1/mux_one_0/2mux_nr_0/in1 88
 R mux_8bit_1/mux_one_0/2mux_nr_0/a_n17_n11# 192
-R inv2_11/in 156
-R wz7 1906
+R inv2_11/a_1_8# 156
 R latch_0/latch_one_7/a_30_n35# 20
 R latch_0/latch_one_7/a_n5_n54# 157
 R ld_datain 3039
@@ -5485,17 +5489,14 @@ R latch_0/latch_one_5/a_30_n35# 20
 R latch_0/latch_one_5/a_n5_n54# 157
 R data_in5 214
 R latch_0/latch_one_5/a_12_n54# 100
-R wz4 1903
 R latch_0/latch_one_4/a_30_n35# 20
 R latch_0/latch_one_4/a_n5_n54# 157
 R data_in4 207
 R latch_0/latch_one_4/a_12_n54# 100
-R wz3 1900
 R latch_0/latch_one_3/a_30_n35# 20
 R latch_0/latch_one_3/a_n5_n54# 157
 R data_in3 207
 R latch_0/latch_one_3/a_12_n54# 100
-R wz2 1906
 R latch_0/latch_one_2/a_30_n35# 20
 R latch_0/latch_one_2/a_n5_n54# 157
 R data_in2 207
@@ -5504,64 +5505,63 @@ R latch_0/latch_one_1/a_30_n35# 20
 R latch_0/latch_one_1/a_n5_n54# 157
 R data_in1 207
 R latch_0/latch_one_1/a_12_n54# 100
-R wz0 1899
 R latch_0/latch_one_0/a_30_n35# 20
 R latch_0/latch_one_0/a_n5_n54# 157
 R data_in0 207
 R latch_0/latch_one_0/a_12_n54# 100
-R mux_8bit_0/mux_one_7/inv2_2/out 89
-R wz_addrL7 652
-R PCL_w_muxout7 152
-R mux_8bit_0/mux_one_7/inv2_1/in 159
-R mux_8bit_0/mux_one_7/inv2_0/out 88
-R mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# 192
-R inv2_3/out 4137
-R mux_8bit_0/mux_one_6/inv2_2/out 89
-R wz_addrL6 629
+R mux_8bit_0/mux_one_6/2mux_nr_0/in0 89
+R wz_addrL6 640
 R PCL_w_muxout6 152
-R mux_8bit_0/mux_one_6/inv2_1/in 159
-R mux_8bit_0/mux_one_6/inv2_0/out 88
+R mux_8bit_0/mux_one_6/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_6/2mux_nr_0/in1 88
 R mux_8bit_0/mux_one_6/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_0/mux_one_5/inv2_2/out 89
-R wz_addrL5 657
+R mux_8bit_0/mux_one_7/2mux_nr_0/in0 89
+R wz_addrL7 664
+R PCL_w_muxout7 152
+R mux_8bit_0/mux_one_7/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_7/2mux_nr_0/in1 88
+R mux_8bit_0/mux_one_7/2mux_nr_0/a_n17_n11# 192
+R mux_8bit_0/sel 4137
+R mux_8bit_0/mux_one_5/2mux_nr_0/in0 89
+R wz_addrL5 924
 R PCL_w_muxout5 152
-R mux_8bit_0/mux_one_5/inv2_1/in 159
-R mux_8bit_0/mux_one_5/inv2_0/out 88
+R mux_8bit_0/mux_one_5/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_5/2mux_nr_0/in1 88
 R mux_8bit_0/mux_one_5/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_0/mux_one_4/inv2_2/out 89
-R wz_addrL4 652
-R PCL_w_muxout4 152
-R mux_8bit_0/mux_one_4/inv2_1/in 159
-R mux_8bit_0/mux_one_4/inv2_0/out 88
+R mux_8bit_0/mux_one_4/2mux_nr_0/in0 89
+R wz_addrL4 664
+R PCL_w_muxout4 151
+R mux_8bit_0/mux_one_4/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_4/2mux_nr_0/in1 88
 R mux_8bit_0/mux_one_4/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_0/mux_one_3/inv2_2/out 89
-R wz_addrL3 652
+R mux_8bit_0/mux_one_3/2mux_nr_0/in0 89
+R wz_addrL3 664
 R PCL_w_muxout3 152
-R mux_8bit_0/mux_one_3/inv2_1/in 159
-R mux_8bit_0/mux_one_3/inv2_0/out 88
+R mux_8bit_0/mux_one_3/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_3/2mux_nr_0/in1 88
 R mux_8bit_0/mux_one_3/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_0/mux_one_2/inv2_2/out 89
-R wz_addrL2 650
+R mux_8bit_0/mux_one_2/2mux_nr_0/in0 89
+R wz_addrL2 661
 R PCL_w_muxout2 152
-R mux_8bit_0/mux_one_2/inv2_1/in 159
-R mux_8bit_0/mux_one_2/inv2_0/out 88
+R mux_8bit_0/mux_one_2/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_2/2mux_nr_0/in1 88
 R mux_8bit_0/mux_one_2/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_0/mux_one_1/inv2_2/out 89
-R wz_addrL1 669
+R mux_8bit_0/mux_one_1/2mux_nr_0/in0 89
+R wz_addrL1 790
 R PCL_w_muxout1 152
-R mux_8bit_0/mux_one_1/inv2_1/in 159
-R mux_8bit_0/mux_one_1/inv2_0/out 88
+R mux_8bit_0/mux_one_1/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_1/2mux_nr_0/in1 88
 R mux_8bit_0/mux_one_1/2mux_nr_0/a_n17_n11# 192
-R mux_8bit_0/mux_one_0/inv2_2/out 89
-R wz_addrL0 652
+R mux_8bit_0/mux_one_0/2mux_nr_0/in0 89
+R wz_addrL0 664
 R PCL_w_muxout0 151
-R mux_8bit_0/mux_one_0/inv2_1/in 159
-R mux_8bit_0/mux_one_0/inv2_0/out 88
+R mux_8bit_0/mux_one_0/2mux_nr_0/out 159
+R mux_8bit_0/mux_one_0/2mux_nr_0/in1 88
 R mux_8bit_0/mux_one_0/2mux_nr_0/a_n17_n11# 192
 R 4nor2_0/a_107_24# 35
 R 4nor2_0/a_97_24# 39
 R 4nor2_0/a_87_24# 39
-R inv2_12/in 156
+R inv2_12/a_1_8# 156
 R staticizer_one_0/a_95_n27# 20
 R staticizer_one_0/a_60_n45# 153
 R staticizer_one_0/c 296
@@ -5574,7 +5574,7 @@ R reg_7/reg_one_3/a_28_35# 16
 R reg_7/reg_one_3/a_12_35# 20
 R reg_7/reg_one_3/tmp 560
 R reg_7/reg_one_3/a_33_32# 153
-R reg_7/reg_one_3/a_16_27# 212
+R reg_7/reg_one_3/a_16_27# 213
 R reg_7/reg_one_2/a_54_5# 20
 R reg_7/reg_one_2/a_39_5# 20
 R reg_7/reg_one_2/a_4_n13# 101
@@ -5583,7 +5583,7 @@ R reg_7/reg_one_2/a_28_35# 16
 R reg_7/reg_one_2/a_12_35# 20
 R reg_7/reg_one_2/tmp 560
 R reg_7/reg_one_2/a_33_32# 153
-R reg_7/reg_one_2/a_16_27# 212
+R reg_7/reg_one_2/a_16_27# 213
 R reg_7/reg_one_1/a_54_5# 20
 R reg_7/reg_one_1/a_39_5# 20
 R reg_7/reg_one_1/a_4_n13# 101
@@ -5592,19 +5592,19 @@ R reg_7/reg_one_1/a_28_35# 16
 R reg_7/reg_one_1/a_12_35# 20
 R reg_7/reg_one_1/tmp 560
 R reg_7/reg_one_1/a_33_32# 153
-R reg_7/reg_one_1/a_16_27# 212
+R reg_7/reg_one_1/a_16_27# 213
 R reg_7/reg_one_0/a_54_5# 20
 R reg_7/reg_one_0/a_39_5# 20
 R reg_7/reg_one_0/a_4_n13# 101
 R reg_7/reg_one_0/a_21_n13# 100
-R ABH_r0 3987
-R ABH_r1 2935
+R ABH_r0 4050
+R ABH_r1 2999
 R reg_7/reg_one_0/a_28_35# 16
 R reg_7/reg_one_0/a_12_35# 20
 R reg_7/reg_one_0/tmp 560
 R reg_7/reg_one_0/a_33_32# 153
-R reg_7/reg_one_0/a_16_27# 212
-R ABH_w 5531
+R reg_7/reg_one_0/a_16_27# 213
+R ABH_w 5530
 R reg_7/reg_one_7/a_54_5# 20
 R reg_7/reg_one_7/a_39_5# 20
 R reg_7/reg_one_7/a_4_n13# 101
@@ -5613,7 +5613,7 @@ R reg_7/reg_one_7/a_28_35# 16
 R reg_7/reg_one_7/a_12_35# 20
 R reg_7/reg_one_7/tmp 560
 R reg_7/reg_one_7/a_33_32# 153
-R reg_7/reg_one_7/a_16_27# 212
+R reg_7/reg_one_7/a_16_27# 213
 R reg_7/reg_one_6/a_54_5# 20
 R reg_7/reg_one_6/a_39_5# 20
 R reg_7/reg_one_6/a_4_n13# 101
@@ -5622,7 +5622,7 @@ R reg_7/reg_one_6/a_28_35# 16
 R reg_7/reg_one_6/a_12_35# 20
 R reg_7/reg_one_6/tmp 560
 R reg_7/reg_one_6/a_33_32# 153
-R reg_7/reg_one_6/a_16_27# 212
+R reg_7/reg_one_6/a_16_27# 213
 R reg_7/reg_one_5/a_54_5# 20
 R reg_7/reg_one_5/a_39_5# 20
 R reg_7/reg_one_5/a_4_n13# 101
@@ -5631,7 +5631,7 @@ R reg_7/reg_one_5/a_28_35# 16
 R reg_7/reg_one_5/a_12_35# 20
 R reg_7/reg_one_5/tmp 560
 R reg_7/reg_one_5/a_33_32# 153
-R reg_7/reg_one_5/a_16_27# 212
+R reg_7/reg_one_5/a_16_27# 213
 R reg_7/reg_one_4/a_54_5# 20
 R reg_7/reg_one_4/a_39_5# 20
 R reg_7/reg_one_4/a_4_n13# 101
@@ -5640,7 +5640,7 @@ R reg_7/reg_one_4/a_28_35# 16
 R reg_7/reg_one_4/a_12_35# 20
 R reg_7/reg_one_4/tmp 560
 R reg_7/reg_one_4/a_33_32# 153
-R reg_7/reg_one_4/a_16_27# 212
+R reg_7/reg_one_4/a_16_27# 213
 R 2nor_0/out 22
 R reg_6/port40 22
 R reg_6/reg_one_3/a_54_5# 20
@@ -5651,7 +5651,7 @@ R reg_6/reg_one_3/a_28_35# 16
 R reg_6/reg_one_3/a_12_35# 20
 R reg_6/reg_one_3/tmp 560
 R reg_6/reg_one_3/a_33_32# 153
-R reg_6/reg_one_3/a_16_27# 212
+R reg_6/reg_one_3/a_16_27# 213
 R reg_6/port50 22
 R reg_6/reg_one_2/a_54_5# 20
 R reg_6/reg_one_2/a_39_5# 20
@@ -5661,7 +5661,7 @@ R reg_6/reg_one_2/a_28_35# 16
 R reg_6/reg_one_2/a_12_35# 20
 R reg_6/reg_one_2/tmp 560
 R reg_6/reg_one_2/a_33_32# 153
-R reg_6/reg_one_2/a_16_27# 212
+R reg_6/reg_one_2/a_16_27# 213
 R reg_6/port60 22
 R reg_6/reg_one_1/a_54_5# 20
 R reg_6/reg_one_1/a_39_5# 20
@@ -5671,20 +5671,20 @@ R reg_6/reg_one_1/a_28_35# 16
 R reg_6/reg_one_1/a_12_35# 20
 R reg_6/reg_one_1/tmp 560
 R reg_6/reg_one_1/a_33_32# 153
-R reg_6/reg_one_1/a_16_27# 212
+R reg_6/reg_one_1/a_16_27# 213
 R reg_6/port70 22
 R reg_6/reg_one_0/a_54_5# 20
 R reg_6/reg_one_0/a_39_5# 20
 R reg_6/reg_one_0/a_4_n13# 101
 R reg_6/reg_one_0/a_21_n13# 100
-R ABL_r0 3987
-R ABL_r1 2935
+R ABL_r0 4050
+R ABL_r1 2999
 R reg_6/reg_one_0/a_28_35# 16
 R reg_6/reg_one_0/a_12_35# 20
 R reg_6/reg_one_0/tmp 560
 R reg_6/reg_one_0/a_33_32# 153
-R reg_6/reg_one_0/a_16_27# 212
-R ABL_w 5531
+R reg_6/reg_one_0/a_16_27# 213
+R ABL_w 5530
 R reg_6/port00 22
 R reg_6/reg_one_7/a_54_5# 20
 R reg_6/reg_one_7/a_39_5# 20
@@ -5694,7 +5694,7 @@ R reg_6/reg_one_7/a_28_35# 16
 R reg_6/reg_one_7/a_12_35# 20
 R reg_6/reg_one_7/tmp 560
 R reg_6/reg_one_7/a_33_32# 153
-R reg_6/reg_one_7/a_16_27# 212
+R reg_6/reg_one_7/a_16_27# 213
 R reg_6/port10 22
 R reg_6/reg_one_6/a_54_5# 20
 R reg_6/reg_one_6/a_39_5# 20
@@ -5704,7 +5704,7 @@ R reg_6/reg_one_6/a_28_35# 16
 R reg_6/reg_one_6/a_12_35# 20
 R reg_6/reg_one_6/tmp 560
 R reg_6/reg_one_6/a_33_32# 153
-R reg_6/reg_one_6/a_16_27# 212
+R reg_6/reg_one_6/a_16_27# 213
 R reg_6/port20 22
 R reg_6/reg_one_5/a_54_5# 20
 R reg_6/reg_one_5/a_39_5# 20
@@ -5714,7 +5714,7 @@ R reg_6/reg_one_5/a_28_35# 16
 R reg_6/reg_one_5/a_12_35# 20
 R reg_6/reg_one_5/tmp 560
 R reg_6/reg_one_5/a_33_32# 153
-R reg_6/reg_one_5/a_16_27# 212
+R reg_6/reg_one_5/a_16_27# 213
 R reg_6/port30 22
 R reg_6/reg_one_4/a_54_5# 20
 R reg_6/reg_one_4/a_39_5# 20
@@ -5724,7 +5724,7 @@ R reg_6/reg_one_4/a_28_35# 16
 R reg_6/reg_one_4/a_12_35# 20
 R reg_6/reg_one_4/tmp 560
 R reg_6/reg_one_4/a_33_32# 153
-R reg_6/reg_one_4/a_16_27# 212
+R reg_6/reg_one_4/a_16_27# 213
 R rx_addrH4 1634
 R reg_5/reg_one_3/a_54_5# 20
 R reg_5/reg_one_3/a_39_5# 20
@@ -5735,7 +5735,7 @@ R reg_5/reg_one_3/a_28_35# 16
 R reg_5/reg_one_3/a_12_35# 20
 R reg_5/reg_one_3/tmp 560
 R reg_5/reg_one_3/a_33_32# 153
-R reg_5/reg_one_3/a_16_27# 212
+R reg_5/reg_one_3/a_16_27# 213
 R rx_addrH5 1634
 R reg_5/reg_one_2/a_54_5# 20
 R reg_5/reg_one_2/a_39_5# 20
@@ -5746,7 +5746,7 @@ R reg_5/reg_one_2/a_28_35# 16
 R reg_5/reg_one_2/a_12_35# 20
 R reg_5/reg_one_2/tmp 560
 R reg_5/reg_one_2/a_33_32# 153
-R reg_5/reg_one_2/a_16_27# 212
+R reg_5/reg_one_2/a_16_27# 213
 R rx_addrH6 1634
 R reg_5/reg_one_1/a_54_5# 20
 R reg_5/reg_one_1/a_39_5# 20
@@ -5757,21 +5757,21 @@ R reg_5/reg_one_1/a_28_35# 16
 R reg_5/reg_one_1/a_12_35# 20
 R reg_5/reg_one_1/tmp 560
 R reg_5/reg_one_1/a_33_32# 153
-R reg_5/reg_one_1/a_16_27# 212
+R reg_5/reg_one_1/a_16_27# 213
 R rx_addrH7 1634
 R reg_5/reg_one_0/a_54_5# 20
 R reg_5/reg_one_0/a_39_5# 20
 R ry_addrH7 298
 R reg_5/reg_one_0/a_4_n13# 101
 R reg_5/reg_one_0/a_21_n13# 100
-R PCH_r0 3987
-R PCH_r1 2935
+R PCH_r0 4050
+R PCH_r1 2999
 R reg_5/reg_one_0/a_28_35# 16
 R reg_5/reg_one_0/a_12_35# 20
 R reg_5/reg_one_0/tmp 560
 R reg_5/reg_one_0/a_33_32# 153
-R reg_5/reg_one_0/a_16_27# 212
-R PCH_w 5531
+R reg_5/reg_one_0/a_16_27# 213
+R PCH_w 5530
 R rx_addrH0 1634
 R reg_5/reg_one_7/a_54_5# 20
 R reg_5/reg_one_7/a_39_5# 20
@@ -5782,7 +5782,7 @@ R reg_5/reg_one_7/a_28_35# 16
 R reg_5/reg_one_7/a_12_35# 20
 R reg_5/reg_one_7/tmp 560
 R reg_5/reg_one_7/a_33_32# 153
-R reg_5/reg_one_7/a_16_27# 212
+R reg_5/reg_one_7/a_16_27# 213
 R rx_addrH1 1634
 R reg_5/reg_one_6/a_54_5# 20
 R reg_5/reg_one_6/a_39_5# 20
@@ -5793,7 +5793,7 @@ R reg_5/reg_one_6/a_28_35# 16
 R reg_5/reg_one_6/a_12_35# 20
 R reg_5/reg_one_6/tmp 560
 R reg_5/reg_one_6/a_33_32# 153
-R reg_5/reg_one_6/a_16_27# 212
+R reg_5/reg_one_6/a_16_27# 213
 R rx_addrH2 1714
 R reg_5/reg_one_5/a_54_5# 20
 R reg_5/reg_one_5/a_39_5# 20
@@ -5804,7 +5804,7 @@ R reg_5/reg_one_5/a_28_35# 16
 R reg_5/reg_one_5/a_12_35# 20
 R reg_5/reg_one_5/tmp 560
 R reg_5/reg_one_5/a_33_32# 153
-R reg_5/reg_one_5/a_16_27# 212
+R reg_5/reg_one_5/a_16_27# 213
 R rx_addrH3 1634
 R reg_5/reg_one_4/a_54_5# 20
 R reg_5/reg_one_4/a_39_5# 20
@@ -5815,39 +5815,39 @@ R reg_5/reg_one_4/a_28_35# 16
 R reg_5/reg_one_4/a_12_35# 20
 R reg_5/reg_one_4/tmp 560
 R reg_5/reg_one_4/a_33_32# 153
-R reg_5/reg_one_4/a_16_27# 212
+R reg_5/reg_one_4/a_16_27# 213
 R staticizer_5/staticizer_one_7/a_95_n27# 20
 R staticizer_5/staticizer_one_7/a_60_n45# 153
-R inv2_2/out 2523
+R staticizer_5/c 2523
 R staticizer_5/staticizer_one_7/a_77_n45# 100
-R addr_out15 449
+R addr_out15 461
 R staticizer_5/staticizer_one_6/a_95_n27# 20
 R staticizer_5/staticizer_one_6/a_60_n45# 153
 R staticizer_5/staticizer_one_6/a_77_n45# 100
 R staticizer_5/staticizer_one_5/a_95_n27# 20
 R staticizer_5/staticizer_one_5/a_60_n45# 153
 R staticizer_5/staticizer_one_5/a_77_n45# 100
-R addr_out13 433
+R addr_out13 487
 R staticizer_5/staticizer_one_4/a_95_n27# 20
 R staticizer_5/staticizer_one_4/a_60_n45# 153
 R staticizer_5/staticizer_one_4/a_77_n45# 100
-R addr_out12 449
+R addr_out12 461
 R staticizer_5/staticizer_one_3/a_95_n27# 20
 R staticizer_5/staticizer_one_3/a_60_n45# 153
 R staticizer_5/staticizer_one_3/a_77_n45# 100
-R addr_out11 449
+R addr_out11 461
 R staticizer_5/staticizer_one_2/a_95_n27# 20
 R staticizer_5/staticizer_one_2/a_60_n45# 153
 R staticizer_5/staticizer_one_2/a_77_n45# 100
-R addr_out10 449
-R staticizer_5/staticizer_one_1/a_95_n27# 20
-R staticizer_5/staticizer_one_1/a_60_n45# 153
-R staticizer_5/staticizer_one_1/a_77_n45# 100
-R addr_out9 437
+R addr_out10 461
 R staticizer_5/staticizer_one_0/a_95_n27# 20
 R staticizer_5/staticizer_one_0/a_60_n45# 153
 R staticizer_5/staticizer_one_0/a_77_n45# 100
-R addr_out8 449
+R addr_out8 461
+R staticizer_5/staticizer_one_1/a_95_n27# 20
+R staticizer_5/staticizer_one_1/a_60_n45# 153
+R staticizer_5/staticizer_one_1/a_77_n45# 100
+R addr_out9 486
 R rx_PCL4 1561
 R reg_4/reg_one_3/a_54_5# 20
 R reg_4/reg_one_3/a_39_5# 20
@@ -5857,7 +5857,7 @@ R reg_4/reg_one_3/a_28_35# 16
 R reg_4/reg_one_3/a_12_35# 20
 R reg_4/reg_one_3/tmp 560
 R PCL4 153
-R reg_4/reg_one_3/a_16_27# 212
+R reg_4/reg_one_3/a_16_27# 213
 R rx_PCL5 1561
 R reg_4/reg_one_2/a_54_5# 20
 R reg_4/reg_one_2/a_39_5# 20
@@ -5867,7 +5867,7 @@ R reg_4/reg_one_2/a_28_35# 16
 R reg_4/reg_one_2/a_12_35# 20
 R reg_4/reg_one_2/tmp 560
 R PCL5 153
-R reg_4/reg_one_2/a_16_27# 212
+R reg_4/reg_one_2/a_16_27# 213
 R rx_PCL6 1561
 R reg_4/reg_one_1/a_54_5# 20
 R reg_4/reg_one_1/a_39_5# 20
@@ -5877,20 +5877,20 @@ R reg_4/reg_one_1/a_28_35# 16
 R reg_4/reg_one_1/a_12_35# 20
 R reg_4/reg_one_1/tmp 560
 R PCL6 153
-R reg_4/reg_one_1/a_16_27# 212
+R reg_4/reg_one_1/a_16_27# 213
 R rx_PCL7 1561
 R reg_4/reg_one_0/a_54_5# 20
 R reg_4/reg_one_0/a_39_5# 20
 R reg_4/reg_one_0/a_4_n13# 101
 R reg_4/reg_one_0/a_21_n13# 100
-R PCL_r0 3987
-R PCL_r1 2935
+R PCL_r0 4050
+R PCL_r1 2999
 R reg_4/reg_one_0/a_28_35# 16
 R reg_4/reg_one_0/a_12_35# 20
 R reg_4/reg_one_0/tmp 560
 R PCL7 153
-R reg_4/reg_one_0/a_16_27# 212
-R PCL_w 5531
+R reg_4/reg_one_0/a_16_27# 213
+R PCL_w 5530
 R rx_PCL0 1554
 R reg_4/reg_one_7/a_54_5# 20
 R reg_4/reg_one_7/a_39_5# 20
@@ -5900,7 +5900,7 @@ R reg_4/reg_one_7/a_28_35# 16
 R reg_4/reg_one_7/a_12_35# 20
 R reg_4/reg_one_7/tmp 560
 R PCL0 153
-R reg_4/reg_one_7/a_16_27# 212
+R reg_4/reg_one_7/a_16_27# 213
 R rx_PCL1 1561
 R reg_4/reg_one_6/a_54_5# 20
 R reg_4/reg_one_6/a_39_5# 20
@@ -5910,7 +5910,7 @@ R reg_4/reg_one_6/a_28_35# 16
 R reg_4/reg_one_6/a_12_35# 20
 R reg_4/reg_one_6/tmp 560
 R PCL1 153
-R reg_4/reg_one_6/a_16_27# 212
+R reg_4/reg_one_6/a_16_27# 213
 R rx_PCL2 1642
 R reg_4/reg_one_5/a_54_5# 20
 R reg_4/reg_one_5/a_39_5# 20
@@ -5920,7 +5920,7 @@ R reg_4/reg_one_5/a_28_35# 16
 R reg_4/reg_one_5/a_12_35# 20
 R reg_4/reg_one_5/tmp 560
 R PCL2 153
-R reg_4/reg_one_5/a_16_27# 212
+R reg_4/reg_one_5/a_16_27# 213
 R rx_PCL3 1561
 R reg_4/reg_one_4/a_54_5# 20
 R reg_4/reg_one_4/a_39_5# 20
@@ -5930,10 +5930,10 @@ R reg_4/reg_one_4/a_28_35# 16
 R reg_4/reg_one_4/a_12_35# 20
 R reg_4/reg_one_4/tmp 560
 R PCL3 153
-R reg_4/reg_one_4/a_16_27# 212
+R reg_4/reg_one_4/a_16_27# 213
 R staticizer_3/staticizer_one_7/a_95_n27# 20
 R staticizer_3/staticizer_one_7/a_60_n45# 153
-R inv2_5/out 2523
+R staticizer_3/c 2523
 R staticizer_3/staticizer_one_7/a_77_n45# 100
 R staticizer_3/staticizer_one_6/a_95_n27# 20
 R staticizer_3/staticizer_one_6/a_60_n45# 153
@@ -5950,37 +5950,44 @@ R staticizer_3/staticizer_one_3/a_77_n45# 100
 R staticizer_3/staticizer_one_2/a_95_n27# 20
 R staticizer_3/staticizer_one_2/a_60_n45# 153
 R staticizer_3/staticizer_one_2/a_77_n45# 100
-R staticizer_3/staticizer_one_1/a_95_n27# 20
-R staticizer_3/staticizer_one_1/a_60_n45# 153
-R staticizer_3/staticizer_one_1/a_77_n45# 100
 R staticizer_3/staticizer_one_0/a_95_n27# 20
 R staticizer_3/staticizer_one_0/a_60_n45# 153
 R staticizer_3/staticizer_one_0/a_77_n45# 100
+R staticizer_3/staticizer_one_1/a_95_n27# 20
+R staticizer_3/staticizer_one_1/a_60_n45# 153
+R staticizer_3/staticizer_one_1/a_77_n45# 100
 R staticizer_4/staticizer_one_7/a_95_n27# 20
 R staticizer_4/staticizer_one_7/a_60_n45# 153
-R inv2_1/out 2523
+R staticizer_4/c 2523
 R staticizer_4/staticizer_one_7/a_77_n45# 100
+R addr_out7 514
 R staticizer_4/staticizer_one_6/a_95_n27# 20
 R staticizer_4/staticizer_one_6/a_60_n45# 153
 R staticizer_4/staticizer_one_6/a_77_n45# 100
 R staticizer_4/staticizer_one_5/a_95_n27# 20
 R staticizer_4/staticizer_one_5/a_60_n45# 153
 R staticizer_4/staticizer_one_5/a_77_n45# 100
+R addr_out5 702
 R staticizer_4/staticizer_one_4/a_95_n27# 20
 R staticizer_4/staticizer_one_4/a_60_n45# 153
 R staticizer_4/staticizer_one_4/a_77_n45# 100
+R addr_out4 514
 R staticizer_4/staticizer_one_3/a_95_n27# 20
 R staticizer_4/staticizer_one_3/a_60_n45# 153
 R staticizer_4/staticizer_one_3/a_77_n45# 100
+R addr_out3 514
 R staticizer_4/staticizer_one_2/a_95_n27# 20
 R staticizer_4/staticizer_one_2/a_60_n45# 153
 R staticizer_4/staticizer_one_2/a_77_n45# 100
-R staticizer_4/staticizer_one_1/a_95_n27# 20
-R staticizer_4/staticizer_one_1/a_60_n45# 153
-R staticizer_4/staticizer_one_1/a_77_n45# 100
+R addr_out2 514
 R staticizer_4/staticizer_one_0/a_95_n27# 20
 R staticizer_4/staticizer_one_0/a_60_n45# 153
 R staticizer_4/staticizer_one_0/a_77_n45# 100
+R addr_out0 514
+R staticizer_4/staticizer_one_1/a_95_n27# 20
+R staticizer_4/staticizer_one_1/a_60_n45# 153
+R staticizer_4/staticizer_one_1/a_77_n45# 100
+R addr_out1 631
 R reg_3/reg_one_3/a_54_5# 20
 R reg_3/reg_one_3/a_39_5# 20
 R reg_3/reg_one_3/a_4_n13# 101
@@ -5989,7 +5996,7 @@ R reg_3/reg_one_3/a_28_35# 16
 R reg_3/reg_one_3/a_12_35# 20
 R reg_3/reg_one_3/tmp 560
 R reg_3/reg_one_3/a_33_32# 153
-R reg_3/reg_one_3/a_16_27# 212
+R reg_3/reg_one_3/a_16_27# 213
 R reg_3/reg_one_2/a_54_5# 20
 R reg_3/reg_one_2/a_39_5# 20
 R reg_3/reg_one_2/a_4_n13# 101
@@ -5998,7 +6005,7 @@ R reg_3/reg_one_2/a_28_35# 16
 R reg_3/reg_one_2/a_12_35# 20
 R reg_3/reg_one_2/tmp 560
 R reg_3/reg_one_2/a_33_32# 153
-R reg_3/reg_one_2/a_16_27# 212
+R reg_3/reg_one_2/a_16_27# 213
 R reg_3/reg_one_1/a_54_5# 20
 R reg_3/reg_one_1/a_39_5# 20
 R reg_3/reg_one_1/a_4_n13# 101
@@ -6007,19 +6014,19 @@ R reg_3/reg_one_1/a_28_35# 16
 R reg_3/reg_one_1/a_12_35# 20
 R reg_3/reg_one_1/tmp 560
 R reg_3/reg_one_1/a_33_32# 153
-R reg_3/reg_one_1/a_16_27# 212
+R reg_3/reg_one_1/a_16_27# 213
 R reg_3/reg_one_0/a_54_5# 20
 R reg_3/reg_one_0/a_39_5# 20
 R reg_3/reg_one_0/a_4_n13# 101
 R reg_3/reg_one_0/a_21_n13# 100
-R Y_r0 3987
-R Y_r1 2935
+R Y_r0 4050
+R Y_r1 2999
 R reg_3/reg_one_0/a_28_35# 16
 R reg_3/reg_one_0/a_12_35# 20
 R reg_3/reg_one_0/tmp 560
 R reg_3/reg_one_0/a_33_32# 153
-R reg_3/reg_one_0/a_16_27# 212
-R Y_w 5531
+R reg_3/reg_one_0/a_16_27# 213
+R Y_w 5530
 R reg_3/reg_one_7/a_54_5# 20
 R reg_3/reg_one_7/a_39_5# 20
 R reg_3/reg_one_7/a_4_n13# 101
@@ -6028,7 +6035,7 @@ R reg_3/reg_one_7/a_28_35# 16
 R reg_3/reg_one_7/a_12_35# 20
 R reg_3/reg_one_7/tmp 560
 R reg_3/reg_one_7/a_33_32# 153
-R reg_3/reg_one_7/a_16_27# 212
+R reg_3/reg_one_7/a_16_27# 213
 R reg_3/reg_one_6/a_54_5# 20
 R reg_3/reg_one_6/a_39_5# 20
 R reg_3/reg_one_6/a_4_n13# 101
@@ -6037,7 +6044,7 @@ R reg_3/reg_one_6/a_28_35# 16
 R reg_3/reg_one_6/a_12_35# 20
 R reg_3/reg_one_6/tmp 560
 R reg_3/reg_one_6/a_33_32# 153
-R reg_3/reg_one_6/a_16_27# 212
+R reg_3/reg_one_6/a_16_27# 213
 R reg_3/reg_one_5/a_54_5# 20
 R reg_3/reg_one_5/a_39_5# 20
 R reg_3/reg_one_5/a_4_n13# 101
@@ -6046,7 +6053,7 @@ R reg_3/reg_one_5/a_28_35# 16
 R reg_3/reg_one_5/a_12_35# 20
 R reg_3/reg_one_5/tmp 560
 R reg_3/reg_one_5/a_33_32# 153
-R reg_3/reg_one_5/a_16_27# 212
+R reg_3/reg_one_5/a_16_27# 213
 R reg_3/reg_one_4/a_54_5# 20
 R reg_3/reg_one_4/a_39_5# 20
 R reg_3/reg_one_4/a_4_n13# 101
@@ -6055,10 +6062,10 @@ R reg_3/reg_one_4/a_28_35# 16
 R reg_3/reg_one_4/a_12_35# 20
 R reg_3/reg_one_4/tmp 560
 R reg_3/reg_one_4/a_33_32# 153
-R reg_3/reg_one_4/a_16_27# 212
+R reg_3/reg_one_4/a_16_27# 213
 R staticizer_2/staticizer_one_7/a_95_n27# 20
 R staticizer_2/staticizer_one_7/a_60_n45# 153
-R inv2_4/out 2523
+R staticizer_2/c 2523
 R staticizer_2/staticizer_one_7/a_77_n45# 100
 R staticizer_2/staticizer_one_6/a_95_n27# 20
 R staticizer_2/staticizer_one_6/a_60_n45# 153
@@ -6075,45 +6082,45 @@ R staticizer_2/staticizer_one_3/a_77_n45# 100
 R staticizer_2/staticizer_one_2/a_95_n27# 20
 R staticizer_2/staticizer_one_2/a_60_n45# 153
 R staticizer_2/staticizer_one_2/a_77_n45# 100
-R staticizer_2/staticizer_one_1/a_95_n27# 20
-R staticizer_2/staticizer_one_1/a_60_n45# 153
-R staticizer_2/staticizer_one_1/a_77_n45# 100
 R staticizer_2/staticizer_one_0/a_95_n27# 20
 R staticizer_2/staticizer_one_0/a_60_n45# 153
 R staticizer_2/staticizer_one_0/a_77_n45# 100
+R staticizer_2/staticizer_one_1/a_95_n27# 20
+R staticizer_2/staticizer_one_1/a_60_n45# 153
+R staticizer_2/staticizer_one_1/a_77_n45# 100
 R staticizer_1/staticizer_one_7/a_95_n27# 20
 R staticizer_1/staticizer_one_7/a_60_n45# 153
-R inv2_0/out 2523
+R staticizer_1/c 2523
 R staticizer_1/staticizer_one_7/a_77_n45# 100
-R data_out7 505
+R data_out7 514
 R staticizer_1/staticizer_one_6/a_95_n27# 20
 R staticizer_1/staticizer_one_6/a_60_n45# 153
 R staticizer_1/staticizer_one_6/a_77_n45# 100
-R data_out6 483
+R data_out6 492
 R staticizer_1/staticizer_one_5/a_95_n27# 20
 R staticizer_1/staticizer_one_5/a_60_n45# 153
 R staticizer_1/staticizer_one_5/a_77_n45# 100
-R data_out5 534
+R data_out5 547
 R staticizer_1/staticizer_one_4/a_95_n27# 20
 R staticizer_1/staticizer_one_4/a_60_n45# 153
 R staticizer_1/staticizer_one_4/a_77_n45# 100
-R data_out4 504
+R data_out4 514
 R staticizer_1/staticizer_one_3/a_95_n27# 20
 R staticizer_1/staticizer_one_3/a_60_n45# 153
 R staticizer_1/staticizer_one_3/a_77_n45# 100
-R data_out3 505
+R data_out3 514
 R staticizer_1/staticizer_one_2/a_95_n27# 20
 R staticizer_1/staticizer_one_2/a_60_n45# 153
 R staticizer_1/staticizer_one_2/a_77_n45# 100
-R data_out2 504
-R staticizer_1/staticizer_one_1/a_95_n27# 20
-R staticizer_1/staticizer_one_1/a_60_n45# 153
-R staticizer_1/staticizer_one_1/a_77_n45# 100
-R data_out1 516
+R data_out2 514
 R staticizer_1/staticizer_one_0/a_95_n27# 20
 R staticizer_1/staticizer_one_0/a_60_n45# 153
 R staticizer_1/staticizer_one_0/a_77_n45# 100
-R data_out0 504
+R data_out0 514
+R staticizer_1/staticizer_one_1/a_95_n27# 20
+R staticizer_1/staticizer_one_1/a_60_n45# 153
+R staticizer_1/staticizer_one_1/a_77_n45# 100
+R data_out1 526
 R reg_2/reg_one_3/a_54_5# 20
 R reg_2/reg_one_3/a_39_5# 20
 R reg_2/reg_one_3/a_4_n13# 101
@@ -6122,7 +6129,7 @@ R reg_2/reg_one_3/a_28_35# 16
 R reg_2/reg_one_3/a_12_35# 20
 R reg_2/reg_one_3/tmp 560
 R reg_2/reg_one_3/a_33_32# 153
-R reg_2/reg_one_3/a_16_27# 212
+R reg_2/reg_one_3/a_16_27# 213
 R reg_2/reg_one_2/a_54_5# 20
 R reg_2/reg_one_2/a_39_5# 20
 R reg_2/reg_one_2/a_4_n13# 101
@@ -6131,7 +6138,7 @@ R reg_2/reg_one_2/a_28_35# 16
 R reg_2/reg_one_2/a_12_35# 20
 R reg_2/reg_one_2/tmp 560
 R reg_2/reg_one_2/a_33_32# 153
-R reg_2/reg_one_2/a_16_27# 212
+R reg_2/reg_one_2/a_16_27# 213
 R reg_2/reg_one_1/a_54_5# 20
 R reg_2/reg_one_1/a_39_5# 20
 R reg_2/reg_one_1/a_4_n13# 101
@@ -6140,19 +6147,19 @@ R reg_2/reg_one_1/a_28_35# 16
 R reg_2/reg_one_1/a_12_35# 20
 R reg_2/reg_one_1/tmp 560
 R reg_2/reg_one_1/a_33_32# 153
-R reg_2/reg_one_1/a_16_27# 212
+R reg_2/reg_one_1/a_16_27# 213
 R reg_2/reg_one_0/a_54_5# 20
 R reg_2/reg_one_0/a_39_5# 20
 R reg_2/reg_one_0/a_4_n13# 101
 R reg_2/reg_one_0/a_21_n13# 100
-R X_r0 3987
-R X_r1 2935
+R X_r0 4050
+R X_r1 2999
 R reg_2/reg_one_0/a_28_35# 16
 R reg_2/reg_one_0/a_12_35# 20
 R reg_2/reg_one_0/tmp 560
 R reg_2/reg_one_0/a_33_32# 153
-R reg_2/reg_one_0/a_16_27# 212
-R X_w 5531
+R reg_2/reg_one_0/a_16_27# 213
+R X_w 5530
 R reg_2/reg_one_7/a_54_5# 20
 R reg_2/reg_one_7/a_39_5# 20
 R reg_2/reg_one_7/a_4_n13# 101
@@ -6161,7 +6168,7 @@ R reg_2/reg_one_7/a_28_35# 16
 R reg_2/reg_one_7/a_12_35# 20
 R reg_2/reg_one_7/tmp 560
 R reg_2/reg_one_7/a_33_32# 153
-R reg_2/reg_one_7/a_16_27# 212
+R reg_2/reg_one_7/a_16_27# 213
 R reg_2/reg_one_6/a_54_5# 20
 R reg_2/reg_one_6/a_39_5# 20
 R reg_2/reg_one_6/a_4_n13# 101
@@ -6170,7 +6177,7 @@ R reg_2/reg_one_6/a_28_35# 16
 R reg_2/reg_one_6/a_12_35# 20
 R reg_2/reg_one_6/tmp 560
 R reg_2/reg_one_6/a_33_32# 153
-R reg_2/reg_one_6/a_16_27# 212
+R reg_2/reg_one_6/a_16_27# 213
 R reg_2/reg_one_5/a_54_5# 20
 R reg_2/reg_one_5/a_39_5# 20
 R reg_2/reg_one_5/a_4_n13# 101
@@ -6179,7 +6186,7 @@ R reg_2/reg_one_5/a_28_35# 16
 R reg_2/reg_one_5/a_12_35# 20
 R reg_2/reg_one_5/tmp 560
 R reg_2/reg_one_5/a_33_32# 153
-R reg_2/reg_one_5/a_16_27# 212
+R reg_2/reg_one_5/a_16_27# 213
 R reg_2/reg_one_4/a_54_5# 20
 R reg_2/reg_one_4/a_39_5# 20
 R reg_2/reg_one_4/a_4_n13# 101
@@ -6188,4 +6195,4 @@ R reg_2/reg_one_4/a_28_35# 16
 R reg_2/reg_one_4/a_12_35# 20
 R reg_2/reg_one_4/tmp 560
 R reg_2/reg_one_4/a_33_32# 153
-R reg_2/reg_one_4/a_16_27# 212
+R reg_2/reg_one_4/a_16_27# 213
