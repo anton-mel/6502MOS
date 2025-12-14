@@ -2,13 +2,15 @@ h Vdd!
 l GND!
 
 l rst
+l iwe
 
 vector s s3 s2 s1 s0
-vector i i7 i6 i4 i3 i2 i1 i0
+vector i i7 i6 i5 i4 i3 i2 i1 i0
 vector s' s3' s2' s1' s0'
 
+h iwe
 setvector s 1111
-setvector i 0000000
+setvector i 00000000
 h rst
 
 ana rst s s' i
@@ -16,51 +18,52 @@ ana rst s s' i
 s
 
 setvector s 00001
-setvector i 0000001
+setvector i 00000001
 l rst
 
 s
 
 setvector s 0001
-setvector i 0000001
+setvector i 00000001
 
 s
 
 setvector s 0001
-setvector i 0000010
+setvector i 00000010
 
 s
 
 setvector s 0001
-setvector i 0000000
+setvector i 00000000
 
 s
 
 setvector s 0010
-setvector i 0001000
+setvector i 00001000
 
 s
 
 setvector s 0010
-setvector i 1000000
+setvector i 10000000
 
 s
 
 setvector s 0010
-setvector i 0000000
+setvector i 00000000
 
 s
 
 setvector s 0011
-setvector i 0000100
+setvector i 00000100
 
 s
 
 setvector s 0011
-setvector i 0000000
+setvector i 00000000
 
 s
 
+l iwe
 setvector s 0100
 
 s
@@ -73,21 +76,23 @@ setvector s 0110
 
 s
 
+h iwe
 setvector s 0111
-setvector i 0010000
+setvector i 00100000
 
 s
 
 setvector s 0111
-setvector i 0100000
+setvector i 01000000
 
 s
 
 setvector s 0111
-setvector i 0000000
+setvector i 00000000
 
 s
 
+l iwe
 setvector s 1000
 
 s
