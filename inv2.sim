@@ -1,0 +1,7 @@
+| units: 9 tech: scmos format: MIT
+p a_1_8# Vdd! a_6_n1# 2 10 4 18
+n a_1_8# GND! a_6_n1# 2 5 4 0
+R a_6_n1# 21
+R a_1_8# 134
+R GND! 57
+R Vdd! 1029

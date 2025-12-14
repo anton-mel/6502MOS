@@ -1,0 +1,94 @@
+| units: 9 tech: scmos format: MIT
+p 3nand_2/b out1 Vdd! 2 10 182 13
+p e Vdd! out1 2 10 171 13
+n 3nand_1/c 3nand_0/a_98_42# out1 2 5 193 -6
+n 3nand_2/b 3nand_0/a_87_42# 3nand_0/a_98_42# 2 5 182 -6
+n e GND! 3nand_0/a_87_42# 2 5 171 -6
+p 3nand_1/c Vdd! out1 2 10 193 13
+p in2 out2 Vdd! 2 10 182 -48
+p e Vdd! out2 2 10 171 -48
+n 3nand_1/c 3nand_1/a_98_42# out2 2 5 193 -67
+n in2 3nand_1/a_87_42# 3nand_1/a_98_42# 2 5 182 -67
+n e GND! 3nand_1/a_87_42# 2 5 171 -67
+p 3nand_1/c Vdd! out2 2 10 193 -48
+p 3nand_2/b out3 Vdd! 2 10 182 -109
+p e Vdd! out3 2 10 171 -109
+n in1 3nand_2/a_98_42# out3 2 5 193 -128
+n 3nand_2/b 3nand_2/a_87_42# 3nand_2/a_98_42# 2 5 182 -128
+n e GND! 3nand_2/a_87_42# 2 5 171 -128
+p in1 Vdd! out3 2 10 193 -109
+p in2 out4 Vdd! 2 10 182 -170
+p e Vdd! out4 2 10 171 -170
+n in1 3nand_3/a_98_42# out4 2 5 193 -189
+n in2 3nand_3/a_87_42# 3nand_3/a_98_42# 2 5 182 -189
+n e GND! 3nand_3/a_87_42# 2 5 171 -189
+p in1 Vdd! out4 2 10 193 -170
+p in1 Vdd! 3nand_1/c 2 10 93 -42
+n in1 GND! 3nand_1/c 2 5 93 -60
+p in2 Vdd! 3nand_2/b 2 10 93 -115
+n in2 GND! 3nand_2/b 2 5 93 -133
+p decoder_nor2_3/phi1 decoder_nor2_0/a_117_59# decoder_nor2_0/out1 2 10 259 13
+p out1 Vdd! decoder_nor2_0/a_117_59# 2 10 248 13
+n out1 decoder_nor2_0/out2 GND! 2 5 229 -6
+n decoder_nor2_3/phi0 GND! decoder_nor2_0/out2 2 5 218 -6
+n decoder_nor2_3/phi1 decoder_nor2_0/out1 GND! 2 5 259 -6
+n out1 GND! decoder_nor2_0/out1 2 5 248 -6
+p out1 decoder_nor2_0/a_87_59# decoder_nor2_0/out2 2 10 229 13
+p decoder_nor2_3/phi0 Vdd! decoder_nor2_0/a_87_59# 2 10 218 13
+p decoder_nor2_3/phi1 decoder_nor2_1/a_117_59# decoder_nor2_1/out1 2 10 259 -48
+p out2 Vdd! decoder_nor2_1/a_117_59# 2 10 248 -48
+n out2 decoder_nor2_1/out2 GND! 2 5 229 -67
+n decoder_nor2_3/phi0 GND! decoder_nor2_1/out2 2 5 218 -67
+n decoder_nor2_3/phi1 decoder_nor2_1/out1 GND! 2 5 259 -67
+n out2 GND! decoder_nor2_1/out1 2 5 248 -67
+p out2 decoder_nor2_1/a_87_59# decoder_nor2_1/out2 2 10 229 -48
+p decoder_nor2_3/phi0 Vdd! decoder_nor2_1/a_87_59# 2 10 218 -48
+p decoder_nor2_3/phi1 decoder_nor2_2/a_117_59# decoder_nor2_2/out1 2 10 259 -170
+p out4 Vdd! decoder_nor2_2/a_117_59# 2 10 248 -170
+n out4 decoder_nor2_2/out2 GND! 2 5 229 -189
+n decoder_nor2_3/phi0 GND! decoder_nor2_2/out2 2 5 218 -189
+n decoder_nor2_3/phi1 decoder_nor2_2/out1 GND! 2 5 259 -189
+n out4 GND! decoder_nor2_2/out1 2 5 248 -189
+p out4 decoder_nor2_2/a_87_59# decoder_nor2_2/out2 2 10 229 -170
+p decoder_nor2_3/phi0 Vdd! decoder_nor2_2/a_87_59# 2 10 218 -170
+p decoder_nor2_3/phi1 decoder_nor2_3/a_117_59# decoder_nor2_3/out1 2 10 259 -109
+p out3 Vdd! decoder_nor2_3/a_117_59# 2 10 248 -109
+n out3 decoder_nor2_3/out2 GND! 2 5 229 -128
+n decoder_nor2_3/phi0 GND! decoder_nor2_3/out2 2 5 218 -128
+n decoder_nor2_3/phi1 decoder_nor2_3/out1 GND! 2 5 259 -128
+n out3 GND! decoder_nor2_3/out1 2 5 248 -128
+p out3 decoder_nor2_3/a_87_59# decoder_nor2_3/out2 2 10 229 -109
+p decoder_nor2_3/phi0 Vdd! decoder_nor2_3/a_87_59# 2 10 218 -109
+C in2 3nand_1/c 2.18
+C in2 in1 2.04
+C Vdd! GND! 3.41
+R e 930
+R decoder_nor2_3/out1 30
+R decoder_nor2_3/out2 36
+R decoder_nor2_3/phi1 980
+R decoder_nor2_3/phi0 980
+R decoder_nor2_2/out1 30
+R decoder_nor2_2/out2 36
+R decoder_nor2_1/out1 30
+R decoder_nor2_1/out2 36
+R decoder_nor2_0/out1 30
+R decoder_nor2_0/out2 36
+R 3nand_2/b 427
+R 3nand_1/c 427
+R 3nand_3/a_98_42# 12
+R 3nand_3/a_87_42# 12
+R out4 364
+R in1 558
+R in2 557
+R GND! 1194
+C Vdd! GND 11.45
+R Vdd! 29964
+R 3nand_2/a_98_42# 12
+R 3nand_2/a_87_42# 12
+R out3 364
+R 3nand_1/a_98_42# 12
+R 3nand_1/a_87_42# 12
+R out2 364
+R 3nand_0/a_98_42# 12
+R 3nand_0/a_87_42# 12
+R out1 364

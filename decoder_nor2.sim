@@ -1,0 +1,16 @@
+| units: 9 tech: scmos format: MIT
+p phi1 a_117_59# out1 2 10 126 59
+p in Vdd! a_117_59# 2 10 115 59
+n in out2 GND! 2 5 96 40
+n phi0 GND! out2 2 5 85 40
+n phi1 out1 GND! 2 5 126 40
+n in GND! out1 2 5 115 40
+p in a_87_59# out2 2 10 96 59
+p phi0 Vdd! a_87_59# 2 10 85 59
+R out1 30
+R out2 36
+R phi1 244
+R in 307
+R phi0 244
+R GND! 168
+R Vdd! 2285

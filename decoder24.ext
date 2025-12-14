@@ -1,0 +1,235 @@
+timestamp 1765741251
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use 3nand 3nand_3 1 0 86 0 1 -231
+use 3nand 3nand_2 1 0 86 0 1 -170
+use inv2 inv2_1 1 0 89 0 1 -133
+use decoder_nor2 decoder_nor2_2 1 0 133 0 1 -229
+use decoder_nor2 decoder_nor2_3 1 0 133 0 1 -168
+use 3nand 3nand_1 1 0 86 0 1 -109
+use inv2 inv2_0 1 0 89 0 1 -60
+use decoder_nor2 decoder_nor2_1 1 0 133 0 1 -107
+use 3nand 3nand_0 1 0 86 0 1 -48
+use decoder_nor2 decoder_nor2_0 1 0 133 0 1 -46
+node "out4" 0 33.19 186 -180 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out3" 0 33.19 186 -119 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "out2" 0 33.19 186 -58 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "GND!" 5 477.686 212 -198 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 80 1220 498 0 0 0 0 0 0 0 0
+node "out1" 0 33.19 186 3 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "Vdd!" 5 477.686 202 -156 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 80 1220 498 0 0 0 0 0 0 0 0
+node "m1_104_n143#" 2 130.754 104 -143 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 330 142 0 0 0 0 0 0 0 0
+node "m1_104_n101#" 2 129.305 104 -101 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 325 140 0 0 0 0 0 0 0 0
+node "m1_104_n70#" 2 121.653 104 -70 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 330 142 0 0 0 0 0 0 0 0
+node "m1_104_n28#" 2 132.203 104 -28 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 335 144 0 0 0 0 0 0 0 0
+node "e" 8 136.35 166 -180 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 75 40 0 0 0 0 0 0 0 0 0 0
+node "a_171_n157#" 104 178.888 171 -157 p 0 0 0 0 0 0 0 0 0 0 52 56 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "in1" 125 1540.4 191 -148 pm12c 0 0 0 0 0 0 0 0 0 0 86 76 0 0 1320 558 820 348 0 0 0 0 0 0 0 0
+node "a_171_n96#" 104 178.888 171 -96 p 0 0 0 0 0 0 0 0 0 0 52 56 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "in2" 125 1645.16 181 -148 pc 0 0 0 0 0 0 0 0 0 0 86 76 0 0 1510 634 450 200 0 0 0 0 0 0 0 0
+node "a_171_n35#" 104 178.888 171 -35 p 0 0 0 0 0 0 0 0 0 0 52 56 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_191_n26#" 124 1247.6 191 -26 pm12c 0 0 0 0 0 0 0 0 0 0 86 76 0 0 965 426 795 348 0 0 0 0 0 0 0 0
+node "a_181_n87#" 123 1393.25 181 -87 pc 0 0 0 0 0 0 0 0 0 0 86 76 0 0 1285 534 225 100 0 0 0 0 0 0 0 0
+cap "a_181_n87#" "in2" 512.216
+cap "m1_104_n101#" "a_181_n87#" 94.1025
+cap "a_171_n157#" "in1" 1.632
+cap "m1_104_n143#" "a_191_n26#" 36.385
+cap "a_191_n26#" "Vdd!" 76.425
+cap "a_171_n157#" "in2" 20.324
+cap "in1" "m1_104_n28#" 82.559
+cap "a_191_n26#" "m1_104_n70#" 36.385
+cap "in2" "m1_104_n28#" 94.1025
+cap "a_191_n26#" "in1" 118.944
+cap "a_191_n26#" "a_171_n35#" 1.632
+cap "m1_104_n143#" "in1" 507.142
+cap "in1" "Vdd!" 84.9167
+cap "a_191_n26#" "in2" 2181.53
+cap "m1_104_n143#" "in2" 74.8633
+cap "GND!" "Vdd!" 2486.36
+cap "a_171_n96#" "in1" 1.632
+cap "in1" "m1_104_n70#" 622.689
+cap "a_181_n87#" "m1_104_n28#" 36.385
+cap "a_191_n26#" "m1_104_n101#" 36.385
+cap "m1_104_n70#" "in2" 36.385
+cap "in1" "in2" 2039.1
+cap "a_191_n26#" "a_181_n87#" 1902.65
+cap "a_171_n35#" "in2" 20.324
+cap "m1_104_n143#" "a_181_n87#" 363.921
+cap "m1_104_n101#" "in1" 719.434
+cap "a_181_n87#" "a_171_n96#" 20.324
+cap "a_181_n87#" "m1_104_n70#" 74.8633
+cap "m1_104_n101#" "in2" 36.385
+cap "a_181_n87#" "in1" 274.987
+cap "a_191_n26#" "m1_104_n28#" 418.51
+subcap "m1_104_n143#" -80.481
+subcap "e" -60.11
+subcap "a_171_n157#" -102.648
+subcap "in2" -1435.2
+cap "3nand_3/Vdd!" "3nand_3/a" 66.498
+cap "3nand_3/a" "3nand_3/out" 28.8588
+cap "3nand_3/b" "3nand_3/Vdd!" 16.268
+cap "inv2_1/GND!" "3nand_3/a" 20.324
+cap "inv2_1/Vdd!" "inv2_1/a_6_n1#" 2.035
+cap "3nand_3/Vdd!" "3nand_3/b" 153.913
+cap "inv2_1/Vdd!" "3nand_3/b" 105.659
+cap "3nand_3/a" "3nand_3/GND!" 42.514
+cap "3nand_3/a" "3nand_2/GND!" 54.084
+cap "inv2_1/GND!" "inv2_1/a_6_n1#" 2.035
+cap "inv2_1/GND!" "3nand_2/GND!" 18.461
+cap "inv2_1/GND!" "3nand_3/b" 76.9567
+cap "3nand_3/Vdd!" "3nand_3/Vdd!" -8.628
+cap "3nand_3/b" "inv2_1/a_6_n1#" 40.036
+cap "3nand_3/a" "3nand_3/Vdd!" 96.598
+cap "in1" "3nand_3/Vdd!" 5.698
+cap "3nand_3/a" "3nand_3/GND!" 57.7175
+subcap "out4" -23.272
+subcap "out3" -57.596
+subcap "GND!" -487.657
+subcap "e" -226.352
+subcap "a_171_n157#" -268.89
+subcap "in1" -1440.23
+subcap "in2" -1546.56
+cap "3nand_3/GND!" "decoder_nor2_2/out2" 50.95
+cap "decoder_nor2_2/phi1" "decoder_nor2_3/Vdd!" 1.42109e-14
+cap "3nand_3/out" "3nand_3/GND!" 68.853
+cap "3nand_3/GND!" "decoder_nor2_3/Vdd!" 7.245
+cap "3nand_3/out" "3nand_3/Vdd!" 175.891
+cap "3nand_3/GND!" "3nand_3/Vdd!" 264.443
+cap "3nand_3/GND!" "3nand_2/out" 68.853
+cap "decoder_nor2_3/Vdd!" "3nand_3/Vdd!" 7.75
+cap "decoder_nor2_3/Vdd!" "3nand_2/out" -13.706
+cap "3nand_3/c" "3nand_3/GND!" 38.4783
+cap "3nand_3/GND!" "decoder_nor2_3/out2" 50.95
+cap "3nand_3/GND!" "decoder_nor2_3/Vdd!" 15.012
+cap "3nand_2/out" "3nand_3/Vdd!" 82.033
+cap "3nand_3/c" "3nand_3/Vdd!" 169.125
+cap "3nand_3/b" "3nand_3/GND!" 92.348
+cap "decoder_nor2_3/Vdd!" "3nand_3/Vdd!" 10.144
+cap "3nand_2/out" "decoder_nor2_3/Vdd!" 36.9392
+cap "decoder_nor2_2/phi0" "3nand_3/GND!" -5.68434e-14
+cap "decoder_nor2_2/phi0" "decoder_nor2_3/Vdd!" 1.42109e-14
+cap "3nand_3/b" "3nand_3/Vdd!" 277.672
+cap "decoder_nor2_2/phi0" "3nand_3/Vdd!" -2.84217e-14
+cap "3nand_3/out" "3nand_3/a" 28.8588
+subcap "m1_104_n70#" -75.32
+subcap "a_171_n96#" -83.116
+subcap "a_171_n35#" -83.116
+subcap "a_181_n87#" -992.294
+cap "inv2_0/a_6_n1#" "3nand_1/Vdd!" 5.698
+cap "3nand_2/a" "inv2_0/GND!" 20.324
+cap "3nand_2/a" "inv2_1/Vdd!" 20.324
+cap "inv2_0/a_1_8#" "3nand_2/Vdd!" 5.698
+cap "3nand_0/GND!" "3nand_1/b" 14.524
+cap "3nand_0/GND!" "3nand_0/GND!" -8.628
+cap "inv2_0/GND!" "inv2_0/a_1_8#" 467.132
+cap "inv2_1/Vdd!" "3nand_2/Vdd!" 18.461
+cap "inv2_0/GND!" "inv2_0/a_6_n1#" 2.035
+cap "3nand_2/a" "3nand_0/GND!" 54.084
+cap "3nand_2/Vdd!" "3nand_2/b" 16.268
+cap "3nand_2/a" "3nand_1/GND!" 54.084
+cap "3nand_0/GND!" "3nand_1/b" 113.896
+cap "inv2_0/Vdd!" "3nand_1/b" 153.913
+cap "inv2_0/GND!" "3nand_2/b" 76.9567
+cap "inv2_1/Vdd!" "3nand_2/b" 153.913
+cap "3nand_2/a" "inv2_0/Vdd!" 20.324
+cap "3nand_2/a" "3nand_0/GND!" 20.324
+cap "3nand_1/Vdd!" "3nand_1/b" 16.268
+cap "inv2_0/Vdd!" "3nand_1/Vdd!" 18.461
+cap "inv2_0/GND!" "3nand_1/GND!" 18.461
+cap "inv2_0/a_1_8#" "inv2_0/Vdd!" -1.42109e-14
+cap "inv2_0/Vdd!" "inv2_0/a_6_n1#" 2.035
+cap "3nand_2/a" "3nand_1/Vdd!" 54.084
+cap "3nand_2/a" "3nand_2/Vdd!" 54.084
+subcap "out2" -23.272
+subcap "out1" -292.318
+subcap "a_171_n96#" -245.108
+subcap "a_171_n35#" -245.108
+subcap "a_191_n26#" -1147.43
+subcap "a_181_n87#" -1308.75
+cap "3nand_1/GND!" "3nand_1/b" 92.348
+cap "3nand_1/GND!" "3nand_2/b" 92.348
+cap "3nand_0/out" "3nand_2/Vdd!" 2.536
+cap "decoder_nor2_3/phi1" "3nand_2/Vdd!" 2.84217e-14
+cap "3nand_1/GND!" "3nand_0/out" 9.2348
+cap "3nand_2/out" "3nand_2/Vdd!" 70.6248
+cap "3nand_1/GND!" "decoder_nor2_0/out2" 10.19
+cap "3nand_1/out" "3nand_2/Vdd!" 175.891
+cap "3nand_2/c" "3nand_2/Vdd!" 169.125
+cap "3nand_1/GND!" "3nand_2/Vdd!" 330.949
+cap "3nand_1/c" "3nand_2/Vdd!" 169.125
+cap "3nand_1/GND!" "3nand_1/out" 68.853
+cap "3nand_1/GND!" "3nand_2/c" 38.4783
+cap "3nand_1/GND!" "3nand_1/c" 38.4783
+cap "3nand_1/GND!" "decoder_nor2_1/out2" 50.95
+cap "3nand_1/b" "3nand_2/Vdd!" 277.672
+cap "3nand_2/b" "3nand_2/Vdd!" 277.672
+cap "3nand_0/Vdd!" "3nand_0/b" 18.592
+cap "3nand_0/Vdd!" "3nand_0/b" 153.913
+cap "3nand_0/Vdd!" "a_191_n26#" 6.512
+subcap "out1" -32.866
+cap "3nand_0/Vdd!" "3nand_0/GND!" 122.467
+cap "3nand_0/Vdd!" "3nand_0/out" 173.355
+cap "3nand_0/out" "3nand_0/GND!" 59.6182
+cap "3nand_0/Vdd!" "decoder_nor2_0/phi0" -2.84217e-14
+cap "3nand_0/Vdd!" "3nand_0/b" 277.672
+cap "decoder_nor2_0/out2" "3nand_0/GND!" 40.76
+cap "3nand_0/Vdd!" "3nand_0/c" 169.125
+merge "3nand_0/a" "3nand_1/a" -249.608 0 0 0 0 0 0 0 0 0 0 4 -16 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3nand_1/a" "a_171_n35#"
+merge "a_171_n35#" "3nand_2/a"
+merge "3nand_2/a" "3nand_3/a"
+merge "3nand_3/a" "a_171_n157#"
+merge "a_171_n157#" "e"
+merge "e" "a_171_n96#"
+merge "decoder_nor2_0/Vdd!" "3nand_0/Vdd!" -942.805 0 0 0 0 -735 -259 0 0 0 0 0 0 0 0 -240 -176 0 0 0 0 0 0 0 0 0 0
+merge "3nand_0/Vdd!" "decoder_nor2_1/Vdd!"
+merge "decoder_nor2_1/Vdd!" "inv2_0/Vdd!"
+merge "inv2_0/Vdd!" "3nand_1/Vdd!"
+merge "3nand_1/Vdd!" "m1_104_n28#"
+merge "m1_104_n28#" "decoder_nor2_3/Vdd!"
+merge "decoder_nor2_3/Vdd!" "3nand_2/Vdd!"
+merge "3nand_2/Vdd!" "inv2_1/Vdd!"
+merge "inv2_1/Vdd!" "m1_104_n101#"
+merge "m1_104_n101#" "decoder_nor2_2/Vdd!"
+merge "decoder_nor2_2/Vdd!" "3nand_3/Vdd!"
+merge "3nand_3/Vdd!" "Vdd!"
+merge "3nand_0/b" "3nand_2/b" -237.987 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "3nand_2/b" "inv2_1/a_6_n1#"
+merge "inv2_1/a_6_n1#" "a_181_n87#"
+merge "3nand_1/b" "inv2_1/a_1_8#" -426.992 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 -165 -105 210 0 0 0 0 0 0 0 0 0
+merge "inv2_1/a_1_8#" "3nand_3/b"
+merge "3nand_3/b" "in2"
+merge "3nand_0/c" "3nand_1/c" -440.849 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 -250 -115 -200 -85 0 0 0 0 0 0 0 0
+merge "3nand_1/c" "inv2_0/a_6_n1#"
+merge "inv2_0/a_6_n1#" "a_191_n26#"
+merge "decoder_nor2_0/GND!" "3nand_0/GND!" -490.42 0 0 0 0 0 0 0 0 -644 -240 0 0 0 0 -180 -176 0 0 0 0 0 0 0 0 0 0
+merge "3nand_0/GND!" "decoder_nor2_1/GND!"
+merge "decoder_nor2_1/GND!" "inv2_0/GND!"
+merge "inv2_0/GND!" "3nand_1/GND!"
+merge "3nand_1/GND!" "m1_104_n70#"
+merge "m1_104_n70#" "decoder_nor2_3/GND!"
+merge "decoder_nor2_3/GND!" "inv2_1/GND!"
+merge "inv2_1/GND!" "3nand_2/GND!"
+merge "3nand_2/GND!" "m1_104_n143#"
+merge "m1_104_n143#" "decoder_nor2_2/GND!"
+merge "decoder_nor2_2/GND!" "3nand_3/GND!"
+merge "3nand_3/GND!" "GND!"
+merge "decoder_nor2_0/phi1" "decoder_nor2_1/phi1" -27.792 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_nor2_1/phi1" "decoder_nor2_3/phi1"
+merge "decoder_nor2_3/phi1" "decoder_nor2_2/phi1"
+merge "decoder_nor2_0/phi0" "decoder_nor2_1/phi0" -27.792 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "decoder_nor2_1/phi0" "decoder_nor2_3/phi0"
+merge "decoder_nor2_3/phi0" "decoder_nor2_2/phi0"
+merge "decoder_nor2_1/in" "3nand_1/out" -47.596 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 -44 0 0 0 0 0 0 0 0 0 0
+merge "3nand_1/out" "out2"
+merge "decoder_nor2_0/in" "3nand_0/out" -9.388 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 -44 0 0 0 0 0 0 0 0 0 0
+merge "3nand_0/out" "out1"
+merge "3nand_2/c" "inv2_0/a_1_8#" -438.736 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 -225 -105 0 0 0 0 0 0 0 0 0 0
+merge "inv2_0/a_1_8#" "3nand_3/c"
+merge "3nand_3/c" "in1"
+merge "decoder_nor2_2/in" "3nand_3/out" -47.596 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 -44 0 0 0 0 0 0 0 0 0 0
+merge "3nand_3/out" "out4"
+merge "decoder_nor2_3/in" "3nand_2/out" -47.596 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 -44 0 0 0 0 0 0 0 0 0 0
+merge "3nand_2/out" "out3"
