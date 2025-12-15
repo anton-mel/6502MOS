@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765751372
+timestamp 1765778850
 << polysilicon >>
 rect 924 2012 946 2014
 rect 921 1939 923 1989
@@ -1921,15 +1921,15 @@ rect 2140 541 2635 546
 rect 2033 532 2328 537
 rect 2333 532 2759 537
 use staticizer  staticizer_1
-timestamp 1765746506
+timestamp 1765778850
 transform -1 0 39 0 1 1753
 box 61 -1215 120 78
 use latch  latch_4
-timestamp 1765416915
+timestamp 1765778850
 transform -1 0 -355 0 1 463
 box -392 82 -333 1369
 use latch  latch_0
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 445 0 1 463
 box -392 82 -333 1369
 use inv2  inv2_0
@@ -1941,7 +1941,7 @@ timestamp 1765749671
 transform 0 1 81 -1 0 1980
 box 68 -24 135 80
 use staticizer  staticizer_0
-timestamp 1765746506
+timestamp 1765778850
 transform 1 0 51 0 1 1753
 box 61 -1215 120 78
 use shift  shift_0
@@ -1949,7 +1949,7 @@ timestamp 1765416915
 transform 1 0 330 0 1 2153
 box -138 -1615 46 -268
 use latch  latch_3
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 768 0 1 456
 box -392 82 -333 1369
 use fblock  fblock_0
@@ -1957,23 +1957,31 @@ timestamp 1765416915
 transform 1 0 535 0 1 2993
 box -80 -2455 50 -1047
 use latch  latch_1
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 975 0 1 456
 box -392 82 -333 1369
 use addsub  addsub_0
 timestamp 1765338694
 transform 1 0 675 0 1 712
 box -14 -174 166 1225
-use reg_one  reg_one_0
-timestamp 1765746319
-transform 1 0 991 0 1 1924
-box -11 -27 74 81
+use latch_one  latch_one_1
+timestamp 1765002978
+transform 1 0 873 0 1 2033
+box -11 -67 48 -12
+use latch_one  latch_one_0
+timestamp 1765002978
+transform 1 0 873 0 1 1978
+box -11 -67 48 -12
 use staticizer_one  staticizer_one_0
 timestamp 1765746506
 transform 1 0 867 0 1 1967
 box 54 -61 113 -1
+use reg_one  reg_one_0
+timestamp 1765746319
+transform 1 0 991 0 1 1924
+box -11 -27 74 81
 use latch  latch_2
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 1236 0 1 459
 box -392 82 -333 1369
 use reg  reg_0
@@ -1988,14 +1996,6 @@ use 2nor  2nor_0
 timestamp 1762488699
 transform -1 0 1042 0 1 1940
 box 68 28 115 81
-use latch_one  latch_one_1
-timestamp 1765002978
-transform 1 0 873 0 1 2033
-box -11 -67 48 -12
-use latch_one  latch_one_0
-timestamp 1765002978
-transform 1 0 873 0 1 1978
-box -11 -67 48 -12
 use reg  reg_2
 timestamp 1765746500
 transform 1 0 1142 0 1 936
@@ -2033,7 +2033,7 @@ timestamp 1765746500
 transform 1 0 1449 0 1 936
 box -14 -400 76 940
 use latch  latch_5
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 2111 0 1 459
 box -392 82 -333 1369
 use inv2  inv2_4
@@ -2041,7 +2041,7 @@ timestamp 1765746878
 transform 1 0 1776 0 -1 1880
 box -10 -13 20 40
 use staticizer  staticizer_2
-timestamp 1765746506
+timestamp 1765778850
 transform 1 0 1717 0 1 1756
 box 61 -1215 120 78
 use mux_8bit  mux_8bit_1
@@ -2101,15 +2101,15 @@ timestamp 1765338694
 transform 1 0 2350 0 1 712
 box -14 -174 166 1225
 use latch  latch_6
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 2911 0 1 459
 box -392 82 -333 1369
 use staticizer  staticizer_3
-timestamp 1765746506
+timestamp 1765778850
 transform 1 0 2517 0 1 1756
 box 61 -1215 120 78
 use latch  latch_7
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 3035 0 1 459
 box -392 82 -333 1369
 use inv2  inv2_5
@@ -2121,15 +2121,15 @@ timestamp 1765746878
 transform 1 0 2700 0 -1 1880
 box -10 -13 20 40
 use staticizer  staticizer_5
-timestamp 1765746506
+timestamp 1765778850
 transform 1 0 2765 0 1 1756
 box 61 -1215 120 78
 use staticizer  staticizer_4
-timestamp 1765746506
+timestamp 1765778850
 transform 1 0 2641 0 1 1756
 box 61 -1215 120 78
 use latch  latch_8
-timestamp 1765416915
+timestamp 1765778850
 transform 1 0 3159 0 1 459
 box -392 82 -333 1369
 use inv2  inv2_2

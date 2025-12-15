@@ -45,9 +45,11 @@ setvector ry xxxxxxxx
 
 setvector data_in 00001111
 
+#reset
 setvector s 0000
 c
 
+# nops
 setvector s 0001
 c
 
@@ -60,12 +62,14 @@ c
 setvector s 0001
 c
 
+# lda imm
 setvector s 0001
 c
 
 setvector s 1000
 c
 
+# sta abs
 setvector s 0001
 c
 
@@ -80,6 +84,7 @@ c
 setvector s 1101
 c
 
+# jmp
 setvector s 0001
 c
 
@@ -94,11 +99,197 @@ c
 setvector s 0110
 c
 
+# nop
+setvector s 0001
+c
+
+# lda abs
+setvector s 0001
+c
+
+setvector data_in 01010101
+setvector s 0010
+c
+
+setvector data_in 01010101
+setvector s 0011
+c
+
+setvector data_in 00000010
+setvector s 1001
+c
+
+# nop
+setvector s 0001
+c
+
+# sta abs
+setvector s 0001
+c
+
+setvector data_in 11111111
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0100
+c
+
+setvector s 1101
+c
+
+# nop
+setvector s 0001
+c
+
+# adc abs
+setvector s 0001
+c
+
+setvector data_in 00000000
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0011
+c
+
+setvector data_in 11111111
+setvector s 0111
+c
+
+setvector s 1010
+c
+
+
+# nop
+setvector s 0001
+c
+
+# sta abs
+setvector s 0001
+c
+
+setvector data_in 11111111
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0100
+c
+
+setvector s 1101
+c
+
+# nop
+setvector s 0001
+c
+
+# sbc abs
+setvector s 0001
+c
+
+setvector data_in 00000000
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0011
+c
+
+setvector data_in 00010000
+setvector s 0111
+c
+
+setvector s 1011
+c
+
+
+# nop x2
 setvector s 0001
 c
 
 
+# sta abs
 setvector s 0001
 c
 
-setvector 
+setvector data_in 00000000
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0100
+c
+
+setvector s 1101
+c
+
+
+# nop x2
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+
+# eor abs
+setvector s 0001
+c
+
+setvector data_in 00000000
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0011
+c
+
+setvector data_in 11001100
+setvector s 0111
+c
+
+setvector s 1100
+c
+
+
+# sta abs
+setvector s 0001
+c
+
+setvector data_in 00000000
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0100
+c
+
+setvector s 1101
+c
+
+# nop x2
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
