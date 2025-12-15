@@ -1,0 +1,177 @@
+magic
+tech scmos
+timestamp 1765753044
+<< polysilicon >>
+rect 4 -95 6 -93
+rect 4 -159 6 -157
+rect 4 -223 6 -221
+rect 4 -287 6 -285
+<< polycontact >>
+rect 61 -98 66 -93
+rect 120 -98 125 -93
+rect 179 -98 184 -93
+rect 61 -162 66 -157
+rect 120 -162 125 -157
+rect 179 -162 184 -157
+rect 61 -226 66 -221
+rect 120 -226 125 -221
+rect 179 -226 184 -221
+rect 61 -290 66 -285
+rect 120 -290 125 -285
+rect 179 -290 184 -285
+<< metal1 >>
+rect 234 -87 239 -82
+rect 116 -98 120 -93
+rect 61 -101 66 -98
+rect 179 -101 184 -98
+rect 234 -151 239 -146
+rect 116 -162 120 -157
+rect 61 -165 66 -162
+rect 179 -165 184 -162
+rect 234 -215 239 -210
+rect 116 -226 120 -221
+rect 61 -229 66 -226
+rect 179 -229 184 -226
+rect 234 -279 239 -274
+rect 116 -290 120 -285
+rect 61 -293 66 -290
+rect 179 -293 184 -290
+rect 56 -319 61 -314
+rect 174 -316 179 -314
+rect 79 -340 84 -332
+rect 87 -346 92 -318
+rect 175 -319 179 -316
+rect 205 -346 210 -318
+rect 55 -351 92 -346
+rect 173 -351 210 -346
+<< m2contact >>
+rect 37 -322 42 -317
+rect 79 -332 84 -327
+rect 155 -321 160 -316
+rect 197 -332 202 -327
+<< metal2 >>
+rect 7 -78 189 -73
+rect 19 -113 201 -108
+rect 19 -119 24 -113
+rect 78 -117 83 -113
+rect 137 -119 142 -113
+rect 196 -117 201 -113
+rect 7 -142 189 -137
+rect 19 -177 201 -172
+rect 19 -183 24 -177
+rect 78 -181 83 -177
+rect 137 -183 142 -177
+rect 196 -181 201 -177
+rect 7 -206 189 -201
+rect 19 -241 201 -236
+rect 19 -247 24 -241
+rect 78 -245 83 -241
+rect 137 -247 142 -241
+rect 196 -245 201 -241
+rect 7 -270 189 -265
+rect 7 -327 12 -302
+rect 19 -305 201 -300
+rect 19 -312 24 -305
+rect 37 -317 42 -305
+rect 78 -309 83 -305
+rect 137 -311 142 -305
+rect 155 -316 160 -305
+rect 196 -309 201 -305
+rect 155 -323 160 -321
+rect 7 -332 79 -327
+rect 84 -332 197 -327
+<< m3contact >>
+rect 7 -302 12 -297
+<< metal3 >>
+rect 7 -297 12 -69
+rect 19 -317 24 -69
+rect 56 -314 61 -69
+rect 92 -318 97 -69
+rect 174 -314 179 -69
+rect 210 -318 215 -69
+use latch_one  latch_one_11
+timestamp 1765752993
+transform 1 0 15 0 1 -249
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_11
+timestamp 1765752993
+transform 1 0 9 0 1 -257
+box 54 -61 113 -1
+use latch_one  latch_one_10
+timestamp 1765752993
+transform 1 0 133 0 1 -249
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_10
+timestamp 1765752993
+transform 1 0 127 0 1 -257
+box 54 -61 113 -1
+use latch_one  latch_one_9
+timestamp 1765752993
+transform 1 0 15 0 1 -185
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_9
+timestamp 1765752993
+transform 1 0 9 0 1 -193
+box 54 -61 113 -1
+use latch_one  latch_one_8
+timestamp 1765752993
+transform 1 0 133 0 1 -185
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_8
+timestamp 1765752993
+transform 1 0 127 0 1 -193
+box 54 -61 113 -1
+use latch_one  latch_one_7
+timestamp 1765752993
+transform 1 0 15 0 1 -121
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_7
+timestamp 1765752993
+transform 1 0 9 0 1 -129
+box 54 -61 113 -1
+use latch_one  latch_one_6
+timestamp 1765752993
+transform 1 0 133 0 1 -121
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_6
+timestamp 1765752993
+transform 1 0 127 0 1 -129
+box 54 -61 113 -1
+use latch_one  latch_one_5
+timestamp 1765752993
+transform 1 0 15 0 1 -57
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_5
+timestamp 1765752993
+transform 1 0 9 0 1 -65
+box 54 -61 113 -1
+use latch_one  latch_one_4
+timestamp 1765752993
+transform 1 0 133 0 1 -57
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_4
+timestamp 1765752993
+transform 1 0 127 0 1 -65
+box 54 -61 113 -1
+use inv2  inv2_1
+timestamp 1765746878
+transform 0 1 165 -1 0 -326
+box -10 -13 20 40
+use inv2  inv2_0
+timestamp 1765746878
+transform 0 1 47 -1 0 -326
+box -10 -13 20 40
+<< labels >>
+rlabel polysilicon 4 -95 6 -93 3 s2'
+rlabel polysilicon 4 -159 6 -157 3 s3'
+rlabel polysilicon 4 -223 6 -221 3 s4'
+rlabel polysilicon 4 -287 6 -285 3 s5'
+rlabel metal3 56 -314 61 -309 1 phi0
+rlabel metal3 174 -314 179 -309 1 phi1
+rlabel metal1 234 -87 239 -82 7 s2
+rlabel metal1 234 -151 239 -146 7 s3
+rlabel metal1 234 -215 239 -210 7 s4
+rlabel metal1 234 -279 239 -274 7 s5
+rlabel metal3 19 -317 24 -312 1 GND!
+rlabel metal2 7 -332 12 -327 3 Vdd!
+<< end >>
