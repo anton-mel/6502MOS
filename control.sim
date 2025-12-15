@@ -161,14 +161,6 @@ p flipflops_0/staticizer_one_11/a_60_n45# Vdd! flipflops_0/staticizer_one_11/a_9
 p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_11/a_77_n45# 2 10 -196 228
 p flipflops_0/latch_one_10/in flipflops_0/staticizer_one_11/a_60_n45# Vdd! 2 10 -205 228
 n flipflops_0/staticizer_one_11/a_60_n45# GND! flipflops_0/staticizer_one_11/a_95_n45# 2 5 -178 210
-n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_4/a_77_n45# 2 5 -78 402
-p flipflops_0/staticizer_one_4/a_77_n45# flipflops_0/staticizer_one_4/a_95_n27# ff3 2 10 -54 420
-n ff3 flipflops_0/staticizer_one_4/a_60_n45# GND! 2 5 -87 402
-n flipflops_0/staticizer_one_8/c flipflops_0/staticizer_one_4/a_95_n45# ff3 2 5 -54 402
-p flipflops_0/staticizer_one_4/a_60_n45# Vdd! flipflops_0/staticizer_one_4/a_95_n27# 2 10 -60 420
-p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_4/a_77_n45# 2 10 -78 420
-p ff3 flipflops_0/staticizer_one_4/a_60_n45# Vdd! 2 10 -87 420
-n flipflops_0/staticizer_one_4/a_60_n45# GND! flipflops_0/staticizer_one_4/a_95_n45# 2 5 -60 402
 p phi1 Vdd! flipflops_0/latch_one_10/a_12_n54# 2 10 -137 228
 n phi1 GND! flipflops_0/latch_one_10/a_12_n54# 2 5 -137 209
 p flipflops_0/latch_one_10/a_12_n54# flipflops_0/latch_one_10/a_30_n35# ff0 2 10 -113 228
@@ -177,14 +169,14 @@ n flipflops_0/latch_one_10/in flipflops_0/latch_one_10/a_n5_n54# GND! 2 5 -146 2
 n phi1 flipflops_0/latch_one_10/a_30_n54# ff0 2 5 -113 209
 p flipflops_0/latch_one_10/a_n5_n54# Vdd! flipflops_0/latch_one_10/a_30_n35# 2 10 -119 228
 n flipflops_0/latch_one_10/a_n5_n54# GND! flipflops_0/latch_one_10/a_30_n54# 2 5 -119 209
-n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_5/a_77_n45# 2 5 -196 402
-p flipflops_0/staticizer_one_5/a_77_n45# flipflops_0/staticizer_one_5/a_95_n27# flipflops_0/latch_one_4/in 2 10 -172 420
-n flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/a_60_n45# GND! 2 5 -205 402
-n flipflops_0/staticizer_one_9/c flipflops_0/staticizer_one_5/a_95_n45# flipflops_0/latch_one_4/in 2 5 -172 402
-p flipflops_0/staticizer_one_5/a_60_n45# Vdd! flipflops_0/staticizer_one_5/a_95_n27# 2 10 -178 420
-p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_5/a_77_n45# 2 10 -196 420
-p flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/a_60_n45# Vdd! 2 10 -205 420
-n flipflops_0/staticizer_one_5/a_60_n45# GND! flipflops_0/staticizer_one_5/a_95_n45# 2 5 -178 402
+n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_4/a_77_n45# 2 5 -78 402
+p flipflops_0/staticizer_one_4/a_77_n45# flipflops_0/staticizer_one_4/a_95_n27# ff3 2 10 -54 420
+n ff3 flipflops_0/staticizer_one_4/a_60_n45# GND! 2 5 -87 402
+n flipflops_0/staticizer_one_8/c flipflops_0/staticizer_one_4/a_95_n45# ff3 2 5 -54 402
+p flipflops_0/staticizer_one_4/a_60_n45# Vdd! flipflops_0/staticizer_one_4/a_95_n27# 2 10 -60 420
+p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_4/a_77_n45# 2 10 -78 420
+p ff3 flipflops_0/staticizer_one_4/a_60_n45# Vdd! 2 10 -87 420
+n flipflops_0/staticizer_one_4/a_60_n45# GND! flipflops_0/staticizer_one_4/a_95_n45# 2 5 -60 402
 p phi0 Vdd! flipflops_0/latch_one_11/a_12_n54# 2 10 -255 228
 n phi0 GND! flipflops_0/latch_one_11/a_12_n54# 2 5 -255 209
 p flipflops_0/latch_one_11/a_12_n54# flipflops_0/latch_one_11/a_30_n35# flipflops_0/latch_one_10/in 2 10 -231 228
@@ -193,6 +185,14 @@ n s0 flipflops_0/latch_one_11/a_n5_n54# GND! 2 5 -264 209
 n phi0 flipflops_0/latch_one_11/a_30_n54# flipflops_0/latch_one_10/in 2 5 -231 209
 p flipflops_0/latch_one_11/a_n5_n54# Vdd! flipflops_0/latch_one_11/a_30_n35# 2 10 -237 228
 n flipflops_0/latch_one_11/a_n5_n54# GND! flipflops_0/latch_one_11/a_30_n54# 2 5 -237 209
+n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_5/a_77_n45# 2 5 -196 402
+p flipflops_0/staticizer_one_5/a_77_n45# flipflops_0/staticizer_one_5/a_95_n27# flipflops_0/latch_one_4/in 2 10 -172 420
+n flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/a_60_n45# GND! 2 5 -205 402
+n flipflops_0/staticizer_one_9/c flipflops_0/staticizer_one_5/a_95_n45# flipflops_0/latch_one_4/in 2 5 -172 402
+p flipflops_0/staticizer_one_5/a_60_n45# Vdd! flipflops_0/staticizer_one_5/a_95_n27# 2 10 -178 420
+p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_5/a_77_n45# 2 10 -196 420
+p flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/a_60_n45# Vdd! 2 10 -205 420
+n flipflops_0/staticizer_one_5/a_60_n45# GND! flipflops_0/staticizer_one_5/a_95_n45# 2 5 -178 402
 n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_6/a_77_n45# 2 5 -78 338
 p flipflops_0/staticizer_one_6/a_77_n45# flipflops_0/staticizer_one_6/a_95_n27# ff2 2 10 -54 356
 n ff2 flipflops_0/staticizer_one_6/a_60_n45# GND! 2 5 -87 338
@@ -201,6 +201,8 @@ p flipflops_0/staticizer_one_6/a_60_n45# Vdd! flipflops_0/staticizer_one_6/a_95_
 p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_6/a_77_n45# 2 10 -78 356
 p ff2 flipflops_0/staticizer_one_6/a_60_n45# Vdd! 2 10 -87 356
 n flipflops_0/staticizer_one_6/a_60_n45# GND! flipflops_0/staticizer_one_6/a_95_n45# 2 5 -60 338
+p phi0 Vdd! flipflops_0/staticizer_one_9/c 2 10 -215 180
+n phi0 GND! flipflops_0/staticizer_one_9/c 2 5 -233 180
 n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_7/a_77_n45# 2 5 -196 338
 p flipflops_0/staticizer_one_7/a_77_n45# flipflops_0/staticizer_one_7/a_95_n27# flipflops_0/latch_one_6/in 2 10 -172 356
 n flipflops_0/latch_one_6/in flipflops_0/staticizer_one_7/a_60_n45# GND! 2 5 -205 338
@@ -209,8 +211,8 @@ p flipflops_0/staticizer_one_7/a_60_n45# Vdd! flipflops_0/staticizer_one_7/a_95_
 p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_7/a_77_n45# 2 10 -196 356
 p flipflops_0/latch_one_6/in flipflops_0/staticizer_one_7/a_60_n45# Vdd! 2 10 -205 356
 n flipflops_0/staticizer_one_7/a_60_n45# GND! flipflops_0/staticizer_one_7/a_95_n45# 2 5 -178 338
-p phi0 Vdd! flipflops_0/staticizer_one_9/c 2 10 -215 180
-n phi0 GND! flipflops_0/staticizer_one_9/c 2 5 -233 180
+p phi1 Vdd! flipflops_0/staticizer_one_8/c 2 10 -97 180
+n phi1 GND! flipflops_0/staticizer_one_8/c 2 5 -115 180
 n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_8/a_77_n45# 2 5 -78 274
 p flipflops_0/staticizer_one_8/a_77_n45# flipflops_0/staticizer_one_8/a_95_n27# ff1 2 10 -54 292
 n ff1 flipflops_0/staticizer_one_8/a_60_n45# GND! 2 5 -87 274
@@ -219,8 +221,6 @@ p flipflops_0/staticizer_one_8/a_60_n45# Vdd! flipflops_0/staticizer_one_8/a_95_
 p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_8/a_77_n45# 2 10 -78 292
 p ff1 flipflops_0/staticizer_one_8/a_60_n45# Vdd! 2 10 -87 292
 n flipflops_0/staticizer_one_8/a_60_n45# GND! flipflops_0/staticizer_one_8/a_95_n45# 2 5 -60 274
-p phi1 Vdd! flipflops_0/staticizer_one_8/c 2 10 -97 180
-n phi1 GND! flipflops_0/staticizer_one_8/c 2 5 -115 180
 n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_9/a_77_n45# 2 5 -196 274
 p flipflops_0/staticizer_one_9/a_77_n45# flipflops_0/staticizer_one_9/a_95_n27# flipflops_0/latch_one_8/in 2 10 -172 292
 n flipflops_0/latch_one_8/in flipflops_0/staticizer_one_9/a_60_n45# GND! 2 5 -205 274
@@ -571,55 +571,55 @@ p reg_one_3/a_21_n13# 3nor_2/c reg_one_3/a_39_5# 2 10 10 390
 p iwe reg_one_3/a_16_27# Vdd! 2 10 40 376
 n reg_one_3/tmp GND! reg_one_3/a_54_n13# 2 5 -7 375
 n reg_one_3/tmp reg_one_3/a_39_n13# GND! 2 5 -7 384
-C s2i3i7 s1i1 10.23
 C inv_8/in inv_9/in 15.46
 C i1n i2n 15.39
-C ff1 ff2 16.61
-C b2 b3 11.57
-C ff3 i7n 15.34
-C ff3 ff2 16.91
-C Vdd! s1i1 6.69
-C rst s0 9.09
-C i4n i6n 11.53
+C s1i1 s2i3i7 10.23
+C b1 b2 11.57
 C inv_7/in inv_8/in 15.42
-C s1i0ni1n s1i1 6.20
+C s0 rst 9.09
+C i4n i6n 11.53
+C b2 b3 11.57
+C s1i1 s1i0ni1n 6.20
+C i0n i1n 15.39
+C GND! phi1 2.78
+C Vdd! GND! 17.00
+C GND! i0n 15.28
+C s2n s3n 16.14
+C b0 rst 11.58
+C inv_6/in inv_7/in 15.42
+C ff1 ff2 16.61
+C Vdd! inv_6/in 15.47
+C ff3 ff2 16.91
+C inv_9/in 3nor_1/c 15.42
+C Vdd! iwe 3.05
 C Vdd! ff1 2.03
 C s1n s2n 15.47
 C GND! s0n 15.94
+C 3nor_1/b 3nor_1/c 16.34
 C s1n s0n 15.51
-C s3 s2 25.57
 C Vdd! ff3 3.08
-C iwe GND! 7.40
-C GND! flipflops_0/staticizer_one_9/c 2.72
-C i0n i1n 15.39
-C ff1 ff0 18.17
-C b1 b2 11.57
-C s2 s1 21.93
-C Vdd! ff2 2.15
-C inv_6/in inv_7/in 15.42
-C 3nor_2/c 3nor_1/b 15.44
-C GND! b1 9.40
-C GND! phi0 2.78
-C 3nor_1/c 3nor_1/b 16.34
-C inv_9/in 3nor_1/c 15.42
-C Vdd! is_s1 2.02
-C s2i3ni7n s1i1 5.61
-C Vdd! ff0 17.84
-C s2n s3n 16.14
-C i0n GND! 15.28
-C GND! flipflops_0/staticizer_one_8/c 2.62
-C i3n i4n 15.37
-C rst b0 11.58
-C s1i0ni1n s1i0 4.54
-C inv_6/in Vdd! 15.47
 C b0 b3 11.57
-C iwe Vdd! 3.05
-C i6n i7n 11.55
-C s2i3ni7n s2i3i7 9.23
-C i2n i3n 15.37
+C GND! flipflops_0/staticizer_one_9/c 2.72
+C s3 s2 25.57
 C s0 s1 18.42
-C GND! phi1 2.78
-C Vdd! GND! 17.00
+C i4n i3n 15.37
+C 3nor_2/c 3nor_1/b 15.44
+C ff1 ff0 18.17
+C s1i1 s2i3ni7n 5.61
+C s2 s1 21.93
+C s1i0ni1n s1i0 4.54
+C Vdd! ff2 2.15
+C s2i3ni7n s2i3i7 9.23
+C GND! phi0 2.78
+C ff3 i7n 15.34
+C i2n i3n 15.37
+C GND! b1 9.40
+C Vdd! s1i1 6.69
+C GND! iwe 7.40
+C Vdd! is_s1 2.02
+C Vdd! ff0 17.84
+C GND! flipflops_0/staticizer_one_8/c 2.62
+C i6n i7n 11.55
 R 3nor_1/c 1057
 R reg_one_3/port0 22
 R reg_one_3/a_54_5# 20
@@ -773,24 +773,24 @@ R flipflops_0/latch_one_6/in 660
 R flipflops_0/staticizer_one_6/a_95_n27# 20
 R flipflops_0/staticizer_one_6/a_60_n45# 153
 R flipflops_0/staticizer_one_6/a_77_n45# 100
-R flipflops_0/latch_one_11/a_30_n35# 20
-R flipflops_0/latch_one_11/a_n5_n54# 157
-C s0 GND 5.68
-R s0 256
-R flipflops_0/latch_one_11/a_12_n54# 100
 R flipflops_0/staticizer_one_5/a_95_n27# 20
 R flipflops_0/staticizer_one_5/a_60_n45# 153
 R flipflops_0/staticizer_one_9/c 1263
 R flipflops_0/staticizer_one_5/a_77_n45# 100
 R flipflops_0/latch_one_4/in 724
-R flipflops_0/latch_one_10/a_30_n35# 20
-R flipflops_0/latch_one_10/a_n5_n54# 157
-R flipflops_0/latch_one_10/a_12_n54# 100
+R flipflops_0/latch_one_11/a_30_n35# 20
+R flipflops_0/latch_one_11/a_n5_n54# 157
+C s0 GND 5.68
+R s0 256
+R flipflops_0/latch_one_11/a_12_n54# 100
 R flipflops_0/staticizer_one_4/a_95_n27# 20
 R flipflops_0/staticizer_one_4/a_60_n45# 153
 R flipflops_0/staticizer_one_8/c 1262
 R flipflops_0/staticizer_one_4/a_77_n45# 100
 R ff3 524
+R flipflops_0/latch_one_10/a_30_n35# 20
+R flipflops_0/latch_one_10/a_n5_n54# 157
+R flipflops_0/latch_one_10/a_12_n54# 100
 R flipflops_0/staticizer_one_11/a_95_n27# 20
 R flipflops_0/staticizer_one_11/a_60_n45# 153
 R flipflops_0/staticizer_one_11/a_77_n45# 100

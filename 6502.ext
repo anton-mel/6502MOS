@@ -1,0 +1,1079 @@
+timestamp 1765771400
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use latch_one latch_one_1 0 -1 2296 -1 0 1779
+use latch_one latch_one_0 0 -1 1796 -1 0 1779
+use datapath datapath_0 1 0 431 0 1 -264
+use 2and 2and_0 -1 0 1396 0 1 1729
+use rom rom_0 1 0 2676 0 1 3129
+use ring ring_0 1 0 178 0 1 3594
+node "rx7" 0 14.44 469 274 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rx6" 0 14.44 469 450 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rx5" 0 14.44 469 626 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rx4" 0 14.44 469 802 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rx3" 0 14.44 469 978 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rx2" 0 14.44 469 1154 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rx1" 0 14.44 469 1330 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rx0" 0 14.44 469 1506 v3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0
+node "rd_addrH" 0 5.948 3250 1569 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0
+node "rd_addrL" 0 5.948 3126 1571 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0
+node "rPCplus1H" 0 5.948 3002 1570 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0
+node "rPCplus1L" 0 7.692 2202 1568 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 0 0 0 0 0 0
+node "ras" 0 6.82 1327 1564 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0
+node "rfb" 0 6.82 1066 1561 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0
+node "ros" 0 6.82 859 1561 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0
+node "ld_datain" 0 5.076 536 1568 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0 0 0 0 0
+node "rd_dataout" 0 5.076 411 1568 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 16 0 0 0 0 0 0
+node "A_r1" 1 30.364 1356 1616 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 160 74 0 0 0 0 0 0
+node "os_s" 0 6.82 777 1621 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0
+node "os_u" 0 6.82 715 1621 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0
+node "m3_936_1574#" 3 138.476 936 1574 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 490 216 250 110 0 0 0 0
+node "fb_g0" 0 6.82 986 1684 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0
+node "data_in7" 0 23.855 478 314 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry7" 0 23.855 878 360 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "data_in6" 0 23.855 478 490 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry6" 0 23.855 878 536 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "data_in5" 0 23.855 478 666 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry5" 0 23.855 878 712 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "data_in4" 0 23.855 478 842 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry4" 0 23.855 878 888 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "data_in3" 0 23.855 478 1018 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry3" 0 23.855 878 1064 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "data_in2" 0 23.855 478 1194 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry2" 0 23.855 878 1240 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "data_in1" 0 23.855 478 1370 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry1" 0 23.855 878 1416 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "data_in0" 0 23.855 478 1546 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "ry0" 0 23.855 878 1592 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 25 20 0 0 0 0
+node "m2_1452_1605#" 2 77.296 1452 1605 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50 40 50 40 215 96 0 0 0 0
+node "m2_804_1607#" 1 99.356 804 1607 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 305 132 25 20 25 20 0 0 0 0
+node "ABH_r0" 0 24.356 2661 1607 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70 38 0 0 0 0 0 0 0 0
+node "ABL_r0" 1 68.637 2473 1607 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 50 40 215 96 0 0 0 0
+node "Y_r1" 1 61.785 1666 1612 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 260 114 0 0 0 0 0 0
+equiv "Y_r1" "Y_r0"
+node "DB_r0" 0 9.866 1452 1612 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0
+node "X_r1" 1 60.913 1559 1612 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 255 112 0 0 0 0 0 0
+equiv "X_r1" "X_r0"
+node "m2_715_1612#" 1 101.153 715 1612 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 335 144 0 0 0 0 0 0 0 0
+node "m2_3227_1764#" 4 903.632 3227 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 0 0 0 0 0 0 0 0
+node "r_-w" 4 903.632 3209 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 0 0 0 0 0 0 0 0
+node "m2_3189_1764#" 8 1394.19 3189 1764 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 4170 910 0 0 0 0 0 0
+node "ABH_w" 9 1373.72 3173 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 5420 1226 0 0 0 0 0 0
+node "ABH_r1" 10 1399.73 3145 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 5987 1352 0 0 0 0 0 0
+node "ABL_w" 11 1546.59 3127 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 7067 1592 0 0 0 0 0 0
+node "ABL_r1" 12 1643.02 3109 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 7724 1738 0 0 0 0 0 0
+node "PCH_w" 12 1693.89 3091 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 8034 1806 0 0 0 0 0 0
+node "PCL_w" 16 2321.1 3027 1765 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4113 932 12444 2786 0 0 0 0 0 0
+node "PCH_r1" 24 3807.3 2375 1746 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9990 2238 14321 3230 0 0 0 0 0 0
+equiv "PCH_r1" "PCL_r1"
+node "Y_w" 22 3114.16 2963 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 18247 4080 0 0 0 0 0 0
+equiv "Y_w" "X_w"
+node "DB_w" 20 2840.19 2945 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 16076 3594 0 0 0 0 0 0
+node "DB_r1" 21 2936.62 2927 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 16733 3740 0 0 0 0 0 0
+node "Cflag_w" 19 2753.2 2899 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 15255 3408 0 0 0 0 0 0
+node "A_w" 21 3042.46 2881 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 17381 3884 0 0 0 0 0 0
+node "A_r0" 24 3411.04 1343 1616 m234c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4203 970 18828 4220 1143 272 0 0 0 0
+node "m2_2799_1764#" 23 3342.38 2799 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 19359 4320 0 0 0 0 0 0
+node "fb_g1" 24 3503.49 2781 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 20511 4576 0 0 0 0 0 0
+node "fb_g2" 25 3554.06 2763 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 20817 4644 0 0 0 0 0 0
+node "fb_g3" 25 3590.52 2735 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 21015 4688 0 0 0 0 0 0
+node "m2_2717_1764#" 29 4143.24 2717 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 25164 5610 0 0 0 0 0 0
+node "m2_2699_1764#" 30 4266.72 2699 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4122 934 26028 5802 0 0 0 0 0 0
+node "IR_w" 4 912.231 2681 1764 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4131 936 81 36 0 0 0 0 0 0
+node "m2_2348_1716#" 1 102.602 2348 1716 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 340 146 0 0 0 0 0 0 0 0
+node "rx_PCL7" 0 41.33 1959 291 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out15" 0 33.19 3254 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out7" 0 33.19 3130 303 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "data_out7" 0 33.19 351 329 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "rx_PCL6" 0 41.33 1959 467 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out14" 0 33.19 3254 479 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out6" 0 33.19 3130 479 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "data_out6" 0 33.19 351 505 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "rx_PCL5" 0 41.33 1959 643 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out13" 0 33.19 3254 655 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out5" 0 33.19 3130 655 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "data_out5" 0 33.19 351 681 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "rx_PCL4" 0 41.33 1959 819 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out12" 0 33.19 3254 831 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out4" 0 33.19 3130 831 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "data_out4" 0 33.19 351 857 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "rx_PCL3" 0 41.33 1959 995 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out11" 0 33.19 3254 1007 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out3" 0 33.19 3130 1007 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "data_out3" 0 33.19 351 1033 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "rx_PCL2" 0 41.33 1959 1171 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out10" 0 33.19 3254 1183 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out2" 0 33.19 3130 1183 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "data_out2" 0 33.19 351 1209 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "rx_PCL1" 0 41.33 1959 1347 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out9" 0 33.19 3254 1359 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out1" 0 33.19 3130 1359 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "data_out1" 0 33.19 351 1385 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "rx_PCL0" 0 41.33 1959 1523 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "addr_out8" 0 33.19 3254 1535 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "addr_out0" 0 33.19 3130 1535 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "as_sub" 25 3551.95 1083 1563 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 36 4203 970 20412 4554 0 0 0 0 0 0
+node "data_out0" 0 33.19 351 1561 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "PCH_r0" 26 4258.93 3002 1603 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 12388 2796 10274 2330 3067 704 0 0 0 0
+equiv "PCH_r0" "PCL_r0"
+node "Cflag" 0 31.38 1489 1638 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 25 20 0 0 0 0 0 0 0 0
+node "m1_1853_1716#" 1 139.862 1853 1716 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 365 156 0 0 0 0 0 0 0 0
+node "PCH_w_sel" 0 76.33 2335 1722 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75 40 0 0 0 0 0 0 0 0 0 0
+node "ABH_w_sel" 5 1305.96 2609 1732 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 494 150 4319 984 0 0 0 0 0 0 0 0
+node "PCL_w_sel" 0 41.818 1835 1725 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 0 0 0 0 0 0 0 0 0 0
+node "m1_1286_1727#" 1 162.61 1286 1727 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 175 80 0 0 0 0 0 0 0 0 0 0
+node "m1_2305_1724#" 1 279.088 2305 1724 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 310 134 0 0 0 0 0 0 0 0 0 0
+node "m1_1805_1724#" 1 270.46 1805 1724 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 300 130 0 0 0 0 0 0 0 0 0 0
+node "as_cin" 3 745 1253 1753 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 850 350 0 0 0 0 0 0 0 0 0 0
+node "m1_1317_1799#" 1 106.535 1317 1799 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 250 110 0 0 0 0 0 0 0 0
+node "m1_2608_2248#" 5 3510.08 2608 2248 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5294 1198 81 36 0 0 0 0 0 0 0 0
+node "s3" 0 33.19 2360 2546 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "s2" 0 33.19 2380 2595 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "s0" 0 33.19 2470 3087 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "s1" 0 33.19 2460 3134 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "phi1" 0 37.504 2644 3285 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 0 0 0 0 0 0 0 0 0 0
+node "phi0" 23 3108.72 2591 3285 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 30 22 16971 3654 11058 2060 0 0 0 0
+node "a_2332_1790#" 19 1771.01 2332 1790 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 50 30 4147 954 7567 1656 0 0 0 0 0 0
+node "a_1832_1790#" 24 2406 1832 1790 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 50 30 4147 954 12193 2636 0 0 0 0 0 0
+node "a_1309_1802#" 91 3545.17 1309 1802 p 0 0 0 0 0 0 0 0 0 0 51 46 0 0 25 20 4172 964 18889 4230 626 264 0 0 0 0
+node "a_1296_1815#" 73 561.894 1296 1815 pm12c 0 0 0 0 0 0 0 0 0 0 51 46 0 0 25 20 75 50 50 40 1795 728 0 0 0 0
+node "w_1234_1616#" 0 0 1234 1616 pw 0 0 0 0 0 0 0 0 9 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_1489_1638#" 0 0 1489 1638 pw 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "ABH_w" "a_2332_1790#" 81.369
+cap "m2_2799_1764#" "a_1832_1790#" 81.369
+cap "w_1234_1616#" "A_r0" 2.664
+cap "fb_g1" "Y_w" 81.369
+cap "fb_g3" "a_1832_1790#" 81.369
+cap "ABH_w" "PCH_r0" 162.738
+cap "m2_2799_1764#" "fb_g2" 81.369
+cap "fb_g1" "a_1309_1802#" 81.369
+cap "phi0" "m2_2799_1764#" 277.92
+cap "PCL_w" "a_1832_1790#" 81.369
+cap "fb_g3" "fb_g2" 81.369
+cap "Y_w" "ABL_r1" 81.369
+cap "m2_2699_1764#" "a_1832_1790#" 81.369
+cap "phi0" "fb_g3" 277.92
+cap "A_w" "ABL_w" 81.369
+cap "a_1309_1802#" "ABL_r1" 81.369
+cap "PCL_w" "fb_g2" 81.369
+cap "m2_2699_1764#" "fb_g2" 81.369
+cap "phi0" "PCL_w" 138.96
+cap "a_1832_1790#" "ABH_w_sel" 81.369
+cap "phi0" "m2_2699_1764#" 277.92
+cap "PCH_r1" "fb_g1" 81.369
+cap "A_w" "PCH_w" 81.369
+cap "ABH_w_sel" "fb_g2" 81.369
+cap "fb_g1" "A_r0" 81.369
+cap "phi0" "ABH_w_sel" 5.072
+cap "PCH_r1" "ABL_r1" 162.738
+cap "ABL_w" "Y_w" 81.369
+cap "A_w" "ABH_r1" 81.369
+cap "A_w" "DB_r1" 81.369
+cap "A_r0" "ABL_r1" 81.369
+cap "m2_2799_1764#" "fb_g3" 81.369
+cap "ABL_w" "a_1309_1802#" 81.369
+cap "Cflag_w" "A_w" 81.369
+cap "m2_2799_1764#" "PCL_w" 81.369
+cap "m2_2799_1764#" "m2_2699_1764#" 81.369
+cap "fb_g1" "as_sub" 81.369
+cap "PCL_w" "fb_g3" 81.369
+cap "m1_2608_2248#" "A_w" 25.812
+cap "Y_w" "PCH_w" 81.369
+cap "m2_2699_1764#" "fb_g3" 81.369
+cap "fb_g1" "IR_w" 81.369
+cap "m2_2799_1764#" "ABH_w_sel" 81.369
+cap "PCH_w" "a_1309_1802#" 81.369
+cap "as_sub" "ABL_r1" 81.369
+cap "PCL_w" "m2_2699_1764#" 81.369
+cap "ABL_r1" "IR_w" 81.369
+cap "fb_g3" "ABH_w_sel" 81.369
+cap "PCH_r1" "ABL_w" 162.738
+cap "Y_w" "ABH_r1" 81.369
+cap "Y_w" "DB_r1" 81.369
+cap "A_w" "DB_w" 81.369
+cap "A_w" "m2_2717_1764#" 81.369
+cap "phi0" "m2_2348_1716#" 79.38
+cap "PCL_w" "ABH_w_sel" 81.369
+cap "ABL_w" "A_r0" 81.369
+cap "a_1309_1802#" "ABH_r1" 81.369
+cap "a_1309_1802#" "DB_r1" 81.369
+cap "m2_2699_1764#" "ABH_w_sel" 81.369
+cap "Cflag_w" "Y_w" 81.369
+cap "PCH_r1" "PCH_w" 162.738
+cap "Cflag_w" "a_1309_1802#" 81.369
+cap "m1_2608_2248#" "Y_w" 25.812
+cap "A_w" "a_2332_1790#" 81.369
+cap "PCH_w" "A_r0" 81.369
+cap "fb_g1" "a_1832_1790#" 81.369
+cap "m1_2608_2248#" "a_1309_1802#" 25.812
+cap "PCH_r1" "ABH_r1" 162.738
+cap "Y_w" "DB_w" 81.369
+cap "PCH_r1" "DB_r1" 81.369
+cap "ABL_w" "as_sub" 81.369
+cap "fb_g1" "fb_g2" 81.369
+cap "Y_w" "m2_2717_1764#" 81.369
+cap "a_1832_1790#" "ABL_r1" 81.369
+cap "phi0" "fb_g1" 277.92
+cap "A_r0" "ABH_r1" 81.369
+cap "ABL_w" "IR_w" 81.369
+cap "A_r0" "DB_r1" 81.369
+cap "a_1309_1802#" "DB_w" 81.369
+cap "a_1309_1802#" "m2_2717_1764#" 81.369
+cap "Cflag_w" "PCH_r1" 81.369
+cap "A_w" "PCH_r0" 81.369
+cap "ABL_r1" "fb_g2" 81.369
+cap "Cflag_w" "A_r0" 81.369
+cap "PCH_w" "as_sub" 81.369
+cap "PCH_r1" "m1_2608_2248#" 107.181
+cap "PCH_w" "IR_w" 81.369
+cap "Y_w" "a_2332_1790#" 81.369
+cap "m1_2608_2248#" "A_r0" 25.812
+cap "A_w" "ABH_w" 81.369
+cap "a_1309_1802#" "a_2332_1790#" 81.369
+cap "as_sub" "ABH_r1" 81.369
+cap "PCH_r1" "DB_w" 81.369
+cap "as_sub" "DB_r1" 81.369
+cap "PCH_r1" "m2_2717_1764#" 81.369
+cap "IR_w" "ABH_r1" 220.293
+cap "A_r0" "DB_w" 81.369
+cap "IR_w" "DB_r1" 81.369
+cap "ABL_w" "a_1832_1790#" 81.369
+cap "A_r0" "m2_2717_1764#" 81.369
+cap "Y_w" "PCH_r0" 81.369
+cap "Cflag_w" "as_sub" 81.369
+cap "fb_g1" "m2_2799_1764#" 81.369
+cap "fb_g1" "fb_g3" 81.369
+cap "Cflag_w" "IR_w" 81.369
+cap "PCH_r0" "a_1309_1802#" 81.369
+cap "ABL_w" "fb_g2" 81.369
+cap "m1_2608_2248#" "as_sub" 25.812
+cap "m2_2799_1764#" "ABL_r1" 81.369
+cap "PCH_r1" "a_2332_1790#" 81.369
+cap "fb_g1" "PCL_w" 81.369
+cap "fb_g1" "m2_2699_1764#" 81.369
+cap "PCH_w" "a_1832_1790#" 81.369
+cap "fb_g3" "ABL_r1" 81.369
+cap "ABH_w" "Y_w" 81.369
+cap "A_r0" "a_2332_1790#" 81.369
+cap "as_sub" "DB_w" 81.369
+cap "PCL_w" "ABL_r1" 81.369
+cap "as_sub" "m2_2717_1764#" 81.369
+cap "ABH_w" "a_1309_1802#" 81.369
+cap "PCH_w" "fb_g2" 81.369
+cap "m2_2699_1764#" "ABL_r1" 81.369
+cap "IR_w" "DB_w" 81.369
+cap "fb_g1" "ABH_w_sel" 81.369
+cap "IR_w" "m2_2717_1764#" 81.369
+cap "m2_3189_1764#" "ABL_w" 77.565
+cap "a_1832_1790#" "ABH_r1" 81.369
+cap "a_1832_1790#" "DB_r1" 81.369
+cap "PCH_r1" "PCH_r0" 302.686
+cap "m2_1452_1605#" "DB_r0" 127.375
+cap "ABH_w_sel" "ABL_r1" 81.369
+cap "A_r0" "PCH_r0" 81.369
+cap "ABH_r1" "fb_g2" 81.369
+cap "fb_g2" "DB_r1" 81.369
+cap "Cflag_w" "a_1832_1790#" 81.369
+cap "phi0" "DB_r1" 277.92
+cap "as_sub" "a_2332_1790#" 81.369
+cap "m2_2799_1764#" "ABL_w" 81.369
+cap "Cflag_w" "fb_g2" 81.369
+cap "m1_2608_2248#" "a_1832_1790#" 25.812
+cap "PCH_r1" "ABH_w" 162.738
+cap "IR_w" "a_2332_1790#" 81.369
+cap "ABL_w" "fb_g3" 81.369
+cap "Cflag_w" "phi0" 277.92
+cap "ABH_w" "A_r0" 81.369
+cap "m1_2608_2248#" "fb_g2" 25.812
+cap "m2_3189_1764#" "ABH_r1" 69.957
+cap "ABL_w" "PCL_w" 81.369
+cap "a_1832_1790#" "DB_w" 81.369
+cap "a_1832_1790#" "m2_2717_1764#" 81.369
+cap "PCH_r0" "as_sub" 81.369
+cap "m2_2799_1764#" "PCH_w" 81.369
+cap "ABL_w" "m2_2699_1764#" 81.369
+cap "PCH_r0" "IR_w" 81.369
+cap "DB_w" "fb_g2" 81.369
+cap "PCH_w" "fb_g3" 81.369
+cap "fb_g2" "m2_2717_1764#" 81.369
+cap "phi0" "DB_w" 277.92
+cap "ABL_w" "ABH_w_sel" 81.369
+cap "phi0" "m2_2717_1764#" 277.92
+cap "PCL_w" "PCH_w" 81.369
+cap "m2_2799_1764#" "ABH_r1" 81.369
+cap "m2_2799_1764#" "DB_r1" 81.369
+cap "m2_2699_1764#" "PCH_w" 81.369
+cap "ABL_r0" "ABL_r1" 23.85
+cap "ABH_w" "as_sub" 81.369
+cap "a_1832_1790#" "a_2332_1790#" 81.369
+cap "fb_g3" "ABH_r1" 81.369
+cap "fb_g3" "DB_r1" 81.369
+cap "Cflag_w" "m2_2799_1764#" 81.369
+cap "PCH_w" "ABH_w_sel" 81.369
+cap "PCL_w" "ABH_r1" 81.369
+cap "PCL_w" "DB_r1" 81.369
+cap "a_2332_1790#" "fb_g2" 81.369
+cap "m2_2699_1764#" "ABH_r1" 81.369
+cap "Cflag_w" "fb_g3" 81.369
+cap "m2_2699_1764#" "DB_r1" 81.369
+cap "m1_2608_2248#" "m2_2799_1764#" 25.812
+cap "phi0" "a_2332_1790#" 138.96
+cap "Cflag_w" "PCL_w" 81.369
+cap "m1_2608_2248#" "fb_g3" 25.812
+cap "PCH_r0" "a_1832_1790#" 81.369
+cap "Cflag_w" "m2_2699_1764#" 81.369
+cap "ABH_w_sel" "DB_r1" 81.369
+cap "m1_2608_2248#" "PCL_w" 25.812
+cap "m2_2799_1764#" "DB_w" 81.369
+cap "PCH_r0" "fb_g2" 81.369
+cap "m2_2799_1764#" "m2_2717_1764#" 81.369
+cap "m1_2608_2248#" "m2_2699_1764#" 25.812
+cap "fb_g3" "DB_w" 81.369
+cap "fb_g3" "m2_2717_1764#" 81.369
+cap "Cflag_w" "ABH_w_sel" 81.369
+cap "phi0" "PCH_r0" 138.96
+cap "A_r0" "A_r1" 67.0625
+cap "fb_g1" "ABL_r1" 81.369
+cap "ABH_w" "a_1832_1790#" 81.369
+cap "PCL_w" "DB_w" 81.369
+cap "PCL_w" "m2_2717_1764#" 81.369
+cap "m2_2699_1764#" "DB_w" 81.369
+cap "m2_2699_1764#" "m2_2717_1764#" 81.369
+cap "ld_datain" "m2_2717_1764#" 53.65
+cap "ABH_w" "fb_g2" 81.369
+cap "m2_2799_1764#" "a_2332_1790#" 81.369
+cap "A_w" "Y_w" 81.369
+cap "fb_g3" "a_2332_1790#" 81.369
+cap "ABH_w_sel" "DB_w" 81.369
+cap "ABH_w_sel" "m2_2717_1764#" 81.369
+cap "A_w" "a_1309_1802#" 81.369
+cap "PCL_w" "a_2332_1790#" 81.369
+cap "m2_2699_1764#" "a_2332_1790#" 81.369
+cap "m2_2799_1764#" "PCH_r0" 81.369
+cap "m2_3189_1764#" "ABH_w" 3403.54
+cap "fb_g1" "ABL_w" 81.369
+cap "PCH_r0" "fb_g3" 81.369
+cap "ABH_w_sel" "a_2332_1790#" 81.369
+cap "ABL_w" "ABL_r1" 81.369
+cap "PCL_w" "PCH_r0" 199.349
+cap "m2_2699_1764#" "PCH_r0" 81.369
+cap "PCH_r1" "A_w" 81.369
+cap "m2_2799_1764#" "ABH_w" 81.369
+cap "fb_g1" "PCH_w" 81.369
+cap "A_w" "A_r0" 81.369
+cap "Y_w" "a_1309_1802#" 81.369
+cap "PCH_r0" "ABH_w_sel" 81.369
+cap "PCH_w" "ABL_r1" 81.369
+cap "ABH_w" "PCL_w" 81.369
+cap "fb_g1" "ABH_r1" 81.369
+cap "fb_g1" "DB_r1" 81.369
+cap "A_w" "a_1296_1815#" 86.58
+cap "w_1489_1638#" "Cflag" 9.95
+cap "Cflag_w" "fb_g1" 81.369
+cap "ABL_r1" "ABH_r1" 81.369
+cap "ABL_r1" "DB_r1" 81.369
+cap "A_w" "as_sub" 81.369
+cap "PCH_r1" "Y_w" 81.369
+cap "fb_g1" "m1_2608_2248#" 25.812
+cap "A_w" "IR_w" 81.369
+cap "Cflag_w" "ABL_r1" 81.369
+cap "Y_w" "A_r0" 81.369
+cap "PCH_r1" "a_1309_1802#" 81.369
+cap "A_r0" "a_1309_1802#" 167.949
+cap "m1_2608_2248#" "ABL_r1" 25.812
+cap "m2_3189_1764#" "r_-w" 69.957
+cap "fb_g1" "DB_w" 81.369
+cap "fb_g1" "m2_2717_1764#" 81.369
+cap "ABL_w" "PCH_w" 81.369
+cap "phi0" "m1_1853_1716#" 88.28
+cap "a_1296_1815#" "a_1309_1802#" 549.674
+cap "ABL_r1" "DB_w" 81.369
+cap "ABL_r1" "m2_2717_1764#" 81.369
+cap "Y_w" "as_sub" 81.369
+cap "ABL_w" "ABH_r1" 81.369
+cap "ABL_w" "DB_r1" 81.369
+cap "Y_w" "IR_w" 81.369
+cap "PCH_r1" "A_r0" 81.369
+cap "a_1309_1802#" "as_sub" 81.369
+cap "A_w" "a_1832_1790#" 81.369
+cap "fb_g1" "a_2332_1790#" 81.369
+cap "a_1309_1802#" "IR_w" 81.369
+cap "Cflag_w" "ABL_w" 81.369
+cap "PCH_w" "ABH_r1" 81.369
+cap "A_w" "fb_g2" 81.369
+cap "ABL_r1" "a_2332_1790#" 81.369
+cap "PCH_w" "DB_r1" 81.369
+cap "m1_2608_2248#" "ABL_w" 25.812
+cap "phi0" "A_w" 277.92
+cap "fb_g1" "PCH_r0" 81.369
+cap "Cflag_w" "PCH_w" 81.369
+cap "PCH_r1" "as_sub" 81.369
+cap "ABL_w" "DB_w" 81.369
+cap "ABH_r1" "DB_r1" 81.369
+cap "ABL_w" "m2_2717_1764#" 81.369
+cap "PCH_r1" "IR_w" 81.369
+cap "m1_2608_2248#" "PCH_w" 25.812
+cap "PCH_r0" "ABL_r1" 162.738
+cap "A_r0" "as_sub" 81.369
+cap "Y_w" "a_1832_1790#" 81.369
+cap "Cflag_w" "ABH_r1" 81.369
+cap "A_r0" "IR_w" 81.369
+cap "Cflag_w" "DB_r1" 81.369
+cap "fb_g1" "ABH_w" 81.369
+cap "a_1309_1802#" "a_1832_1790#" 81.369
+cap "Y_w" "fb_g2" 81.369
+cap "m2_3189_1764#" "m2_3227_1764#" 69.957
+cap "PCH_w" "DB_w" 81.369
+cap "PCH_w" "m2_2717_1764#" 81.369
+cap "m1_2608_2248#" "DB_r1" 25.812
+cap "phi0" "Y_w" 277.92
+cap "ABH_w" "ABL_r1" 81.369
+cap "ABL_w" "a_2332_1790#" 81.369
+cap "a_1309_1802#" "fb_g2" 81.369
+cap "m2_2799_1764#" "A_w" 81.369
+cap "phi0" "a_1309_1802#" 277.92
+cap "Cflag_w" "m1_2608_2248#" 25.812
+cap "A_w" "fb_g3" 81.369
+cap "ABH_r1" "DB_w" 81.369
+cap "DB_w" "DB_r1" 81.369
+cap "ABH_r1" "m2_2717_1764#" 81.369
+cap "m2_2717_1764#" "DB_r1" 81.369
+cap "as_sub" "IR_w" 81.369
+cap "PCH_r1" "a_1832_1790#" 81.369
+cap "A_w" "PCL_w" 81.369
+cap "A_w" "m2_2699_1764#" 81.369
+cap "PCH_w" "a_2332_1790#" 81.369
+cap "Cflag_w" "DB_w" 81.369
+cap "ABL_w" "PCH_r0" 162.738
+cap "Cflag_w" "m2_2717_1764#" 81.369
+cap "A_r0" "a_1832_1790#" 81.369
+cap "PCH_r1" "fb_g2" 81.369
+cap "m1_2608_2248#" "DB_w" 25.812
+cap "m1_2608_2248#" "m2_2717_1764#" 25.812
+cap "PCH_r1" "phi0" 138.96
+cap "A_r0" "fb_g2" 81.369
+cap "A_w" "ABH_w_sel" 81.369
+cap "ABH_r1" "a_2332_1790#" 81.369
+cap "a_2332_1790#" "DB_r1" 81.369
+cap "m2_2799_1764#" "Y_w" 81.369
+cap "phi0" "A_r0" 277.92
+cap "PCH_w" "PCH_r0" 162.738
+cap "ABH_w" "ABL_w" 81.369
+cap "Y_w" "fb_g3" 81.369
+cap "m2_1452_1605#" "DB_r1" 44.7083
+cap "m2_2799_1764#" "a_1309_1802#" 81.369
+cap "DB_w" "m2_2717_1764#" 81.369
+cap "Cflag_w" "a_2332_1790#" 81.369
+cap "a_1309_1802#" "fb_g3" 81.369
+cap "PCL_w" "Y_w" 81.369
+cap "as_sub" "a_1832_1790#" 81.369
+cap "m2_2699_1764#" "Y_w" 81.369
+cap "PCH_r0" "ABH_r1" 162.738
+cap "m1_2608_2248#" "a_2332_1790#" 25.812
+cap "PCH_r0" "DB_r1" 81.369
+cap "a_1832_1790#" "IR_w" 81.369
+cap "ABH_w" "PCH_w" 81.369
+cap "PCL_w" "a_1309_1802#" 81.369
+cap "as_sub" "fb_g2" 81.369
+cap "m2_2699_1764#" "a_1309_1802#" 81.369
+cap "IR_w" "fb_g2" 81.369
+cap "phi0" "as_sub" 277.92
+cap "Cflag_w" "PCH_r0" 81.369
+cap "Y_w" "ABH_w_sel" 81.369
+cap "a_2332_1790#" "DB_w" 81.369
+cap "PCH_r1" "m2_2799_1764#" 81.369
+cap "a_2332_1790#" "m2_2717_1764#" 81.369
+cap "ABH_w" "ABH_r1" 81.369
+cap "a_1309_1802#" "ABH_w_sel" 81.369
+cap "m1_2608_2248#" "PCH_r0" 25.812
+cap "ABH_w" "DB_r1" 81.369
+cap "m2_2799_1764#" "A_r0" 81.369
+cap "PCH_r1" "fb_g3" 81.369
+cap "PCH_r1" "PCL_w" 81.369
+cap "A_r0" "fb_g3" 81.369
+cap "Cflag_w" "ABH_w" 81.369
+cap "PCH_r1" "m2_2699_1764#" 81.369
+cap "PCH_r0" "DB_w" 81.369
+cap "PCL_w" "A_r0" 81.369
+cap "PCH_r0" "m2_2717_1764#" 81.369
+cap "m2_2699_1764#" "A_r0" 81.369
+cap "PCH_r1" "ABH_w_sel" 162.738
+cap "m2_2799_1764#" "as_sub" 81.369
+cap "a_1832_1790#" "fb_g2" 81.369
+cap "A_r0" "ABH_w_sel" 81.369
+cap "ABH_w" "DB_w" 81.369
+cap "m2_2799_1764#" "IR_w" 81.369
+cap "phi0" "a_1832_1790#" 277.92
+cap "as_sub" "fb_g3" 81.369
+cap "PCH_r0" "a_2332_1790#" 81.369
+cap "fb_g3" "IR_w" 81.369
+cap "phi0" "fb_g2" 277.92
+cap "PCL_w" "as_sub" 81.369
+cap "fb_g1" "A_w" 81.369
+cap "m2_2699_1764#" "as_sub" 81.369
+cap "PCL_w" "IR_w" 81.369
+cap "m2_2699_1764#" "IR_w" 81.369
+cap "A_w" "ABL_r1" 81.369
+cap "as_sub" "ABH_w_sel" 81.369
+subcap "rx7" -5.265
+subcap "rx_PCL7" -27.804
+subcap "data_out7" -2.152
+subcap "data_in7" -84.195
+subcap "ry7" -32.71
+subcap "data_in6" -77.111
+subcap "addr_out6" -41.87
+subcap "addr_out14" -41.87
+subcap "data_out6" -20.396
+subcap "data_in6" -20.642
+subcap "data_in6" -95.638
+subcap "ry6" -32.71
+subcap "data_in5" -84.195
+subcap "ry5" -32.71
+subcap "data_in4" -84.195
+subcap "ry4" -29.168
+subcap "ry4" -96.677
+subcap "rx3" -6.857
+subcap "ry4" -27.397
+subcap "ry4" -174.274
+subcap "rx_PCL3" -79.696
+subcap "data_in3" -84.195
+subcap "ry3" -32.71
+subcap "data_in2" -39.136
+subcap "addr_out2" -47.06
+subcap "addr_out10" -47.06
+subcap "data_out2" -6.626
+subcap "data_in2" -63.601
+subcap "ry2" -32.71
+subcap "addr_out10" -93.888
+subcap "data_in1" -84.195
+subcap "data_out1" -34.718
+subcap "ry1" -32.71
+subcap "rd_dataout" -43.005
+subcap "data_in0" -84.195
+cap "datapath_0/latch_0/Vdd!" "datapath_0/ld_datain" 107.3
+cap "datapath_0/ld_datain" "datapath_0/4nor2_0/out" 15.672
+cap "datapath_0/ld_datain" "datapath_0/4nor2_0/Vdd!" 7.056
+subcap "ry0" -22.084
+subcap "m3_936_1574#" -145.241
+subcap "ry0" -77.519
+cap "datapath_0/ry0" "datapath_0/fblock_0/GND!" 36.385
+cap "datapath_0/fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11#" "datapath_0/fblock_0/GND!" 4.79
+cap "datapath_0/fblock_0/GND!" "datapath_0/fblock_0/fblock_one_0/2mux_nr_0/in0" 5.91
+subcap "rfb" -3.327
+subcap "as_sub" -3035.83
+cap "datapath_0/inv2_0/Vdd!" "datapath_0/rd_dataout" 297.802
+cap "datapath_0/4nor2_0/a_97_24#" "m2_2717_1764#" 6.168
+cap "datapath_0/4nor2_0/Vdd!" "m2_2717_1764#" 16.326
+cap "datapath_0/4nor2_0/b" "m2_2717_1764#" 6.78
+cap "m2_2717_1764#" "datapath_0/4nor2_0/a_107_24#" 6.939
+cap "m2_2717_1764#" "datapath_0/4nor2_0/c" 6.78
+cap "m2_2717_1764#" "datapath_0/4nor2_0/d" 6.78
+cap "datapath_0/4nor2_0/Vdd!" "m2_2717_1764#" 30.156
+cap "datapath_0/4nor2_0/a" "m2_2717_1764#" 6.78
+cap "datapath_0/4nor2_0/a_87_24#" "m2_2717_1764#" 6.168
+cap "m2_2717_1764#" "datapath_0/4nor2_0/out" 14.214
+subcap "os_s" -42.737
+subcap "os_u" -42.737
+subcap "m2_715_1612#" -137.07
+cap "datapath_0/os_u" "datapath_0/shift_0/shift_one_0/2mux_nr_0/a_n17_n11#" 7.10543e-15
+cap "datapath_0/os_u" "datapath_0/shift_0/Vdd!" 6.34
+cap "datapath_0/os_u" "datapath_0/ros" 9.23706e-14
+subcap "ry0" -32.71
+cap "datapath_0/shift_0/shift_one_0/2mux_nr_1/Vdd!" "datapath_0/os_s" -5.10703e-15
+cap "datapath_0/os_s" "datapath_0/rfb" 2.84217e-14
+cap "datapath_0/shift_0/shift_one_0/2mux_nr_1/a_n17_n11#" "datapath_0/os_s" 1.42109e-14
+subcap "ry0" -28.49
+cap "datapath_0/ras" "m3_936_1574#" 58.7
+cap "m3_936_1574#" "datapath_0/fblock_0/fblock_one_0/Vdd!" 11.413
+cap "datapath_0/fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11#" "datapath_0/ry0" -0.994
+cap "datapath_0/fblock_0/fblock_one_0/2mux_nr_1/Vdd!" "datapath_0/rfb" -3.667
+cap "datapath_0/fblock_0/fblock_one_0/inv_2/out" "datapath_0/rfb" -8.574
+cap "m3_936_1574#" "datapath_0/rfb" 58.7
+cap "m3_936_1574#" "datapath_0/fblock_0/fblock_one_0/2mux_nr_1/GND!" 1.556
+cap "m3_936_1574#" "datapath_0/fb_g1" 78.933
+cap "datapath_0/fblock_0/fblock_one_0/2mux_nr_1/Vdd!" "m3_936_1574#" 46.459
+cap "m3_936_1574#" "datapath_0/fblock_0/fblock_one_0/GND!" 20.035
+cap "datapath_0/fblock_0/fblock_one_0/inv_2/out" "m3_936_1574#" 201.939
+cap "datapath_0/rfb" "datapath_0/ry0" -0.624
+cap "datapath_0/fblock_0/fblock_one_0/2mux_nr_1/GND!" "datapath_0/ry0" -1.693
+cap "datapath_0/fblock_0/fblock_one_0/2mux_nr_1/Vdd!" "datapath_0/ry0" -1.924
+cap "datapath_0/fblock_0/fblock_one_0/inv_2/out" "datapath_0/ry0" -3.85
+cap "datapath_0/fblock_0/fblock_one_0/inv_2/out" "datapath_0/ras" -11.044
+cap "datapath_0/ras" "datapath_0/fblock_0/fblock_one_0/GND!" -2.588
+cap "m3_936_1574#" "datapath_0/ry0" 66.576
+cap "m3_936_1574#" "datapath_0/fblock_0/fblock_one_0/2mux_nr_0/a_n17_n11#" 1.382
+cap "datapath_0/fb_g0" "datapath_0/fblock_0/fblock_one_0/inv_4/GND!" 1.675
+cap "datapath_0/fb_g0" "datapath_0/fblock_0/fblock_one_0/inv_3/out" 27.67
+cap "datapath_0/fb_g0" "datapath_0/fblock_0/Vdd!" 1.675
+cap "as_sub" "datapath_0/ry0" 86.58
+cap "as_sub" "datapath_0/ras" 86.58
+cap "datapath_0/addsub_0/addsub_one_0/a_11_9#" "a_1309_1802#" 140.109
+cap "datapath_0/addsub_0/addsub_one_0/a_11_n41#" "a_1309_1802#" -6.428
+cap "a_1309_1802#" "datapath_0/as_cin" 0.14
+cap "datapath_0/addsub_0/addsub_one_0/b" "a_1309_1802#" 3.56
+cap "A_r0" "a_1309_1802#" 1752.24
+cap "datapath_0/addsub_0/addsub_one_0/a_35_n41#" "A_r0" 47.151
+cap "datapath_0/addsub_0/a0" "A_r0" 11.288
+cap "A_r0" "datapath_0/as_cout" 86.58
+cap "datapath_0/addsub_0/addsub_one_0/a_35_n41#" "a_1309_1802#" -4.796
+cap "datapath_0/addsub_0/addsub_one_0/GND!" "datapath_0/as_cin" 207.783
+cap "datapath_0/addsub_0/addsub_one_0/Vdd!" "a_1309_1802#" 8.292
+cap "A_r0" "datapath_0/addsub_0/addsub_one_0/GND!" 100.324
+cap "A_r0" "datapath_0/as_cin" 6.028
+cap "datapath_0/addsub_0/a0" "a_1309_1802#" 7.12
+cap "A_r0" "datapath_0/addsub_0/addsub_one_0/a_11_n41#" 112.58
+cap "A_r0" "datapath_0/addsub_0/addsub_one_0/b" 46.032
+cap "datapath_0/addsub_0/addsub_one_0/GND!" "a_1309_1802#" 31.674
+subcap "A_r1" -13.796
+subcap "A_r0" -3280.37
+cap "datapath_0/addsub_0/GND!" "datapath_0/as_cin" 207.783
+cap "datapath_0/A_r1" "datapath_0/reg_0/Vdd!" 67.0625
+cap "datapath_0/latch_one_0/GND!" "datapath_0/A_r0" 86.58
+cap "datapath_0/A_r0" "datapath_0/latch_one_0/c" 2295.39
+cap "datapath_0/A_r0" "datapath_0/staticizer_one_0/Vdd!" 178.28
+cap "datapath_0/latch_one_0/in" "datapath_0/as_cin" 57.874
+cap "datapath_0/latch_one_0/a_n5_n54#" "datapath_0/staticizer_one_0/Vdd!" 1.13687e-13
+subcap "m2_1452_1605#" -44.448
+cap "datapath_0/reg_one_0/port1" "datapath_0/reg_one_0/r1" 55.83
+cap "datapath_0/DB_r0" "datapath_0/reg_1/reg_one_7/w_n11_n27#" 10.338
+cap "datapath_0/reg_one_0/tmp" "datapath_0/reg_one_0/port1" 8.524
+cap "datapath_0/reg_one_0/r0" "datapath_0/reg_one_0/r1" -1.13687e-13
+cap "datapath_0/A_w" "datapath_0/reg_one_0/r1" 71.72
+cap "datapath_0/reg_one_0/a_16_27#" "datapath_0/reg_one_0/port1" 6.6
+cap "datapath_0/reg_one_0/r0" "datapath_0/reg_one_0/port1" 38.117
+cap "datapath_0/DB_r0" "datapath_0/DB_r1" 103.408
+cap "datapath_0/reg_one_0/port1" "datapath_0/reg_one_0/w" 2.474
+cap "datapath_0/reg_one_0/r0" "datapath_0/A_w" 96.26
+cap "datapath_0/reg_one_0/port1" "datapath_0/reg_one_0/a_4_n13#" 19.78
+cap "datapath_0/staticizer_one_0/out" "datapath_0/A_w" 45.492
+subcap "X_r1" -13.365
+subcap "Cflag" -33.195
+cap "datapath_0/DB_r1" "datapath_0/reg_1/Vdd!" 67.0625
+cap "datapath_0/reg_1/Vdd!" "datapath_0/reg_1/GND!" 58.7
+cap "datapath_0/reg_one_0/r0" "datapath_0/Cflag" 3.672
+cap "w_1489_1638#" "datapath_0/Cflag" -2.624
+cap "datapath_0/DB_r1" "datapath_0/reg_1/GND!" 22.3542
+cap "datapath_0/reg_1/GND!" "datapath_0/reg_1/reg_one_7/w_n11_n27#" 22.059
+subcap "Y_r1" -33.767
+cap "datapath_0/reg_2/reg_one_7/w_n11_n27#" "datapath_0/X_r1" 1.77636e-15
+cap "datapath_0/X_r1" "datapath_0/reg_2/Vdd!" 67.0625
+subcap "Y_r1" -10.693
+cap "datapath_0/reg_3/reg_one_7/w_n11_n27#" "datapath_0/Y_r0" -7.10543e-15
+cap "datapath_0/reg_3/Vdd!" "datapath_0/Y_r0" 67.0625
+cap "datapath_0/PCL_r1" "datapath_0/PCL_r0" 13.94
+cap "datapath_0/addsub1_a0" "PCH_r0" 62.665
+cap "datapath_0/addsub_1/addsub_one_0/a_11_9#" "PCH_r0" 9.344
+cap "datapath_0/addsub_1/addsub_one_0/b" "PCH_r0" 9.62
+cap "datapath_0/addsub_1/addsub_one_0/Vdd!" "PCH_r0" 3.867
+cap "datapath_0/addsub_1/Vdd!" "PCH_r0" 49.266
+cap "datapath_0/addsub_1/xor_0/GND!" "PCH_r0" 17.325
+cap "datapath_0/a_2510_1893#" "PCH_r0" 1183.23
+cap "PCH_r0" "datapath_0/addsub_1/addsub_one_0/Vdd!" -6.559
+cap "datapath_0/addsub_1/addsub_one_0/b" "PCH_r0" 64.351
+cap "datapath_0/addsub_1/addsub_one_0/Vdd!" "PCH_r0" 3.15
+cap "PCH_r0" "datapath_0/addsub_1/addsub_one_0/a_35_n41#" 28.859
+cap "PCH_r0" "datapath_0/addsub_1/addsub_one_0/GND!" 77.602
+cap "PCH_r0" "datapath_0/addsub_1/cin" 2.808
+cap "PCH_r0" "datapath_0/addsub_1/addsub_one_0/a_11_9#" 19.522
+cap "datapath_0/a_2510_1893#" "datapath_0/rPCplus1L" 872.854
+cap "datapath_0/inv2_4/GND!" "datapath_0/rPCplus1L" 52.315
+cap "datapath_0/inv2_4/GND!" "datapath_0/a_2510_1893#" -3.429
+cap "datapath_0/a_2510_1893#" "datapath_0/PCH_r0" 18.628
+cap "datapath_0/mux_8bit_1/GND!" "datapath_0/mux_8bit_1/sel" -5.68434e-14
+subcap "ABL_r0" -77.997
+cap "datapath_0/a_2510_1893#" "datapath_0/PCH_w" 86.58
+cap "datapath_0/a_2510_1893#" "datapath_0/PCH_r1" 86.58
+cap "datapath_0/a_2510_1893#" "datapath_0/PCH_r0" -4.448
+subcap "ABL_r0" -21.986
+cap "datapath_0/ABL_r0" "datapath_0/reg_6/reg_one_7/w_n11_n27#" 17.648
+cap "datapath_0/ABL_r1" "datapath_0/ABL_r0" 79.5583
+cap "datapath_0/reg_6/Vdd!" "datapath_0/ABL_r0" 46.775
+cap "datapath_0/ABL_r1" "datapath_0/a_2510_1893#" 86.58
+cap "datapath_0/a_2510_1893#" "datapath_0/ABL_w" 86.58
+subcap "ABH_r0" -4.75
+cap "datapath_0/ABH_r0" "PCH_r0" 55.925
+cap "PCH_r0" "datapath_0/mux_8bit_2/Vdd!" 67.518
+cap "datapath_0/inv2_13/a_1_8#" "PCH_r0" 53.831
+cap "datapath_0/a_2510_1893#" "datapath_0/ABH_r1" 86.58
+cap "datapath_0/a_2510_1893#" "datapath_0/ABH_w" 86.58
+subcap "PCH_r0" -4110.96
+cap "datapath_0/inv2_5/a_1_8#" "datapath_0/inv2_5/GND!" 116.22
+cap "datapath_0/inv2_1/GND!" "datapath_0/rd_addrL" 44.641
+cap "datapath_0/inv2_2/GND!" "datapath_0/rd_addrH" 47.502
+subcap "fb_g0" -7.58
+cap "datapath_0/rfb" "as_sub" 86.58
+subcap "as_cin" -644.314
+cap "A_r0" "datapath_0/rfb" 86.58
+cap "2and_0/inv2_0/GND!" "2and_0/inv2_0/a_6_n1#" 231.9
+cap "a_1309_1802#" "datapath_0/rfb" 86.58
+cap "as_cin" "datapath_0/latch_one_1/in" 108.178
+cap "datapath_0/staticizer_one_0/Vdd!" "2and_0/Vdd!" 10.957
+cap "datapath_0/2nor_0/b" "as_cin" 11.825
+cap "datapath_0/staticizer_one_0/Vdd!" "datapath_0/latch_one_1/in" 177.833
+cap "datapath_0/reg_one_0/Vdd!" "a_1296_1815#" 34.687
+cap "datapath_0/reg_one_0/Vdd!" "A_w" 56.941
+cap "datapath_0/reg_one_0/a_16_27#" "a_1296_1815#" 19.756
+cap "datapath_0/reg_one_0/w_n11_n27#" "A_w" 8.694
+cap "datapath_0/reg_one_0/w_n11_n27#" "a_1296_1815#" 33.848
+cap "datapath_0/2nor_0/Vdd!" "A_w" 11.542
+cap "datapath_0/2nor_0/GND!" "A_w" 9.154
+cap "datapath_0/reg_one_0/in" "A_w" 28.14
+cap "datapath_0/reg_one_0/a_33_32#" "a_1296_1815#" 19.78
+cap "datapath_0/reg_one_0/w" "a_1296_1815#" 2.474
+cap "datapath_0/2nor_0/a" "A_w" 407.74
+cap "datapath_0/reg_one_0/tmp" "a_1296_1815#" 11.825
+cap "datapath_0/Cflag_w" "datapath_0/reg_one_0/w_n11_n27#" 0.738
+subcap "m1_1853_1716#" -146.707
+subcap "PCL_w_sel" -27.314
+subcap "a_1832_1790#" -2406.33
+cap "latch_one_0/GND!" "latch_one_0/a_12_n54#" 22.893
+cap "latch_one_0/a_12_n54#" "latch_one_0/Vdd!" 400.175
+cap "latch_one_0/GND!" "latch_one_0/a_n5_n54#" 6.176
+cap "latch_one_0/a_n5_n54#" "latch_one_0/c" 0.624
+cap "latch_one_0/in" "latch_one_0/Vdd!" 10.434
+cap "latch_one_0/in" "latch_one_0/c" 1.988
+cap "latch_one_0/GND!" "latch_one_0/c" 276.956
+cap "latch_one_0/Vdd!" "latch_one_0/out" -1.958
+cap "latch_one_0/GND!" "latch_one_0/out" 25.223
+cap "latch_one_0/GND!" "latch_one_0/a_30_n54#" 2.924
+cap "latch_one_0/a_n5_n54#" "latch_one_0/in" 38.4783
+cap "latch_one_0/GND!" "datapath_0/inv2_7/a_1_8#" 0.407
+subcap "PCH_r1" -3831.32
+subcap "m2_2348_1716#" -109.447
+subcap "PCH_w_sel" -61.826
+subcap "a_2332_1790#" -1771.34
+cap "latch_one_1/GND!" "latch_one_1/a_12_n54#" 22.893
+cap "latch_one_1/in" "latch_one_1/Vdd!" 10.434
+cap "latch_one_1/GND!" "latch_one_1/a_30_n54#" 2.924
+cap "latch_one_1/c" "latch_one_1/GND!" 278.611
+cap "latch_one_1/c" "latch_one_1/a_n5_n54#" 0.624
+cap "latch_one_1/Vdd!" "latch_one_1/out" -1.958
+cap "latch_one_1/GND!" "latch_one_1/a_n5_n54#" 6.176
+cap "latch_one_1/c" "latch_one_1/in" 1.988
+cap "latch_one_1/in" "latch_one_1/a_n5_n54#" 38.4783
+cap "latch_one_1/GND!" "datapath_0/inv2_10/a_1_8#" 0.407
+cap "latch_one_1/GND!" "latch_one_1/out" 25.223
+cap "latch_one_1/a_12_n54#" "latch_one_1/Vdd!" 400.175
+subcap "PCH_r1" -3553.71
+subcap "ABH_w_sel" -219.939
+cap "datapath_0/inv2_14/GND!" "PCH_r0" 106.145
+cap "datapath_0/ABH_w_sel" "PCH_r0" 136.131
+cap "PCH_r0" "datapath_0/inv2_13/a_1_8#" 41.126
+subcap "fb_g2" -3512.38
+subcap "fb_g3" -3534.01
+subcap "m2_2717_1764#" -4086.73
+subcap "m2_2699_1764#" -4210.21
+subcap "IR_w" -855.729
+cap "a_1309_1802#" "2and_0/inv2_0/Vdd!" 5.603
+subcap "a_1309_1802#" -3399.02
+subcap "a_1296_1815#" -362.322
+cap "2and_0/Vdd!" "2and_0/a_96_38#" 107.389
+cap "2and_0/a" "2and_0/Vdd!" 124.646
+subcap "a_1832_1790#" -2184.14
+cap "latch_one_0/a_n5_n54#" "a_1832_1790#" 16.4907
+subcap "a_2332_1790#" -1528.34
+cap "latch_one_1/a_n5_n54#" "a_2332_1790#" 16.4907
+subcap "m1_2608_2248#" -2699.57
+cap "phi0" "rom_0/decoder24_3/3nand2_3/c" 1.476
+cap "rom_0/Vdd!" "phi0" 199.126
+cap "rom_0/Vdd!" "rom_0/GND!" 147.059
+cap "rom_0/decoder24_3/decoder_nor2_2/phi0" "rom_0/GND!" 5.48
+cap "phi0" "rom_0/GND!" 17.536
+cap "rom_0/Vdd!" "rom_0/fb_g3" 1.628
+cap "rom_0/Vdd!" "rom_0/fb_g2" 1.221
+cap "rom_0/IR_w" "rom_0/Vdd!" 3.612
+cap "rom_0/Vdd!" "rom_0/ld_datain" 1.628
+cap "rom_0/Vdd!" "rom_0/rd_dataout" 1.628
+cap "rom_0/rom_inv_5/w_n11_n13#" "rom_0/fb_g2" 0.407
+cap "rom_0/as_sub" "rom_0/rom_inv_5/w_n11_n13#" 1.628
+cap "rom_0/rom_inv_5/w_n11_n13#" "rom_0/fb_g1" 1.628
+cap "rom_0/as_cin-ras" "rom_0/rom_inv_5/w_n11_n13#" 1.628
+cap "rom_0/rom_inv_5/w_n11_n13#" "rom_0/A_r0" 1.221
+cap "rom_0/rom_inv_5/w_n11_n13#" "rom_0/rfb" 1.628
+cap "rom_0/rom_inv_15/w_n11_n13#" "rom_0/A_r0" 0.407
+cap "rom_0/X_w-Y_w" "rom_0/rom_inv_15/w_n11_n13#" 1.221
+cap "rom_0/rom_inv_15/w_n11_n13#" "rom_0/Cflag_w" 1.628
+cap "rom_0/DB_w" "rom_0/rom_inv_15/w_n11_n13#" 1.628
+cap "rom_0/A_w" "rom_0/rom_inv_15/w_n11_n13#" 1.628
+cap "rom_0/DB_r1" "rom_0/rom_inv_15/w_n11_n13#" 1.628
+cap "rom_0/rom_inv_14/w_n11_n13#" "rom_0/PCL_w_sel" 1.628
+cap "rom_0/rom_inv_14/w_n11_n13#" "rom_0/PCL_w" 1.628
+cap "rom_0/rom_inv_14/w_n11_n13#" "rom_0/rPCplus1L-rPCplus1H" 1.628
+cap "rom_0/PCL_r1-PCH_r1" "rom_0/rom_inv_14/w_n11_n13#" 1.628
+cap "rom_0/rom_inv_14/w_n11_n13#" "rom_0/X_w-Y_w" 0.407
+cap "rom_0/PCH_w_sel" "rom_0/rom_inv_14/w_n11_n13#" 1.221
+cap "rom_0/rom_inv_19/w_n11_n13#" "rom_0/ABL_r1" 1.628
+cap "rom_0/rom_inv_19/w_n11_n13#" "rom_0/PCH_w_sel" 0.407
+cap "rom_0/rom_inv_19/w_n11_n13#" "rom_0/PCH_w" 1.628
+cap "rom_0/rom_inv_19/w_n11_n13#" "rom_0/ABH_r1" 1.628
+cap "rom_0/rom_inv_19/w_n11_n13#" "rom_0/ABL_w" 1.628
+cap "rom_0/rd_addrL-rd_addrH" "rom_0/rom_inv_22/w_n11_n13#" 1.628
+cap "rom_0/bl27" "rom_0/rom_inv_22/w_n11_n13#" 1.628
+cap "rom_0/ABH_w" "rom_0/rom_inv_22/w_n11_n13#" 1.628
+cap "rom_0/r_-w" "rom_0/rom_inv_22/w_n11_n13#" 1.628
+cap "phi0" "rom_0/decoder24_3/3nand2_3/c" 37.335
+cap "phi0" "rom_0/out15" 50.175
+cap "phi0" "rom_0/decoder24_3/3nand2_2/c" 15.744
+cap "phi0" "rom_0/decoder24_3/3nand2_3/Vdd!" 376.728
+cap "phi0" "rom_0/decoder24_3/3nand2_3/GND!" 19.512
+cap "phi0" "rom_0/out16" 50.175
+cap "rom_0/decoder24_3/3nand2_2/Vdd!" "phi0" 361.316
+cap "phi0" "rom_0/out14" 50.175
+cap "phi0" "rom_0/decoder24_3/3nand2_0/Vdd!" 0.456
+cap "rom_0/out13" "phi0" 29.025
+cap "phi0" "rom_0/decoder24_3/3nand2_0/c" 7.38
+cap "phi0" "rom_0/decoder24_3/3nand2_1/GND!" 37.048
+cap "phi0" "rom_0/decoder24_3/3nand2_2/c" 23.067
+cap "rom_0/decoder24_3/3nand2_1/c" "phi0" 38.811
+subcap "s2" -55.478
+cap "rom_0/out12" "phi0" 50.175
+cap "rom_0/decoder24_3/3nand2_0/c" "phi0" 31.431
+cap "rom_0/out13" "phi0" 21.15
+cap "rom_0/decoder24_2/3nand2_3/c" "phi0" 38.811
+cap "rom_0/decoder24_2/3nand2_3/Vdd!" "phi0" 377.64
+cap "rom_0/decoder24_2/3nand2_3/GND!" "phi0" 33.182
+cap "rom_0/decoder24_2/3nand2_2/GND!" "phi0" 29.95
+cap "phi0" "rom_0/out11" 50.175
+cap "phi0" "rom_0/decoder24_2/3nand2_1/c" 15.252
+cap "rom_0/decoder24_2/3nand2_2/c" "phi0" 38.811
+cap "phi0" "rom_0/decoder24_2/3nand2_2/Vdd!" 371.66
+cap "rom_0/out10" "phi0" 50.175
+cap "rom_0/decoder24_2/Vdd!" "phi0" 373.944
+cap "rom_0/decoder24_2/3nand2_0/c" "phi0" 38.811
+cap "rom_0/decoder24_1/3nand2_3/c" "phi0" 5.904
+cap "phi0" "rom_0/decoder24_2/GND!" 37.048
+cap "rom_0/out9" "phi0" 50.175
+cap "rom_0/out8" "phi0" 22.677
+cap "phi0" "rom_0/decoder24_2/3nand2_1/c" 23.559
+cap "phi0" "rom_0/out8" 30.858
+cap "phi0" "rom_0/out7" 50.175
+cap "phi0" "rom_0/decoder24_1/3nand2_3/Vdd!" 378.096
+cap "phi0" "rom_0/decoder24_1/3nand2_2/c" 38.811
+cap "rom_0/decoder24_1/3nand2_3/c" "phi0" 32.907
+cap "phi0" "rom_0/decoder24_1/3nand2_2/GND!" 20.308
+cap "phi0" "rom_0/out5" 50.175
+cap "phi0" "rom_0/decoder24_1/3nand2_1/c" 38.811
+cap "phi0" "rom_0/out6" 50.175
+cap "phi0" "rom_0/decoder24_1/3nand2_0/c" 13.284
+cap "phi0" "rom_0/decoder24_1/3nand2_1/Vdd!" 361.468
+cap "phi0" "rom_0/decoder24_1/3nand2_1/GND!" 35.264
+cap "rom_0/decoder24_1/3nand2_0/c" "phi0" 25.527
+cap "rom_0/out3" "phi0" 13.125
+cap "phi0" "rom_0/out4" 50.175
+cap "rom_0/decoder24_0/3nand2_3/c" "phi0" 38.811
+cap "phi0" "rom_0/decoder24_0/3nand2_2/c" 4.92
+cap "rom_0/decoder24_1/GND!" "phi0" 36.744
+cap "rom_0/decoder24_1/Vdd!" "phi0" 376.576
+subcap "s0" -4.107
+cap "phi0" "rom_0/out2" 50.175
+cap "rom_0/decoder24_0/3nand2_2/Vdd!" "phi0" 378.096
+cap "phi0" "rom_0/out3" 37.05
+cap "phi0" "rom_0/decoder24_0/3nand2_2/c" 33.891
+cap "phi0" "rom_0/decoder24_0/3nand2_1/GND!" 18.828
+cap "phi0" "rom_0/decoder24_0/3nand2_1/c" 38.811
+subcap "phi1" -16.792
+subcap "phi0" -3073.21
+cap "rom_0/phi0" "rom_0/out1" 50.175
+cap "rom_0/phi0" "rom_0/decoder24_0/decoder_nor2_1/phi0" 20.994
+cap "rom_0/phi0" "rom_0/decoder24_0/GND!" 81.199
+cap "rom_0/phi0" "rom_0/decoder24_0/Vdd!" 243.15
+cap "rom_0/phi0" "rom_0/decoder24_0/3nand2_0/c" 38.811
+subcap "phi1" -31.694
+subcap "phi0" -3114.71
+merge "datapath_0/inv2_10/Vdd!" "latch_one_1/Vdd!" -171.223 0 0 0 0 -29 -60 0 0 0 0 0 0 0 0 -50 -40 0 0 0 0 0 0 0 0 0 0
+merge "latch_one_1/Vdd!" "m1_2305_1724#"
+merge "2and_0/Vdd!" "datapath_0/staticizer_one_0/Vdd!" -87.717 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -20 0 -10 0 0 0 0 0 0 0 0
+merge "datapath_0/staticizer_one_0/Vdd!" "m1_1317_1799#"
+merge "rom_0/ABL_r1" "datapath_0/ABL_r1" -11.646 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 -18 0 0 0 0 0 0
+merge "datapath_0/ABL_r1" "ABL_r1"
+merge "datapath_0/reg_1/GND!" "datapath_0/DB_r0" -80.598 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -45 -38 -25 -20 0 0 0 0 0 0
+merge "datapath_0/DB_r0" "DB_r0"
+merge "DB_r0" "m2_1452_1605#"
+merge "rom_0/GND!" "datapath_0/inv2_14/GND!" -34.922 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 -10 0 0 0 0 0 0 0 0
+merge "datapath_0/inv2_14/GND!" "m1_2608_2248#"
+merge "rom_0/a2" "s2" -25.23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/ry3" "ry3" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx2" "rx2" -15.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 0 0 0 0
+merge "datapath_0/data_out1" "data_out1" -31.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/reg_3/GND!" "datapath_0/Y_r1" -18.95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -22 -1 -30 0 0 0 0 0 0
+merge "datapath_0/Y_r1" "datapath_0/Y_r0"
+merge "datapath_0/Y_r0" "Y_r1"
+merge "rom_0/as_sub" "datapath_0/as_sub" -261.737 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 -10 -1800 -400 0 0 0 0 0 0
+merge "datapath_0/as_sub" "as_sub"
+merge "rom_0/a3" "s3" -21.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/DB_r1" "datapath_0/DB_r1" -128.334 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -908 -218 0 0 0 0 0 0
+merge "datapath_0/DB_r1" "DB_r1"
+merge "rom_0/as_cin-ras" "2and_0/a" -461.786 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 0 0 -10 -2412 -545 -411 -173 0 0 0 0
+merge "2and_0/a" "datapath_0/ras"
+merge "datapath_0/ras" "ras"
+merge "ras" "a_1309_1802#"
+merge "datapath_0/ros" "ros" -120.215 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -168 -10 -60 10 -20 0 0 0 0
+merge "ros" "datapath_0/shift_0/shift_one_0/2mux_nr_1/GND!"
+merge "datapath_0/shift_0/shift_one_0/2mux_nr_1/GND!" "m2_804_1607#"
+merge "m2_804_1607#" "datapath_0/shift_0/shift_one_0/GND!"
+merge "datapath_0/shift_0/shift_one_0/GND!" "datapath_0/os_s"
+merge "datapath_0/os_s" "datapath_0/os_u"
+merge "datapath_0/os_u" "m2_715_1612#"
+merge "m2_715_1612#" "os_u"
+merge "os_u" "os_s"
+merge "datapath_0/ry4" "ry4" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/latch_4/in3" "datapath_0/rx3" -10.162 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -20 15 -20 0 0 0 0
+merge "datapath_0/rx3" "rx3"
+merge "datapath_0/data_out2" "data_out2" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/r_-w" "r_-w" -5.698 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "datapath_0/inv2_8/GND!" "latch_one_0/GND!" -139.862 0 0 0 0 0 0 0 0 -23 -48 0 0 0 0 -25 -20 -20 -18 0 0 0 0 0 0 0 0
+merge "latch_one_0/GND!" "m1_1853_1716#"
+merge "rom_0/rd_addrL-rd_addrH" "datapath_0/rd_addrH" -65.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 -20 0 0 0 0 0 0
+merge "datapath_0/rd_addrH" "rd_addrH"
+merge "rd_addrH" "datapath_0/rd_addrL"
+merge "datapath_0/rd_addrL" "rd_addrL"
+merge "rd_addrL" "m2_3189_1764#"
+merge "datapath_0/reg_6/GND!" "datapath_0/ABL_r0" -50.643 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -27 -28 -25 -20 0 0 0 0 0 0
+merge "datapath_0/ABL_r0" "ABL_r0"
+merge "datapath_0/ry5" "ry5" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx4" "rx4" -15.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 0 0 0 0
+merge "datapath_0/data_out3" "data_out3" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/X_w-Y_w" "datapath_0/Y_w" -17.594 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -40 -36 0 0 0 0 0 0
+merge "datapath_0/Y_w" "datapath_0/X_w"
+merge "datapath_0/X_w" "Y_w"
+merge "rom_0/Cflag_w" "datapath_0/Cflag_w" -8.896 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 -10 0 0 0 0 0 0
+merge "datapath_0/Cflag_w" "Cflag_w"
+merge "datapath_0/fb_g0" "datapath_0/fblock_0/GND!" -21.508 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -38 0 0 0 0 0 0
+merge "datapath_0/fblock_0/GND!" "m3_936_1574#"
+merge "m3_936_1574#" "fb_g0"
+merge "datapath_0/ry6" "ry6" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx5" "rx5" -15.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 0 0 0 0
+merge "datapath_0/addsub_1/a3" "datapath_0/rx_PCL3" -27.155 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 -20 2 -20 0 0 0 0 0 0 0 0
+merge "datapath_0/rx_PCL3" "rx_PCL3"
+merge "datapath_0/data_out4" "data_out4" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/rd_dataout" "datapath_0/rd_dataout" -363.116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -2700 -610 0 0 0 0 0 0
+merge "datapath_0/rd_dataout" "rd_dataout"
+merge "rd_dataout" "m2_2699_1764#"
+merge "datapath_0/ry7" "ry7" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx6" "rx6" -15.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 0 0 0 0
+merge "datapath_0/data_out5" "data_out5" -23.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/a0" "s0" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/rPCplus1L-rPCplus1H" "datapath_0/inv2_5/a_1_8#" -1211.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -3370 -881 -225 -230 -1800 -400 0 0 0 0
+merge "datapath_0/inv2_5/a_1_8#" "datapath_0/PCH_r0"
+merge "datapath_0/PCH_r0" "datapath_0/rPCplus1L"
+merge "datapath_0/rPCplus1L" "rPCplus1L"
+merge "rPCplus1L" "datapath_0/PCL_r0"
+merge "datapath_0/PCL_r0" "PCH_r0"
+merge "rom_0/ld_datain" "datapath_0/ld_datain" -52.378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 285 -226 0 0 0 0 0 0
+merge "datapath_0/ld_datain" "m2_2717_1764#"
+merge "m2_2717_1764#" "ld_datain"
+merge "rom_0/IR_w" "IR_w" -10.361 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12 0 0 0 0 0 0 0 0
+merge "datapath_0/rPCplus1H" "rPCplus1H" -5.948 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0
+merge "datapath_0/rx7" "rx7" -15.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 0 0 0 0
+merge "rom_0/DB_w" "datapath_0/DB_w" -129.246 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -920 -218 0 0 0 0 0 0
+merge "datapath_0/DB_w" "DB_w"
+merge "2and_0/a_96_38#" "datapath_0/Cflag" -280.539 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 -25 -20 -80 -40 0 0 -400 -200 0 0 0 0
+merge "datapath_0/Cflag" "Cflag"
+merge "Cflag" "datapath_0/reg_one_0/port1"
+merge "datapath_0/reg_one_0/port1" "a_1296_1815#"
+merge "datapath_0/data_out6" "data_out6" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/a1" "s1" -21.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/PCL_w_sel" "latch_one_0/out" -53.836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0 0 0 0 0 0 0
+merge "latch_one_0/out" "PCL_w_sel"
+merge "rom_0/PCL_r1-PCH_r1" "datapath_0/PCH_r1" -771.999 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2628 -611 -1317 -563 0 0 0 0 0 0
+merge "datapath_0/PCH_r1" "datapath_0/PCL_r1"
+merge "datapath_0/PCL_r1" "PCH_r1"
+merge "rom_0/inv2_0/a_1_8#" "rom_0/phi0" -1759.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -60 -27 0 0 -10751 -2377 616 -400 0 0 0 0
+merge "rom_0/phi0" "latch_one_1/c"
+merge "latch_one_1/c" "latch_one_0/c"
+merge "latch_one_0/c" "phi0"
+merge "2and_0/inv2_0/GND!" "datapath_0/latch_one_1/in" -34.686 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -22 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/latch_one_1/in" "m1_1286_1727#"
+merge "datapath_0/data_out7" "data_out7" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/inv2_1/a_1_8#" "rom_0/phi1" -43.314 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -27 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/phi1" "phi1"
+merge "rom_0/PCL_w_sel" "latch_one_0/in" -29.612 0 0 0 0 0 0 0 0 0 0 -2 -4 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "latch_one_0/in" "a_1832_1790#"
+merge "datapath_0/addsub_1/a7" "datapath_0/rx_PCL7" -30.8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -25 10 -25 0 0 0 0 0 0 0 0
+merge "datapath_0/rx_PCL7" "rx_PCL7"
+merge "rom_0/PCL_w" "datapath_0/PCL_w" -245.974 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1815 -416 0 0 0 0 0 0
+merge "datapath_0/PCL_w" "PCL_w"
+merge "datapath_0/data_in0" "data_in0" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "rom_0/Vdd!" "datapath_0/ABH_w_sel" -82.028 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -35 -24 0 0 0 0 0 0 0 0
+merge "datapath_0/ABH_w_sel" "datapath_0/inv2_14/Vdd!"
+merge "datapath_0/inv2_14/Vdd!" "ABH_w_sel"
+merge "datapath_0/data_in1" "data_in1" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "rom_0/ABH_r1" "datapath_0/ABH_r1" -66.584 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -496 -218 0 0 0 0 0 0
+merge "datapath_0/ABH_r1" "ABH_r1"
+merge "datapath_0/rx_PCL0" "rx_PCL0" -22.955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out0" "addr_out0" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/data_in2" "data_in2" -16.518 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 -20 4 -20 4 -20 0 0 0 0
+merge "rom_0/A_w" "datapath_0/A_w" -185.574 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -920 -218 0 0 0 0 0 0
+merge "datapath_0/A_w" "A_w"
+merge "datapath_0/rx_PCL1" "rx_PCL1" -22.955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out1" "addr_out1" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/bl27" "m2_3227_1764#" -5.698 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "datapath_0/inv2_8/Vdd!" "latch_one_0/Vdd!" -162.595 0 0 0 0 -29 -60 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0 0 0 0 0 0 0
+merge "latch_one_0/Vdd!" "m1_1805_1724#"
+merge "2and_0/inv2_0/a_6_n1#" "datapath_0/as_cin" -357.038 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -319 -164 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/as_cin" "as_cin"
+merge "datapath_0/PCH_w_sel" "latch_one_1/out" -88.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -52 0 0 0 0 0 0 0 0 0 0
+merge "latch_one_1/out" "PCH_w_sel"
+merge "datapath_0/data_in3" "data_in3" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/staticizer_5/in6" "datapath_0/addr_out14" -19.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out14" "addr_out14"
+merge "datapath_0/rx_PCL2" "rx_PCL2" -22.955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 0 0 0 0 0 0 0 0
+merge "datapath_0/inv2_10/GND!" "latch_one_1/GND!" -102.602 0 0 0 0 0 0 0 0 -23 -48 0 0 0 0 0 0 -20 -18 0 0 0 0 0 0 0 0
+merge "latch_one_1/GND!" "m2_2348_1716#"
+merge "datapath_0/addr_out2" "addr_out2" -27.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/reg_2/GND!" "datapath_0/X_r1" -14.718 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -18 -20 -28 0 0 0 0 0 0
+merge "datapath_0/X_r1" "datapath_0/X_r0"
+merge "datapath_0/X_r0" "X_r1"
+merge "datapath_0/data_in4" "data_in4" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "rom_0/PCH_w_sel" "latch_one_1/in" -147.212 0 0 0 0 0 0 0 0 0 0 -2 -4 0 0 0 0 0 -10 -900 -200 0 0 0 0 0 0
+merge "latch_one_1/in" "a_2332_1790#"
+merge "datapath_0/addr_out3" "addr_out3" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/data_in5" "data_in5" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx_PCL4" "rx_PCL4" -22.955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out10" "addr_out10" -27.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out4" "addr_out4" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/PCH_w" "datapath_0/PCH_w" -211.87 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1689 -388 0 0 0 0 0 0
+merge "datapath_0/PCH_w" "PCH_w"
+merge "datapath_0/data_in6" "data_in6" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx_PCL5" "rx_PCL5" -22.955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out11" "addr_out11" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out5" "addr_out5" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/data_in7" "data_in7" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx_PCL6" "rx_PCL6" -22.955 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out12" "addr_out12" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out6" "addr_out6" -19.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out13" "addr_out13" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out7" "addr_out7" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/ABL_w" "datapath_0/ABL_w" 81.454 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 1205 -18 0 0 0 0 0 0
+merge "datapath_0/ABL_w" "ABL_w"
+merge "rom_0/rfb" "datapath_0/rfb" -19.395 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 10 -14 0 0 0 0 0 0
+merge "datapath_0/rfb" "rfb"
+merge "rfb" "m2_2799_1764#"
+merge "rom_0/fb_g1" "datapath_0/fb_g1" -8.158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 -10 0 0 0 0 0 0
+merge "datapath_0/fb_g1" "fb_g1"
+merge "datapath_0/addr_out8" "addr_out8" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/addr_out15" "addr_out15" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/fb_g2" "datapath_0/fb_g2" -49.835 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -216 -45 0 -10 0 0 0 0 0 0
+merge "datapath_0/fb_g2" "fb_g2"
+merge "datapath_0/addr_out9" "addr_out9" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/A_r0" "datapath_0/A_r0" -271.283 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -1800 -400 0 0 0 0 0 0
+merge "datapath_0/A_r0" "A_r0"
+merge "datapath_0/addsub_0/addsub_one_0/GND!" "w_1234_1616#" 0 0 0 0 0 0 0 0 0 -9 -20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/fb_g3" "datapath_0/fb_g3" -64.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -243 -73 0 -10 0 0 0 0 0 0
+merge "datapath_0/fb_g3" "fb_g3"
+merge "datapath_0/reg_one_0/r0" "datapath_0/A_r1" -9.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -30 0 0 0 0 0 0
+merge "datapath_0/A_r1" "A_r1"
+merge "datapath_0/ry0" "ry0" -15.506 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -20 8 -20 8 -20 0 0 0 0
+merge "datapath_0/reg_one_0/w_n11_n27#" "w_1489_1638#" 0 0 0 0 0 0 0 0 0 -650 -95 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "datapath_0/rx0" "rx0" -15.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 0 0 0 0
+merge "datapath_0/ry1" "ry1" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/ABH_r0" "datapath_0/mux_8bit_2/GND!" -27.384 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -50 -49 0 0 0 0 0 0 0 0
+merge "datapath_0/mux_8bit_2/GND!" "ABH_r0"
+merge "datapath_0/ry2" "ry2" -15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 -20 10 -20 10 -20 0 0 0 0
+merge "datapath_0/rx1" "rx1" -15.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -25 -20 0 0 0 0
+merge "datapath_0/data_out0" "data_out0" -33.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 0 0 0 0 0 0 0 0 0 0
+merge "rom_0/ABH_w" "datapath_0/ABH_w" -118.662 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -1046 -246 0 0 0 0 0 0
+merge "datapath_0/ABH_w" "ABH_w"

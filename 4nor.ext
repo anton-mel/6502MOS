@@ -14,19 +14,19 @@ node "b" 136 6.524 95 3 p 0 0 0 0 0 0 0 0 0 0 68 72 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "a" 136 6.524 85 3 p 0 0 0 0 0 0 0 0 0 0 68 72 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "GND!" 81 5.81 72 -6 pw 115 76 25 20 0 0 0 0 1380 166 0 0 0 0 405 172 0 0 0 0 0 0 0 0 0 0
 node "Vdd!" 1976 1020.23 72 18 nw 25 20 70 34 1740 178 0 0 0 0 0 0 0 0 345 148 0 0 0 0 0 0 0 0 0 0
-cap "out" "b" 20.324
-cap "a" "Vdd!" 72.612
-cap "Vdd!" "d" 72.612
-cap "out" "Vdd!" 149.82
-cap "Vdd!" "b" 72.612
-cap "c" "GND!" 72.612
-cap "a" "GND!" 72.612
-cap "d" "GND!" 72.612
-cap "out" "GND!" 501.761
-cap "b" "GND!" 72.612
 cap "out" "c" 20.324
-cap "out" "d" 20.324
+cap "GND!" "a" 72.612
+cap "GND!" "d" 72.612
+cap "out" "b" 20.324
+cap "out" "GND!" 501.761
+cap "GND!" "c" 72.612
+cap "Vdd!" "a" 72.612
+cap "Vdd!" "d" 72.612
+cap "GND!" "b" 72.612
+cap "out" "Vdd!" 149.82
 cap "Vdd!" "c" 72.612
+cap "out" "d" 20.324
+cap "Vdd!" "b" 72.612
 fet nfet 117 6 118 7 10 14 "GND!" "d" 4 0 "out" 5 0 "GND!" 5 0
 fet nfet 106 6 107 7 10 14 "GND!" "c" 4 0 "GND!" 5 0 "out" 5 0
 fet nfet 95 6 96 7 10 14 "GND!" "b" 4 0 "out" 5 0 "GND!" 5 0

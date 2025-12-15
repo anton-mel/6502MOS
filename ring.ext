@@ -1,0 +1,713 @@
+timestamp 1765052771
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use pad pad_4[0:8:350][0:0:102] 0 -1 -129 1 0 -3131
+use pad pad_5[0:8:350][0:0:102] 1 0 265 0 1 25
+use pad pad_6[0:8:350][0:0:102] 0 1 3421 -1 0 -369
+use pad pad_7[0:8:350][0:0:102] -1 0 3027 0 -1 -3525
+node "bottom_0_oe" 0 51.64 2928 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_0" 0 84.688 2830 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_1_oe" 0 51.64 2578 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_1" 0 84.688 2480 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_2_oe" 0 51.64 2228 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_2" 0 84.688 2130 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_3_oe" 0 51.64 1878 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_3" 0 84.688 1780 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_4_oe" 0 51.64 1528 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_4" 0 84.688 1430 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_5_oe" 0 51.64 1178 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_5" 0 84.688 1080 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_6_oe" 0 51.64 828 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_6" 0 84.688 730 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_7_oe" 0 51.64 478 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_7" 0 84.688 380 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "bottom_8_oe" 0 51.64 128 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "bottom_8" 0 84.688 30 -3603 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_8" 0 84.688 3487 -3366 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_8_oe" 0 51.64 3493 -3268 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_0_oe" 0 51.64 -207 -3040 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_7" 0 84.688 3487 -3016 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "left_0" 0 84.688 -207 -2942 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_7_oe" 0 51.64 3493 -2918 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_1_oe" 0 51.64 -207 -2690 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_6" 0 84.688 3487 -2666 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "left_1" 0 84.688 -207 -2592 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_6_oe" 0 51.64 3493 -2568 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_2_oe" 0 51.64 -207 -2340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_5" 0 84.688 3487 -2316 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "m1_n207_n2242#" 0 79.18 -207 -2242 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88 38 0 0 0 0 0 0 0 0 0 0
+node "right_5_oe" 0 51.64 3493 -2218 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_3_oe" 0 51.64 -207 -1990 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_4" 0 84.688 3487 -1966 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "left_3" 0 84.688 -207 -1892 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_4_oe" 0 51.64 3493 -1868 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_4_oe" 0 51.64 -207 -1640 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_3" 0 84.688 3487 -1616 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "left_4" 0 84.688 -207 -1542 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_3_oe" 0 51.64 3493 -1518 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_5_oe" 0 51.64 -207 -1290 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_2" 0 84.688 3487 -1266 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "left_5" 0 84.688 -207 -1192 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_2_oe" 0 51.64 3493 -1168 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_6_oe" 0 51.64 -207 -940 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_1" 0 84.688 3487 -916 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "left_6" 0 84.688 -207 -842 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_1_oe" 0 51.64 3493 -818 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_7_oe" 0 51.64 -207 -590 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "right_0" 0 84.688 3487 -566 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "left_7" 0 84.688 -207 -492 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "right_0_oe" 0 51.64 3493 -468 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "GND" 54 60122.3 -206 -3396 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28968 976 298284 28408 0 0 0 0 0 0 0 0
+equiv "GND" "GND"
+node "left_8_oe" 0 51.64 -207 -240 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "left_8" 0 84.688 -207 -142 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "phi1" 0 62.258 477 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 32 0 0 0 0 0 0 0 0 0 0
+node "m1_1056_7#" 0 50.446 1056 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0 0 0 0 0 0 0 0 0
+node "m1_706_7#" 0 50.446 706 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0 0 0 0 0 0 0 0 0
+node "m1_356_7#" 0 50.446 356 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 28 0 0 0 0 0 0 0 0 0 0
+node "top_5" 0 57.148 3254 96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 30 0 0 0 0 0 0 0 0 0 0
+node "top_5_oe" 0 51.64 3156 97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "top_4" 0 57.148 2904 96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 30 0 0 0 0 0 0 0 0 0 0
+node "top_4_oe" 0 51.64 2806 97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "top_3" 0 57.148 2554 96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 30 0 0 0 0 0 0 0 0 0 0
+node "top_3_oe" 0 51.64 2456 97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "top_2" 0 57.148 2204 96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 30 0 0 0 0 0 0 0 0 0 0
+node "top_2_oe" 0 51.64 2106 97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "top_1" 0 57.148 1854 96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 30 0 0 0 0 0 0 0 0 0 0
+node "top_1_oe" 0 51.64 1756 97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "top_0" 0 68.164 1504 94 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 34 0 0 0 0 0 0 0 0 0 0
+node "top_0_oe" 0 51.64 1406 97 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "reset" 0 112.228 1154 94 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 50 0 0 0 0 0 0 0 0 0 0
+node "phi1" 0 84.688 804 96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "phi0" 0 84.688 454 94 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 40 0 0 0 0 0 0 0 0 0 0
+node "Vdd" 29 95037.9 -1 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28968 976 581760 29088 0 0 0 0 0 0 0 0
+equiv "Vdd" "Vdd"
+cap "GND" "Vdd" 9389.72
+cap "GND" "m1_356_7#" 17.421
+cap "GND" "m1_706_7#" 17.421
+cap "GND" "m1_1056_7#" 17.421
+cap "pad_7[8]/GND" "pad_7[8]/a_197_n9#" 7.412
+cap "pad_7[8]/GND" "pad_7[8]/out" 2.144
+cap "pad_7[8]/Vdd" "pad_7[8]/in" 50.72
+cap "pad_7[8]/GND" "pad_7[8]/inout" 7.412
+cap "pad_7[8]/GND" "pad_7[8]/a_146_n9#" 7.467
+cap "pad_7[8]/GND" "pad_7[8]/in" 31.755
+cap "pad_7[8]/GND" "pad_7[8]/a_109_n9#" 1.072
+cap "pad_7[8]/Vdd" "pad_7[8]/Vdd" 19.084
+cap "pad_7[8]/a_99_n9#" "pad_7[8]/GND" 8.484
+cap "pad_7[8]/out" "pad_7[8]/GND" -3.672
+cap "pad_7[8]/GND" "pad_7[8]/a_109_n9#" 6.34
+cap "pad_7[8]/oe" "pad_7[8]/GND" 1.072
+cap "pad_7[8]/GND" "pad_7[8]/GND" 13.782
+cap "pad_7[8]/GND" "pad_7[8]/a_127_n9#" 6.34
+subcap "bottom_7" -172.786
+cap "pad_7[7]/Vdd" "pad_7[7]/in" 50.72
+cap "pad_7[7]/inout" "pad_7[7]/GND" 1.072
+cap "pad_7[7]/in" "pad_7[7]/GND" 31.755
+cap "pad_7[7]/a_197_n9#" "pad_7[7]/GND" 7.412
+cap "pad_7[7]/GND" "pad_7[7]/out" 2.144
+cap "pad_7[7]/GND" "pad_7[7]/a_127_n9#" 6.34
+cap "pad_7[7]/GND" "pad_7[7]/inout" 6.34
+cap "pad_7[7]/GND" "pad_7[7]/oe" 1.072
+cap "pad_7[7]/GND" "pad_7[7]/a_146_n9#" 7.467
+cap "pad_7[7]/GND" "pad_7[7]/a_99_n9#" 8.484
+cap "pad_7[7]/GND" "pad_7[7]/a_109_n9#" 7.412
+cap "pad_7[6]/in" "pad_7[6]/Vdd" 50.72
+cap "pad_7[6]/GND" "pad_7[6]/a_197_n9#" 7.412
+cap "pad_7[6]/GND" "pad_7[6]/out" 2.144
+cap "pad_7[6]/GND" "pad_7[6]/inout" 7.412
+cap "pad_7[6]/in" "pad_7[6]/GND" 31.755
+cap "pad_7[6]/GND" "pad_7[6]/a_146_n9#" 7.467
+cap "pad_7[6]/a_109_n9#" "pad_7[6]/GND" 1.072
+cap "pad_7[6]/GND" "pad_7[6]/a_127_n9#" 6.34
+cap "pad_7[6]/a_99_n9#" "pad_7[6]/GND" 8.484
+cap "pad_7[6]/out" "pad_7[6]/GND" -3.672
+cap "pad_7[6]/GND" "pad_7[6]/a_109_n9#" 6.34
+cap "pad_7[6]/GND" "pad_7[6]/GND" 13.782
+cap "pad_7[6]/oe" "pad_7[6]/GND" 1.072
+cap "pad_7[6]/Vdd" "pad_7[6]/Vdd" 19.084
+subcap "bottom_5" -172.786
+cap "pad_7[5]/GND" "pad_7[5]/in" 31.755
+cap "pad_7[5]/Vdd" "pad_7[5]/in" 50.72
+cap "pad_7[5]/GND" "pad_7[5]/inout" 1.072
+cap "pad_7[5]/GND" "pad_7[5]/a_197_n9#" 7.412
+cap "pad_7[5]/a_99_n9#" "pad_7[5]/GND" 8.484
+cap "pad_7[5]/GND" "pad_7[5]/out" 2.144
+cap "pad_7[5]/a_109_n9#" "pad_7[5]/GND" 7.412
+cap "pad_7[5]/inout" "pad_7[5]/GND" 6.34
+cap "pad_7[5]/a_127_n9#" "pad_7[5]/GND" 6.34
+cap "pad_7[5]/GND" "pad_7[5]/a_146_n9#" 7.467
+cap "pad_7[5]/oe" "pad_7[5]/GND" 1.072
+cap "pad_7[4]/a_197_n9#" "pad_7[4]/GND" 7.412
+cap "pad_7[4]/in" "pad_7[4]/Vdd" 50.72
+cap "pad_7[4]/out" "pad_7[4]/GND" 2.144
+cap "pad_7[4]/inout" "pad_7[4]/GND" 7.412
+cap "pad_7[4]/a_146_n9#" "pad_7[4]/GND" 7.467
+cap "pad_7[4]/in" "pad_7[4]/GND" 31.755
+cap "pad_7[4]/a_109_n9#" "pad_7[4]/GND" 1.072
+cap "pad_7[4]/a_99_n9#" "pad_7[4]/GND" 8.484
+cap "pad_7[4]/Vdd" "pad_7[4]/Vdd" 19.084
+cap "pad_7[4]/oe" "pad_7[4]/GND" 1.072
+cap "pad_7[4]/GND" "pad_7[4]/a_109_n9#" 6.34
+cap "pad_7[4]/out" "pad_7[4]/GND" -3.672
+cap "pad_7[4]/GND" "pad_7[4]/GND" 13.782
+cap "pad_7[4]/GND" "pad_7[4]/a_127_n9#" 6.34
+subcap "bottom_3" -172.786
+cap "pad_7[3]/GND" "pad_7[3]/a_197_n9#" 7.412
+cap "pad_7[3]/GND" "pad_7[3]/in" 31.755
+cap "pad_7[3]/inout" "pad_7[3]/GND" 1.072
+cap "pad_7[3]/Vdd" "pad_7[3]/in" 50.72
+cap "pad_7[3]/oe" "pad_7[3]/GND" 1.072
+cap "pad_7[3]/a_146_n9#" "pad_7[3]/GND" 7.467
+cap "pad_7[3]/a_99_n9#" "pad_7[3]/GND" 8.484
+cap "pad_7[3]/a_109_n9#" "pad_7[3]/GND" 7.412
+cap "pad_7[3]/a_127_n9#" "pad_7[3]/GND" 6.34
+cap "pad_7[3]/out" "pad_7[3]/GND" 2.144
+cap "pad_7[3]/inout" "pad_7[3]/GND" 6.34
+cap "pad_7[2]/GND" "pad_7[2]/in" 31.755
+cap "pad_7[2]/inout" "pad_7[2]/GND" 7.412
+cap "pad_7[2]/GND" "pad_7[2]/out" 2.144
+cap "pad_7[2]/Vdd" "pad_7[2]/in" 50.72
+cap "pad_7[2]/a_109_n9#" "pad_7[2]/GND" 1.072
+cap "pad_7[2]/GND" "pad_7[2]/a_146_n9#" 7.467
+cap "pad_7[2]/a_197_n9#" "pad_7[2]/GND" 7.412
+cap "pad_7[2]/oe" "pad_7[2]/GND" 1.072
+cap "pad_7[2]/GND" "pad_7[2]/a_127_n9#" 6.34
+cap "pad_7[2]/GND" "pad_7[2]/GND" 13.782
+cap "pad_7[2]/Vdd" "pad_7[2]/Vdd" 19.084
+cap "pad_7[2]/a_99_n9#" "pad_7[2]/GND" 8.484
+cap "pad_7[2]/GND" "pad_7[2]/a_109_n9#" 6.34
+cap "pad_7[2]/out" "pad_7[2]/GND" -3.672
+subcap "bottom_1" -172.786
+cap "pad_7[1]/in" "pad_7[1]/Vdd" 50.72
+cap "pad_7[1]/in" "pad_7[1]/GND" 31.755
+cap "pad_7[1]/GND" "pad_7[1]/a_197_n9#" 7.412
+cap "pad_7[1]/GND" "pad_7[1]/inout" 1.072
+cap "pad_7[1]/GND" "pad_7[1]/a_99_n9#" 8.484
+cap "pad_7[1]/oe" "pad_7[1]/GND" 1.072
+cap "pad_7[1]/a_146_n9#" "pad_7[1]/GND" 7.467
+cap "pad_7[1]/GND" "pad_7[1]/a_127_n9#" 6.34
+cap "pad_7[1]/GND" "pad_7[1]/inout" 6.34
+cap "pad_7[1]/a_109_n9#" "pad_7[1]/GND" 7.412
+cap "pad_7[1]/out" "pad_7[1]/GND" 2.144
+cap "pad_7[0]/Vdd" "pad_7[0]/in" 50.72
+cap "pad_7[0]/GND" "pad_7[0]/inout" 7.412
+cap "pad_7[0]/GND" "pad_7[0]/a_146_n9#" 7.467
+cap "pad_7[0]/GND" "pad_7[0]/a_109_n9#" 1.072
+cap "pad_7[0]/GND" "pad_7[0]/in" 31.755
+cap "pad_7[0]/GND" "pad_7[0]/a_197_n9#" 7.412
+cap "pad_7[0]/GND" "pad_7[0]/out" 2.144
+cap "pad_7[0]/a_109_n9#" "pad_7[0]/GND" 6.34
+cap "pad_7[0]/a_99_n9#" "pad_7[0]/GND" 8.484
+cap "pad_7[0]/out" "pad_7[0]/GND" -3.672
+cap "pad_7[0]/GND" "pad_7[0]/GND" 13.782
+cap "pad_7[0]/a_127_n9#" "pad_7[0]/GND" 6.34
+cap "pad_7[0]/Vdd" "pad_7[0]/Vdd" 19.084
+cap "pad_7[0]/oe" "pad_7[0]/GND" 1.072
+subcap "GND" -56226.2
+subcap "right_8" -25.572
+cap "pad_6[8]/GND" "pad_6[8]/a_146_n9#" 7.467
+cap "pad_6[8]/Vdd" "pad_6[8]/in" 50.72
+cap "pad_6[8]/GND" "pad_6[8]/in" 31.755
+cap "pad_6[8]/GND" "pad_6[8]/inout" 7.412
+cap "pad_6[8]/GND" "pad_6[8]/out" 2.144
+cap "pad_6[8]/GND" "pad_6[8]/a_197_n9#" 7.412
+cap "pad_6[8]/GND" "pad_6[8]/a_109_n9#" 1.072
+subcap "right_8" -77.132
+cap "pad_6[8]/GND" "pad_6[8]/a_127_n9#" 6.34
+cap "pad_6[8]/a_109_n9#" "pad_6[8]/GND" 6.34
+cap "pad_6[8]/Vdd" "pad_6[8]/Vdd" 19.084
+cap "pad_6[8]/oe" "pad_6[8]/GND" 1.072
+cap "pad_6[8]/GND" "pad_6[8]/GND" 17.445
+cap "pad_6[8]/GND" "pad_6[8]/a_99_n9#" 8.484
+cap "pad_4[0]/GND" "pad_4[0]/a_109_n9#" 6.34
+cap "pad_4[0]/GND" "pad_4[0]/oe" 1.072
+cap "pad_4[0]/GND" "pad_4[0]/GND" 16.683
+cap "pad_4[0]/Vdd" "pad_4[0]/Vdd" 19.084
+cap "pad_4[0]/a_99_n9#" "pad_4[0]/GND" 8.484
+subcap "right_7" -222.294
+cap "pad_6[7]/a_197_n9#" "pad_6[7]/GND" 7.412
+cap "pad_6[7]/GND" "pad_6[7]/inout" 1.072
+cap "pad_6[7]/Vdd" "pad_6[7]/in" 50.72
+cap "pad_6[7]/GND" "pad_6[7]/in" 31.755
+subcap "right_7" -59.222
+cap "pad_4[0]/GND" "pad_4[0]/a_109_n9#" 1.072
+cap "pad_4[0]/GND" "pad_4[0]/a_146_n9#" 7.467
+cap "pad_4[0]/GND" "pad_4[0]/inout" 7.412
+cap "pad_4[0]/GND" "pad_4[0]/in" 31.755
+cap "pad_4[0]/GND" "pad_4[0]/a_127_n9#" 6.34
+cap "pad_4[0]/Vdd" "pad_4[0]/in" 50.72
+cap "pad_4[0]/GND" "pad_4[0]/a_197_n9#" 7.412
+cap "pad_4[0]/GND" "pad_4[0]/out" 2.144
+cap "pad_6[7]/GND" "pad_6[7]/a_127_n9#" 6.34
+cap "pad_6[7]/GND" "pad_6[7]/inout" 6.34
+cap "pad_6[7]/GND" "pad_6[7]/a_99_n9#" 8.484
+cap "pad_6[7]/GND" "pad_6[7]/a_146_n9#" 7.467
+cap "pad_6[7]/GND" "pad_6[7]/a_109_n9#" 7.412
+cap "pad_6[7]/GND" "pad_6[7]/oe" 1.072
+cap "pad_6[7]/GND" "pad_6[7]/out" 2.144
+cap "pad_4[1]/GND" "pad_4[1]/oe" 1.072
+cap "pad_4[1]/GND" "pad_4[1]/a_146_n9#" 7.467
+cap "pad_4[1]/inout" "pad_4[1]/GND" 6.34
+cap "pad_4[1]/GND" "pad_4[1]/a_99_n9#" 8.484
+cap "pad_4[1]/a_127_n9#" "pad_4[1]/GND" 6.34
+cap "pad_4[1]/GND" "pad_4[1]/out" 2.144
+cap "pad_4[1]/GND" "pad_4[1]/a_109_n9#" 7.412
+subcap "right_6" -25.572
+cap "pad_6[6]/GND" "pad_6[6]/a_146_n9#" 7.467
+cap "pad_6[6]/GND" "pad_6[6]/in" 31.755
+cap "pad_6[6]/GND" "pad_6[6]/inout" 7.412
+cap "pad_6[6]/GND" "pad_6[6]/out" 2.144
+cap "pad_6[6]/GND" "pad_6[6]/a_197_n9#" 7.412
+cap "pad_6[6]/GND" "pad_6[6]/a_109_n9#" 1.072
+cap "pad_6[6]/in" "pad_6[6]/Vdd" 50.72
+subcap "right_6" -77.132
+cap "pad_4[1]/GND" "pad_4[1]/a_197_n9#" 7.412
+cap "pad_4[1]/GND" "pad_4[1]/inout" 1.072
+cap "pad_4[1]/Vdd" "pad_4[1]/in" 50.72
+cap "pad_4[1]/GND" "pad_4[1]/in" 31.755
+cap "pad_6[6]/GND" "pad_6[6]/a_99_n9#" 8.484
+cap "pad_6[6]/GND" "pad_6[6]/GND" 17.445
+cap "pad_6[6]/oe" "pad_6[6]/GND" 1.072
+cap "pad_6[6]/GND" "pad_6[6]/a_109_n9#" 6.34
+cap "pad_6[6]/GND" "pad_6[6]/a_127_n9#" 6.34
+cap "pad_6[6]/Vdd" "pad_6[6]/Vdd" 19.084
+cap "pad_4[2]/GND" "pad_4[2]/oe" 1.072
+cap "pad_4[2]/GND" "pad_4[2]/GND" 16.683
+cap "pad_4[2]/a_99_n9#" "pad_4[2]/GND" 8.484
+cap "pad_4[2]/Vdd" "pad_4[2]/Vdd" 19.084
+cap "pad_4[2]/GND" "pad_4[2]/a_109_n9#" 6.34
+subcap "right_5" -222.294
+cap "pad_6[5]/GND" "pad_6[5]/in" 31.755
+cap "pad_6[5]/GND" "pad_6[5]/a_197_n9#" 7.412
+cap "pad_6[5]/in" "pad_6[5]/Vdd" 50.72
+cap "pad_6[5]/GND" "pad_6[5]/inout" 1.072
+subcap "right_5" -59.222
+cap "pad_4[2]/inout" "pad_4[2]/GND" 7.412
+cap "pad_4[2]/out" "pad_4[2]/GND" 2.144
+cap "pad_4[2]/a_109_n9#" "pad_4[2]/GND" 1.072
+cap "pad_4[2]/GND" "pad_4[2]/in" 31.755
+cap "pad_4[2]/a_127_n9#" "pad_4[2]/GND" 6.34
+cap "pad_4[2]/a_197_n9#" "pad_4[2]/GND" 7.412
+cap "pad_4[2]/Vdd" "pad_4[2]/in" 50.72
+cap "pad_4[2]/a_146_n9#" "pad_4[2]/GND" 7.467
+cap "pad_6[5]/GND" "pad_6[5]/inout" 6.34
+cap "pad_6[5]/GND" "pad_6[5]/a_99_n9#" 8.484
+cap "pad_6[5]/GND" "pad_6[5]/a_146_n9#" 7.467
+cap "pad_6[5]/GND" "pad_6[5]/a_109_n9#" 7.412
+cap "pad_6[5]/GND" "pad_6[5]/oe" 1.072
+cap "pad_6[5]/GND" "pad_6[5]/out" 2.144
+cap "pad_6[5]/GND" "pad_6[5]/a_127_n9#" 6.34
+cap "pad_4[3]/GND" "pad_4[3]/a_146_n9#" 7.467
+cap "pad_4[3]/GND" "pad_4[3]/a_99_n9#" 8.484
+cap "pad_4[3]/GND" "pad_4[3]/out" 2.144
+cap "pad_4[3]/a_127_n9#" "pad_4[3]/GND" 6.34
+cap "pad_4[3]/GND" "pad_4[3]/a_109_n9#" 7.412
+cap "pad_4[3]/GND" "pad_4[3]/oe" 1.072
+cap "pad_4[3]/GND" "pad_4[3]/inout" 6.34
+subcap "right_4" -25.572
+cap "pad_6[4]/GND" "pad_6[4]/inout" 7.412
+cap "pad_6[4]/GND" "pad_6[4]/out" 2.144
+cap "pad_6[4]/GND" "pad_6[4]/a_197_n9#" 7.412
+cap "pad_6[4]/GND" "pad_6[4]/a_109_n9#" 1.072
+cap "pad_6[4]/Vdd" "pad_6[4]/in" 50.72
+cap "pad_6[4]/GND" "pad_6[4]/a_146_n9#" 7.467
+cap "pad_6[4]/GND" "pad_6[4]/in" 31.755
+subcap "right_4" -77.132
+cap "pad_4[3]/GND" "pad_4[3]/a_197_n9#" 7.412
+cap "pad_4[3]/Vdd" "pad_4[3]/in" 50.72
+cap "pad_4[3]/GND" "pad_4[3]/in" 31.755
+cap "pad_4[3]/GND" "pad_4[3]/inout" 1.072
+cap "pad_6[4]/GND" "pad_6[4]/a_109_n9#" 6.34
+cap "pad_6[4]/GND" "pad_6[4]/GND" 17.445
+cap "pad_6[4]/Vdd" "pad_6[4]/Vdd" 19.084
+cap "pad_6[4]/oe" "pad_6[4]/GND" 1.072
+cap "pad_6[4]/GND" "pad_6[4]/a_127_n9#" 6.34
+cap "pad_6[4]/GND" "pad_6[4]/a_99_n9#" 8.484
+cap "pad_4[4]/a_99_n9#" "pad_4[4]/GND" 8.484
+cap "pad_4[4]/GND" "pad_4[4]/a_109_n9#" 6.34
+cap "pad_4[4]/Vdd" "pad_4[4]/Vdd" 19.084
+cap "pad_4[4]/GND" "pad_4[4]/GND" 16.683
+cap "pad_4[4]/GND" "pad_4[4]/oe" 1.072
+subcap "right_3" -222.294
+cap "pad_6[3]/inout" "pad_6[3]/GND" 1.072
+cap "pad_6[3]/a_197_n9#" "pad_6[3]/GND" 7.412
+cap "pad_6[3]/in" "pad_6[3]/GND" 31.755
+cap "pad_6[3]/in" "pad_6[3]/Vdd" 50.72
+subcap "right_3" -59.222
+cap "pad_4[4]/a_197_n9#" "pad_4[4]/GND" 7.412
+cap "pad_4[4]/a_146_n9#" "pad_4[4]/GND" 7.467
+cap "pad_4[4]/inout" "pad_4[4]/GND" 7.412
+cap "pad_4[4]/Vdd" "pad_4[4]/in" 50.72
+cap "pad_4[4]/out" "pad_4[4]/GND" 2.144
+cap "pad_4[4]/in" "pad_4[4]/GND" 31.755
+cap "pad_4[4]/a_109_n9#" "pad_4[4]/GND" 1.072
+cap "pad_4[4]/a_127_n9#" "pad_4[4]/GND" 6.34
+cap "pad_6[3]/GND" "pad_6[3]/a_109_n9#" 7.412
+cap "pad_6[3]/GND" "pad_6[3]/oe" 1.072
+cap "pad_6[3]/GND" "pad_6[3]/out" 2.144
+cap "pad_6[3]/GND" "pad_6[3]/a_127_n9#" 6.34
+cap "pad_6[3]/GND" "pad_6[3]/inout" 6.34
+cap "pad_6[3]/GND" "pad_6[3]/a_99_n9#" 8.484
+cap "pad_6[3]/GND" "pad_6[3]/a_146_n9#" 7.467
+cap "pad_4[5]/GND" "pad_4[5]/a_99_n9#" 8.484
+cap "pad_4[5]/GND" "pad_4[5]/out" 2.144
+cap "pad_4[5]/inout" "pad_4[5]/GND" 6.34
+cap "pad_4[5]/GND" "pad_4[5]/a_109_n9#" 7.412
+cap "pad_4[5]/GND" "pad_4[5]/oe" 1.072
+cap "pad_4[5]/GND" "pad_4[5]/a_127_n9#" 6.34
+cap "pad_4[5]/GND" "pad_4[5]/a_146_n9#" 7.467
+subcap "right_2" -25.572
+cap "pad_6[2]/GND" "pad_6[2]/a_146_n9#" 7.467
+cap "pad_6[2]/GND" "pad_6[2]/in" 31.755
+cap "pad_6[2]/GND" "pad_6[2]/inout" 7.412
+cap "pad_6[2]/GND" "pad_6[2]/out" 2.144
+cap "pad_6[2]/GND" "pad_6[2]/a_197_n9#" 7.412
+cap "pad_6[2]/Vdd" "pad_6[2]/in" 50.72
+cap "pad_6[2]/GND" "pad_6[2]/a_109_n9#" 1.072
+subcap "right_2" -77.132
+cap "pad_4[5]/in" "pad_4[5]/GND" 31.755
+cap "pad_4[5]/a_197_n9#" "pad_4[5]/GND" 7.412
+cap "pad_4[5]/GND" "pad_4[5]/inout" 1.072
+cap "pad_4[5]/in" "pad_4[5]/Vdd" 50.72
+cap "pad_6[2]/GND" "pad_6[2]/a_127_n9#" 6.34
+cap "pad_6[2]/Vdd" "pad_6[2]/Vdd" 19.084
+cap "pad_6[2]/GND" "pad_6[2]/a_99_n9#" 8.484
+cap "pad_6[2]/GND" "pad_6[2]/a_109_n9#" 6.34
+cap "pad_6[2]/oe" "pad_6[2]/GND" 1.072
+cap "pad_6[2]/GND" "pad_6[2]/GND" 17.445
+cap "pad_4[6]/GND" "pad_4[6]/oe" 1.072
+cap "pad_4[6]/GND" "pad_4[6]/GND" 16.683
+cap "pad_4[6]/Vdd" "pad_4[6]/Vdd" 19.084
+cap "pad_4[6]/a_99_n9#" "pad_4[6]/GND" 8.484
+cap "pad_4[6]/GND" "pad_4[6]/a_109_n9#" 6.34
+subcap "right_1" -222.294
+cap "pad_6[1]/in" "pad_6[1]/Vdd" 50.72
+cap "pad_6[1]/in" "pad_6[1]/GND" 31.755
+cap "pad_6[1]/a_197_n9#" "pad_6[1]/GND" 7.412
+cap "pad_6[1]/GND" "pad_6[1]/inout" 1.072
+subcap "right_1" -59.222
+cap "pad_4[6]/GND" "pad_4[6]/a_127_n9#" 6.34
+cap "pad_4[6]/a_197_n9#" "pad_4[6]/GND" 7.412
+cap "pad_4[6]/GND" "pad_4[6]/a_146_n9#" 7.467
+cap "pad_4[6]/GND" "pad_4[6]/inout" 7.412
+cap "pad_4[6]/GND" "pad_4[6]/in" 31.755
+cap "pad_4[6]/Vdd" "pad_4[6]/in" 50.72
+cap "pad_4[6]/GND" "pad_4[6]/out" 2.144
+cap "pad_4[6]/GND" "pad_4[6]/a_109_n9#" 1.072
+cap "pad_6[1]/GND" "pad_6[1]/inout" 6.34
+cap "pad_6[1]/GND" "pad_6[1]/a_127_n9#" 6.34
+cap "pad_6[1]/GND" "pad_6[1]/a_146_n9#" 7.467
+cap "pad_6[1]/GND" "pad_6[1]/oe" 1.072
+cap "pad_6[1]/GND" "pad_6[1]/a_109_n9#" 7.412
+cap "pad_6[1]/GND" "pad_6[1]/out" 2.144
+cap "pad_6[1]/a_99_n9#" "pad_6[1]/GND" 8.484
+cap "pad_4[7]/GND" "pad_4[7]/inout" 6.34
+cap "pad_4[7]/GND" "pad_4[7]/a_127_n9#" 6.34
+cap "pad_4[7]/GND" "pad_4[7]/a_99_n9#" 8.484
+cap "pad_4[7]/GND" "pad_4[7]/a_109_n9#" 7.412
+cap "pad_4[7]/a_146_n9#" "pad_4[7]/GND" 7.467
+cap "pad_4[7]/GND" "pad_4[7]/oe" 1.072
+cap "pad_4[7]/GND" "pad_4[7]/out" 2.144
+subcap "right_0" -25.572
+cap "pad_6[0]/GND" "pad_6[0]/a_197_n9#" 7.412
+cap "pad_6[0]/GND" "pad_6[0]/inout" 7.412
+cap "pad_6[0]/GND" "pad_6[0]/in" 31.755
+cap "pad_6[0]/Vdd" "pad_6[0]/in" 50.72
+cap "pad_6[0]/out" "pad_6[0]/GND" 2.144
+cap "pad_6[0]/GND" "pad_6[0]/a_146_n9#" 7.467
+cap "pad_6[0]/GND" "pad_6[0]/a_109_n9#" 1.072
+subcap "right_0" -77.132
+cap "pad_4[7]/GND" "pad_4[7]/a_197_n9#" 7.412
+cap "pad_4[7]/in" "pad_4[7]/GND" 31.755
+cap "pad_4[7]/GND" "pad_4[7]/inout" 1.072
+cap "pad_4[7]/in" "pad_4[7]/Vdd" 50.72
+cap "pad_6[0]/GND" "pad_6[0]/a_99_n9#" 8.484
+cap "pad_6[0]/GND" "pad_6[0]/a_109_n9#" 6.34
+cap "pad_6[0]/GND" "pad_6[0]/oe" 1.072
+cap "pad_6[0]/Vdd" "pad_6[0]/Vdd" 19.084
+cap "pad_6[0]/GND" "pad_6[0]/GND" 17.445
+cap "pad_6[0]/GND" "pad_6[0]/a_127_n9#" 6.34
+cap "pad_4[8]/GND" "pad_4[8]/a_109_n9#" 6.34
+cap "pad_4[8]/GND" "pad_4[8]/oe" 1.072
+cap "pad_4[8]/GND" "pad_4[8]/GND" 16.683
+cap "pad_4[8]/a_99_n9#" "pad_4[8]/GND" 8.484
+cap "pad_4[8]/Vdd" "pad_4[8]/Vdd" 19.084
+cap "pad_4[8]/in" "pad_4[8]/Vdd" 50.72
+cap "pad_4[8]/GND" "pad_4[8]/a_197_n9#" 7.412
+cap "pad_4[8]/GND" "pad_4[8]/in" 31.755
+cap "pad_4[8]/GND" "pad_4[8]/a_127_n9#" 6.34
+cap "pad_4[8]/GND" "pad_4[8]/a_146_n9#" 7.467
+cap "pad_4[8]/GND" "pad_4[8]/inout" 7.412
+cap "pad_4[8]/GND" "pad_4[8]/out" 2.144
+cap "pad_4[8]/GND" "pad_4[8]/a_109_n9#" 1.072
+subcap "phi1" -73.004
+subcap "Vdd" -91170.7
+cap "pad_5[0]/GND" "pad_5[0]/oe" 22.403
+cap "pad_5[0]/Vdd" "pad_5[0]/Vdd" 19.084
+cap "pad_5[0]/oe" "pad_5[0]/a_109_n9#" 6.34
+cap "pad_5[0]/oe" "pad_5[0]/a_99_n9#" 8.484
+subcap "phi0" -25.572
+cap "pad_5[0]/GND" "pad_5[0]/out" 2.144
+cap "pad_5[0]/GND" "pad_5[0]/a_127_n9#" 6.34
+cap "pad_5[0]/GND" "pad_5[0]/a_109_n9#" 1.072
+cap "pad_5[0]/GND" "pad_5[0]/a_146_n9#" 7.467
+cap "pad_5[0]/GND" "pad_5[0]/a_197_n9#" 7.412
+cap "pad_5[0]/Vdd" "pad_5[0]/in" 50.72
+cap "pad_5[0]/GND" "pad_5[0]/in" 31.755
+cap "pad_5[0]/GND" "pad_5[0]/inout" 7.412
+cap "pad_5[1]/GND" "pad_5[1]/out" 2.144
+cap "pad_5[1]/GND" "pad_5[1]/a_146_n9#" 7.467
+cap "pad_5[1]/GND" "pad_5[1]/a_109_n9#" 7.412
+cap "pad_5[1]/a_99_n9#" "pad_5[1]/GND" 8.484
+cap "pad_5[1]/a_127_n9#" "pad_5[1]/GND" 6.34
+cap "pad_5[1]/GND" "pad_5[1]/inout" 6.34
+cap "pad_5[1]/GND" "pad_5[1]/in" 31.755
+cap "pad_5[1]/in" "pad_5[1]/Vdd" 50.72
+cap "pad_5[1]/GND" "pad_5[1]/a_197_n9#" 7.412
+cap "pad_5[1]/GND" "pad_5[1]/inout" 1.072
+cap "pad_5[2]/oe" "pad_5[2]/a_109_n9#" 6.34
+cap "pad_5[2]/Vdd" "pad_5[2]/Vdd" 19.084
+cap "pad_5[2]/a_99_n9#" "pad_5[2]/oe" 8.484
+cap "pad_5[2]/GND" "pad_5[2]/oe" 22.403
+subcap "reset" -53.112
+cap "pad_5[2]/GND" "pad_5[2]/a_127_n9#" 6.34
+cap "pad_5[2]/GND" "pad_5[2]/a_109_n9#" 1.072
+cap "pad_5[2]/Vdd" "pad_5[2]/in" 50.72
+cap "pad_5[2]/GND" "pad_5[2]/inout" 7.412
+cap "pad_5[2]/GND" "pad_5[2]/a_146_n9#" 7.467
+cap "pad_5[2]/GND" "pad_5[2]/a_197_n9#" 7.412
+cap "pad_5[2]/GND" "pad_5[2]/out" 2.144
+cap "pad_5[2]/GND" "pad_5[2]/in" 31.755
+cap "pad_5[3]/GND" "pad_5[3]/a_127_n9#" 6.34
+cap "pad_5[3]/a_109_n9#" "pad_5[3]/GND" 7.412
+cap "pad_5[3]/GND" "pad_5[3]/a_146_n9#" 7.467
+cap "pad_5[3]/out" "pad_5[3]/GND" 2.144
+cap "pad_5[3]/GND" "pad_5[3]/inout" 6.34
+cap "pad_5[3]/oe" "pad_5[3]/GND" 1.072
+cap "pad_5[3]/a_99_n9#" "pad_5[3]/GND" 8.484
+cap "pad_5[3]/inout" "pad_5[3]/GND" 1.072
+cap "pad_5[3]/GND" "pad_5[3]/in" 31.755
+cap "pad_5[3]/GND" "pad_5[3]/a_197_n9#" 7.412
+cap "pad_5[3]/Vdd" "pad_5[3]/in" 50.72
+cap "pad_5[4]/Vdd" "pad_5[4]/Vdd" 19.084
+cap "pad_5[4]/GND" "pad_5[4]/GND" 16.683
+cap "pad_5[4]/a_99_n9#" "pad_5[4]/GND" 8.484
+cap "pad_5[4]/oe" "pad_5[4]/GND" 1.072
+cap "pad_5[4]/a_109_n9#" "pad_5[4]/GND" 6.34
+cap "pad_5[4]/a_109_n9#" "pad_5[4]/GND" 1.072
+cap "pad_5[4]/GND" "pad_5[4]/a_127_n9#" 6.34
+cap "pad_5[4]/GND" "pad_5[4]/inout" 7.412
+cap "pad_5[4]/Vdd" "pad_5[4]/in" 50.72
+cap "pad_5[4]/GND" "pad_5[4]/a_146_n9#" 7.467
+cap "pad_5[4]/out" "pad_5[4]/GND" 2.144
+cap "pad_5[4]/GND" "pad_5[4]/a_197_n9#" 7.412
+cap "pad_5[4]/GND" "pad_5[4]/in" 31.755
+cap "pad_5[5]/GND" "pad_5[5]/a_109_n9#" 7.412
+cap "pad_5[5]/GND" "pad_5[5]/out" 2.144
+cap "pad_5[5]/GND" "pad_5[5]/a_146_n9#" 7.467
+cap "pad_5[5]/GND" "pad_5[5]/a_127_n9#" 6.34
+cap "pad_5[5]/GND" "pad_5[5]/inout" 6.34
+cap "pad_5[5]/GND" "pad_5[5]/oe" 1.072
+cap "pad_5[5]/GND" "pad_5[5]/a_99_n9#" 8.484
+cap "pad_5[5]/GND" "pad_5[5]/a_197_n9#" 7.412
+cap "pad_5[5]/Vdd" "pad_5[5]/in" 50.72
+cap "pad_5[5]/GND" "pad_5[5]/in" 31.755
+cap "pad_5[5]/GND" "pad_5[5]/inout" 1.072
+cap "pad_5[6]/Vdd" "pad_5[6]/Vdd" 19.084
+cap "pad_5[6]/GND" "pad_5[6]/a_99_n9#" 8.484
+cap "pad_5[6]/GND" "pad_5[6]/oe" 1.072
+cap "pad_5[6]/GND" "pad_5[6]/a_109_n9#" 6.34
+cap "pad_5[6]/GND" "pad_5[6]/GND" 16.683
+cap "pad_5[6]/Vdd" "pad_5[6]/in" 50.72
+cap "pad_5[6]/a_146_n9#" "pad_5[6]/GND" 7.467
+cap "pad_5[6]/out" "pad_5[6]/GND" 2.144
+cap "pad_5[6]/a_197_n9#" "pad_5[6]/GND" 7.412
+cap "pad_5[6]/a_127_n9#" "pad_5[6]/GND" 6.34
+cap "pad_5[6]/in" "pad_5[6]/GND" 31.755
+cap "pad_5[6]/inout" "pad_5[6]/GND" 7.412
+cap "pad_5[6]/a_109_n9#" "pad_5[6]/GND" 1.072
+cap "pad_5[7]/GND" "pad_5[7]/out" 2.144
+cap "pad_5[7]/GND" "pad_5[7]/oe" 1.072
+cap "pad_5[7]/a_99_n9#" "pad_5[7]/GND" 8.484
+cap "pad_5[7]/GND" "pad_5[7]/a_127_n9#" 6.34
+cap "pad_5[7]/GND" "pad_5[7]/a_146_n9#" 7.467
+cap "pad_5[7]/GND" "pad_5[7]/a_109_n9#" 7.412
+cap "pad_5[7]/GND" "pad_5[7]/inout" 6.34
+cap "pad_5[7]/GND" "pad_5[7]/a_197_n9#" 7.412
+cap "pad_5[7]/in" "pad_5[7]/Vdd" 50.72
+cap "pad_5[7]/GND" "pad_5[7]/in" 31.755
+cap "pad_5[7]/GND" "pad_5[7]/inout" 1.072
+cap "pad_5[8]/a_99_n9#" "pad_5[8]/GND" 8.484
+cap "pad_5[8]/oe" "pad_5[8]/GND" 1.072
+cap "pad_5[8]/a_109_n9#" "pad_5[8]/GND" 6.34
+cap "pad_5[8]/Vdd" "pad_5[8]/Vdd" 19.084
+cap "pad_5[8]/GND" "pad_5[8]/GND" 16.683
+cap "pad_5[8]/GND" "pad_5[8]/a_146_n9#" 7.467
+cap "pad_5[8]/GND" "pad_5[8]/a_127_n9#" 6.34
+cap "pad_5[8]/Vdd" "pad_5[8]/in" 50.72
+cap "pad_5[8]/GND" "pad_5[8]/inout" 7.412
+cap "pad_5[8]/GND" "pad_5[8]/in" 31.755
+cap "pad_5[8]/out" "pad_5[8]/GND" 2.144
+cap "pad_5[8]/GND" "pad_5[8]/a_197_n9#" 7.412
+cap "pad_5[8]/a_109_n9#" "pad_5[8]/GND" 1.072
+subcap "phi0" -72.548
+subcap "phi1" -50.786
+subcap "reset" -72.548
+subcap "top_0" -61.802
+subcap "top_1" -61.532
+subcap "top_2" -50.786
+subcap "top_3" -61.532
+subcap "top_4" -50.786
+subcap "top_5" -61.532
+merge "pad_5[8]/GND" "pad_5[7]/GND" -38801.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -29004 -1072 -154701 -16929 0 0 0 0 0 0 0 0
+merge "pad_5[7]/GND" "pad_5[6]/GND"
+merge "pad_5[6]/GND" "pad_5[5]/GND"
+merge "pad_5[5]/GND" "pad_5[4]/GND"
+merge "pad_5[4]/GND" "pad_5[3]/GND"
+merge "pad_5[3]/GND" "pad_5[2]/oe"
+merge "pad_5[2]/oe" "pad_5[2]/GND"
+merge "pad_5[2]/GND" "m1_1056_7#"
+merge "m1_1056_7#" "pad_5[1]/oe"
+merge "pad_5[1]/oe" "pad_5[1]/GND"
+merge "pad_5[1]/GND" "m1_706_7#"
+merge "m1_706_7#" "pad_5[0]/oe"
+merge "pad_5[0]/oe" "pad_5[0]/GND"
+merge "pad_5[0]/GND" "m1_356_7#"
+merge "m1_356_7#" "pad_4[8]/GND"
+merge "pad_4[8]/GND" "pad_6[0]/GND"
+merge "pad_6[0]/GND" "pad_4[7]/GND"
+merge "pad_4[7]/GND" "pad_6[1]/GND"
+merge "pad_6[1]/GND" "pad_4[6]/GND"
+merge "pad_4[6]/GND" "pad_6[2]/GND"
+merge "pad_6[2]/GND" "pad_4[5]/GND"
+merge "pad_4[5]/GND" "pad_6[3]/GND"
+merge "pad_6[3]/GND" "pad_4[4]/GND"
+merge "pad_4[4]/GND" "pad_6[4]/GND"
+merge "pad_6[4]/GND" "pad_4[3]/GND"
+merge "pad_4[3]/GND" "pad_6[5]/GND"
+merge "pad_6[5]/GND" "pad_4[2]/GND"
+merge "pad_4[2]/GND" "pad_6[6]/GND"
+merge "pad_6[6]/GND" "pad_4[1]/GND"
+merge "pad_4[1]/GND" "pad_6[7]/GND"
+merge "pad_6[7]/GND" "pad_4[0]/GND"
+merge "pad_4[0]/GND" "pad_6[8]/GND"
+merge "pad_6[8]/GND" "pad_7[0]/GND"
+merge "pad_7[0]/GND" "pad_7[1]/GND"
+merge "pad_7[1]/GND" "pad_7[2]/GND"
+merge "pad_7[2]/GND" "pad_7[3]/GND"
+merge "pad_7[3]/GND" "pad_7[4]/GND"
+merge "pad_7[4]/GND" "pad_7[5]/GND"
+merge "pad_7[5]/GND" "pad_7[6]/GND"
+merge "pad_7[6]/GND" "pad_7[7]/GND"
+merge "pad_7[7]/GND" "pad_7[8]/GND"
+merge "pad_7[8]/GND" "GND"
+merge "pad_4[4]/inout" "left_4" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[7]/oe" "top_4_oe" -71.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[8]/Vdd" "pad_5[7]/Vdd" -56749.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28968 -976 -303200 -18540 0 0 0 0 0 0 0 0
+merge "pad_5[7]/Vdd" "pad_5[6]/Vdd"
+merge "pad_5[6]/Vdd" "pad_5[5]/Vdd"
+merge "pad_5[5]/Vdd" "pad_5[4]/Vdd"
+merge "pad_5[4]/Vdd" "pad_5[3]/Vdd"
+merge "pad_5[3]/Vdd" "pad_5[2]/Vdd"
+merge "pad_5[2]/Vdd" "pad_5[1]/Vdd"
+merge "pad_5[1]/Vdd" "pad_5[0]/Vdd"
+merge "pad_5[0]/Vdd" "pad_4[8]/Vdd"
+merge "pad_4[8]/Vdd" "pad_6[0]/Vdd"
+merge "pad_6[0]/Vdd" "pad_4[7]/Vdd"
+merge "pad_4[7]/Vdd" "pad_6[1]/Vdd"
+merge "pad_6[1]/Vdd" "pad_4[6]/Vdd"
+merge "pad_4[6]/Vdd" "pad_6[2]/Vdd"
+merge "pad_6[2]/Vdd" "pad_4[5]/Vdd"
+merge "pad_4[5]/Vdd" "pad_6[3]/Vdd"
+merge "pad_6[3]/Vdd" "pad_4[4]/Vdd"
+merge "pad_4[4]/Vdd" "pad_6[4]/Vdd"
+merge "pad_6[4]/Vdd" "pad_4[3]/Vdd"
+merge "pad_4[3]/Vdd" "pad_6[5]/Vdd"
+merge "pad_6[5]/Vdd" "pad_4[2]/Vdd"
+merge "pad_4[2]/Vdd" "pad_6[6]/Vdd"
+merge "pad_6[6]/Vdd" "pad_4[1]/Vdd"
+merge "pad_4[1]/Vdd" "pad_6[7]/Vdd"
+merge "pad_6[7]/Vdd" "pad_4[0]/Vdd"
+merge "pad_4[0]/Vdd" "pad_6[8]/Vdd"
+merge "pad_6[8]/Vdd" "pad_7[0]/Vdd"
+merge "pad_7[0]/Vdd" "pad_7[1]/Vdd"
+merge "pad_7[1]/Vdd" "pad_7[2]/Vdd"
+merge "pad_7[2]/Vdd" "pad_7[3]/Vdd"
+merge "pad_7[3]/Vdd" "pad_7[4]/Vdd"
+merge "pad_7[4]/Vdd" "pad_7[5]/Vdd"
+merge "pad_7[5]/Vdd" "pad_7[6]/Vdd"
+merge "pad_7[6]/Vdd" "pad_7[7]/Vdd"
+merge "pad_7[7]/Vdd" "pad_7[8]/Vdd"
+merge "pad_7[8]/Vdd" "Vdd"
+merge "pad_6[7]/inout" "right_7" -60.474 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[5]/inout" "left_5" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[5]/oe" "top_2_oe" -71.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[5]/inout" "bottom_5" -57.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[7]/oe" "left_7_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[8]/inout" "right_8" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[0]/inout" "left_0" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[8]/oe" "top_5_oe" -71.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[6]/inout" "left_6" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[0]/oe" "right_0_oe" -65.378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -65 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[7]/inout" "left_7" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[0]/oe" "bottom_0_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[2]/inout" "reset" -62.656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -32 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[3]/oe" "right_3_oe" -51.448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[8]/inout" "left_8" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[6]/oe" "right_6_oe" -65.378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -65 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[0]/oe" "left_0_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[0]/inout" "bottom_0" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[3]/oe" "left_3_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[4]/inout" "right_4" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[3]/oe" "bottom_3_oe" -32.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[8]/inout" "top_5" -51.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -28 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[6]/oe" "left_6_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[6]/inout" "bottom_6" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[1]/inout" "left_1" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[3]/oe" "top_0_oe" -71.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[6]/oe" "bottom_6_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[1]/inout" "bottom_1" -57.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[2]/oe" "bottom_2_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[2]/inout" "bottom_2" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[3]/inout" "top_0" -62.656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -32 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[5]/oe" "bottom_5_oe" -32.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[8]/oe" "bottom_8_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[3]/inout" "bottom_3" -57.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[6]/oe" "top_3_oe" -71.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[4]/inout" "bottom_4" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[5]/inout" "right_5" -60.474 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[7]/inout" "bottom_7" -57.29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[2]/inout" "m1_n207_n2242#" -73.672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -36 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[1]/oe" "right_1_oe" -51.448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[4]/oe" "right_4_oe" -65.378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -65 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[8]/inout" "bottom_8" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[0]/inout" "right_0" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[4]/inout" "top_1" -51.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -28 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[7]/oe" "right_7_oe" -51.448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[1]/oe" "left_1_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[4]/oe" "left_4_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[2]/oe" "right_2_oe" -65.378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -65 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[6]/inout" "right_6" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[1]/inout" "pad_5[0]/in" -92.008 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -60 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[0]/in" "phi1"
+merge "pad_4[3]/inout" "left_3" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[2]/oe" "left_2_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[5]/oe" "right_5_oe" -51.448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[1]/inout" "right_1" -60.474 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[5]/inout" "top_2" -51.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -28 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[5]/oe" "left_5_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[8]/oe" "right_8_oe" -65.378 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -65 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[4]/oe" "top_1_oe" -71.348 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 -34 0 0 0 0 0 0 0 0 0 0
+merge "pad_4[8]/oe" "left_8_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[0]/inout" "phi0" -62.656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -32 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[1]/oe" "bottom_1_oe" -32.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[2]/inout" "right_2" -79.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -88 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[6]/inout" "top_3" -51.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -28 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[4]/oe" "bottom_4_oe" -46.132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_6[3]/inout" "right_3" -60.474 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41 -38 0 0 0 0 0 0 0 0 0 0
+merge "pad_7[7]/oe" "bottom_7_oe" -32.202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -26 0 0 0 0 0 0 0 0 0 0
+merge "pad_5[7]/inout" "top_4" -51.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48 -28 0 0 0 0 0 0 0 0 0 0

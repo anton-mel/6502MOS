@@ -1,0 +1,104 @@
+h Vdd!
+l GND!
+
+vector data_in    data_in7 data_in6 data_in5 data_in4 data_in3 data_in2 data_in1 data_in0
+vector data_out   data_out7 data_out6 data_out5 data_out4 data_out3 data_out2 data_out1 data_out0
+vector addr_out   addr_out15 addr_out14 addr_out13 addr_out12 addr_out11 addr_out10 addr_out9 addr_out8 addr_out7 addr_out6 addr_out5 addr_out4 addr_out3 addr_out2 addr_out1 addr_out0
+
+vector s s3 s2 s1 s0
+vector CLOCK phi1 phi0
+clock CLOCK 00 10 00 01
+
+vector rx         rx7 rx6 rx5 rx4 rx3 rx2 rx1 rx0
+vector ry         ry7 ry6 ry5 ry4 ry3 ry2 ry1 ry0
+vector rx_PCL     rx_PCL7 rx_PCL6 rx_PCL5 rx_PCL4 rx_PCL3 rx_PCL2 rx_PCL1 rx_PCL0
+
+vector fb_ctrl    fb_g3 fb_g2 fb_g1 fb_g0
+vector os_ctrl    os_s os_u
+vector as_ctrl    as_sub as_cin
+vector wz_latch_ctrl      ld_datain rfb ros ras
+vector wzaddr_latch_ctrl  rPCplus1L rPCplus1H
+vector out_latch_ctrl     rd_dataout rd_addrH rd_addrL
+vector A_ctrl     A_w A_r0 A_r1
+vector DB_ctrl    DB_w DB_r0 DB_r1
+vector X_ctrl     X_w X_r0 X_r1
+vector Y_ctrl     Y_w Y_r0 Y_r1
+vector PCL_ctrl   PCL_w PCL_r0 PCL_r1 PCL_w_sel
+vector PCH_ctrl   PCH_w PCH_r0 PCH_r1 PCH_w_sel
+vector ABL_ctrl   ABL_w ABL_r0 ABL_r1
+vector ABH_ctrl   ABH_w ABH_r0 ABH_r1 ABH_w_sel
+vector ROM_output Cflag_w rd_dataout ld_datain fb_g3 fb_g2 fb_g1 rfb as_sub as_cin ras A_r0 A_w DB_r1 DB_w X_w Y_w PCL_w_sel PCL_r0 PCL_r1 PCL_w rPCplus1L PCH_w_sel PCH_r0 PCH_r1 PCH_w ABL_r1 ABL_w ABH_w_sel ABH_r1 ABH_w rPCplus1H rd_addrL rd_addrH
+
+
+
+
+ana data_in s CLOCK addr_out data_out rx ry rx_PCL wz_latch_ctrl fb_ctrl os_ctrl as_ctrl wzaddr_latch_ctrl out_latch_ctrl A_ctrl DB_ctrl X_ctrl PCL_ctrl PCH_ctrl ABL_ctrl ABH_ctrl r_-w
+
+# reset (set rx and ry because irsim doesn't know fblock will output 0 no matter what rx and ry are)
+setvector rx 00000000
+setvector ry 00000000
+setvector s 0000
+c
+setvector rx xxxxxxxx
+setvector ry xxxxxxxx
+
+
+setvector data_in 00001111
+
+setvector s 0000
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 0001
+c
+
+setvector s 1000
+c
+
+setvector s 0001
+c
+
+setvector data_in 11111111
+setvector s 0010
+c
+
+setvector data_in 11111111
+setvector s 0100
+c
+
+setvector s 1101
+c
+
+setvector s 0001
+c
+
+setvector data_in 11111101
+setvector s 0010
+c
+
+setvector data_in 00001111
+setvector s 0101
+c
+
+setvector s 0110
+c
+
+setvector s 0001
+c
+
+
+setvector s 0001
+c
+
+setvector 

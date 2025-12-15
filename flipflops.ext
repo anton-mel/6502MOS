@@ -1,27 +1,27 @@
-timestamp 1765761713
+timestamp 1765753044
 version 8.3
 tech scmos
 style TSMC0.18um(tsmc18)from:t24i
 scale 1000 1 9
 resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
-use inv2 inv2_0 0 1 47 -1 0 -326
-use latch_one latch_one_11 1 0 15 0 1 -249
 use staticizer_one staticizer_one_11 1 0 9 0 1 -257
-use inv2 inv2_1 0 1 165 -1 0 -326
-use latch_one latch_one_10 1 0 133 0 1 -249
 use staticizer_one staticizer_one_10 1 0 127 0 1 -257
-use latch_one latch_one_9 1 0 15 0 1 -185
 use staticizer_one staticizer_one_9 1 0 9 0 1 -193
-use latch_one latch_one_8 1 0 133 0 1 -185
 use staticizer_one staticizer_one_8 1 0 127 0 1 -193
-use latch_one latch_one_7 1 0 15 0 1 -121
 use staticizer_one staticizer_one_7 1 0 9 0 1 -129
-use latch_one latch_one_6 1 0 133 0 1 -121
 use staticizer_one staticizer_one_6 1 0 127 0 1 -129
-use latch_one latch_one_5 1 0 15 0 1 -57
 use staticizer_one staticizer_one_5 1 0 9 0 1 -65
-use latch_one latch_one_4 1 0 133 0 1 -57
 use staticizer_one staticizer_one_4 1 0 127 0 1 -65
+use latch_one latch_one_11 1 0 15 0 1 -249
+use latch_one latch_one_10 1 0 133 0 1 -249
+use latch_one latch_one_9 1 0 15 0 1 -185
+use latch_one latch_one_8 1 0 133 0 1 -185
+use latch_one latch_one_7 1 0 15 0 1 -121
+use latch_one latch_one_6 1 0 133 0 1 -121
+use latch_one latch_one_5 1 0 15 0 1 -57
+use latch_one latch_one_4 1 0 133 0 1 -57
+use inv2 inv2_0 0 1 47 -1 0 -326
+use inv2 inv2_1 0 1 165 -1 0 -326
 node "m3_210_n318#" 4 219.588 210 -318 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1245 508 0 0 0 0 0 0
 node "phi1" 4 172.118 174 -314 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1225 500 0 0 0 0 0 0
 node "m3_92_n318#" 4 184.708 92 -318 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1245 508 0 0 0 0 0 0
@@ -60,56 +60,56 @@ node "a_179_n98#" 8 106.152 179 -98 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 40 26 0 0 0
 node "a_120_n98#" 8 110.466 120 -98 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 45 28 0 0 0 0 0 0 0 0 0 0
 node "a_61_n98#" 8 106.152 61 -98 pc 0 0 0 0 0 0 0 0 0 0 25 20 0 0 40 26 0 0 0 0 0 0 0 0 0 0
 node "s2'" 8 22.312 4 -95 p 0 0 0 0 0 0 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m2_7_n206#" "phi0" 36.385
-cap "Vdd!" "GND!" 1785.78
-cap "Vdd!" "m2_7_n270#" 30.045
-cap "m1_174_n316#" "phi1" 4.2
-cap "m2_7_n142#" "GND!" 36.385
-cap "m3_92_n318#" "m2_19_n119#" 36.385
-cap "GND!" "m2_19_n247#" 43.275
-cap "m3_92_n318#" "m2_19_n183#" 36.385
-cap "m3_92_n318#" "m2_7_n270#" 36.385
-cap "m1_37_n322#" "GND!" 45.48
-cap "GND!" "m2_7_n78#" 36.385
-cap "phi1" "m2_7_n206#" 36.385
-cap "m2_7_n142#" "phi0" 36.385
-cap "a_61_n98#" "phi0" 7.95
-cap "m2_19_n247#" "phi0" 36.385
-cap "a_61_n162#" "phi0" 7.95
-cap "phi1" "a_179_n98#" 7.95
-cap "m1_37_n322#" "phi0" 36.385
-cap "m2_7_n78#" "phi0" 36.385
-cap "Vdd!" "m1_173_n351#" 76.9567
-cap "GND!" "m2_19_n119#" 43.275
-cap "GND!" "m2_19_n183#" 43.275
-cap "GND!" "m2_7_n270#" 36.385
-cap "a_61_n226#" "phi0" 7.95
-cap "Vdd!" "m2_7_n206#" 30.045
-cap "m2_19_n119#" "phi0" 36.385
-cap "m2_7_n142#" "phi1" 36.385
-cap "phi1" "m2_19_n247#" 36.385
-cap "m2_19_n183#" "phi0" 36.385
-cap "phi0" "m2_7_n270#" 36.385
-cap "m1_37_n322#" "phi1" 36.385
-cap "m2_7_n78#" "phi1" 36.385
-cap "Vdd!" "m1_55_n351#" 274.951
-cap "phi1" "a_179_n290#" 7.95
-cap "m3_92_n318#" "m2_7_n206#" 36.385
-cap "phi1" "a_179_n226#" 7.95
-cap "Vdd!" "m2_7_n142#" 30.045
 cap "phi1" "m2_19_n119#" 36.385
-cap "phi1" "m2_19_n183#" 36.385
-cap "phi1" "m2_7_n270#" 36.385
-cap "Vdd!" "m1_37_n322#" 201.98
-cap "Vdd!" "m2_7_n78#" 30.045
-cap "m1_56_n319#" "phi0" 4.2
+cap "phi0" "a_61_n226#" 7.95
+cap "phi1" "a_179_n290#" 7.95
+cap "m2_7_n270#" "phi0" 36.385
+cap "phi0" "m2_19_n183#" 36.385
+cap "Vdd!" "m2_7_n206#" 30.045
+cap "phi0" "a_61_n290#" 7.95
+cap "phi0" "m1_37_n322#" 36.385
+cap "m2_7_n270#" "phi1" 36.385
+cap "m3_92_n318#" "m2_7_n206#" 36.385
+cap "m2_19_n183#" "phi1" 36.385
+cap "a_61_n162#" "phi0" 7.95
+cap "m1_37_n322#" "phi1" 36.385
+cap "Vdd!" "m2_7_n142#" 30.045
 cap "GND!" "m2_7_n206#" 36.385
-cap "a_61_n290#" "phi0" 7.95
-cap "m2_7_n142#" "m3_92_n318#" 36.385
+cap "phi1" "m1_174_n316#" 4.2
+cap "Vdd!" "m2_7_n78#" 30.045
+cap "m3_92_n318#" "m2_7_n142#" 36.385
 cap "m3_92_n318#" "m2_19_n247#" 36.385
-cap "m1_37_n322#" "m3_92_n318#" 36.385
-cap "phi1" "a_179_n162#" 7.95
 cap "m2_7_n78#" "m3_92_n318#" 36.385
+cap "m3_92_n318#" "m2_19_n119#" 36.385
+cap "GND!" "m2_7_n142#" 36.385
+cap "GND!" "m2_19_n247#" 43.275
+cap "m2_7_n78#" "GND!" 36.385
+cap "m2_7_n270#" "Vdd!" 30.045
+cap "phi0" "m2_7_n206#" 36.385
+cap "m1_55_n351#" "Vdd!" 274.951
+cap "a_179_n226#" "phi1" 7.95
+cap "GND!" "m2_19_n119#" 43.275
+cap "m2_7_n270#" "m3_92_n318#" 36.385
+cap "m2_19_n183#" "m3_92_n318#" 36.385
+cap "Vdd!" "m1_37_n322#" 201.98
+cap "phi1" "m2_7_n206#" 36.385
+cap "phi1" "a_179_n98#" 7.95
+cap "m1_37_n322#" "m3_92_n318#" 36.385
+cap "phi0" "m2_7_n142#" 36.385
+cap "m2_7_n270#" "GND!" 36.385
+cap "phi0" "m2_19_n247#" 36.385
+cap "phi0" "m2_7_n78#" 36.385
+cap "m2_19_n183#" "GND!" 43.275
+cap "phi0" "m2_19_n119#" 36.385
+cap "phi0" "a_61_n98#" 7.95
+cap "phi1" "m2_7_n142#" 36.385
+cap "Vdd!" "GND!" 1785.78
+cap "m1_37_n322#" "GND!" 45.48
+cap "phi1" "m2_19_n247#" 36.385
+cap "Vdd!" "m1_173_n351#" 76.9567
+cap "m2_7_n78#" "phi1" 36.385
+cap "a_179_n162#" "phi1" 7.95
+cap "phi0" "m1_56_n319#" 4.2
 subcap "m3_92_n318#" -174.66
 subcap "phi0" -301.341
 subcap "GND!" -326.896
@@ -118,255 +118,255 @@ subcap "m1_55_n351#" -32.258
 subcap "m1_56_n319#" -162.413
 subcap "m1_37_n322#" -556.602
 subcap "s5'" -15.364
-cap "m3_92_n318#" "inv2_0/Vdd!" 67.53
-cap "m3_92_n318#" "inv2_0/a_6_n1#" 8.136
-cap "latch_one_11/in" "inv2_0/Vdd!" 6.632
-cap "inv2_0/a_1_8#" "inv2_0/Vdd!" 70.339
-cap "inv2_0/GND!" "latch_one_11/a_30_n54#" 3.572
-cap "inv2_0/a_6_n1#" "inv2_0/Vdd!" 207.797
-cap "m3_92_n318#" "latch_one_11/out" 11.346
-cap "m3_92_n318#" "staticizer_one_9/c" 3.258
-cap "inv2_0/Vdd!" "latch_one_11/a_12_n54#" 125.616
-cap "staticizer_one_11/a_60_n45#" "latch_one_11/out" 123.131
-cap "inv2_0/GND!" "latch_one_11/a_n5_n54#" 232.62
-cap "inv2_0/a_1_8#" "latch_one_11/out" 27
-cap "m3_92_n318#" "inv2_0/GND!" 20.558
-cap "staticizer_one_11/a_77_n45#" "inv2_0/GND!" 22.893
-cap "inv2_0/Vdd!" "latch_one_11/out" 99.096
-cap "latch_one_11/in" "inv2_0/GND!" 1.42109e-14
-cap "staticizer_one_11/a_60_n45#" "inv2_0/GND!" 283.819
-cap "inv2_0/a_1_8#" "inv2_0/GND!" 91.816
-cap "inv2_0/Vdd!" "inv2_0/GND!" 262.362
-cap "latch_one_11/out" "staticizer_one_9/c" 21.19
-cap "inv2_0/a_6_n1#" "inv2_0/GND!" 6.992
-cap "inv2_0/GND!" "latch_one_11/a_12_n54#" 27.796
-cap "m3_92_n318#" "staticizer_one_11/a_77_n45#" 15.36
 cap "staticizer_one_11/a_60_n45#" "m3_92_n318#" 36.385
-cap "inv2_0/Vdd!" "latch_one_11/a_n5_n54#" 98.129
-cap "inv2_0/GND!" "latch_one_11/out" 46.802
+cap "inv2_0/GND!" "inv2_0/a_1_8#" 91.816
+cap "latch_one_11/out" "m3_92_n318#" 11.346
+cap "latch_one_11/out" "staticizer_one_9/c" 21.19
+cap "staticizer_one_11/a_77_n45#" "inv2_0/GND!" 22.893
+cap "latch_one_11/a_12_n54#" "inv2_0/GND!" 27.796
+cap "inv2_0/a_6_n1#" "inv2_0/GND!" 6.992
+cap "latch_one_11/a_n5_n54#" "inv2_0/GND!" 232.62
+cap "latch_one_11/in" "inv2_0/Vdd!" 6.632
+cap "latch_one_11/out" "inv2_0/Vdd!" 99.096
+cap "latch_one_11/a_30_n54#" "inv2_0/GND!" 3.572
+cap "staticizer_one_11/a_60_n45#" "latch_one_11/out" 123.131
+cap "m3_92_n318#" "inv2_0/GND!" 20.558
+cap "inv2_0/Vdd!" "inv2_0/a_1_8#" 70.339
+cap "staticizer_one_11/a_77_n45#" "m3_92_n318#" 15.36
+cap "inv2_0/a_6_n1#" "m3_92_n318#" 8.136
+cap "latch_one_11/out" "inv2_0/a_1_8#" 27
+cap "m3_92_n318#" "staticizer_one_9/c" 3.258
+cap "inv2_0/GND!" "inv2_0/Vdd!" 262.362
 cap "staticizer_one_11/a_77_n45#" "inv2_0/Vdd!" 78.172
+cap "staticizer_one_11/a_60_n45#" "inv2_0/GND!" 283.819
+cap "inv2_0/a_6_n1#" "inv2_0/Vdd!" 207.797
+cap "latch_one_11/a_n5_n54#" "inv2_0/Vdd!" 98.129
+cap "latch_one_11/a_12_n54#" "inv2_0/Vdd!" 125.616
+cap "m3_92_n318#" "inv2_0/Vdd!" 67.53
+cap "latch_one_11/out" "inv2_0/GND!" 46.802
+cap "latch_one_11/in" "inv2_0/GND!" 1.42109e-14
 subcap "m3_210_n318#" -250.14
 subcap "phi1" -301.341
 subcap "m1_173_n351#" -197.146
 subcap "m1_174_n316#" -161.219
 subcap "a_179_n290#" -12.982
 subcap "a_120_n290#" -77.89
-cap "inv2_1/Vdd!" "inv2_1/a_1_8#" 56.401
-cap "inv2_1/GND!" "staticizer_one_11/out" 40.319
-cap "inv2_1/a_1_8#" "latch_one_8/GND!" 0.872
-cap "inv2_1/GND!" "inv2_1/a_6_n1#" -1.42109e-14
-cap "latch_one_10/Vdd!" "inv2_1/a_1_8#" 13.938
-cap "inv2_1/GND!" "latch_one_10/a_n5_n54#" 289.538
-cap "inv2_1/GND!" "staticizer_one_10/a_60_n45#" 124.793
-cap "inv2_1/Vdd!" "inv2_1/a_6_n1#" 259.491
-cap "latch_one_10/a_12_n54#" "inv2_1/GND!" 27.796
-cap "latch_one_10/out" "staticizer_one_10/a_60_n45#" 123.131
-cap "latch_one_10/out" "inv2_1/GND!" 46.802
 cap "inv2_1/GND!" "latch_one_10/a_30_n54#" 3.572
-cap "staticizer_one_11/out" "latch_one_10/Vdd!" 144.382
-cap "inv2_1/GND!" "inv2_1/Vdd!" 111.925
-cap "inv2_1/GND!" "staticizer_one_11/a_95_n45#" 2.924
-cap "inv2_1/GND!" "inv2_1/a_1_8#" 90.944
-cap "inv2_1/GND!" "staticizer_one_11/c" 6.992
-cap "latch_one_10/out" "inv2_1/a_1_8#" 27
-cap "latch_one_10/a_12_n54#" "latch_one_10/Vdd!" 125.616
-cap "staticizer_one_11/a_77_n45#" "latch_one_10/Vdd!" 1.796
+cap "inv2_1/Vdd!" "inv2_1/a_1_8#" 56.401
+cap "latch_one_10/Vdd!" "staticizer_one_11/a_77_n45#" 1.796
+cap "staticizer_one_11/c" "inv2_1/GND!" 6.992
+cap "inv2_1/GND!" "latch_one_10/out" 46.802
+cap "latch_one_10/a_n5_n54#" "staticizer_one_11/out" 109.938
+cap "latch_one_10/Vdd!" "staticizer_one_11/out" 144.382
+cap "latch_one_8/GND!" "inv2_1/a_1_8#" 0.872
 cap "inv2_1/GND!" "staticizer_one_11/a_60_n45#" -7.344
-cap "latch_one_10/out" "latch_one_10/Vdd!" 99.096
-cap "staticizer_one_11/out" "latch_one_10/a_n5_n54#" 109.938
+cap "inv2_1/GND!" "inv2_1/Vdd!" 111.925
+cap "inv2_1/GND!" "inv2_1/a_6_n1#" -1.42109e-14
+cap "inv2_1/GND!" "staticizer_one_11/a_95_n45#" 2.924
+cap "latch_one_10/Vdd!" "latch_one_10/a_12_n54#" 125.616
+cap "inv2_1/a_6_n1#" "inv2_1/Vdd!" 259.491
+cap "latch_one_10/Vdd!" "inv2_1/a_1_8#" 13.938
+cap "staticizer_one_10/a_60_n45#" "latch_one_10/out" 123.131
+cap "inv2_1/a_1_8#" "latch_one_10/out" 27
+cap "inv2_1/GND!" "staticizer_one_11/out" 40.319
+cap "inv2_1/GND!" "latch_one_10/a_12_n54#" 27.796
+cap "latch_one_10/Vdd!" "latch_one_10/out" 99.096
+cap "inv2_1/GND!" "staticizer_one_10/a_60_n45#" 124.793
+cap "inv2_1/GND!" "latch_one_10/a_n5_n54#" 289.538
+cap "inv2_1/GND!" "inv2_1/a_1_8#" 90.944
 subcap "m3_210_n318#" -209.54
-cap "staticizer_one_10/out" "staticizer_one_8/c" 21.19
-cap "m3_210_n318#" "staticizer_one_8/c" 3.258
-cap "m3_210_n318#" "staticizer_one_10/a_77_n45#" 25.14
-cap "staticizer_one_10/out" "m3_210_n318#" 11.346
-cap "m3_210_n318#" "staticizer_one_10/c" 8.136
+cap "inv2_1/Vdd!" "staticizer_one_10/c" 109.915
+cap "staticizer_one_8/c" "m3_210_n318#" 3.258
+cap "staticizer_one_10/c" "m3_210_n318#" 8.136
 cap "m3_210_n318#" "staticizer_one_10/w_54_n57#" 8.728
+cap "staticizer_one_10/a_77_n45#" "m3_210_n318#" 25.14
+cap "staticizer_one_8/c" "staticizer_one_10/out" 21.19
+cap "staticizer_one_10/a_60_n45#" "m3_210_n318#" 36.385
 cap "staticizer_one_10/Vdd!" "m3_210_n318#" 68.402
-cap "m3_210_n318#" "staticizer_one_10/a_60_n45#" 36.385
-cap "m3_210_n318#" "staticizer_one_10/w_54_n57#" 18.948
-cap "staticizer_one_10/c" "inv2_1/Vdd!" 109.915
+cap "staticizer_one_10/w_54_n57#" "m3_210_n318#" 18.948
+cap "m3_210_n318#" "staticizer_one_10/out" 11.346
 subcap "m2_19_n247#" -271.735
 subcap "m2_19_n183#" -271.735
 subcap "s4'" -15.364
 subcap "a_61_n162#" -105.594
 subcap "s3'" -24.824
-cap "m3_92_n318#" "latch_one_9/GND!" 41.116
-cap "m3_92_n318#" "staticizer_one_9/a_60_n45#" 36.385
-cap "m3_92_n318#" "staticizer_one_9/a_77_n45#" 15.36
-cap "latch_one_7/a_12_n54#" "latch_one_9/GND!" 27.796
-cap "latch_one_7/a_n5_n54#" "latch_one_9/GND!" 232.62
-cap "latch_one_9/Vdd!" "latch_one_9/a_n5_n54#" 52.438
-cap "latch_one_9/GND!" "staticizer_one_7/Vdd!" 3.488
-cap "latch_one_7/Vdd!" "latch_one_9/GND!" 33.375
-cap "m3_92_n318#" "latch_one_9/Vdd!" 67.53
-cap "latch_one_9/GND!" "staticizer_one_9/a_60_n45#" 283.819
-cap "latch_one_7/out" "staticizer_one_7/Vdd!" 50.416
-cap "latch_one_9/c" "staticizer_one_7/Vdd!" 4.212
-cap "latch_one_9/GND!" "staticizer_one_9/a_77_n45#" 22.893
-cap "latch_one_7/a_n5_n54#" "latch_one_9/Vdd!" 46.918
-cap "latch_one_7/out" "latch_one_9/GND!" 46.802
-cap "latch_one_9/c" "latch_one_9/GND!" 185.866
-cap "latch_one_7/in" "staticizer_one_7/Vdd!" 4.208
 cap "m3_92_n318#" "staticizer_one_7/a_77_n45#" 9.24
+cap "latch_one_9/Vdd!" "latch_one_9/a_n5_n54#" 52.438
+cap "m3_92_n318#" "latch_one_9/Vdd!" 67.53
+cap "m3_92_n318#" "staticizer_one_7/Vdd!" 37.225
+cap "latch_one_9/c" "latch_one_9/GND!" 185.866
+cap "latch_one_9/GND!" "staticizer_one_7/a_77_n45#" 22.893
 cap "staticizer_one_7/c" "latch_one_9/out" 21.19
-cap "latch_one_7/out" "latch_one_9/c" 22.14
+cap "staticizer_one_7/Vdd!" "latch_one_7/out" 50.416
+cap "m3_92_n318#" "staticizer_one_9/a_60_n45#" 36.385
+cap "latch_one_9/GND!" "latch_one_9/a_30_n54#" 3.572
+cap "latch_one_9/GND!" "latch_one_9/Vdd!" 113.346
+cap "latch_one_9/Vdd!" "latch_one_9/a_12_n54#" 125.616
+cap "latch_one_9/GND!" "latch_one_7/a_30_n54#" 3.572
+cap "latch_one_9/GND!" "latch_one_9/a_n5_n54#" 232.62
+cap "m3_92_n318#" "latch_one_9/GND!" 41.116
+cap "latch_one_9/GND!" "staticizer_one_9/a_60_n45#" 283.819
+cap "latch_one_7/in" "staticizer_one_7/Vdd!" 4.208
+cap "staticizer_one_7/Vdd!" "staticizer_one_7/a_60_n45#" 2.84217e-14
+cap "latch_one_9/GND!" "latch_one_9/a_12_n54#" 27.796
+cap "latch_one_9/c" "latch_one_7/out" 22.14
+cap "latch_one_9/Vdd!" "latch_one_7/a_n5_n54#" 46.918
+cap "m3_92_n318#" "staticizer_one_7/c" 8.136
+cap "latch_one_7/in" "latch_one_9/Vdd!" 2.424
+cap "latch_one_9/GND!" "latch_one_7/a_n5_n54#" 232.62
+cap "latch_one_9/GND!" "staticizer_one_7/c" 6.992
+cap "latch_one_9/GND!" "latch_one_7/out" 46.802
+cap "latch_one_9/GND!" "latch_one_7/a_12_n54#" 27.796
+cap "latch_one_9/Vdd!" "latch_one_9/in" 6.632
+cap "m3_92_n318#" "staticizer_one_7/a_60_n45#" 36.385
+cap "latch_one_9/c" "latch_one_9/out" 27
+cap "latch_one_9/c" "staticizer_one_7/Vdd!" 4.212
 cap "latch_one_7/in" "latch_one_9/GND!" 1.42109e-14
 cap "staticizer_one_7/Vdd!" "latch_one_9/Vdd!" 4.266
-cap "m3_92_n318#" "latch_one_9/out" 11.346
-cap "latch_one_9/GND!" "latch_one_9/Vdd!" 113.346
-cap "m3_92_n318#" "staticizer_one_7/a_60_n45#" 36.385
-cap "latch_one_9/Vdd!" "staticizer_one_9/a_77_n45#" 78.172
-cap "latch_one_9/c" "latch_one_9/Vdd!" 13.938
-cap "latch_one_9/GND!" "staticizer_one_7/a_77_n45#" 22.893
-cap "latch_one_9/a_12_n54#" "latch_one_9/GND!" 27.796
 cap "m3_92_n318#" "staticizer_one_9/c" 4.878
-cap "latch_one_7/in" "latch_one_9/Vdd!" 2.424
-cap "latch_one_9/GND!" "latch_one_9/out" 46.802
-cap "latch_one_9/in" "latch_one_9/GND!" 1.42109e-14
-cap "staticizer_one_9/a_60_n45#" "latch_one_9/out" 123.131
-cap "staticizer_one_7/a_60_n45#" "staticizer_one_7/Vdd!" 2.84217e-14
-cap "latch_one_9/c" "latch_one_9/out" 27
-cap "staticizer_one_7/a_60_n45#" "latch_one_9/GND!" 283.819
-cap "m3_92_n318#" "staticizer_one_7/c" 8.136
-cap "latch_one_7/out" "staticizer_one_7/a_60_n45#" 123.131
-cap "latch_one_9/GND!" "latch_one_9/a_30_n54#" 3.572
-cap "m3_92_n318#" "staticizer_one_7/Vdd!" 37.225
-cap "latch_one_9/GND!" "staticizer_one_9/c" 6.992
-cap "latch_one_9/a_12_n54#" "latch_one_9/Vdd!" 125.616
-cap "latch_one_9/out" "latch_one_9/Vdd!" 99.096
-cap "latch_one_7/a_30_n54#" "latch_one_9/GND!" 3.572
-cap "latch_one_9/GND!" "latch_one_9/a_n5_n54#" 232.62
-cap "latch_one_9/in" "latch_one_9/Vdd!" 6.632
+cap "latch_one_9/Vdd!" "latch_one_9/out" 99.096
+cap "latch_one_9/GND!" "staticizer_one_7/a_60_n45#" 283.819
+cap "latch_one_9/Vdd!" "staticizer_one_9/a_77_n45#" 78.172
+cap "latch_one_9/GND!" "latch_one_9/in" 1.42109e-14
 cap "m3_92_n318#" "staticizer_one_7/Vdd!" 2.504
-cap "staticizer_one_7/c" "latch_one_9/GND!" 6.992
+cap "m3_92_n318#" "staticizer_one_9/a_77_n45#" 15.36
+cap "staticizer_one_9/a_60_n45#" "latch_one_9/out" 123.131
+cap "m3_92_n318#" "latch_one_9/out" 11.346
+cap "latch_one_9/GND!" "staticizer_one_9/c" 6.992
+cap "staticizer_one_7/Vdd!" "latch_one_9/GND!" 3.488
+cap "latch_one_9/GND!" "staticizer_one_9/a_77_n45#" 22.893
+cap "latch_one_9/GND!" "latch_one_9/out" 46.802
+cap "latch_one_9/c" "latch_one_9/Vdd!" 13.938
+cap "latch_one_9/GND!" "latch_one_7/Vdd!" 33.375
+cap "staticizer_one_7/a_60_n45#" "latch_one_7/out" 123.131
 subcap "a_179_n226#" -12.982
 subcap "a_120_n226#" -77.89
 subcap "a_179_n162#" -105.594
 subcap "a_120_n162#" -104.008
-cap "latch_one_8/GND!" "latch_one_8/out" 46.802
-cap "latch_one_8/a_n5_n54#" "latch_one_8/GND!" 289.538
-cap "staticizer_one_7/out" "latch_one_6/GND!" 40.319
-cap "staticizer_one_8/a_60_n45#" "latch_one_8/out" 123.131
-cap "latch_one_8/out" "latch_one_8/c" 27
-cap "latch_one_6/a_n5_n54#" "staticizer_one_7/out" 76.9567
-cap "latch_one_8/Vdd!" "latch_one_8/a_12_n54#" 125.616
-cap "latch_one_8/a_n5_n54#" "staticizer_one_9/out" 109.938
-cap "latch_one_8/a_30_n54#" "latch_one_8/GND!" 3.572
-cap "latch_one_8/GND!" "staticizer_one_9/a_95_n45#" 2.924
-cap "latch_one_8/Vdd!" "latch_one_8/c" 13.938
-cap "latch_one_6/a_12_n54#" "latch_one_6/GND!" 27.796
-cap "latch_one_8/Vdd!" "staticizer_one_9/out" 144.382
-cap "staticizer_one_7/c" "latch_one_6/GND!" 6.992
-cap "staticizer_one_6/Vdd!" "latch_one_8/c" 4.212
-cap "latch_one_8/GND!" "latch_one_8/a_12_n54#" 27.796
-cap "latch_one_6/GND!" "staticizer_one_7/a_60_n45#" -7.344
-cap "staticizer_one_6/Vdd!" "latch_one_6/out" 50.416
-cap "latch_one_6/a_n5_n54#" "staticizer_one_6/Vdd!" 2.84217e-14
-cap "staticizer_one_7/a_95_n45#" "latch_one_6/GND!" 2.924
-cap "latch_one_8/GND!" "latch_one_8/c" 92.497
-cap "staticizer_one_8/a_60_n45#" "latch_one_8/GND!" 124.793
-cap "staticizer_one_9/a_60_n45#" "latch_one_8/GND!" -7.344
-cap "latch_one_6/a_30_n54#" "latch_one_6/GND!" 3.572
-cap "staticizer_one_6/a_60_n45#" "latch_one_6/GND!" 124.793
-cap "latch_one_8/GND!" "staticizer_one_9/out" 40.319
-cap "latch_one_8/c" "latch_one_6/GND!" 93.369
-cap "staticizer_one_6/a_60_n45#" "latch_one_6/out" 123.131
-cap "latch_one_8/c" "latch_one_6/out" 22.14
+cap "staticizer_one_9/a_95_n45#" "latch_one_8/GND!" 2.924
+cap "latch_one_6/GND!" "staticizer_one_7/a_95_n45#" 2.924
+cap "latch_one_6/GND!" "latch_one_6/a_12_n54#" 27.796
 cap "latch_one_8/GND!" "staticizer_one_9/c" 6.992
-cap "latch_one_8/Vdd!" "staticizer_one_9/a_77_n45#" 1.796
-cap "latch_one_6/out" "latch_one_6/GND!" 46.802
-cap "latch_one_8/Vdd!" "latch_one_8/out" 99.096
+cap "staticizer_one_7/out" "staticizer_one_6/Vdd!" 50.28
+cap "latch_one_8/out" "staticizer_one_8/a_60_n45#" 123.131
+cap "latch_one_6/a_n5_n54#" "staticizer_one_7/out" 76.9567
+cap "latch_one_6/GND!" "staticizer_one_7/c" 6.992
+cap "staticizer_one_9/a_60_n45#" "latch_one_8/GND!" -7.344
+cap "staticizer_one_9/out" "latch_one_8/Vdd!" 144.382
 cap "latch_one_6/a_n5_n54#" "latch_one_6/GND!" 289.538
-cap "staticizer_one_6/Vdd!" "staticizer_one_7/out" 50.28
+cap "latch_one_8/Vdd!" "staticizer_one_9/a_77_n45#" 1.796
+cap "latch_one_6/a_n5_n54#" "staticizer_one_6/Vdd!" 2.84217e-14
+cap "latch_one_6/GND!" "latch_one_8/c" 93.369
+cap "latch_one_6/GND!" "staticizer_one_7/a_60_n45#" -7.344
+cap "latch_one_8/a_30_n54#" "latch_one_8/GND!" 3.572
+cap "latch_one_6/a_30_n54#" "latch_one_6/GND!" 3.572
+cap "staticizer_one_9/out" "latch_one_8/a_n5_n54#" 109.938
+cap "latch_one_8/c" "latch_one_8/Vdd!" 13.938
+cap "latch_one_8/c" "staticizer_one_6/Vdd!" 4.212
+cap "staticizer_one_9/out" "latch_one_8/GND!" 40.319
+cap "staticizer_one_6/a_60_n45#" "latch_one_6/out" 123.131
+cap "latch_one_8/c" "latch_one_8/GND!" 92.497
+cap "latch_one_8/a_n5_n54#" "latch_one_8/GND!" 289.538
+cap "latch_one_8/out" "latch_one_8/Vdd!" 99.096
+cap "latch_one_6/GND!" "latch_one_6/out" 46.802
+cap "latch_one_8/GND!" "staticizer_one_8/a_60_n45#" 124.793
+cap "latch_one_8/Vdd!" "latch_one_8/a_12_n54#" 125.616
+cap "latch_one_6/out" "staticizer_one_6/Vdd!" 50.416
+cap "latch_one_8/out" "latch_one_8/c" 27
+cap "latch_one_6/out" "latch_one_8/c" 22.14
+cap "latch_one_8/out" "latch_one_8/GND!" 46.802
+cap "latch_one_6/GND!" "staticizer_one_7/out" 40.319
+cap "latch_one_8/a_12_n54#" "latch_one_8/GND!" 27.796
+cap "staticizer_one_6/a_60_n45#" "latch_one_6/GND!" 124.793
 subcap "s3" -28.876
-cap "m3_210_n318#" "staticizer_one_6/Vdd!" 2.504
+cap "m3_210_n318#" "staticizer_one_8/c" 4.878
+cap "m3_210_n318#" "staticizer_one_8/Vdd!" 68.402
 cap "staticizer_one_6/c" "staticizer_one_8/out" 21.19
-cap "m3_210_n318#" "staticizer_one_8/w_54_n57#" 18.948
+cap "staticizer_one_6/w_54_n57#" "m3_210_n318#" 18.948
+cap "m3_210_n318#" "staticizer_one_6/a_60_n45#" 36.385
 cap "m3_210_n318#" "staticizer_one_8/a_77_n45#" 25.14
-cap "staticizer_one_6/a_60_n45#" "m3_210_n318#" 36.385
-cap "staticizer_one_8/c" "m3_210_n318#" 4.878
-cap "m3_210_n318#" "staticizer_one_6/w_54_n57#" 18.948
-cap "staticizer_one_6/a_77_n45#" "m3_210_n318#" 10.92
-cap "m3_210_n318#" "staticizer_one_6/Vdd!" 37.225
-cap "m3_210_n318#" "staticizer_one_8/a_60_n45#" 36.385
-cap "m3_210_n318#" "staticizer_one_6/c" 8.136
-cap "staticizer_one_8/Vdd!" "m3_210_n318#" 68.402
-cap "m3_210_n318#" "staticizer_one_8/out" 11.346
+cap "m3_210_n318#" "staticizer_one_6/Vdd!" 2.504
+cap "staticizer_one_8/a_60_n45#" "m3_210_n318#" 36.385
+cap "m3_210_n318#" "staticizer_one_6/a_77_n45#" 10.92
 cap "m3_210_n318#" "staticizer_one_6/w_54_n57#" 8.728
-cap "m3_210_n318#" "staticizer_one_8/w_54_n57#" 8.728
+cap "staticizer_one_8/w_54_n57#" "m3_210_n318#" 8.728
+cap "m3_210_n318#" "staticizer_one_8/out" 11.346
+cap "m3_210_n318#" "staticizer_one_6/Vdd!" 37.225
+cap "m3_210_n318#" "staticizer_one_8/w_54_n57#" 18.948
+cap "m3_210_n318#" "staticizer_one_6/c" 8.136
 subcap "m2_19_n119#" -277.835
 subcap "s3'" -135.832
 subcap "s2'" -15.364
-cap "m3_92_n318#" "staticizer_one_5/a_60_n45#" 36.385
-cap "latch_one_5/out" "latch_one_5/c" 27
-cap "latch_one_5/out" "latch_one_5/GND!" 46.802
-cap "staticizer_one_5/c" "m3_92_n318#" 8.136
-cap "latch_one_7/Vdd!" "latch_one_5/out" 99.096
-cap "latch_one_5/out" "m3_92_n318#" 6.576
-cap "latch_one_5/GND!" "latch_one_5/a_30_n54#" 3.572
-cap "latch_one_5/out" "staticizer_one_5/a_60_n45#" 123.131
-cap "latch_one_5/in" "latch_one_5/GND!" 1.42109e-14
-cap "latch_one_5/a_n5_n54#" "latch_one_5/GND!" 232.62
-cap "latch_one_7/Vdd!" "latch_one_5/in" 6.632
 cap "latch_one_7/Vdd!" "staticizer_one_7/in" 48.68
-cap "latch_one_7/Vdd!" "latch_one_5/a_n5_n54#" 52.438
-cap "latch_one_5/GND!" "latch_one_5/c" 93.369
-cap "latch_one_7/Vdd!" "staticizer_one_7/a_77_n45#" 78.172
-cap "m3_92_n318#" "staticizer_one_7/in" 11.346
-cap "latch_one_7/out" "latch_one_5/c" 5.28
+cap "latch_one_5/a_30_n54#" "latch_one_5/GND!" 3.572
+cap "staticizer_one_7/in" "staticizer_one_5/c" 21.19
+cap "latch_one_5/c" "latch_one_5/GND!" 93.369
+cap "m3_92_n318#" "staticizer_one_5/a_60_n45#" 36.385
 cap "m3_92_n318#" "staticizer_one_7/a_77_n45#" 6.12
-cap "latch_one_7/Vdd!" "latch_one_7/a_n5_n54#" 6.36
-cap "latch_one_7/Vdd!" "latch_one_5/c" 23.664
-cap "latch_one_7/Vdd!" "latch_one_5/GND!" 134.449
-cap "latch_one_5/GND!" "staticizer_one_5/a_77_n45#" 22.893
-cap "m3_92_n318#" "latch_one_5/GND!" 20.558
-cap "staticizer_one_5/c" "staticizer_one_7/in" 21.19
 cap "latch_one_5/GND!" "latch_one_5/a_12_n54#" 27.796
-cap "latch_one_7/Vdd!" "latch_one_7/a_12_n54#" 125.616
-cap "latch_one_5/GND!" "staticizer_one_5/a_60_n45#" 283.819
-cap "latch_one_7/Vdd!" "staticizer_one_5/a_77_n45#" 78.172
-cap "latch_one_7/Vdd!" "m3_92_n318#" 108.851
+cap "latch_one_7/Vdd!" "latch_one_5/GND!" 134.449
+cap "latch_one_5/GND!" "staticizer_one_5/c" 6.992
 cap "m3_92_n318#" "staticizer_one_5/a_77_n45#" 15.36
-cap "staticizer_one_5/c" "latch_one_5/GND!" 6.992
+cap "m3_92_n318#" "staticizer_one_7/in" 11.346
+cap "latch_one_5/out" "latch_one_5/GND!" 46.802
+cap "latch_one_5/c" "latch_one_7/out" 5.28
+cap "latch_one_5/c" "latch_one_7/Vdd!" 23.664
+cap "m3_92_n318#" "latch_one_5/GND!" 20.558
+cap "latch_one_5/a_n5_n54#" "latch_one_5/GND!" 232.62
 cap "latch_one_7/Vdd!" "latch_one_5/a_12_n54#" 125.616
+cap "latch_one_5/out" "latch_one_5/c" 27
+cap "latch_one_5/out" "latch_one_7/Vdd!" 99.096
+cap "staticizer_one_5/a_60_n45#" "latch_one_5/GND!" 283.819
+cap "latch_one_7/Vdd!" "latch_one_7/a_12_n54#" 125.616
+cap "latch_one_7/Vdd!" "latch_one_7/a_n5_n54#" 6.36
+cap "m3_92_n318#" "latch_one_7/Vdd!" 108.851
+cap "staticizer_one_5/a_77_n45#" "latch_one_5/GND!" 22.893
+cap "latch_one_5/in" "latch_one_5/GND!" 1.42109e-14
+cap "latch_one_5/a_n5_n54#" "latch_one_7/Vdd!" 52.438
+cap "m3_92_n318#" "staticizer_one_5/c" 8.136
+cap "latch_one_5/out" "m3_92_n318#" 6.576
+cap "latch_one_7/Vdd!" "staticizer_one_7/a_77_n45#" 78.172
+cap "latch_one_7/Vdd!" "staticizer_one_5/a_77_n45#" 78.172
+cap "latch_one_5/out" "staticizer_one_5/a_60_n45#" 123.131
+cap "latch_one_5/in" "latch_one_7/Vdd!" 6.632
 subcap "a_179_n98#" -12.982
 subcap "a_120_n98#" -77.89
-cap "staticizer_one_5/a_95_n45#" "latch_one_4/GND!" 2.924
-cap "latch_one_4/out" "staticizer_one_4/a_60_n45#" 123.131
-cap "latch_one_4/out" "latch_one_4/GND!" 46.802
-cap "latch_one_4/out" "latch_one_4/c" 27
-cap "latch_one_6/Vdd!" "latch_one_4/c" 9.726
-cap "latch_one_6/a_n5_n54#" "staticizer_one_7/out" 32.9814
-cap "latch_one_4/out" "latch_one_4/Vdd!" 99.096
-cap "staticizer_one_4/a_60_n45#" "latch_one_4/GND!" 124.793
-cap "latch_one_4/GND!" "latch_one_4/c" 93.369
-cap "latch_one_4/Vdd!" "latch_one_4/c" 13.938
-cap "latch_one_6/Vdd!" "staticizer_one_7/a_77_n45#" 1.796
-cap "staticizer_one_5/out" "latch_one_4/a_n5_n54#" 109.938
-cap "latch_one_6/out" "latch_one_4/c" 5.28
-cap "latch_one_6/Vdd!" "staticizer_one_7/out" 94.1025
-cap "latch_one_4/a_30_n54#" "latch_one_4/GND!" 3.572
 cap "latch_one_4/Vdd!" "staticizer_one_5/a_77_n45#" 1.796
-cap "latch_one_4/GND!" "latch_one_4/a_12_n54#" 27.796
+cap "latch_one_4/Vdd!" "staticizer_one_5/out" 144.382
+cap "latch_one_4/c" "latch_one_4/out" 27
+cap "latch_one_6/Vdd!" "staticizer_one_7/out" 94.1025
+cap "latch_one_4/Vdd!" "latch_one_4/c" 13.938
+cap "latch_one_6/a_12_n54#" "latch_one_6/Vdd!" 125.616
+cap "latch_one_4/GND!" "staticizer_one_5/a_60_n45#" -7.344
+cap "latch_one_4/GND!" "latch_one_4/a_30_n54#" 3.572
 cap "latch_one_4/GND!" "latch_one_4/a_n5_n54#" 289.538
 cap "latch_one_4/Vdd!" "latch_one_4/a_12_n54#" 125.616
-cap "staticizer_one_5/out" "latch_one_4/GND!" 40.319
 cap "latch_one_6/Vdd!" "staticizer_one_6/in" 48.68
-cap "staticizer_one_5/out" "latch_one_4/Vdd!" 144.382
-cap "latch_one_6/a_12_n54#" "latch_one_6/Vdd!" 125.616
-cap "staticizer_one_5/c" "latch_one_4/GND!" 6.992
-cap "staticizer_one_5/a_60_n45#" "latch_one_4/GND!" -7.344
-cap "staticizer_one_4/c" "m3_210_n318#" 8.136
+cap "staticizer_one_4/a_60_n45#" "latch_one_4/out" 123.131
+cap "latch_one_4/c" "latch_one_6/out" 5.28
+cap "latch_one_4/GND!" "staticizer_one_5/out" 40.319
+cap "latch_one_4/Vdd!" "latch_one_4/out" 99.096
+cap "latch_one_4/GND!" "latch_one_4/c" 93.369
+cap "staticizer_one_5/out" "latch_one_4/a_n5_n54#" 109.938
+cap "latch_one_4/GND!" "staticizer_one_5/c" 6.992
+cap "latch_one_6/a_n5_n54#" "staticizer_one_7/out" 32.9814
+cap "latch_one_4/GND!" "latch_one_4/a_12_n54#" 27.796
+cap "latch_one_4/GND!" "staticizer_one_4/a_60_n45#" 124.793
+cap "latch_one_4/GND!" "staticizer_one_5/a_95_n45#" 2.924
+cap "latch_one_6/Vdd!" "staticizer_one_7/a_77_n45#" 1.796
+cap "latch_one_4/GND!" "latch_one_4/out" 46.802
+cap "latch_one_6/Vdd!" "latch_one_4/c" 9.726
 cap "staticizer_one_4/w_54_n57#" "m3_210_n318#" 8.728
-cap "staticizer_one_4/w_54_n57#" "m3_210_n318#" 18.948
-cap "staticizer_one_6/Vdd!" "m3_210_n318#" 42.193
 cap "m3_210_n318#" "staticizer_one_4/Vdd!" 68.402
+cap "staticizer_one_6/Vdd!" "m3_210_n318#" 42.193
 cap "staticizer_one_6/out" "staticizer_one_4/c" 21.19
-cap "staticizer_one_6/a_77_n45#" "m3_210_n318#" 14.22
-cap "staticizer_one_4/a_60_n45#" "m3_210_n318#" 36.385
+cap "m3_210_n318#" "staticizer_one_4/out" 6.576
+cap "staticizer_one_4/w_54_n57#" "m3_210_n318#" 18.948
+cap "m3_210_n318#" "staticizer_one_4/a_60_n45#" 36.385
 cap "m3_210_n318#" "staticizer_one_4/a_77_n45#" 25.14
-cap "staticizer_one_6/out" "m3_210_n318#" 11.346
-cap "staticizer_one_4/out" "m3_210_n318#" 6.576
+cap "m3_210_n318#" "staticizer_one_4/c" 8.136
+cap "staticizer_one_6/a_77_n45#" "m3_210_n318#" 14.22
+cap "m3_210_n318#" "staticizer_one_6/out" 11.346
 merge "staticizer_one_4/in" "latch_one_4/out" -165.19 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 -10 -14 0 0 0 0 0 0 0 0 0 0
 merge "latch_one_4/out" "a_179_n98#"
 merge "latch_one_11/in" "s5'" -19.996 0 0 0 0 0 0 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0 0 0

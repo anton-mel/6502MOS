@@ -1,0 +1,25 @@
+magic
+tech scmos
+timestamp 1765766645
+<< metal5 >>
+rect 10 36 28 40
+rect 32 36 54 40
+rect 10 27 14 36
+rect 10 23 28 27
+rect 24 14 28 23
+rect 10 10 28 14
+rect 32 14 36 36
+rect 50 14 54 36
+rect 32 10 54 14
+rect 58 14 62 40
+rect 80 36 98 40
+rect 104 36 118 40
+rect 80 28 84 36
+rect 94 28 98 36
+rect 80 24 98 28
+rect 58 10 76 14
+rect 80 10 84 24
+rect 94 10 98 24
+rect 110 14 114 36
+rect 104 10 118 14
+<< end >>

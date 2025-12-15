@@ -195,10 +195,6 @@
 = flipflops_0/latch_one_6/in flipflops_0/staticizer_one_7/in
 = flipflops_0/latch_one_6/in flipflops_0/a_120_n162#
 = flipflops_0/latch_one_6/in flipflops_0/staticizer_one_7/out
-= s0 s0'
-= s0 2nor_18/out
-= s0 flipflops_0/s5'
-= s0 flipflops_0/latch_one_11/in
 = flipflops_0/staticizer_one_9/c flipflops_0/m3_92_n318#
 = flipflops_0/staticizer_one_9/c flipflops_0/staticizer_one_7/c
 = flipflops_0/staticizer_one_9/c m1_n188_257#
@@ -214,6 +210,10 @@
 = flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/in
 = flipflops_0/latch_one_4/in flipflops_0/a_120_n98#
 = flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/out
+= s0 s0'
+= s0 2nor_18/out
+= s0 flipflops_0/s5'
+= s0 flipflops_0/latch_one_11/in
 = flipflops_0/staticizer_one_8/c flipflops_0/m3_210_n318#
 = flipflops_0/staticizer_one_8/c flipflops_0/staticizer_one_6/c
 = flipflops_0/staticizer_one_8/c m1_n70_257#

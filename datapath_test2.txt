@@ -1,0 +1,5 @@
+| time = 10.000ns
+| time = 20.000ns
+| time = 30.000ns
+| time = 40.000ns
+| time = 50.000ns
