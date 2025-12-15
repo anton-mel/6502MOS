@@ -1,4 +1,52 @@
 | units: 9 tech: scmos format: MIT
+p reg_one_4/tmp reg_one_4/a_39_5# Vdd! 2 10 466 384
+p reg_one_4/a_4_n13# reg_one_4/a_54_5# reg_one_4/port0 2 10 466 369
+n reg_one_4/tmp GND! reg_one_4/a_33_32# 2 5 519 367
+n Vdd! inv_9/in reg_one_4/a_39_n13# 2 5 449 390
+n reg_one_4/a_16_27# reg_one_4/tmp reg_one_4/a_28_58# 2 5 519 401
+p reg_one_4/tmp Vdd! reg_one_4/a_54_5# 2 10 466 375
+p Vdd! Vdd! reg_one_4/a_21_n13# 2 10 466 408
+n Vdd! GND! reg_one_4/a_21_n13# 2 5 449 408
+p reg_one_4/tmp Vdd! reg_one_4/a_33_32# 2 10 496 367
+n Vdd! reg_one_4/a_54_n13# reg_one_4/port0 2 5 449 369
+n i3 GND! reg_one_4/a_12_58# 2 5 519 417
+n reg_one_4/a_33_32# reg_one_4/a_28_58# GND! 2 5 519 394
+p iwe reg_one_4/tmp reg_one_4/a_28_35# 2 10 496 401
+n iwe reg_one_4/a_12_58# reg_one_4/tmp 2 5 519 411
+n iwe reg_one_4/a_16_27# GND! 2 5 519 376
+p Vdd! reg_one_4/a_4_n13# Vdd! 2 10 466 417
+n Vdd! reg_one_4/a_4_n13# GND! 2 5 449 417
+p i3 Vdd! reg_one_4/a_12_35# 2 10 496 417
+p reg_one_4/a_33_32# reg_one_4/a_28_35# Vdd! 2 10 496 394
+p reg_one_4/a_16_27# reg_one_4/a_12_35# reg_one_4/tmp 2 10 496 411
+p reg_one_4/a_21_n13# inv_9/in reg_one_4/a_39_5# 2 10 466 390
+p iwe reg_one_4/a_16_27# Vdd! 2 10 496 376
+n reg_one_4/tmp GND! reg_one_4/a_54_n13# 2 5 449 375
+n reg_one_4/tmp reg_one_4/a_39_n13# GND! 2 5 449 384
+p reg_one_5/tmp reg_one_5/a_39_5# Vdd! 2 10 580 384
+p reg_one_5/a_4_n13# reg_one_5/a_54_5# reg_one_5/port0 2 10 580 369
+n reg_one_5/tmp GND! reg_one_5/a_33_32# 2 5 633 367
+n Vdd! inv_8/in reg_one_5/a_39_n13# 2 5 563 390
+n reg_one_5/a_16_27# reg_one_5/tmp reg_one_5/a_28_58# 2 5 633 401
+p reg_one_5/tmp Vdd! reg_one_5/a_54_5# 2 10 580 375
+p Vdd! Vdd! reg_one_5/a_21_n13# 2 10 580 408
+n Vdd! GND! reg_one_5/a_21_n13# 2 5 563 408
+p reg_one_5/tmp Vdd! reg_one_5/a_33_32# 2 10 610 367
+n Vdd! reg_one_5/a_54_n13# reg_one_5/port0 2 5 563 369
+n i2 GND! reg_one_5/a_12_58# 2 5 633 417
+n reg_one_5/a_33_32# reg_one_5/a_28_58# GND! 2 5 633 394
+p iwe reg_one_5/tmp reg_one_5/a_28_35# 2 10 610 401
+n iwe reg_one_5/a_12_58# reg_one_5/tmp 2 5 633 411
+n iwe reg_one_5/a_16_27# GND! 2 5 633 376
+p Vdd! reg_one_5/a_4_n13# Vdd! 2 10 580 417
+n Vdd! reg_one_5/a_4_n13# GND! 2 5 563 417
+p i2 Vdd! reg_one_5/a_12_35# 2 10 610 417
+p reg_one_5/a_33_32# reg_one_5/a_28_35# Vdd! 2 10 610 394
+p reg_one_5/a_16_27# reg_one_5/a_12_35# reg_one_5/tmp 2 10 610 411
+p reg_one_5/a_21_n13# inv_8/in reg_one_5/a_39_5# 2 10 580 390
+p iwe reg_one_5/a_16_27# Vdd! 2 10 610 376
+n reg_one_5/tmp GND! reg_one_5/a_54_n13# 2 5 563 375
+n reg_one_5/tmp reg_one_5/a_39_n13# GND! 2 5 563 384
 p s0o4 b0 Vdd! 2 10 21 -34
 p s0o1 Vdd! b0 2 10 -8 -34
 n s0o3 5nand_0/a_97_42# 5nand_0/a_108_42# 2 5 12 -53
@@ -9,34 +57,82 @@ p s0o5 Vdd! b0 2 10 30 -34
 p s0o2 b0 Vdd! 2 10 1 -34
 n s0o4 5nand_0/a_108_42# 5nand_0/a_117_42# 2 5 21 -53
 n s0o1 GND! 5nand_0/a_88_42# 2 5 -8 -53
+p reg_one_6/tmp reg_one_6/a_39_5# Vdd! 2 10 694 384
+p reg_one_6/a_4_n13# reg_one_6/a_54_5# reg_one_6/port0 2 10 694 369
+n reg_one_6/tmp GND! reg_one_6/a_33_32# 2 5 747 367
+n Vdd! inv_7/in reg_one_6/a_39_n13# 2 5 677 390
+n reg_one_6/a_16_27# reg_one_6/tmp reg_one_6/a_28_58# 2 5 747 401
+p reg_one_6/tmp Vdd! reg_one_6/a_54_5# 2 10 694 375
+p Vdd! Vdd! reg_one_6/a_21_n13# 2 10 694 408
+n Vdd! GND! reg_one_6/a_21_n13# 2 5 677 408
+p reg_one_6/tmp Vdd! reg_one_6/a_33_32# 2 10 724 367
+n Vdd! reg_one_6/a_54_n13# reg_one_6/port0 2 5 677 369
+n i1 GND! reg_one_6/a_12_58# 2 5 747 417
+n reg_one_6/a_33_32# reg_one_6/a_28_58# GND! 2 5 747 394
+p iwe reg_one_6/tmp reg_one_6/a_28_35# 2 10 724 401
+n iwe reg_one_6/a_12_58# reg_one_6/tmp 2 5 747 411
+n iwe reg_one_6/a_16_27# GND! 2 5 747 376
+p Vdd! reg_one_6/a_4_n13# Vdd! 2 10 694 417
+n Vdd! reg_one_6/a_4_n13# GND! 2 5 677 417
+p i1 Vdd! reg_one_6/a_12_35# 2 10 724 417
+p reg_one_6/a_33_32# reg_one_6/a_28_35# Vdd! 2 10 724 394
+p reg_one_6/a_16_27# reg_one_6/a_12_35# reg_one_6/tmp 2 10 724 411
+p reg_one_6/a_21_n13# inv_7/in reg_one_6/a_39_5# 2 10 694 390
+p iwe reg_one_6/a_16_27# Vdd! 2 10 724 376
+n reg_one_6/tmp GND! reg_one_6/a_54_n13# 2 5 677 375
+n reg_one_6/tmp reg_one_6/a_39_n13# GND! 2 5 677 384
 p s3n is_s1 Vdd! 2 10 466 130
-p s0 Vdd! is_s1 2 10 437 130
+p ff0 Vdd! is_s1 2 10 437 130
 n s2n 4nand_0/a_97_42# 4nand_0/a_108_42# 2 5 457 111
 n s1n 4nand_0/a_88_42# 4nand_0/a_97_42# 2 5 446 111
 p s2n Vdd! is_s1 2 10 457 130
 p s1n is_s1 Vdd! 2 10 446 130
 n s3n 4nand_0/a_108_42# is_s1 2 5 466 111
-n s0 GND! 4nand_0/a_88_42# 2 5 437 111
+n ff0 GND! 4nand_0/a_88_42# 2 5 437 111
+p reg_one_7/tmp reg_one_7/a_39_5# Vdd! 2 10 808 384
+p reg_one_7/a_4_n13# reg_one_7/a_54_5# reg_one_7/port0 2 10 808 369
+n reg_one_7/tmp GND! reg_one_7/a_33_32# 2 5 861 367
+n Vdd! inv_6/in reg_one_7/a_39_n13# 2 5 791 390
+n reg_one_7/a_16_27# reg_one_7/tmp reg_one_7/a_28_58# 2 5 861 401
+p reg_one_7/tmp Vdd! reg_one_7/a_54_5# 2 10 808 375
+p Vdd! Vdd! reg_one_7/a_21_n13# 2 10 808 408
+n Vdd! GND! reg_one_7/a_21_n13# 2 5 791 408
+p reg_one_7/tmp Vdd! reg_one_7/a_33_32# 2 10 838 367
+n Vdd! reg_one_7/a_54_n13# reg_one_7/port0 2 5 791 369
+n i0 GND! reg_one_7/a_12_58# 2 5 861 417
+n reg_one_7/a_33_32# reg_one_7/a_28_58# GND! 2 5 861 394
+p iwe reg_one_7/tmp reg_one_7/a_28_35# 2 10 838 401
+n iwe reg_one_7/a_12_58# reg_one_7/tmp 2 5 861 411
+n iwe reg_one_7/a_16_27# GND! 2 5 861 376
+p Vdd! reg_one_7/a_4_n13# Vdd! 2 10 808 417
+n Vdd! reg_one_7/a_4_n13# GND! 2 5 791 417
+p i0 Vdd! reg_one_7/a_12_35# 2 10 838 417
+p reg_one_7/a_33_32# reg_one_7/a_28_35# Vdd! 2 10 838 394
+p reg_one_7/a_16_27# reg_one_7/a_12_35# reg_one_7/tmp 2 10 838 411
+p reg_one_7/a_21_n13# inv_6/in reg_one_7/a_39_5# 2 10 808 390
+p iwe reg_one_7/a_16_27# Vdd! 2 10 838 376
+n reg_one_7/tmp GND! reg_one_7/a_54_n13# 2 5 791 375
+n reg_one_7/tmp reg_one_7/a_39_n13# GND! 2 5 791 384
 p s3n Vdd! inv_5/in 2 10 249 130
 n s1n 3nand_0/a_97_42# inv_5/in 2 5 270 111
-n s2 3nand_0/a_87_42# 3nand_0/a_97_42# 2 5 259 111
+n ff2 3nand_0/a_87_42# 3nand_0/a_97_42# 2 5 259 111
 p s1n Vdd! inv_5/in 2 10 270 130
 n s3n GND! 3nand_0/a_87_42# 2 5 249 111
-p s2 inv_5/in Vdd! 2 10 259 130
-p s0 inv_4/in Vdd! 2 10 214 130
+p ff2 inv_5/in Vdd! 2 10 259 130
+p ff0 inv_4/in Vdd! 2 10 214 130
 p s3n Vdd! inv_4/in 2 10 185 130
 n s1n 4nand_1/a_97_42# 4nand_1/a_108_42# 2 5 205 111
-n s2 4nand_1/a_88_42# 4nand_1/a_97_42# 2 5 194 111
+n ff2 4nand_1/a_88_42# 4nand_1/a_97_42# 2 5 194 111
 p s1n Vdd! inv_4/in 2 10 205 130
-p s2 inv_4/in Vdd! 2 10 194 130
-n s0 4nand_1/a_108_42# inv_4/in 2 5 214 111
+p ff2 inv_4/in Vdd! 2 10 194 130
+n ff0 4nand_1/a_108_42# inv_4/in 2 5 214 111
 n s3n GND! 4nand_1/a_88_42# 2 5 185 111
 p s3n s3o1 Vdd! 2 10 335 130
 p s0n Vdd! s3o1 2 10 306 130
 n s1n 4nand_2/a_97_42# 4nand_2/a_108_42# 2 5 326 111
-n s2 4nand_2/a_88_42# 4nand_2/a_97_42# 2 5 315 111
+n ff2 4nand_2/a_88_42# 4nand_2/a_97_42# 2 5 315 111
 p s1n Vdd! s3o1 2 10 326 130
-p s2 s3o1 Vdd! 2 10 315 130
+p ff2 s3o1 Vdd! 2 10 315 130
 n s3n 4nand_2/a_108_42# s3o1 2 5 335 111
 n s0n GND! 4nand_2/a_88_42# 2 5 306 111
 n s0n GND! 2nand_0/a_87_41# 2 5 105 21
@@ -44,95 +140,233 @@ p s1n s0o3 Vdd! 2 10 116 40
 p s0n Vdd! s0o3 2 10 105 40
 n s1n 2nand_0/a_87_41# s0o3 2 5 116 21
 p s2n Vdd! s0o1 2 10 -9 40
-n s0 3nand_1/a_97_42# s0o1 2 5 12 21
-n s1 3nand_1/a_87_42# 3nand_1/a_97_42# 2 5 1 21
-p s0 Vdd! s0o1 2 10 12 40
+n ff0 3nand_1/a_97_42# s0o1 2 5 12 21
+n ff1 3nand_1/a_87_42# 3nand_1/a_97_42# 2 5 1 21
+p ff0 Vdd! s0o1 2 10 12 40
 n s2n GND! 3nand_1/a_87_42# 2 5 -9 21
-p s1 s0o1 Vdd! 2 10 1 40
+p ff1 s0o1 Vdd! 2 10 1 40
+n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_10/a_77_n45# 2 5 -78 210
+p flipflops_0/staticizer_one_10/a_77_n45# flipflops_0/staticizer_one_10/a_95_n27# ff0 2 10 -54 228
+n ff0 flipflops_0/staticizer_one_10/a_60_n45# GND! 2 5 -87 210
+n flipflops_0/staticizer_one_8/c flipflops_0/staticizer_one_10/a_95_n45# ff0 2 5 -54 210
+p flipflops_0/staticizer_one_10/a_60_n45# Vdd! flipflops_0/staticizer_one_10/a_95_n27# 2 10 -60 228
+p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_10/a_77_n45# 2 10 -78 228
+p ff0 flipflops_0/staticizer_one_10/a_60_n45# Vdd! 2 10 -87 228
+n flipflops_0/staticizer_one_10/a_60_n45# GND! flipflops_0/staticizer_one_10/a_95_n45# 2 5 -60 210
+n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_11/a_77_n45# 2 5 -196 210
+p flipflops_0/staticizer_one_11/a_77_n45# flipflops_0/staticizer_one_11/a_95_n27# flipflops_0/latch_one_10/in 2 10 -172 228
+n flipflops_0/latch_one_10/in flipflops_0/staticizer_one_11/a_60_n45# GND! 2 5 -205 210
+n flipflops_0/staticizer_one_9/c flipflops_0/staticizer_one_11/a_95_n45# flipflops_0/latch_one_10/in 2 5 -172 210
+p flipflops_0/staticizer_one_11/a_60_n45# Vdd! flipflops_0/staticizer_one_11/a_95_n27# 2 10 -178 228
+p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_11/a_77_n45# 2 10 -196 228
+p flipflops_0/latch_one_10/in flipflops_0/staticizer_one_11/a_60_n45# Vdd! 2 10 -205 228
+n flipflops_0/staticizer_one_11/a_60_n45# GND! flipflops_0/staticizer_one_11/a_95_n45# 2 5 -178 210
+n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_4/a_77_n45# 2 5 -78 402
+p flipflops_0/staticizer_one_4/a_77_n45# flipflops_0/staticizer_one_4/a_95_n27# ff3 2 10 -54 420
+n ff3 flipflops_0/staticizer_one_4/a_60_n45# GND! 2 5 -87 402
+n flipflops_0/staticizer_one_8/c flipflops_0/staticizer_one_4/a_95_n45# ff3 2 5 -54 402
+p flipflops_0/staticizer_one_4/a_60_n45# Vdd! flipflops_0/staticizer_one_4/a_95_n27# 2 10 -60 420
+p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_4/a_77_n45# 2 10 -78 420
+p ff3 flipflops_0/staticizer_one_4/a_60_n45# Vdd! 2 10 -87 420
+n flipflops_0/staticizer_one_4/a_60_n45# GND! flipflops_0/staticizer_one_4/a_95_n45# 2 5 -60 402
+p phi1 Vdd! flipflops_0/latch_one_10/a_12_n54# 2 10 -137 228
+n phi1 GND! flipflops_0/latch_one_10/a_12_n54# 2 5 -137 209
+p flipflops_0/latch_one_10/a_12_n54# flipflops_0/latch_one_10/a_30_n35# ff0 2 10 -113 228
+p flipflops_0/latch_one_10/in flipflops_0/latch_one_10/a_n5_n54# Vdd! 2 10 -146 228
+n flipflops_0/latch_one_10/in flipflops_0/latch_one_10/a_n5_n54# GND! 2 5 -146 209
+n phi1 flipflops_0/latch_one_10/a_30_n54# ff0 2 5 -113 209
+p flipflops_0/latch_one_10/a_n5_n54# Vdd! flipflops_0/latch_one_10/a_30_n35# 2 10 -119 228
+n flipflops_0/latch_one_10/a_n5_n54# GND! flipflops_0/latch_one_10/a_30_n54# 2 5 -119 209
+n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_5/a_77_n45# 2 5 -196 402
+p flipflops_0/staticizer_one_5/a_77_n45# flipflops_0/staticizer_one_5/a_95_n27# flipflops_0/latch_one_4/in 2 10 -172 420
+n flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/a_60_n45# GND! 2 5 -205 402
+n flipflops_0/staticizer_one_9/c flipflops_0/staticizer_one_5/a_95_n45# flipflops_0/latch_one_4/in 2 5 -172 402
+p flipflops_0/staticizer_one_5/a_60_n45# Vdd! flipflops_0/staticizer_one_5/a_95_n27# 2 10 -178 420
+p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_5/a_77_n45# 2 10 -196 420
+p flipflops_0/latch_one_4/in flipflops_0/staticizer_one_5/a_60_n45# Vdd! 2 10 -205 420
+n flipflops_0/staticizer_one_5/a_60_n45# GND! flipflops_0/staticizer_one_5/a_95_n45# 2 5 -178 402
+p phi0 Vdd! flipflops_0/latch_one_11/a_12_n54# 2 10 -255 228
+n phi0 GND! flipflops_0/latch_one_11/a_12_n54# 2 5 -255 209
+p flipflops_0/latch_one_11/a_12_n54# flipflops_0/latch_one_11/a_30_n35# flipflops_0/latch_one_10/in 2 10 -231 228
+p s0 flipflops_0/latch_one_11/a_n5_n54# Vdd! 2 10 -264 228
+n s0 flipflops_0/latch_one_11/a_n5_n54# GND! 2 5 -264 209
+n phi0 flipflops_0/latch_one_11/a_30_n54# flipflops_0/latch_one_10/in 2 5 -231 209
+p flipflops_0/latch_one_11/a_n5_n54# Vdd! flipflops_0/latch_one_11/a_30_n35# 2 10 -237 228
+n flipflops_0/latch_one_11/a_n5_n54# GND! flipflops_0/latch_one_11/a_30_n54# 2 5 -237 209
+n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_6/a_77_n45# 2 5 -78 338
+p flipflops_0/staticizer_one_6/a_77_n45# flipflops_0/staticizer_one_6/a_95_n27# ff2 2 10 -54 356
+n ff2 flipflops_0/staticizer_one_6/a_60_n45# GND! 2 5 -87 338
+n flipflops_0/staticizer_one_8/c flipflops_0/staticizer_one_6/a_95_n45# ff2 2 5 -54 338
+p flipflops_0/staticizer_one_6/a_60_n45# Vdd! flipflops_0/staticizer_one_6/a_95_n27# 2 10 -60 356
+p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_6/a_77_n45# 2 10 -78 356
+p ff2 flipflops_0/staticizer_one_6/a_60_n45# Vdd! 2 10 -87 356
+n flipflops_0/staticizer_one_6/a_60_n45# GND! flipflops_0/staticizer_one_6/a_95_n45# 2 5 -60 338
+n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_7/a_77_n45# 2 5 -196 338
+p flipflops_0/staticizer_one_7/a_77_n45# flipflops_0/staticizer_one_7/a_95_n27# flipflops_0/latch_one_6/in 2 10 -172 356
+n flipflops_0/latch_one_6/in flipflops_0/staticizer_one_7/a_60_n45# GND! 2 5 -205 338
+n flipflops_0/staticizer_one_9/c flipflops_0/staticizer_one_7/a_95_n45# flipflops_0/latch_one_6/in 2 5 -172 338
+p flipflops_0/staticizer_one_7/a_60_n45# Vdd! flipflops_0/staticizer_one_7/a_95_n27# 2 10 -178 356
+p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_7/a_77_n45# 2 10 -196 356
+p flipflops_0/latch_one_6/in flipflops_0/staticizer_one_7/a_60_n45# Vdd! 2 10 -205 356
+n flipflops_0/staticizer_one_7/a_60_n45# GND! flipflops_0/staticizer_one_7/a_95_n45# 2 5 -178 338
+p phi0 Vdd! flipflops_0/staticizer_one_9/c 2 10 -215 180
+n phi0 GND! flipflops_0/staticizer_one_9/c 2 5 -233 180
+n flipflops_0/staticizer_one_8/c GND! flipflops_0/staticizer_one_8/a_77_n45# 2 5 -78 274
+p flipflops_0/staticizer_one_8/a_77_n45# flipflops_0/staticizer_one_8/a_95_n27# ff1 2 10 -54 292
+n ff1 flipflops_0/staticizer_one_8/a_60_n45# GND! 2 5 -87 274
+n flipflops_0/staticizer_one_8/c flipflops_0/staticizer_one_8/a_95_n45# ff1 2 5 -54 274
+p flipflops_0/staticizer_one_8/a_60_n45# Vdd! flipflops_0/staticizer_one_8/a_95_n27# 2 10 -60 292
+p flipflops_0/staticizer_one_8/c Vdd! flipflops_0/staticizer_one_8/a_77_n45# 2 10 -78 292
+p ff1 flipflops_0/staticizer_one_8/a_60_n45# Vdd! 2 10 -87 292
+n flipflops_0/staticizer_one_8/a_60_n45# GND! flipflops_0/staticizer_one_8/a_95_n45# 2 5 -60 274
+p phi1 Vdd! flipflops_0/staticizer_one_8/c 2 10 -97 180
+n phi1 GND! flipflops_0/staticizer_one_8/c 2 5 -115 180
+n flipflops_0/staticizer_one_9/c GND! flipflops_0/staticizer_one_9/a_77_n45# 2 5 -196 274
+p flipflops_0/staticizer_one_9/a_77_n45# flipflops_0/staticizer_one_9/a_95_n27# flipflops_0/latch_one_8/in 2 10 -172 292
+n flipflops_0/latch_one_8/in flipflops_0/staticizer_one_9/a_60_n45# GND! 2 5 -205 274
+n flipflops_0/staticizer_one_9/c flipflops_0/staticizer_one_9/a_95_n45# flipflops_0/latch_one_8/in 2 5 -172 274
+p flipflops_0/staticizer_one_9/a_60_n45# Vdd! flipflops_0/staticizer_one_9/a_95_n27# 2 10 -178 292
+p flipflops_0/staticizer_one_9/c Vdd! flipflops_0/staticizer_one_9/a_77_n45# 2 10 -196 292
+p flipflops_0/latch_one_8/in flipflops_0/staticizer_one_9/a_60_n45# Vdd! 2 10 -205 292
+n flipflops_0/staticizer_one_9/a_60_n45# GND! flipflops_0/staticizer_one_9/a_95_n45# 2 5 -178 274
+p phi1 Vdd! flipflops_0/latch_one_4/a_12_n54# 2 10 -137 420
+n phi1 GND! flipflops_0/latch_one_4/a_12_n54# 2 5 -137 401
+p flipflops_0/latch_one_4/a_12_n54# flipflops_0/latch_one_4/a_30_n35# ff3 2 10 -113 420
+p flipflops_0/latch_one_4/in flipflops_0/latch_one_4/a_n5_n54# Vdd! 2 10 -146 420
+n flipflops_0/latch_one_4/in flipflops_0/latch_one_4/a_n5_n54# GND! 2 5 -146 401
+n phi1 flipflops_0/latch_one_4/a_30_n54# ff3 2 5 -113 401
+p flipflops_0/latch_one_4/a_n5_n54# Vdd! flipflops_0/latch_one_4/a_30_n35# 2 10 -119 420
+n flipflops_0/latch_one_4/a_n5_n54# GND! flipflops_0/latch_one_4/a_30_n54# 2 5 -119 401
+p phi0 Vdd! flipflops_0/latch_one_5/a_12_n54# 2 10 -255 420
+n phi0 GND! flipflops_0/latch_one_5/a_12_n54# 2 5 -255 401
+p flipflops_0/latch_one_5/a_12_n54# flipflops_0/latch_one_5/a_30_n35# flipflops_0/latch_one_4/in 2 10 -231 420
+p s3 flipflops_0/latch_one_5/a_n5_n54# Vdd! 2 10 -264 420
+n s3 flipflops_0/latch_one_5/a_n5_n54# GND! 2 5 -264 401
+n phi0 flipflops_0/latch_one_5/a_30_n54# flipflops_0/latch_one_4/in 2 5 -231 401
+p flipflops_0/latch_one_5/a_n5_n54# Vdd! flipflops_0/latch_one_5/a_30_n35# 2 10 -237 420
+n flipflops_0/latch_one_5/a_n5_n54# GND! flipflops_0/latch_one_5/a_30_n54# 2 5 -237 401
+p phi1 Vdd! flipflops_0/latch_one_6/a_12_n54# 2 10 -137 356
+n phi1 GND! flipflops_0/latch_one_6/a_12_n54# 2 5 -137 337
+p flipflops_0/latch_one_6/a_12_n54# flipflops_0/latch_one_6/a_30_n35# ff2 2 10 -113 356
+p flipflops_0/latch_one_6/in flipflops_0/latch_one_6/a_n5_n54# Vdd! 2 10 -146 356
+n flipflops_0/latch_one_6/in flipflops_0/latch_one_6/a_n5_n54# GND! 2 5 -146 337
+n phi1 flipflops_0/latch_one_6/a_30_n54# ff2 2 5 -113 337
+p flipflops_0/latch_one_6/a_n5_n54# Vdd! flipflops_0/latch_one_6/a_30_n35# 2 10 -119 356
+n flipflops_0/latch_one_6/a_n5_n54# GND! flipflops_0/latch_one_6/a_30_n54# 2 5 -119 337
+p phi0 Vdd! flipflops_0/latch_one_7/a_12_n54# 2 10 -255 356
+n phi0 GND! flipflops_0/latch_one_7/a_12_n54# 2 5 -255 337
+p flipflops_0/latch_one_7/a_12_n54# flipflops_0/latch_one_7/a_30_n35# flipflops_0/latch_one_6/in 2 10 -231 356
+p s2 flipflops_0/latch_one_7/a_n5_n54# Vdd! 2 10 -264 356
+n s2 flipflops_0/latch_one_7/a_n5_n54# GND! 2 5 -264 337
+n phi0 flipflops_0/latch_one_7/a_30_n54# flipflops_0/latch_one_6/in 2 5 -231 337
+p flipflops_0/latch_one_7/a_n5_n54# Vdd! flipflops_0/latch_one_7/a_30_n35# 2 10 -237 356
+n flipflops_0/latch_one_7/a_n5_n54# GND! flipflops_0/latch_one_7/a_30_n54# 2 5 -237 337
+p phi1 Vdd! flipflops_0/latch_one_8/a_12_n54# 2 10 -137 292
+n phi1 GND! flipflops_0/latch_one_8/a_12_n54# 2 5 -137 273
+p flipflops_0/latch_one_8/a_12_n54# flipflops_0/latch_one_8/a_30_n35# ff1 2 10 -113 292
+p flipflops_0/latch_one_8/in flipflops_0/latch_one_8/a_n5_n54# Vdd! 2 10 -146 292
+n flipflops_0/latch_one_8/in flipflops_0/latch_one_8/a_n5_n54# GND! 2 5 -146 273
+n phi1 flipflops_0/latch_one_8/a_30_n54# ff1 2 5 -113 273
+p flipflops_0/latch_one_8/a_n5_n54# Vdd! flipflops_0/latch_one_8/a_30_n35# 2 10 -119 292
+n flipflops_0/latch_one_8/a_n5_n54# GND! flipflops_0/latch_one_8/a_30_n54# 2 5 -119 273
+p phi0 Vdd! flipflops_0/latch_one_9/a_12_n54# 2 10 -255 292
+n phi0 GND! flipflops_0/latch_one_9/a_12_n54# 2 5 -255 273
+p flipflops_0/latch_one_9/a_12_n54# flipflops_0/latch_one_9/a_30_n35# flipflops_0/latch_one_8/in 2 10 -231 292
+p s1 flipflops_0/latch_one_9/a_n5_n54# Vdd! 2 10 -264 292
+n s1 flipflops_0/latch_one_9/a_n5_n54# GND! 2 5 -264 273
+n phi0 flipflops_0/latch_one_9/a_30_n54# flipflops_0/latch_one_8/in 2 5 -231 273
+p flipflops_0/latch_one_9/a_n5_n54# Vdd! flipflops_0/latch_one_9/a_30_n35# 2 10 -237 292
+n flipflops_0/latch_one_9/a_n5_n54# GND! flipflops_0/latch_one_9/a_30_n54# 2 5 -237 273
 p s3n is_s2 Vdd! 2 10 531 130
 p s0n Vdd! is_s2 2 10 502 130
 n s2n 4nand_4/a_97_42# 4nand_4/a_108_42# 2 5 522 111
-n s1 4nand_4/a_88_42# 4nand_4/a_97_42# 2 5 511 111
+n ff1 4nand_4/a_88_42# 4nand_4/a_97_42# 2 5 511 111
 p s2n Vdd! is_s2 2 10 522 130
-p s1 is_s2 Vdd! 2 10 511 130
+p ff1 is_s2 Vdd! 2 10 511 130
 n s3n 4nand_4/a_108_42# is_s2 2 5 531 111
 n s0n GND! 4nand_4/a_88_42# 2 5 502 111
-p s0 s3o2 Vdd! 2 10 401 130
-p s3n Vdd! s3o2 2 10 372 130
-n s1 4nand_3/a_97_42# 4nand_3/a_108_42# 2 5 392 111
-n s2 4nand_3/a_88_42# 4nand_3/a_97_42# 2 5 381 111
-p s1 Vdd! s3o2 2 10 392 130
-p s2 s3o2 Vdd! 2 10 381 130
-n s0 4nand_3/a_108_42# s3o2 2 5 401 111
-n s3n GND! 4nand_3/a_88_42# 2 5 372 111
 n s0y 2nor_18/a GND! 2 5 499 -53
 n b0 GND! 2nor_18/a 2 5 488 -53
 p s0y 2nor_0/a_87_59# 2nor_18/a 2 10 499 -34
 p b0 Vdd! 2nor_0/a_87_59# 2 10 488 -34
-n s3 GND! 2nand_1/a_87_41# 2 5 158 21
+p ff0 s3o2 Vdd! 2 10 401 130
+p s3n Vdd! s3o2 2 10 372 130
+n ff1 4nand_3/a_97_42# 4nand_3/a_108_42# 2 5 392 111
+n ff2 4nand_3/a_88_42# 4nand_3/a_97_42# 2 5 381 111
+p ff1 Vdd! s3o2 2 10 392 130
+p ff2 s3o2 Vdd! 2 10 381 130
+n ff0 4nand_3/a_108_42# s3o2 2 5 401 111
+n s3n GND! 4nand_3/a_88_42# 2 5 372 111
+n ff3 GND! 2nand_1/a_87_41# 2 5 158 21
 p s2n s0o4 Vdd! 2 10 169 40
-p s3 Vdd! s0o4 2 10 158 40
+p ff3 Vdd! s0o4 2 10 158 40
 n s2n 2nand_1/a_87_41# s0o4 2 5 169 21
 p s3n Vdd! s0o2 2 10 46 40
 n s0n 3nand_2/a_97_42# s0o2 2 5 67 21
-n s2 3nand_2/a_87_42# 3nand_2/a_97_42# 2 5 56 21
+n ff2 3nand_2/a_87_42# 3nand_2/a_97_42# 2 5 56 21
 p s0n Vdd! s0o2 2 10 67 40
 n s3n GND! 3nand_2/a_87_42# 2 5 46 21
-p s2 s0o2 Vdd! 2 10 56 40
+p ff2 s0o2 Vdd! 2 10 56 40
 n i2n s3i2 GND! 2 5 894 251
 n is_s3 GND! s3i2 2 5 883 251
 p i2n 2nor_10/a_87_59# s3i2 2 10 894 270
 p is_s3 Vdd! 2nor_10/a_87_59# 2 10 883 270
-n i6 GND! i6n 2 7 177 252
-p i6 Vdd! i6n 2 7 177 272
-n i4 GND! i4n 2 7 141 252
-p i4 Vdd! i4n 2 7 141 272
 p s3n is_s3 Vdd! 2 10 596 130
-p s0 Vdd! is_s3 2 10 567 130
+p ff0 Vdd! is_s3 2 10 567 130
 n s2n 4nand_5/a_97_42# 4nand_5/a_108_42# 2 5 587 111
-n s1 4nand_5/a_88_42# 4nand_5/a_97_42# 2 5 576 111
+n ff1 4nand_5/a_88_42# 4nand_5/a_97_42# 2 5 576 111
 p s2n Vdd! is_s3 2 10 587 130
-p s1 is_s3 Vdd! 2 10 576 130
+p ff1 is_s3 Vdd! 2 10 576 130
 n s3n 4nand_5/a_108_42# is_s3 2 5 596 111
-n s0 GND! 4nand_5/a_88_42# 2 5 567 111
+n ff0 GND! 4nand_5/a_88_42# 2 5 567 111
 n s1y 2nor_15/a GND! 2 5 645 -53
 n b1 GND! 2nor_15/a 2 5 634 -53
 p s1y 2nor_1/a_87_59# 2nor_15/a 2 10 645 -34
 p b1 Vdd! 2nor_1/a_87_59# 2 10 634 -34
-n s3 GND! 2nand_2/a_87_41# 2 5 211 21
+n 3nor_1/c GND! i4n 2 7 141 252
+p 3nor_1/c Vdd! i4n 2 7 141 272
+n 3nor_1/b GND! i6n 2 7 177 252
+p 3nor_1/b Vdd! i6n 2 7 177 272
+n ff3 GND! 2nand_2/a_87_41# 2 5 211 21
 p s1n s0o5 Vdd! 2 10 222 40
-p s3 Vdd! s0o5 2 10 211 40
+p ff3 Vdd! s0o5 2 10 211 40
 n s1n 2nand_2/a_87_41# s0o5 2 5 222 21
-n i7 GND! i7n 2 7 213 252
-p i7 Vdd! i7n 2 7 213 272
 n i6n s7i6 GND! 2 5 711 111
 n is_s7 GND! s7i6 2 5 700 111
 p i6n 2nor_11/a_87_59# s7i6 2 10 711 130
 p is_s7 Vdd! 2nor_11/a_87_59# 2 10 700 130
-p s3n is_s7 Vdd! 2 10 661 130
-p s0 Vdd! is_s7 2 10 632 130
-n s2 4nand_6/a_97_42# 4nand_6/a_108_42# 2 5 652 111
-n s1 4nand_6/a_88_42# 4nand_6/a_97_42# 2 5 641 111
-p s2 Vdd! is_s7 2 10 652 130
-p s1 is_s7 Vdd! 2 10 641 130
-n s3n 4nand_6/a_108_42# is_s7 2 5 661 111
-n s0 GND! 4nand_6/a_88_42# 2 5 632 111
 n s2y 2nor_16/a GND! 2 5 800 -53
 n b2 GND! 2nor_16/a 2 5 789 -53
 p s2y 2nor_2/a_87_59# 2nor_16/a 2 10 800 -34
 p b2 Vdd! 2nor_2/a_87_59# 2 10 789 -34
+p s3n is_s7 Vdd! 2 10 661 130
+p ff0 Vdd! is_s7 2 10 632 130
+n ff2 4nand_6/a_97_42# 4nand_6/a_108_42# 2 5 652 111
+n ff1 4nand_6/a_88_42# 4nand_6/a_97_42# 2 5 641 111
+p ff2 Vdd! is_s7 2 10 652 130
+p ff1 is_s7 Vdd! 2 10 641 130
+n s3n 4nand_6/a_108_42# is_s7 2 5 661 111
+n ff0 GND! 4nand_6/a_88_42# 2 5 632 111
+n 3nor_2/c GND! i7n 2 7 213 252
+p 3nor_2/c Vdd! i7n 2 7 213 272
 n s3o1 GND! 2nand_3/a_87_41# 2 5 387 21
 p s3o2 b3 Vdd! 2 10 398 40
 p s3o1 Vdd! b3 2 10 387 40
 n s3o2 2nand_3/a_87_41# b3 2 5 398 21
-n i6 2nor_13/b GND! 2 5 794 111
-n i4 GND! 2nor_13/b 2 5 783 111
-p i6 2nor_12/a_87_59# 2nor_13/b 2 10 794 130
-p i4 Vdd! 2nor_12/a_87_59# 2 10 783 130
+n 3nor_1/b 2nor_13/b GND! 2 5 794 111
+n 3nor_1/c GND! 2nor_13/b 2 5 783 111
+p 3nor_1/b 2nor_12/a_87_59# 2nor_13/b 2 10 794 130
+p 3nor_1/c Vdd! 2nor_12/a_87_59# 2 10 783 130
 n s3y 2nor_17/a GND! 2 5 908 -53
 n b3 GND! 2nor_17/a 2 5 897 -53
 p s3y 2nor_3/a_87_59# 2nor_17/a 2 10 908 -34
 p b3 Vdd! 2nor_3/a_87_59# 2 10 897 -34
+n 2nor_13/b s7i4i6 GND! 2 5 841 111
+n is_s7 GND! s7i4i6 2 5 830 111
+p 2nor_13/b 2nor_13/a_87_59# s7i4i6 2 10 841 130
+p is_s7 Vdd! 2nor_13/a_87_59# 2 10 830 130
+n inv_25/in GND! s0y 2 7 498 22
+p inv_25/in Vdd! s0y 2 7 498 42
 n i1n s1i1 GND! 2 5 346 251
 n is_s1 GND! s1i1 2 5 335 251
 p i1n 2nor_5/a_87_59# s1i1 2 10 346 270
@@ -141,53 +375,47 @@ n i0n s1i0 GND! 2 5 263 251
 n is_s1 GND! s1i0 2 5 252 251
 p i0n 2nor_4/a_87_59# s1i0 2 10 263 270
 p is_s1 Vdd! 2nor_4/a_87_59# 2 10 252 270
-n 2nor_13/b s7i4i6 GND! 2 5 841 111
-n is_s7 GND! s7i4i6 2 5 830 111
-p 2nor_13/b 2nor_13/a_87_59# s7i4i6 2 10 841 130
-p is_s7 Vdd! 2nor_13/a_87_59# 2 10 830 130
-n inv_25/in GND! s0y 2 7 498 22
-p inv_25/in Vdd! s0y 2 7 498 42
-n i3 s2i3n GND! 2 5 513 251
-n is_s2 GND! s2i3n 2 5 502 251
-p i3 2nor_6/a_87_59# s2i3n 2 10 513 270
-p is_s2 Vdd! 2nor_6/a_87_59# 2 10 502 270
 n s3i2 inv_28/in GND! 2 5 925 21
 n s1i1 GND! inv_28/in 2 5 914 21
 p s3i2 2nor_14/a_87_59# inv_28/in 2 10 925 40
 p s1i1 Vdd! 2nor_14/a_87_59# 2 10 914 40
 n inv_26/in GND! s1y 2 7 688 22
 p inv_26/in Vdd! s1y 2 7 688 42
-n rst s1' GND! 2 5 692 -53
-n 2nor_15/a GND! s1' 2 5 681 -53
-p rst 2nor_15/a_87_59# s1' 2 10 692 -34
+n inv_9/in s2i3n GND! 2 5 513 251
+n is_s2 GND! s2i3n 2 5 502 251
+p inv_9/in 2nor_6/a_87_59# s2i3n 2 10 513 270
+p is_s2 Vdd! 2nor_6/a_87_59# 2 10 502 270
+n rst s1 GND! 2 5 692 -53
+n 2nor_15/a GND! s1 2 5 681 -53
+p rst 2nor_15/a_87_59# s1 2 10 692 -34
 p 2nor_15/a Vdd! 2nor_15/a_87_59# 2 10 681 -34
-n i7 2nor_8/b GND! 2 5 681 251
-n i3 GND! 2nor_8/b 2 5 670 251
-p i7 2nor_7/a_87_59# 2nor_8/b 2 10 681 270
-p i3 Vdd! 2nor_7/a_87_59# 2 10 670 270
+n rst s2 GND! 2 5 847 -53
+n 2nor_16/a GND! s2 2 5 836 -53
+p rst 2nor_16/a_87_59# s2 2 10 847 -34
+p 2nor_16/a Vdd! 2nor_16/a_87_59# 2 10 836 -34
 n inv_27/in GND! s2y 2 7 827 22
 p inv_27/in Vdd! s2y 2 7 827 42
-n rst s2' GND! 2 5 847 -53
-n 2nor_16/a GND! s2' 2 5 836 -53
-p rst 2nor_16/a_87_59# s2' 2 10 847 -34
-p 2nor_16/a Vdd! 2nor_16/a_87_59# 2 10 836 -34
+n 3nor_2/c 2nor_8/b GND! 2 5 681 251
+n inv_9/in GND! 2nor_8/b 2 5 670 251
+p 3nor_2/c 2nor_7/a_87_59# 2nor_8/b 2 10 681 270
+p inv_9/in Vdd! 2nor_7/a_87_59# 2 10 670 270
+n inv_28/in GND! s3y 2 7 958 22
+p inv_28/in Vdd! s3y 2 7 958 42
+n rst s3 GND! 2 5 955 -53
+n 2nor_17/a GND! s3 2 5 944 -53
+p rst 2nor_17/a_87_59# s3 2 10 955 -34
+p 2nor_17/a Vdd! 2nor_17/a_87_59# 2 10 944 -34
 n 2nor_8/b s2i3i7 GND! 2 5 728 251
 n is_s2 GND! s2i3i7 2 5 717 251
 p 2nor_8/b 2nor_8/a_87_59# s2i3i7 2 10 728 270
 p is_s2 Vdd! 2nor_8/a_87_59# 2 10 717 270
-n inv_28/in GND! s3y 2 7 958 22
-p inv_28/in Vdd! s3y 2 7 958 42
-n rst s3' GND! 2 5 955 -53
-n 2nor_17/a GND! s3' 2 5 944 -53
-p rst 2nor_17/a_87_59# s3' 2 10 955 -34
-p 2nor_17/a Vdd! 2nor_17/a_87_59# 2 10 944 -34
-n i2 s3i2n GND! 2 5 811 251
+n inv_8/in s3i2n GND! 2 5 811 251
 n is_s3 GND! s3i2n 2 5 800 251
-p i2 2nor_9/a_87_59# s3i2n 2 10 811 270
+p inv_8/in 2nor_9/a_87_59# s3i2n 2 10 811 270
 p is_s3 Vdd! 2nor_9/a_87_59# 2 10 800 270
-n rst s0' GND! 2 5 546 -53
-n 2nor_18/a GND! s0' 2 5 535 -53
-p rst 2nor_18/a_87_59# s0' 2 10 546 -34
+n rst s0 GND! 2 5 546 -53
+n 2nor_18/a GND! s0 2 5 535 -53
+p rst 2nor_18/a_87_59# s0 2 10 546 -34
 p 2nor_18/a Vdd! 2nor_18/a_87_59# 2 10 535 -34
 p s2i3ni7n 4nor_0/a_87_24# 4nor_0/a_97_24# 2 10 637 39
 p s1i0ni1n Vdd! 4nor_0/a_87_24# 2 10 627 39
@@ -197,192 +425,443 @@ p s7i4i6 4nor_0/a_108_24# inv_26/in 2 10 659 39
 n s7i4i6 inv_26/in GND! 2 5 659 21
 n s2i3ni7n inv_26/in GND! 2 5 637 21
 p s3i2n 4nor_0/a_97_24# 4nor_0/a_108_24# 2 10 648 39
-n s0 GND! s0n 2 7 -3 112
-p s0 Vdd! s0n 2 7 -3 132
-n s1 GND! s1n 2 7 36 112
-p s1 Vdd! s1n 2 7 36 132
-n s2 GND! s2n 2 7 75 112
-p s2 Vdd! s2n 2 7 75 132
-n s3 GND! s3n 2 7 114 112
-p s3 Vdd! s3n 2 7 114 132
+n ff0 GND! s0n 2 7 -3 112
+p ff0 Vdd! s0n 2 7 -3 132
+n ff1 GND! s1n 2 7 36 112
+p ff1 Vdd! s1n 2 7 36 132
+n ff2 GND! s2n 2 7 75 112
+p ff2 Vdd! s2n 2 7 75 132
+n ff3 GND! s3n 2 7 114 112
+p ff3 Vdd! s3n 2 7 114 132
 n inv_4/in GND! b1 2 7 261 22
 p inv_4/in Vdd! b1 2 7 261 42
 n inv_5/in GND! b2 2 7 297 22
 p inv_5/in Vdd! b2 2 7 297 42
-n i1 GND! i1n 2 7 33 252
-p i1 Vdd! i1n 2 7 33 272
-n i0 GND! i0n 2 7 -3 252
-p i0 Vdd! i0n 2 7 -3 272
-n i2 GND! i2n 2 7 69 252
-p i2 Vdd! i2n 2 7 69 272
-p i0 3nor_0/a_87_58# 3nor_0/a_97_58# 2 11 454 269
-n i0 s1i0ni1n GND! 2 5 454 251
+n inv_6/in GND! i0n 2 7 -3 252
+p inv_6/in Vdd! i0n 2 7 -3 272
+n inv_7/in GND! i1n 2 7 33 252
+p inv_7/in Vdd! i1n 2 7 33 272
+n inv_8/in GND! i2n 2 7 69 252
+p inv_8/in Vdd! i2n 2 7 69 272
+p inv_6/in 3nor_0/a_87_58# 3nor_0/a_97_58# 2 11 454 269
+n inv_6/in s1i0ni1n GND! 2 5 454 251
 p is_s1 Vdd! 3nor_0/a_87_58# 2 11 444 269
 n is_s1 GND! s1i0ni1n 2 5 444 251
-p i1 3nor_0/a_97_58# s1i0ni1n 2 11 465 269
-n i1 GND! s1i0ni1n 2 5 465 251
-n i3 GND! i3n 2 7 105 252
-p i3 Vdd! i3n 2 7 105 272
-p i6 3nor_1/a_87_58# 3nor_1/a_97_58# 2 11 949 129
-n i6 test GND! 2 5 949 111
+p inv_7/in 3nor_0/a_97_58# s1i0ni1n 2 11 465 269
+n inv_7/in GND! s1i0ni1n 2 5 465 251
+n inv_9/in GND! i3n 2 7 105 252
+p inv_9/in Vdd! i3n 2 7 105 272
+p 3nor_1/b 3nor_1/a_87_58# 3nor_1/a_97_58# 2 11 949 129
+n 3nor_1/b test GND! 2 5 949 111
 p is_s7 Vdd! 3nor_1/a_87_58# 2 11 939 129
 n is_s7 GND! test 2 5 939 111
-p i4 3nor_1/a_97_58# test 2 11 960 129
-n i4 GND! test 2 5 960 111
-p i3 3nor_2/a_87_58# 3nor_2/a_97_58# 2 11 621 269
-n i3 s2i3ni7n GND! 2 5 621 251
+p 3nor_1/c 3nor_1/a_97_58# test 2 11 960 129
+n 3nor_1/c GND! test 2 5 960 111
+p reg_one_0/tmp reg_one_0/a_39_5# Vdd! 2 10 124 384
+p reg_one_0/a_4_n13# reg_one_0/a_54_5# reg_one_0/port0 2 10 124 369
+n reg_one_0/tmp GND! reg_one_0/a_33_32# 2 5 177 367
+n Vdd! 3nor_1/b reg_one_0/a_39_n13# 2 5 107 390
+n reg_one_0/a_16_27# reg_one_0/tmp reg_one_0/a_28_58# 2 5 177 401
+p reg_one_0/tmp Vdd! reg_one_0/a_54_5# 2 10 124 375
+p Vdd! Vdd! reg_one_0/a_21_n13# 2 10 124 408
+n Vdd! GND! reg_one_0/a_21_n13# 2 5 107 408
+p reg_one_0/tmp Vdd! reg_one_0/a_33_32# 2 10 154 367
+n Vdd! reg_one_0/a_54_n13# reg_one_0/port0 2 5 107 369
+n i6 GND! reg_one_0/a_12_58# 2 5 177 417
+n reg_one_0/a_33_32# reg_one_0/a_28_58# GND! 2 5 177 394
+p iwe reg_one_0/tmp reg_one_0/a_28_35# 2 10 154 401
+n iwe reg_one_0/a_12_58# reg_one_0/tmp 2 5 177 411
+n iwe reg_one_0/a_16_27# GND! 2 5 177 376
+p Vdd! reg_one_0/a_4_n13# Vdd! 2 10 124 417
+n Vdd! reg_one_0/a_4_n13# GND! 2 5 107 417
+p i6 Vdd! reg_one_0/a_12_35# 2 10 154 417
+p reg_one_0/a_33_32# reg_one_0/a_28_35# Vdd! 2 10 154 394
+p reg_one_0/a_16_27# reg_one_0/a_12_35# reg_one_0/tmp 2 10 154 411
+p reg_one_0/a_21_n13# 3nor_1/b reg_one_0/a_39_5# 2 10 124 390
+p iwe reg_one_0/a_16_27# Vdd! 2 10 154 376
+n reg_one_0/tmp GND! reg_one_0/a_54_n13# 2 5 107 375
+n reg_one_0/tmp reg_one_0/a_39_n13# GND! 2 5 107 384
+p inv_9/in 3nor_2/a_87_58# 3nor_2/a_97_58# 2 11 621 269
+n inv_9/in s2i3ni7n GND! 2 5 621 251
 p is_s2 Vdd! 3nor_2/a_87_58# 2 11 611 269
 n is_s2 GND! s2i3ni7n 2 5 611 251
-p i7 3nor_2/a_97_58# s2i3ni7n 2 11 632 269
-n i7 GND! s2i3ni7n 2 5 632 251
+p 3nor_2/c 3nor_2/a_97_58# s2i3ni7n 2 11 632 269
+n 3nor_2/c GND! s2i3ni7n 2 5 632 251
+p reg_one_1/tmp reg_one_1/a_39_5# Vdd! 2 10 238 384
+p reg_one_1/a_4_n13# reg_one_1/a_54_5# reg_one_1/port0 2 10 238 369
+n reg_one_1/tmp GND! reg_one_1/a_33_32# 2 5 291 367
+n Vdd! reg_one_1/port1 reg_one_1/a_39_n13# 2 5 221 390
+n reg_one_1/a_16_27# reg_one_1/tmp reg_one_1/a_28_58# 2 5 291 401
+p reg_one_1/tmp Vdd! reg_one_1/a_54_5# 2 10 238 375
+p Vdd! Vdd! reg_one_1/a_21_n13# 2 10 238 408
+n Vdd! GND! reg_one_1/a_21_n13# 2 5 221 408
+p reg_one_1/tmp Vdd! reg_one_1/a_33_32# 2 10 268 367
+n Vdd! reg_one_1/a_54_n13# reg_one_1/port0 2 5 221 369
+n i5 GND! reg_one_1/a_12_58# 2 5 291 417
+n reg_one_1/a_33_32# reg_one_1/a_28_58# GND! 2 5 291 394
+p iwe reg_one_1/tmp reg_one_1/a_28_35# 2 10 268 401
+n iwe reg_one_1/a_12_58# reg_one_1/tmp 2 5 291 411
+n iwe reg_one_1/a_16_27# GND! 2 5 291 376
+p Vdd! reg_one_1/a_4_n13# Vdd! 2 10 238 417
+n Vdd! reg_one_1/a_4_n13# GND! 2 5 221 417
+p i5 Vdd! reg_one_1/a_12_35# 2 10 268 417
+p reg_one_1/a_33_32# reg_one_1/a_28_35# Vdd! 2 10 268 394
+p reg_one_1/a_16_27# reg_one_1/a_12_35# reg_one_1/tmp 2 10 268 411
+p reg_one_1/a_21_n13# reg_one_1/port1 reg_one_1/a_39_5# 2 10 238 390
+p iwe reg_one_1/a_16_27# Vdd! 2 10 268 376
+n reg_one_1/tmp GND! reg_one_1/a_54_n13# 2 5 221 375
+n reg_one_1/tmp reg_one_1/a_39_n13# GND! 2 5 221 384
 p s2i3i7 3nor_3/a_87_58# 3nor_3/a_97_58# 2 11 788 39
 n s2i3i7 inv_27/in GND! 2 5 788 21
 p s3i2n Vdd! 3nor_3/a_87_58# 2 11 778 39
 n s3i2n GND! inv_27/in 2 5 778 21
 p test 3nor_3/a_97_58# inv_27/in 2 11 799 39
 n test GND! inv_27/in 2 5 799 21
+p reg_one_2/tmp reg_one_2/a_39_5# Vdd! 2 10 352 384
+p reg_one_2/a_4_n13# reg_one_2/a_54_5# reg_one_2/port0 2 10 352 369
+n reg_one_2/tmp GND! reg_one_2/a_33_32# 2 5 405 367
+n Vdd! 3nor_1/c reg_one_2/a_39_n13# 2 5 335 390
+n reg_one_2/a_16_27# reg_one_2/tmp reg_one_2/a_28_58# 2 5 405 401
+p reg_one_2/tmp Vdd! reg_one_2/a_54_5# 2 10 352 375
+p Vdd! Vdd! reg_one_2/a_21_n13# 2 10 352 408
+n Vdd! GND! reg_one_2/a_21_n13# 2 5 335 408
+p reg_one_2/tmp Vdd! reg_one_2/a_33_32# 2 10 382 367
+n Vdd! reg_one_2/a_54_n13# reg_one_2/port0 2 5 335 369
+n i4 GND! reg_one_2/a_12_58# 2 5 405 417
+n reg_one_2/a_33_32# reg_one_2/a_28_58# GND! 2 5 405 394
+p iwe reg_one_2/tmp reg_one_2/a_28_35# 2 10 382 401
+n iwe reg_one_2/a_12_58# reg_one_2/tmp 2 5 405 411
+n iwe reg_one_2/a_16_27# GND! 2 5 405 376
+p Vdd! reg_one_2/a_4_n13# Vdd! 2 10 352 417
+n Vdd! reg_one_2/a_4_n13# GND! 2 5 335 417
+p i4 Vdd! reg_one_2/a_12_35# 2 10 382 417
+p reg_one_2/a_33_32# reg_one_2/a_28_35# Vdd! 2 10 382 394
+p reg_one_2/a_16_27# reg_one_2/a_12_35# reg_one_2/tmp 2 10 382 411
+p reg_one_2/a_21_n13# 3nor_1/c reg_one_2/a_39_5# 2 10 352 390
+p iwe reg_one_2/a_16_27# Vdd! 2 10 382 376
+n reg_one_2/tmp GND! reg_one_2/a_54_n13# 2 5 335 375
+n reg_one_2/tmp reg_one_2/a_39_n13# GND! 2 5 335 384
 p s2i3n 3nor_4/a_87_58# 3nor_4/a_97_58# 2 11 459 39
 n s2i3n inv_25/in GND! 2 5 459 21
 p s1i0 Vdd! 3nor_4/a_87_58# 2 11 449 39
 n s1i0 GND! inv_25/in 2 5 449 21
 p s7i6 3nor_4/a_97_58# inv_25/in 2 11 470 39
 n s7i6 GND! inv_25/in 2 5 470 21
-C s1 s0 17.48
-C s1 s2 15.92
-C b3 b0 11.57
-C i0 Vdd! 15.30
-C i4n i6n 11.53
-C s2n s3n 16.14
-C i1n i0n 15.39
-C i7 i6 15.41
-C s1n s0n 15.51
-C s3 Vdd! 2.15
-C rst b0 11.58
-C i1 i0 15.39
-C s3 i7n 15.33
-C s2i3ni7n s2i3i7 9.23
-C s1i1 Vdd! 6.69
-C s1i1 s1i0ni1n 6.20
-C i6 i4 16.30
-C s0n GND! 15.94
-C Vdd! GND! 3.28
-C is_s1 Vdd! 2.02
+p reg_one_3/tmp reg_one_3/a_39_5# Vdd! 2 10 10 384
+p reg_one_3/a_4_n13# reg_one_3/a_54_5# reg_one_3/port0 2 10 10 369
+n reg_one_3/tmp GND! reg_one_3/a_33_32# 2 5 63 367
+n Vdd! 3nor_2/c reg_one_3/a_39_n13# 2 5 -7 390
+n reg_one_3/a_16_27# reg_one_3/tmp reg_one_3/a_28_58# 2 5 63 401
+p reg_one_3/tmp Vdd! reg_one_3/a_54_5# 2 10 10 375
+p Vdd! Vdd! reg_one_3/a_21_n13# 2 10 10 408
+n Vdd! GND! reg_one_3/a_21_n13# 2 5 -7 408
+p reg_one_3/tmp Vdd! reg_one_3/a_33_32# 2 10 40 367
+n Vdd! reg_one_3/a_54_n13# reg_one_3/port0 2 5 -7 369
+n i7 GND! reg_one_3/a_12_58# 2 5 63 417
+n reg_one_3/a_33_32# reg_one_3/a_28_58# GND! 2 5 63 394
+p iwe reg_one_3/tmp reg_one_3/a_28_35# 2 10 40 401
+n iwe reg_one_3/a_12_58# reg_one_3/tmp 2 5 63 411
+n iwe reg_one_3/a_16_27# GND! 2 5 63 376
+p Vdd! reg_one_3/a_4_n13# Vdd! 2 10 10 417
+n Vdd! reg_one_3/a_4_n13# GND! 2 5 -7 417
+p i7 Vdd! reg_one_3/a_12_35# 2 10 40 417
+p reg_one_3/a_33_32# reg_one_3/a_28_35# Vdd! 2 10 40 394
+p reg_one_3/a_16_27# reg_one_3/a_12_35# reg_one_3/tmp 2 10 40 411
+p reg_one_3/a_21_n13# 3nor_2/c reg_one_3/a_39_5# 2 10 10 390
+p iwe reg_one_3/a_16_27# Vdd! 2 10 40 376
+n reg_one_3/tmp GND! reg_one_3/a_54_n13# 2 5 -7 375
+n reg_one_3/tmp reg_one_3/a_39_n13# GND! 2 5 -7 384
+C s2i3i7 s1i1 10.23
+C inv_8/in inv_9/in 15.46
 C i1n i2n 15.39
-C i0n GND! 15.28
+C ff1 ff2 16.61
 C b2 b3 11.57
-C i4n i3n 15.37
-C s1i0ni1n s1i0 4.54
-C b1 GND! 9.40
-C i1 i2 15.39
-C i2n i3n 15.37
-C b1 b2 11.57
-C i3 i4 15.39
-C s3 s2 15.40
-C s1i1 s2i3ni7n 5.61
+C ff3 i7n 15.34
+C ff3 ff2 16.91
+C Vdd! s1i1 6.69
+C rst s0 9.09
+C i4n i6n 11.53
+C inv_7/in inv_8/in 15.42
+C s1i0ni1n s1i1 6.20
+C Vdd! ff1 2.03
 C s1n s2n 15.47
-C s0 Vdd! 16.76
-C s1i1 s2i3i7 10.23
-C i2 i3 15.43
-C i7n i6n 11.55
-R i4 1434
-R inv_25/in 183
+C GND! s0n 15.94
+C s1n s0n 15.51
+C s3 s2 25.57
+C Vdd! ff3 3.08
+C iwe GND! 7.40
+C GND! flipflops_0/staticizer_one_9/c 2.72
+C i0n i1n 15.39
+C ff1 ff0 18.17
+C b1 b2 11.57
+C s2 s1 21.93
+C Vdd! ff2 2.15
+C inv_6/in inv_7/in 15.42
+C 3nor_2/c 3nor_1/b 15.44
+C GND! b1 9.40
+C GND! phi0 2.78
+C 3nor_1/c 3nor_1/b 16.34
+C inv_9/in 3nor_1/c 15.42
+C Vdd! is_s1 2.02
+C s2i3ni7n s1i1 5.61
+C Vdd! ff0 17.84
+C s2n s3n 16.14
+C i0n GND! 15.28
+C GND! flipflops_0/staticizer_one_8/c 2.62
+C i3n i4n 15.37
+C rst b0 11.58
+C s1i0ni1n s1i0 4.54
+C inv_6/in Vdd! 15.47
+C b0 b3 11.57
+C iwe Vdd! 3.05
+C i6n i7n 11.55
+C s2i3ni7n s2i3i7 9.23
+C i2n i3n 15.37
+C s0 s1 18.42
+C GND! phi1 2.78
+C Vdd! GND! 17.00
+R 3nor_1/c 1057
+R reg_one_3/port0 22
+R reg_one_3/a_54_5# 20
+R reg_one_3/a_39_5# 20
+R reg_one_3/a_4_n13# 101
+R reg_one_3/a_21_n13# 100
+R reg_one_3/a_28_35# 16
+R reg_one_3/a_12_35# 20
+R reg_one_3/tmp 560
+R reg_one_3/a_33_32# 153
+R reg_one_3/a_16_27# 213
+R i7 129
+R iwe 5514
 R 3nor_4/a_87_58# 11
-R s7i6 206
-R s2i3n 254
-R s1i0 271
+R s7i6 178
+R s2i3n 232
+R s1i0 248
+R reg_one_2/port0 22
+R reg_one_2/a_54_5# 20
+R reg_one_2/a_39_5# 20
+R reg_one_2/a_4_n13# 101
+R reg_one_2/a_21_n13# 100
+R reg_one_2/a_28_35# 16
+R reg_one_2/a_12_35# 20
+R reg_one_2/tmp 560
+R reg_one_2/a_33_32# 153
+R reg_one_2/a_16_27# 213
+R i4 129
 R inv_27/in 184
 R 3nor_3/a_87_58# 11
-R test 252
-R s2i3i7 294
+R test 233
+R s2i3i7 316
+R reg_one_1/port0 22
+R reg_one_1/a_54_5# 20
+R reg_one_1/a_39_5# 20
+R reg_one_1/port1 23
+R reg_one_1/a_4_n13# 101
+R reg_one_1/a_21_n13# 100
+R reg_one_1/a_28_35# 16
+R reg_one_1/a_12_35# 20
+R reg_one_1/tmp 560
+R reg_one_1/a_33_32# 153
+R reg_one_1/a_16_27# 213
+R i5 129
 R 3nor_2/a_87_58# 11
+R reg_one_0/port0 22
+R reg_one_0/a_54_5# 20
+R reg_one_0/a_39_5# 20
+R reg_one_0/a_4_n13# 101
+R reg_one_0/a_21_n13# 100
+R reg_one_0/a_28_35# 16
+R reg_one_0/a_12_35# 20
+R reg_one_0/tmp 560
+R reg_one_0/a_33_32# 153
+R reg_one_0/a_16_27# 213
+R i6 129
 R 3nor_1/a_87_58# 11
-R i3n 34
-C i3 GND 5.25
-R i3 1031
+R i3n 22
+R inv_9/in 1067
 R 3nor_0/a_87_58# 11
-C i2n GND 4.61
-R i2n 290
-C i2 GND 4.59
-R i2 395
-R i0n 214
-R i0 317
-C i1n GND 4.56
-R i1n 243
-R i1 349
+R i2n 107
+R inv_8/in 427
+R i1n 105
+R inv_7/in 395
+R i0n 105
+R inv_6/in 363
 R inv_5/in 186
 R inv_4/in 187
 R inv_26/in 183
-R s7i4i6 243
-R s3i2n 541
-R s2i3ni7n 257
-R s1i0ni1n 322
-R s0' 23
-R rst 1435
-R 2nor_18/a 158
-R s3' 23
-R s2' 23
-R 2nor_16/a 158
-R 2nor_8/b 430
-R s1' 23
-R 2nor_15/a 158
+R s7i4i6 232
+R s3i2n 527
+R s2i3ni7n 234
+R s1i0ni1n 294
+R rst 251
+R 2nor_8/b 450
 R inv_28/in 148
-R s3i2 237
-R s1i1 228
+R s3i2 218
+R s1i1 206
+R inv_25/in 184
 R 2nor_17/a 148
 R s3y 645
-R b3 180
-R 2nor_13/b 450
-C i6 GND 6.94
-R i6 1043
+R b3 194
+R 2nor_13/b 232
+R 3nor_1/b 1026
 R 2nand_3/a_87_41# 12
-R s3o2 252
-R s3o1 252
-R s2y 566
-R b2 171
+R s3o2 231
+R s3o1 256
+R i7n 24
+R 3nor_2/c 947
 R 4nand_6/a_97_42# 12
 R is_s7 496
-C i6n GND 4.80
-R i6n 389
-R i7n 35
-C i7 GND 5.32
-R i7 920
+R 2nor_16/a 158
+R s2y 566
+R b2 174
+R i6n 221
 R 2nand_2/a_87_41# 12
-R s1y 351
-R b1 167
+R i4n 22
+R 2nor_15/a 216
+R s1y 626
+R b1 171
 R 4nand_5/a_97_42# 12
-R is_s3 346
-R i4n 34
+R is_s3 286
 R 3nand_2/a_97_42# 12
 R 3nand_2/a_87_42# 11
-R s0n 895
-R s2 1695
-R s3n 1626
+R s0n 1043
+R ff2 2287
+R s3n 2670
 R 2nand_1/a_87_41# 12
-R s3 559
-R s0y 454
 R 4nand_3/a_97_42# 12
+R 2nor_18/a 158
+R s0y 454
 R 4nand_4/a_97_42# 12
-R is_s2 499
+R is_s2 451
+R phi1 1435
+R phi0 1435
+R flipflops_0/latch_one_8/in 724
+R flipflops_0/latch_one_9/a_30_n35# 20
+R flipflops_0/latch_one_9/a_n5_n54# 157
+C s1 GND 6.81
+R s1 259
+R flipflops_0/latch_one_9/a_12_n54# 100
+R flipflops_0/latch_one_8/a_30_n35# 20
+R flipflops_0/latch_one_8/a_n5_n54# 157
+R flipflops_0/latch_one_8/a_12_n54# 100
+R flipflops_0/latch_one_7/a_30_n35# 20
+R flipflops_0/latch_one_7/a_n5_n54# 157
+C s2 GND 7.83
+R s2 866
+R flipflops_0/latch_one_7/a_12_n54# 100
+R flipflops_0/latch_one_6/a_30_n35# 20
+R flipflops_0/latch_one_6/a_n5_n54# 157
+R flipflops_0/latch_one_6/a_12_n54# 100
+R flipflops_0/latch_one_5/a_30_n35# 20
+R flipflops_0/latch_one_5/a_n5_n54# 157
+C s3 GND 8.95
+R s3 266
+R flipflops_0/latch_one_5/a_12_n54# 100
+R flipflops_0/latch_one_4/a_30_n35# 20
+R flipflops_0/latch_one_4/a_n5_n54# 157
+R flipflops_0/latch_one_4/a_12_n54# 100
+R flipflops_0/staticizer_one_9/a_95_n27# 20
+R flipflops_0/staticizer_one_9/a_60_n45# 153
+R flipflops_0/staticizer_one_9/a_77_n45# 100
+R flipflops_0/staticizer_one_8/a_95_n27# 20
+R flipflops_0/staticizer_one_8/a_60_n45# 153
+R flipflops_0/staticizer_one_8/a_77_n45# 100
+R flipflops_0/staticizer_one_7/a_95_n27# 20
+R flipflops_0/staticizer_one_7/a_60_n45# 153
+R flipflops_0/staticizer_one_7/a_77_n45# 100
+R flipflops_0/latch_one_6/in 660
+R flipflops_0/staticizer_one_6/a_95_n27# 20
+R flipflops_0/staticizer_one_6/a_60_n45# 153
+R flipflops_0/staticizer_one_6/a_77_n45# 100
+R flipflops_0/latch_one_11/a_30_n35# 20
+R flipflops_0/latch_one_11/a_n5_n54# 157
+C s0 GND 5.68
+R s0 256
+R flipflops_0/latch_one_11/a_12_n54# 100
+R flipflops_0/staticizer_one_5/a_95_n27# 20
+R flipflops_0/staticizer_one_5/a_60_n45# 153
+R flipflops_0/staticizer_one_9/c 1263
+R flipflops_0/staticizer_one_5/a_77_n45# 100
+R flipflops_0/latch_one_4/in 724
+R flipflops_0/latch_one_10/a_30_n35# 20
+R flipflops_0/latch_one_10/a_n5_n54# 157
+R flipflops_0/latch_one_10/a_12_n54# 100
+R flipflops_0/staticizer_one_4/a_95_n27# 20
+R flipflops_0/staticizer_one_4/a_60_n45# 153
+R flipflops_0/staticizer_one_8/c 1262
+R flipflops_0/staticizer_one_4/a_77_n45# 100
+R ff3 524
+R flipflops_0/staticizer_one_11/a_95_n27# 20
+R flipflops_0/staticizer_one_11/a_60_n45# 153
+R flipflops_0/staticizer_one_11/a_77_n45# 100
+R flipflops_0/latch_one_10/in 724
+R flipflops_0/staticizer_one_10/a_95_n27# 20
+R flipflops_0/staticizer_one_10/a_60_n45# 153
+R flipflops_0/staticizer_one_10/a_77_n45# 100
 R 3nand_1/a_97_42# 12
 R 3nand_1/a_87_42# 11
-R s0 1376
-R s1 1287
-R s2n 1111
+R ff0 1985
+R ff1 1728
+R s2n 1371
 R 2nand_0/a_87_41# 12
-R s1n 1459
+R s1n 1521
 R 4nand_2/a_97_42# 12
 R 4nand_1/a_97_42# 12
 R 3nand_0/a_97_42# 12
 R 3nand_0/a_87_42# 11
+R reg_one_7/port0 22
+R reg_one_7/a_54_5# 20
+R reg_one_7/a_39_5# 20
+R reg_one_7/a_4_n13# 101
+R reg_one_7/a_21_n13# 100
+R reg_one_7/a_28_35# 16
+R reg_one_7/a_12_35# 20
+R reg_one_7/tmp 560
+R reg_one_7/a_33_32# 153
+R reg_one_7/a_16_27# 213
+R i0 129
 R 4nand_0/a_97_42# 12
-R is_s1 502
+R is_s1 465
+R reg_one_6/port0 22
+R reg_one_6/a_54_5# 20
+R reg_one_6/a_39_5# 20
+R reg_one_6/a_4_n13# 101
+R reg_one_6/a_21_n13# 100
+R reg_one_6/a_28_35# 16
+R reg_one_6/a_12_35# 20
+R reg_one_6/tmp 560
+R reg_one_6/a_33_32# 153
+R reg_one_6/a_16_27# 213
+R i1 129
 R 5nand_0/a_97_42# 12
-R b0 209
-R s0o5 826
-R s0o4 510
-R s0o3 188
+R b0 238
+R s0o5 930
+R s0o4 754
+R s0o3 578
 R s0o2 451
 R s0o1 307
-R GND! 4419
-C Vdd! GND 24.73
-R Vdd! 196966
+R GND! 7728
+C Vdd! GND 80.52
+R Vdd! 276437
+R reg_one_5/port0 22
+R reg_one_5/a_54_5# 20
+R reg_one_5/a_39_5# 20
+R reg_one_5/a_4_n13# 101
+R reg_one_5/a_21_n13# 100
+R reg_one_5/a_28_35# 16
+R reg_one_5/a_12_35# 20
+R reg_one_5/tmp 560
+R reg_one_5/a_33_32# 153
+R reg_one_5/a_16_27# 213
+R i2 129
+R reg_one_4/port0 22
+R reg_one_4/a_54_5# 20
+R reg_one_4/a_39_5# 20
+R reg_one_4/a_4_n13# 101
+R reg_one_4/a_21_n13# 100
+R reg_one_4/a_28_35# 16
+R reg_one_4/a_12_35# 20
+R reg_one_4/tmp 560
+R reg_one_4/a_33_32# 153
+R reg_one_4/a_16_27# 213
+R i3 129

@@ -4,115 +4,34 @@ l GND!
 l rst
 l iwe
 
+vector CLOCK phi0 phi1
+clock CLOCK 00 10 00 01
+
 vector s s3 s2 s1 s0
 vector i i7 i6 i5 i4 i3 i2 i1 i0
 vector s' s3' s2' s1' s0'
 
 h iwe
-setvector s 1111
 setvector i 00000000
 h rst
 
-ana rst s s' i
+ana CLOCK rst s s' i
 
-s
+c
 
-setvector s 00001
-setvector i 00000001
+setvector i 10000000
 l rst
 
-s
+c
 
-setvector s 0001
-setvector i 00000001
+c
 
-s
+c
 
-setvector s 0001
-setvector i 00000010
+c
+c
+c
 
-s
-
-setvector s 0001
-setvector i 00000000
-
-s
-
-setvector s 0010
-setvector i 00001000
-
-s
-
-setvector s 0010
-setvector i 10000000
-
-s
-
-setvector s 0010
-setvector i 00000000
-
-s
-
-setvector s 0011
-setvector i 00000100
-
-s
-
-setvector s 0011
-setvector i 00000000
-
-s
-
-l iwe
-setvector s 0100
-
-s
-
-setvector s 0101
-
-s
-
-setvector s 0110
-
-s
-
-h iwe
-setvector s 0111
-setvector i 00100000
-
-s
-
-setvector s 0111
-setvector i 01000000
-
-s
-
-setvector s 0111
-setvector i 00000000
-
-s
-
-l iwe
-setvector s 1000
-
-s
-
-setvector s 1001
-
-s
-
-setvector s 1010
-
-s
-
-setvector s 1011
-
-s
-
-setvector s 1100
-
-s
-
-setvector s 1101
-
-s
+c
+c
+c
