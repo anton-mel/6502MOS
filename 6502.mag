@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765795763
+timestamp 1765799998
 << pwell >>
 rect 879 3604 884 3620
 rect 1229 3604 1234 3620
@@ -31,14 +31,22 @@ rect 1681 2981 1686 2986
 rect 1832 1790 1837 1795
 rect 2332 1790 2337 1795
 << metal1 >>
+rect 177 3682 319 3696
+rect 633 3688 641 3700
+rect 983 3690 991 3702
+rect 1333 3688 1341 3705
+rect -28 3452 -16 3460
 rect 75 3403 314 3411
+rect -28 3102 -16 3110
 rect 75 3053 283 3062
+rect -28 2752 -16 2760
 rect 270 2750 283 3053
 rect 301 2781 314 3403
-rect 656 3341 665 3597
+rect 656 3341 665 3601
 rect 3309 3353 3587 3490
 rect 3309 3348 3310 3353
 rect 3348 3348 3587 3353
+rect 3662 3348 3676 3490
 rect 656 3331 1668 3341
 rect 1658 3282 1668 3331
 rect 2644 3285 2649 3286
@@ -66,17 +74,27 @@ rect 3575 2781 3582 2792
 rect 301 2772 360 2781
 rect 270 2741 339 2750
 rect 75 2703 324 2712
+rect -28 2402 -16 2410
 rect 297 2362 306 2363
 rect 75 2353 306 2362
+rect -28 2052 -16 2060
 rect 75 2003 290 2012
 rect 279 1968 290 2003
+rect -28 1702 -16 1710
 rect 72 1652 267 1663
 rect 255 1562 267 1652
+rect -28 1352 -16 1360
 rect 224 1312 235 1314
 rect 73 1303 235 1312
+rect -28 1002 -16 1010
 rect 74 953 205 962
-rect 194 612 205 953
-rect 224 612 235 1303
+rect -28 652 -16 660
+rect 68 542 75 555
+rect 87 542 93 581
+rect 27 536 93 542
+rect -28 198 -14 340
+rect 194 337 205 953
+rect 224 513 235 1303
 rect 256 689 266 1562
 rect 279 1485 288 1968
 rect 278 864 288 1485
@@ -112,6 +130,7 @@ rect 1139 2587 1148 2704
 rect 1139 2263 1148 2578
 rect 1139 2245 1148 2254
 rect 1253 2569 1262 2704
+rect 3666 2678 3678 2686
 rect 2380 2595 2385 2600
 rect 3445 2561 3477 2562
 rect 1253 2263 1262 2560
@@ -169,11 +188,6 @@ rect 342 679 351 680
 rect 256 678 266 679
 rect 3130 655 3135 660
 rect 3254 655 3259 660
-rect 68 542 75 555
-rect 87 542 93 581
-rect 27 536 93 542
-rect 194 337 205 603
-rect 224 513 235 603
 rect 224 512 297 513
 rect 224 510 351 512
 rect 224 505 356 510
@@ -188,32 +202,65 @@ rect 194 327 351 329
 rect 194 326 238 327
 rect 3130 303 3135 308
 rect 3254 303 3259 308
+rect 666 87 678 94
+rect 1016 87 1028 94
+rect 1366 87 1378 94
+rect 1716 87 1728 94
+rect 2066 87 2078 94
+rect 2416 87 2428 94
+rect 2766 87 2778 94
+rect 3116 87 3128 94
 rect 3445 90 3477 2516
 rect 3575 2442 3623 2449
 rect 3575 2431 3582 2442
 rect 3575 2426 3583 2431
+rect 3666 2328 3678 2336
 rect 3575 2092 3623 2099
 rect 3575 2081 3582 2092
 rect 3575 2076 3583 2081
+rect 3666 1978 3678 1986
 rect 3575 1742 3623 1749
 rect 3575 1731 3582 1742
 rect 3575 1726 3583 1731
+rect 3666 1628 3678 1636
 rect 3575 1392 3623 1399
 rect 3575 1381 3582 1392
 rect 3575 1376 3583 1381
+rect 3666 1278 3678 1286
 rect 3575 1042 3623 1049
 rect 3575 1031 3582 1042
 rect 3575 1026 3583 1031
+rect 3666 928 3678 936
 rect 3575 692 3623 699
 rect 3575 681 3582 692
 rect 3575 676 3583 681
+rect 3666 578 3678 586
 rect 3575 342 3623 349
 rect 3575 335 3582 342
+rect 3666 228 3678 236
+rect 671 46 678 87
+rect 1021 46 1028 87
+rect 1371 46 1378 87
+rect 1721 46 1728 87
+rect 2071 46 2078 87
+rect 2421 46 2428 87
+rect 2771 46 2778 87
+rect 3121 46 3128 87
+rect 559 -9 567 3
+rect 909 -9 917 3
+rect 1259 -9 1267 3
+rect 1609 -9 1617 3
+rect 1959 -9 1967 3
+rect 2309 -9 2317 3
+rect 2659 -9 2667 3
+rect 3009 -9 3017 3
+rect 3328 -8 3470 6
 << m2contact >>
 rect 534 3585 543 3594
 rect 75 3475 84 3484
 rect 75 3125 84 3134
 rect 75 2775 84 2784
+rect 1006 3594 1015 3601
 rect 884 3585 893 3594
 rect 1234 3585 1243 3594
 rect 1356 3585 1365 3594
@@ -237,6 +284,7 @@ rect 75 1725 84 1734
 rect 75 1375 84 1384
 rect 75 1025 84 1034
 rect 87 628 93 634
+rect 20 536 27 542
 rect 1351 2768 1360 2777
 rect 3566 2726 3575 2735
 rect 1351 2704 1360 2713
@@ -255,38 +303,21 @@ rect 2609 1764 2618 1773
 rect 1853 1716 1858 1721
 rect 1489 1638 1494 1643
 rect 3186 1564 3194 1572
-rect 3310 1548 3318 1557
 rect 1959 1523 1964 1528
 rect 3186 1388 3194 1396
-rect 3310 1372 3318 1381
 rect 1959 1347 1964 1352
 rect 3186 1212 3194 1220
-rect 3310 1196 3318 1205
 rect 1959 1171 1964 1176
 rect 3186 1036 3194 1044
-rect 3310 1020 3318 1029
 rect 1959 995 1964 1000
 rect 3186 860 3194 868
-rect 3310 844 3318 853
 rect 1959 819 1964 824
 rect 3186 684 3194 692
-rect 3310 668 3318 677
 rect 1959 643 1964 648
-rect 20 536 27 542
 rect 3186 508 3194 516
-rect 3310 492 3318 501
 rect 1959 467 1964 472
 rect 3186 332 3194 340
-rect 3310 316 3318 325
 rect 1959 291 1964 296
-rect 607 94 616 102
-rect 957 94 966 102
-rect 1307 94 1316 102
-rect 1657 94 1666 102
-rect 2007 94 2016 102
-rect 2357 94 2366 102
-rect 2707 94 2716 102
-rect 3057 94 3066 102
 rect 3623 2442 3630 2449
 rect 3566 2376 3575 2385
 rect 3623 2092 3630 2099
@@ -301,6 +332,14 @@ rect 3623 692 3630 699
 rect 3566 626 3575 635
 rect 3623 342 3630 349
 rect 3566 276 3575 285
+rect 671 40 678 46
+rect 1021 40 1028 46
+rect 1371 40 1378 46
+rect 1721 40 1728 46
+rect 2071 40 2078 46
+rect 2421 40 2428 46
+rect 2771 40 2778 46
+rect 3121 40 3128 46
 << pm12contact >>
 rect 1296 1815 1301 1820
 rect 1309 1815 1314 1820
@@ -502,8 +541,24 @@ rect 1832 1795 1837 1800
 rect 2332 1795 2337 1800
 rect 3002 1603 3007 1608
 rect 1083 1563 1092 1572
+rect 3310 1548 3318 1557
+rect 3310 1372 3318 1381
+rect 3310 1196 3318 1205
+rect 3310 1020 3318 1029
 rect 75 903 84 912
+rect 3310 844 3318 853
+rect 3310 668 3318 677
 rect 105 603 112 612
+rect 3310 492 3318 501
+rect 3310 316 3318 325
+rect 607 94 616 102
+rect 957 94 966 102
+rect 1307 94 1316 102
+rect 1657 94 1666 102
+rect 2007 94 2016 102
+rect 2357 94 2366 102
+rect 2707 94 2716 102
+rect 3057 94 3066 102
 << metal3 >>
 rect 75 3012 84 3353
 rect 75 2662 84 3003
@@ -919,234 +974,228 @@ rect 3230 114 3244 316
 rect 2716 102 2717 110
 rect 3057 110 3244 114
 rect 3066 102 3244 110
-use inv2  inv2_0
-timestamp 1765746878
-transform -1 0 95 0 -1 618
-box -10 -13 20 40
 use datapath  datapath_0
-timestamp 1765789580
+timestamp 1765797570
 transform 1 0 431 0 1 -264
 box -81 532 2885 2021
-use latch_one  latch_one_0
-timestamp 1765002978
-transform 0 -1 1796 -1 0 1779
-box -11 -67 48 -12
 use latch_one  latch_one_1
 timestamp 1765002978
 transform 0 -1 2296 -1 0 1779
+box -11 -67 48 -12
+use latch_one  latch_one_0
+timestamp 1765002978
+transform 0 -1 1796 -1 0 1779
 box -11 -67 48 -12
 use 2and  2and_0
 timestamp 1765747547
 transform -1 0 1396 0 1 1729
 box 68 29 138 82
+use inv2  inv2_0
+timestamp 1765746878
+transform -1 0 95 0 -1 618
+box -10 -13 20 40
 use control  control_0
-timestamp 1765789580
+timestamp 1765797570
 transform -1 0 1314 0 -1 3151
 box -317 -140 974 447
-use rom  rom_0
-timestamp 1765759847
-transform 1 0 2676 0 1 3129
-box -350 -907 584 162
-use 4nor  4nor_0
-timestamp 1765673320
-transform 0 1 1666 -1 0 3295
-box 72 -6 132 47
-use inv  inv_0
-timestamp 1765001281
-transform 0 1 1673 -1 0 3243
-box -10 -13 20 40
-use inv  inv_1
-timestamp 1765001281
-transform 1 0 1724 0 1 3117
-box -10 -13 20 40
-use 2and  2and_1
-timestamp 1765747547
-transform 0 1 1631 -1 0 3054
-box 68 29 138 82
-use staticizer_one  staticizer_one_0
-timestamp 1765746506
-transform 0 1 1717 -1 0 3158
-box 54 -61 113 -1
-use latch_one  latch_one_2
-timestamp 1765002978
-transform 0 1 1726 -1 0 3152
-box -11 -67 48 -12
 use latch_one  latch_one_3
 timestamp 1765002978
 transform 0 1 1725 -1 0 3034
 box -11 -67 48 -12
+use latch_one  latch_one_2
+timestamp 1765002978
+transform 0 1 1726 -1 0 3152
+box -11 -67 48 -12
+use staticizer_one  staticizer_one_0
+timestamp 1765746506
+transform 0 1 1717 -1 0 3158
+box 54 -61 113 -1
+use rom  rom_0
+timestamp 1765759847
+transform 1 0 2676 0 1 3129
+box -350 -907 584 162
+use 2and  2and_1
+timestamp 1765747547
+transform 0 1 1631 -1 0 3054
+box 68 29 138 82
+use inv  inv_1
+timestamp 1765001281
+transform 1 0 1724 0 1 3117
+box -10 -13 20 40
+use inv  inv_0
+timestamp 1765001281
+transform 0 1 1673 -1 0 3243
+box -10 -13 20 40
+use 4nor  4nor_0
+timestamp 1765673320
+transform 0 1 1666 -1 0 3295
+box 72 -6 132 47
 use 0names  0names_0
 timestamp 1765780088
 transform 1 0 1777 0 1 2432
 box -128 -44 222 94
 use ring  ring_0
-timestamp 1765052771
+timestamp 1765797880
 transform 1 0 179 0 1 3594
 box -207 -3603 3499 111
 << labels >>
-rlabel metal1 351 1209 356 1214 3 data_out2
-rlabel metal1 351 1033 356 1038 3 data_out3
-rlabel metal1 351 857 356 862 3 data_out4
-rlabel metal1 351 681 356 686 3 data_out5
-rlabel metal1 351 505 356 510 3 data_out6
-rlabel metal1 351 329 356 334 3 data_out7
-rlabel m234contact 478 314 483 319 1 data_in7
-rlabel m234contact 478 490 483 495 1 data_in6
-rlabel m234contact 478 666 483 671 1 data_in5
-rlabel m234contact 478 842 483 847 1 data_in4
-rlabel m234contact 478 1018 483 1023 1 data_in3
-rlabel m234contact 478 1194 483 1199 1 data_in2
-rlabel m234contact 478 1370 483 1375 1 data_in1
-rlabel metal2 3209 2045 3218 2054 1 r_-w
-rlabel metal1 3254 1359 3259 1364 1 addr_out9
-rlabel metal1 3254 1535 3259 1540 1 addr_out8
-rlabel metal1 3254 1183 3259 1188 1 addr_out10
-rlabel metal1 3254 1007 3259 1012 1 addr_out11
-rlabel metal1 3254 831 3259 836 1 addr_out12
-rlabel metal1 3254 655 3259 660 1 addr_out13
-rlabel metal1 3254 479 3259 484 1 addr_out14
-rlabel metal1 3254 303 3259 308 1 addr_out15
-rlabel metal1 3130 1536 3135 1540 1 addr_out0
-rlabel metal1 3130 1360 3135 1364 1 addr_out1
-rlabel metal1 3130 1184 3135 1188 1 addr_out2
-rlabel metal1 3130 1008 3135 1012 1 addr_out3
-rlabel metal1 3130 832 3135 836 1 addr_out4
-rlabel metal1 3130 656 3135 660 1 addr_out5
-rlabel metal1 3130 480 3135 484 1 addr_out6
-rlabel metal1 3130 304 3135 308 1 addr_out7
-rlabel metal1 2360 2546 2365 2551 1 s3
-rlabel metal1 2380 2595 2385 2600 1 s2
-rlabel metal1 2460 3134 2465 3139 1 s1
-rlabel metal1 2470 3087 2475 3092 1 s0
-rlabel metal3 411 1568 416 1571 1 rd_dataout
-rlabel metal3 536 1568 541 1571 1 ld_datain
-rlabel metal3 715 1621 720 1626 1 os_u
-rlabel metal3 777 1621 782 1626 1 os_s
-rlabel metal3 859 1561 864 1566 1 ros
-rlabel metal3 887 1684 892 1689 1 fb_g3
-rlabel metal3 919 1684 924 1689 1 fb_g2
-rlabel metal3 953 1684 958 1689 1 fb_g1
-rlabel metal3 986 1684 991 1689 1 fb_g0
-rlabel metal3 1066 1561 1071 1566 1 rfb
-rlabel m123contact 1087 1565 1092 1570 1 as_sub
-rlabel metal1 1273 1634 1278 1639 1 as_cin
-rlabel m234contact 1345 1616 1350 1621 1 A_r0
-rlabel metal3 1356 1616 1361 1621 1 A_r1
-rlabel metal3 1327 1564 1332 1569 1 ras
-rlabel m234contact 878 1592 883 1597 1 ry0
-rlabel m234contact 878 1416 883 1421 1 ry1
-rlabel m234contact 878 1240 883 1245 1 ry2
-rlabel m234contact 878 1064 883 1069 1 ry3
-rlabel m234contact 878 888 883 893 1 ry4
-rlabel m234contact 878 712 883 717 1 ry5
-rlabel m234contact 878 536 883 541 1 ry6
-rlabel m234contact 878 360 883 365 1 ry7
-rlabel m4contact 469 1506 474 1511 1 rx0
-rlabel m4contact 469 1330 474 1335 1 rx1
-rlabel m4contact 469 1154 474 1159 1 rx2
-rlabel m4contact 469 978 474 983 1 rx3
-rlabel m4contact 469 802 474 807 1 rx4
-rlabel m4contact 469 626 474 631 1 rx5
-rlabel m4contact 469 450 474 455 1 rx6
-rlabel m4contact 469 274 474 279 1 rx7
-rlabel m2contact 1959 1523 1964 1526 1 rx_PCL0
-rlabel m2contact 1959 1347 1964 1350 1 rx_PCL1
-rlabel m2contact 1959 1171 1964 1174 1 rx_PCL2
-rlabel m2contact 1959 995 1964 998 1 rx_PCL3
-rlabel m2contact 1959 819 1964 822 1 rx_PCL4
-rlabel m2contact 1959 643 1964 646 1 rx_PCL5
-rlabel m2contact 1959 467 1964 470 1 rx_PCL6
-rlabel m2contact 1959 291 1964 294 1 rx_PCL7
-rlabel metal3 1429 1612 1434 1616 1 A_w
-rlabel metal2 1452 1612 1457 1616 1 DB_r0
-rlabel metal3 1463 1612 1468 1616 1 DB_r1
-rlabel metal3 1536 1612 1541 1616 1 DB_w
-rlabel metal2 1559 1612 1564 1616 1 X_r0
-rlabel metal3 1570 1612 1575 1616 1 X_r1
-rlabel metal3 1643 1612 1648 1616 1 X_w
-rlabel metal2 1666 1612 1671 1616 1 Y_r0
-rlabel metal3 1677 1612 1682 1616 1 Y_r1
-rlabel metal3 1750 1612 1755 1616 1 Y_w
-rlabel metal3 1876 1622 1881 1627 1 PCL_r1
-rlabel metal2 1866 1612 1871 1615 1 PCL_r0
-rlabel metal3 1950 1612 1955 1615 1 PCL_w
-rlabel metal3 2202 1571 2207 1574 1 rPCplus1L
-rlabel metal2 2366 1612 2371 1615 1 PCH_r0
-rlabel metal3 2377 1612 2382 1615 1 PCH_r1
-rlabel metal3 2450 1612 2455 1615 1 PCH_w
-rlabel metal2 2473 1612 2478 1616 1 ABL_r0
-rlabel metal3 2484 1612 2489 1616 1 ABL_r1
-rlabel metal3 2557 1612 2562 1616 1 ABL_w
-rlabel metal1 2635 1732 2640 1736 1 ABH_w_sel
-rlabel metal2 2666 1612 2671 1616 1 ABH_r0
-rlabel metal3 2677 1612 2682 1616 1 ABH_r1
-rlabel metal3 2750 1612 2755 1616 1 ABH_w
-rlabel metal3 3002 1570 3007 1574 1 rPCplus1H
-rlabel metal3 3126 1572 3131 1575 1 rd_addrL
-rlabel metal3 3250 1570 3255 1573 1 rd_addrH
-rlabel metal1 2335 1729 2339 1732 1 PCH_w_sel
-rlabel metal1 1835 1725 1840 1732 1 PCL_w_sel
-rlabel metal3 1491 1741 1496 1746 1 Cflag_w
-rlabel m2contact 1489 1638 1494 1643 1 Cflag
-rlabel space 177 3682 319 3696 1 Vdd!
-rlabel space 632 3688 640 3700 1 phi0
-rlabel space 982 3690 990 3702 1 phi1
-rlabel space 1332 3688 1340 3705 1 reset
-rlabel space -29 3452 -17 3460 1 r-w_
-rlabel space -29 3102 -17 3110 1 d0
-rlabel space -29 2752 -17 2760 1 d1
-rlabel space -29 2402 -17 2410 1 d2
-rlabel space -29 2052 -17 2060 1 d3
-rlabel space -29 1702 -17 1710 1 d4
-rlabel space -29 1352 -18 1360 1 d5
-rlabel space -29 1002 -17 1010 1 d6
-rlabel space -29 652 -17 660 1 d7
-rlabel space -28 198 -14 340 1 GND!
-rlabel space 558 -9 566 3 1 a15
-rlabel space 908 -9 916 3 1 a14
-rlabel space 1258 -9 1266 3 1 a13
-rlabel space 1608 -9 1616 3 1 a12
-rlabel space 1958 -9 1966 3 1 a11
-rlabel space 2308 -9 2316 3 1 a10
-rlabel space 2658 -9 2666 3 1 a9
-rlabel space 3008 -9 3016 3 1 a8
-rlabel space 3328 -8 3470 6 1 Vdd!
-rlabel space 3665 228 3677 236 1 a7
-rlabel space 3665 578 3677 586 1 a6
-rlabel space 3665 928 3677 936 1 a5
-rlabel space 3665 1278 3677 1286 1 a4
-rlabel space 3665 1628 3677 1636 1 a3
-rlabel space 3665 1978 3677 1986 1 a2
-rlabel space 3665 2328 3677 2336 1 a1
-rlabel space 3665 2678 3677 2686 1 a0
-rlabel space 3662 3348 3676 3490 1 GND!
-rlabel m234contact 478 1546 483 1551 1 data_in0
-rlabel metal1 1331 3254 1336 3259 1 rst
-rlabel metal2 528 2800 533 2803 1 IR0
-rlabel metal2 642 2800 647 2803 1 IR1
-rlabel metal2 756 2799 761 2802 1 IR2
-rlabel metal2 870 2800 875 2803 1 IR3
-rlabel metal2 984 2800 989 2803 1 IR4
-rlabel metal2 1098 2785 1103 2788 1 IR5
-rlabel metal2 1212 2799 1217 2802 1 IR6
-rlabel metal2 1326 2799 1331 2802 1 IR7
-rlabel metal2 749 3259 754 3262 1 s0'
-rlabel metal2 603 3259 608 3262 1 s1'
-rlabel metal2 448 3259 453 3262 1 s2'
-rlabel metal1 1474 2925 1479 2930 1 s0_int
-rlabel metal1 1474 2861 1479 2866 1 s1_int
-rlabel metal1 1474 2797 1479 2802 1 s2_int
-rlabel metal1 1474 2733 1479 2738 1 s3_int
-rlabel metal2 340 3259 345 3262 1 s3'
-rlabel polycontact 1685 3162 1690 3167 1 IR_w_next
-rlabel m4contact 1339 2791 1344 2796 1 IR_w
-rlabel polycontact 1684 3102 1689 3107 1 IR_w_int
 rlabel polycontact 1681 2981 1686 2986 1 IR_w_latched
-rlabel metal1 3575 676 3582 685 7 ring_0/pad_6[8]/oe
-rlabel metal1 3575 1026 3582 1035 7 ring_0/pad_6[8]/oe
-rlabel metal1 3575 1376 3582 1385 7 ring_0/pad_6[8]/oe
-rlabel metal1 3575 1726 3582 1735 7 ring_0/pad_6[8]/oe
-rlabel metal1 3575 2076 3582 2085 7 ring_0/pad_6[8]/oe
-rlabel metal1 3575 2426 3582 2435 7 ring_0/pad_6[8]/oe
-rlabel metal1 3575 2776 3582 2785 7 ring_0/pad_6[8]/oe
+rlabel polycontact 1684 3102 1689 3107 1 IR_w_int
+rlabel m4contact 1339 2791 1344 2796 1 IR_w
+rlabel polycontact 1685 3162 1690 3167 1 IR_w_next
+rlabel metal2 340 3259 345 3262 1 s3'
+rlabel metal1 1474 2733 1479 2738 1 s3_int
+rlabel metal1 1474 2797 1479 2802 1 s2_int
+rlabel metal1 1474 2861 1479 2866 1 s1_int
+rlabel metal1 1474 2925 1479 2930 1 s0_int
+rlabel metal2 448 3259 453 3262 1 s2'
+rlabel metal2 603 3259 608 3262 1 s1'
+rlabel metal2 749 3259 754 3262 1 s0'
+rlabel metal2 1326 2799 1331 2802 1 IR7
+rlabel metal2 1212 2799 1217 2802 1 IR6
+rlabel metal2 1098 2785 1103 2788 1 IR5
+rlabel metal2 984 2800 989 2803 1 IR4
+rlabel metal2 870 2800 875 2803 1 IR3
+rlabel metal2 756 2799 761 2802 1 IR2
+rlabel metal2 642 2800 647 2803 1 IR1
+rlabel metal2 528 2800 533 2803 1 IR0
+rlabel metal1 1331 3254 1336 3259 1 rst
+rlabel m234contact 478 1546 483 1551 1 data_in0
+rlabel m2contact 1489 1638 1494 1643 1 Cflag
+rlabel metal3 1491 1741 1496 1746 1 Cflag_w
+rlabel metal1 1835 1725 1840 1732 1 PCL_w_sel
+rlabel metal1 2335 1729 2339 1732 1 PCH_w_sel
+rlabel metal3 3250 1570 3255 1573 1 rd_addrH
+rlabel metal3 3126 1572 3131 1575 1 rd_addrL
+rlabel metal3 3002 1570 3007 1574 1 rPCplus1H
+rlabel metal3 2750 1612 2755 1616 1 ABH_w
+rlabel metal3 2677 1612 2682 1616 1 ABH_r1
+rlabel metal2 2666 1612 2671 1616 1 ABH_r0
+rlabel metal1 2635 1732 2640 1736 1 ABH_w_sel
+rlabel metal3 2557 1612 2562 1616 1 ABL_w
+rlabel metal3 2484 1612 2489 1616 1 ABL_r1
+rlabel metal2 2473 1612 2478 1616 1 ABL_r0
+rlabel metal3 2450 1612 2455 1615 1 PCH_w
+rlabel metal3 2377 1612 2382 1615 1 PCH_r1
+rlabel metal2 2366 1612 2371 1615 1 PCH_r0
+rlabel metal3 2202 1571 2207 1574 1 rPCplus1L
+rlabel metal3 1950 1612 1955 1615 1 PCL_w
+rlabel metal2 1866 1612 1871 1615 1 PCL_r0
+rlabel metal3 1876 1622 1881 1627 1 PCL_r1
+rlabel metal3 1750 1612 1755 1616 1 Y_w
+rlabel metal3 1677 1612 1682 1616 1 Y_r1
+rlabel metal2 1666 1612 1671 1616 1 Y_r0
+rlabel metal3 1643 1612 1648 1616 1 X_w
+rlabel metal3 1570 1612 1575 1616 1 X_r1
+rlabel metal2 1559 1612 1564 1616 1 X_r0
+rlabel metal3 1536 1612 1541 1616 1 DB_w
+rlabel metal3 1463 1612 1468 1616 1 DB_r1
+rlabel metal2 1452 1612 1457 1616 1 DB_r0
+rlabel metal3 1429 1612 1434 1616 1 A_w
+rlabel m2contact 1959 291 1964 294 1 rx_PCL7
+rlabel m2contact 1959 467 1964 470 1 rx_PCL6
+rlabel m2contact 1959 643 1964 646 1 rx_PCL5
+rlabel m2contact 1959 819 1964 822 1 rx_PCL4
+rlabel m2contact 1959 995 1964 998 1 rx_PCL3
+rlabel m2contact 1959 1171 1964 1174 1 rx_PCL2
+rlabel m2contact 1959 1347 1964 1350 1 rx_PCL1
+rlabel m2contact 1959 1523 1964 1526 1 rx_PCL0
+rlabel m4contact 469 274 474 279 1 rx7
+rlabel m4contact 469 450 474 455 1 rx6
+rlabel m4contact 469 626 474 631 1 rx5
+rlabel m4contact 469 802 474 807 1 rx4
+rlabel m4contact 469 978 474 983 1 rx3
+rlabel m4contact 469 1154 474 1159 1 rx2
+rlabel m4contact 469 1330 474 1335 1 rx1
+rlabel m4contact 469 1506 474 1511 1 rx0
+rlabel m234contact 878 360 883 365 1 ry7
+rlabel m234contact 878 536 883 541 1 ry6
+rlabel m234contact 878 712 883 717 1 ry5
+rlabel m234contact 878 888 883 893 1 ry4
+rlabel m234contact 878 1064 883 1069 1 ry3
+rlabel m234contact 878 1240 883 1245 1 ry2
+rlabel m234contact 878 1416 883 1421 1 ry1
+rlabel m234contact 878 1592 883 1597 1 ry0
+rlabel metal3 1327 1564 1332 1569 1 ras
+rlabel metal3 1356 1616 1361 1621 1 A_r1
+rlabel m234contact 1345 1616 1350 1621 1 A_r0
+rlabel metal1 1273 1634 1278 1639 1 as_cin
+rlabel m123contact 1087 1565 1092 1570 1 as_sub
+rlabel metal3 1066 1561 1071 1566 1 rfb
+rlabel metal3 986 1684 991 1689 1 fb_g0
+rlabel metal3 953 1684 958 1689 1 fb_g1
+rlabel metal3 919 1684 924 1689 1 fb_g2
+rlabel metal3 887 1684 892 1689 1 fb_g3
+rlabel metal3 859 1561 864 1566 1 ros
+rlabel metal3 777 1621 782 1626 1 os_s
+rlabel metal3 715 1621 720 1626 1 os_u
+rlabel metal3 536 1568 541 1571 1 ld_datain
+rlabel metal3 411 1568 416 1571 1 rd_dataout
+rlabel metal1 2470 3087 2475 3092 1 s0
+rlabel metal1 2460 3134 2465 3139 1 s1
+rlabel metal1 2380 2595 2385 2600 1 s2
+rlabel metal1 2360 2546 2365 2551 1 s3
+rlabel metal1 3130 304 3135 308 1 addr_out7
+rlabel metal1 3130 480 3135 484 1 addr_out6
+rlabel metal1 3130 656 3135 660 1 addr_out5
+rlabel metal1 3130 832 3135 836 1 addr_out4
+rlabel metal1 3130 1008 3135 1012 1 addr_out3
+rlabel metal1 3130 1184 3135 1188 1 addr_out2
+rlabel metal1 3130 1360 3135 1364 1 addr_out1
+rlabel metal1 3130 1536 3135 1540 1 addr_out0
+rlabel metal1 3254 303 3259 308 1 addr_out15
+rlabel metal1 3254 479 3259 484 1 addr_out14
+rlabel metal1 3254 655 3259 660 1 addr_out13
+rlabel metal1 3254 831 3259 836 1 addr_out12
+rlabel metal1 3254 1007 3259 1012 1 addr_out11
+rlabel metal1 3254 1183 3259 1188 1 addr_out10
+rlabel metal1 3254 1535 3259 1540 1 addr_out8
+rlabel metal1 3254 1359 3259 1364 1 addr_out9
+rlabel metal2 3209 2045 3218 2054 1 r_-w
+rlabel m234contact 478 1370 483 1375 1 data_in1
+rlabel m234contact 478 1194 483 1199 1 data_in2
+rlabel m234contact 478 1018 483 1023 1 data_in3
+rlabel m234contact 478 842 483 847 1 data_in4
+rlabel m234contact 478 666 483 671 1 data_in5
+rlabel m234contact 478 490 483 495 1 data_in6
+rlabel m234contact 478 314 483 319 1 data_in7
+rlabel metal1 351 329 356 334 3 data_out7
+rlabel metal1 351 505 356 510 3 data_out6
+rlabel metal1 351 681 356 686 3 data_out5
+rlabel metal1 351 857 356 862 3 data_out4
+rlabel metal1 351 1033 356 1038 3 data_out3
+rlabel metal1 351 1209 356 1214 3 data_out2
+rlabel metal1 344 1385 350 1390 1 data_out1
+rlabel metal1 352 1569 358 1574 1 data_out0
+rlabel metal1 -28 3452 -16 3460 1 d0
+rlabel metal1 -28 3102 -16 3110 1 d1
+rlabel metal1 -28 2752 -16 2760 1 d2
+rlabel metal1 -28 2402 -16 2410 1 d3
+rlabel metal1 -28 2052 -16 2060 1 d4
+rlabel metal1 -28 1702 -16 1710 1 d5
+rlabel metal1 -28 1352 -16 1360 1 d6
+rlabel metal1 -28 1002 -16 1010 1 d7
+rlabel metal1 -28 652 -16 660 1 r-w_
+rlabel metal1 633 3688 641 3700 1 phi0
+rlabel metal1 1333 3688 1341 3705 1 reset
+rlabel metal1 983 3690 991 3702 1 phi1
+rlabel metal1 3662 3348 3676 3490 1 GND!
+rlabel metal1 3666 2678 3678 2686 1 a0
+rlabel metal1 3666 2328 3678 2336 1 a1
+rlabel metal1 3666 1978 3678 1986 1 a2
+rlabel metal1 3666 1628 3678 1636 1 a3
+rlabel metal1 3666 1278 3678 1286 1 a4
+rlabel metal1 3666 928 3678 936 1 a5
+rlabel metal1 3666 578 3678 586 1 a6
+rlabel metal1 3666 228 3678 236 1 a7
+rlabel metal4 1006 3572 1015 3582 1 phi1_in
+rlabel metal1 656 3590 665 3601 1 phi0_in
+rlabel metal1 559 -9 567 3 1 a8
+rlabel metal1 909 -9 917 3 1 a9
+rlabel metal1 1259 -9 1267 3 1 a10
+rlabel metal1 1609 -9 1617 3 1 a11
+rlabel metal1 1959 -9 1967 3 1 a12
+rlabel metal1 2309 -9 2317 3 1 a13
+rlabel metal1 2659 -9 2667 3 1 a14
+rlabel metal1 3009 -9 3017 3 1 a15
 << end >>

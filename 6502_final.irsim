@@ -1,19 +1,23 @@
 h Vdd!
 l GND!
 
+# External pins
+vector d d7 d6 d5 d4 d3 d2 d1 d0
+vector CLOCK phi1 phi0
+clock CLOCK 00 10 00 01
+vector a a15 a14 a13 a12 a11 a10 a9 a8 a7 a6 a5 a4 a3 a2 a1 a0
+# also r-w_ and reset
+
+# internal pins for verification (never write to these)
 vector data_in    data_in7 data_in6 data_in5 data_in4 data_in3 data_in2 data_in1 data_in0
 vector data_out   data_out7 data_out6 data_out5 data_out4 data_out3 data_out2 data_out1 data_out0
 vector addr_out   addr_out15 addr_out14 addr_out13 addr_out12 addr_out11 addr_out10 addr_out9 addr_out8 addr_out7 addr_out6 addr_out5 addr_out4 addr_out3 addr_out2 addr_out1 addr_out0
-
-vector CLOCK phi1 phi0
-clock CLOCK 00 10 00 01
-
-vector clock_in phi1_in phi0_in
 
 vector s s3 s2 s1 s0
 vector s' s3' s2' s1' s0'
 vector s_int s3_int s2_int s1_int s0_int
 vector IR IR7 IR6 IR5 IR4 IR3 IR2 IR1 IR0
+vector clock_in phi1_in phi0_in
 
 vector rx         rx7 rx6 rx5 rx4 rx3 rx2 rx1 rx0
 vector ry         ry7 ry6 ry5 ry4 ry3 ry2 ry1 ry0
@@ -35,23 +39,25 @@ vector ABL_ctrl   ABL_w ABL_r0 ABL_r1
 vector ABH_ctrl   ABH_w ABH_r0 ABH_r1 ABH_w_sel
 vector ROM_output Cflag_w rd_dataout ld_datain fb_g3 fb_g2 fb_g1 rfb as_sub as_cin ras A_r0 A_w DB_r1 DB_w X_w Y_w PCL_w_sel PCL_r0 PCL_r1 PCL_w rPCplus1L PCH_w_sel PCH_r0 PCH_r1 PCH_w ABL_r1 ABL_w ABH_w_sel ABH_r1 ABH_w rPCplus1H rd_addrL rd_addrH
 
-ana data_in s s' s_int IR CLOCK addr_out data_out rx ry rx_PCL wz_latch_ctrl fb_ctrl os_ctrl as_ctrl wzaddr_latch_ctrl out_latch_ctrl A_ctrl DB_ctrl X_ctrl PCL_ctrl PCH_ctrl ABL_ctrl ABH_ctrl r_-w rst IR_w IR_w_next IR_w_int IR_w_latched clock_in
+ana d a CLOCK r-w_ reset 
+# ana data_in addr_out data_out rst
+
 
 # reset (set rx and ry to anything because irsim doesn't know fblock will output 0 no matter what rx and ry are, similar reasoning for s)
 setvector rx 00000000
 setvector ry 00000000
 setvector s 1111
-h rst
+h reset
 c
 setvector s xxxx
-l rst
+l reset
 c
 setvector rx xxxxxxxx
 setvector ry xxxxxxxx
 
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
 c
 c
 c
@@ -64,144 +70,164 @@ c
 c
 
 # lda imm
-setvector data_in 00000010
+setvector d 00000001
 c
-setvector data_in 00001111
-c
-
-# nops
-setvector data_in 00000001
-c
-c
-
-# sta abs
-setvector data_in 00001000
-c
-setvector data_in 00000001
-c
-setvector data_in 00000010
-c
+setvector d 00000001
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
+c
+c
+
+# sta abs (write d to x to allow chip to write to output)
+setvector d 00001000
+c
+setvector d 00000001
+c
+setvector d 00000010
+p
+p
+setvector d xxxxxxxx
+p
+p
+c
+
+# nops
+setvector d 00000001
 c
 c
 
 # lda abs
-setvector data_in 00000100
+setvector d 00000100
 c
-setvector data_in 00001000
+setvector d 00001000
 c
-setvector data_in 00010000
+setvector d 00010000
 c
-setvector data_in 00010000
+setvector d 00010000
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
 c
 c
 
 # sta abs
-setvector data_in 00001000
+setvector d 00001000
 c
-setvector data_in 10000000
+setvector d 10000000
 c
-setvector data_in 00000010
-c
+setvector d 00000010
+p
+p
+setvector d xxxxxxxx
+p
+p
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
 c
 c
 
 # adc abs
-setvector data_in 00010000
+setvector d 00010000
 c
-setvector data_in 01010101
+setvector d 01010101
 c
-setvector data_in 01010101
+setvector d 01010101
 c
-setvector data_in 11111111
-c
-
-# nops
-setvector data_in 00000001
-c
-c
-
-# sta abs
-setvector data_in 00001000
-c
-setvector data_in 11111111
-c
-setvector data_in 11111111
-c
+setvector d 11111111
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
+c
+c
+
+# sta abs (write d to x to allow chip to write to output)
+setvector d 00001000
+c
+setvector d 11111111
+c
+setvector d 11111111
+p
+p
+setvector d xxxxxxxx
+p
+p
+c
+
+# nops
+setvector d 00000001
 c
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
 c
 c
 
 # sbc abs
-setvector data_in 01000000
+setvector d 01000000
 c
-setvector data_in 01010101
+setvector d 01010101
 c
-setvector data_in 01010101
+setvector d 01010101
 c
-setvector data_in 00001010
+setvector d 00001010
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
 c
 c
 
 # sta abs
-setvector data_in 00001000
+setvector d 00001000
 c
-setvector data_in 11111111
+setvector d 00000001
 c
-setvector data_in 11111111
-c
+setvector d 00000010
+p
+p
+setvector d xxxxxxxx
+p
+p
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
 c
 c
 
 # eor abs
-setvector data_in 00100000
+setvector d 00100000
 c
-setvector data_in 00000001
+setvector d 00000001
 c
-setvector data_in 00000000
+setvector d 00000000
 c
-setvector data_in 11110011
+setvector d 11110011
 c
 
 # nops
-setvector data_in 00000001
+setvector d 00000001
 c
 c
 
-# sta abs
-setvector data_in 00001000
+# sta abs (write d to x to allow chip to write to output)
+setvector d 00001000
 c
-setvector data_in 11111111
+setvector d 00000001
 c
-setvector data_in 11111111
-c
+setvector d 00000010
+p
+p
+setvector d xxxxxxxx
+p
+p
 c
 
 # jmp abs
@@ -226,30 +252,6 @@ c
 setvector data_in 00000001
 c
 c
-
-# nops
-setvector data_in 00000001
-c
-c
-
-# nops
-setvector data_in 00000001
-c
-c
-
-# nops
-setvector data_in 00000001
-c
-c
-
-# nops
-setvector data_in 00000001
-c
-c
-
-h rst
-c
-l rst
 
 # nops
 setvector data_in 00000001
