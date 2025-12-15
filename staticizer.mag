@@ -64,37 +64,37 @@ rect 90 -682 95 -511
 rect 90 -858 95 -687
 rect 90 -1034 95 -863
 rect 90 -1210 95 -1039
-use staticizer_one  staticizer_one_3
+use staticizer_one  staticizer_one_1
 timestamp 1765746506
-transform 1 0 7 0 1 -450
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_5
-timestamp 1765746506
-transform 1 0 7 0 1 -802
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_7
-timestamp 1765746506
-transform 1 0 7 0 1 -1154
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_6
-timestamp 1765746506
-transform 1 0 7 0 1 -978
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_4
-timestamp 1765746506
-transform 1 0 7 0 1 -626
-box 54 -61 113 -1
-use staticizer_one  staticizer_one_2
-timestamp 1765746506
-transform 1 0 7 0 1 -274
+transform 1 0 7 0 1 -98
 box 54 -61 113 -1
 use staticizer_one  staticizer_one_0
 timestamp 1765746506
 transform 1 0 7 0 1 78
 box 54 -61 113 -1
-use staticizer_one  staticizer_one_1
+use staticizer_one  staticizer_one_2
 timestamp 1765746506
-transform 1 0 7 0 1 -98
+transform 1 0 7 0 1 -274
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_4
+timestamp 1765746506
+transform 1 0 7 0 1 -626
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_6
+timestamp 1765746506
+transform 1 0 7 0 1 -978
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_7
+timestamp 1765746506
+transform 1 0 7 0 1 -1154
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_5
+timestamp 1765746506
+transform 1 0 7 0 1 -802
+box 54 -61 113 -1
+use staticizer_one  staticizer_one_3
+timestamp 1765746506
+transform 1 0 7 0 1 -450
 box 54 -61 113 -1
 << labels >>
 rlabel polysilicon 61 -304 63 -302 3 in2

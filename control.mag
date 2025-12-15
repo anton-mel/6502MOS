@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765751060
+timestamp 1765749671
 << polysilicon >>
 rect 454 281 456 292
 rect 465 281 467 300
@@ -243,46 +243,30 @@ rect 690 -108 695 -103
 rect 845 -108 850 -103
 rect 953 -108 958 -103
 << metal1 >>
-rect 54 438 59 447
-rect 168 437 173 447
-rect 282 437 287 447
-rect 396 437 401 447
-rect 510 437 515 447
-rect 624 437 629 447
-rect 738 437 743 447
-rect 852 437 857 447
-rect -22 340 -17 345
-rect -12 340 199 345
+rect -22 340 199 345
 rect 204 340 630 345
 rect 635 340 679 345
 rect 684 340 974 345
-rect -22 332 97 337
-rect 102 332 163 337
+rect -22 332 163 337
 rect 168 332 789 337
 rect 794 332 974 337
 rect -22 324 127 329
-rect 132 324 325 329
-rect 330 324 780 329
+rect 132 324 780 329
 rect 785 324 974 329
 rect -22 316 91 321
-rect 96 316 439 321
-rect 444 316 512 321
+rect 96 316 512 321
 rect 517 316 619 321
 rect 624 316 668 321
 rect 673 316 974 321
 rect -22 308 55 313
-rect 60 308 553 313
-rect 558 308 810 313
+rect 60 308 810 313
 rect 815 308 974 313
 rect -22 300 19 305
 rect 24 300 463 305
-rect 468 300 667 305
-rect 672 300 974 305
+rect 468 300 974 305
 rect -17 292 452 297
-rect 457 292 781 297
-rect 786 292 974 297
-rect -22 284 950 289
-rect 955 284 960 289
+rect 457 292 974 297
+rect -22 284 960 289
 rect 965 284 974 289
 rect 280 265 307 268
 rect 277 263 307 265
@@ -302,8 +286,7 @@ rect 827 263 855 268
 rect 827 260 832 263
 rect 910 263 938 268
 rect 910 260 915 263
-rect -22 242 925 247
-rect 930 242 969 247
+rect -22 242 969 247
 rect -22 234 8 239
 rect 13 234 261 239
 rect 266 234 974 239
@@ -450,20 +433,13 @@ rect 695 -108 845 -103
 rect 850 -108 953 -103
 rect 958 -108 974 -103
 << m2contact >>
-rect -17 340 -12 345
 rect 199 340 204 345
-rect 97 332 102 337
 rect 163 332 168 337
 rect 127 324 132 329
-rect 325 324 330 329
 rect 91 316 96 321
-rect 439 316 444 321
 rect 55 308 60 313
-rect 553 308 558 313
 rect 19 300 24 305
-rect 667 300 672 305
 rect -22 292 -17 297
-rect 781 292 786 297
 rect 960 284 965 289
 rect -22 263 -17 268
 rect 8 263 13 268
@@ -585,10 +561,6 @@ rect 887 -90 892 -85
 rect 41 -99 46 -94
 rect 478 -99 483 -94
 << metal2 >>
-rect -19 439 1 444
-rect 6 439 789 444
-rect -17 345 -12 356
-rect 97 337 102 357
 rect -22 268 -17 292
 rect 19 268 24 300
 rect 55 268 60 308
@@ -596,11 +568,6 @@ rect 91 268 96 316
 rect 127 268 132 324
 rect 163 268 168 332
 rect 199 268 204 340
-rect 325 329 330 356
-rect 439 321 444 356
-rect 553 313 558 356
-rect 667 305 672 357
-rect 781 297 786 356
 rect 8 239 13 263
 rect 44 231 49 263
 rect 80 223 85 263
@@ -620,9 +587,9 @@ rect 707 247 712 260
 rect 492 242 712 247
 rect 790 247 795 261
 rect 873 247 878 260
+rect 790 242 878 247
 rect 935 263 938 268
 rect 935 258 943 263
-rect 790 242 878 247
 rect -22 128 -17 152
 rect -13 74 -8 160
 rect -4 83 1 152
@@ -699,10 +666,7 @@ rect 779 -76 784 -44
 rect 861 -111 866 -44
 rect 887 -85 892 -44
 rect 969 -111 974 -44
-<< m3contact >>
-rect 1 439 6 444
 << m123contact >>
-rect 950 284 955 289
 rect 307 263 312 268
 rect 390 263 395 268
 rect 474 260 479 265
@@ -710,7 +674,6 @@ rect 557 263 562 268
 rect 641 260 646 265
 rect 772 263 777 268
 rect 855 263 860 268
-rect 925 242 930 247
 rect 755 123 760 128
 rect 885 123 890 128
 rect 969 120 974 125
@@ -726,12 +689,6 @@ rect 794 62 799 67
 rect 326 44 331 49
 rect 336 26 341 31
 << metal3 >>
-rect 1 433 6 439
-rect -22 428 821 433
-rect 1 424 6 428
-rect -22 419 955 424
-rect -22 401 930 406
-rect -22 355 879 360
 rect 271 300 777 305
 rect 271 31 276 300
 rect 280 291 646 296
@@ -756,8 +713,6 @@ rect 566 123 755 128
 rect 442 67 447 78
 rect 566 67 571 123
 rect 783 99 788 256
-rect 925 247 930 401
-rect 950 289 955 419
 rect 653 94 788 99
 rect 794 133 974 138
 rect 653 67 658 94
@@ -807,14 +762,14 @@ use inv  inv_5
 timestamp 1765001281
 transform 1 0 293 0 1 22
 box -10 -13 20 40
-use 2nand  2nand_3
-timestamp 1762392651
-transform 1 0 302 0 1 -20
-box 68 29 115 82
 use 3nor  3nor_4
 timestamp 1765747812
 transform 1 0 364 0 1 -19
 box 72 28 120 81
+use 2nand  2nand_3
+timestamp 1762392651
+transform 1 0 302 0 1 -20
+box 68 29 115 82
 use 2nor  2nor_18
 timestamp 1762488699
 transform 1 0 450 0 1 -93
@@ -827,6 +782,10 @@ use 2nor  2nor_0
 timestamp 1762488699
 transform 1 0 403 0 1 -93
 box 68 28 115 81
+use 2nor  2nor_15
+timestamp 1762488699
+transform 1 0 596 0 1 -93
+box 68 28 115 81
 use 4nor  4nor_0
 timestamp 1765673320
 transform 1 0 542 0 1 15
@@ -834,10 +793,6 @@ box 72 -6 132 47
 use 2nor  2nor_1
 timestamp 1762488699
 transform 1 0 549 0 1 -93
-box 68 28 115 81
-use 2nor  2nor_15
-timestamp 1762488699
-transform 1 0 596 0 1 -93
 box 68 28 115 81
 use inv  inv_26
 timestamp 1765001281
@@ -1003,38 +958,6 @@ use 2nor  2nor_10
 timestamp 1762488699
 transform 1 0 798 0 1 211
 box 68 28 115 81
-use reg_one  reg_one_3
-timestamp 1765746319
-transform 0 1 5 -1 0 428
-box -11 -27 74 81
-use reg_one  reg_one_0
-timestamp 1765746319
-transform 0 1 119 -1 0 428
-box -11 -27 74 81
-use reg_one  reg_one_1
-timestamp 1765746319
-transform 0 1 233 -1 0 428
-box -11 -27 74 81
-use reg_one  reg_one_2
-timestamp 1765746319
-transform 0 1 347 -1 0 428
-box -11 -27 74 81
-use reg_one  reg_one_4
-timestamp 1765746319
-transform 0 1 461 -1 0 428
-box -11 -27 74 81
-use reg_one  reg_one_5
-timestamp 1765746319
-transform 0 1 575 -1 0 428
-box -11 -27 74 81
-use reg_one  reg_one_6
-timestamp 1765746319
-transform 0 1 689 -1 0 428
-box -11 -27 74 81
-use reg_one  reg_one_7
-timestamp 1765746319
-transform 0 1 803 -1 0 428
-box -11 -27 74 81
 << labels >>
 rlabel m2contact 412 62 417 67 7 s3o2
 rlabel m2contact 346 62 351 67 1 s3o1
@@ -1050,6 +973,13 @@ rlabel metal1 -22 234 -17 239 3 i0n
 rlabel metal1 -22 226 -17 231 3 i1n
 rlabel metal1 -22 218 -17 223 3 i2n
 rlabel metal1 -22 210 -17 215 3 i3n
+rlabel metal1 -22 316 -17 321 4 i3
+rlabel metal1 -22 308 -17 313 3 i2
+rlabel metal1 -22 300 -17 305 3 i1
+rlabel m2contact -22 292 -17 297 3 i0
+rlabel metal1 -22 324 -17 329 3 i4
+rlabel metal1 -22 332 -17 337 3 i6
+rlabel metal1 -22 340 -17 345 4 i7
 rlabel metal1 -22 202 -17 207 3 i4n
 rlabel metal1 -22 193 -17 198 3 i6n
 rlabel metal1 -22 184 -17 189 3 i7n
@@ -1092,13 +1022,4 @@ rlabel metal2 861 -111 866 -108 1 s2'
 rlabel metal2 969 -110 974 -108 8 s3'
 rlabel metal2 560 -111 565 -108 1 s0'
 rlabel m2contact 140 102 145 107 1 GND!
-rlabel metal3 -22 355 -17 360 3 iwe
-rlabel metal1 54 444 59 447 5 i7
-rlabel metal1 168 444 173 447 5 i6
-rlabel metal1 282 444 287 447 5 i5
-rlabel metal1 396 444 401 447 5 i4
-rlabel metal1 510 444 515 447 5 i3
-rlabel metal1 624 444 629 447 5 i2
-rlabel metal1 738 444 743 447 5 i1
-rlabel metal1 852 444 857 447 5 i0
 << end >>

@@ -77,30 +77,30 @@ rect -49 9 -44 14
 rect -68 -10 -63 -5
 rect -112 -41 -107 -36
 rect -112 -73 -107 -68
-use inv  inv_3
+use 2mux_nr  2mux_nr_1
+timestamp 1765248526
+transform 1 0 34 0 1 6
+box -32 -38 29 27
+use 2mux_nr  2mux_nr_0
+timestamp 1765248526
+transform 1 0 -28 0 1 6
+box -32 -38 29 27
+use inv  inv_1
 timestamp 1765001281
-transform 0 1 11 -1 0 -48
-box -10 -13 20 40
-use inv  inv_2
-timestamp 1765001281
-transform 0 -1 -13 1 0 -58
+transform 0 -1 -73 1 0 -25
 box -10 -13 20 40
 use inv  inv_0
 timestamp 1765001281
 transform 0 -1 -73 1 0 13
 box -10 -13 20 40
-use inv  inv_1
+use inv  inv_2
 timestamp 1765001281
-transform 0 -1 -73 1 0 -25
+transform 0 -1 -13 1 0 -58
 box -10 -13 20 40
-use 2mux_nr  2mux_nr_0
-timestamp 1765248526
-transform 1 0 -28 0 1 6
-box -32 -38 29 27
-use 2mux_nr  2mux_nr_1
-timestamp 1765248526
-transform 1 0 34 0 1 6
-box -32 -38 29 27
+use inv  inv_3
+timestamp 1765001281
+transform 0 1 11 -1 0 -48
+box -10 -13 20 40
 << labels >>
 rlabel metal2 -45 30 -45 30 1 GND!
 rlabel m2contact 50 -73 50 -68 8 o

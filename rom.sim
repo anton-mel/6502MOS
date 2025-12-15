@@ -75,8 +75,8 @@ n a3 GND! decoder24_control_0/2and_3/a_87_41# 2 5 -289 -476
 p a2 decoder24_control_0/2and_3/a_87_60# Vdd! 2 10 -278 -457
 p a3 Vdd! decoder24_control_0/2and_3/a_87_60# 2 10 -289 -457
 n a2 decoder24_control_0/2and_3/a_87_41# decoder24_control_0/2and_3/a_87_60# 2 5 -278 -476
-p m2_16_n880# IR_w Vdd! 2 10 13 -894
-n m2_16_n880# IR_w GND! 2 5 13 -871
+p a_8_45# IR_w Vdd! 2 10 13 -894
+n a_8_45# IR_w GND! 2 5 13 -871
 n wl29 rom_one_52/a_81_n22# GND! 2 10 292 -773
 n wl29 rom_one_52/a_41_n22# GND! 2 10 252 -773
 n wl28 GND! rom_one_52/a_61_12# 2 10 272 -754
@@ -98,18 +98,18 @@ n wl21 rom_one_41/a_41_n22# GND! 2 10 498 -529
 n wl20 GND! rom_one_41/a_61_12# 2 10 518 -510
 n wl23 rom_one_41/a_101_n84# GND! 2 10 558 -589
 n wl22 GND! rom_one_41/a_81_n48# 2 10 538 -569
-n wl23 rom_one_41/a_61_n84# GND! 2 10 518 -589
+n wl23 a_520_9# GND! 2 10 518 -589
 n wl21 rom_one_41/a_101_n22# GND! 2 10 558 -529
 n wl22 GND! rom_one_41/a_41_n48# 2 10 498 -569
 n wl20 GND! rom_one_41/a_81_12# 2 10 538 -510
-n wl21 rom_one_41/a_61_n22# GND! 2 10 518 -529
+n wl21 a_520_9# GND! 2 10 518 -529
 n wl20 GND! rom_one_41/a_41_12# 2 10 498 -510
 n wl23 rom_one_41/a_81_n84# GND! 2 10 538 -589
 n wl22 GND! rom_one_41/a_101_n48# 2 10 558 -569
 n wl22 GND! rom_one_41/a_61_n48# 2 10 518 -569
 n wl23 rom_one_41/a_41_n84# GND! 2 10 498 -589
 n wl20 GND! rom_one_41/a_101_12# 2 10 558 -510
-n wl17 rom_one_30/a_81_n22# GND! 2 10 210 -407
+n wl17 a_213_71# GND! 2 10 210 -407
 n wl17 rom_one_30/a_41_n22# GND! 2 10 170 -407
 n wl16 GND! rom_one_30/a_61_12# 2 10 190 -388
 n wl19 rom_one_30/a_101_n84# GND! 2 10 230 -467
@@ -120,27 +120,27 @@ n wl18 GND! rom_one_30/a_41_n48# 2 10 170 -447
 n wl16 GND! rom_one_30/a_81_12# 2 10 210 -388
 n wl17 rom_one_30/a_61_n22# GND! 2 10 190 -407
 n wl16 GND! rom_one_30/a_41_12# 2 10 170 -388
-n wl19 rom_one_30/a_81_n84# GND! 2 10 210 -467
+n wl19 a_213_71# GND! 2 10 210 -467
 n wl18 GND! rom_one_30/a_101_n48# 2 10 230 -447
 n wl18 GND! rom_one_30/a_61_n48# 2 10 190 -447
 n wl19 rom_one_30/a_41_n84# GND! 2 10 170 -467
 n wl16 GND! rom_one_30/a_101_12# 2 10 230 -388
-p m2_34_n880# rd_dataout Vdd! 2 10 31 -894
-n m2_34_n880# rd_dataout GND! 2 5 31 -871
-n wl21 rom_one_31/a_81_n22# GND! 2 10 210 -529
+p a_28_n173# rd_dataout Vdd! 2 10 31 -894
+n a_28_n173# rd_dataout GND! 2 5 31 -871
+n wl21 a_213_71# GND! 2 10 210 -529
 n wl21 rom_one_31/a_41_n22# GND! 2 10 170 -529
-n wl20 GND! rom_one_31/a_61_12# 2 10 190 -510
-n wl23 rom_one_31/a_101_n84# GND! 2 10 230 -589
+n wl20 GND! a_192_106# 2 10 190 -510
+n wl23 a_233_71# GND! 2 10 230 -589
 n wl22 GND! rom_one_31/a_81_n48# 2 10 210 -569
 n wl23 rom_one_31/a_61_n84# GND! 2 10 190 -589
-n wl21 rom_one_31/a_101_n22# GND! 2 10 230 -529
-n wl22 GND! rom_one_31/a_41_n48# 2 10 170 -569
+n wl21 a_233_71# GND! 2 10 230 -529
+n wl22 GND! a_173_n565# 2 10 170 -569
 n wl20 GND! rom_one_31/a_81_12# 2 10 210 -510
 n wl21 rom_one_31/a_61_n22# GND! 2 10 190 -529
-n wl20 GND! rom_one_31/a_41_12# 2 10 170 -510
-n wl23 rom_one_31/a_81_n84# GND! 2 10 210 -589
+n wl20 GND! a_173_n565# 2 10 170 -510
+n wl23 a_213_71# GND! 2 10 210 -589
 n wl22 GND! rom_one_31/a_101_n48# 2 10 230 -569
-n wl22 GND! rom_one_31/a_61_n48# 2 10 190 -569
+n wl22 GND! a_192_106# 2 10 190 -569
 n wl23 rom_one_31/a_41_n84# GND! 2 10 170 -589
 n wl20 GND! rom_one_31/a_101_12# 2 10 230 -510
 n wl29 rom_one_53/a_81_n22# GND! 2 10 374 -773
@@ -191,8 +191,8 @@ n wl10 GND! rom_one_20/a_101_n48# 2 10 312 -203
 n wl10 GND! rom_one_20/a_61_n48# 2 10 272 -203
 n wl11 rom_one_20/a_41_n84# GND! 2 10 252 -223
 n wl8 GND! rom_one_20/a_101_12# 2 10 312 -144
-p m2_70_n880# fb_g3 Vdd! 2 10 67 -894
-n m2_70_n880# fb_g3 GND! 2 5 67 -871
+p a_68_n260# fb_g3 Vdd! 2 10 67 -894
+n a_68_n260# fb_g3 GND! 2 5 67 -871
 n wl21 rom_one_32/a_81_n22# GND! 2 10 46 -529
 n wl21 rom_one_32/a_41_n22# GND! 2 10 6 -529
 n wl20 GND! rom_one_32/a_61_12# 2 10 26 -510
@@ -230,11 +230,11 @@ n wl25 rom_one_43/a_41_n22# GND! 2 10 498 -651
 n wl24 GND! rom_one_43/a_61_12# 2 10 518 -632
 n wl27 rom_one_43/a_101_n84# GND! 2 10 558 -711
 n wl26 GND! rom_one_43/a_81_n48# 2 10 538 -691
-n wl27 rom_one_43/a_61_n84# GND! 2 10 518 -711
+n wl27 a_520_9# GND! 2 10 518 -711
 n wl25 rom_one_43/a_101_n22# GND! 2 10 558 -651
 n wl26 GND! rom_one_43/a_41_n48# 2 10 498 -691
 n wl24 GND! rom_one_43/a_81_12# 2 10 538 -632
-n wl25 rom_one_43/a_61_n22# GND! 2 10 518 -651
+n wl25 a_520_9# GND! 2 10 518 -651
 n wl24 GND! rom_one_43/a_41_12# 2 10 498 -632
 n wl27 rom_one_43/a_81_n84# GND! 2 10 538 -711
 n wl26 GND! rom_one_43/a_101_n48# 2 10 558 -691
@@ -246,8 +246,8 @@ n wl13 rom_one_21/a_41_n22# GND! 2 10 252 -285
 n wl12 GND! rom_one_21/a_61_12# 2 10 272 -266
 n wl15 rom_one_21/a_101_n84# GND! 2 10 312 -345
 n wl14 GND! rom_one_21/a_81_n48# 2 10 292 -325
-n wl15 rom_one_21/a_61_n84# GND! 2 10 272 -345
-n wl13 rom_one_21/a_101_n22# GND! 2 10 312 -285
+n wl15 a_274_71# GND! 2 10 272 -345
+n wl13 a_315_71# GND! 2 10 312 -285
 n wl14 GND! rom_one_21/a_41_n48# 2 10 252 -325
 n wl12 GND! rom_one_21/a_81_12# 2 10 292 -266
 n wl13 rom_one_21/a_61_n22# GND! 2 10 272 -285
@@ -273,8 +273,8 @@ n wl6 GND! rom_one_10/a_101_n48# 2 10 230 -81
 n wl6 GND! rom_one_10/a_61_n48# 2 10 190 -81
 n wl7 rom_one_10/a_41_n84# GND! 2 10 170 -101
 n wl4 GND! rom_one_10/a_101_12# 2 10 230 -22
-p m2_52_n880# ld_datain Vdd! 2 10 49 -894
-n m2_52_n880# ld_datain GND! 2 5 49 -871
+p a_49_n77# ld_datain Vdd! 2 10 49 -894
+n a_49_n77# ld_datain GND! 2 5 49 -871
 n wl25 rom_one_44/a_81_n22# GND! 2 10 292 -651
 n wl25 rom_one_44/a_41_n22# GND! 2 10 252 -651
 n wl24 GND! rom_one_44/a_61_12# 2 10 272 -632
@@ -285,7 +285,7 @@ n wl25 rom_one_44/a_101_n22# GND! 2 10 312 -651
 n wl26 GND! rom_one_44/a_41_n48# 2 10 252 -691
 n wl24 GND! rom_one_44/a_81_12# 2 10 292 -632
 n wl25 rom_one_44/a_61_n22# GND! 2 10 272 -651
-n wl24 GND! rom_one_44/a_41_12# 2 10 252 -632
+n wl24 GND! a_255_106# 2 10 252 -632
 n wl27 rom_one_44/a_81_n84# GND! 2 10 292 -711
 n wl26 GND! rom_one_44/a_101_n48# 2 10 312 -691
 n wl26 GND! rom_one_44/a_61_n48# 2 10 272 -691
@@ -303,7 +303,7 @@ n wl20 GND! rom_one_33/a_81_12# 2 10 128 -510
 n wl21 rom_one_33/a_61_n22# GND! 2 10 108 -529
 n wl20 GND! rom_one_33/a_41_12# 2 10 88 -510
 n wl23 rom_one_33/a_81_n84# GND! 2 10 128 -589
-n wl22 GND! rom_one_33/a_101_n48# 2 10 148 -569
+n wl22 GND! a_151_n565# 2 10 148 -569
 n wl22 GND! rom_one_33/a_61_n48# 2 10 108 -569
 n wl23 rom_one_33/a_41_n84# GND! 2 10 88 -589
 n wl20 GND! rom_one_33/a_101_12# 2 10 148 -510
@@ -326,13 +326,13 @@ n wl28 GND! rom_one_55/a_101_12# 2 10 558 -754
 n wl9 rom_one_22/a_81_n22# GND! 2 10 374 -163
 n wl9 rom_one_22/a_41_n22# GND! 2 10 334 -163
 n wl8 GND! rom_one_22/a_61_12# 2 10 354 -144
-n wl11 rom_one_22/a_101_n84# GND! 2 10 394 -223
+n wl11 a_397_71# GND! 2 10 394 -223
 n wl10 GND! rom_one_22/a_81_n48# 2 10 374 -203
 n wl11 rom_one_22/a_61_n84# GND! 2 10 354 -223
 n wl9 rom_one_22/a_101_n22# GND! 2 10 394 -163
 n wl10 GND! rom_one_22/a_41_n48# 2 10 334 -203
-n wl8 GND! rom_one_22/a_81_12# 2 10 374 -144
-n wl9 rom_one_22/a_61_n22# GND! 2 10 354 -163
+n wl8 GND! a_377_45# 2 10 374 -144
+n wl9 a_357_11# GND! 2 10 354 -163
 n wl8 GND! rom_one_22/a_41_12# 2 10 334 -144
 n wl11 rom_one_22/a_81_n84# GND! 2 10 374 -223
 n wl10 GND! rom_one_22/a_101_n48# 2 10 394 -203
@@ -355,11 +355,11 @@ n wl6 GND! rom_one_11/a_101_n48# 2 10 312 -81
 n wl6 GND! rom_one_11/a_61_n48# 2 10 272 -81
 n wl7 rom_one_11/a_41_n84# GND! 2 10 252 -101
 n wl4 GND! rom_one_11/a_101_12# 2 10 312 -22
-p m2_116_n880# fb_g1 Vdd! 2 10 113 -894
-n m2_116_n880# fb_g1 GND! 2 5 113 -871
-n wl25 rom_one_45/a_81_n22# GND! 2 10 210 -651
+p a_110_n626# fb_g1 Vdd! 2 10 113 -894
+n a_110_n626# fb_g1 GND! 2 5 113 -871
+n wl25 a_213_71# GND! 2 10 210 -651
 n wl25 rom_one_45/a_41_n22# GND! 2 10 170 -651
-n wl24 GND! rom_one_45/a_61_12# 2 10 190 -632
+n wl24 GND! a_192_106# 2 10 190 -632
 n wl27 rom_one_45/a_101_n84# GND! 2 10 230 -711
 n wl26 GND! rom_one_45/a_81_n48# 2 10 210 -691
 n wl27 rom_one_45/a_61_n84# GND! 2 10 190 -711
@@ -390,7 +390,7 @@ n wl18 GND! rom_one_34/a_61_n48# 2 10 272 -447
 n wl19 rom_one_34/a_41_n84# GND! 2 10 252 -467
 n wl16 GND! rom_one_34/a_101_12# 2 10 312 -388
 n wl13 rom_one_23/a_81_n22# GND! 2 10 374 -285
-n wl13 rom_one_23/a_41_n22# GND! 2 10 334 -285
+n wl13 a_337_10# GND! 2 10 334 -285
 n wl12 GND! rom_one_23/a_61_12# 2 10 354 -266
 n wl15 rom_one_23/a_101_n84# GND! 2 10 394 -345
 n wl14 GND! rom_one_23/a_81_n48# 2 10 374 -325
@@ -398,7 +398,7 @@ n wl15 rom_one_23/a_61_n84# GND! 2 10 354 -345
 n wl13 rom_one_23/a_101_n22# GND! 2 10 394 -285
 n wl14 GND! rom_one_23/a_41_n48# 2 10 334 -325
 n wl12 GND! rom_one_23/a_81_12# 2 10 374 -266
-n wl13 rom_one_23/a_61_n22# GND! 2 10 354 -285
+n wl13 a_357_11# GND! 2 10 354 -285
 n wl12 GND! rom_one_23/a_41_12# 2 10 334 -266
 n wl15 rom_one_23/a_81_n84# GND! 2 10 374 -345
 n wl14 GND! rom_one_23/a_101_n48# 2 10 394 -325
@@ -421,10 +421,10 @@ n wl6 GND! rom_one_12/a_101_n48# 2 10 148 -81
 n wl6 GND! rom_one_12/a_61_n48# 2 10 108 -81
 n wl7 rom_one_12/a_41_n84# GND! 2 10 88 -101
 n wl4 GND! rom_one_12/a_101_12# 2 10 148 -22
-p m2_134_n880# rfb Vdd! 2 10 131 -894
-n m2_134_n880# rfb GND! 2 5 131 -871
+p a_131_106# rfb Vdd! 2 10 131 -894
+n a_131_106# rfb GND! 2 5 131 -871
 n wl25 rom_one_46/a_81_n22# GND! 2 10 374 -651
-n wl25 rom_one_46/a_41_n22# GND! 2 10 334 -651
+n wl25 a_337_10# GND! 2 10 334 -651
 n wl24 GND! rom_one_46/a_61_12# 2 10 354 -632
 n wl27 rom_one_46/a_101_n84# GND! 2 10 394 -711
 n wl26 GND! rom_one_46/a_81_n48# 2 10 374 -691
@@ -437,49 +437,49 @@ n wl24 GND! rom_one_46/a_41_12# 2 10 334 -632
 n wl27 rom_one_46/a_81_n84# GND! 2 10 374 -711
 n wl26 GND! rom_one_46/a_101_n48# 2 10 394 -691
 n wl26 GND! rom_one_46/a_61_n48# 2 10 354 -691
-n wl27 rom_one_46/a_41_n84# GND! 2 10 334 -711
+n wl27 a_337_10# GND! 2 10 334 -711
 n wl24 GND! rom_one_46/a_101_12# 2 10 394 -632
 n wl9 rom_one_24/a_81_n22# GND! 2 10 456 -163
-n wl9 rom_one_24/a_41_n22# GND! 2 10 416 -163
+n wl9 a_419_9# GND! 2 10 416 -163
 n wl8 GND! rom_one_24/a_61_12# 2 10 436 -144
 n wl11 rom_one_24/a_101_n84# GND! 2 10 476 -223
 n wl10 GND! rom_one_24/a_81_n48# 2 10 456 -203
 n wl11 rom_one_24/a_61_n84# GND! 2 10 436 -223
-n wl9 rom_one_24/a_101_n22# GND! 2 10 476 -163
+n wl9 a_478_n174# GND! 2 10 476 -163
 n wl10 GND! rom_one_24/a_41_n48# 2 10 416 -203
 n wl8 GND! rom_one_24/a_81_12# 2 10 456 -144
-n wl9 rom_one_24/a_61_n22# GND! 2 10 436 -163
+n wl9 a_439_n261# GND! 2 10 436 -163
 n wl8 GND! rom_one_24/a_41_12# 2 10 416 -144
 n wl11 rom_one_24/a_81_n84# GND! 2 10 456 -223
 n wl10 GND! rom_one_24/a_101_n48# 2 10 476 -203
 n wl10 GND! rom_one_24/a_61_n48# 2 10 436 -203
-n wl11 rom_one_24/a_41_n84# GND! 2 10 416 -223
+n wl11 a_419_9# GND! 2 10 416 -223
 n wl8 GND! rom_one_24/a_101_12# 2 10 476 -144
 n wl17 rom_one_35/a_81_n22# GND! 2 10 374 -407
-n wl17 rom_one_35/a_41_n22# GND! 2 10 334 -407
+n wl17 a_337_10# GND! 2 10 334 -407
 n wl16 GND! rom_one_35/a_61_12# 2 10 354 -388
 n wl19 rom_one_35/a_101_n84# GND! 2 10 394 -467
 n wl18 GND! rom_one_35/a_81_n48# 2 10 374 -447
 n wl19 rom_one_35/a_61_n84# GND! 2 10 354 -467
 n wl17 rom_one_35/a_101_n22# GND! 2 10 394 -407
 n wl18 GND! rom_one_35/a_41_n48# 2 10 334 -447
-n wl16 GND! rom_one_35/a_81_12# 2 10 374 -388
-n wl17 rom_one_35/a_61_n22# GND! 2 10 354 -407
+n wl16 GND! a_377_45# 2 10 374 -388
+n wl17 a_357_11# GND! 2 10 354 -407
 n wl16 GND! rom_one_35/a_41_12# 2 10 334 -388
 n wl19 rom_one_35/a_81_n84# GND! 2 10 374 -467
 n wl18 GND! rom_one_35/a_101_n48# 2 10 394 -447
 n wl18 GND! rom_one_35/a_61_n48# 2 10 354 -447
-n wl19 rom_one_35/a_41_n84# GND! 2 10 334 -467
+n wl19 a_337_10# GND! 2 10 334 -467
 n wl16 GND! rom_one_35/a_101_12# 2 10 394 -388
 n wl5 rom_one_13/a_81_n22# GND! 2 10 46 -41
 n wl5 rom_one_13/a_41_n22# GND! 2 10 6 -41
 n wl4 GND! rom_one_13/a_61_12# 2 10 26 -22
 n wl7 rom_one_13/a_101_n84# GND! 2 10 66 -101
-n wl6 GND! rom_one_13/a_81_n48# 2 10 46 -81
+n wl6 GND! a_49_n77# 2 10 46 -81
 n wl7 rom_one_13/a_61_n84# GND! 2 10 26 -101
 n wl5 rom_one_13/a_101_n22# GND! 2 10 66 -41
 n wl6 GND! rom_one_13/a_41_n48# 2 10 6 -81
-n wl4 GND! rom_one_13/a_81_12# 2 10 46 -22
+n wl4 GND! a_49_n77# 2 10 46 -22
 n wl5 rom_one_13/a_61_n22# GND! 2 10 26 -41
 n wl4 GND! rom_one_13/a_41_12# 2 10 6 -22
 n wl7 rom_one_13/a_81_n84# GND! 2 10 46 -101
@@ -487,8 +487,8 @@ n wl6 GND! rom_one_13/a_101_n48# 2 10 66 -81
 n wl6 GND! rom_one_13/a_61_n48# 2 10 26 -81
 n wl7 rom_one_13/a_41_n84# GND! 2 10 6 -101
 n wl4 GND! rom_one_13/a_101_12# 2 10 66 -22
-p m2_98_n880# fb_g2 Vdd! 2 10 95 -894
-n m2_98_n880# fb_g2 GND! 2 5 95 -871
+p a_90_n626# fb_g2 Vdd! 2 10 95 -894
+n a_90_n626# fb_g2 GND! 2 5 95 -871
 n wl25 rom_one_47/a_81_n22# GND! 2 10 46 -651
 n wl25 rom_one_47/a_41_n22# GND! 2 10 6 -651
 n wl24 GND! rom_one_47/a_61_12# 2 10 26 -632
@@ -512,10 +512,10 @@ n wl23 rom_one_36/a_101_n84# GND! 2 10 312 -589
 n wl22 GND! rom_one_36/a_81_n48# 2 10 292 -569
 n wl23 rom_one_36/a_61_n84# GND! 2 10 272 -589
 n wl21 rom_one_36/a_101_n22# GND! 2 10 312 -529
-n wl22 GND! rom_one_36/a_41_n48# 2 10 252 -569
+n wl22 GND! a_255_106# 2 10 252 -569
 n wl20 GND! rom_one_36/a_81_12# 2 10 292 -510
 n wl21 rom_one_36/a_61_n22# GND! 2 10 272 -529
-n wl20 GND! rom_one_36/a_41_12# 2 10 252 -510
+n wl20 GND! a_255_106# 2 10 252 -510
 n wl23 rom_one_36/a_81_n84# GND! 2 10 292 -589
 n wl22 GND! rom_one_36/a_101_n48# 2 10 312 -569
 n wl22 GND! rom_one_36/a_61_n48# 2 10 272 -569
@@ -525,12 +525,12 @@ n wl9 rom_one_14/a_81_n22# GND! 2 10 46 -163
 n wl9 rom_one_14/a_41_n22# GND! 2 10 6 -163
 n wl8 GND! rom_one_14/a_61_12# 2 10 26 -144
 n wl11 rom_one_14/a_101_n84# GND! 2 10 66 -223
-n wl10 GND! rom_one_14/a_81_n48# 2 10 46 -203
+n wl10 GND! a_49_n77# 2 10 46 -203
 n wl11 rom_one_14/a_61_n84# GND! 2 10 26 -223
 n wl9 rom_one_14/a_101_n22# GND! 2 10 66 -163
 n wl10 GND! rom_one_14/a_41_n48# 2 10 6 -203
-n wl8 GND! rom_one_14/a_81_12# 2 10 46 -144
-n wl9 rom_one_14/a_61_n22# GND! 2 10 26 -163
+n wl8 GND! a_49_n77# 2 10 46 -144
+n wl9 a_28_n173# GND! 2 10 26 -163
 n wl8 GND! rom_one_14/a_41_12# 2 10 6 -144
 n wl11 rom_one_14/a_81_n84# GND! 2 10 46 -223
 n wl10 GND! rom_one_14/a_101_n48# 2 10 66 -203
@@ -539,7 +539,7 @@ n wl11 rom_one_14/a_41_n84# GND! 2 10 6 -223
 n wl8 GND! rom_one_14/a_101_12# 2 10 66 -144
 n wl13 rom_one_25/a_81_n22# GND! 2 10 456 -285
 n wl13 rom_one_25/a_41_n22# GND! 2 10 416 -285
-n wl12 GND! rom_one_25/a_61_12# 2 10 436 -266
+n wl12 GND! a_439_n261# 2 10 436 -266
 n wl15 rom_one_25/a_101_n84# GND! 2 10 476 -345
 n wl14 GND! rom_one_25/a_81_n48# 2 10 456 -325
 n wl15 rom_one_25/a_61_n84# GND! 2 10 436 -345
@@ -553,26 +553,26 @@ n wl14 GND! rom_one_25/a_101_n48# 2 10 476 -325
 n wl14 GND! rom_one_25/a_61_n48# 2 10 436 -325
 n wl15 rom_one_25/a_41_n84# GND! 2 10 416 -345
 n wl12 GND! rom_one_25/a_101_12# 2 10 476 -266
-p m2_152_n880# as_sub Vdd! 2 10 149 -894
-n m2_152_n880# as_sub GND! 2 5 149 -871
+p a_151_n565# as_sub Vdd! 2 10 149 -894
+n a_151_n565# as_sub GND! 2 5 149 -871
 n wl25 rom_one_48/a_81_n22# GND! 2 10 128 -651
 n wl25 rom_one_48/a_41_n22# GND! 2 10 88 -651
-n wl24 GND! rom_one_48/a_61_12# 2 10 108 -632
+n wl24 GND! a_110_n626# 2 10 108 -632
 n wl27 rom_one_48/a_101_n84# GND! 2 10 148 -711
 n wl26 GND! rom_one_48/a_81_n48# 2 10 128 -691
 n wl27 rom_one_48/a_61_n84# GND! 2 10 108 -711
 n wl25 rom_one_48/a_101_n22# GND! 2 10 148 -651
 n wl26 GND! rom_one_48/a_41_n48# 2 10 88 -691
-n wl24 GND! rom_one_48/a_81_12# 2 10 128 -632
+n wl24 GND! a_131_106# 2 10 128 -632
 n wl25 rom_one_48/a_61_n22# GND! 2 10 108 -651
-n wl24 GND! rom_one_48/a_41_12# 2 10 88 -632
+n wl24 GND! a_90_n626# 2 10 88 -632
 n wl27 rom_one_48/a_81_n84# GND! 2 10 128 -711
 n wl26 GND! rom_one_48/a_101_n48# 2 10 148 -691
 n wl26 GND! rom_one_48/a_61_n48# 2 10 108 -691
 n wl27 rom_one_48/a_41_n84# GND! 2 10 88 -711
 n wl24 GND! rom_one_48/a_101_12# 2 10 148 -632
 n wl21 rom_one_37/a_81_n22# GND! 2 10 374 -529
-n wl21 rom_one_37/a_41_n22# GND! 2 10 334 -529
+n wl21 a_337_10# GND! 2 10 334 -529
 n wl20 GND! rom_one_37/a_61_12# 2 10 354 -510
 n wl23 rom_one_37/a_101_n84# GND! 2 10 394 -589
 n wl22 GND! rom_one_37/a_81_n48# 2 10 374 -569
@@ -585,7 +585,7 @@ n wl20 GND! rom_one_37/a_41_12# 2 10 334 -510
 n wl23 rom_one_37/a_81_n84# GND! 2 10 374 -589
 n wl22 GND! rom_one_37/a_101_n48# 2 10 394 -569
 n wl22 GND! rom_one_37/a_61_n48# 2 10 354 -569
-n wl23 rom_one_37/a_41_n84# GND! 2 10 334 -589
+n wl23 a_337_10# GND! 2 10 334 -589
 n wl20 GND! rom_one_37/a_101_12# 2 10 394 -510
 n wl9 rom_one_15/a_81_n22# GND! 2 10 128 -163
 n wl9 rom_one_15/a_41_n22# GND! 2 10 88 -163
@@ -603,8 +603,8 @@ n wl10 GND! rom_one_15/a_101_n48# 2 10 148 -203
 n wl10 GND! rom_one_15/a_61_n48# 2 10 108 -203
 n wl11 rom_one_15/a_41_n84# GND! 2 10 88 -223
 n wl8 GND! rom_one_15/a_101_12# 2 10 148 -144
-n wl9 rom_one_26/a_81_n22# GND! 2 10 538 -163
-n wl9 rom_one_26/a_41_n22# GND! 2 10 498 -163
+n wl9 a_541_n173# GND! 2 10 538 -163
+n wl9 a_500_71# GND! 2 10 498 -163
 n wl8 GND! rom_one_26/a_61_12# 2 10 518 -144
 n wl11 rom_one_26/a_101_n84# GND! 2 10 558 -223
 n wl10 GND! rom_one_26/a_81_n48# 2 10 538 -203
@@ -612,15 +612,15 @@ n wl11 rom_one_26/a_61_n84# GND! 2 10 518 -223
 n wl9 rom_one_26/a_101_n22# GND! 2 10 558 -163
 n wl10 GND! rom_one_26/a_41_n48# 2 10 498 -203
 n wl8 GND! rom_one_26/a_81_12# 2 10 538 -144
-n wl9 rom_one_26/a_61_n22# GND! 2 10 518 -163
+n wl9 a_520_9# GND! 2 10 518 -163
 n wl8 GND! rom_one_26/a_41_12# 2 10 498 -144
 n wl11 rom_one_26/a_81_n84# GND! 2 10 538 -223
 n wl10 GND! rom_one_26/a_101_n48# 2 10 558 -203
 n wl10 GND! rom_one_26/a_61_n48# 2 10 518 -203
 n wl11 rom_one_26/a_41_n84# GND! 2 10 498 -223
 n wl8 GND! rom_one_26/a_101_12# 2 10 558 -144
-p m2_198_n880# A_r0 Vdd! 2 10 195 -894
-n m2_198_n880# A_r0 GND! 2 5 195 -871
+p a_192_106# A_r0 Vdd! 2 10 195 -894
+n a_192_106# A_r0 GND! 2 5 195 -871
 n wl29 rom_one_49/a_81_n22# GND! 2 10 46 -773
 n wl29 rom_one_49/a_41_n22# GND! 2 10 6 -773
 n wl28 GND! rom_one_49/a_61_12# 2 10 26 -754
@@ -641,7 +641,7 @@ n wl13 rom_one_16/a_81_n22# GND! 2 10 46 -285
 n wl13 rom_one_16/a_41_n22# GND! 2 10 6 -285
 n wl12 GND! rom_one_16/a_61_12# 2 10 26 -266
 n wl15 rom_one_16/a_101_n84# GND! 2 10 66 -345
-n wl14 GND! rom_one_16/a_81_n48# 2 10 46 -325
+n wl14 GND! a_49_n77# 2 10 46 -325
 n wl15 rom_one_16/a_61_n84# GND! 2 10 26 -345
 n wl13 rom_one_16/a_101_n22# GND! 2 10 66 -285
 n wl14 GND! rom_one_16/a_41_n48# 2 10 6 -325
@@ -652,9 +652,9 @@ n wl15 rom_one_16/a_81_n84# GND! 2 10 46 -345
 n wl14 GND! rom_one_16/a_101_n48# 2 10 66 -325
 n wl14 GND! rom_one_16/a_61_n48# 2 10 26 -325
 n wl15 rom_one_16/a_41_n84# GND! 2 10 6 -345
-n wl12 GND! rom_one_16/a_101_12# 2 10 66 -266
+n wl12 GND! a_68_n260# 2 10 66 -266
 n wl17 rom_one_38/a_81_n22# GND! 2 10 456 -407
-n wl17 rom_one_38/a_41_n22# GND! 2 10 416 -407
+n wl17 a_419_9# GND! 2 10 416 -407
 n wl16 GND! rom_one_38/a_61_12# 2 10 436 -388
 n wl19 rom_one_38/a_101_n84# GND! 2 10 476 -467
 n wl18 GND! rom_one_38/a_81_n48# 2 10 456 -447
@@ -678,24 +678,24 @@ n wl15 rom_one_27/a_61_n84# GND! 2 10 518 -345
 n wl13 rom_one_27/a_101_n22# GND! 2 10 558 -285
 n wl14 GND! rom_one_27/a_41_n48# 2 10 498 -325
 n wl12 GND! rom_one_27/a_81_12# 2 10 538 -266
-n wl13 rom_one_27/a_61_n22# GND! 2 10 518 -285
+n wl13 a_520_9# GND! 2 10 518 -285
 n wl12 GND! rom_one_27/a_41_12# 2 10 498 -266
 n wl15 rom_one_27/a_81_n84# GND! 2 10 538 -345
 n wl14 GND! rom_one_27/a_101_n48# 2 10 558 -325
 n wl14 GND! rom_one_27/a_61_n48# 2 10 518 -325
 n wl15 rom_one_27/a_41_n84# GND! 2 10 498 -345
 n wl12 GND! rom_one_27/a_101_12# 2 10 558 -266
-p m2_216_n880# A_w Vdd! 2 10 213 -894
-n m2_216_n880# A_w GND! 2 5 213 -871
+p a_213_71# A_w Vdd! 2 10 213 -894
+n a_213_71# A_w GND! 2 5 213 -871
 n wl17 rom_one_28/a_81_n22# GND! 2 10 46 -407
 n wl17 rom_one_28/a_41_n22# GND! 2 10 6 -407
 n wl16 GND! rom_one_28/a_61_12# 2 10 26 -388
 n wl19 rom_one_28/a_101_n84# GND! 2 10 66 -467
-n wl18 GND! rom_one_28/a_81_n48# 2 10 46 -447
+n wl18 GND! a_49_n77# 2 10 46 -447
 n wl19 rom_one_28/a_61_n84# GND! 2 10 26 -467
 n wl17 rom_one_28/a_101_n22# GND! 2 10 66 -407
 n wl18 GND! rom_one_28/a_41_n48# 2 10 6 -447
-n wl16 GND! rom_one_28/a_81_12# 2 10 46 -388
+n wl16 GND! a_49_n77# 2 10 46 -388
 n wl17 rom_one_28/a_61_n22# GND! 2 10 26 -407
 n wl16 GND! rom_one_28/a_41_12# 2 10 6 -388
 n wl19 rom_one_28/a_81_n84# GND! 2 10 46 -467
@@ -705,13 +705,13 @@ n wl19 rom_one_28/a_41_n84# GND! 2 10 6 -467
 n wl16 GND! rom_one_28/a_101_12# 2 10 66 -388
 n wl13 rom_one_17/a_81_n22# GND! 2 10 128 -285
 n wl13 rom_one_17/a_41_n22# GND! 2 10 88 -285
-n wl12 GND! rom_one_17/a_61_12# 2 10 108 -266
+n wl12 GND! a_110_n626# 2 10 108 -266
 n wl15 rom_one_17/a_101_n84# GND! 2 10 148 -345
 n wl14 GND! rom_one_17/a_81_n48# 2 10 128 -325
 n wl15 rom_one_17/a_61_n84# GND! 2 10 108 -345
 n wl13 rom_one_17/a_101_n22# GND! 2 10 148 -285
 n wl14 GND! rom_one_17/a_41_n48# 2 10 88 -325
-n wl12 GND! rom_one_17/a_81_12# 2 10 128 -266
+n wl12 GND! a_131_106# 2 10 128 -266
 n wl13 rom_one_17/a_61_n22# GND! 2 10 108 -285
 n wl12 GND! rom_one_17/a_41_12# 2 10 88 -266
 n wl15 rom_one_17/a_81_n84# GND! 2 10 128 -345
@@ -724,11 +724,11 @@ n wl17 rom_one_39/a_41_n22# GND! 2 10 498 -407
 n wl16 GND! rom_one_39/a_61_12# 2 10 518 -388
 n wl19 rom_one_39/a_101_n84# GND! 2 10 558 -467
 n wl18 GND! rom_one_39/a_81_n48# 2 10 538 -447
-n wl19 rom_one_39/a_61_n84# GND! 2 10 518 -467
+n wl19 a_520_9# GND! 2 10 518 -467
 n wl17 rom_one_39/a_101_n22# GND! 2 10 558 -407
 n wl18 GND! rom_one_39/a_41_n48# 2 10 498 -447
 n wl16 GND! rom_one_39/a_81_12# 2 10 538 -388
-n wl17 rom_one_39/a_61_n22# GND! 2 10 518 -407
+n wl17 a_520_9# GND! 2 10 518 -407
 n wl16 GND! rom_one_39/a_41_12# 2 10 498 -388
 n wl19 rom_one_39/a_81_n84# GND! 2 10 538 -467
 n wl18 GND! rom_one_39/a_101_n48# 2 10 558 -447
@@ -744,7 +744,7 @@ n wl11 rom_one_18/a_61_n84# GND! 2 10 190 -223
 n wl9 rom_one_18/a_101_n22# GND! 2 10 230 -163
 n wl10 GND! rom_one_18/a_41_n48# 2 10 170 -203
 n wl8 GND! rom_one_18/a_81_12# 2 10 210 -144
-n wl9 rom_one_18/a_61_n22# GND! 2 10 190 -163
+n wl9 a_192_106# GND! 2 10 190 -163
 n wl8 GND! rom_one_18/a_41_12# 2 10 170 -144
 n wl11 rom_one_18/a_81_n84# GND! 2 10 210 -223
 n wl10 GND! rom_one_18/a_101_n48# 2 10 230 -203
@@ -769,7 +769,7 @@ n wl19 rom_one_29/a_41_n84# GND! 2 10 88 -467
 n wl16 GND! rom_one_29/a_101_12# 2 10 148 -388
 n wl13 rom_one_19/a_81_n22# GND! 2 10 210 -285
 n wl13 rom_one_19/a_41_n22# GND! 2 10 170 -285
-n wl12 GND! rom_one_19/a_61_12# 2 10 190 -266
+n wl12 GND! a_192_106# 2 10 190 -266
 n wl15 rom_one_19/a_101_n84# GND! 2 10 230 -345
 n wl14 GND! rom_one_19/a_81_n48# 2 10 210 -325
 n wl15 rom_one_19/a_61_n84# GND! 2 10 190 -345
@@ -811,7 +811,7 @@ n wl2 GND! rom_one_1/a_81_n48# 2 10 128 41
 n wl3 rom_one_1/a_61_n84# GND! 2 10 108 21
 n wl1 rom_one_1/a_101_n22# GND! 2 10 148 81
 n wl2 GND! rom_one_1/a_41_n48# 2 10 88 41
-n wl0 GND! rom_one_1/a_81_12# 2 10 128 100
+n wl0 GND! a_131_106# 2 10 128 100
 n wl1 rom_one_1/a_61_n22# GND! 2 10 108 81
 n wl0 GND! rom_one_1/a_41_12# 2 10 88 100
 n wl3 rom_one_1/a_81_n84# GND! 2 10 128 21
@@ -819,29 +819,29 @@ n wl2 GND! rom_one_1/a_101_n48# 2 10 148 41
 n wl2 GND! rom_one_1/a_61_n48# 2 10 108 41
 n wl3 rom_one_1/a_41_n84# GND! 2 10 88 21
 n wl0 GND! rom_one_1/a_101_12# 2 10 148 100
-n wl1 rom_one_2/a_81_n22# GND! 2 10 292 81
+n wl1 a_295_71# GND! 2 10 292 81
 n wl1 rom_one_2/a_41_n22# GND! 2 10 252 81
 n wl0 GND! rom_one_2/a_61_12# 2 10 272 100
 n wl3 rom_one_2/a_101_n84# GND! 2 10 312 21
 n wl2 GND! rom_one_2/a_81_n48# 2 10 292 41
 n wl3 rom_one_2/a_61_n84# GND! 2 10 272 21
-n wl1 rom_one_2/a_101_n22# GND! 2 10 312 81
+n wl1 a_315_71# GND! 2 10 312 81
 n wl2 GND! rom_one_2/a_41_n48# 2 10 252 41
 n wl0 GND! rom_one_2/a_81_12# 2 10 292 100
-n wl1 rom_one_2/a_61_n22# GND! 2 10 272 81
-n wl0 GND! rom_one_2/a_41_12# 2 10 252 100
+n wl1 a_274_71# GND! 2 10 272 81
+n wl0 GND! a_255_106# 2 10 252 100
 n wl3 rom_one_2/a_81_n84# GND! 2 10 292 21
 n wl2 GND! rom_one_2/a_101_n48# 2 10 312 41
 n wl2 GND! rom_one_2/a_61_n48# 2 10 272 41
 n wl3 rom_one_2/a_41_n84# GND! 2 10 252 21
 n wl0 GND! rom_one_2/a_101_12# 2 10 312 100
-n wl1 rom_one_3/a_81_n22# GND! 2 10 210 81
+n wl1 a_213_71# GND! 2 10 210 81
 n wl1 rom_one_3/a_41_n22# GND! 2 10 170 81
-n wl0 GND! rom_one_3/a_61_12# 2 10 190 100
+n wl0 GND! a_192_106# 2 10 190 100
 n wl3 rom_one_3/a_101_n84# GND! 2 10 230 21
 n wl2 GND! rom_one_3/a_81_n48# 2 10 210 41
 n wl3 rom_one_3/a_61_n84# GND! 2 10 190 21
-n wl1 rom_one_3/a_101_n22# GND! 2 10 230 81
+n wl1 a_233_71# GND! 2 10 230 81
 n wl2 GND! rom_one_3/a_41_n48# 2 10 170 41
 n wl0 GND! rom_one_3/a_81_12# 2 10 210 100
 n wl1 rom_one_3/a_61_n22# GND! 2 10 190 81
@@ -851,12 +851,12 @@ n wl2 GND! rom_one_3/a_101_n48# 2 10 230 41
 n wl2 GND! rom_one_3/a_61_n48# 2 10 190 41
 n wl3 rom_one_3/a_41_n84# GND! 2 10 170 21
 n wl0 GND! rom_one_3/a_101_12# 2 10 230 100
-p GND! m2_52_n880# Vdd! 4 6 48 140
-p GND! m2_16_n880# Vdd! 4 6 8 140
-p GND! m2_70_n880# Vdd! 4 6 68 140
-p GND! m2_34_n880# Vdd! 4 6 28 140
-n wl1 rom_one_4/a_81_n22# GND! 2 10 456 81
-n wl1 rom_one_4/a_41_n22# GND! 2 10 416 81
+p GND! a_49_n77# Vdd! 4 6 48 140
+p GND! a_8_45# Vdd! 4 6 8 140
+p GND! a_68_n260# Vdd! 4 6 68 140
+p GND! a_28_n173# Vdd! 4 6 28 140
+n wl1 a_459_71# GND! 2 10 456 81
+n wl1 a_419_9# GND! 2 10 416 81
 n wl0 GND! rom_one_4/a_61_12# 2 10 436 100
 n wl3 rom_one_4/a_101_n84# GND! 2 10 476 21
 n wl2 GND! rom_one_4/a_81_n48# 2 10 456 41
@@ -869,22 +869,22 @@ n wl0 GND! rom_one_4/a_41_12# 2 10 416 100
 n wl3 rom_one_4/a_81_n84# GND! 2 10 456 21
 n wl2 GND! rom_one_4/a_101_n48# 2 10 476 41
 n wl2 GND! rom_one_4/a_61_n48# 2 10 436 41
-n wl3 rom_one_4/a_41_n84# GND! 2 10 416 21
+n wl3 a_419_9# GND! 2 10 416 21
 n wl0 GND! rom_one_4/a_101_12# 2 10 476 100
-p GND! m2_134_n880# Vdd! 4 6 130 140
-p GND! m2_98_n880# Vdd! 4 6 90 140
-p GND! m2_152_n880# Vdd! 4 6 150 140
-p GND! m2_116_n880# Vdd! 4 6 110 140
+p GND! a_131_106# Vdd! 4 6 130 140
+p GND! a_90_n626# Vdd! 4 6 90 140
+p GND! a_151_n565# Vdd! 4 6 150 140
+p GND! a_110_n626# Vdd! 4 6 110 140
 n wl1 rom_one_5/a_81_n22# GND! 2 10 538 81
-n wl1 rom_one_5/a_41_n22# GND! 2 10 498 81
+n wl1 a_500_71# GND! 2 10 498 81
 n wl0 GND! rom_one_5/a_61_12# 2 10 518 100
 n wl3 rom_one_5/a_101_n84# GND! 2 10 558 21
 n wl2 GND! rom_one_5/a_81_n48# 2 10 538 41
-n wl3 rom_one_5/a_61_n84# GND! 2 10 518 21
+n wl3 a_520_9# GND! 2 10 518 21
 n wl1 rom_one_5/a_101_n22# GND! 2 10 558 81
 n wl2 GND! rom_one_5/a_41_n48# 2 10 498 41
 n wl0 GND! rom_one_5/a_81_12# 2 10 538 100
-n wl1 rom_one_5/a_61_n22# GND! 2 10 518 81
+n wl1 a_520_9# GND! 2 10 518 81
 n wl0 GND! rom_one_5/a_41_12# 2 10 498 100
 n wl3 rom_one_5/a_81_n84# GND! 2 10 538 21
 n wl2 GND! rom_one_5/a_101_n48# 2 10 558 41
@@ -951,30 +951,30 @@ p a0 out2 Vdd! 2 10 -98 36
 n a0 decoder24_0/3nand2_1/a_6_n59# decoder24_0/3nand2_1/a_17_n59# 2 5 -98 17
 p decoder24_0/3nand2_1/c Vdd! out2 2 10 -87 36
 n decoder24_0/3nand2_1/c decoder24_0/3nand2_1/a_17_n59# out2 2 5 -87 17
-p GND! m2_216_n880# Vdd! 4 6 212 140
-p GND! m2_180_n880# Vdd! 4 6 172 140
-p GND! m2_234_n880# Vdd! 4 6 232 140
-p GND! m2_198_n880# Vdd! 4 6 192 140
+p GND! a_213_71# Vdd! 4 6 212 140
+p GND! a_173_n565# Vdd! 4 6 172 140
+p GND! a_233_71# Vdd! 4 6 232 140
+p GND! a_192_106# Vdd! 4 6 192 140
 n wl1 rom_one_6/a_81_n22# GND! 2 10 374 81
-n wl1 rom_one_6/a_41_n22# GND! 2 10 334 81
+n wl1 a_337_10# GND! 2 10 334 81
 n wl0 GND! rom_one_6/a_61_12# 2 10 354 100
 n wl3 rom_one_6/a_101_n84# GND! 2 10 394 21
-n wl2 GND! rom_one_6/a_81_n48# 2 10 374 41
-n wl3 rom_one_6/a_61_n84# GND! 2 10 354 21
-n wl1 rom_one_6/a_101_n22# GND! 2 10 394 81
+n wl2 GND! a_377_45# 2 10 374 41
+n wl3 a_357_11# GND! 2 10 354 21
+n wl1 a_397_71# GND! 2 10 394 81
 n wl2 GND! rom_one_6/a_41_n48# 2 10 334 41
 n wl0 GND! rom_one_6/a_81_12# 2 10 374 100
-n wl1 rom_one_6/a_61_n22# GND! 2 10 354 81
+n wl1 a_357_11# GND! 2 10 354 81
 n wl0 GND! rom_one_6/a_41_12# 2 10 334 100
 n wl3 rom_one_6/a_81_n84# GND! 2 10 374 21
 n wl2 GND! rom_one_6/a_101_n48# 2 10 394 41
 n wl2 GND! rom_one_6/a_61_n48# 2 10 354 41
-n wl3 rom_one_6/a_41_n84# GND! 2 10 334 21
+n wl3 a_337_10# GND! 2 10 334 21
 n wl0 GND! rom_one_6/a_101_12# 2 10 394 100
-p GND! m2_298_n880# Vdd! 4 6 294 140
-p GND! m2_262_n880# Vdd! 4 6 254 140
-p GND! m2_316_n880# Vdd! 4 6 314 140
-p GND! m2_280_n880# Vdd! 4 6 274 140
+p GND! a_295_71# Vdd! 4 6 294 140
+p GND! a_255_106# Vdd! 4 6 254 140
+p GND! a_315_71# Vdd! 4 6 314 140
+p GND! a_274_71# Vdd! 4 6 274 140
 p decoder24_1/e Vdd! out7 2 10 -109 -269
 n decoder24_1/e GND! decoder24_1/3nand2_2/a_6_n59# 2 5 -109 -288
 p decoder24_1/3nand2_2/b out7 Vdd! 2 10 -98 -269
@@ -1036,15 +1036,15 @@ n a0 decoder24_1/3nand2_1/a_6_n59# decoder24_1/3nand2_1/a_17_n59# 2 5 -98 -227
 p decoder24_1/3nand2_1/c Vdd! out6 2 10 -87 -208
 n decoder24_1/3nand2_1/c decoder24_1/3nand2_1/a_17_n59# out6 2 5 -87 -227
 n wl5 rom_one_7/a_81_n22# GND! 2 10 374 -41
-n wl5 rom_one_7/a_41_n22# GND! 2 10 334 -41
+n wl5 a_337_10# GND! 2 10 334 -41
 n wl4 GND! rom_one_7/a_61_12# 2 10 354 -22
 n wl7 rom_one_7/a_101_n84# GND! 2 10 394 -101
-n wl6 GND! rom_one_7/a_81_n48# 2 10 374 -81
-n wl7 rom_one_7/a_61_n84# GND! 2 10 354 -101
+n wl6 GND! a_377_45# 2 10 374 -81
+n wl7 a_357_11# GND! 2 10 354 -101
 n wl5 rom_one_7/a_101_n22# GND! 2 10 394 -41
 n wl6 GND! rom_one_7/a_41_n48# 2 10 334 -81
-n wl4 GND! rom_one_7/a_81_12# 2 10 374 -22
-n wl5 rom_one_7/a_61_n22# GND! 2 10 354 -41
+n wl4 GND! a_377_45# 2 10 374 -22
+n wl5 a_357_11# GND! 2 10 354 -41
 n wl4 GND! rom_one_7/a_41_12# 2 10 334 -22
 n wl7 rom_one_7/a_81_n84# GND! 2 10 374 -101
 n wl6 GND! rom_one_7/a_101_n48# 2 10 394 -81
@@ -1111,30 +1111,30 @@ p a0 out10 Vdd! 2 10 -98 -452
 n a0 decoder24_2/3nand2_1/a_6_n59# decoder24_2/3nand2_1/a_17_n59# 2 5 -98 -471
 p decoder24_2/3nand2_1/c Vdd! out10 2 10 -87 -452
 n decoder24_2/3nand2_1/c decoder24_2/3nand2_1/a_17_n59# out10 2 5 -87 -471
-p GND! m2_380_n880# Vdd! 4 6 376 140
-p GND! m2_344_n880# Vdd! 4 6 336 140
-p GND! m2_398_n880# Vdd! 4 6 396 140
-p GND! m2_362_n880# Vdd! 4 6 356 140
+p GND! a_377_45# Vdd! 4 6 376 140
+p GND! a_337_10# Vdd! 4 6 336 140
+p GND! a_397_71# Vdd! 4 6 396 140
+p GND! a_357_11# Vdd! 4 6 356 140
 n wl5 rom_one_8/a_81_n22# GND! 2 10 538 -41
 n wl5 rom_one_8/a_41_n22# GND! 2 10 498 -41
 n wl4 GND! rom_one_8/a_61_12# 2 10 518 -22
 n wl7 rom_one_8/a_101_n84# GND! 2 10 558 -101
 n wl6 GND! rom_one_8/a_81_n48# 2 10 538 -81
-n wl7 rom_one_8/a_61_n84# GND! 2 10 518 -101
+n wl7 a_520_9# GND! 2 10 518 -101
 n wl5 rom_one_8/a_101_n22# GND! 2 10 558 -41
 n wl6 GND! rom_one_8/a_41_n48# 2 10 498 -81
 n wl4 GND! rom_one_8/a_81_12# 2 10 538 -22
-n wl5 rom_one_8/a_61_n22# GND! 2 10 518 -41
+n wl5 a_520_9# GND! 2 10 518 -41
 n wl4 GND! rom_one_8/a_41_12# 2 10 498 -22
 n wl7 rom_one_8/a_81_n84# GND! 2 10 538 -101
 n wl6 GND! rom_one_8/a_101_n48# 2 10 558 -81
 n wl6 GND! rom_one_8/a_61_n48# 2 10 518 -81
-n wl7 rom_one_8/a_41_n84# GND! 2 10 498 -101
+n wl7 a_500_71# GND! 2 10 498 -101
 n wl4 GND! rom_one_8/a_101_12# 2 10 558 -22
-p GND! m2_462_n880# Vdd! 4 6 458 140
-p GND! m2_426_n880# Vdd! 4 6 418 140
-p GND! m2_480_n880# Vdd! 4 6 478 140
-p GND! m2_444_n880# Vdd! 4 6 438 140
+p GND! a_459_71# Vdd! 4 6 458 140
+p GND! a_419_9# Vdd! 4 6 418 140
+p GND! a_478_n174# Vdd! 4 6 478 140
+p GND! a_439_n261# Vdd! 4 6 438 140
 p decoder24_3/e Vdd! out15 2 10 -109 -757
 n decoder24_3/e GND! decoder24_3/3nand2_2/a_6_n59# 2 5 -109 -776
 p decoder24_3/3nand2_2/b out15 Vdd! 2 10 -98 -757
@@ -1195,14 +1195,14 @@ p a0 out14 Vdd! 2 10 -98 -696
 n a0 decoder24_3/3nand2_1/a_6_n59# decoder24_3/3nand2_1/a_17_n59# 2 5 -98 -715
 p decoder24_3/3nand2_1/c Vdd! out14 2 10 -87 -696
 n decoder24_3/3nand2_1/c decoder24_3/3nand2_1/a_17_n59# out14 2 5 -87 -715
-p m2_426_n880# PCH_w Vdd! 2 10 423 -894
-n m2_426_n880# PCH_w GND! 2 5 423 -871
-n wl5 rom_one_9/a_81_n22# GND! 2 10 456 -41
-n wl5 rom_one_9/a_41_n22# GND! 2 10 416 -41
+p a_419_9# PCH_w Vdd! 2 10 423 -894
+n a_419_9# PCH_w GND! 2 5 423 -871
+n wl5 a_459_71# GND! 2 10 456 -41
+n wl5 a_419_9# GND! 2 10 416 -41
 n wl4 GND! rom_one_9/a_61_12# 2 10 436 -22
-n wl7 rom_one_9/a_101_n84# GND! 2 10 476 -101
+n wl7 a_478_n174# GND! 2 10 476 -101
 n wl6 GND! rom_one_9/a_81_n48# 2 10 456 -81
-n wl7 rom_one_9/a_61_n84# GND! 2 10 436 -101
+n wl7 a_439_n261# GND! 2 10 436 -101
 n wl5 rom_one_9/a_101_n22# GND! 2 10 476 -41
 n wl6 GND! rom_one_9/a_41_n48# 2 10 416 -81
 n wl4 GND! rom_one_9/a_81_12# 2 10 456 -22
@@ -1211,123 +1211,140 @@ n wl4 GND! rom_one_9/a_41_12# 2 10 416 -22
 n wl7 rom_one_9/a_81_n84# GND! 2 10 456 -101
 n wl6 GND! rom_one_9/a_101_n48# 2 10 476 -81
 n wl6 GND! rom_one_9/a_61_n48# 2 10 436 -81
-n wl7 rom_one_9/a_41_n84# GND! 2 10 416 -101
+n wl7 a_419_9# GND! 2 10 416 -101
 n wl4 GND! rom_one_9/a_101_12# 2 10 476 -22
-p GND! m2_544_n880# Vdd! 4 6 540 140
-p GND! m2_508_n880# Vdd! 4 6 500 140
+p GND! a_541_n173# Vdd! 4 6 540 140
+p GND! a_500_71# Vdd! 4 6 500 140
 p GND! m2_562_n880# Vdd! 4 6 560 140
-p GND! m2_526_n880# Vdd! 4 6 520 140
-p m2_180_n880# as_cin-ras Vdd! 2 10 177 -894
-n m2_180_n880# as_cin-ras GND! 2 5 177 -871
-p m2_444_n880# ABL_r1 Vdd! 2 10 441 -894
-n m2_444_n880# ABL_r1 GND! 2 5 441 -871
-p m2_316_n880# PCL_w_sel Vdd! 2 10 313 -894
-n m2_316_n880# PCL_w_sel GND! 2 5 313 -871
-p m2_480_n880# ABH_r1 Vdd! 2 10 477 -894
-n m2_480_n880# ABH_r1 GND! 2 5 477 -871
-p m2_262_n880# DB_r1 Vdd! 2 10 259 -894
-n m2_262_n880# DB_r1 GND! 2 5 259 -871
-p m2_462_n880# ABL_w Vdd! 2 10 459 -894
-n m2_462_n880# ABL_w GND! 2 5 459 -871
-p m2_298_n880# X_w-Y_w Vdd! 2 10 295 -894
-n m2_298_n880# X_w-Y_w GND! 2 5 295 -871
-p m2_508_n880# ABH_w Vdd! 2 10 505 -894
-n m2_508_n880# ABH_w GND! 2 5 505 -871
-p m2_280_n880# DB_w Vdd! 2 10 277 -894
-n m2_280_n880# DB_w GND! 2 5 277 -871
-p m2_526_n880# rd_addrL-rd_addrH Vdd! 2 10 523 -894
-n m2_526_n880# rd_addrL-rd_addrH GND! 2 5 523 -871
-p m2_234_n880# Cflag_w Vdd! 2 10 231 -894
-n m2_234_n880# Cflag_w GND! 2 5 231 -871
-p m2_544_n880# r_-w Vdd! 2 10 541 -894
-n m2_544_n880# r_-w GND! 2 5 541 -871
-p m2_344_n880# PCL_r1-PCH_r1 Vdd! 2 10 341 -894
-n m2_344_n880# PCL_r1-PCH_r1 GND! 2 5 341 -871
+p GND! a_520_9# Vdd! 4 6 520 140
+p a_173_n565# as_cin-ras Vdd! 2 10 177 -894
+n a_173_n565# as_cin-ras GND! 2 5 177 -871
+p a_439_n261# ABL_r1 Vdd! 2 10 441 -894
+n a_439_n261# ABL_r1 GND! 2 5 441 -871
+p a_315_71# PCL_w_sel Vdd! 2 10 313 -894
+n a_315_71# PCL_w_sel GND! 2 5 313 -871
+p a_478_n174# ABH_r1 Vdd! 2 10 477 -894
+n a_478_n174# ABH_r1 GND! 2 5 477 -871
+p a_255_106# DB_r1 Vdd! 2 10 259 -894
+n a_255_106# DB_r1 GND! 2 5 259 -871
+p a_459_71# ABL_w Vdd! 2 10 459 -894
+n a_459_71# ABL_w GND! 2 5 459 -871
+p a_295_71# X_w-Y_w Vdd! 2 10 295 -894
+n a_295_71# X_w-Y_w GND! 2 5 295 -871
+p a_500_71# ABH_w Vdd! 2 10 505 -894
+n a_500_71# ABH_w GND! 2 5 505 -871
+p a_274_71# DB_w Vdd! 2 10 277 -894
+n a_274_71# DB_w GND! 2 5 277 -871
+p a_520_9# rd_addrL-rd_addrH Vdd! 2 10 523 -894
+n a_520_9# rd_addrL-rd_addrH GND! 2 5 523 -871
+p a_233_71# Cflag_w Vdd! 2 10 231 -894
+n a_233_71# Cflag_w GND! 2 5 231 -871
+p a_541_n173# r_-w Vdd! 2 10 541 -894
+n a_541_n173# r_-w GND! 2 5 541 -871
+p a_337_10# PCL_r1-PCH_r1 Vdd! 2 10 341 -894
+n a_337_10# PCL_r1-PCH_r1 GND! 2 5 341 -871
 p m2_562_n880# bl27 Vdd! 2 10 559 -894
 n m2_562_n880# bl27 GND! 2 5 559 -871
-p m2_362_n880# PCL_w Vdd! 2 10 359 -894
-n m2_362_n880# PCL_w GND! 2 5 359 -871
-p m2_398_n880# PCH_w_sel Vdd! 2 10 395 -894
-n m2_398_n880# PCH_w_sel GND! 2 5 395 -871
-p m2_380_n880# rPCplus1L-rPCplus1H Vdd! 2 10 377 -894
-n m2_380_n880# rPCplus1L-rPCplus1H GND! 2 5 377 -871
-C wl20 GND! 2.60
-C wl5 GND! 2.82
-C GND! m2_316_n880# 2.80
-C decoder24_0/3nand2_1/c a0 2.18
-C wl23 GND! 2.74
-C GND! wl30 2.68
-C decoder24_2/3nand2_1/c a0 2.18
-C wl25 GND! 2.82
-C wl24 GND! 2.59
-C GND! wl15 2.74
-C wl17 GND! 2.83
-C GND! wl29 2.82
-C a2 decoder24_control_0/a_184_n99# 2.78
-C wl16 GND! 2.59
-C Vdd! a0 5.92
-C a1 a0 15.54
-C m2_34_n880# GND! 3.79
-C wl14 GND! 2.68
+p a_357_11# PCL_w Vdd! 2 10 359 -894
+n a_357_11# PCL_w GND! 2 5 359 -871
+p a_397_71# PCH_w_sel Vdd! 2 10 395 -894
+n a_397_71# PCH_w_sel GND! 2 5 395 -871
+p a_377_45# rPCplus1L-rPCplus1H Vdd! 2 10 377 -894
+n a_377_45# rPCplus1L-rPCplus1H GND! 2 5 377 -871
+C wl10 GND! 2.68
+C wl8 GND! 2.59
 C wl6 GND! 2.68
-C wl28 GND! 2.59
-C m2_480_n880# GND! 2.80
-C m2_16_n880# GND! 2.81
-C Vdd! decoder24_3/decoder_nor2_3/phi0 3.32
-C GND! wl8 2.59
-C GND! m2_562_n880# 2.80
-C GND! m2_362_n880# 3.79
-C GND! m2_508_n880# 2.81
-C GND! m2_544_n880# 3.76
-C Vdd! GND! 22.91
 C GND! a1 8.00
-C GND! wl13 2.82
-C wl11 GND! 2.74
-C GND! m2_298_n880# 3.76
-C decoder24_3/3nand2_1/c a0 2.18
-C GND! wl9 2.82
-C m2_462_n880# GND! 3.76
-C GND! m2_198_n880# 3.79
-C m2_262_n880# GND! 2.81
-C GND! decoder24_3/decoder_nor2_3/phi1 2.76
-C wl31 GND! 2.74
-C m2_70_n880# GND! 2.80
-C wl18 GND! 2.68
-C wl27 GND! 2.74
-C m2_152_n880# GND! 2.83
-C GND! m2_280_n880# 3.79
-C GND! m2_216_n880# 3.76
-C wl22 GND! 2.68
-C wl7 GND! 2.74
-C m2_234_n880# GND! 2.80
 C wl4 GND! 2.59
-C GND! wl19 2.74
-C GND! m2_380_n880# 3.76
-C wl3 GND! 2.74
-C GND! m2_444_n880# 3.79
-C GND! m2_344_n880# 2.81
-C GND! wl0 2.59
-C GND! wl10 2.68
-C wl1 GND! 2.82
-C Vdd! a1 6.28
-C GND! m2_398_n880# 2.80
-C GND! m2_98_n880# 2.81
-C GND! a0 3.49
-C a2 decoder24_control_0/2and_1/a 3.77
-C wl21 GND! 2.82
-C wl2 GND! 2.68
-C m2_134_n880# GND! 3.76
-C wl26 GND! 2.68
+C GND! wl20 2.60
 C a3 decoder24_control_0/2and_1/a 3.23
-C GND! m2_426_n880# 2.81
+C GND! a_520_9# 4.85
+C wl11 GND! 2.74
+C decoder24_0/3nand2_1/c a0 2.18
+C wl9 GND! 2.82
+C wl2 GND! 2.68
+C decoder24_control_0/2and_1/a a2 3.77
+C GND! a_337_10# 2.81
+C wl0 GND! 2.59
+C wl7 GND! 2.74
+C GND! wl22 2.68
+C wl5 GND! 2.82
+C GND! a_377_45# 4.14
+C a_541_n173# GND! 3.87
+C a2 decoder24_control_0/a_184_n99# 2.78
+C GND! a_500_71# 2.82
+C a0 a1 15.54
+C GND! a_397_71# 2.80
+C wl3 GND! 2.74
+C wl1 GND! 2.82
+C GND! a_315_71# 2.80
+C decoder24_2/3nand2_1/c a0 2.18
+C GND! a_233_71# 2.80
+C GND! wl28 2.59
+C GND! Vdd! 22.91
+C GND! a_131_106# 3.93
+C decoder24_3/decoder_nor2_3/phi1 Vdd! 2.91
+C wl18 GND! 2.68
+C GND! wl30 2.68
+C wl16 GND! 2.59
+C GND! wl21 2.82
+C a_173_n565# GND! 2.81
+C a_478_n174# GND! 2.81
+C Vdd! a0 5.92
+C GND! wl26 2.68
+C wl19 GND! 2.74
+C wl17 GND! 2.83
+C a0 decoder24_3/3nand2_1/c 2.18
+C m2_562_n880# GND! 2.80
+C GND! wl23 2.74
+C GND! wl24 2.59
+C GND! a_419_9# 2.82
+C a_28_n173# GND! 3.89
+C wl14 GND! 2.68
 C wl12 GND! 2.59
-C m2_52_n880# GND! 3.71
-C m2_180_n880# GND! 2.81
-C GND! decoder24_3/decoder_nor2_3/phi0 2.81
-C m2_116_n880# GND! 3.79
-C Vdd! decoder24_3/decoder_nor2_3/phi1 2.91
+C a_90_n626# GND! 2.81
+C GND! a_274_71# 3.96
+C decoder24_3/decoder_nor2_3/phi1 GND! 2.76
+C GND! wl29 2.82
+C GND! a_192_106# 4.22
+C a_49_n77# GND! 4.44
+C wl15 GND! 2.74
+C wl13 GND! 2.82
+C a_110_n626# GND! 3.90
+C decoder24_3/decoder_nor2_3/phi0 Vdd! 3.32
+C GND! wl31 2.74
+C GND! a0 3.49
+C a_68_n260# GND! 2.80
+C Vdd! a1 6.28
+C a_439_n261# GND! 4.09
+C GND! wl27 2.74
+C GND! a_8_45# 2.81
+C GND! a_459_71# 3.98
+C GND! wl25 2.82
+C a_151_n565# GND! 2.82
+C GND! a_357_11# 4.46
+C GND! a_295_71# 3.87
+C GND! a_213_71# 4.30
 C decoder24_1/3nand2_1/c a0 2.18
-C GND! m2_526_n880# 3.79
+C GND! a_255_106# 2.81
+C decoder24_3/decoder_nor2_3/phi0 GND! 2.81
+R a_520_9# 748
+R a_337_10# 647
+R a_377_45# 395
+R a_8_45# 194
+R a_500_71# 294
+R a_459_71# 244
+R a_419_9# 496
+R a_397_71# 244
+R a_357_11# 496
+R a_315_71# 244
+R a_295_71# 193
+R a_274_71# 244
+R a_233_71# 294
+R a_213_71# 446
+R a_255_106# 323
+R a_192_106# 423
+R a_131_106# 272
 R rPCplus1L-rPCplus1H 22
 R PCH_w_sel 22
 R PCL_w 22
@@ -1408,10 +1425,6 @@ R GND! 23289
 R decoder24_1/3nand2_2/a_17_n59# 12
 R decoder24_1/3nand2_2/a_6_n59# 12
 R out7 363
-R m2_398_n880# 157
-R m2_380_n880# 157
-R m2_362_n880# 157
-R m2_344_n880# 157
 R decoder24_0/e 953
 R decoder24_0/3nand2_1/a_17_n59# 12
 R decoder24_0/3nand2_1/a_6_n59# 12
@@ -1430,34 +1443,20 @@ R decoder24_0/3nand2_2/a_17_n59# 12
 R decoder24_0/3nand2_2/a_6_n59# 12
 R out3 363
 R m2_562_n880# 157
-R m2_544_n880# 157
-R m2_526_n880# 157
-R m2_508_n880# 157
-R m2_480_n880# 157
-R m2_462_n880# 157
-R m2_444_n880# 157
-R m2_426_n880# 157
-R m2_234_n880# 157
-R m2_216_n880# 157
-R m2_198_n880# 157
-R m2_180_n880# 157
-R m2_316_n880# 157
-R m2_298_n880# 157
-R m2_280_n880# 157
-R m2_262_n880# 157
+R a_541_n173# 193
+R a_478_n174# 244
+R a_439_n261# 294
+R a_173_n565# 244
 R wl3 2446
 R wl2 2441
 R wl1 2446
 R wl0 2312
-R m2_152_n880# 157
-R m2_134_n880# 157
-R m2_116_n880# 157
-R m2_98_n880# 157
-R m2_70_n880# 157
-R m2_52_n880# 157
-R m2_34_n880# 157
-R m2_16_n880# 157
-R a_8_45# 11
+R a_151_n565# 193
+R a_110_n626# 243
+R a_90_n626# 192
+R a_68_n260# 192
+R a_49_n77# 496
+R a_28_n173# 193
 R phi1 136
 R phi0 140
 R A_w 22

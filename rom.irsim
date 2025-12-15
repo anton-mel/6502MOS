@@ -2,7 +2,7 @@ h Vdd!
 l GND!
 
 vector addr a3 a2 a1 a0
-vector out bl0 bl1 bl2 bl3 bl4 bl5 bl6 bl7 bl8 bl9 bl10 bl11 bl12 bl13 bl14 bl15 bl16 bl17 bl18 bl19 bl20 bl21 bl22 bl23 bl24 bl25 bl26 bl27
+vector out IR_w rd_dataout ld_datain fb_g3 fb_g2 fb_g1 rfb as_sub as_cin-ras A_r0 A_w Cflag_w DB_r1 DB_w X_w-Y_w PCL_w_sel PCL_r1-PCH_r1 PCL_w rPCplus1L-rPCplus1H PCH_w_sel PCH_w ABL_r1 ABL_w ABH_r1 ABH_w rd_addrL-rd_addrH r_-w
 
 ana addr phi0 phi1 out
 
@@ -11,260 +11,260 @@ l phi1
 setvector addr 0x0
 s
 s
-path out
+
 
 setvector addr 0x0
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x1
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x2
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x3
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x4
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x5
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x6
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x7
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x8
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0x9
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0xA
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0xB
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0xC
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0xD
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0xE
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
 
 setvector addr 0xF
 l phi0
 l phi1
 s
-path out
+
 h phi0
 s
-path out
+
 l phi0
 h phi1
 s
-path out
+
 l phi1
 s
-path out
+
