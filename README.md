@@ -2,7 +2,7 @@
 
 A simplified version of the MOS 6502 8-bit microprocessor with only a subset of its instructions. The 6502 is a classic CPU that powered some of the popular early systems such as the Apple II and NES. 
 
-<img width="577" height="580" alt="image" src="https://github.com/user-attachments/assets/1f2eaef1-2b56-40bc-b9cc-54e4d351703d" />
+<img width="4266" height="2203" alt="6502" src="https://github.com/user-attachments/assets/31f0acc8-6a70-4c06-9a91-02bbb5076271" />
 
 ### Area Reports
 
