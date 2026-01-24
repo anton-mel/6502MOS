@@ -6,6 +6,6 @@ A simplified version of the MOS 6502 8-bit microprocessor with only a subset of 
 
 ### Area Reports
 
-- **Datapath:** 2966 × 1489 = **4,416,374 λ²**
-- **Control Logic:** 1291 × 586 = **757,817 λ²**
-- **ROM:** 934 × 1069 = **998,446 λ²**
+- **Datapath:** 2966 × 1489 = 4,416,374 λ²
+- **Control Logic:** 1291 × 586 = 757,817 λ²
+- **ROM:** 934 × 1069 = 998,446 λ²
