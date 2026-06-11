@@ -6,7 +6,6 @@ A simplified version of the MOS 6502 8-bit microprocessor with only a subset of 
 
 <img width="4266" height="2203" alt="6502" src="https://github.com/user-attachments/assets/31f0acc8-6a70-4c06-9a91-02bbb5076271" />
 <img width="3384" height="576" alt="image" src="https://github.com/user-attachments/assets/ef3e7df6-c73a-4586-ad08-238276052ff0" />
-<img width="814" height="316" alt="image" src="https://github.com/user-attachments/assets/914b91cc-370e-4650-abd3-12374e6a7c80" />
 
 
 ### Area Reports
