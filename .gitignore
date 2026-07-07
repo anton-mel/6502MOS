@@ -1,2 +1,9 @@
 .vnc/
 .xsession-errors
+.bash_history
+.viminfo
+.Xauthority
+.irsim_tkcon_hst
+.magic_tkcon_hst
+.cache/
+.DS_Store
