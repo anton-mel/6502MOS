@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "6502MOS")(type "KiCad")(uri "${KIPRJMOD}/lib/6502MOS.pretty")(options "")(descr "6502 bring-up board footprints"))
+)
