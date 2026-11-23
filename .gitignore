@@ -7,3 +7,4 @@
 .magic_tkcon_hst
 .cache/
 .DS_Store
+sim/build/
