@@ -8,6 +8,10 @@ A simplified version of the MOS 6502 8-bit microprocessor with only a subset of 
 
 `pcb/` is a KiCad 10 design for a two-layer, 100 × 80 mm board to bring up the chip once it is bonded into a DIP-40. The chip sits in a ZIF socket on its own 1.8 V rail. Four SN74LVC8T245 and one SN74LVC1T45 translate its bus to 3.3 V, where a 32 KB SRAM (AS6C62256) and a 3.3 V parallel flash (SST39VF010 in a PLCC-32 socket, programmed off-board) hold data and program. A Raspberry Pi Pico generates the two-phase clock and reset, snoops the bus and drives a monochrome VGA port. J2 (2×10) carries PHI0, PHI1, RESET, R/W̄, D0–D7, A11–A15 and /WE for a logic analyzer; the Pico sees the rest.
 
+<img width="720" alt="6502 bring-up board" src="pcb/fab/render_hero.png" />
+
+<img width="900" alt="6502 bring-up board, labeled" src="pcb/fab/render_top.png" />
+
 
 Only the first 32 KB of the flash is used.
 
