@@ -6,19 +6,17 @@ A simplified version of the MOS 6502 8-bit microprocessor with only a subset of 
 
 ## Results
 
-| | |
+| Parameter | Value |
 |---|---|
-| Process | SCMOS rules, TSMC 0.18 µm extraction (λ = 0.09 µm), 1.8 V |
-| Transistors | 6,760 (3,814 n, 2,946 p), including the pad ring |
-| Layout | 333 × 334 µm (0.11 mm²) |
-| Instructions tested | LDA (imm, abs), STA, ADC, SBC, EOR, JMP (abs) |
-| Max clock (IRSIM) | 76.9 MHz (13 ns two-phase period); fails at 12 ns on the PC-high path after JMP |
-| Dynamic power (IRSIM) | 4.1 mW at 76.9 MHz (3.9 mW without pads), 0.54 mW at 10 MHz |
+| Process | 180 nm SCMOS (λ = 0.09 µm), 1.8 V |
+| Transistors | 6,760 (incl. pad ring) |
+| Area | 333 × 334 µm (0.11 mm²) |
+| f<sub>max</sub> | 76.9 MHz (13 ns two-phase clock) |
+| Power | 4.1 mW @ 76.9 MHz, 0.54 mW @ 10 MHz |
+| Instructions | LDA, STA, ADC, SBC, EOR, JMP |
 
-The clock is swept by running `magic/6502_final.irsim` at shorter step sizes and comparing the address, data and R/W pins against a 400 ns run. Power is IRSIM's CV²f estimate over all nodes.
+Switch-level simulation in IRSIM. f<sub>max</sub> is the shortest clock whose pin trace matches a 400 ns reference run. Reproduce with Magic and IRSIM 9.7:
 
 ```sh
 IRSIM=/path/to/irsim ./sim/sweep.sh
 ```
-
-Needs Magic and IRSIM 9.7. The script re-extracts `magic/6502.mag` with pads, so the pin names in the test resolve.
