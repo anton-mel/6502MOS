@@ -15054,16 +15054,17 @@
 			)
 		)
 	)
-	(gr_text "JP2 MAP: up = ROM low, down = ROM high"
-		(at 155 146.5 0)
-		(layer "F.SilkS")
-		(uuid "da81ef90-5409-4c93-88c6-1141c4765cfb")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
+	(gr_poly
+		(pts
+			(xy 155.0000 140.9000) (xy 158.7700 147.4000) (xy 155.5850 145.9700) (xy 156.4300 145.9375) (xy 155.0000 143.2725) (xy 153.5700 145.9375) (xy 154.4150 145.9700) (xy 151.2300 147.4000)
 		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "fa3ed11f-1f8c-4943-8657-c8c12801755a")
 	)
 	(gr_text "JP2 MAP"
 		(at 180.87 140.4 0)
@@ -15120,17 +15121,6 @@
 			)
 		)
 	)
-	(gr_text "rev A  github.com/anton-mel/6502MOS"
-		(at 155 144.6 0)
-		(layer "F.SilkS")
-		(uuid "1199eeed-9827-453f-90ae-c617c33df8b5")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.135)
-			)
-		)
-	)
 	(gr_text "LA"
 		(at 139.4 151.1 0)
 		(layer "F.SilkS")
@@ -15150,17 +15140,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "6502 bring-up"
-		(at 155 141.8 0)
-		(layer "F.SilkS")
-		(uuid "813e205d-356c-4a34-991a-0e141a960c83")
-		(effects
-			(font
-				(size 2.2 2.2)
-				(thickness 0.44)
 			)
 		)
 	)
