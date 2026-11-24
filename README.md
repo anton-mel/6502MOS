@@ -4,4 +4,4 @@ A simplified version of the MOS 6502 8-bit microprocessor with only a subset of 
 
 <img width="3840" height="2160" alt="6502_presented" src="https://github.com/user-attachments/assets/f0cbfdd2-041d-4644-abaa-63854cf70c2e" />
 
-<img width="900" alt="6502 bring-up board, labeled" src="pcb/fab/render_top.png" />
+<img width="100%" alt="6502 bring-up board, labeled" src="pcb/fab/render_top.png" />
